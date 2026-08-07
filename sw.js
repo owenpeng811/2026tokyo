@@ -1,4 +1,4 @@
-const CACHE_NAME = 'travel-itinerary-v1';
+const CACHE_NAME = 'travel-itinerary-v2';
 const ASSETS = [
   './itinerary.html',
   './manifest.json',
@@ -29,24 +29,45 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', event => {
-  event.respondWith(
-    caches.match(event.request).then(cachedResponse => {
-      if (cachedResponse) {
-        return cachedResponse;
-      }
-      return fetch(event.request).then(response => {
-        // Cache new fetch requests if they are valid
-        if (!response || response.status !== 200 || response.type !== 'basic') {
+  // Check if it's a page navigation or HTML request
+  const isHtml = event.request.mode === 'navigate' || 
+                 (event.request.headers.get('accept') && event.request.headers.get('accept').includes('text/html'));
+                 
+  if (isHtml) {
+    // Network-First strategy: always fetch latest when online, fallback to cache when offline
+    event.respondWith(
+      fetch(event.request)
+        .then(response => {
+          if (response && response.status === 200) {
+            const responseClone = response.clone();
+            caches.open(CACHE_NAME).then(cache => {
+              cache.put(event.request, responseClone);
+            });
+          }
           return response;
+        })
+        .catch(() => {
+          return caches.match(event.request);
+        })
+    );
+  } else {
+    // Cache-First strategy for static assets (icons, manifest)
+    event.respondWith(
+      caches.match(event.request).then(cachedResponse => {
+        if (cachedResponse) {
+          return cachedResponse;
         }
-        const responseToCache = response.clone();
-        caches.open(CACHE_NAME).then(cache => {
-          cache.put(event.request, responseToCache);
+        return fetch(event.request).then(response => {
+          if (!response || response.status !== 200 || response.type !== 'basic') {
+            return response;
+          }
+          const responseClone = response.clone();
+          caches.open(CACHE_NAME).then(cache => {
+            cache.put(event.request, responseClone);
+          });
+          return response;
         });
-        return response;
-      }).catch(() => {
-        // Offline fallback can be added here if needed
-      });
-    })
-  );
+      })
+    );
+  }
 });
