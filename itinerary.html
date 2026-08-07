@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>2026 東京 6天5夜親子自由行</title>
-  
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
-  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+
   <style>
     :root {
       --bg-dark: #12141c;
-      --card-bg: rgba(26, 29, 41, 0.8);
+      --card-bg: rgba(26, 29, 41, 0.85);
       --card-border: rgba(255, 255, 255, 0.08);
       --accent-coral: #E45F56;
       --accent-blue: #3b82f6;
@@ -38,7 +41,7 @@
     body {
       font-family: 'Outfit', 'Noto Sans TC', sans-serif;
       background-color: var(--bg-dark);
-      background-image: 
+      background-image:
         radial-gradient(at 0% 0%, rgba(228, 95, 86, 0.1) 0px, transparent 50%),
         radial-gradient(at 100% 100%, rgba(59, 130, 246, 0.1) 0px, transparent 50%);
       background-attachment: fixed;
@@ -52,9 +55,11 @@
       width: 6px;
       height: 6px;
     }
+
     ::-webkit-scrollbar-track {
       background: transparent;
     }
+
     ::-webkit-scrollbar-thumb {
       background: rgba(255, 255, 255, 0.1);
       border-radius: 3px;
@@ -282,8 +287,15 @@
     }
 
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(12px); }
-      to { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(12px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     .timeline-check {
@@ -338,11 +350,11 @@
       justify-content: center;
     }
 
-    .check-wrapper:hover input ~ .checkmark {
+    .check-wrapper:hover input~.checkmark {
       border-color: var(--text-muted);
     }
 
-    .check-wrapper input:checked ~ .checkmark {
+    .check-wrapper input:checked~.checkmark {
       background-color: var(--accent-green);
       border-color: var(--accent-green);
     }
@@ -358,7 +370,7 @@
       margin-bottom: 2px;
     }
 
-    .check-wrapper input:checked ~ .checkmark:after {
+    .check-wrapper input:checked~.checkmark:after {
       display: block;
     }
 
@@ -408,10 +420,25 @@
       text-transform: uppercase;
     }
 
-    .tag-attraction { background: rgba(59, 130, 246, 0.15); color: #93c5fd; }
-    .tag-food { background: rgba(228, 95, 86, 0.15); color: #fca5a5; }
-    .tag-transport { background: rgba(16, 185, 129, 0.15); color: #6ee7b7; }
-    .tag-stay { background: rgba(139, 92, 246, 0.15); color: #c4b5fd; }
+    .tag-attraction {
+      background: rgba(59, 130, 246, 0.15);
+      color: #93c5fd;
+    }
+
+    .tag-food {
+      background: rgba(228, 95, 86, 0.15);
+      color: #fca5a5;
+    }
+
+    .tag-transport {
+      background: rgba(16, 185, 129, 0.15);
+      color: #6ee7b7;
+    }
+
+    .tag-stay {
+      background: rgba(139, 92, 246, 0.15);
+      color: #c4b5fd;
+    }
 
     .card-title {
       font-size: 1.05rem;
@@ -485,7 +512,7 @@
       border-top: 1px solid var(--card-border);
       padding: 12px 16px;
       z-index: 1000;
-      box-shadow: 0 -4px 20px rgba(0,0,0,0.4);
+      box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.4);
     }
 
     .emergency-header {
@@ -706,6 +733,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <!-- Top Header Banner -->
@@ -717,7 +745,7 @@
     <p style="font-size: 0.85rem; opacity: 0.9; margin-bottom: 6px;">🇯🇵 6天5夜 · 住宿與行程原始完整版</p>
     <div class="trip-meta">
       <span>🏨 海茵娜酒店 東京淺草橋</span>
-      <span>📍 <a href="https://www.google.com/maps/search/?api=1&query=海茵娜酒店东京浅草桥+(Henn+na+Hotel+Tokyo+Asakusabashi)" target="_blank">地圖導航 🔗</a></span>
+      <span>📍 <a href="https://www.google.com/maps/search/?api=1&query=海茵娜酒店+東京淺草橋" target="_blank">地圖導航 🔗</a></span>
     </div>
   </div>
 
@@ -785,362 +813,357 @@
   <!-- Timeline Itinerary Cards -->
   <div class="timeline" id="timelineContainer">
     <!-- Day 1 Section -->
-    <div class="day-section" id="day1-section" style="">
+    <div class="day-section" id="day1-section">
       <div class="decision-banner">
         <strong>🎯 關鍵決策點（16:20 離開飯店）</strong>：<br>
-        16:20 前出發走 <strong>Plan A (新宿西口鳥良商店 & 都廳夜景)</strong>；<br>
+        16:20 前出發走 <strong>Plan A (西新宿鳥良商店 & 都廳夜景)</strong>；<br>
         16:20 後出發走 <strong>Plan B (秋葉原商圈漫步)</strong>。
       </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d1-c0" onchange="toggleCheck('item-d1-c0')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d1-c0">
-          <div class="card-header">
-            <span class="card-time"></span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
-          </div>
-          <h3 class="card-title">
-            🎯 今日重點
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🎯 今日重點" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 全家於羽田機場完成 成人+兒童 Welcome Suica 辦理。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-c0')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>全家於羽田機場完成 成人+兒童 Welcome Suica 辦理。</p>
-<p>隔天迪士尼，建議盡早回飯店休息。</p>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+      <!-- Slot 1 -->
       <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper">
-            <input type="checkbox" id="item-d1-c1" onchange="toggleCheck('item-d1-c1')">
+            <input type="checkbox" id="item-d1-0" onchange="toggleCheck('item-d1-0')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d1-c1">
+        <div class="timeline-card" id="card-item-d1-0">
           <div class="card-header">
             <span class="card-time">13:10－14:10</span>
             <div class="card-tags"><span class="tag tag-transport">交通</span></div>
           </div>
           <h3 class="card-title">
-            🛬 抵達羽田機場第 3 航廈(羽田空港第3ターミナル)
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🛬 抵達羽田機場第 3 航廈" target="_blank">📍 導航</a>
+            抵達羽田機場第 3 航廈
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=羽田空港第3ターミナル" target="_blank">📍
+              導航</a>
           </h3>
           <div class="card-body">
             <p>入境、提領行李、海關（預計 50～60 分鐘）。</p>
-            
-            <div class="original-content-holder" style="display: none;">
-              <p class="original-p">入境、提領行李、海關（預計 50～60 分鐘）。</p>
-            </div>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d1-c2" onchange="toggleCheck('item-d1-c2')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d1-c2">
-          <div class="card-header">
-            <span class="card-time">14:10－14:40</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
-          </div>
-          <h3 class="card-title">
-            機場整備與購票
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=✈️ 機場整備與購票" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>洗手間整備、ATM提款、整理行李。<strong>建議直接於機場辦理 2 張兒童 Welcome Suica</strong>（需出示護照，後續搭車最省事），每張建議先儲值 ¥2,000～3,000。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-c2')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>機場整備：洗手間、提款、購買飲料。</p>
-<p>整理行李。</p>
-</div>
-<p class="original-p">⭐ 辦理兒童 Welcome Suica（推薦）： 建議直接於機場辦理 2 張兒童卡（需出示護照），後續六天全部搭車都可直接刷卡，最省事. 每張建議先儲值 ¥2,000～3,000。</p>
-            </div>
-          </div>
-        </div>
-      </div>
+
+      <!-- Slot 2 -->
       <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper">
-            <input type="checkbox" id="item-d1-c3" onchange="toggleCheck('item-d1-c3')">
+            <input type="checkbox" id="item-d1-1" onchange="toggleCheck('item-d1-1')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d1-c3">
+        <div class="timeline-card" id="card-item-d1-1">
+          <div class="card-header">
+            <span class="card-time">14:10－14:40</span>
+            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
+          </div>
+          <h3 class="card-title">
+            機場整備與購票
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=羽田空港第3ターミナル" target="_blank">📍
+              導航</a>
+          </h3>
+          <div class="card-body">
+            <p>洗手間整備、ATM提款、整理行李。<strong>建議直接於機場辦理 2 張兒童 Welcome Suica</strong>（需出示護照，後續搭車最省事），每張建議先儲值 ¥2,000～3,000。</p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-1')">📖 完整原始說明</button>
+            <div class="original-content-holder" style="display: none;">
+              <div class="original-quote">
+                <p>機場整備：洗手間、提款、購買飲料。</p>
+                <p>整理行李。</p>
+              </div>
+              <p class="original-p">⭐ 辦理兒童 Welcome Suica（推薦）： 建議直接於機場辦理 2 張兒童卡（需出示護照），後續六天全部搭車都可直接刷卡，最省事. 每張建議先儲值
+                ¥2,000～3,000。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slot 3 -->
+      <div class="timeline-item" data-category="transport">
+        <div class="timeline-check">
+          <label class="check-wrapper">
+            <input type="checkbox" id="item-d1-2" onchange="toggleCheck('item-d1-2')">
+            <span class="checkmark"></span>
+          </label>
+          <div class="timeline-line"></div>
+        </div>
+        <div class="timeline-card" id="card-item-d1-2">
           <div class="card-header">
             <span class="card-time">14:40－15:25</span>
             <div class="card-tags"><span class="tag tag-transport">交通</span></div>
           </div>
           <h3 class="card-title">
-            前往淺草橋飯店
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚇 前往淺草橋飯店" target="_blank">📍 導航</a>
+            前往飯店 (Henn na Hotel)
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=海茵娜酒店+東京淺草橋" target="_blank">📍
+              導航</a>
           </h3>
           <div class="card-body">
             <p><strong>搭乘首選（直達）：</strong>從羽田機場第3航廈站 搭乘「京急機場線 (直通都營淺草線)」直達 淺草橋站。車程約 40-45 分鐘，免提行李換車。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-c3')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<ul class="original-list">
-<li>首選（直達）：<strong> 從羽田機場第3航廈站 搭乘「京急機場線 (直通都營淺草線)」直達 </strong>淺草橋站(浅草橋駅)**。車程約 40-45 分鐘，免提行李換車。</li>
-</ul>
-</div>
-            </div>
           </div>
         </div>
       </div>
-      <div class="day1-plan-A">
+
+      <!-- Slot 4 -->
       <div class="timeline-item" data-category="stay">
         <div class="timeline-check">
           <label class="check-wrapper">
-            <input type="checkbox" id="item-d1-a0" onchange="toggleCheck('item-d1-a0')">
+            <input type="checkbox" id="item-d1-3" onchange="toggleCheck('item-d1-3')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d1-a0">
-          <div class="card-header">
-            <span class="card-time"></span>
-            <div class="card-tags"><span class="tag tag-stay">住宿</span></div>
-          </div>
-          <h3 class="card-title">
-            ✅ Plan A（16:20 前離開飯店）
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=✅ Plan A（16:20 前離開飯店）" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>#### <strong>🍽️ 晚餐決策</strong></p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-a0')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>16:20 離開飯店 ➔ 步行至 JR 淺草橋站(浅草橋駅)。</p>
-<p>首選: 搭乘 JR 中央・總武線 (黃色列車) 1 站至「御茶之水站(御茶ノ水駅)」，於同月台直接走到對面，平行轉乘 JR 中央線快速 (橘色列車) 前往 新宿站(新宿駅)（總車程約 18 分鐘）。</p>
-<p>16:55 抵達<strong>鳥良商店 (新宿西口店)(已訂位,17:00)</strong> 享用雞肉料理（推薦：雞肉釜飯、雞肉串、唐揚雞），人均約 ¥2,500～¥3,500（從新宿站(新宿駅)「西口」閘門出站，慢步跟隨指標步行約 8-10 分鐘即可抵達，時間已放寬預留車站內步行）。</p>
-<p>若客滿或排隊過長，直接右轉改往步行 2 分鐘的新宿西口 HALC 商場 B3 樓餐廳街用餐:</p>
-<ul class="original-list">
-<li><strong>大戶屋 (新宿西口HALC店)</strong> 享用日式家庭定食（推薦：烤鯖魚定食、黑醋雞肉野菜定食），人均約 ¥1,000～¥1,500</li>
-</ul>
-</div>
-<p class="original-p">#### <strong>🍽️ 晚餐決策</strong></p>
-<div class="original-quote">
-<p>⭐ 方案 A-1（推薦）： 16:55 前已入座且順利點餐。保留釜飯（推薦：雞肉釜飯、雞肉串、唐揚雞）。用餐約 70\~80 分鐘。約 18:05 離開。前往東京都廳(東京都庁)欣賞：✅ 黃昏 ✅ 夜景。</p>
-<p>⭐ 方案 A-2： 入座較慢、餐廳忙碌，或希望完整欣賞景觀。放棄釜飯. 改點：雞肉串、雞南蠻、唐揚雞、親子丼、雞肉定食. 用餐約 40\~45 分鐘. ⭐ 最晚 17:40 離開鳥良(鳥良)(居酒屋/雞肉料理). 約 17:50 抵達東京都廳(東京都庁)，可望欣賞：✅ 白天 ✅ 黃昏 ✅ 夜景。</p>
-</div>
-<p class="original-p">#### <strong>17:50－18:50 🌇 東京都廳南展望室</strong></p>
-<div class="original-quote">
-<p>參觀東京都廳南展望室(東京都庁南展望室)（註：南展望室夜間開放較穩定）。</p>
-<p>至東京都民廣場(都民広場)拍照。</p>
-<p>欣賞 8 月下旬東京白天、黃昏與夜景的漸層變化。</p>
-</div>
-<p class="original-p">#### <strong>18:50－19:15 🚆 返回淺草橋</strong></p>
-<div class="original-quote">
-<p>首選：搭乘 JR 中央線快速 (橘色列車) 至「御茶之水站(御茶ノ水駅)」，走到對面月台平行轉乘 JR 總武線 (黃色列車) 返回 淺草橋站(浅草橋駅)。</p>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d1-a1" onchange="toggleCheck('item-d1-a1')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d1-a1">
-          <div class="card-header">
-            <span class="card-time">19:45</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
-          </div>
-          <h3 class="card-title">
-            ～20:10  地方超市採買 (Plan A / B 共通)
-            <a class="map-link" href="https://maps.app.goo.gl/LLEqzq7e73zUXbGU9)" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 慢步前往飯店附近的 24 小時大型生鮮超市 <a class="map-link-inline" href="https://maps.app.goo.gl/LLEqzq7e73zUXbGU9" target="_blank"><strong>肉のハナマサ (Hanamasa 淺草橋店)</strong> 🔗</a> 採買：早餐、高優質鮮乳、礦泉水，以及日本當季盛產水果（價格比超商更經濟實惠）。</p>
-            
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>慢步前往飯店附近的 24 小時大型生鮮超市 <a class="map-link-inline" href="https://maps.app.goo.gl/LLEqzq7e73zUXbGU9" target="_blank"><strong>肉のハナマサ (Hanamasa 淺草橋店)</strong> 🔗</a> 採買：早餐、高優質鮮乳、礦泉水，以及日本當季盛產水果（價格比超商更經濟實惠）。</p>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      <div class="day1-plan-B" style="display: none;">
-      <div class="timeline-item" data-category="stay">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d1-b0" onchange="toggleCheck('item-d1-b0')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d1-b0">
-          <div class="card-header">
-            <span class="card-time"></span>
-            <div class="card-tags"><span class="tag tag-stay">住宿</span></div>
-          </div>
-          <h3 class="card-title">
-            ✅ Plan B（16:20 後才離開飯店）
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=✅ Plan B（16:20 後才離開飯店）" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 直接放棄東京都廳，改行秋葉原慢遊，保留隔天迪士尼體力。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-b0')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>直接放棄東京都廳，改行秋葉原慢遊，保留隔天迪士尼體力。</p>
-<ul class="original-list">
-<li>交通：從 JR 淺草橋站搭乘 JR 中央・總武線 1站至 秋葉原站 (約2分鐘)。**</li>
-</ul>
-<p>16:30～17:00 GiGO 秋葉原(GiGO 秋葉原)： 日本大型電玩、夾娃娃、拍照。</p>
-<p>17:00～17:20 扭蛋店： 每位小朋友 1～2 顆即可 (預算約 ¥400～600/人)。</p>
-<p>17:20～18:10 友都八喜(ヨドバシカメラ)： 推薦 TOMICA、LEGO、Nintendo、Switch 等樓層. 以參觀體驗為主，Day 6 再決定是否購買。</p>
-<p>18:15～19:15 🍽️ 晚餐（秋葉原）：</p>
-<ul class="original-list">
-<li>首選餐廳：<a class="map-link-inline" href="https://share.google/oGaPfuaD4UqWdJCz9" target="_blank"><strong>丸龜製麵 (秋葉原店)</strong> 🔗</a> 享用日式烏龍麵（推薦：豚骨烏龍麵、炸蔬菜餅），人均約 ¥500～¥900。</li>
-<li>備案餐廳：<strong>CoCo壹番屋 (秋葉原站前店)</strong> 享用日式咖哩（推薦：炸豬排咖哩、蔬菜咖哩），人均約 ¥800～¥1,200。</li>
-<li>備案餐廳：<strong>壽司郎 (秋葉原站前店)</strong> 享用迴轉壽司（推薦：鮭魚三貫、鮪魚泥海苔包），人均約 ¥1,000～¥2,000。</li>
-</ul>
-<p>19:15～19:45 秋葉原電氣街(秋葉原電気街)散步： 欣賞日本夜晚街景、大型動漫看板，讓小朋友感受第一次來日本的氛圍。</p>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      <div class="timeline-item" data-category="stay">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d1-ca0" onchange="toggleCheck('item-d1-ca0')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d1-ca0">
+        <div class="timeline-card" id="card-item-d1-3">
           <div class="card-header">
             <span class="card-time">15:25－16:00</span>
             <div class="card-tags"><span class="tag tag-stay">住宿</span></div>
           </div>
           <h3 class="card-title">
             飯店 Check-in
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🏨 飯店 Check-in" target="_blank">📍 導航</a>
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=海茵娜酒店+東京淺草橋" target="_blank">📍
+              導航</a>
           </h3>
           <div class="card-body">
             <p>步行抵達飯店，辦理 Check-in、置放行李、稍作休息，更換舒適鞋衣。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-ca0')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>步行抵達飯店。</p>
-<p>辦理 Check-in、置放行李、稍作休息。</p>
-</div>
-<div class="original-quote">
-<p></p>
-<p>TODO: 後續day1行程是否改為兩國 相撲火鍋</p>
-</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Plan A -->
+      <div class="day1-plan-A">
+        <!-- Slot A1 -->
+        <div class="timeline-item" data-category="food">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d1-a0" onchange="toggleCheck('item-d1-a0')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-card" id="card-item-d1-a0">
+            <div class="card-header">
+              <span class="card-time">16:55－18:05</span>
+              <div class="card-tags"><span class="tag tag-food">美食</span></div>
+            </div>
+            <h3 class="card-title">
+              晚餐：鳥良商店 (西新宿店)
+              <a class="map-link" href="https://maps.app.goo.gl/9bFHNKyrQCg4NHrX6" target="_blank">🍽️ 導航</a>
+            </h3>
+            <div class="card-body">
+              <p>雞肉料理名店（人均 ¥2,500-3,500）。推薦點選：<strong>雞肉串燒、唐揚雞、親子丼</strong>。已訂位 17:00。<br><a class="map-link-inline"
+                  href="https://www.google.com/maps/search/?api=1&query=大戸屋+新宿西口ハルク店" target="_blank">🍽️ 導航</a>
+                大戶屋新宿西口HALC店為備案餐廳（位於 HALC 商場 B3F，主打家庭定食）。</p>
+              <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-a0')">📖 完整原始說明</button>
+              <div class="original-content-holder" style="display: none;">
+                <div class="original-quote">
+                  <p>16:20 離開飯店 ➔ 步行至 JR 淺草橋站(浅草橋駅)。</p>
+                  <p>首選: 搭乘 JR 中央・總武線 (黃色列車) 1 站至「御茶之水站(御茶ノ水駅)」，於同月台直接走到對面，平行轉乘 JR 中央線快速 (橘色列車) 前往 新宿站(新宿駅)（總車程約 18 分鐘）。
+                  </p>
+                  <p>16:55 抵達<strong>鳥良商店 (西新宿店)(已訂位,17:00)</strong> 享用雞肉料理（推薦：雞肉釜飯、雞肉串、唐揚雞），人均約
+                    ¥2,500～¥3,500（從新宿站(新宿駅)「西口」閘門出站，慢步跟隨指標步行約 8-10 分鐘即可抵達，時間已放寬預留車站內步行）。</p>
+                  <p>若客滿或排隊過長，直接右轉改往步行 2 分鐘的新宿西口 HALC 商場 B3 樓餐廳街用餐: </p>
+                  <ul class="original-list">
+                    <li><strong><a class="map-link-inline"
+                          href="https://www.google.com/maps/search/?api=1&query=大戸屋+新宿西口ハルク店" target="_blank">🍽️ 導航</a>
+                        大戶屋 (新宿西口HALC店)</strong> 享用日式家庭定食（推薦：烤鯖魚定食、黑醋雞肉野菜定食），人均約 ¥1,000～¥1,500</li>
+                  </ul>
+                </div>
+                <div class="original-quote">
+                  <p>⭐ 方案 A-1（推薦）： 16:55 前已入座且順利點餐。用餐約 70~80 分鐘。約 18:05 離開。前往東京都廳(東京都庁)欣賞：✅ 黃昏 ✅ 夜景。</p>
+                  <p>⭐ 方案 A-2： 入座較慢、餐廳忙碌，或希望完整欣賞景觀。改點：雞肉串、雞南蠻、唐揚雞、親子丼、雞肉定食. 用餐約 40~45 分鐘. ⭐ 最晚 17:40 離開鳥良(鳥良)(居酒屋/雞肉料理).
+                    約 17:50 抵達東京都廳(東京都庁)，可望欣賞：✅ 白天 ✅ 黃昏 ✅ 夜景。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slot A2 -->
+        <div class="timeline-item" data-category="attraction">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d1-a1" onchange="toggleCheck('item-d1-a1')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-card" id="card-item-d1-a1">
+            <div class="card-header">
+              <span class="card-time">17:50－18:50</span>
+              <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+            </div>
+            <h3 class="card-title">
+              東京都廳南展望室 & 都民廣場
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=東京都庁南展望室" target="_blank">📍
+                導航</a>
+            </h3>
+            <div class="card-body">
+              <p>參觀東京都廳南展望室與都民廣場拍照。欣賞 8 月下旬東京白天、黃昏與夜景 the 漸層變化，21:00 前返回飯店。</p>
+              <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-a1')">📖 完整原始說明</button>
+              <div class="original-content-holder" style="display: none;">
+                <div class="original-quote">
+                  <p>參觀東京都廳南展望室(東京都庁南展望室)（註：南展望室夜間開放較穩定）。</p>
+                  <p>至東京都民廣場(都民広場)拍照。</p>
+                  <p>欣賞 8 月下旬東京白天、黃昏與夜景的漸層變化。</p>
+                </div>
+                <div class="original-quote">
+                  <p>18:50－19:15 🚆 返回淺草橋</p>
+                  <p>首選：搭乘 JR 中央線快速 (橘色列車) 至「御茶之水站(御茶ノ水駅)」，走到對面月台平行轉乘 JR 總武線 (黃色列車) 返回 淺草橋站(浅草橋駅)。</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="stay">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d1-ca1" onchange="toggleCheck('item-d1-ca1')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d1-ca1">
-          <div class="card-header">
-            <span class="card-time"></span>
-            <div class="card-tags"><span class="tag tag-stay">住宿</span></div>
+
+      <!-- Plan B -->
+      <div class="day1-plan-B" style="display: none;">
+        <!-- Slot B1 -->
+        <div class="timeline-item" data-category="attraction">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d1-b0" onchange="toggleCheck('item-d1-b0')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
           </div>
-          <h3 class="card-title">
-            🎯 關鍵決策時間：16:20 離開飯店
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🎯 關鍵決策時間：16:20 離開飯店" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 關鍵指標：16:20 離開飯店。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-ca1')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>關鍵指標：16:20 離開飯店。</p>
-<p>考量點：確保能兼顧晚餐與夜景，避免影響隔天迪士尼體力。</p>
-</div>
+          <div class="timeline-card" id="card-item-d1-b0">
+            <div class="card-header">
+              <span class="card-time">16:30－18:10</span>
+              <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+            </div>
+            <h3 class="card-title">
+              秋葉原慢遊
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=秋葉原駅" target="_blank">📍 導航</a>
+            </h3>
+            <div class="card-body">
+              <p>秋葉原商圈漫步：<strong>GiGO 秋葉原</strong>玩夾娃娃、扭蛋店（預算 ¥400-600/人），以及<strong>友都八喜 Yodobashi</strong>玩具與 Switch
+                樓層參觀體驗。</p>
+              <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-b0')">📖 完整原始說明</button>
+              <div class="original-content-holder" style="display: none;">
+                <div class="original-quote">
+                  <p>直接放棄東京都廳，改行秋葉原慢遊，保留隔天迪士尼體力。</p>
+                  <p><strong>交通：從 JR 淺草橋站搭乘 JR 中央・總武線 1站至 秋葉原站 (約2分鐘)。</strong></p>
+                  <p>16:30～17:00 GiGO 秋葉原(GiGO 秋葉原)： 日本大型電玩、夾娃娃、拍照。</p>
+                  <p>17:00～17:20 扭蛋店： 每位小朋友 1～2 顆即可 (預算約 ¥400～600/人)。</p>
+                  <p>17:20～18:10 友都八喜(ヨドバシカメラ)： 推薦 TOMICA、LEGO、Nintendo、Switch 等樓層. 以參觀體驗為主，Day 6 再決定是否購買。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slot B2 -->
+        <div class="timeline-item" data-category="food">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d1-b1" onchange="toggleCheck('item-d1-b1')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-card" id="card-item-d1-b1">
+            <div class="card-header">
+              <span class="card-time">18:15－19:15</span>
+              <div class="card-tags"><span class="tag tag-food">美食</span></div>
+            </div>
+            <h3 class="card-title">
+              晚餐 (秋葉原)
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=丸亀製麺+秋葉原店" target="_blank">🍽️
+                導航</a>
+            </h3>
+            <div class="card-body">
+              <p>秋葉原晚餐選擇：首選<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=丸亀製麺+秋葉原店"
+                  target="_blank">🍜 導航</a> <strong>丸龜製麵秋葉原店</strong>（烏龍麵，人均 ¥500-900）；備案為<a class="map-link-inline"
+                  href="https://www.google.com/maps/search/?api=1&query=カレーハウスCoCo壱番屋+JR秋葉原駅昭和通り口店" target="_blank">🍛
+                  導航</a> <strong>CoCo壹番屋秋葉原站前店</strong>（咖哩飯）或<a class="map-link-inline"
+                  href="https://www.google.com/maps/search/?api=1&query=スシロー+秋葉原駅前店" target="_blank">🍣 導航</a>
+                <strong>壽司郎秋葉原站前店</strong>（迴轉壽司）。</p>
+              <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-b1')">📖 完整原始說明</button>
+              <div class="original-content-holder" style="display: none;">
+                <div class="original-quote">
+                  <p>18:15～19:15 🍽️ 晚餐（秋葉原）：</p>
+                  <ul class="original-list">
+                    <li>首選餐廳：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=丸亀製麺+秋葉原店"
+                        target="_blank">🍜 導航</a> 丸龜製麵 (秋葉原店) 享用日式烏龍麵（推薦：豚骨烏龍麵、炸蔬菜餅），人均約 ¥500～¥900。</li>
+                    <li>備案餐廳：<a class="map-link-inline"
+                        href="https://www.google.com/maps/search/?api=1&query=カレーハウスCoCo壱番屋+JR秋葉原駅昭和通り口店"
+                        target="_blank">🍛 導航</a> CoCo壹番屋 (秋葉原站前店) 享用日式咖哩（推薦：炸豬排咖哩、蔬菜咖哩），人均約 ¥800～¥1,200。</li>
+                    <li>備案餐廳：<a class="map-link-inline"
+                        href="https://www.google.com/maps/search/?api=1&query=スシロー+秋葉原駅前店" target="_blank">🍣 導航</a> 壽司郎
+                      (秋葉原站前店) 享用迴轉壽司，人均約 ¥1,000～¥2,000。</li>
+                  </ul>
+                  <p>19:15～19:45 秋葉原電氣街散步： 欣賞日本夜晚街景、大型動漫看板，讓小朋友感受第一次來日本的氛圍。</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="stay">
+
+      <!-- Common after -->
+      <!-- Slot 5 -->
+      <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper">
-            <input type="checkbox" id="item-d1-ca2" onchange="toggleCheck('item-d1-ca2')">
+            <input type="checkbox" id="item-d1-4" onchange="toggleCheck('item-d1-4')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d1-ca2">
+        <div class="timeline-card" id="card-item-d1-4">
           <div class="card-header">
-            <span class="card-time">20:20</span>
-            <div class="card-tags"><span class="tag tag-stay">住宿</span></div>
+            <span class="card-time">19:45－20:10</span>
+            <div class="card-tags"><span class="tag tag-food">美食</span></div>
           </div>
           <h3 class="card-title">
-            回飯店
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🏨 回飯店" target="_blank">📍 導航</a>
+            地方超市採買
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=肉のハナマサ+浅草橋店" target="_blank">🛒
+              導航</a>
           </h3>
           <div class="card-body">
-            <p>步行回飯店。整理明日裝備：門票、Welcome Suica、行動電源。全家輪流洗澡休息。<strong>建議最晚於 21:30 前入睡</strong>。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-ca2')">📖 完整原始說明</button>
+            <p>慢步前往飯店附近的 24 小時大型生鮮超市 <strong>肉のハナマサ (Hanamasa 淺草橋店)</strong> 採買：翌日早餐、高優質鮮乳、礦泉水，以及日本當季盛產水果（價格比超商更經濟實惠）。
+            </p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-4')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
               <div class="original-quote">
-<p>搭乘 JR 中央・總武線 1 站返回 淺草橋站，回飯店。</p>
-<p>整理明日裝備：門票、Welcome Suica、行動電源. 全家輪流洗澡、放鬆休息。</p>
-</div>
+                <p>慢步前往飯店附近的 24 小時大型生鮮超市 <a class="map-link-inline"
+                    href="https://www.google.com/maps/search/?api=1&query=肉のハナマサ+浅草橋店" target="_blank">🛒 導航</a> 肉のハナマサ
+                  (Hanamasa 淺草橋店) 採買：早餐、高優質鮮乳、礦泉水，以及日本當季盛產水果（價格比超商更經濟實惠）。</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Slot 6 -->
       <div class="timeline-item" data-category="stay">
         <div class="timeline-check">
           <label class="check-wrapper">
-            <input type="checkbox" id="item-d1-ca3" onchange="toggleCheck('item-d1-ca3')">
+            <input type="checkbox" id="item-d1-5" onchange="toggleCheck('item-d1-5')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d1-ca3">
+        <div class="timeline-card" id="card-item-d1-5">
           <div class="card-header">
-            <span class="card-time">21:00</span>
+            <span class="card-time">20:20－21:30</span>
             <div class="card-tags"><span class="tag tag-stay">住宿</span></div>
           </div>
           <h3 class="card-title">
-            ～21:30 🛌 就寢
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=～21:30 🛌 就寢" target="_blank">📍 導航</a>
+            回飯店 / 就寢
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=海茵娜酒店+東京淺草橋" target="_blank">🏨
+              導航</a>
           </h3>
           <div class="card-body">
-            <p>建議最晚於 21:30 前順利入睡. 隔天約 06:20 起床，可獲得約 9 小時 的高品質睡眠，足以應付東京迪士尼一整天的遊玩行程。</p>
-            
+            <p>回飯店整理明日裝備：門票、Welcome Suica、行動電源。全家輪流洗澡休息。<strong>建議最晚於 21:30 前入睡</strong>。</p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-5')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
-              <p class="original-p">建議最晚於 21:30 前順利入睡. 隔天約 06:20 起床，可獲得約 9 小時 的高品質睡眠，足以應付東京迪士尼一整天的遊玩行程。</p>
+              <div class="original-quote">
+                <p>回飯店辦理 Check-in，領回行李，進房安置整理。</p>
+                <p>整理明日裝備：門票、Welcome Suica、行動電源. 全家輪流洗澡、放鬆休息。</p>
+                <p>🛌 就寢：建議最晚於 21:30 前順利入睡. 隔天約 06:20 起床，可獲得約 9 小時 的高品質睡眠，足以應付東京迪士尼一整天的遊玩行程。</p>
+              </div>
             </div>
           </div>
         </div>
@@ -1149,740 +1172,674 @@
 
     <!-- Day 2 Section -->
     <div class="day-section" id="day2-section" style="display: none;">
+      <!-- Shared Morning Breakfast -->
+      <div class="timeline-item" data-category="food">
+        <div class="timeline-check">
+          <label class="check-wrapper">
+            <input type="checkbox" id="item-d2-0" onchange="toggleCheck('item-d2-0')">
+            <span class="checkmark"></span>
+          </label>
+          <div class="timeline-line"></div>
+        </div>
+        <div class="timeline-card" id="card-item-d2-0">
+          <div class="card-header">
+            <span class="card-time">07:00－07:30</span>
+            <div class="card-tags"><span class="tag tag-food">美食</span></div>
+          </div>
+          <h3 class="card-title">
+            晨間能量早餐
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=海茵娜酒店+東京淺草橋" target="_blank">🏨
+              導航</a>
+          </h3>
+          <div class="card-body">
+            <p>在飯店內享用昨日購入的日本牛奶、手作飯糰與三明治。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Day 2 Parents Group -->
       <div class="day2-parents-itinerary">
-      <div class="timeline-item" data-category="food">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2p-0" onchange="toggleCheck('item-d2p-0')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2p-0">
-          <div class="card-header">
-            <span class="card-time">07:00－07:30</span>
-            <div class="card-tags"><span class="tag tag-food">美食</span></div>
+        <!-- Slot P1 -->
+        <div class="timeline-item" data-category="transport">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d2p-0" onchange="toggleCheck('item-d2p-0')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
           </div>
-          <h3 class="card-title">
-            🍳 飯店內早餐
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🍳 飯店內早餐" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>享用前一天準備好的飯糰、三明治、牛奶、咖啡。</p>
-            
-            <div class="original-content-holder" style="display: none;">
-              <p class="original-p">享用前一天準備好的飯糰、三明治、牛奶、咖啡。</p>
+          <div class="timeline-card" id="card-item-d2p-0">
+            <div class="card-header">
+              <span class="card-time">09:40－09:50</span>
+              <div class="card-tags"><span class="tag tag-transport">交通</span></div>
+            </div>
+            <h3 class="card-title">
+              出發前往上野御徒町
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=御徒町駅" target="_blank">📍 導航</a>
+            </h3>
+            <div class="card-body">
+              <p>從淺草橋搭 JR 總武線至秋葉原，轉乘山手線或京濱東北線 1 站，在<strong>御徒町站</strong>出站，車程僅 5 分鐘。</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slot P2 -->
+        <div class="timeline-item" data-category="stay">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d2p-1" onchange="toggleCheck('item-d2p-1')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-card" id="card-item-d2p-1">
+            <div class="card-header">
+              <span class="card-time">10:00－10:15</span>
+              <div class="card-tags"><span class="tag tag-stay">住宿</span></div>
+            </div>
+            <h3 class="card-title">
+              尋找基地營咖啡廳與會合點
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=PARCO_ya+上野" target="_blank">📍
+                導航</a>
+            </h3>
+            <div class="card-body">
+              <p><strong>首選基地營：</strong><a class="map-link-inline"
+                  href="https://www.google.com/maps/search/?api=1&query=DEAN+%26+DELUCA+CAFE+上野" target="_blank">☕
+                  導航</a> DEAN & DELUCA CAFE (PARCO_ya 1F)（人均 ¥500-800）。方便室內組休息，與戶外散步組會合。<br><strong>備案基地營：</strong><a
+                  class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=喫茶+トリコロール+松坂屋上野店"
+                  target="_blank">🍵 導航</a> 喫茶 トリコロール (松坂屋本館 2F)（人均 ¥800-1,200），日系復古環境幽靜。</p>
+              <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-1')">📖 完整原始說明</button>
+              <div class="original-content-holder" style="display: none;">
+                <div class="original-quote">
+                  <p>
+                    抵達御徒町站後，兩人先一起<strong>確認中午會合的地點</strong>(可以是以下其中一間咖啡廳或是中午用餐的餐廳)，找到會合點後就可各自活動，讓室內悠閒組長輩能安心久坐，戶外散步組長輩再出發前往上野公園周邊景點遊玩。
+                  </p>
+                  <p>首選基地營：<a class="map-link-inline"
+                      href="https://www.google.com/maps/search/?api=1&query=DEAN+%26+DELUCA+CAFE+上野" target="_blank">☕
+                      導航</a> DEAN & DELUCA CAFE (PARCO_ya 1F)。位於一樓好找免迷路，（推薦：拿鐵咖啡或輕食麵包，人均約 ¥500～¥800）。8點營業。</p>
+                  <p>備案基地營：<a class="map-link-inline"
+                      href="https://www.google.com/maps/search/?api=1&query=喫茶+トリコロール+松坂屋上野店" target="_blank">🍵 導航</a>
+                    喫茶 トリコロール (松坂屋本館 2F)。經典復古日式咖啡廳，環境優雅安靜，（推薦：手沖咖啡或布丁，人均約 ¥800～¥1,200）。10點營業。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slot P3 -->
+        <div class="timeline-item" data-category="attraction">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d2p-2" onchange="toggleCheck('item-d2p-2')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-card" id="card-item-d2p-2">
+            <div class="card-header">
+              <span class="card-time">10:15－11:30</span>
+              <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+            </div>
+            <h3 class="card-title">
+              上午自由活動 (上野公園散策)
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=不忍池" target="_blank">📍 導航</a>
+            </h3>
+            <div class="card-body">
+              <p><strong>室內組：</strong>在基地營悠閒放鬆或逛松坂屋百貨與 PARCO_ya 百貨。<br><strong>戶外組：</strong>建議路線從松坂屋出發 ➔ 不忍池（<a
+                  class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=不忍池" target="_blank">📍
+                  導航</a>） ➔ 清水觀音堂（<a class="map-link-inline"
+                  href="https://www.google.com/maps/search/?api=1&query=清水観音堂" target="_blank">📍
+                  導航</a>）。<br><strong>隱藏美食：</strong>兔屋現做銅鑼燒（<a class="map-link-inline"
+                  href="https://www.google.com/maps/search/?api=1&query=うさぎや+上野" target="_blank">🍽️ 導航</a>）。</p>
+              <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-2')">📖 完整原始說明</button>
+              <div class="original-content-holder" style="display: none;">
+                <div class="original-quote">
+                  <p>室內悠閒組： 留在上述基地營咖啡廳休息，或逛松坂屋上野店(<a class="map-link-inline"
+                      href="https://www.google.com/maps/search/?api=1&query=松坂屋+上野店" target="_blank">🏬 導航</a>
+                    松坂屋上野店)地下美食街、書店或隔壁的 PARCO_ya 商場。11:30走到約定好之會面地點會合。</p>
+                  <p>戶外散步組（建議路線）：從松坂屋出發 ➔ 不忍池(<a class="map-link-inline"
+                      href="https://www.google.com/maps/search/?api=1&query=不忍池" target="_blank">📍 導航</a> 不忍池) ➔
+                    清水觀音堂(<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=清水観音堂"
+                      target="_blank">📍 導航</a> 清水觀音堂)</p>
+                  <ul class="original-list">
+                    <li>首選景點：
+                      <ul>
+                        <li>不忍池(不忍池)：廣闊湖景與夏日滿池荷花，步道平緩極好走，風景療癒</li>
+                        <li>清水觀音堂(清水観音堂): 仿京都清水寺的紅色高台建築，可從絕佳角度俯瞰不忍池與著名的「月之松」</li>
+                      </ul>
+                    </li>
+                    <li>Option景點（依時間與體力自由挑選，未走完可省略）：
+                      <ul>
+                        <li><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=上野東照宮"
+                            target="_blank">⛩️ 導航</a> 上野東照宮與參道：祭祀德川家康的華麗金箔神殿，參道兩旁有巨大的石燈籠，充滿歷史莊嚴感。</li>
+                        <li><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=上野東照宮ぼたん苑"
+                            target="_blank">🌸 導航</a> 上野東照宮牡丹苑：欣賞精緻的日式庭園造景與季節花卉（需購票入內）。</li>
+                        <li><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=旧岩崎邸庭園"
+                            target="_blank">🏡 導航</a> 舊岩崎邸庭園：極具歷史感的百年西洋歐風木造建築與廣闊草坪，非常適合拍照（需購票，且入內需脫鞋）。</li>
+                      </ul>
+                    </li>
+                    <li>隱藏版美食：若有閒情逸致，建議戶外組長輩順路步行至 <a class="map-link-inline"
+                        href="https://www.google.com/maps/search/?api=1&query=うさぎや+上野" target="_blank">🍽️ 導航</a>
+                      兔屋(うさぎや)，購買全東京排名前三的現做百年銅鑼燒，帶回會合點享用。</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slot P4 -->
+        <div class="timeline-item" data-category="food">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d2p-3" onchange="toggleCheck('item-d2p-3')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-card" id="card-item-d2p-3">
+            <div class="card-header">
+              <span class="card-time">11:30－12:30</span>
+              <div class="card-tags"><span class="tag tag-food">美食</span></div>
+            </div>
+            <h3 class="card-title">
+              午餐會合 (松坂屋上野店)
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=お好みダイニング+カトレヤ+松坂屋上野店"
+                target="_blank">🍽️ 導航</a>
+            </h3>
+            <div class="card-body">
+              <p>首選餐廳：<strong><a class="map-link-inline"
+                    href="https://www.google.com/maps/search/?api=1&query=お好みダイニング+カトレヤ+松坂屋上野店" target="_blank">🍽️
+                    導航</a> KATOREYA (松坂屋本館 M2F)</strong> 經典日式家庭餐廳，人均約 ¥1,500-2,000。<strong>請在 11:30
+                  提早入座避開排隊！</strong><br>備案：<a class="map-link-inline"
+                  href="https://www.google.com/maps/search/?api=1&query=手打ちそば+みや川+パルコヤ上野店" target="_blank">🍽️ 導航</a>
+                手打ちそば みや川 (PARCO_ya 6F) 蕎麥麵。</p>
+              <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-3')">📖 完整原始說明</button>
+              <div class="original-content-holder" style="display: none;">
+                <div class="original-quote">
+                  <p>於約定好之會面地點會合。</p>
+                  <p>首選餐廳：<strong><a class="map-link-inline"
+                        href="https://www.google.com/maps/search/?api=1&query=お好みダイニング+カトレヤ+松坂屋上野店" target="_blank">🍽️
+                        導航</a> KATOREYA (松坂屋本館 M2F)</strong> 享用經典日式家庭餐廳美食（推薦：經典蛋包飯或多蜜醬汁漢堡排，人均約 ¥1,500～¥2,000）。</p>
+                  <p>備案餐廳：<strong><a class="map-link-inline"
+                        href="https://www.google.com/maps/search/?api=1&query=手打ちそば+みや川+パルコヤ上野店" target="_blank">🍽️
+                        導航</a> 手打ちそば みや川 (PARCO_ya 6F)</strong> 享用清爽的式麵食（推薦：炸蝦天婦羅蕎麥麵或鴨南蠻蕎麥麵，人均約 ¥1,500～¥2,000）。</p>
+                  <p>強烈建議於 11:30 提早入座，完美避開 12:00 的排隊尖峰，享受優雅舒適的午餐時光。</p>
+                  <p><strong>約定好晚餐的會面地點</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slot P5 -->
+        <div class="timeline-item" data-category="attraction">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d2p-4" onchange="toggleCheck('item-d2p-4')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-card" id="card-item-d2p-4">
+            <div class="card-header">
+              <span class="card-time">13:00－15:30</span>
+              <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+            </div>
+            <h3 class="card-title">
+              下午自由活動 (上野公園文化圈)
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=国立西洋美術館" target="_blank">📍
+                導航</a>
+            </h3>
+            <div class="card-body">
+              <p><strong>室內組：</strong>繼續於室內或基地營悠遊，或在松坂屋本館休息。<br><strong>戶外組：</strong>建議路線從<a class="map-link-inline"
+                  href="https://www.google.com/maps/search/?api=1&query=東京文化会館" target="_blank">🎭 導航</a> 東京文化會館 ➔ <a
+                  class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=国立西洋美術館"
+                  target="_blank">🖼️ 導航</a> 國立西洋美術館（看羅丹雕塑） ➔ <a class="map-link-inline"
+                  href="https://www.google.com/maps/search/?api=1&query=上野公園+大噴水" target="_blank">⛲ 導航</a> 上野公園中央噴水廣場。
+              </p>
+              <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-4')">📖 完整原始說明</button>
+              <div class="original-content-holder" style="display: none;">
+                <div class="original-quote">
+                  <p>室內悠閒組： 留在上述基地營咖啡廳悠閒休息，或逛松坂屋上野店(<a class="map-link-inline"
+                      href="https://www.google.com/maps/search/?api=1&query=松坂屋+上野店" target="_blank">🏬 導航</a>
+                    松坂屋上野店)地下美食街、書店或隔壁的 <a class="map-link-inline"
+                      href="https://www.google.com/maps/search/?api=1&query=PARCO_ya+上野" target="_blank">🏬 導航</a>
+                    PARCO_ya 商場。</p>
+                  <p>戶外散步組： <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=東京文化会館"
+                      target="_blank">🎭 導航</a> 東京文化會館(東京文化会館) ➔ <a class="map-link-inline"
+                      href="https://www.google.com/maps/search/?api=1&query=国立西洋美術館" target="_blank">🖼️ 導航</a>
+                    國立西洋美術館(国立西洋美術館) ➔ <a class="map-link-inline"
+                      href="https://www.google.com/maps/search/?api=1&query=上野公園+大噴水" target="_blank">⛲ 導航</a>
+                    上野公園中央噴水廣場(上野公園大噴水)</p>
+                  <ul class="original-list">
+                    <li>首選景點：
+                      <ul>
+                        <li><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=東京文化会館"
+                            target="_blank">🎭 導航</a> 東京文化會館(東京文化会館)：經典現代主義建築，感受音樂殿堂的文藝氛圍</li>
+                        <li><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=国立西洋美術館"
+                            target="_blank">🖼️ 導航</a> 國立西洋美術館(国立西洋美術館)：亞洲唯一的世界遺產建築，戶外可免費欣賞大師羅丹的「沉思者」等地獄之門雕塑</li>
+                        <li><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=上野公園+大噴水"
+                            target="_blank">⛲ 導航</a> 上野公園中央噴水廣場(上野公園大噴水)：公園核心開闊地，有大片綠樹與噴水池，適合坐著吹風休息</li>
+                      </ul>
+                    </li>
+                    <li>Option： 若天氣炎熱或想增加室內景點，可參觀 <a class="map-link-inline"
+                        href="https://www.google.com/maps/search/?api=1&query=国際子ども図書館" target="_blank">🏛️ 導航</a>
+                      國立國會圖書館國際兒童圖書館(国立国会図書館国際子ども図書館)（百年文藝復興風格的古典紅磚建築，內部空間寧靜優美，適合室內避暑），再返回松坂屋上野店(<a
+                        class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=松坂屋+上野店"
+                        target="_blank">🏬 導航</a> 松坂屋上野店)會合。</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slot P6 -->
+        <div class="timeline-item" data-category="food">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d2p-5" onchange="toggleCheck('item-d2p-5')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-card" id="card-item-d2p-5">
+            <div class="card-header">
+              <span class="card-time">17:00－18:00</span>
+              <div class="card-tags"><span class="tag tag-food">美食</span></div>
+            </div>
+            <h3 class="card-title">
+              晚餐會合
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=松屋+上野御徒町店" target="_blank">🍽️
+                導航</a>
+            </h3>
+            <div class="card-body">
+              <p>首選餐廳：步行至御徒町站附近的 <strong>松屋</strong> 享用平價美味牛丼（人均 ¥500-900）。<br>備案：<a class="map-link-inline"
+                  href="https://www.google.com/maps/search/?api=1&query=松坂屋上野店+ほっぺタウン" target="_blank">🍽️ 導航</a>
+                松坂屋地下美食街（ほっぺタウン）自由外帶各式便當。</p>
+              <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-5')">📖 完整原始說明</button>
+              <div class="original-content-holder" style="display: none;">
+                <div class="original-quote">
+                  <p>於約定好之會面地點會合。</p>
+                  <p>首選餐廳：步行至 JR 御徒町站附近的 松屋(松屋) 享用平價美味且出餐迅速的日式快餐（推薦：招牌牛丼或蔥香鹽豬肉定食，人均約 ¥500～¥900）。</p>
+                  <p>備案餐廳：若想帶回飯店吃，則移步至 松坂屋地下美食街(ほっぺタウン) 自由外帶各式夢幻便當。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slot P7 -->
+        <div class="timeline-item" data-category="transport">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d2p-6" onchange="toggleCheck('item-d2p-6')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
+          </div>
+          <div class="timeline-card" id="card-item-d2p-6">
+            <div class="card-header">
+              <span class="card-time">18:10－18:20</span>
+              <div class="card-tags"><span class="tag tag-transport">交通</span></div>
+            </div>
+            <h3 class="card-title">
+              返回飯店
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=海茵娜酒店+東京淺草橋" target="_blank">🏨
+                導航</a>
+            </h3>
+            <div class="card-body">
+              <p>由御徒町搭乘山手線至秋葉原，轉總武線 1 站返抵淺草橋飯店，早點洗熱水澡舒緩雙腿。</p>
+              <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-6')">📖 完整原始說明</button>
+              <div class="original-content-holder" style="display: none;">
+                <div class="original-quote">
+                  <p>從松坂屋或松屋 步行約 1-2 分鐘至 JR 御徒町站。 JR 御徒町站(御徒町駅) ➔ 搭乘 JR 山手線 (綠色列車) 或 京濱東北線 (水藍色列車) ➔ JR 秋葉原站(秋葉原駅) ➔ 轉乘
+                    JR 中央・總武線 1 站 ➔ 淺草橋站(浅草橋駅)（約 10 分鐘），回飯店休息。</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="transport">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2p-1" onchange="toggleCheck('item-d2p-1')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2p-1">
-          <div class="card-header">
-            <span class="card-time">09:40－09:50</span>
-            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
-          </div>
-          <h3 class="card-title">
-            交通出發
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚇 交通出發" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>兩人睡飽後一起從飯店出發，搭乘 JR 中央・總武線 1 站至秋葉原站，轉乘 JR 山手線 1 站前往「JR 御徒町站(御徒町駅)」出站（總車程約 5 分鐘），直接抵達百貨公司 松坂屋上野店與 PARCO\_ya。</p>
-            
-            <div class="original-content-holder" style="display: none;">
-              <p class="original-p">兩人睡飽後一起從飯店出發，搭乘 JR 中央・總武線 1 站至秋葉原站，轉乘 JR 山手線 1 站前往「JR 御徒町站(御徒町駅)」出站（總車程約 5 分鐘），直接抵達百貨公司 松坂屋上野店與 PARCO\_ya。</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="food">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2p-2" onchange="toggleCheck('item-d2p-2')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2p-2">
-          <div class="card-header">
-            <span class="card-time">10:00－10:15</span>
-            <div class="card-tags"><span class="tag tag-food">美食</span></div>
-          </div>
-          <h3 class="card-title">
-            ☕ 尋找基地營咖啡廳與會合點
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=☕ 尋找基地營咖啡廳與會合點" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 抵達御徒町站後，兩人先一起<strong>確認中午會合的地點</strong>(可以是以下其中一間咖啡廳或是中午用餐的餐廳)，找到會合點後就可各自活動，讓室內悠閒組長輩能安心久坐，戶外散步組長輩再出發前往上野公園周邊景點遊玩。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-2')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>抵達御徒町站後，兩人先一起<strong>確認中午會合的地點</strong>(可以是以下其中一間咖啡廳或是中午用餐的餐廳)，找到會合點後就可各自活動，讓室內悠閒組長輩能安心久坐，戶外散步組長輩再出發前往上野公園周邊景點遊玩。</p>
-<p>首選基地營：DEAN & DELUCA CAFE (PARCO\_ya 1F)。位於一樓好找免迷路，（推薦：拿鐵咖啡或輕食麵包，人均約 ¥500～¥800）。8點營業。</p>
-<p>備案基地營：喫茶 トリコロール (松坂屋本館 2F)。經典復古日式咖啡廳，環境優雅安靜，（推薦：手沖咖啡或布丁，人均約 ¥800～¥1,200）。10點營業。</p>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2p-3" onchange="toggleCheck('item-d2p-3')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2p-3">
-          <div class="card-header">
-            <span class="card-time">10:15－11:30</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
-          </div>
-          <h3 class="card-title">
-            上午自由活動
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=上午自由活動" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p><strong>室內組：</strong>在基地營悠閒放鬆或逛松坂屋百貨與 PARCO_ya 百貨。<br><strong>戶外組：</strong>建議路線從松坂屋出發 ➔ 不忍池（賞荷花） ➔ 清水觀音堂（看月之松）。<br><strong>隱藏版美食：</strong><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=うさぎや+上野" target="_blank">🍽️ 導航</a> 可順路步行至「兔屋 (うさぎや)」採買現做百年銅鑼燒。<br><strong>體力充沛備案景點：</strong>上野東照宮、舊岩崎邸庭園。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-3')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>室內悠閒組： 留在上述基地營咖啡廳悠閒休息，或逛松坂屋上野店(松坂屋上野店)地下美食街、書店或隔壁的 PARCO\_ya 商場。11:30走到約定好之會面地點會。</p>
-<p>戶外散步組（建議路線）：從松坂屋出發 ➔ 不忍池(不忍池) ➔ 清水觀音堂(清水観音堂)</p>
-<ul class="original-list">
-<li>首選景點</li>
-<li>不忍池(不忍池)：廣闊湖景與夏日滿池荷花，步道平緩極好走，風景療癒</li>
-<li>清水觀音堂(清水観音堂): 仿京都清水寺的紅色高台建築，可從絕佳角度俯瞰不忍池與著名的「月之松」</li>
-<li>Option景點（依時間與體力自由挑選，未走完可省略）：</li>
-<li>上野東照宮(上野東照宮)與參道：祭祀德川家康的華麗金箔神殿，參道兩旁有巨大的壯觀石燈籠，充滿歷史莊嚴感。</li>
-<li>牡丹苑(上野東照宮ぼたん苑)：欣賞精緻的日式庭園造景與季節花卉（需購票入內）。</li>
-<li>舊岩崎邸庭園(旧岩崎邸庭園)：極具歷史感的百年西洋歐風木造建築與廣闊草坪，非常適合拍照（需購票，且入內需脫鞋）。</li>
-<li>隱藏版美食：若有閒情逸致，建議戶外組長輩順路步行至 兔屋(うさぎや)，購買全東京排名前三的現做百年銅鑼燒，帶回會合點享用。</li>
-</ul>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="food">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2p-4" onchange="toggleCheck('item-d2p-4')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2p-4">
-          <div class="card-header">
-            <span class="card-time">11:30－12:30</span>
-            <div class="card-tags"><span class="tag tag-food">美食</span></div>
-          </div>
-          <h3 class="card-title">
-            午餐會合
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🍽️ 午餐會合" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>首選餐廳：<strong>KATOREYA (松坂屋本館 M2F)</strong> 經典日式家庭餐廳，人均約 ¥1,500-2,000。<strong>請在 11:30 提早入座避開排隊！</strong><br>備案：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=手打ちそば+みや川+パルコヤ上野店" target="_blank">🍽️ 導航</a> 手打ちそば みや川 (PARCO_ya 6F) 享用天婦羅蕎麥麵。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-4')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>於約定好之會面地點會合。</p>
-<p>首選餐廳：<strong>KATOREYA (松坂屋本館 M2F)</strong> 享用經典日式家庭餐廳美食（推薦：經典蛋包飯或多蜜醬汁漢堡排，人均約 ¥1,500～¥2,000）。</p>
-<p>備案餐廳：<strong>手打ちそば みや川 (PARCO\_ya 6F)</strong> 享用清爽的式麵食（推薦：炸蝦天婦羅蕎麥麵或鴨南蠻蕎麥麵，人均約 ¥1,500～¥2,000）。</p>
-<p>強烈建議於 11:30 提早入座，完美避開 12:00 的排隊尖峰，享受優雅舒適的午餐時光。</p>
-<ul class="original-list">
-<li>約定好晚餐的會面地點**</li>
-</ul>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2p-5" onchange="toggleCheck('item-d2p-5')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2p-5">
-          <div class="card-header">
-            <span class="card-time">13:00－15:30</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
-          </div>
-          <h3 class="card-title">
-            下午自由活動
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=下午自由活動" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p><strong>室內組：</strong>繼續於室內或基地營悠遊，或在松坂屋本館休息。<br><strong>戶外組：</strong>建議路線從東京文化會館 ➔ 國立西洋美術館（看羅丹雕塑） ➔ 上野公園中央噴水廣場。<br><strong>避暑備案：</strong><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=国際子ども図書館" target="_blank">📍 導航</a> 國際兒童圖書館，可進入這座近百年的磚紅色老建築，享受優美安靜的室內空調。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-5')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>室內悠閒組： 留在上述基地營咖啡廳悠閒休息，或逛松坂屋上野店(松坂屋上野店)地下美食街、書店或隔壁的 PARCO\_ya 商場。</p>
-<p>戶外散步組： 東京文化會館(東京文化会館)➔ 國立西洋美術館(国立科学博物館)➔ 上野公園中央噴水廣場(上野公園大噴水)</p>
-<p>首選景點</p>
-<ul class="original-list">
-<li>東京文化會館(東京文化会館)：經典現代主義建築，感受音樂殿堂的文藝氛圍</li>
-<li>國立西洋美術館(国立科学博物館)：亞洲唯一的世界遺產建築，戶外可免費欣賞大師羅丹的「沉思者」等地獄之門雕塑</li>
-<li>上野公園中央噴水廣場(上野公園大噴水)：公園核心開闊地，有大片綠樹與噴水池，適合坐著吹風休息</li>
-</ul>
-<p>Option： 若天氣炎熱或想增加室內景點，可參觀國立國會圖書館國際兒童圖書館(国立国会図書館国際子ども図書館)（百年文藝復興風格的古典紅磚建築，內部空間寧靜優美，適合室內避暑），再返回松坂屋上野店(松坂屋上野店)會合。</p>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="food">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2p-6" onchange="toggleCheck('item-d2p-6')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2p-6">
-          <div class="card-header">
-            <span class="card-time">17:00－18:00</span>
-            <div class="card-tags"><span class="tag tag-food">美食</span></div>
-          </div>
-          <h3 class="card-title">
-            晚餐會合
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🍽️ 晚餐會合" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>首選餐廳：步行至御徒町站附近的 <strong>松屋</strong> 享用平價美味牛丼（人均 ¥500-900）。<br>備案：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=松坂屋上野店+ほっぺタウン" target="_blank">🍽️ 導航</a> 松坂屋地下美食街（ほっぺタウン）自由外帶各式便當。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-6')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>於約定好之會面地點會合。</p>
-<p>首選餐廳：步行至 JR 御徒町站附近的 松屋(松屋) 享用平價美味且出餐迅速的日式快餐（推薦：招牌牛丼或蔥香鹽豬肉定食，人均約 ¥500～¥900）。</p>
-<p>備案餐廳：若想帶回飯店吃，則移步至 松坂屋地下美食街(ほっぺタウン) 自由挑選購買各式夢幻外帶名店便當，省時經濟又自由。</p>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="transport">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2p-7" onchange="toggleCheck('item-d2p-7')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2p-7">
-          <div class="card-header">
-            <span class="card-time">18:10－18:20</span>
-            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
-          </div>
-          <h3 class="card-title">
-            🚆 返回飯店
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚆 返回飯店" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>從松坂屋或松屋 步行約 1-2 分鐘至 JR 御徒町站。 JR 御徒町站(御徒町駅) ➔ 搭乘 JR 山手線 (綠色列車) 或 京濱東北線 (水藍色列車) ➔ JR 秋葉原站(秋葉原駅) ➔ 轉乘 JR 中央・總武線 (黃色列車) 1 站 ➔ 淺草橋站(浅草橋駅)（約 10 分鐘），回飯店休息。</p>
-            
-            <div class="original-content-holder" style="display: none;">
-              <p class="original-p">從松坂屋或松屋 步行約 1-2 分鐘至 JR 御徒町站。 JR 御徒町站(御徒町駅) ➔ 搭乘 JR 山手線 (綠色列車) 或 京濱東北線 (水藍色列車) ➔ JR 秋葉原站(秋葉原駅) ➔ 轉乘 JR 中央・總武線 (黃色列車) 1 站 ➔ 淺草橋站(浅草橋駅)（約 10 分鐘），回飯店休息。</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
+
+      <!-- Day 2 Kids Group -->
       <div class="day2-kids-itinerary" style="display: none;">
-      <div class="timeline-item" data-category="food">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2k-0" onchange="toggleCheck('item-d2k-0')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-0">
-          <div class="card-header">
-            <span class="card-time">07:00－07:30</span>
-            <div class="card-tags"><span class="tag tag-food">美食</span></div>
+        <!-- Slot K1 -->
+        <div class="timeline-item" data-category="transport">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d2k-0" onchange="toggleCheck('item-d2k-0')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
           </div>
-          <h3 class="card-title">
-            🍳 飯店內早餐
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🍳 飯店內早餐" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>享用前一天準備好的飯糰、三明治、牛奶、咖啡。</p>
-            
-            <div class="original-content-holder" style="display: none;">
-              <p class="original-p">享用前一天準備好的飯糰、三明治、牛奶、咖啡。</p>
+          <div class="timeline-card" id="card-item-d2k-0">
+            <div class="card-header">
+              <span class="card-time">07:50－08:45</span>
+              <div class="card-tags"><span class="tag tag-transport">交通</span></div>
+            </div>
+            <h3 class="card-title">
+              迪士尼交通動線
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=舞浜駅" target="_blank">📍 導航</a>
+            </h3>
+            <div class="card-body">
+              <p><strong>特選輕鬆電車路線：</strong>淺草橋 ➔ 秋葉原 (總武線) ➔ 八丁堀 (地鐵日比谷線) ➔ 舞濱 (JR京葉線)。避開東京車站複雜轉乘。</p>
+              <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-0')">📖 完整原始說明</button>
+              <div class="original-content-holder" style="display: none;">
+                <div class="original-quote">
+                  <p>07:50－08:00 親子組出發： 從飯店慢步走到 JR 淺草橋站，搭乘 JR 中央・總武線 (黃色列車) 1 站至 秋葉原站(秋葉原駅)。</p>
+                  <p>08:00－08:12 地鐵移動： 於秋葉原轉乘搭乘日比谷線 (灰色列車)（往中目黑方向），搭乘 4 站至「八丁堀站(八丁堀駅)」下車。</p>
+                  <p>08:12－08:25 輕鬆轉乘： 順著地下聯絡通道指標，步行轉乘 JR 京葉線 (紅色列車)。（此站轉乘結構簡單，只需依循指標換月台，比東京車站輕鬆太多，非常適合牽小孩移動）。</p>
+                  <p>08:25－08:37 火車直達： 搭乘 JR 京葉線 (紅色列車)（往蘇我 Soga 或海濱幕張方向），搭乘 5 站直達「舞濱站(舞浜駅)」。</p>
+                  <p>08:37－08:45 抵達出站： 出舞濱站(舞浜駅)「南口」，順著天橋與人群指標，慢步步行約 5~8 分鐘即可抵達迪士尼樂園(東京ディズニーランド)正門。</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="timeline-item" data-category="transport">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2k-1" onchange="toggleCheck('item-d2k-1')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-1">
-          <div class="card-header">
-            <span class="card-time">07:50－08:45</span>
-            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
+
+        <!-- Slot K2 -->
+        <div class="timeline-item" data-category="attraction">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d2k-1" onchange="toggleCheck('item-d2k-1')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
           </div>
-          <h3 class="card-title">
-            🚆 迪士尼交通動線
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚆 迪士尼交通動線" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 07:50－08:00 親子組出發： 從飯店慢步走到 JR 淺草橋站，搭乘 JR 中央・總武線 (黃色列車) 1 站至 秋葉原站(秋葉原駅)。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-1')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>07:50－08:00 親子組出發： 從飯店慢步走到 JR 淺草橋站，搭乘 JR 中央・總武線 (黃色列車) 1 站至 秋葉原站(秋葉原駅)。</p>
-<p>08:00－08:12 地鐵移動： 於秋葉原轉乘搭乘日比谷線 (灰色列車)（往中目黑方向），搭乘 4 站至「八丁堀站(八丁堀駅)」下車。</p>
-<p>08:12－08:25 輕鬆轉乘： 順著地下聯絡通道指標，步行轉乘 JR 京葉線 (紅色列車)。（此站轉乘結構簡單，只需依循指標換月台，比東京車站輕鬆太多，非常適合牽小孩移動）。</p>
-<p>08:25－08:37 火車直達： 搭乘 JR 京葉線 (紅色列車)（往蘇我 Soga 或海濱幕張方向），搭乘 5 站直達「舞濱站(舞浜駅)」。</p>
-<p>08:37－08:45 抵達出站： 出舞濱站(舞浜駅)「南口」，順著天橋與人群指標，慢步步行約 5\~8 分鐘即可抵達迪士尼樂園(東京ディズニーランド)正門。</p>
-</div>
+          <div class="timeline-card" id="card-item-d2k-1">
+            <div class="card-header">
+              <span class="card-time">08:45－11:45</span>
+              <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+            </div>
+            <h3 class="card-title">
+              抵達樂園門口
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=東京ディズニーランド" target="_blank">📍
+                導航</a>
+            </h3>
+            <div class="card-body">
+              <p>開園排隊。入園後立即開啟 Disney App：搶購「美女與野獸 (DPA)」或預約免費「Priority Pass (PP)」。<br>第一必玩：<strong>美女與野獸：魔法物語</strong>
+                (推薦 DPA)<br>第二必玩：<strong>小熊維尼獵蜜記</strong> (搶 Priority Pass)<br>第三推薦：<strong>巨雷山</strong> (過 130cm 小朋友必玩)
+              </p>
+              <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-1')">📖 完整原始說明</button>
+              <div class="original-content-holder" style="display: none;">
+                <div class="original-quote">
+                  <p>先不急著拍照，直接排隊等開園。入園後立刻開官方 App：購買 Disney Premier Access (DPA) 或領取免費 Priority Pass (PP)。</p>
+                  <p>🎢 必玩設施與行程建議：</p>
+                  <ul class="original-list">
+                    <li>第一站（必玩）： 美女與野獸：魔法物語(美女と野獣“魔法のものがたり”) (建議直上 DPA)</li>
+                    <li>第二站： 小熊維尼獵蜜記(プーさんのハニーハント) (經典必玩)</li>
+                    <li>第三站： 巨雷山(ビッグサンダー・マウンテン) (130cm 可搭，刺激度剛好)</li>
+                    <li>穿插行程： 灰姑娘城堡(シンデレラ城)拍照、買爆米花</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="timeline-item" data-category="transport">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2k-2" onchange="toggleCheck('item-d2k-2')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-2">
-          <div class="card-header">
-            <span class="card-time">08:45</span>
-            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
+
+        <!-- Slot K3 -->
+        <div class="timeline-item" data-category="food">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d2k-2" onchange="toggleCheck('item-d2k-2')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
           </div>
-          <h3 class="card-title">
-            抵達樂園門口
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=抵達樂園門口" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>開園排隊。入園後立即開啟 Disney App：搶購「美女與野獸 (DPA)」或預約免費「Priority Pass (PP)」。<br>第一必玩：<strong>美女與野獸：魔法物語</strong> (推薦 DPA)<br>第二必玩：<strong>小熊維尼獵蜜記</strong> (搶 Priority Pass)<br>第三推薦：<strong>巨雷山</strong> (過 130cm 小朋友必玩)</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-2')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <p class="original-p">先不急著拍照，直接排隊等開園。入園後立刻開官方 App：購買 Disney Premier Access (DPA) 或領取免費 Priority Pass (PP)。</p>
+          <div class="timeline-card" id="card-item-d2k-2">
+            <div class="card-header">
+              <span class="card-time">11:45－12:45</span>
+              <div class="card-tags"><span class="tag tag-food">美食</span></div>
+            </div>
+            <h3 class="card-title">
+              午餐
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=クイーン・オブ・ハートのバンケットホール"
+                target="_blank">🍽️ 導航</a>
+            </h3>
+            <div class="card-body">
+              <p>首選餐廳：<strong>紅心皇后宴會大廳</strong>（無行動點餐，需排 45-60 分）。<br><strong>🚀 救星備案（App 行動點餐）：</strong>廣場閣樓餐廳（<a
+                  class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=プラザパビリオン・レストラン"
+                  target="_blank">🍽️ 導航</a> 歐風漢堡排）或明日樂園舞台餐廳（<a class="map-link-inline"
+                  href="https://www.google.com/maps/search/?api=1&query=トゥモローランド・テラス" target="_blank">🍽️ 導航</a>
+                漢堡/三明治），免排隊！</p>
+              <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-2')">📖 完整原始說明</button>
+              <div class="original-content-holder" style="display: none;">
+                <div class="original-quote">
+                  <p>首選餐廳：<strong>紅心皇后宴會大廳 (東京迪士尼樂園)</strong> 享用主題排餐（推薦：烤雞、漢堡排），人均約 ¥1,500～¥2,000（目前【無】提供 Mobile Order
+                    (行動點餐)，尖峰時段需排隊 45-60 分鐘。若小孩不耐餓，強烈建議改用官方 App 預約備案餐廳）。</p>
+                  <p>備案餐廳：強烈建議使用官方 App 的 Mobile Order (行動點餐) 功能，提前預約 <strong>廣場閣樓餐廳 (東京迪士尼樂園)</strong>
+                    享用歐式套餐（推薦：漢堡排與炸蝦拼盤），人均約 ¥1,500～¥2,000 或 <strong>明日樂園舞台餐廳 (東京迪士尼樂園)</strong> 享用輕食（推薦：炸雞漢堡、三明治），人均約
+                    ¥1,000～¥1,500。時間到直接取餐入座，免去排隊地獄，拯救大人的腿與小孩的情緒！</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2k-3" onchange="toggleCheck('item-d2k-3')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-3">
-          <div class="card-header">
-            <span class="card-time"></span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+
+        <!-- Slot K4 -->
+        <div class="timeline-item" data-category="attraction">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d2k-3" onchange="toggleCheck('item-d2k-3')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
           </div>
-          <h3 class="card-title">
-            🎢 必玩設施與行程建議
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🎢 必玩設施與行程建議" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 第一站（必玩）： 美女與野獸：魔法物語(美女と野獣“魔法のものがたり”) (建議直上 DPA)</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-3')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>第一站（必玩）： 美女與野獸：魔法物語(美女と野獣“魔法のものがたり”) (建議直上 DPA)</p>
-<p>第二站： 小熊維尼獵蜜記(プーさんのハニーハント) (經典必玩)</p>
-<p>第三站： 巨雷山(ビッグサンダー・マウンテン) (130cm 可搭，刺激度剛好)</p>
-<p>穿插行程： 灰姑娘城堡(シンデレラ城)拍照、買爆米花</p>
-</div>
+          <div class="timeline-card" id="card-item-d2k-3">
+            <div class="card-header">
+              <span class="card-time">13:00－18:00</span>
+              <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+            </div>
+            <h3 class="card-title">
+              午後行程與遊行
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=東京ディズニーランド" target="_blank">📍
+                導航</a>
+            </h3>
+            <div class="card-body">
+              <p><strong>必看日間遊行：</strong>提前 30
+                分鐘於遊行路線旁卡位休息。<br><strong>熱門推薦設施：</strong>幽靈公館、加勒比海盜、飛濺山（夏日消暑首選）。備選：怪獸電力公司、小小世界。</p>
+              <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-3')">📖 完整原始說明</button>
+              <div class="original-content-holder" style="display: none;">
+                <div class="original-quote">
+                  <p>必玩： 幽靈公館(ホーンテッドマンション)、加勒比海盜(カリブの海賊)、叢林巡航(ジャングルクルーズ：ワイルドライフ・エクスペディション)。</p>
+                  <p>下午遊行： Tokyo Disneyland Daytime Parade(東京ディズニーランド・デイタイムパレード)（提早 30～45 分鐘卡位）。</p>
+                  <p>傍晚推薦： 飛濺山(スプラッシュ・マウンテン)（夏天玩很舒服）。</p>
+                  <p>Option: 怪獸電力公司(モンスターズ・インク“ライド＆ゴーシーク！”)、小小世界(イッツ・ア・スモールワールド)、米奇幻想曲(ミッキーのフィルハーマジック)。</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="timeline-item" data-category="food">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2k-4" onchange="toggleCheck('item-d2k-4')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-4">
-          <div class="card-header">
-            <span class="card-time">11:45</span>
-            <div class="card-tags"><span class="tag tag-food">美食</span></div>
+
+        <!-- Slot K5 -->
+        <div class="timeline-item" data-category="food">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d2k-4" onchange="toggleCheck('item-d2k-4')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
           </div>
-          <h3 class="card-title">
-            午餐
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🍽️ 午餐" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>首選餐廳：<strong>紅心皇后宴會大廳</strong>（無行動點餐，需排 45-60 分）。<br><strong>🚀 救星備案（App 行動點餐）：</strong>廣場閣樓餐廳（<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=プラザパビリオン・レストラン" target="_blank">🍽️ 導航</a> 歐風漢堡排）或明日樂園舞台餐廳（<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=トゥモローランド・テラス" target="_blank">🍽️ 導航</a> 漢堡/三明治），免排隊！</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-4')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>首選餐廳：<strong>紅心皇后宴會大廳 (東京迪士尼樂園)</strong> 享用主題排餐（推薦：烤雞、漢堡排），人均約 ¥1,500～¥2,000（目前【無】提供 Mobile Order (行動點餐)，尖峰時段需排隊 45-60 分鐘。若小孩不耐餓，強烈建議改用官方 App 預約備案餐廳）。</p>
-<p>備案餐廳：強烈建議使用官方 App 的 Mobile Order (行動點餐) 功能，提前預約 <strong>廣場閣樓餐廳 (東京迪士尼樂園)</strong> 享用歐式套餐（推薦：漢堡排與炸蝦拼盤），人均約 ¥1,500～¥2,000 或 <strong>明日樂園舞台餐廳 (東京迪士尼樂園)</strong> 享用輕食（推薦：炸雞漢堡、三明治），人均約 ¥1,000～¥1,500。時間到直接取餐入座，免去排隊地獄，拯救大人的腿與小孩的情緒！</p>
-</div>
+          <div class="timeline-card" id="card-item-d2k-4">
+            <div class="card-header">
+              <span class="card-time">18:00 - 19:00</span>
+              <div class="card-tags"><span class="tag tag-food">美食</span></div>
+            </div>
+            <h3 class="card-title">
+              晚餐：主題餐廳時間
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=プラザパビリオン・レストラン"
+                target="_blank">🍽️ 導航</a>
+            </h3>
+            <div class="card-body">
+              <p><strong>首選：</strong>廣場閣樓餐廳（<a class="map-link-inline"
+                  href="https://www.google.com/maps/search/?api=1&query=プラザパビリオン・レストラン" target="_blank">🍽️ 導航</a>
+                漢堡排炸蝦盤）或 莎拉奶奶之之家（<a class="map-link-inline"
+                  href="https://www.google.com/maps/search/?api=1&query=グランマ・サラのキッチン" target="_blank">🍽️ 導航</a>
+                蛋包飯）。<br><strong>快速備案：</strong><a class="map-link-inline"
+                  href="https://www.google.com/maps/search/?api=1&query=パン+ギャラクティック+ピザ+ポート" target="_blank">🍽️ 導航</a>
+                紅連火箭筒餐廳（披薩與烤餅）。</p>
+              <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-4')">📖 完整原始說明</button>
+              <div class="original-content-holder" style="display: none;">
+                <div class="original-quote">
+                  <p>推薦餐廳：<strong>廣場閣樓餐廳 (東京迪士尼樂園)</strong> 享用歐式套餐（推薦：漢堡排與炸蝦拼盤），人均約 ¥1,500～¥2,000 或 <strong>莎拉奶奶之之家餐廳
+                      (東京迪士尼樂園)</strong> 享用家庭風味套餐（推薦：歐姆蛋包飯），人均約 ¥1,500～¥2,000。</p>
+                  <p>備案餐廳（快速免久候）：若上述兩家皆客滿，直接帶小朋友改往明日樂園區的 <strong>紅連火箭筒餐廳 (東京迪士尼樂園)</strong> 享用披薩（推薦：義式臘腸披薩、卡爾佐內烤餅），人均約
+                    ¥1,000～¥1,500，最節省排隊時間。</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2k-5" onchange="toggleCheck('item-d2k-5')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-5">
-          <div class="card-header">
-            <span class="card-time"></span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+
+        <!-- Slot K6 -->
+        <div class="timeline-item" data-category="attraction">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d2k-5" onchange="toggleCheck('item-d2k-5')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
           </div>
-          <h3 class="card-title">
-            🎠 午後行程與遊行
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🎠 午後行程與遊行" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 必玩： 幽靈公館(ホーンテッドマンション)、加勒比海盜(カリブの海賊)、叢林巡航(ジャングルクルーズ：ワイルドライフ・エクスペディション)。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-5')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>必玩： 幽靈公館(ホーンテッドマンション)、加勒比海盜(カリブの海賊)、叢林巡航(ジャングルクルーズ：ワイルドライフ・エクスペディション)。</p>
-<p>下午遊行： Tokyo Disneyland Daytime Parade(東京ディズニーランド・デイタイムパレード)（提早 30～45 分鐘卡位）。</p>
-<p>傍晚推薦： 飛濺山(スプラッシュ・マウンテン)（夏天玩很舒服）。</p>
-<p>Option: 怪獸電力公司(モンスターズ・インク“ライド＆ゴーシーク！”)、小小世界(イッツ・ア・スモールワールド)、米奇幻想曲(ミッキーのフィルハーマジック)。</p>
-</div>
+          <div class="timeline-card" id="card-item-d2k-5">
+            <div class="card-header">
+              <span class="card-time">19:00 - 19:45</span>
+              <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+            </div>
+            <h3 class="card-title">
+              城堡點燈與遊行卡位
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=東京ディズニーランド" target="_blank">📍
+                導航</a>
+            </h3>
+            <div class="card-body">
+              <p>灰姑娘城堡夜間點燈拍照，留下夢幻全家福。購買吉事果 or 米奇冰棒作為夜間點心。19:30 前往圓環區域或明日樂園通道邊卡位休息。</p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="timeline-item" data-category="food">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2k-6" onchange="toggleCheck('item-d2k-6')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-6">
-          <div class="card-header">
-            <span class="card-time">18:00－19:00</span>
-            <div class="card-tags"><span class="tag tag-food">美食</span></div>
+
+        <!-- Slot K7 -->
+        <div class="timeline-item" data-category="attraction">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d2k-6" onchange="toggleCheck('item-d2k-6')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
           </div>
-          <h3 class="card-title">
-            晚餐：主題餐廳時間
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🍽️ 晚餐：主題餐廳時間" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p><strong>首選：</strong>廣場閣樓餐廳（<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=プラザパビリオン・レストラン" target="_blank">🍽️ 導航</a> 漢堡排炸蝦盤）或 莎拉奶奶之之家（<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=グランマ・サラのキッチン" target="_blank">🍽️ 導航</a> 蛋包飯）。<br><strong>快速備案：</strong><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=パン+ギャラクティック+ピザ+ポート" target="_blank">🍽️ 導航</a> 紅連火箭筒餐廳（披薩與烤餅）。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-6')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>推薦餐廳：<strong>廣場閣樓餐廳 (東京迪士尼樂園)</strong> 享用歐式套餐（推薦：漢堡排與炸蝦拼盤），人均約 ¥1,500～¥2,000 或 <strong>莎拉奶奶之之家餐廳 (東京迪士尼樂園)</strong> 享用家庭風味套餐（推薦：歐姆蛋包飯），人均約 ¥1,500～¥2,000。</p>
-<p>備案餐廳（快速免久候）：若上述兩家皆客滿，直接帶小朋友改往明日樂園區的 <strong>紅連火箭筒餐廳 (東京迪士尼樂園)</strong> 享用披薩（推薦：義式臘腸披薩、卡爾佐內烤餅），人均約 ¥1,000～¥1,500，最節省排隊時間。</p>
-</div>
+          <div class="timeline-card" id="card-item-d2k-6">
+            <div class="card-header">
+              <span class="card-time">19:45 - 20:30</span>
+              <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+            </div>
+            <h3 class="card-title">
+              東京迪士尼樂園電子大遊行「夢之光」
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=東京ディズニーランド" target="_blank">📍
+                導航</a>
+            </h3>
+            <div class="card-body">
+              <p>全長約 45 分鐘，欣賞璀璨燈光花車與經典迪士尼音樂，全家可坐著休息放鬆雙腿。</p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2k-7" onchange="toggleCheck('item-d2k-7')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-7">
-          <div class="card-header">
-            <span class="card-time">19:00－19:45</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+
+        <!-- Slot K8 -->
+        <div class="timeline-item" data-category="attraction">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d2k-7" onchange="toggleCheck('item-d2k-7')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
           </div>
-          <h3 class="card-title">
-            🏰 城堡點燈拍照、購買夜間點心與遊行卡位
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🏰 城堡點燈拍照、購買夜間點心與遊行卡位" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 灰姑娘城堡夜間點燈拍照，留下夢幻全家福。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-7')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>灰姑娘城堡夜間點燈拍照，留下夢幻全家福。</p>
-<p>購買吉事果或米奇冰棒作為夜間點心。</p>
-<p>19:30 前往圓環區域或明日樂園通道邊卡位休息。</p>
-</div>
+          <div class="timeline-card" id="card-item-d2k-7">
+            <div class="card-header">
+              <span class="card-time">20:55 - 21:20</span>
+              <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+            </div>
+            <h3 class="card-title">
+              城堡高空投影秀
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=東京ディズニーランド" target="_blank">📍
+                導航</a>
+            </h3>
+            <div class="card-body">
+              <p>2026 夏季特別版「Reach for the Stars」，於灰姑娘城堡前欣賞結合漫威、大英雄天團的 3D 投影與焰火秀。</p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2k-8" onchange="toggleCheck('item-d2k-8')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-8">
-          <div class="card-header">
-            <span class="card-time">19:45－20:30</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+
+        <!-- Slot K9 -->
+        <div class="timeline-item" data-category="attraction">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d2k-8" onchange="toggleCheck('item-d2k-8')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
           </div>
-          <h3 class="card-title">
-            🎆 東京迪士尼樂園電子大遊行「夢之光」
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🎆 東京迪士尼樂園電子大遊行「夢之光」" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 全長約 45 分鐘，欣賞璀璨燈光花車與經典迪士尼音樂，全家可坐著休息放鬆雙腿。</p>
-            
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>全長約 45 分鐘，欣賞璀璨燈光花車與經典迪士尼音樂，全家可坐著休息放鬆雙腿。</p>
-</div>
+          <div class="timeline-card" id="card-item-d2k-8">
+            <div class="card-header">
+              <span class="card-time">21:20 - 21:50</span>
+              <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+            </div>
+            <h3 class="card-title">
+              世界市集（World Bazaar）最後補貨與出園
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=東京ディズニーランド" target="_blank">📍
+                導航</a>
+            </h3>
+            <div class="card-body">
+              <p>於世界市集購買紀念品與伴手禮，約 21:50 離開樂園前往 JR 舞濱站。</p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2k-9" onchange="toggleCheck('item-d2k-9')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-9">
-          <div class="card-header">
-            <span class="card-time">20:55－21:20</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+
+        <!-- Slot K10 -->
+        <div class="timeline-item" data-category="transport">
+          <div class="timeline-check">
+            <label class="check-wrapper">
+              <input type="checkbox" id="item-d2k-9" onchange="toggleCheck('item-d2k-9')">
+              <span class="checkmark"></span>
+            </label>
+            <div class="timeline-line"></div>
           </div>
-          <h3 class="card-title">
-            🏰 城堡高空投影秀「Reach for the Stars: Everlasting Dreams」
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🏰 城堡高空投影秀「Reach for the Stars: Everlasting Dreams」" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 2026 夏季特別版（約 25 分鐘），於灰姑娘城堡前欣賞結合漫威、大英雄天團與迪士尼經典動畫的 3D 燈光投影與焰火秀。</p>
-            
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>2026 夏季特別版（約 25 分鐘），於灰姑娘城堡前欣賞結合漫威、大英雄天團與迪士尼經典動畫的 3D 燈光投影與焰火秀。</p>
-</div>
+          <div class="timeline-card" id="card-item-d2k-9">
+            <div class="card-header">
+              <span class="card-time">21:50 - 22:45</span>
+              <div class="card-tags"><span class="tag tag-transport">交通</span></div>
+            </div>
+            <h3 class="card-title">
+              親子組回程交通（首選巴士 / 備案電車）
+              <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=東京ディズニーランド+バスターミナル・イースト"
+                target="_blank">🚌 導航</a>
+            </h3>
+            <div class="card-body">
+              <p><strong>首選（直達巴士）：</strong>出園直接去巴士總站搭乘往<strong>秋葉原站東口</strong>的高速巴士（車程約
+                35-45m，上車即有座位，小孩可以一路睡回秋葉原）。到秋葉原轉總武線 1 站至淺草橋。<br><strong>電車備案：</strong>舞濱站 ➔ 八丁堀站 (京葉線 2號月台) ➔ 秋葉原站
+                (地鐵日比谷線 2號月台) ➔ 淺草橋。</p>
+              <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-9')">📖 完整原始說明</button>
+              <div class="original-content-holder" style="display: none;">
+                <div class="original-quote">
+                  <p>首選（直達巴士）： 離開樂園後直接步行至「巴士總站(バスターミナル)」，搭乘直達 秋葉原站(秋葉原駅) 東口的高速巴士（京成巴士 / 東京灣城市交通）。車程約 35-45
+                    分鐘，全家有座位可一路睡回秋葉原，免除轉乘痛苦。抵達後轉乘 JR 中央・總武線 1 站返抵 淺草橋站。</p>
+                  <p>備案（電車轉乘）： 若巴士滿載或班次無法配合，則採用原方案。</p>
+                  <ul class="original-list">
+                    <li>1. 舞濱站(舞浜駅) 搭乘 JR 京葉線(JR京葉線) ➔ 請前往「2 號月台（往東京方向）」上車 ➔ 抵達 八丁堀站(八丁堀駅)（約 12 分鐘）。</li>
+                    <li>2. 八丁堀站(八丁堀駅)轉乘 東京 Metro 地鐵日比谷線(東京メトロ日比谷線) ➔ 刷卡進地鐵站後前往「2 號月台（往北千住方向）」上車 ➔ 抵達 秋葉原站(秋葉原駅)（約 8 分鐘）。
+                    </li>
+                    <li>3. 抵達秋葉原站(秋葉原駅)後，轉乘 JR 中央・總武線 1 站至 淺草橋站 返抵飯店休息。</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2k-10" onchange="toggleCheck('item-d2k-10')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-10">
-          <div class="card-header">
-            <span class="card-time">21:20－21:50</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
-          </div>
-          <h3 class="card-title">
-            🛍️ 世界市集（World Bazaar）最後補貨與出園
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🛍️ 世界市集（World Bazaar）最後補貨與出園" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 於世界市集購買紀念品與伴手禮，約 21:50 離開樂園前往 JR 舞濱站。</p>
-            
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>於世界市集購買紀念品與伴手禮，約 21:50 離開樂園前往 JR 舞濱站。</p>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="transport">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2k-11" onchange="toggleCheck('item-d2k-11')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-11">
-          <div class="card-header">
-            <span class="card-time">21:50－22:45</span>
-            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
-          </div>
-          <h3 class="card-title">
-            🚆 親子組回程交通（首選巴士 / 備案電車）
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚌🚆 親子組回程交通（首選巴士 / 備案電車）" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>1. 舞濱站(舞浜駅) 搭乘 JR 京葉線(JR京葉線) ➔ 請前往「2 號月台（往東京方向）」上車 ➔ 抵達 八丁堀站(八丁堀駅)（約 12 分鐘）。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-11')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>首選（直達巴士）： 離開樂園後直接步行至「巴士總站(バスターミナル)」，搭乘直達 秋葉原站(秋葉原駅) 東口的高速巴士（京成巴士 / 東京灣城市交通）。車程約 35-45 分鐘，全家有座位可一路睡回秋葉原，免除轉乘痛苦。抵達後轉乘 JR 中央・總武線 1 站返抵 淺草橋站。</p>
-<p>備案（電車轉乘）： 若巴士滿載或班次無法配合，則採用原方案。</p>
-<ul class="original-list">
-<li>舞濱站(舞浜駅) 搭乘 JR 京葉線(JR京葉線) ➔ 請前往「2 號月台（往東京方向）」上車 ➔ 抵達 八丁堀站(八丁堀駅)（約 12 分鐘）。</li>
-<li>八丁堀站(八丁堀駅)轉乘 東京 Metro 地鐵日比谷線(東京メトロ日比谷線) ➔ 刷卡進地鐵站後前往「2 號月台（往北千住方向）」上車 ➔ 抵達 秋葉原站(秋葉原駅)（約 8 分鐘）。</li>
-<li>抵達秋葉原站(秋葉原駅)後，轉乘 JR 中央・總武線 1 站至 淺草橋站 返抵飯店休息。</li>
-</ul>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2k-12" onchange="toggleCheck('item-d2k-12')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-12">
-          <div class="card-header">
-            <span class="card-time"></span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
-          </div>
-          <h3 class="card-title">
-            🎟️ 建議購買 Disney Premier Access (依優先順序)
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🎟️ 建議購買 Disney Premier Access " target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> 1. 美女與野獸(美女と野獣“魔法のものがたり”) ⭐⭐⭐⭐⭐</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-12')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<ul class="original-list">
-<li>美女與野獸(美女と野獣“魔法のものがたり”) ⭐⭐⭐⭐⭐</li>
-<li>夜間遊行觀賞區（如果你們不想提早卡位）⭐⭐⭐⭐</li>
-<li>巨雷山(ビッグサンダー・マウンテン)（若排隊超過 60 分鐘）</li>
-<li>飛濺山(スプラッシュ・マウンテン)（若排隊超過 70 分鐘）</li>
-</ul>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2k-13" onchange="toggleCheck('item-d2k-13')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-13">
-          <div class="card-header">
-            <span class="card-time"></span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
-          </div>
-          <h3 class="card-title">
-            ⏱️ 免費 Priority Pass（若當天仍提供）
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=⏱️ 免費 Priority Pass（若當天仍提供）" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>優先拿：</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-13')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <p class="original-p">優先拿：</p>
-<ul class="original-list">
-<li>\. 小熊維尼獵蜜記(プーさんのハニーハント)</li>
-</ul>
-<p class="original-p">2\. 怪獸電力公司(モンスターズ・インク“ライド＆ゴーシーク！”)</p>
-<p class="original-p">3\. 幽靈公館(ホーンテッドマンション)。</p>
-<p class="original-p">\*官方公告顯示，40 週年 Priority Pass 將提供到 2026/8/31，你的旅遊日期（2026/8/21）仍可使用。</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2k-14" onchange="toggleCheck('item-d2k-14')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-14">
-          <div class="card-header">
-            <span class="card-time"></span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
-          </div>
-          <h3 class="card-title">
-            🍿 今日必做
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🍿 今日必做" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 買特色爆米花桶</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-14')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>買特色爆米花桶</p>
-<p>品嚐米奇冰棒</p>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d2k-15" onchange="toggleCheck('item-d2k-15')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-15">
-          <div class="card-header">
-            <span class="card-time"></span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
-          </div>
-          <h3 class="card-title">
-            💰 迪士尼預估旅費 (3人)
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=💰 迪士尼預估旅費 " target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>| 項目 | 金額（日圓） |</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-15')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <p class="original-p">| 項目 | 金額（日圓） |</p>
-<p class="original-p">| :---: | :---: |</p>
-<p class="original-p">| 門票 | 約 ¥23,000～26,000 |</p>
-<p class="original-p">| DPA（2～3 項） | 約 ¥6,000～9,000 |</p>
-<p class="original-p">| 午/晚餐與點心 | 約 ¥12,000 |</p>
-<p class="original-p">| 紀念品（預留） | 約 ¥8,000～15,000 |</p>
-<p class="original-p">| 合計 | 約 ¥50,000～62,000（約新台幣 10,300～12,800） |</p>
-            </div>
-          </div>
-        </div>
-      </div>
       </div>
     </div>
 
     <!-- Day 3 Section -->
     <div class="day-section" id="day3-section" style="display: none;">
-      <div class="timeline-item" data-category="food">
+      <!-- Slot 1 -->
+      <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d3-0" onchange="toggleCheck('item-d3-0')">
@@ -1892,23 +1849,21 @@
         </div>
         <div class="timeline-card" id="card-item-d3-0">
           <div class="card-header">
-            <span class="card-time">08:00－09:00</span>
-            <div class="card-tags"><span class="tag tag-food">美食</span></div>
+            <span class="card-time">09:10 - 09:20</span>
+            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
           </div>
           <h3 class="card-title">
-            🍳 早餐與出發
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🍳 早餐與出發" target="_blank">📍 導航</a>
+            搭乘 JR 前往東京車站
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=東京駅" target="_blank">🚃 導航</a>
           </h3>
           <div class="card-body">
-            <p>飯店或超商簡單吃。視小朋友作息彈性出發。</p>
-            
-            <div class="original-content-holder" style="display: none;">
-              <p class="original-p">飯店或超商簡單吃。視小朋友作息彈性出發。</p>
-            </div>
+            <p>JR 淺草橋站 ➔ JR 中央・總武線 1 站至 秋葉原站 ➔ 轉乘 JR 山手線 至 JR 東京站。</p>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="transport">
+
+      <!-- Slot 2 -->
+      <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d3-1" onchange="toggleCheck('item-d3-1')">
@@ -1918,23 +1873,22 @@
         </div>
         <div class="timeline-card" id="card-item-d3-1">
           <div class="card-header">
-            <span class="card-time">09:10</span>
-            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
+            <span class="card-time">09:20 - 09:45</span>
+            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
           </div>
           <h3 class="card-title">
-            搭乘 JR 前往東京車站
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚇 搭乘 JR 前往東京車站" target="_blank">📍 導航</a>
+            東京車站丸之內紅磚站舍
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=東京駅丸の内駅舎" target="_blank">📍
+              導航</a>
           </h3>
           <div class="card-body">
-            <p>淺草橋 ➔ 秋葉原 ➔ 東京站 (JR 山手線)。前往西側廣場，在清晨涼風中與壯麗的百年紅磚站舍拍照合影。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-1')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <p class="original-p">JR 淺草橋站(浅草橋駅) ➔ JR 中央・總武線 1 站至 秋葉原站(秋葉原駅) ➔ 轉乘 JR 山手線 (綠色列車) 至 JR 東京站(JR 東京駅)。</p>
-            </div>
+            <p>拍全家福、欣賞東京車站經典紅磚建築（清晨較涼爽，最適合戶外拍照）。</p>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="transport">
+
+      <!-- Slot 3 -->
+      <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d3-2" onchange="toggleCheck('item-d3-2')">
@@ -1944,23 +1898,30 @@
         </div>
         <div class="timeline-card" id="card-item-d3-2">
           <div class="card-header">
-            <span class="card-time">09:20－09:45</span>
-            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
+            <span class="card-time">09:45 - 10:00</span>
+            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
           </div>
           <h3 class="card-title">
-            東京車站丸之內紅磚站舍(東京駅丸の内駅舎)
-            <a class="map-link" href="https://maps.app.goo.gl/GgpXhyaLFhQmKBSe9))" target="_blank">📍 導航</a>
+            返回東京車站一番街入口等待開門
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=東京駅一番街" target="_blank">📍 導航</a>
           </h3>
           <div class="card-body">
-            <p>拍全家福、欣賞東京車站經典紅磚建築（清晨較涼爽，最適合戶外拍照）。</p>
-            
+            <p><strong>避坑指南：</strong>從丸之內（西側）跨越到八重洲（東側地下）時，<strong>請走站外的「北自由通路」</strong>！千萬別刷 Suica 誤進站！<br>10:00
+              一開門優先逛：寶可夢商店（站長皮卡丘）、TOMICA、橡子共和國、吉伊卡哇商店、迪士尼商店。</p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-2')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
-              <p class="original-p">拍全家福、欣賞東京車站經典紅磚建築（清晨較涼爽，最適合戶外拍照）。</p>
+              <div class="original-quote">
+                <p>從車站西側（丸之內口）步行橫跨車站至東側地下（八重洲口）動漫街入口。帶著長輩與小孩不趕不跑，利用這 15 分鐘慢步移動當作完美緩衝。</p>
+                <p>⚠️ 自由行新手大盲點： 此段移動是從車站西側（丸之內）跨越到東側地下（八重洲）。全程請走閘門外的「自由通路」（如北自由通路）慢步過去，千萬不要誤刷 Suica 卡進入 JR
+                  閘門，否則會被系統判定錯誤並重複扣錢！</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="transport">
+
+      <!-- Slot 4 -->
+      <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d3-3" onchange="toggleCheck('item-d3-3')">
@@ -1970,24 +1931,35 @@
         </div>
         <div class="timeline-card" id="card-item-d3-3">
           <div class="card-header">
-            <span class="card-time">09:45－10:00</span>
-            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
+            <span class="card-time">10:00 - 11:05</span>
+            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
           </div>
           <h3 class="card-title">
-            🚶‍♂️ 返回東京車站一番街入口等待開門
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚶‍♂️ 返回東京車站一番街入口等待開門" target="_blank">📍 導航</a>
+            東京車站一番街
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=東京駅一番街" target="_blank">🛒 導航</a>
           </h3>
           <div class="card-body">
-            <p>從車站西側（丸之內口）步行橫跨車站至東側地下（八重洲口）動漫街入口。帶著長輩與小孩不趕不跑，利用這 15 分鐘慢步移動當作完美緩衝。</p>
+            <p>10:00 店家開始營業，依照目標店家優先順序慢慢逛，不需每間店都慢慢逛，保留時間欣賞東京車站地面景觀。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-3')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
-              <p class="original-p">從車站西側（丸之內口）步行橫跨車站至東側地下（八重洲口）動漫街入口。帶著長輩與小孩不趕不跑，利用這 15 分鐘慢步移動當作完美緩衝。</p>
-<p class="original-p">⚠️ 自由行新手大盲點： 此段移動是從車站西側（丸之內）跨越到東側地下（八重洲）。全程請走閘門外的「自由通路」（如北自由通路）慢步過去，千萬不要誤刷 Suica 卡進入 JR 閘門，否則會被系統判定錯誤並重複扣錢！</p>
+              <div class="original-quote">
+                <p>10:00 店家開始營業，依照目標店家優先順序慢慢逛，不需每間店都慢慢逛，保留時間欣賞東京車站地面景觀。</p>
+                <p>建議順序： Pokémon Store ➔ TOMICA Shop ➔ 橡子共和國 ➔ 吉伊卡哇專賣店 ➔ 迪士尼商店 ➔ 東京車站一番街 其他商店。</p>
+                <ul class="original-list">
+                  <li>Pokémon Store(ポケモンストア) ：精選各類寶可夢周邊，包含東京車站限定版的站長皮卡丘。</li>
+                  <li>TOMICA Shop(トミカショップ)：小車迷的天堂，提供各式小汽車模型及組裝體驗區。</li>
+                  <li>橡子共和國(どんぐり共和国)：吉卜力工作室官方商店，販售龍貓、魔女宅急便等療癒周邊。</li>
+                  <li>吉伊卡哇專專店(ちいかわらんど) ：當紅 IP Chiikawa 專區，有許多日本限定的文具與絨毛玩偶。</li>
+                  <li>迪士尼商店(ディズニーストア)：集結迪士尼經典角色，店內裝潢與限定商品深具吸引力。</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="transport">
+
+      <!-- Slot 5 -->
+      <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d3-4" onchange="toggleCheck('item-d3-4')">
@@ -1997,31 +1969,22 @@
         </div>
         <div class="timeline-card" id="card-item-d3-4">
           <div class="card-header">
-            <span class="card-time">10:00－11:05</span>
-            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
+            <span class="card-time">11:05 - 11:25</span>
+            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
           </div>
           <h3 class="card-title">
-            🛍️ 東京車站一番街
-            <a class="map-link" href="https://maps.app.goo.gl/82oR9GvFHCmhguiE8)" target="_blank">📍 導航</a>
+            KITTE花園展望台
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=KITTE+ガーデン" target="_blank">📍
+              導航</a>
           </h3>
           <div class="card-body">
-            <p>10:00 店家開始營業，依照目標店家優先順序慢慢逛，不需每間店都慢慢逛，保留時間欣賞東京車站地面景觀。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-4')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <p class="original-p">10:00 店家開始營業，依照目標店家優先順序慢慢逛，不需每間店都慢慢逛，保留時間欣賞東京車站地面景觀。</p>
-<p class="original-p">建議順序： Pokémon Store ➔ TOMICA Shop ➔ 橡子共和國 ➔ 吉伊卡哇專賣店 ➔ 迪士尼商店 ➔ 東京車站一番街 其他商店。</p>
-<div class="original-quote">
-<p>Pokémon Store(ポケモンストア) ：精選各類寶可夢周邊，包含東京車站限定版的站長皮卡丘。</p>
-<p>TOMICA Shop(トミカショップ)：小車迷的天堂，提供各式小汽車模型及組裝體驗區。</p>
-<p>子共和國(どんぐり共和国)：吉卜力工作室官方商店，販售龍貓、魔女宅急便等療癒周邊。</p>
-<p>吉伊卡哇專賣店(ちいかわらんど) ：當紅 IP Chiikawa 專區，有許多日本限定的文具與絨毛玩偶。</p>
-<p>迪士尼商店(ディズニーストア)：集結迪士尼經典角色，店內裝潢與限定商品深具吸引力。</p>
-</div>
-            </div>
+            <p>搭乘 KITTE 商場電梯上 6 樓，這片綠化屋頂花園可免費進入。是俯瞰東京車站紅磚站舍、新幹線與城市景觀，順便吹冷氣休息的好地方。</p>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="attraction">
+
+      <!-- Slot 6 -->
+      <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d3-5" onchange="toggleCheck('item-d3-5')">
@@ -2031,23 +1994,36 @@
         </div>
         <div class="timeline-card" id="card-item-d3-5">
           <div class="card-header">
-            <span class="card-time">11:05－11:25</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+            <span class="card-time">11:30 - 12:45</span>
+            <div class="card-tags"><span class="tag tag-food">美食</span></div>
           </div>
           <h3 class="card-title">
-            🌇 KITTE花園展望台
-            <a class="map-link" href="https://maps.app.goo.gl/bRVffwmYQMwP9qJ57)" target="_blank">📍 導航</a>
+            午餐（東京車站）
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=つばめグリル+大丸東京店" target="_blank">🍽️
+              導航</a>
           </h3>
           <div class="card-body">
-            <p>11:00 頂樓花園剛開門，搭電梯直達 6 樓免費展望台(ＫＩＴＴＥガーデン)，欣賞東京車站紅磚站舍、新幹線與城市景觀，順便吹冷氣休息。</p>
-            
+            <p>首選餐廳：<strong>燕子烤肉漢堡排 (大丸東京店)</strong> 鐵箔包烤漢堡排，空間寬敞可賞高空景觀，人均約
+              ¥1,800-2,500。<br><strong>備案：</strong>大丸東京店「三代目泰明軒」（<a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=たいめいけん+大丸東京店" target="_blank">🍽️ 導航</a>
+              蛋包飯）或東京站「極味屋」（<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=極味や+東京駅店"
+                target="_blank">🍽️ 導航</a> 鐵板漢堡排，但人擠油煙大、不推薦長輩小孩排隊）。</p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-5')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
-              <p class="original-p">11:00 頂樓花園剛開門，搭電梯直達 6 樓免費展望台(ＫＩＴＴＥガーデン)，欣賞東京車站紅磚站舍、新幹線與城市景觀，順便吹冷氣休息。</p>
+              <div class="original-quote">
+                <p>首選餐廳：<strong>燕子烤肉漢堡排 (大丸東京店)</strong> 享用經典洋食（推薦：招牌漢堡排、漢堡排與炸蝦套餐），人均約 ¥1,800～¥2,500。</p>
+                <p>特色：餐廳空間寬敞、有高空市景，且提供適合全家大小的美味漢堡排。</p>
+                <p>備案餐廳：<strong>極味屋 (東京車站店)</strong> 享用鐵板漢堡排（推薦：極味屋漢堡排、牛排組合），人均約 ¥1,500～¥2,500。</p>
+                <p>備案原因：星期六中午非常熱門且需久候排隊，加上店內無座位且鐵板極燙，對長輩與小孩來說較危險且耗費體力，因此僅作為備案。</p>
+                <p>備案餐廳：<strong>三代目泰明軒 (大丸東京店)</strong> 享用經典洋食（推薦：招牌蛋包飯、漢堡排），人均約 ¥1,500～¥2,000。</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="food">
+
+      <!-- Slot 7 -->
+      <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d3-6" onchange="toggleCheck('item-d3-6')">
@@ -2057,33 +2033,21 @@
         </div>
         <div class="timeline-card" id="card-item-d3-6">
           <div class="card-header">
-            <span class="card-time">11:30－12:45</span>
-            <div class="card-tags"><span class="tag tag-food">美食</span></div>
+            <span class="card-time">12:50 - 13:25</span>
+            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
           </div>
           <h3 class="card-title">
-            午餐（東京車站(東京駅)）
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🍽️ 午餐（東京車站" target="_blank">📍 導航</a>
+            前往上野
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=上野駅" target="_blank">🚃 導航</a>
           </h3>
           <div class="card-body">
-            <p>> * 首選餐廳：<strong>燕子烤肉漢堡排 (大丸東京店)</strong> 享用經典洋食（推薦：招牌漢堡排、漢堡排與炸蝦套餐），人均約 ¥1,800～¥2,500。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-6')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>首選餐廳：<strong>燕子烤肉漢堡排 (大丸東京店)</strong> 享用經典洋食（推薦：招牌漢堡排、漢堡排與炸蝦套餐），人均約 ¥1,800～¥2,500。</p>
-<ul class="original-list">
-<li>推薦：餐廳空間寬敞、有高空市景，且提供適合全家大小的美味漢堡排。</li>
-</ul>
-<p>備案餐廳：<strong>極味屋 (東京車站店)</strong> 享用鐵板漢堡排（推薦：極味屋漢堡排、牛排組合），人均約 ¥1,500～¥2,500。</p>
-<ul class="original-list">
-<li>備案原因：星期六中午非常熱門且需久候排隊，加上店內無座位且鐵板極燙，對長輩與小孩來說較危險且耗費體力，因此僅作為備案。</li>
-</ul>
-<p>備案餐廳：<strong>三代目泰明軒 (大丸東京店)</strong> 享用經典洋食（推薦：招牌蛋包飯、漢堡排），人均約 ¥1,500～¥2,000。</p>
-</div>
-            </div>
+            <p>搭乘 JR 山手線 8 分鐘抵達上野站。</p>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="transport">
+
+      <!-- Slot 8 -->
+      <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d3-7" onchange="toggleCheck('item-d3-7')">
@@ -2093,23 +2057,35 @@
         </div>
         <div class="timeline-card" id="card-item-d3-7">
           <div class="card-header">
-            <span class="card-time">12:50</span>
-            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
+            <span class="card-time">13:25 - 15:25</span>
+            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
           </div>
           <h3 class="card-title">
-            前往上野(上野)
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚇 前往上野" target="_blank">📍 導航</a>
+            國立科學博物館
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=国立科学博物館" target="_blank">📍 導航</a>
           </h3>
           <div class="card-body">
-            <p>JR 山手線(綠色列車)（東京站(東京駅) ➔ 上野站(上野駅)，約 8 分鐘）。</p>
-            
+            <p>參觀國立科學博物館，打卡地球館 B1 恐龍化石、3F 世界野生動物標本及 THEATER 360°。若累了可在公園樹下休息或欣賞西洋美術館外觀。</p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-7')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
-              <p class="original-p">JR 山手線(綠色列車)（東京站(東京駅) ➔ 上野站(上野駅)，約 8 分鐘）。</p>
+              <div class="original-quote">
+                <p>建議路線：地球館 B1(恐龍化石) → 地球 館 3F(動物標本)→ 隼鳥(Hayabusa)返回 艙 → THEATER 360°(依現場人潮決定) 日本館(自然史)</p>
+                <ul class="original-list">
+                  <li>恐龍化石展:位於地球館 B1,展示巨大恐 龍骨骸與演化史,是小朋友的最愛。(建議停留 30~40 分鐘)</li>
+                  <li>動物區:位於地球館 3F,展示大型哺乳 類、鳥類等逼真標本,能近距離觀察地球上的生 物多樣性。(建議停留 20~30 分鐘)</li>
+                  <li>隼鳥(Hayabusa)返回艙:展示日本小行 星探測器實際返回艙,是館內熱門展品之一。</li>
+                  <li>THEATER 360°:約 6 分鐘的360度球幕 劇場,免費參觀,採現場排隊,若排隊人潮不多 值得體驗</li>
+                  <li>科學體驗設施:設有多項互動式科學儀器, 讓孩子在遊玩中學習基礎科學知識</li>
+                </ul>
+                <p>Option：若累了可於上野公園樹下稍作休息，並於上野站或公園周邊購買冰品、飲料；或欣賞國立西洋美術館（国立西洋美術館）外觀拍照即可，不需入館。</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="attraction">
+
+      <!-- Slot 9 -->
+      <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d3-8" onchange="toggleCheck('item-d3-8')">
@@ -2119,33 +2095,21 @@
         </div>
         <div class="timeline-card" id="card-item-d3-8">
           <div class="card-header">
-            <span class="card-time">13:25－15:25</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+            <span class="card-time">15:25 - 15:40</span>
+            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
           </div>
           <h3 class="card-title">
-            國立科學博物館(国立科学博物館)
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🦕 國立科學博物館" target="_blank">📍 導航</a>
+            離開國立科學博物館
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=御徒町駅" target="_blank">🚃 導航</a>
           </h3>
           <div class="card-body">
-            <p>> * 建議路線：地球館 B1(恐龍化石) → 地球 館 3F(動物標本)→ 隼鳥(Hayabusa)返回 艙 → THEATER 360°(依現場人潮決定) 日本館(自然史)</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-8')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>建議路線：地球館 B1(恐龍化石) → 地球 館 3F(動物標本)→ 隼鳥(Hayabusa)返回 艙 → THEATER 360°(依現場人潮決定) 日本館(自然史)</p>
-<ul class="original-list">
-<li>恐龍化石展:位於地球館 B1,展示巨大恐 龍骨骸與演化史,是小朋友的最愛。(建議停留 30\~40 分鐘)</li>
-<li>動物區:位於地球館 3F,展示大型哺乳 類、鳥類等逼真標本,能近距離觀察地球上的生 物多樣性。(建議停留 20\~30 分鐘)</li>
-<li>隼鳥(Hayabusa)返回艙:展示日本小行 星探測器實際返回艙,是館內熱門展品之一。</li>
-<li>THEATER 360°:約 6 分鐘的360度球幕 劇場,免費參觀,採現場排隊,若排隊人潮不多 值得體驗</li>
-<li>科學體驗設施:設有多項互動式科學儀器, 讓孩子在遊玩中學習基礎科學知識</li>
-</ul>
-<p>Option：若累了可於上野公園樹下稍作休息，並於上野站或公園周邊購買冰品、飲料；或欣賞國立西洋美術館（国立西洋美術館）外觀拍照即可，不需入館。</p>
-</div>
-            </div>
+            <p>慢慢步行往御徒町站方向，不趕行程。</p>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="attraction">
+
+      <!-- Slot 10 -->
+      <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d3-9" onchange="toggleCheck('item-d3-9')">
@@ -2155,23 +2119,22 @@
         </div>
         <div class="timeline-card" id="card-item-d3-9">
           <div class="card-header">
-            <span class="card-time">15:25－15:40</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+            <span class="card-time">16:00 - 16:30</span>
+            <div class="card-tags"><span class="tag tag-food">美食</span></div>
           </div>
           <h3 class="card-title">
-            🚶‍♂️ 離開國立科學博物館(国立科学博物館)
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚶‍♂️ 離開國立科學博物館" target="_blank">📍 導航</a>
+            晚餐 or 點心：鴨 to 蔥拉麵
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=らーめん+鴨to葱+御徒町本店"
+              target="_blank">🍽️ 導航</a>
           </h3>
           <div class="card-body">
-            <p>慢慢步行往御徒町站(御徒町駅)方向，不趕行程。</p>
-            
-            <div class="original-content-holder" style="display: none;">
-              <p class="original-p">慢慢步行往御徒町站(御徒町駅)方向，不趕行程。</p>
-            </div>
+            <p>主打香濃鴨肉醬油拉麵。<strong>規則：排隊在 3 組內就吃；超過直接跳過</strong>，將名額留給阿美橫丁或秋葉原晚餐，不耗費站立體力。</p>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="food">
+
+      <!-- Slot 11 -->
+      <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d3-10" onchange="toggleCheck('item-d3-10')">
@@ -2181,23 +2144,58 @@
         </div>
         <div class="timeline-card" id="card-item-d3-10">
           <div class="card-header">
-            <span class="card-time">16:00</span>
-            <div class="card-tags"><span class="tag tag-food">美食</span></div>
+            <span class="card-time">16:40 - 17:40</span>
+            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
           </div>
           <h3 class="card-title">
-            晚餐 or 點心：鴨 to 蔥拉麵
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🍜 晚餐 or 點心：鴨 to 蔥拉麵" target="_blank">📍 導航</a>
+            阿美橫丁(アメ横)採買
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=アメ横" target="_blank">🛒 導航</a>
           </h3>
           <div class="card-body">
-            <p>主打香濃鴨肉醬油拉麵。<strong>規則：排隊在 3 組內就吃；超過直接跳過</strong>，將名額留給阿美橫丁或秋葉原晚餐，不耗費站立體力。</p>
+            <p><strong>必掃店家與名產：</strong><br>二木菓子（<a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=二木の菓子+第一営業所" target="_blank">🛒 導航</a>
+              掃零食，Calbee、干貝糖）；OS Drug（<a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=OSドラッグ+上野店" target="_blank">🛒 導航</a>
+              藥妝價格之冠）；街邊小吃（肉の大山<a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=肉の大山+上野店" target="_blank">🍽️ 導航</a>、みなとや章魚燒<a
+                class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=みなとや+食品"
+                target="_blank">🍽️ 導航</a>）；多慶屋（<a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=多慶屋+TAKEYA+4" target="_blank">🛒 導航</a> 紫色商場備案）。
+            </p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-10')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
-              <p class="original-p">規則： 排隊 ≤ 3 組就吃 <strong>鴨 to 蔥拉麵 (御徒町本店)</strong> (らーめん 鴨 to 葱) 享用鴨肉拉麵（推薦：鴨蔥醬油拉麵、親子丼），人均約 ¥1,000～¥1,500，超過 3 組直接放棄，前往阿美橫町(アメ横)。</p>
+              <div class="original-quote">
+                <p>建議路線：二木菓子 ➔ OS Drug/松本清 ➔ 街邊美食區 ➔ 多慶屋 (備案)</p>
+                <p>景點與商店說明：</p>
+                <ul class="original-list">
+                  <li><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=二木の菓子+第一営業所"
+                      target="_blank">🛒 導航</a> 二木菓子 (二木の菓子)：規模宏大的零食專賣店，種類極多且價格極具競爭力。可刷卡，可退稅。
+                    <ul>
+                      <li>⭐⭐⭐ 必買：提拉米蘇巧克力、東京限定 KitKat、Royce 洋芋片巧克力、干貝糖、龍角散喉糖</li>
+                      <li>⭐⭐ 很推薦：Calbee 薯條三兄弟、北海道起司米果、各式日本限定洋芋片、大包裝巧克力</li>
+                    </ul>
+                  </li>
+                  <li><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=OSドラッグ+上野店"
+                      target="_blank">🛒 導航</a> 藥妝店 OS Drug Ueno：以現金交易為主，是當地藥妝與民生用品的價格指標店。</li>
+                  <li>街邊美食：可品嚐章魚燒、鯛魚燒、烤干貝或新鮮水果串，體驗在地市集樂趣。
+                    <ul>
+                      <li><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=肉の大山+上野店"
+                          target="_blank">🍽️ 導航</a> 肉の大山 上野店：和牛炸肉餅、可樂餅</li>
+                      <li><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=みなとや+食品"
+                          target="_blank">🍽️ 導航</a> 大章魚燒みなとや：大章魚燒</li>
+                    </ul>
+                  </li>
+                  <li><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=多慶屋+TAKEYA+4"
+                      target="_blank">🛒 導航</a> 多慶屋 (備案)：知名的紫色大樓綜合商場，若在阿美橫丁沒買齊生活用品可來此補貨。</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="attraction">
+
+      <!-- Slot 12 -->
+      <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d3-11" onchange="toggleCheck('item-d3-11')">
@@ -2207,130 +2205,47 @@
         </div>
         <div class="timeline-card" id="card-item-d3-11">
           <div class="card-header">
-            <span class="card-time">16:40－17:40</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+            <span class="card-time">18:00 - 20:00</span>
+            <div class="card-tags"><span class="tag tag-food">美食</span></div>
           </div>
           <h3 class="card-title">
-            🛍️ 阿美橫丁(アメ横)採買
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🛍️ 阿美橫丁" target="_blank">📍 導航</a>
+            返回淺草橋 (晚餐安排)
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=ローストビーフ大野+秋葉原店"
+              target="_blank">🍽️ 導航</a>
           </h3>
           <div class="card-body">
-            <p><a class="map-link-inline" href="https://www.klook.com/zh-TW/blog/ameyoko-guide/?utm_source=chatgpt.com" target="_blank">阿美橫丁介紹文章 🔗</a>、<a class="map-link-inline" href="https://bobbytravel.tw/ameya-yokocho/?utm_source=chatgpt.com" target="_blank">介紹文2 🔗</a>、</p>
+            <p>搭電車返回淺草橋，順路買 <a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=MIYABI+CAFE+浅草橋店" target="_blank">🍞 導航</a>
+              <strong>MIYABI CAFE</strong> 丹麥吐司作早餐。晚餐吃 <a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=ローストビーフ大野+秋葉原店" target="_blank">🍽️ 導航</a>
+              <strong>烤牛肉大野 (秋葉原店)</strong>。<br>備案：<a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=名代+宇奈とと+上野店" target="_blank">🍽️ 導航</a> 名代 宇奈と防
+              上野店 或 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=九州じゃんがら+秋葉原本店"
+                target="_blank">🍜 導航</a> <strong>九州じゃんがら拉麵</strong>。宵夜可吃 <a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=東京ミルクチーズ工場+Cow+Cow+Kitchen+アトレ秋葉原1店"
+                target="_blank">🧁 導航</a> <strong>Cow Cow Kitchen</strong>。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-11')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
-              <p class="original-p"><a class="map-link-inline" href="https://www.klook.com/zh-TW/blog/ameyoko-guide/?utm_source=chatgpt.com" target="_blank">阿美橫丁介紹文章 🔗</a>、<a class="map-link-inline" href="https://bobbytravel.tw/ameya-yokocho/?utm_source=chatgpt.com" target="_blank">介紹文2 🔗</a>、</p>
-<p class="original-p">建議路線：二木菓子 ➔ OS Drug/松本清 ➔ 街邊美食區 ➔ 多慶屋 (備案)</p>
-<p class="original-p">景點與商店說明：</p>
-<div class="original-quote">
-<p>二木菓子 (二木の菓子)：規模宏大的零食專賣店，種類極多且價格極具競爭力。可刷卡，可退稅。<a class="map-link-inline" href="https://bobbytravel.tw/niki-no-kashi/" target="_blank">介紹文1 🔗</a>、<a class="map-link-inline" href="https://yukigo.tw/nikinokashi/" target="_blank">介紹文2 🔗</a>、<a class="map-link-inline" href="https://bobbytravel.tw/japan-souvenir/#%E5%BF%85%E6%8E%83%E6%97%A5%E6%9C%AC%E9%9B%B6%E9%A3%9F%E3%80%81%E6%9E%9C%E5%87%8D%E3%80%81%E6%B3%A1%E9%BA%B5" target="_blank">日本必掃日本零食 🔗</a>、</p>
-<ul class="original-list">
-<li>⭐⭐⭐ 必買：提拉米蘇巧克力、東京限定 KitKat、Royce 洋芋片巧克力、干貝糖</li>
-</ul>
-<p>、龍角散喉糖</p>
-<ul class="original-list">
-<li>⭐⭐ 很推薦：Calbee 薯條三兄弟、北海道起司米果</li>
-</ul>
-<p>、各式日本限定洋芋片、大包裝巧克力（分送同事 CP 值高）</p>
-<p>藥妝店 OS Drug Ueno：以現金交易為主，是當地藥妝與民生用品的價格指標店。</p>
-<ul class="original-list">
-<li>TODO: 建議購買的項目</li>
-<li><a class="map-link-inline" href="https://bobbytravel.tw/japan-souvenir/" target="_blank">藥妝攻略1 🔗</a>、</li>
-</ul>
-<p>街邊美食：可品嚐章魚燒、鯛魚燒、烤干貝或新鮮水果串，體驗在地市集樂趣。</p>
-<ul class="original-list">
-<li><a class="map-link-inline" href="https://goo.gl/maps/s7agDNYTQ7fzNMRy5" target="_blank">肉の大山 上野店 🔗</a>：和牛炸肉餅、可樂餅</li>
-<li><a class="map-link-inline" href="https://goo.gl/maps/o13LtXrkcERHJcVYA" target="_blank">大章魚燒みなとや 🔗</a>：大章魚燒</li>
-</ul>
-<p>多慶屋 (備案)：知名的紫色大樓綜合商場，若在阿美橫丁沒買齊生活用品可來此補貨。</p>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="transport">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d3-12" onchange="toggleCheck('item-d3-12')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d3-12">
-          <div class="card-header">
-            <span class="card-time">18:00</span>
-            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
-          </div>
-          <h3 class="card-title">
-            🚆 返回淺草橋
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚆 返回淺草橋" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * JR 御徒町站(JR 御徒町駅) ➔ JR 山手線 ➔ JR 秋葉原站(JR 秋葉原駅) ➔ 轉乘 JR 中央・總武線 1 站至 淺草橋站(浅草橋駅)。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-12')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
               <div class="original-quote">
-<p>JR 御徒町站(JR 御徒町駅) ➔ JR 山手線 ➔ JR 秋葉原站(JR 秋葉原駅) ➔ 轉乘 JR 中央・總武線 1 站至 淺草橋站(浅草橋駅)。</p>
-<p>出站步行回飯店途中，順路至人氣烘焙坊 RusaRuka(ルサルカ) (若在秋葉原順路) 外帶精緻麵包作為隔天早餐，隨後回飯店放戰利品、稍作休息。</p>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="food">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d3-13" onchange="toggleCheck('item-d3-13')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d3-13">
-          <div class="card-header">
-            <span class="card-time">19:00</span>
-            <div class="card-tags"><span class="tag tag-food">美食</span></div>
-          </div>
-          <h3 class="card-title">
-            晚餐（若下午沒吃鴨 to 蔥拉麵）
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🍽️ 晚餐（若下午沒吃鴨 to 蔥拉麵）" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 首選餐廳：<strong>烤牛肉大野 (秋葉原店)</strong> 享用炙燒烤牛肉丼（推薦：A4黑毛和牛烤牛肉丼），人均約 ¥1,500～¥2,500。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-13')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>首選餐廳：<strong>烤牛肉大野 (秋葉原店)</strong> 享用炙燒烤牛肉丼（推薦：A4黑毛和牛烤牛肉丼），人均約 ¥1,500～¥2,500。</p>
-<p>備案餐廳：<a class="map-link-inline" href="https://goo.gl/maps/qGvbhoNgapgN5h319" target="_blank">名代 宇奈とと 上野店 🔗</a>，鰻魚飯 小碗 ¥640</p>
-<p>備案餐廳：<strong>九州じゃんがら (秋葉原本店)</strong> 享用濃厚豚骨拉麵（推薦：九州じゃんがら拉麵、角煮拉麵），人均約 ¥900～¥1,300。</p>
-<p>備案餐廳：<strong>壽司郎 (秋葉原站前店)</strong> 享用迴轉壽司（推薦：鮪魚中腹、鮭魚卵），人均約 ¥1,000～¥2,000。</p>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="food">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d3-14" onchange="toggleCheck('item-d3-14')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d3-14">
-          <div class="card-header">
-            <span class="card-time">19:30</span>
-            <div class="card-tags"><span class="tag tag-food">美食</span></div>
-          </div>
-          <h3 class="card-title">
-            🍩 宵夜／點心（若下午已吃鴨 to 蔥拉麵）
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🍩 宵夜／點心（若下午已吃鴨 to 蔥拉麵）" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 選項 (宵夜/點心)：<strong>Cow Cow Kitchen (秋葉原店)</strong> 享用現烤甜點（推薦：牛奶泡芙），人均約 ¥300～¥500。</p>
-            
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>選項 (宵夜/點心)：<strong>Cow Cow Kitchen (秋葉原店)</strong> 享用現烤甜點（推薦：牛奶泡芙），人均約 ¥300～¥500。</p>
-</div>
+                <p>18:00 🚆 返回淺草橋： JR 御徒町站(JR 御徒町駅) ➔ JR 山手線 ➔ JR 秋葉原站(JR 秋葉原駅) ➔ 轉乘 JR 中央・總武線 1 站至
+                  淺草橋站(浅客橋駅)。出站步行回飯店途中，順路至 <a class="map-link-inline"
+                    href="https://www.google.com/maps/search/?api=1&query=MIYABI+CAFE+浅草橋店" target="_blank">🍞 導航</a>
+                  <strong>MIYABI CAFE (淺草橋店)</strong> 外帶精緻丹麥麵包作為隔天早餐（註：原行程所列 RusaRuka
+                  僅在自由之丘設有鬆餅店，此處替換為淺草橋站在地名店），隨後回飯店休息。</p>
+                <p>19:00 🍽️ 晚餐（若下午沒吃鴨 to 蔥拉麵）：</p>
+                <ul class="original-list">
+                  <li>首選餐廳：<a class="map-link-inline"
+                      href="https://www.google.com/maps/search/?api=1&query=ローストビーフ大野+秋葉原店" target="_blank">🍽️ 導航</a>
+                    <strong>烤牛肉大野 (秋葉原店)</strong> 享用炙燒烤牛肉丼（推薦：A4黑毛和牛烤牛肉丼），人均約 ¥1,500～¥2,500。</li>
+                  <li>備案餐廳：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=名代+宇奈とと+上野店"
+                      target="_blank">🍽️ 導航</a> <strong>名代 宇奈とと 上野店</strong> 享用平價鰻魚飯（小碗 ¥640）。</li>
+                  <li>備案餐廳：<a class="map-link-inline"
+                      href="https://www.google.com/maps/search/?api=1&query=九州じゃんがら+秋葉原本店" target="_blank">🍜 導航</a>
+                    <strong>九州じゃんがら (秋葉原本店)</strong> 享用濃厚豚骨拉麵（推薦：角煮拉麵），人均約 ¥900～¥1,300。</li>
+                  <li>備案餐廳：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=スシロー+秋葉原駅前店"
+                      target="_blank">🍣 導航</a> <strong>壽司郎 (秋葉原站前店)</strong> 享用迴轉壽司，人均約 ¥1,000～¥2,000。</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -2339,6 +2254,7 @@
 
     <!-- Day 4 Section -->
     <div class="day-section" id="day4-section" style="display: none;">
+      <!-- Slot 1 -->
       <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper">
@@ -2349,23 +2265,28 @@
         </div>
         <div class="timeline-card" id="card-item-d4-0">
           <div class="card-header">
-            <span class="card-time">08:50－09:35</span>
+            <span class="card-time">08:50 - 09:35</span>
             <div class="card-tags"><span class="tag tag-transport">交通</span></div>
           </div>
           <h3 class="card-title">
             前往三鷹
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚇 前往三鷹" target="_blank">📍 導航</a>
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=三鷹駅" target="_blank">📍 導航</a>
           </h3>
           <div class="card-body">
             <p>淺草橋 ➔ 御茶之水 (總武線)。<strong>在御茶之水站「月台正對面」無縫平行換乘</strong> JR 中央線快速直達三鷹站，省下 15 分鐘。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d4-0')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
-              <p class="original-p">交通：JR 淺草橋站(浅草橋駅) ➔ 搭乘 JR 中央・總武線 (黃色列車) 至「御茶之水站(御茶ノ水駅)」，於同月台直接走到對面，平行轉乘 JR 中央線快速 (橘色列車)(JR中央線快速) 前往 三鷹站(三鷹駅)（利用同月台無縫轉乘快車，比各站停車節省將近 15 分鐘）。</p>
+              <div class="original-quote">
+                <p>交通：JR 淺草橋站(浅草橋駅) ➔ 搭乘 JR 中央・總武線 (黃色列車) 至「御茶之水站(御茶ノ水駅)」，於同月台直接走到對面，平行轉乘 JR 中央線快速 (橘色列車)(JR中央線快速) 前往
+                  三鷹站(三鷹駅)（利用同月台無縫轉乘快車，比各站停車節省將近 15 分鐘）。</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="attraction">
+
+      <!-- Slot 2 -->
+      <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d4-1" onchange="toggleCheck('item-d4-1')">
@@ -2375,22 +2296,21 @@
         </div>
         <div class="timeline-card" id="card-item-d4-1">
           <div class="card-header">
-            <span class="card-time">09:35－09:50</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+            <span class="card-time">09:35 - 09:50</span>
+            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
           </div>
           <h3 class="card-title">
             吉卜力接駁巴士
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚌 吉卜力接駁巴士" target="_blank">📍 導航</a>
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=三鷹駅南口+9番のりば" target="_blank">🚌
+              導航</a>
           </h3>
           <div class="card-body">
             <p>三鷹站南口 9 號公車站搭乘彩繪接駁巴士前往美術館。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d4-1')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <p class="original-p">三鷹站南口 (三鷹駅南口) 9 號公車站 ➔ 吉卜力美術館 (三鷹の森ジブリ美術館)（約 5 分鐘）。</p>
-            </div>
           </div>
         </div>
       </div>
+
+      <!-- Slot 3 -->
       <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper">
@@ -2401,22 +2321,27 @@
         </div>
         <div class="timeline-card" id="card-item-d4-2">
           <div class="card-header">
-            <span class="card-time">09:50－12:15</span>
+            <span class="card-time">09:50 - 12:15</span>
             <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
           </div>
           <h3 class="card-title">
-            三鷹之森吉卜力美術館 (三鷹の森ジブリ美術館)
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🌳 三鷹之森吉卜力美術館 " target="_blank">📍 導航</a>
+            三鷹之森吉卜力美術館
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=三鷹の森ジブリ美術館" target="_blank">📍
+              導航</a>
           </h3>
           <div class="card-body">
             <p>參觀吉卜力美術館（大龍貓售票亭、龍貓接駁巴士、屋頂天空之城巨神兵機械人）。已購票 10:00 入場。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d4-2')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
-              <p class="original-p">參觀重點：先看貓巴士 (ネコバス) ➔ 土星座動畫 (土星座) ➔ 屋頂機器人士兵 (屋上庭園 巨神兵)。建議：不用趕行程，慢慢體驗。</p>
+              <div class="original-quote">
+                <p>參觀重點：先看貓巴士 (ネコバス) ➔ 土星座動畫 (土星座) ➔ 屋頂機器人士兵 (屋上庭園 巨神兵)。建議：不用趕行程，慢慢體驗。</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Slot 4 -->
       <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper">
@@ -2427,25 +2352,33 @@
         </div>
         <div class="timeline-card" id="card-item-d4-3">
           <div class="card-header">
-            <span class="card-time">12:15－12:50</span>
+            <span class="card-time">12:15 - 12:50</span>
             <div class="card-tags"><span class="tag tag-transport">交通</span></div>
           </div>
           <h3 class="card-title">
-            🚶‍♂️ 前往吉祥寺(吉祥寺)（Plan A 直達公車 / Plan B 林蔭散步）
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚌🚶‍♂️ 前往吉祥寺" target="_blank">📍 導航</a>
+            前往吉祥寺
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=吉祥寺駅" target="_blank">📍 導航</a>
           </h3>
           <div class="card-body">
-            <p>> * ✅ Plan A（強烈建議：防中暑直達公車）： 離開美術館後，直接走到旁邊的「萬助橋(万助橋)」或「明星學園入口(明星学園入口)」公車站牌，搭乘小田急巴士(小田急バス)或關東巴士(関東バス)直達 吉祥寺站南口(吉祥寺駅南口)（車程約 5 分鐘，班次極多）。完美避開 8 月正中午徒步 1.5 公里的熱衰竭風險，保留體力給下午的逛街行程。</p>
+            <p><strong>首選 Plan A (防中暑公車)：</strong>美術館旁的「萬助橋」站牌直接坐公車直達吉祥寺站南口（5 分鐘）。避開正午曬傷風險。<br><strong>備案 Plan B
+                (涼爽散步)：</strong>走林蔭步道穿過「井之頭恩賜公園」（<a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=井の頭恩賜公園" target="_blank">📍 導航</a>），可在井之頭池（<a
+                class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=井の頭池" target="_blank">📍
+                導航</a>）畔合影。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d4-3')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
               <div class="original-quote">
-<p>✅ Plan A（強烈建議：防中暑直達公車）： 離開美術館後，直接走到旁邊的「萬助橋(万助橋)」或「明星學園入口(明星学園入口)」公車站牌，搭乘小田急巴士(小田急バス)或關東巴士(関東バス)直達 吉祥寺站南口(吉祥寺駅南口)（車程約 5 分鐘，班次極多）。完美避開 8 月正中午徒步 1.5 公里的熱衰竭風險，保留體力給下午的逛街行程。</p>
-<p>✅ Plan B（天氣涼爽備案：井之頭恩賜公園(井の頭恩賜公園)林蔭散步）： 若當天微風涼爽且全家體力充沛，可選擇一路往下坡走往吉祥寺方向，樹蔭多、湖景漂亮。途中於 井之頭池(井の頭池) 停留約 10～15 分鐘拍照、欣賞湖景，但不建議租船（因後面還有行程）。</p>
-</div>
+                <p>✅ Plan A（強烈建議：防中暑直達公車）： 離開美術館後，直接走到旁邊的「萬助橋(万助橋)」或「明星學園入口(明星学園入口)」公車站牌，搭乘小田急巴士(小田急バス)或關東巴士(関東バス)直達
+                  吉祥寺站南口(吉祥寺駅南口)（車程約 5 分鐘，班次極多）。完美避開 8 月正中午徒步 1.5 公里的熱衰竭風險，保留體力給下午的逛街行程。</p>
+                <p>✅ Plan B（天氣涼爽備案：井之頭恩賜公園(井の頭恩賜公園)林蔭散步）： 若當天微風涼爽且全家體力充沛，可選擇一路往下坡走往吉祥寺方向，樹蔭多、湖景漂亮。途中於 井之頭池(井之頭池) 停留約
+                  10～15 分鐘拍照、欣賞湖景，但不建議租船（因後面還有行程）。</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Slot 5 -->
       <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper">
@@ -2456,27 +2389,32 @@
         </div>
         <div class="timeline-card" id="card-item-d4-4">
           <div class="card-header">
-            <span class="card-time">13:00－14:10</span>
+            <span class="card-time">13:00 - 14:10</span>
             <div class="card-tags"><span class="tag tag-food">美食</span></div>
           </div>
           <h3 class="card-title">
-            午餐：大戶屋 (大戶屋ごはん處 吉祥寺店)
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🍽️ 午餐：大戶屋 " target="_blank">📍 導航</a>
+            午餐：大戶屋
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=大戸屋+吉祥寺店" target="_blank">🍽️
+              導航</a>
           </h3>
           <div class="card-body">
-            <p>> * 首選餐廳：<strong>大戶屋 (吉祥寺店)</strong> 享用定食（推薦：烤魚定食、雞肉野菜定食），人均約 ¥1,000～¥1,500。</p>
+            <p>首選餐廳：<strong>大戶屋 吉祥寺店</strong>。備案：Kirarina 商場 9 樓 <strong>手打烏龍麵 杵屋</strong>（<a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=実演手打ちうどん+杵屋+吉祥寺キラリーナ店" target="_blank">🍽️
+                導航</a>）環境舒適不用曬太陽。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d4-4')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
               <div class="original-quote">
-<p>首選餐廳：<strong>大戶屋 (吉祥寺店)</strong> 享用定食（推薦：烤魚定食、雞肉野菜定食），人均約 ¥1,000～¥1,500。</p>
-<p>若星期日中午現場大排長龍，直接帶全家移步至吉祥寺車站共構的 Kirarina 商場 9 樓餐廳街，享用環境舒適、不用曬太陽的 <strong>手打烏龍麵 杵屋</strong></p>
-<p>備案餐廳：<strong>手打烏龍麵 杵屋 (吉祥寺Kirarina店)</strong> 享用烏龍麵（推薦：炸蝦烏龍麵、冷麵），人均約 ¥1,000～¥1,500。</p>
-</div>
+                <p>首選餐廳：<strong>大戶屋 (吉祥寺店)</strong> 享用定食（推薦：烤魚定食、雞肉野菜定食），人均約 ¥1,000～¥1,500。</p>
+                <p>若星期日中午現場大排長龍，直接帶全家移步至吉祥寺車站共構的 Kirarina 商場 9 樓餐廳街，享用環境舒適、不用曬太陽的 <strong>手打烏龍麵 杵屋</strong></p>
+                <p>備案餐廳：<strong>手打烏龍麵 杵屋 (吉祥寺Kirarina店)</strong> 享用烏龍麵（推薦：炸蝦烏龍麵、冷麵），人均約 ¥1,000～¥1,500。</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="food">
+
+      <!-- Slot 6 -->
+      <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d4-5" onchange="toggleCheck('item-d4-5')">
@@ -2486,35 +2424,42 @@
         </div>
         <div class="timeline-card" id="card-item-d4-5">
           <div class="card-header">
-            <span class="card-time">14:10－16:50</span>
-            <div class="card-tags"><span class="tag tag-food">美食</span></div>
+            <span class="card-time">14:10 - 16:50</span>
+            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
           </div>
           <h3 class="card-title">
-            🛍️ 吉祥寺商圈慢活 \+ 下午茶：SATOU 炸牛肉丸
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🛍️ 吉祥寺商圈慢活 \+ 下午茶：SATOU 炸牛肉丸" target="_blank">📍 導航</a>
+            吉祥寺商圈風格散策
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=吉祥寺サンロード商店街" target="_blank">🛒
+              導航</a>
           </h3>
           <div class="card-body">
-            <p>> * 吉祥寺 Sunroad 商店街 (吉祥寺サンロード商店街)：</p>
+            <p>逛 Sunroad 商店街（<a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=吉祥寺サンロード商店街" target="_blank">🛒 導航</a>），主力造訪
+              Loft、無印良品、大創及藥妝店，感受哈莫尼卡橫丁（<a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=ハーモニカ横丁" target="_blank">📍 導航</a>）昭和巷弄。排隊 10 人以下買
+              SATOU 炸牛肉丸（<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=吉祥寺さとう"
+                target="_blank">🍽️ 導航</a>）。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d4-5')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
               <div class="original-quote">
-<p>吉祥寺 Sunroad 商店街 (吉祥寺サンロード商店街)：</p>
-<ul class="original-list">
-<li>主要逛 Loft (ロフト)、無印良品 (無印良品)、大創 (ダイソー)、藥妝。</li>
-<li>Loft / 無印良品：大規模的旗艦空間，是挑選日式文具、美妝與居家質感好物的主場。</li>
-</ul>
-<p>Option： 哈莫尼卡橫丁 (ハーモニカ横丁)。具昭和風情小巷，非常有特色，建議停留 20 分鐘。</p>
-<p>15:20－15:50 🍘 下午茶:</p>
-<ul class="original-list">
-<li>SATOU 炸牛肉丸 (サトウのメンチカツ)</li>
-<li>規則： 排隊 10 人以下就買，超過則直接放棄，不用浪費時間。</li>
-<li>當地超人氣排隊美食，以黑毛和牛製作，外皮酥脆且肉汁橫溢。</li>
-</ul>
-</div>
+                <p>吉祥寺 Sunroad 商店街 (吉祥寺サンロード商店街)：</p>
+                <ul class="original-list">
+                  <li>主要逛 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=ロフト+吉祥寺店"
+                      target="_blank">🏬 導航</a> Loft (ロフト)、<a class="map-link-inline"
+                      href="https://www.google.com/maps/search/?api=1&query=無印良品+丸井吉祥寺" target="_blank">🏬 導航</a> 無印良品
+                    (無印良品)、<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=ダイソー+吉祥寺"
+                      target="_blank">🏬 導航</a> 大創 (ダイソー)、藥妝。</li>
+                  <li>Loft / 無印良品：大規模的旗艦空間，是挑選日式文具、美妝與居家質感好物的主場。</li>
+                </ul>
+                <p>Option： <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=ハーモニカ横丁"
+                    target="_blank">📍 導航</a> 哈莫尼卡橫丁 (ハーモニカ横丁)。具昭和風情小巷，非常有特色，建議停留 20 分鐘。</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Slot 6.5 -->
       <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper">
@@ -2525,29 +2470,31 @@
         </div>
         <div class="timeline-card" id="card-item-d4-6">
           <div class="card-header">
-            <span class="card-time">17:00－18:30</span>
+            <span class="card-time">17:00 - 18:30</span>
             <div class="card-tags"><span class="tag tag-food">美食</span></div>
           </div>
           <h3 class="card-title">
             晚餐：串家物語
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🍽️ 晚餐：串家物語" target="_blank">📍 導航</a>
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=串家物語+吉祥寺店" target="_blank">🍽️
+              導航</a>
           </h3>
           <div class="card-body">
-            <p>預約 17:00 <strong>串家物語 吉祥寺店</strong>，全家享受 DIY 炸串樂趣。<br>備案：大阪王將吉祥寺店（<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=大阪王将+吉祥寺店" target="_blank">🍽️ 導航</a>）或 杵屋烏龍麵。</p>
+            <p>預約 17:00 <strong>串家物語 吉祥寺店</strong>，全家享受 DIY 炸串樂趣。<br>備案：大阪王將吉祥寺店（<a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=大阪王将+吉祥寺店" target="_blank">🍽️ 導航</a>）或 杵屋烏龍麵。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d4-6')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
               <div class="original-quote">
-<p>首選餐廳：<strong>串家物語 (吉祥寺店)</strong> (已訂位,17:00)享用DIY炸串（推薦：各式肉類與蔬菜串炸），人均約 ¥2,000～¥3,000。</p>
-<ul class="original-list">
-<li>建議：事先預約 17:00，可避開週末晚餐尖峰時段。</li>
-</ul>
-<p>備案餐廳：<strong>大阪王將 (吉祥寺店)</strong> 享用中華料理（推薦：元祖煎餃、天津飯），人均約 ¥800～¥1,200。</p>
-<p>備案餐廳：<strong>手打烏龍麵 杵屋 (吉祥寺Kirarina店)</strong> 享用烏龍麵（推薦：炸蝦烏龍麵、冷麵），人均約 ¥1,000～¥1,500。</p>
-</div>
+                <p>首選餐廳：<strong>串家物語 (吉祥寺店)</strong> (已訂位,17:00)享用DIY炸串（推薦：各式肉類與蔬菜串炸），人均約 ¥2,000～¥3,000。</p>
+                <p>建議：事先預約 17:00，可避開週末晚餐尖峰時段。</p>
+                <p>備案餐廳：<strong>大阪王將 (吉祥寺店)</strong> 享用中華料理（推薦：元祖煎餃、天津飯），人均約 ¥800～¥1,200。</p>
+                <p>備案餐廳：<strong>手打烏龍麵 杵屋 (吉祥寺Kirarina店)</strong> 享用烏龍麵（推薦：炸蝦烏龍麵、冷麵），人均約 ¥1,000～¥1,500。</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Slot 7 -->
       <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper">
@@ -2558,49 +2505,25 @@
         </div>
         <div class="timeline-card" id="card-item-d4-7">
           <div class="card-header">
-            <span class="card-time">18:30－19:20</span>
+            <span class="card-time">18:30 - 19:20</span>
             <div class="card-tags"><span class="tag tag-transport">交通</span></div>
           </div>
           <h3 class="card-title">
-            🚆 返回淺草橋
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚆 返回淺草橋" target="_blank">📍 導航</a>
+            返回淺草橋
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=吉祥寺駅" target="_blank">🚃 導航</a>
           </h3>
           <div class="card-body">
-            <p>> * 進站前，先於車站商場順路至 Jyonetsu Bakery(Jyonetsu Bakery) 外帶招牌職人麵包作為隔天早餐（晚餐後再買可避免麵包吸附餐廳油煙味）。</p>
+            <p>進站前外帶「Antendo」（<a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=アンテンドゥ+アトレ吉祥寺店" target="_blank">🍞
+                導航</a>）人氣麵包。搭慢車直達淺草橋，或搭中央快速線到御茶之水站同月台換總武線。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d4-7')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
               <div class="original-quote">
-<p>進站前，先於車站商場順路至 Jyonetsu Bakery(Jyonetsu Bakery) 外帶招牌職人麵包作為隔天早餐（晚餐後再買可避免麵包吸附餐廳油煙味）。</p>
-<p>交通 轉乘方案：搭乘 JR 中央線快速 (橘色列車)(JR中央線快速) 至「御茶之水站(御茶ノ水駅)」，於同月台直接走到對面，平行轉乘 JR 總武線 (黃色列車)(JR総武線) 返回 淺草橋站(浅草橋駅)。(車程約34分鐘)</p>
-<p>交通 直達可休息方案：JR 吉祥寺站(吉祥寺駅) ➔ 搭乘 JR 中央・總武線 (黃色列車)(JR中央・総武線) 直達 JR 淺草橋站(浅草橋駅)（各站停車免轉車，約 45 分鐘）。</p>
-<p>⚠️ 轉乘提醒：吉祥寺站同時有 JR 和京王電鐵（井之頭線）。返程時請務必確保前往 JR 剪票口，不要誤入京王電鐵閘門。只要認明 JR 的「綠色招牌」或「JR」Logo 即可，並確認是搭乘往「秋葉原/千葉」方向的黃色列車。</p>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="stay">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d4-8" onchange="toggleCheck('item-d4-8')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d4-8">
-          <div class="card-header">
-            <span class="card-time">19:20</span>
-            <div class="card-tags"><span class="tag tag-stay">住宿</span></div>
-          </div>
-          <h3 class="card-title">
-            回飯店休息
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🏨 回飯店休息" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p></p>
-            
-            <div class="original-content-holder" style="display: none;">
-              
+                <p>進站前，先於吉祥寺車站 Atre 商場順路至 <a class="map-link-inline"
+                    href="https://www.google.com/maps/search/?api=1&query=アンテンドゥ+アトレ吉祥寺店" target="_blank">🍞 導航</a>
+                  <strong>Antendo (Boulangerie Antendo)</strong> 外帶招牌職人麵包作為隔天早餐（註：原行程所列 Jyonetsu Bakery
+                  在吉祥寺無此店，在此替換為吉祥寺車站共構的知名麵包店 Antendo），晚餐後再買可避免麵包吸附餐廳油煙味。</p>
+              </div>
             </div>
           </div>
         </div>
@@ -2609,7 +2532,8 @@
 
     <!-- Day 5 Section -->
     <div class="day-section" id="day5-section" style="display: none;">
-      <div class="timeline-item" data-category="food">
+      <!-- Slot 1 -->
+      <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d5-0" onchange="toggleCheck('item-d5-0')">
@@ -2619,23 +2543,27 @@
         </div>
         <div class="timeline-card" id="card-item-d5-0">
           <div class="card-header">
-            <span class="card-time">07:50－08:15</span>
-            <div class="card-tags"><span class="tag tag-food">美食</span></div>
+            <span class="card-time">08:15 - 08:35</span>
+            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
           </div>
           <h3 class="card-title">
-            🍳 早餐
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🍳 早餐" target="_blank">📍 導航</a>
+            前往淺草
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=浅草駅" target="_blank">🚃 導航</a>
           </h3>
           <div class="card-body">
-            <p>飯店附近超商買飯糰、三明治簡單享用。</p>
-            
+            <p>都營淺草線：淺草橋站 ➔ 淺草站 (直達僅 2 站，車程 3 分鐘)。由 1 號或 3 號出口步行 1 分鐘即可看見雷門紅燈籠。</p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-0')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
-              <p class="original-p">飯店附近超商買飯糰、三明治簡單享用。</p>
+              <div class="original-quote">
+                <p>交通：都營淺草線 步行至 都營淺草線 淺草橋站 ➔ 搭乘往淺草方向列車 ➔ 淺草站 (浅草駅) (僅 2 站，免轉車約 3 分鐘) ➔ 1 或 3 號出口步行約 1 分鐘即達雷門 (雷門)。</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="transport">
+
+      <!-- Slot 2 -->
+      <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d5-1" onchange="toggleCheck('item-d5-1')">
@@ -2645,23 +2573,33 @@
         </div>
         <div class="timeline-card" id="card-item-d5-1">
           <div class="card-header">
-            <span class="card-time">08:15－08:35</span>
-            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
+            <span class="card-time">08:45 - 10:15</span>
+            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
           </div>
           <h3 class="card-title">
-            前往淺草
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚇 前往淺草" target="_blank">📍 導航</a>
+            淺草寺
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=浅草寺" target="_blank">⛩️ 導航</a>
           </h3>
           <div class="card-body">
-            <p>都營淺草線：淺草橋站 ➔ 淺草站 (直達僅 2 站，車程 3 分鐘)。由 1 號或 3 號出口步行 1 分鐘即可看見雷門紅燈籠。</p>
+            <p>清晨人少好拍照，遊覽及參拜路線：雷門 ➔ 仲見世商店街（買人形燒） ➔ 寶藏門 ➔ 五重塔 ➔ 觀音本堂參拜祈福。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-1')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
-              <p class="original-p">交通：都營淺草線</p>
-<p class="original-p">步行至 都營淺草線 淺草橋站 ➔ 搭乘往淺草方向列車 ➔ 淺草站 (浅草駅) (僅 2 站，免轉車約 3 分鐘) ➔ 1 或 3 號出口步行約 1 分鐘即達雷門 (雷門)。</p>
+              <div class="original-quote">
+                <p>建議路線：雷門 ➔ 仲見世商店街 ➔ 寶藏門 ➔ 五重塔 ➔ 本堂 (清晨人潮較少，慢步拍照最舒適)</p>
+                <ul class="original-list">
+                  <li>雷門 (雷門)：淺草寺的地標，懸掛著巨大的紅燈籠，是東京最具代表性的拍照景點。</li>
+                  <li>仲見世商店街 (仲見世商店街)：日本最古老的商店街之一，販售人形燒、雷米花等在地特色小吃。</li>
+                  <li>寶藏門 (宝蔵門)</li>
+                  <li>五重塔 (五重塔)</li>
+                  <li>本堂 (本堂)：供奉聖觀世音菩薩，可在此體驗日本傳統的參拜流程與求籤。</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Slot 3 -->
       <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper">
@@ -2672,32 +2610,22 @@
         </div>
         <div class="timeline-card" id="card-item-d5-2">
           <div class="card-header">
-            <span class="card-time">08:45－10:15</span>
+            <span class="card-time">10:15 - 10:35</span>
             <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
           </div>
           <h3 class="card-title">
-            ⛩️ 淺草寺
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=⛩️ 淺草寺" target="_blank">📍 導航</a>
+            展望台：淺草文化觀光中心
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=浅草文化観光センター" target="_blank">📍
+              導航</a>
           </h3>
           <div class="card-body">
-            <p>建議路線：雷門 ➔ 仲見世商店街 ➔ 寶藏門 ➔ 五重塔 ➔ 本堂</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-2')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <p class="original-p">建議路線：雷門 ➔ 仲見世商店街 ➔ 寶藏門 ➔ 五重塔 ➔ 本堂</p>
-<p class="original-p">（清晨人潮較少，慢步拍照最舒適）</p>
-<p class="original-p">景點與商店說明：</p>
-<div class="original-quote">
-<p>雷門 (雷門)：淺草寺的地標，懸掛著巨大的紅燈籠，是東京最具代表性的拍照景點。</p>
-<p>仲見世商店街 (仲見世商店街)：日本最古老的商店街之一，販售人形燒、雷米花等在地特色小吃。</p>
-<p>寶藏門 (宝蔵門)</p>
-<p>五重塔 (五重塔)</p>
-<p>本堂 (本堂)：供奉聖觀世音菩薩，可在此體驗日本傳統的參拜流程與求籤。</p>
-</div>
-            </div>
+            <p>免費搭電梯到 8 樓半露天觀景台，居高臨下完整俯瞰雷門、仲見世街紅色屋頂長廊及淺草寺，還能正面遠眺隅田川與晴空塔。</p>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="attraction">
+
+      <!-- Slot 4 -->
+      <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d5-3" onchange="toggleCheck('item-d5-3')">
@@ -2707,23 +2635,30 @@
         </div>
         <div class="timeline-card" id="card-item-d5-3">
           <div class="card-header">
-            <span class="card-time">10:15－10:35</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+            <span class="card-time">10:35 - 11:00</span>
+            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
           </div>
           <h3 class="card-title">
-            🌇 展望台：淺草文化觀光中心 (浅草文化観光センター)
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🌇 展望台：淺草文化觀光中心 " target="_blank">📍 導航</a>
+            前往東京晴空塔
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=とうきょうスカイツリー駅" target="_blank">🚃
+              導航</a>
           </h3>
           <div class="card-body">
-            <p>俯瞰雷門 (雷門)、仲見世商店街 (仲見世商店街)、淺草寺 (浅草寺) 全景與遠眺晴空塔 (東京スカイツリー)。館內有冷氣、座位與洗手間，全家在此稍作歇腳、充飽電。</p>
-            
+            <p>步行 3 分鐘至「東武淺草站」，搭東武晴空塔線火車 3 分鐘抵達「東京晴空塔站」，慢步搭電梯橫跨商場至 6 樓餐廳區。</p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-3')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
-              <p class="original-p">俯瞰雷門 (雷門)、仲見世商店街 (仲見世商店街)、淺草寺 (浅草寺) 全景與遠眺晴空塔 (東京スカイツリー)。館內有冷氣、座位與洗手間，全家在此稍作歇腳、充飽電。</p>
+              <div class="original-quote">
+                <p>10:35 慢步離開觀光中心 ➔ 步行約 3～5 分鐘前往「東武淺草站 (東武浅草駅)」。</p>
+                <p>10:42 搭乘東武晴空塔線 (藍色列車) 火車（車程僅 3 分鐘），約 10:45 抵達「東京晴空塔站 (とうきょうスカイツリー駅)」出站。</p>
+                <p>10:45－11:00 關鍵緩衝： 抵達後由 東京晴空街道 (東京ソラマチ) 西側地面層慢步搭電梯橫跨商場，預留 15 分鐘讓長輩與小孩無壓力地走到東側 6 樓餐廳門口。</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="transport">
+
+      <!-- Slot 5 -->
+      <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d5-4" onchange="toggleCheck('item-d5-4')">
@@ -2733,27 +2668,39 @@
         </div>
         <div class="timeline-card" id="card-item-d5-4">
           <div class="card-header">
-            <span class="card-time">10:35－11:00</span>
-            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
+            <span class="card-time">11:00 - 12:30</span>
+            <div class="card-tags"><span class="tag tag-food">美食</span></div>
           </div>
           <h3 class="card-title">
-            前往東京晴空塔 (東京スカイツリー)
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚇 前往東京晴空塔 " target="_blank">📍 導航</a>
+            午餐：東京晴空街道 餐廳街
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=牛たん炭焼+利久+東京ソラマチ店"
+              target="_blank">🍽️ 導航</a>
           </h3>
           <div class="card-body">
-            <p>> * 10:35 慢步離開觀光中心 ➔ 步行約 3～5 分鐘前往「東武淺草站 (東武浅草駅)」。</p>
+            <p>首選：<strong>利久牛舌 晴空塔店</strong> 享用仙台碳烤厚切牛舌定食，人均約 ¥2,000-3,000。請派代表先去抽號碼牌！<br>備案：名古屋備長鰻魚飯 (6F，<a
+                class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=ひつまぶし名古屋備長+東京スカイツリータウン・ソラマチ店" target="_blank">🍽️
+                導航</a> 鰻魚三吃）或 3 樓美食街「宮武讚岐烏龍麵 / 一風堂」。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-4')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
               <div class="original-quote">
-<p>10:35 慢步離開觀光中心 ➔ 步行約 3～5 分鐘前往「東武淺草站 (東武浅草駅)」。</p>
-<p>10:42 搭乘東武晴空塔線 (藍色列車) 火車（車程僅 3 分鐘），約 10:45 抵達「東京晴空塔站 (とうきょうスカイツリー駅)」出站。</p>
-<p>10:45－11:00 關鍵緩衝： 抵達後由 東京晴空街道 (東京ソラマチ) 西側地面層慢步搭電梯橫跨商場，預留 15 分鐘讓長輩與小孩無壓力地走到東側 6 樓餐  廳門口。</p>
-</div>
+                <p>首選餐廳：<strong>利久牛舌 (東京晴空街道店)</strong> 享用碳烤牛舌（推薦：極品牛舌定食、牛舌與燉肉拼盤），人均約 ¥2,000～¥3,000。</p>
+                <p>特色：仙台名店厚切碳烤牛舌定食，香氣濃郁、肉質Q彈又有嚼勁，附贈清爽牛尾湯與麥飯，份量充足且極具代表性，全家皆適合。</p>
+                <p>策略：抵達晴空塔後，建議先派一位代表直奔 6 樓現場登記或抽取號碼牌，其他人可在同樓層商場逛街休息，免去站著排隊之苦。</p>
+                <p>若牛舌等候時間過長，可改吃名古屋關西風烤鰻魚</p>
+                <p>備案餐廳：<strong>名古屋備長鰻魚飯 (東京晴空街道店)</strong> 享用鰻魚飯（推薦：鰻魚飯三吃），人均約 ¥3,500～¥5,000。</p>
+                <p>特色：經典「鰻魚三吃（ひつまぶし）」外皮防香、肉質軟嫩，醬汁極為下飯，對長輩口味極好。</p>
+                <p>若餐廳街等候過久或小朋友體力不佳不想排隊，可直接移步至 3 樓美食街。</p>
+                <p>備案餐廳：<strong>宮武讚岐烏龍麵 (晴空塔美食街店)</strong> 享用烏龍麵（推薦：肉烏龍麵、炸天婦羅），人均約 ¥700～¥1,000。</p>
+                <p>備案餐廳：<strong>一風堂 (晴空塔美食街店)</strong> 享用拉麵（推薦：白丸元味、赤丸新味），人均約 ¥900～¥1,300。</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="food">
+
+      <!-- Slot 6 -->
+      <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d5-5" onchange="toggleCheck('item-d5-5')">
@@ -2763,36 +2710,20 @@
         </div>
         <div class="timeline-card" id="card-item-d5-5">
           <div class="card-header">
-            <span class="card-time">11:00－12:30</span>
-            <div class="card-tags"><span class="tag tag-food">美食</span></div>
+            <span class="card-time">13:00 - 15:00</span>
+            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
           </div>
           <h3 class="card-title">
-            午餐：東京晴空街道(東京ソラマチ) 餐廳街
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🍽️ 午餐：東京晴空街道" target="_blank">📍 導航</a>
+            墨田水族館
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=すみだ水族館" target="_blank">📍 導航</a>
           </h3>
           <div class="card-body">
-            <p>> * 首選餐廳：<strong>利久牛舌 (東京晴空街道店)</strong> 享用碳烤牛舌（推薦：極品牛舌定食、牛舌與燉肉拼盤），人均約 ¥2,000～¥3,000。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-5')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>首選餐廳：<strong>利久牛舌 (東京晴空街道店)</strong> 享用碳烤牛舌（推薦：極品牛舌定食、牛舌與燉肉拼盤），人均約 ¥2,000～¥3,000。</p>
-<ul class="original-list">
-<li>特色：仙台名店厚切碳烤牛舌定食，香氣濃郁、肉質Q彈又有嚼勁，附贈清爽牛尾湯與麥飯，份量充足且極具代表性，全家皆適合。</li>
-<li>策略：抵達晴空塔後，建議先派一位代表直奔 6 樓現場登記或抽取號碼牌，其他人可在同樓層商場逛街休息，免去站著排隊之苦。</li>
-<li>若牛舌等候時間過長，可改吃名古屋關西風烤鰻魚</li>
-</ul>
-<p>備案餐廳：<strong>名古屋備長鰻魚飯 (東京晴空街道店)</strong> 享用鰻魚飯（推薦：鰻魚飯三吃），人均約 ¥3,500～¥5,000。</p>
-<ul class="original-list">
-<li>特色：經典「鰻魚三吃（ひつまぶし）」外皮焦香、肉質軟嫩，醬汁極為下飯，對長輩胃口極好。</li>
-<li>若餐廳街等候過久或小朋友體力不佳不想排隊，可直接移步至 3 樓美食街。</li>
-</ul>
-<p>備案餐廳：<strong>宮武讚岐烏龍麵 (晴空塔美食街店)</strong> 享用烏龍麵（推薦：肉烏龍麵、炸天婦羅），人均約 ¥700～¥1,000。</p>
-<p>備案餐廳：<strong>一風堂 (晴空塔美食街店)</strong> 享用拉麵（推薦：白丸元味、赤丸新味），人均約 ¥900～¥1,300。</p>
-</div>
-            </div>
+            <p>參觀墨田水族館（看企鵝池、水母區）。館內設有許多沙發座椅，長輩能在此放鬆休憩，隨後悠閒逛晴空街道商場。</p>
           </div>
         </div>
       </div>
+
+      <!-- Slot 7 -->
       <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper">
@@ -2803,127 +2734,36 @@
         </div>
         <div class="timeline-card" id="card-item-d5-6">
           <div class="card-header">
-            <span class="card-time">12:30－13:00</span>
+            <span class="card-time">15:00 - 17:30</span>
             <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
           </div>
           <h3 class="card-title">
-            🌇 免費高空景觀
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🌇 免費高空景觀" target="_blank">📍 導航</a>
+            晴空街道伴手禮大採購與晚餐
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=東京ソラマチ" target="_blank">🛒 導航</a>
           </h3>
           <div class="card-body">
-            <p>搭乘直達電梯至東京晴空街道 (東京ソラマチ) 30、31 樓餐廳樓層，欣賞東京市景。</p>
-            
+            <p>在 3 樓美食街享用宮武讚岐烏龍麵（<a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=宮武讃岐うどん+東京ソラマチ店" target="_blank">🍽️
+                導航</a>）或一風堂（<a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=一風堂+東京ソラマチ店" target="_blank">🍽️
+                導航</a>），或去押上站前松屋（<a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=松屋+押上店" target="_blank">🍽️ 導航</a>）快餐。隨後搭淺草線回淺草橋。
+            </p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-6')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
-              <p class="original-p">搭乘直達電梯至東京晴空街道 (東京ソラマチ) 30、31 樓餐廳樓層，欣賞東京市景。</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d5-7" onchange="toggleCheck('item-d5-7')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d5-7">
-          <div class="card-header">
-            <span class="card-time">13:00－15:00</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
-          </div>
-          <h3 class="card-title">
-            🐧 墨田水族館 (すみだ水族館)
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🐧 墨田水族館 " target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>推薦：企鵝區、水母區。館內座位多，長輩可休息。</p>
-            
-            <div class="original-content-holder" style="display: none;">
-              <p class="original-p">推薦：企鵝區、水母區。館內座位多，長輩可休息。</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d5-8" onchange="toggleCheck('item-d5-8')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d5-8">
-          <div class="card-header">
-            <span class="card-time">15:00－16:40</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
-          </div>
-          <h3 class="card-title">
-            🛍️ 東京晴空街道 (東京ソラマチ) 散策
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🛍️ 東京晴空街道 " target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>悠閒逛日本生活雜貨、廚房用品、甜點。推薦逛： Loft (ロフト) 或 東急手創館 (ハンズ)（買伴手禮與生活小物）。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-8')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <p class="original-p">悠閒逛日本生活雜貨、廚房用品、甜點。推薦逛： Loft (ロフト) 或 東急手創館 (ハンズ)（買伴手禮與生活小物）。</p>
-<p class="original-p">TODO: 是否改為 新宿夜景</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="food">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d5-9" onchange="toggleCheck('item-d5-9')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d5-9">
-          <div class="card-header">
-            <span class="card-time">16:40－17:30</span>
-            <div class="card-tags"><span class="tag tag-food">美食</span></div>
-          </div>
-          <h3 class="card-title">
-            晚餐
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🍽️ 晚餐" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>在 3 樓美食街享用宮武讚岐烏龍麵（<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=宮武讃岐うどん+東京ソラマチ店" target="_blank">🍽️ 導航</a>）或一風堂（<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=一風堂+東京ソラマチ店" target="_blank">🍽️ 導航</a>），或去押上站前松屋（<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=松屋+押上店" target="_blank">🍽️ 導航</a>）快餐。隨後搭淺草線回淺草橋。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-9')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <ul class="original-list">
-<li>首選餐廳：<strong>宮武讚岐烏龍麵 (晴空塔美食街店)</strong> 享用烏龍麵（推薦：肉烏龍麵、炸天婦羅），人均約 ¥700～¥1,000。</li>
-<li>備案餐廳：<strong>一風堂 (晴空塔美食街店)</strong> 享用拉麵（推薦：白丸元味、赤丸新味），人均約 ¥900～¥1,300。</li>
-<li>備案餐廳：<strong>松屋 (押上站前店)</strong> 享用牛丼（推薦：招牌牛丼、蔥香鹽豬肉定食），人均約 ¥500～¥800。</li>
-</ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="transport">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d5-10" onchange="toggleCheck('item-d5-10')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d5-10">
-          <div class="card-header">
-            <span class="card-time">17:40</span>
-            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
-          </div>
-          <h3 class="card-title">
-            返回飯店
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚇 返回飯店" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>押上站 (押上駅) ➔ 搭乘 都營淺草線 (往西馬込/羽田機場方向) ➔ 直達 淺草橋站 (浅草橋駅) (僅 3 站，免轉車約 6 分鐘)。出站後步行回飯店。</p>
-            
-            <div class="original-content-holder" style="display: none;">
-              <p class="original-p">押上站 (押上駅) ➔ 搭乘 都營淺草線 (往西馬込/羽田機場方向) ➔ 直達 淺草橋站 (浅草橋駅) (僅 3 站，免轉車約 6 分鐘)。出站後步行回飯店。</p>
+              <div class="original-quote">
+                <p>悠閒逛日本生活雜貨、廚房用品、甜點。推薦逛： <a class="map-link-inline"
+                    href="https://www.google.com/maps/search/?api=1&query=ロフト+東京ソラマチ店" target="_blank">🏬 導航</a> Loft
+                  (ロフト) 或 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=ハンズ+東京ソラマチ店"
+                    target="_blank">🏬 導航</a> 東急手創館 (ハンズ)（買伴手禮與生活小物）。</p>
+                <p>16:40－17:30 🍽️ 晚餐：</p>
+                <ul class="original-list">
+                  <li>首選餐廳：<strong>宮武讚岐烏龍麵 (晴空塔美食街店)</strong> 享用烏龍麵（推薦：肉烏龍麵、炸天婦羅），人均約 ¥700～¥1,000。</li>
+                  <li>備案餐廳：<strong>一風堂 (晴空塔美食街店)</strong> 享用拉麵（推薦：白丸元味、赤丸新味），人均約 ¥900～¥1,300。</li>
+                  <li>備案餐廳：<strong>松屋 (押上站前店)</strong> 享用牛丼（推薦：招牌牛丼、蔥香鹽豬肉定食），人均約 ¥500～¥800。</li>
+                </ul>
+                <p>17:40 🚇 返回飯店：押上站 (押上駅) ➔ 搭乘 都營淺草線 (往西馬込/羽田機場方向) ➔ 直達 淺草橋站 (浅草橋駅) (僅 3 站，免轉車約 6 分鐘)。出站後步行回飯店。</p>
+              </div>
             </div>
           </div>
         </div>
@@ -2932,7 +2772,8 @@
 
     <!-- Day 6 Section -->
     <div class="day-section" id="day6-section" style="display: none;">
-      <div class="timeline-item" data-category="attraction">
+      <!-- Slot 1 -->
+      <div class="timeline-item" data-category="stay">
         <div class="timeline-check">
           <label class="check-wrapper">
             <input type="checkbox" id="item-d6-0" onchange="toggleCheck('item-d6-0')">
@@ -2942,25 +2783,21 @@
         </div>
         <div class="timeline-card" id="card-item-d6-0">
           <div class="card-header">
-            <span class="card-time">07:30－08:00</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
+            <span class="card-time">07:30 - 08:00</span>
+            <div class="card-tags"><span class="tag tag-stay">住宿</span></div>
           </div>
           <h3 class="card-title">
-            🧳 整理行李與退房
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🧳 整理行李與退房" target="_blank">📍 導航</a>
+            整理行李與退房
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=海茵娜酒店+東京淺草橋" target="_blank">🏨
+              導航</a>
           </h3>
           <div class="card-body">
-            <p>> * 將液體類物品放入托運行李，最後確認護照與行動電源。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d6-0')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>將液體類物品放入托運行李，最後確認護照與行動電源。</p>
-<p>辦理 Check-out，將大型行李寄放於海茵娜酒店櫃檯。</p>
-</div>
-            </div>
+            <p>整理行李，辦理 Check-out 並將全部大件行李寄放在海茵娜酒店櫃檯。</p>
           </div>
         </div>
       </div>
+
+      <!-- Slot 2 -->
       <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper">
@@ -2971,24 +2808,20 @@
         </div>
         <div class="timeline-card" id="card-item-d6-1">
           <div class="card-header">
-            <span class="card-time">08:00－08:15</span>
+            <span class="card-time">08:00 - 08:15</span>
             <div class="card-tags"><span class="tag tag-transport">交通</span></div>
           </div>
           <h3 class="card-title">
             前往築地場外市場
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚇 前往築地場外市場" target="_blank">📍 導航</a>
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=東銀座駅" target="_blank">🚃 導航</a>
           </h3>
           <div class="card-body">
             <p>都營淺草線：淺草橋站 ➔ 東銀座站 (直達免轉車，僅 8 分鐘)。出站後步行 3 分鐘即達築地。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d6-1')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>從飯店旁的 <strong>都營淺草線 淺草橋站</strong> 搭乘地鐵，直達 <strong>東銀座站</strong>（約 8 分鐘，免轉車）。出站步行約 3-5 分鐘即可抵達築地。</p>
-</div>
-            </div>
           </div>
         </div>
       </div>
+
+      <!-- Slot 3 -->
       <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper">
@@ -2999,37 +2832,42 @@
         </div>
         <div class="timeline-card" id="card-item-d6-2">
           <div class="card-header">
-            <span class="card-time">08:15－10:00</span>
+            <span class="card-time">08:15 - 10:00</span>
             <div class="card-tags"><span class="tag tag-food">美食</span></div>
           </div>
           <h3 class="card-title">
-            🐟 築地場外市場（早餐）
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🐟 築地場外市場（早餐）" target="_blank">📍 導航</a>
+            築地場外市場（早餐）
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=築地場外市場" target="_blank">🍽️ 導航</a>
           </h3>
           <div class="card-body">
-            <p>> * 趁著早晨人潮還沒到最擁擠的時候，前往 築地場外市場（築地）享用鮮食小吃（推薦：玉子燒、和牛串、草莓大福）。</p>
+            <p>享用現做熱騰騰小吃：<strong>「築地山長」現做玉子燒</strong>（<a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=築地山長" target="_blank">🍽️ 導航</a> 一份
+              ¥150-200）、現烤和牛串、新鮮草莓大福。隨後參訪波除稻荷神社（<a class="map-link-inline"
+                href="https://www.google.com/maps/search/?api=1&query=波除稲荷神社" target="_blank">📍 導航</a>）。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d6-2')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
               <div class="original-quote">
-<p>趁著早晨人潮還沒到最擁擠的時候，前往 築地場外市場（築地）享用鮮食小吃（推薦：玉子燒、和牛串、草莓大福）。</p>
-<p>首選餐廳：築地山長（玉子燒）</p>
-</div>
-<div class="original-quote">
-<p>人均：約 ¥1,500～2,000</p>
-</div>
-<div class="original-quote">
-<p>建議路線：築地交叉口 → 波除稻荷神社 → 玉子燒（山長）→ 和牛串 → 海鮮美食區 → 乾貨餐具街</p>
-<p>景點與商店說明：</p>
-<ul class="original-list">
-<li>玉子燒名店：首推「山長」（備選：丸武），口感香嫩，現做現吃約 ¥150～200。</li>
-<li>必吃美食：推薦現烤和牛串、烤干貝、草莓大福等，可依喜好自由搭配，人均約 ¥1,500～2,000。</li>
-<li>波除稻荷神社：守護築地市場的小巧神廟，入口處巨大的獅子頭神像極具特色。</li>
-</ul>
-</div>
+                <p>趁著早晨人潮還沒到最擁擠的時候，前往 築地場外市場（築地）享用鮮食小吃（推薦：玉子燒、和牛串、草莓大福）。</p>
+                <p>首選餐廳：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=築地山長"
+                    target="_blank">🍽️ 導航</a> 築地山長（玉子燒）人均：約 ¥1,500～2,000</p>
+                <p>建議路線：築地交叉口 ➔ <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=波除稲荷神社"
+                    target="_blank">⛩️ 導航</a> 波除稻荷神社 ➔ 玉子燒（山長） ➔ 和牛串 ➔ 海鮮美食區 ➔ 乾貨餐具街</p>
+                <ul class="original-list">
+                  <li>玉子燒名店：首推 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=築地山長"
+                      target="_blank">🍳 導航</a> 「山長」（備選：<a class="map-link-inline"
+                      href="https://www.google.com/maps/search/?api=1&query=丸武+玉子焼き" target="_blank">🍳 導航</a>
+                    「丸武」），口感香嫩，現做現吃約 ¥150～200。</li>
+                  <li>必吃美食：推薦現烤和牛串、烤干貝、草莓大福等，可依喜好自由搭配，人均約 ¥1,500～¥2,000。</li>
+                  <li><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=波除稲荷神社"
+                      target="_blank">⛩️ 導航</a> 波除稻荷神社：守護築地市場的小巧神廟，入口處巨大的獅子頭神像極具特色。</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Slot 4 -->
       <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper">
@@ -3040,24 +2878,30 @@
         </div>
         <div class="timeline-card" id="card-item-d6-3">
           <div class="card-header">
-            <span class="card-time">10:00－10:15</span>
+            <span class="card-time">10:00 - 11:30</span>
             <div class="card-tags"><span class="tag tag-transport">交通</span></div>
           </div>
           <h3 class="card-title">
-            返回淺草橋
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚇 返回淺草橋" target="_blank">📍 導航</a>
+            前往羽田機場 (超便利直達)
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=羽田空港第3航廈" target="_blank">🚃
+              導航</a>
           </h3>
           <div class="card-body">
-            <p>> * 搭乘 都營淺草線：東銀座站 ➔ 淺草橋站。</p>
-            
+            <p>回飯店提領行李後，在<strong>都營淺草線 淺草橋站</strong>搭乘機場快特直達羽田機場第 3 航廈，全程約 40-45 分鐘，免轉乘最省力。</p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d6-3')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
               <div class="original-quote">
-<p>搭乘 都營淺草線：東銀座站 ➔ 淺草橋站。</p>
-</div>
+                <p>10:00－10:15 🚇 返回淺草橋： 搭乘 都營淺草線：東銀座站 ➔ 淺草橋站。</p>
+                <p>10:15－10:40 🧳 領行李與車站移動： 回飯店領取行李，做最後的隨身物品確認，慢步前往淺草橋站。</p>
+                <p>10:40－11:30 🚆 前往羽田機場 (超便利直達)： 於 <strong>都營淺草線
+                    淺草橋站</strong>，搭乘往羽田機場方向的列車（推薦搭乘「機場快特」或直通運轉的急行班次）。直達羽田機場第3航廈（約 40-45 分鐘）。免除帶著小孩與大件行李上上下下轉乘的困擾！</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Slot 5 -->
       <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper">
@@ -3068,144 +2912,29 @@
         </div>
         <div class="timeline-card" id="card-item-d6-4">
           <div class="card-header">
-            <span class="card-time">10:15－10:40</span>
+            <span class="card-time">11:30 - 14:30</span>
             <div class="card-tags"><span class="tag tag-transport">交通</span></div>
           </div>
           <h3 class="card-title">
-            🧳 領行李與車站移動
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🧳 領行李與車站移動" target="_blank">📍 導航</a>
+            辦理登機與安檢
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=羽田空港第3航廈" target="_blank">🚃
+              導航</a>
           </h3>
           <div class="card-body">
-            <p>> * 回飯店領取行李，做最後的隨身物品確認，慢步前往淺草橋站。</p>
-            
+            <p>起飛前 3 小時抵達辦理登機。管制區內餐廳享用簡餐（烏龍麵/定食），最後在免稅店採買白色戀人、東京香蕉等伴手禮後登機（CI221，14:30 起飛）。</p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d6-4')">📖 完整原始說明</button>
             <div class="original-content-holder" style="display: none;">
               <div class="original-quote">
-<p>回飯店領取行李，做最後的隨身物品確認，慢步前往淺草橋站。</p>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="transport">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d6-5" onchange="toggleCheck('item-d6-5')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d6-5">
-          <div class="card-header">
-            <span class="card-time">10:40－11:30</span>
-            <div class="card-tags"><span class="tag tag-transport">交通</span></div>
-          </div>
-          <h3 class="card-title">
-            🚆 前往羽田機場 (超便利直達)
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🚆 前往羽田機場 " target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 於 <strong>都營淺草線 淺草橋站</strong>，搭乘往羽田機場方向的列車（推薦搭乘「機場快特」或直通運轉的急行班次）。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d6-5')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>於 <strong>都營淺草線 淺草橋站</strong>，搭乘往羽田機場方向的列車（推薦搭乘「機場快特」或直通運轉的急行班次）。</p>
-<ul class="original-list">
-<li>直達羽田機場第3航廈**（約 40-45 分鐘）。免除帶著小孩與大件行李上上下下轉乘的困擾！</li>
-</ul>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d6-6" onchange="toggleCheck('item-d6-6')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d6-6">
-          <div class="card-header">
-            <span class="card-time">11:30－12:30</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
-          </div>
-          <h3 class="card-title">
-            🛫 辦理登機與安檢
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🛫 辦理登機與安檢" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 提早於起飛前 3 小時抵達，這時間點足以從容應付 8 月下旬暑假的出境與安檢排隊人潮。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d6-6')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>提早於起飛前 3 小時抵達，這時間點足以從容應付 8 月下旬暑假的出境與安檢排隊人潮。</p>
-<p>報到櫃檯掛行李、過安檢、查驗出境。</p>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="food">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d6-7" onchange="toggleCheck('item-d6-7')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d6-7">
-          <div class="card-header">
-            <span class="card-time">12:30－14:00</span>
-            <div class="card-tags"><span class="tag tag-food">美食</span></div>
-          </div>
-          <h3 class="card-title">
-            🛍️ 輕食午餐與免稅店最後採買
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=🍽️🛍️ 輕食午餐與免稅店最後採買" target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 全家可於出境大廳或管制區內 <strong>羽田機場 (機場內餐廳)</strong> 享用最後簡餐（推薦：日式定食、烏龍麵），人均約 ¥1,000～¥1,500，不用擔心時間壓迫。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d6-7')">📖 完整原始說明</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>全家可於出境大廳或管制區內 <strong>羽田機場 (機場內餐廳)</strong> 享用最後簡餐（推薦：日式定食、烏龍麵），人均約 ¥1,000～¥1,500，不用擔心時間壓迫。</p>
-<p>利用最後的空檔在機場免稅店採買白色戀人、東京香蕉等伴手禮。</p>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper">
-            <input type="checkbox" id="item-d6-8" onchange="toggleCheck('item-d6-8')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d6-8">
-          <div class="card-header">
-            <span class="card-time">14:30</span>
-            <div class="card-tags"><span class="tag tag-attraction">景點</span></div>
-          </div>
-          <h3 class="card-title">
-            搭機返台 (CI221)
-            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=✈️ 搭機返台 " target="_blank">📍 導航</a>
-          </h3>
-          <div class="card-body">
-            <p>> * 準備登機，結束完美的東京家庭旅行。</p>
-            
-            <div class="original-content-holder" style="display: none;">
-              <div class="original-quote">
-<p>準備登機，結束完美的東京家庭旅行。</p>
-</div>
+                <p>11:30－12:30 🛫 辦理登機與安檢： 提早於起飛前 3 小時抵達，這時間點足以從容應付 8 月下旬暑假的出境與安檢排隊人潮。報到櫃檯掛行李、過安檢、查驗出境。</p>
+                <p>12:30－14:00 🍽️🛍️ 輕食午餐與免稅店最後採買： 全家可於出境大廳或管制區內 <strong>羽田機場 (機場內餐廳)</strong> 享用最後簡餐（推薦：日式定食、烏龍麵），人均約
+                  ¥1,000～¥1,500，不用擔心時間壓迫。利用最後的空檔在機場免稅店採買白色戀人、東京香蕉等伴手禮。</p>
+                <p>14:30 ✈️ 搭機返台 (CI221)： 準備登機，結束完美的東京家庭旅行。</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
   </div>
 
   <!-- Bottom Drawer Modal for Original Content -->
@@ -3266,7 +2995,7 @@
           document.getElementById('card-' + input.id)?.classList.add('checked');
         }
       });
-      
+
       updateProgressBar();
       renderItinerary();
     });
@@ -3274,7 +3003,7 @@
     function toggleCheck(id) {
       const checkbox = document.getElementById(id);
       const card = document.getElementById('card-' + id);
-      
+
       if (checkbox.checked) {
         card.classList.add('checked');
         localStorage.setItem(id, 'true');
@@ -3290,7 +3019,7 @@
         .filter(cb => {
           const item = cb.closest('.timeline-item');
           if (!item) return false;
-          
+
           if (currentDay === 2) {
             const isParents = cb.id.includes('d2p');
             const isKids = cb.id.includes('d2k');
@@ -3303,7 +3032,7 @@
             if (isPlanA && currentDay1Plan !== 'A') return false;
             if (isPlanB && currentDay1Plan !== 'B') return false;
           }
-          
+
           return true;
         });
 
@@ -3319,7 +3048,7 @@
 
     function switchDay(dayNum) {
       currentDay = dayNum;
-      
+
       const tabs = document.querySelectorAll('#dayTabs .tab-btn');
       tabs.forEach((tab, index) => {
         if (index === dayNum - 1) {
@@ -3339,10 +3068,11 @@
 
       renderItinerary();
       updateProgressBar();
-      
+
       window.scrollTo({ top: 180, behavior: 'smooth' });
     }
 
+    // Filter cards
     function setFilter(category) {
       currentFilter = category;
       const pills = document.querySelectorAll('.filter-bar .filter-pill');
@@ -3361,7 +3091,7 @@
       const btns = document.querySelectorAll('#day2GroupToggle .sub-toggle-btn');
       btns[0].classList.toggle('active', groupName === 'parents');
       btns[1].classList.toggle('active', groupName === 'kids');
-      
+
       renderItinerary();
       updateProgressBar();
     }
@@ -3371,7 +3101,7 @@
       const btns = document.querySelectorAll('#day1PlanToggle .sub-toggle-btn');
       btns[0].classList.toggle('active', plan === 'A');
       btns[1].classList.toggle('active', plan === 'B');
-      
+
       renderItinerary();
       updateProgressBar();
     }
@@ -3408,15 +3138,15 @@
     function openOriginalModal(cardId) {
       const card = document.getElementById(cardId);
       if (!card) return;
-      
+
       const time = card.querySelector('.card-time').innerText;
       const title = card.querySelector('.card-title').innerText.replace('📍 導航', '').trim();
       const originalHtml = card.querySelector('.original-content-holder').innerHTML;
-      
+
       document.getElementById('modalTime').innerText = time;
       document.getElementById('modalTitle').innerText = title;
       document.getElementById('modalBody').innerHTML = originalHtml;
-      
+
       document.getElementById('modalOverlay').classList.add('active');
       document.getElementById('modalSheet').classList.add('active');
       document.body.style.overflow = 'hidden';
@@ -3442,4 +3172,5 @@
     }
   </script>
 </body>
+
 </html>

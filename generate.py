@@ -15,7 +15,7 @@ CUSTOM_SUMMARIES = {
     
     # Day 2 Parents
     (2, "出發前往上野御徒町"): "從淺草橋搭 JR 總武線至秋葉原，轉乘山手線或京濱東北線 1 站，在<strong>御徒町站</strong>出站，車程僅 5 分鐘。",
-    (2, "尋找基地營咖啡廳與會合點"): "<strong>首選基地營：</strong>DEAN & DELUCA CAFE (PARCO_ya 1F)（人均 ¥500-800）。方便室內組頁腳，與戶外散步組會合。<br><strong>備案基地營：</strong><a class=\"map-link-inline\" href=\"https://www.google.com/maps/search/?api=1&query=喫茶+トリコロール+松坂屋上野店\" target=\"_blank\">🍵 導航</a> 喫茶 トリコロール (松坂屋本館 2F)（人均 ¥800-1,200），日系復古環境幽靜。",
+    (2, "尋找基地營咖啡廳與會合點"): "<strong>首選基地營：</strong><a class=\"map-link-inline\" href=\"https://www.google.com/maps/search/?api=1&query=DEAN+%26+DELUCA+CAFE+上野\" target=\"_blank\">☕ 導航</a> DEAN & DELUCA CAFE (PARCO_ya 1F)（人均 ¥500-800）。方便室內組頁腳，與戶外散步組會合。<br><strong>備案基地營：</strong><a class=\"map-link-inline\" href=\"https://www.google.com/maps/search/?api=1&query=喫茶+トリコロール+松坂屋上野店\" target=\"_blank\">🍵 導航</a> 喫茶 トリコロール (松坂屋本館 2F)（人均 ¥800-1,200），日系復古環境幽靜。",
     (2, "上午自由活動"): "<strong>室內組：</strong>在基地營悠閒放鬆或逛松坂屋百貨與 PARCO_ya 百貨。<br><strong>戶外組：</strong>建議路線從松坂屋出發 ➔ 不忍池（賞荷花） ➔ 清水觀音堂（看月之松）。<br><strong>隱藏版美食：</strong><a class=\"map-link-inline\" href=\"https://www.google.com/maps/search/?api=1&query=うさぎや+上野\" target=\"_blank\">🍽️ 導航</a> 可順路步行至「兔屋 (うさぎや)」採買現做百年銅鑼燒。<br><strong>體力充沛備案景點：</strong>上野東照宮、舊岩崎邸庭園。",
     (2, "午餐會合"): "首選餐廳：<strong>KATOREYA (松坂屋本館 M2F)</strong> 經典日式家庭餐廳，人均約 ¥1,500-2,000。<strong>請在 11:30 提早入座避開排隊！</strong><br>備案：<a class=\"map-link-inline\" href=\"https://www.google.com/maps/search/?api=1&query=手打ちそば+みや川+パルコヤ上野店\" target=\"_blank\">🍽️ 導航</a> 手打ちそば みや川 (PARCO_ya 6F) 享用天婦羅蕎麥麵。",
     (2, "下午自由活動"): "<strong>室內組：</strong>繼續於室內或基地營悠遊，或在松坂屋本館休息。<br><strong>戶外組：</strong>建議路線從東京文化會館 ➔ 國立西洋美術館（看羅丹雕塑） ➔ 上野公園中央噴水廣場。<br><strong>避暑備案：</strong><a class=\"map-link-inline\" href=\"https://www.google.com/maps/search/?api=1&query=国際子ども図書館\" target=\"_blank\">📍 導航</a> 國際兒童圖書館，可進入這座近百年的磚紅色老建築，享受優美安靜的室內空調。",
@@ -221,8 +221,24 @@ def parse_readme():
                 slot_time = ""
                 slot_title = header_clean
                 
+            def get_clean_maps_query(title):
+                # If there is a parenthesis, see if the text inside is a better search query
+                parenthesis_content = re.search(r'\((.*?)\)', title)
+                if parenthesis_content:
+                    sub = parenthesis_content.group(1).strip()
+                    if len(sub) > 2 and not any(x in sub for x in ["備案", "組", "Plan", "首選", "推薦"]):
+                        return sub
+                
+                # Clean action verbs and emojis
+                q = title
+                q = re.sub(r'\[(.*?)\]\(.*?\)', r'\1', q)
+                q = re.sub(r'\([^\)]*maps[^\)]*\)', '', q)
+                q = q.replace('✈️', '').replace('🚇', '').replace('🏨', '').replace('🍽️', '').replace('🏃', '').replace('🦕', '').replace('🌳', '').replace('🚌', '').replace('📸', '').replace('🍜', '').replace('🍪', '').replace('🛒', '').replace('⛪', '').replace('🌅', '')
+                q = q.replace('前往', '').replace('抵達', '').replace('返回', '').replace('搭乘', '').replace('出發', '').replace('散步', '').replace('慢遊', '').replace('地區', '').replace('地鐵', '').replace('公車', '').replace('電車', '')
+                return q.strip()
+
             maps_links = re.findall(r'https://www\.google\.com/maps/search/\?api=1&query=[^\s\)]+|https://maps\.google\S+|https://maps\.app\S+', slot_title + " " + slot_body)
-            maps_link = maps_links[0] if maps_links else f"https://www.google.com/maps/search/?api=1&query={slot_title.split('(')[0]}"
+            maps_link = maps_links[0] if maps_links else f"https://www.google.com/maps/search/?api=1&query={get_clean_maps_query(slot_title)}"
             
             title_display = re.sub(r'\[(.*?)\]\(.*?\)', r'\1', slot_title)
             title_display = re.sub(r'\([^\)]*maps[^\)]*\)', '', title_display).strip()
