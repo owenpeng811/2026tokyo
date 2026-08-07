@@ -23,6 +23,7 @@ description: 將旅遊行程資料轉換為適合手機瀏覽的「單一檔案�
    - 所有的主景點、餐廳、車站、飯店名稱，乃至**內文段落、備案說明、隱藏美食清單中提及的所有可能造訪地點**，都必須包裝成 Google Maps 的導航連結（格式：`https://www.google.com/maps/search/?api=1&query=確切名稱`），且均設定 `target="_blank"`。
    - **精準地標定位**：導航連結必須使用**最精準、能直達該分店/確切位置**的搜尋字串（如 `鳥良商店+新宿西口店`），而非模糊的通用名稱，避免 Google Maps 僅跳轉至一般搜尋或多點地圖。
    - **地理普查與糾錯**：必須主動核對行程中所有地點的真實位置。若發現原行程表有誤（如淺草橋的 RusaRuka、吉祥寺的 Jyonetsu Bakery），應主動替換為當地**真實存在且評分優良**的替代名店（如 MIYABI CAFE、Antendo），並在網頁中加註修正說明。
+   - **連結對照表維護（navigation_links.html）**：所有導航連結（含自訂短網址）必須記錄在 [navigation_links.html](file:///home/owen/tokyo/navigation_links.html) 中。後續更新 `itinerary.html` 時，應優先讀取並對照此表以取得精確連結；若行程有新增景點/餐廳，也必須同步將新地點及其精準地圖連結寫入此表。
 
 4. **動態互動與狀態管理**：
    - **分天頁籤（Tabs）**：頂部置頂固定（`position: sticky`）的頁籤，切換不同天數的行程。
