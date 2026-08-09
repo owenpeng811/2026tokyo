@@ -444,12 +444,12 @@ JR 山手線(綠色列車)（東京站 ➔ 上野站，約 8 分鐘）。
 
 ### **19:20 🍽️ 晚餐（若下午沒吃鴨 to 蔥拉麵）**
 
-> * 首選餐廳：**吉野家 (吉野家 浅草橋店)**  
+> * 首選餐廳：[**吉野家 (吉野家 浅草橋店)**](https://www.google.com/maps/search/?api=1&query=35.697878,139.786407&query_place_id=ChIJM2s0MnaPGGARLSDkTkqBlG4)  
 > 推薦餐點：牛丼、牛燒肉定食、親子丼。人均：約 ¥500～900。  
 > * 備案餐廳：[**名代 宇奈とと (名代 宇奈とと 上野店)**](https://www.google.com/maps/search/?api=1&query=35.7111357,139.7748663&query_place_id=ChIJ6RMcXZ6OGGARLLk8PdeakXs) 享用鰻魚飯（推薦：鰻魚飯），人均約 ¥640～¥1,100。  
-> * 備案餐廳：**松屋 (松屋 浅草橋店)**  
+> * 備案餐廳：[**松屋 (松屋 浅草橋店)**](https://www.google.com/maps/search/?api=1&query=35.696998,139.786388&query_place_id=ChIJW_fJurOOGGARyv4l77z-WHQ)  
 > 推薦餐點：牛燒肉定食、牛丼、咖哩、漢堡排定食。人均：約 ¥500～900。  
-> * 備案餐廳：**拉麵 ろく月 (らーめん ろく月)**  
+> * 備案餐廳：[**拉麵 ろく月 (らーめん ろく月)**](https://www.google.com/maps/search/?api=1&query=35.6988822,139.7853036&query_place_id=ChIJJXBZm7GOGGARs9xs2jSt0lI)  
 > 推薦餐點：濃厚雞白湯拉麵、特製叉燒拉麵。人均：約 ¥1,000～1,500。  
 > 優點：淺草橋高人氣拉麵店，雞白湯風味濃郁，若排隊人數不多，非常值得一試。
 

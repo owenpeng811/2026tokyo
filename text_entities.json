@@ -1,5 +1,45 @@
 [
   [
+    "吉野家 (吉野家 浅草橋店)",
+    "https://www.google.com/maps/search/?api=1&query=35.697878,139.786407&query_place_id=ChIJM2s0MnaPGGARLSDkTkqBlG4"
+  ],
+  [
+    "吉野家 浅草橋店",
+    "https://www.google.com/maps/search/?api=1&query=35.697878,139.786407&query_place_id=ChIJM2s0MnaPGGARLSDkTkqBlG4"
+  ],
+  [
+    "吉野家",
+    "https://www.google.com/maps/search/?api=1&query=35.697878,139.786407&query_place_id=ChIJM2s0MnaPGGARLSDkTkqBlG4"
+  ],
+  [
+    "松屋 (松屋 浅草橋店)",
+    "https://www.google.com/maps/search/?api=1&query=35.696998,139.786388&query_place_id=ChIJW_fJurOOGGARyv4l77z-WHQ"
+  ],
+  [
+    "松屋 浅草橋店",
+    "https://www.google.com/maps/search/?api=1&query=35.696998,139.786388&query_place_id=ChIJW_fJurOOGGARyv4l77z-WHQ"
+  ],
+  [
+    "拉麵 ろく月 (らーめん ろく月)",
+    "https://www.google.com/maps/search/?api=1&query=35.6988822,139.7853036&query_place_id=ChIJJXBZm7GOGGARs9xs2jSt0lI"
+  ],
+  [
+    "拉麵 ろく月",
+    "https://www.google.com/maps/search/?api=1&query=35.6988822,139.7853036&query_place_id=ChIJJXBZm7GOGGARs9xs2jSt0lI"
+  ],
+  [
+    "ろく月 雞白湯拉麵",
+    "https://www.google.com/maps/search/?api=1&query=35.6988822,139.7853036&query_place_id=ChIJJXBZm7GOGGARs9xs2jSt0lI"
+  ],
+  [
+    "Cow Cow Kitchen (東京Milk Cheese Factory)",
+    "https://www.google.com/maps/search/?api=1&query=35.6917502,139.700984&query_place_id=ChIJmXynH96NGGAR5e9a3acK1q0"
+  ],
+  [
+    "Cow Cow Kitchen",
+    "https://www.google.com/maps/search/?api=1&query=35.6917502,139.700984&query_place_id=ChIJmXynH96NGGAR5e9a3acK1q0"
+  ],
+  [
     "不忍池 (不忍池 弁天堂)",
     "https://www.google.com/maps/search/?api=1&query=35.7122453,139.7708284&query_place_id=ChIJo8VKlCCMGGARarjlIsaLY1g"
   ],
@@ -28,6 +68,10 @@
     "https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o"
   ],
   [
+    "松坂屋",
+    "https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o"
+  ],
+  [
     "PARCO_ya",
     "https://www.google.com/maps/search/?api=1&query=35.7068605,139.7731332&query_place_id=ChIJsW9uBKCOGGAR3hWpxKX-ag0"
   ],
@@ -42,18 +86,6 @@
   [
     "上野公園中央噴水廣場",
     "https://www.google.com/maps/search/?api=1&query=35.7147557,139.7734312&query_place_id=ChIJw2qQRZuOGGARWmROEiM2y7E"
-  ],
-  [
-    "噴水廣場",
-    "https://www.google.com/maps/search/?api=1&query=35.7147557,139.7734312&query_place_id=ChIJw2qQRZuOGGARWmROEiM2y7E"
-  ],
-  [
-    "舊岩崎邸庭園",
-    "https://www.google.com/maps/search/?api=1&query=35.7097847,139.7671385&query_place_id=ChIJ7x2-BSSMGGARahVDg6WIAag"
-  ],
-  [
-    "上野東照宮",
-    "https://www.google.com/maps/search/?api=1&query=35.7153719,139.7707328&query_place_id=ChIJP7lRfyiMGGARqb1QQhfm9EQ"
   ],
   [
     "二木菓子（二木の菓子 第一営業所）",
@@ -176,10 +208,6 @@
     "https://www.google.com/maps/search/?api=1&query=35.6894807,139.6916863&query_place_id=ChIJoTcat9SMGGAR6GGG8zdcZvE"
   ],
   [
-    "東京都庁",
-    "https://www.google.com/maps/search/?api=1&query=35.6894807,139.6916863&query_place_id=ChIJoTcat9SMGGAR6GGG8zdcZvE"
-  ],
-  [
     "東京車站丸之內站舍 (東京駅丸の内駅舎)",
     "https://www.google.com/maps/search/?api=1&query=35.6814247,139.7659944&query_place_id=ChIJE9qjZ0-LGGARQiAs8hULJsg"
   ],
@@ -196,19 +224,11 @@
     "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%A7%85%E4%B8%80%E7%95%AA%E8%A1%97"
   ],
   [
-    "一番街",
-    "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%A7%85%E4%B8%80%E7%95%AA%E8%A1%97"
-  ],
-  [
     "KITTE花園 (ＫＩＴＴＥガーデン)",
     "https://www.google.com/maps/search/?api=1&query=35.6795336,139.7654445&query_place_id=ChIJtZRvRvqLGGARdS57rQP2NEk"
   ],
   [
     "KITTE花園",
-    "https://www.google.com/maps/search/?api=1&query=35.6795336,139.7654445&query_place_id=ChIJtZRvRvqLGGARdS57rQP2NEk"
-  ],
-  [
-    "KITTE丸の内",
     "https://www.google.com/maps/search/?api=1&query=35.6795336,139.7654445&query_place_id=ChIJtZRvRvqLGGARdS57rQP2NEk"
   ],
   [
@@ -228,56 +248,12 @@
     "https://www.google.com/maps/search/?api=1&query=35.7050504,139.580504&query_place_id=ChIJ8W2Ms0fuGGAR5CNgR7olN8g"
   ],
   [
-    "Sunroad 商店街",
-    "https://www.google.com/maps/search/?api=1&query=35.7050504,139.580504&query_place_id=ChIJ8W2Ms0fuGGAR5CNgR7olN8g"
-  ],
-  [
-    "吉祥寺ロフト",
-    "https://www.google.com/maps/search/?api=1&query=35.705206,139.5788868&query_place_id=ChIJ80-AKEbuGGARmN-6SihPfpU"
-  ],
-  [
-    "Loft 文具旗艦店",
-    "https://www.google.com/maps/search/?api=1&query=35.705206,139.5788868&query_place_id=ChIJ80-AKEbuGGARmN-6SihPfpU"
-  ],
-  [
-    "無印良品 コピス吉祥寺",
-    "https://www.google.com/maps/search/?api=1&query=35.7049541,139.5795709&query_place_id=ChIJB0eQ1EfuGGARaKthmgoKqwU"
-  ],
-  [
-    "無印良品",
-    "https://www.google.com/maps/search/?api=1&query=35.7049541,139.5795709&query_place_id=ChIJB0eQ1EfuGGARaKthmgoKqwU"
-  ],
-  [
-    "大創",
-    "https://www.google.com/maps/search/?api=1&query=35.7050504,139.580504&query_place_id=ChIJ8W2Ms0fuGGAR5CNgR7olN8g"
-  ],
-  [
-    "哈莫尼卡橫丁 (ハーモニカ横丁)",
-    "https://www.google.com/maps/search/?api=1&query=%E3%83%8F%E3%83%BC%E3%83%A2%E3%83%8B%E3%82%AB%E6%A8%AA%E4%B8%81"
-  ],
-  [
-    "哈莫尼卡橫丁",
-    "https://www.google.com/maps/search/?api=1&query=%E3%83%8F%E3%83%BC%E3%83%A2%E3%83%8B%E3%82%AB%E6%A8%AA%E4%B8%81"
-  ],
-  [
     "SATOU (黒毛和牛専門店 さとう 吉祥寺店)",
-    "https://www.google.com/maps/search/?api=1&query=35.703975,139.579041&query_place_id=ChIJEerD2EfuGGARNzol9ZsrCkg"
-  ],
-  [
-    "SATOU 黑毛和牛炸牛肉丸",
     "https://www.google.com/maps/search/?api=1&query=35.703975,139.579041&query_place_id=ChIJEerD2EfuGGARNzol9ZsrCkg"
   ],
   [
     "SATOU",
     "https://www.google.com/maps/search/?api=1&query=35.703975,139.579041&query_place_id=ChIJEerD2EfuGGARNzol9ZsrCkg"
-  ],
-  [
-    "Linde 德國麵包",
-    "https://www.google.com/maps/search/?api=1&query=35.704096,139.5802054&query_place_id=ChIJBUM940XuGGAR4dVP7nqzDHc"
-  ],
-  [
-    "Jyonetsu Bakery",
-    "https://www.google.com/maps/search/?api=1&query=35.7031128,139.5790112&query_place_id=ChIJm4Jc8EfuGGARqyy_yr_4JTo"
   ],
   [
     "築地場外市場 (築地場外市場)",

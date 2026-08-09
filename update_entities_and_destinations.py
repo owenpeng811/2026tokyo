@@ -1,10 +1,8 @@
 import json
-import re
 
 with open('/home/owen/tokyo/navigation_links_dict.json', 'r', encoding='utf-8') as f:
     nav_dict = json.load(f)
 
-# Specific First Destination mapping per (day, slot_title_pattern)
 FIRST_DESTINATIONS = {
     # Day 1
     (1, "機場整備與購票"): nav_dict.get("羽田機場第3航廈"),
@@ -25,7 +23,7 @@ FIRST_DESTINATIONS = {
 
     # Day 2 Parents
     (2, "出發前往上野御徒町"): nav_dict.get("淺草橋站"),
-    (2, "晨間清涼戶外散步"): nav_dict.get("不忍池"),  # <<--- First destination is 不忍池!
+    (2, "晨間清涼戶外散步"): nav_dict.get("不忍池"),
     (2, "進入室內基地營避暑"): nav_dict.get("DEAN & DELUCA CAFE (PARCO_ya 1F)"),
     (2, "午餐"): nav_dict.get("すき家 (すき家 上野三丁目店)"),
     (2, "正午酷暑亮點：國立西洋美術館"): nav_dict.get("國立西洋美術館"),
@@ -54,10 +52,13 @@ FIRST_DESTINATIONS = {
     (3, "午餐"): nav_dict.get("天丼てんや (天丼てんや 八重洲店)"),
     (3, "前往上野"): nav_dict.get("東京站"),
     (3, "國立科學博物館"): nav_dict.get("國立科學博物館 (国立科学博物館)"),
-    (3, "鴨 to 蔥拉麵"): nav_dict.get("鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)"),
-    (3, "阿美橫丁採買"): nav_dict.get("二木菓子 (二木の菓子 第一営業所)"), # <<--- First shopping destination is 二木菓子!
+    (3, "超人氣晚餐 ：鴨 to 蔥拉麵"): nav_dict.get("鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)"),
+    (3, "阿美橫丁採買"): nav_dict.get("二木菓子 (二木の菓子 第一営業所)"),
     (3, "前往JR 御徒町站"): nav_dict.get("御徒町站"),
-    (3, "宵夜／點心"): nav_dict.get("海茵娜酒店"),
+    (3, "晚餐（若下午沒吃鴨 to 蔥拉麵）"): nav_dict.get("吉野家 (吉野家 浅草橋店)"), # <<--- Strict match to 吉野家!
+    (3, "若下午沒吃鴨 to 蔥拉麵"): nav_dict.get("吉野家 (吉野家 浅草橋店)"),
+    (3, "宵夜／點心（若下午已吃鴨 to 蔥拉麵）"): nav_dict.get("Cow Cow Kitchen (東京Milk Cheese Factory)"),
+    (3, "若下午已吃鴨 to 蔥拉麵"): nav_dict.get("Cow Cow Kitchen (東京Milk Cheese Factory)"),
 
     # Day 4
     (4, "前往三鷹"): nav_dict.get("淺草橋站"),
@@ -72,7 +73,7 @@ FIRST_DESTINATIONS = {
 
     # Day 5
     (5, "前往淺草"): nav_dict.get("淺草橋站"),
-    (5, "淺草寺"): nav_dict.get("雷門 (雷門)"), # <<--- First destination in Asakusa is 雷門!
+    (5, "淺草寺"): nav_dict.get("雷門 (雷門)"),
     (5, "淺草文化觀光中心"): nav_dict.get("淺草文化觀光中心 (浅草文化観光センター)"),
     (5, "前往東京晴空塔"): nav_dict.get("淺草站"),
     (5, "午餐：東京晴空街道"): nav_dict.get("達摩文字燒 (月島名物もんじゃ だるま 東京スカイツリータウン・ソラマチ店)"),
@@ -87,7 +88,7 @@ FIRST_DESTINATIONS = {
     (6, "早餐與整理行李"): nav_dict.get("海茵娜酒店"),
     (6, "退房"): nav_dict.get("海茵娜酒店"),
     (6, "前往築地場外市場"): nav_dict.get("淺草橋站"),
-    (6, "築地場外市場（早餐）"): nav_dict.get("築地山長 (つきぢ山長)"), # <<--- First food destination is 築地山長!
+    (6, "築地場外市場（早餐）"): nav_dict.get("築地山長 (つきぢ山長)"),
     (6, "前往東銀座站回飯店"): nav_dict.get("東銀座站"),
     (6, "領行李與車站移動"): nav_dict.get("海茵娜酒店"),
     (6, "前往羽田機場"): nav_dict.get("淺草橋站"),
@@ -96,8 +97,17 @@ FIRST_DESTINATIONS = {
     (6, "搭機返台"): nav_dict.get("羽田機場第3航廈")
 }
 
-# In-text Entities to auto-link
 TEXT_ENTITIES = [
+    ("吉野家 (吉野家 浅草橋店)", nav_dict.get("吉野家 (吉野家 浅草橋店)")),
+    ("吉野家 浅草橋店", nav_dict.get("吉野家 (吉野家 浅草橋店)")),
+    ("吉野家", nav_dict.get("吉野家 (吉野家 浅草橋店)")),
+    ("松屋 (松屋 浅草橋店)", nav_dict.get("松屋 (松屋 浅草橋店)")),
+    ("松屋 浅草橋店", nav_dict.get("松屋 (松屋 浅草橋店)")),
+    ("拉麵 ろく月 (らーめん ろく月)", nav_dict.get("拉麵 ろく月 (らーめん ろく月)")),
+    ("拉麵 ろく月", nav_dict.get("拉麵 ろく月 (らーめん ろく月)")),
+    ("ろく月 雞白湯拉麵", nav_dict.get("拉麵 ろく月 (らーめん ろく月)")),
+    ("Cow Cow Kitchen (東京Milk Cheese Factory)", nav_dict.get("Cow Cow Kitchen (東京Milk Cheese Factory)")),
+    ("Cow Cow Kitchen", nav_dict.get("Cow Cow Kitchen (東京Milk Cheese Factory)")),
     ("不忍池 (不忍池 弁天堂)", nav_dict.get("不忍池")),
     ("不忍池", nav_dict.get("不忍池")),
     ("清水觀音堂 (清水観音堂)", nav_dict.get("清水觀音堂")),
@@ -105,13 +115,11 @@ TEXT_ENTITIES = [
     ("兔屋 (うさぎや)", nav_dict.get("兔屋 (うさぎや)")),
     ("兔屋", nav_dict.get("兔屋 (うさぎや)")),
     ("松坂屋上野店", nav_dict.get("松坂屋上野店")),
+    ("松坂屋", nav_dict.get("松坂屋上野店")),
     ("PARCO_ya", nav_dict.get("PARCO_ya")),
     ("國立西洋美術館", nav_dict.get("國立西洋美術館")),
     ("上野恩賜公園 噴水広場", nav_dict.get("上野公園噴水廣場")),
     ("上野公園中央噴水廣場", nav_dict.get("上野公園噴水廣場")),
-    ("噴水廣場", nav_dict.get("上野公園噴水廣場")),
-    ("舊岩崎邸庭園", nav_dict.get("舊岩崎邸庭園")),
-    ("上野東照宮", nav_dict.get("上野東照宮")),
     ("二木菓子（二木の菓子 第一営業所）", nav_dict.get("二木菓子 (二木の菓子 第一営業所)")),
     ("二木菓子", nav_dict.get("二木菓子 (二木の菓子 第一営業所)")),
     ("OS Drug 上野店", nav_dict.get("OS Drug 上野店")),
@@ -142,32 +150,18 @@ TEXT_ENTITIES = [
     ("晴空街道", nav_dict.get("東京晴空街道 (東京ソラマチ)")),
     ("東京都廳 (東京都庁)", nav_dict.get("東京都廳第一本廳舍 (東京都庁舎)")),
     ("東京都廳", nav_dict.get("東京都廳第一本廳舍 (東京都庁舎)")),
-    ("東京都庁", nav_dict.get("東京都廳第一本廳舍 (東京都庁舎)")),
     ("東京車站丸之內站舍 (東京駅丸の内駅舎)", nav_dict.get("東京車站丸之內站舍 (東京駅丸の内駅舎)")),
     ("東京車站丸之內站舍", nav_dict.get("東京車站丸之內站舍 (東京駅丸の内駅舎)")),
     ("東京車站一番街 (東京駅一番街)", nav_dict.get("東京車站一番街 (東京駅一番街)")),
     ("東京車站一番街", nav_dict.get("東京車站一番街 (東京駅一番街)")),
-    ("一番街", nav_dict.get("東京車站一番街 (東京駅一番街)")),
     ("KITTE花園 (ＫＩＴＴＥガーデン)", nav_dict.get("KITTE花園 (ＫＩＴＴＥガーデン)")),
     ("KITTE花園", nav_dict.get("KITTE花園 (ＫＩＴＴＥガーデン)")),
-    ("KITTE丸の内", nav_dict.get("KITTE花園 (ＫＩＴＴＥガーデン)")),
     ("三鷹之森吉卜力美術館 (三鷹の森ジブリ美術館)", nav_dict.get("三鷹之森吉卜力美術館 (三鷹の森ジブリ美術館)")),
     ("三鷹之森吉卜力美術館", nav_dict.get("三鷹之森吉卜力美術館 (三鷹の森ジブリ美術館)")),
     ("井之頭恩賜公園", nav_dict.get("井之頭恩賜公園")),
     ("吉祥寺 Sunroad 商店街", nav_dict.get("吉祥寺 Sunroad 商店街")),
-    ("Sunroad 商店街", nav_dict.get("吉祥寺 Sunroad 商店街")),
-    ("吉祥寺ロフト", nav_dict.get("Loft (吉祥寺ロフト)")),
-    ("Loft 文具旗艦店", nav_dict.get("Loft (吉祥寺ロフト)")),
-    ("無印良品 コピス吉祥寺", nav_dict.get("無印良品 (無印良品 コピス吉祥寺)")),
-    ("無印良品", nav_dict.get("無印良品 (無印良品 コピス吉祥寺)")),
-    ("大創", nav_dict.get("大創 (DAISO 吉祥寺サンロード店)")),
-    ("哈莫尼卡橫丁 (ハーモニカ横丁)", nav_dict.get("哈莫尼卡橫丁 (ハーモニカ横丁)")),
-    ("哈莫尼卡橫丁", nav_dict.get("哈莫尼卡橫丁 (ハーモニカ横丁)")),
     ("SATOU (黒毛和牛専門店 さとう 吉祥寺店)", nav_dict.get("SATOU (黒毛和牛専門店 さとう 吉祥寺店)")),
-    ("SATOU 黑毛和牛炸牛肉丸", nav_dict.get("SATOU (黒毛和牛専門店 さとう 吉祥寺店)")),
     ("SATOU", nav_dict.get("SATOU (黒毛和牛専門店 さとう 吉祥寺店)")),
-    ("Linde 德國麵包", nav_dict.get("Linde 德國麵包 (ベッカライカフェ・リンデ 吉祥寺本店)")),
-    ("Jyonetsu Bakery", nav_dict.get("Jyonetsu Bakery")),
     ("築地場外市場 (築地場外市場)", nav_dict.get("築地場外市場 (築地場外市場)")),
     ("築地場外市場", nav_dict.get("築地場外市場 (築地場外市場)")),
     ("築地山長 (つきぢ山長)", nav_dict.get("築地山長 (つきぢ山長)")),
@@ -180,11 +174,10 @@ TEXT_ENTITIES = [
     ("海茵娜酒店", nav_dict.get("海茵娜酒店"))
 ]
 
-# Write out mapping to json for build_pwa.py
 with open('/home/owen/tokyo/first_destinations.json', 'w', encoding='utf-8') as f:
     json.dump({f"{d}_{k}": v for (d, k), v in FIRST_DESTINATIONS.items() if v}, f, ensure_ascii=False, indent=2)
 
 with open('/home/owen/tokyo/text_entities.json', 'w', encoding='utf-8') as f:
     json.dump(TEXT_ENTITIES, f, ensure_ascii=False, indent=2)
 
-print("Saved first_destinations.json and text_entities.json!")
+print("Saved updated dictionaries!")
