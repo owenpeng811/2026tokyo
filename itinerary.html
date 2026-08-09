@@ -52,7 +52,6 @@
       background-attachment: fixed;
     }
 
-    /* Header */
     .app-header {
       background: rgba(15, 17, 26, 0.92);
       backdrop-filter: blur(var(--blur-strength));
@@ -90,7 +89,6 @@
       font-weight: 600;
     }
 
-    /* Progress bar */
     .progress-bar-container {
       height: 4px;
       background: rgba(255, 255, 255, 0.1);
@@ -105,7 +103,6 @@
       transition: width 0.3s ease;
     }
 
-    /* Day Tabs */
     .day-tabs {
       display: flex;
       gap: 6px;
@@ -138,7 +135,6 @@
       box-shadow: 0 4px 12px rgba(228, 95, 86, 0.35);
     }
 
-    /* Quick Info Cards */
     .meta-card {
       margin: 12px 16px;
       background: var(--card-bg);
@@ -182,7 +178,6 @@
       margin-left: 6px;
     }
 
-    /* Sub-toggles */
     .sub-toggle-wrapper {
       margin: 8px 16px 16px;
     }
@@ -214,7 +209,6 @@
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     }
 
-    /* Timeline Section */
     .timeline-container {
       padding: 0 16px;
     }
@@ -289,7 +283,6 @@
       border-radius: 1px;
     }
 
-    /* Card */
     .timeline-card {
       flex: 1;
       background: var(--card-bg);
@@ -400,7 +393,7 @@
       color: #fff;
     }
 
-    /* Bottom Sheet Modal */
+    /* Modal Sheet */
     .modal-overlay {
       position: fixed;
       top: 0;
@@ -504,7 +497,6 @@
       text-decoration: underline;
     }
 
-    /* Utility Drawer */
     .emergency-card {
       margin: 16px;
       background: rgba(228, 95, 86, 0.08);
@@ -527,7 +519,6 @@
       gap: 6px;
     }
 
-    /* Toast Notification */
     .toast {
       position: fixed;
       bottom: 24px;
@@ -555,7 +546,6 @@
 </head>
 <body>
 
-  <!-- App Sticky Header -->
   <header class="app-header">
     <div class="header-top">
       <div class="app-title">
@@ -570,7 +560,6 @@
       <div class="progress-bar-fill" id="progressBar"></div>
     </div>
 
-    <!-- Day Navigation Tabs -->
     <nav class="day-tabs" id="dayTabs">
       <button class="day-tab active" onclick="switchDay(1)">Day 1 (8/20)</button>
       <button class="day-tab" onclick="switchDay(2)">Day 2 (8/21)</button>
@@ -581,7 +570,6 @@
     </nav>
   </header>
 
-  <!-- Hotel & Flight Quick Reference -->
   <section class="meta-card">
     <div class="meta-row">
       <span class="meta-label">🏨 住宿飯店</span>
@@ -607,7 +595,6 @@
     </div>
   </section>
 
-  <!-- Main Timeline Sections -->
   <main class="timeline-container">
     <!-- Day 1 Section -->
     <div class="day-section" id="day1-section">
@@ -669,14 +656,14 @@
             </div>
           </div>
           <h3 class="card-title">
-            <span>🛬 抵達羽田機場第 3 航廈(羽田空港第3ターミナル)</span>
+            <span>抵達羽田機場第 3 航廈(羽田空港第3ターミナル)</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9B%AC%20%E6%8A%B5%E9%81%94%E7%BE%BD%E7%94%B0%E6%A9%9F%E5%A0%B4%E7%AC%AC%203%20%E8%88%AA%E5%BB%88%28%E7%BE%BD%E7%94%B0%E7%A9%BA%E6%B8%AF%E7%AC%AC3%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%29" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
             <p class="card-summary">入境、提領行李、海關（預計 50～60 分鐘）。</p>
-            
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-cb1')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <p>入境、提領行李、海關（預計 50～60 分鐘）。</p>
             </div>
@@ -701,7 +688,7 @@
           <h3 class="card-title">
             <span>機場整備與購票</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E6%A9%9F%E5%A0%B4%E6%95%B4%E5%82%99%E8%88%87%E8%B3%BC%E7%A5%A8" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E2%9C%88%EF%B8%8F%20%E6%A9%9F%E5%A0%B4%E6%95%B4%E5%82%99%E8%88%87%E8%B3%BC%E7%A5%A8" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -737,11 +724,11 @@
           <h3 class="card-title">
             <span>前往飯店 (Henn na Hotel)</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E5%BE%80%E9%A3%AF%E5%BA%97%20%28Henn%20na%20Hotel%29" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9A%87%20%E5%89%8D%E5%BE%80%E9%A3%AF%E5%BA%97%20%28Henn%20na%20Hotel%29" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary"><strong>首選（直達）：</strong> 從羽田機場第3航廈站 搭乘「京急機場線 (直通都營淺草線往成田空港/青砥方向)」直達 <strong>淺草橋站(浅草橋駅)</strong>。車程約 40-45 分鐘，免提行李換車。</p>
+            <p class="card-summary"><strong>搭乘首選（直達）：</strong>從羽田機場第3航廈站 搭乘「京急機場線 (直通都營淺草線)」直達 淺草橋站（A1 電梯出口）。車程約 40-45 分鐘，免提行李換車。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-cb3')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -773,11 +760,11 @@
           <h3 class="card-title">
             <span>飯店 Check-in 與休息</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E9%A3%AF%E5%BA%97%20Check-in%20%E8%88%87%E4%BC%91%E6%81%AF" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8F%A8%20%E9%A3%AF%E5%BA%97%20Check-in%20%E8%88%87%E4%BC%91%E6%81%AF" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">辦理 Check-in、置放行李、吹冷氣稍作休息、更換輕便服裝。</p>
+            <p class="card-summary">步行抵達海茵娜酒店辦理 Check-in、置放行李、稍作休息，更換舒適鞋衣。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-cb4')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -794,7 +781,7 @@
         </div>
       </div>
       <div class="day1-plan-A">
-      <div class="timeline-item" data-category="attraction">
+      <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
             <input type="checkbox" id="item-d1-pa0" onchange="toggleCheck('item-d1-pa0')">
@@ -804,27 +791,32 @@
         </div>
         <div class="timeline-card" id="card-item-d1-pa0">
           <div class="card-header">
-            <span class="card-time"></span>
+            <span class="card-time">16:20</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <span class="tag tag-transport">🚆 交通</span>
             </div>
           </div>
           <h3 class="card-title">
-            <span>✅ Plan A（首選推薦：秋葉原漫遊 × 拍貼扭蛋）</span>
+            <span>出發前往秋葉原</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E2%9C%85%20Plan%20A%EF%BC%88%E9%A6%96%E9%81%B8%E6%8E%A8%E8%96%A6%EF%BC%9A%E7%A7%8B%E8%91%89%E5%8E%9F%E6%BC%AB%E9%81%8A%20%C3%97%20%E6%8B%8D%E8%B2%BC%E6%89%AD%E8%9B%8B%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9A%B6%E2%80%8D%E2%99%82%EF%B8%8F%20%E5%87%BA%E7%99%BC%E5%89%8D%E5%BE%80%E7%A7%8B%E8%91%89%E5%8E%9F" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary"></p>
-            
+            <p class="card-summary">慢步 2 分鐘至 JR 淺草橋站，搭乘 JR 中央・總武線 (黃色列車) 1 站直達 秋葉原站 (車程僅 2 分鐘)。</p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pa0')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
-              
+              <div class="modal-quote">
+<ul class="modal-list">
+<li>16:20 離開飯店 ➔ 慢步 2 分鐘至 JR 淺草橋站（西口進站有電梯）。</li>
+<li><strong>交通：從 JR 淺草橋站搭乘 JR 中央・總武線 (黃色列車) 1 站至 秋葉原站 (約 2 分鐘，電氣街口出站即達)。</strong></li>
+</ul>
+</div>
             </div>
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="transport">
+      <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
             <input type="checkbox" id="item-d1-pa1" onchange="toggleCheck('item-d1-pa1')">
@@ -834,25 +826,25 @@
         </div>
         <div class="timeline-card" id="card-item-d1-pa1">
           <div class="card-header">
-            <span class="card-time"></span>
+            <span class="card-time">16:30－16:50</span>
             <div class="card-tags">
-              <span class="tag tag-transport">🚆 交通</span>
+              <span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
-            <span># 16:20  出發前往秋葉原</span>
+            <span>GiGO 秋葉原3號館 (GiGO 秋葉原3号館)</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%23%2016%3A20%20%20%E5%87%BA%E7%99%BC%E5%89%8D%E5%BE%80%E7%A7%8B%E8%91%89%E5%8E%9F" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/B9Z2n8wYjGqH5V1r7" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">慢步 2 分鐘至 JR 淺草橋站，搭乘 JR 中央・總武線 (黃色列車) 1 站直達 秋葉原站 (車程僅 2 分鐘)。</p>
+            <p class="card-summary">體驗日本大型電玩中心、日式夾娃娃機（UFO Catcher），全家感受秋葉原熱鬧的次文化遊樂氛圍（預算約 ¥500～¥1,000）。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pa1')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
-<li>16:20 離開飯店 ➔ 慢步 2 分鐘至 JR 淺草橋站（西口進站有電梯）。</li>
-<li><strong>交通：從 JR 淺草橋站搭乘 JR 中央・總武線 (黃色列車) 1 站至 秋葉原站 (約 2 分鐘，電氣街口出站即達)。</strong></li>
+<li>體驗日本大型電玩中心、日式夾娃娃機（UFO Catcher）、全家感受秋葉原熱鬧的次文化遊樂氛圍。</li>
+<li>💡 <strong>消費預估</strong>：夾娃娃機體驗約 ¥500～¥1,000 / 全家，小試身手即可。</li>
 </ul>
 </div>
             </div>
@@ -869,55 +861,20 @@
         </div>
         <div class="timeline-card" id="card-item-d1-pa2">
           <div class="card-header">
-            <span class="card-time"></span>
+            <span class="card-time">16:50－17:10</span>
             <div class="card-tags">
               <span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
-            <span># 16:30－16:50  GiGO 秋葉原3號館 (GiGO 秋葉原3号館)</span>
+            <span>日系拍貼機體驗 (Purikura / GiGO 拍貼機專區)</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://maps.app.goo.gl/B9Z2n8wYjGqH5V1r7)" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
-            </div>
-          </h3>
-          <div class="card-body">
-            <p class="card-summary">體驗日本大型電玩中心、日式夾娃娃機（UFO Catcher），全家感受秋葉原熱鬧的次文化遊樂氛圍（預算約 ¥500～¥1,000）。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pa2')">📖 完整說明與祕訣</button>
-            <div class="original-content-holder" style="display: none;">
-              <div class="modal-quote">
-<ul class="modal-list">
-<li>體驗日本大型電玩中心、日式夾娃娃機（UFO Catcher）、全家感受秋葉原熱鬧的次文化遊樂氛圍。</li>
-<li>💡 <strong>消費預估</strong>：夾娃娃機體驗約 ¥500～¥1,000 / 全家，小試身手即可。</li>
-</ul>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d1-pa3" onchange="toggleCheck('item-d1-pa3')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d1-pa3">
-          <div class="card-header">
-            <span class="card-time"></span>
-            <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
-            </div>
-          </div>
-          <h3 class="card-title">
-            <span># 16:50－17:10  日系拍貼機體驗 (Purikura / GiGO 拍貼機專區)</span>
-            <div class="card-actions">
-              <a class="map-link-btn" href="https://maps.app.goo.gl/B9Z2n8wYjGqH5V1r7)" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/B9Z2n8wYjGqH5V1r7" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
             <p class="card-summary"><strong>全家合影紀念：</strong>走進日本最新「大眼美肌拍貼機」，全家 5 人拍下旅行初日開場全家福，觸控塗鴉並現場列印全彩貼紙（¥500/次）。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pa3')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pa2')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -934,27 +891,27 @@
       <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d1-pa4" onchange="toggleCheck('item-d1-pa4')">
+            <input type="checkbox" id="item-d1-pa3" onchange="toggleCheck('item-d1-pa3')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d1-pa4">
+        <div class="timeline-card" id="card-item-d1-pa3">
           <div class="card-header">
-            <span class="card-time"></span>
+            <span class="card-time">17:10－17:30</span>
             <div class="card-tags">
               <span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
-            <span># 17:10－17:30  萬代扭蛋百貨店 秋葉原店 (ガシャポンのデパート 秋葉原店)</span>
+            <span>萬代扭蛋百貨店 秋葉原店 (ガシャポンのデパート 秋葉原店)</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://maps.app.goo.gl/2F8a4mK7eUvB3H6x9)" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/2F8a4mK7eUvB3H6x9" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
             <p class="card-summary">秋葉原規模最大官方扭蛋專門店，近千台最新動漫、寶可夢、迪士尼扭蛋機。每位小朋友選扭 1～2 顆開場禮物。<br><em>(Option: 友都八喜 6F 玩具模型展區)</em></p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pa4')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pa3')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -971,27 +928,27 @@
       <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d1-pa5" onchange="toggleCheck('item-d1-pa5')">
+            <input type="checkbox" id="item-d1-pa4" onchange="toggleCheck('item-d1-pa4')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d1-pa5">
+        <div class="timeline-card" id="card-item-d1-pa4">
           <div class="card-header">
-            <span class="card-time"></span>
+            <span class="card-time">17:30－19:00</span>
             <div class="card-tags">
               <span class="tag tag-food">🍜 美食</span>
             </div>
           </div>
           <h3 class="card-title">
-            <span># 17:30－19:00  晚餐：壽司郎（90 分鐘寬裕大啖平價迴轉壽司）</span>
+            <span>晚餐：壽司郎（90 分鐘寬裕大啖平價迴轉壽司）</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://maps.app.goo.gl/MfORxzyNGGARskRp8)" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/MfORxzyNGGARskRp8" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
             <p class="card-summary"><strong>首選餐廳：</strong><a class="map-link-inline" href="https://maps.app.goo.gl/MfORxzyNGGARskRp8" target="_blank">🍣 壽司郎 秋葉原駅前店 🔗</a> 享用平價迴轉壽司（人均 ¥1,000～¥1,800）。<strong>已預約，客戶編號 7300</strong>。全中文觸控平板、現點現做軌道直送，90 分鐘寬裕用餐！<br><strong>備案 1：</strong>丸龜製麵 秋葉原店 (烏龍麵，¥500-900)<br><strong>備案 2：</strong>CoCo壹番屋 秋葉原站前店 (咖哩飯，¥800-1,200)</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pa5')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pa4')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -1014,27 +971,27 @@
       <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d1-pa6" onchange="toggleCheck('item-d1-pa6')">
+            <input type="checkbox" id="item-d1-pa5" onchange="toggleCheck('item-d1-pa5')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d1-pa6">
+        <div class="timeline-card" id="card-item-d1-pa5">
           <div class="card-header">
-            <span class="card-time"></span>
+            <span class="card-time">19:00－19:15</span>
             <div class="card-tags">
               <span class="tag tag-transport">🚆 交通</span>
             </div>
           </div>
           <h3 class="card-title">
-            <span># 19:00－19:15 🚆 返回淺草橋</span>
+            <span>🚆 返回淺草橋</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%23%2019%3A00%EF%BC%8D19%3A15%20%F0%9F%9A%86%20%E8%BF%94%E5%9B%9E%E6%B7%BA%E8%8D%89%E6%A9%8B" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9A%86%20%E8%BF%94%E5%9B%9E%E6%B7%BA%E8%8D%89%E6%A9%8B" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
             <p class="card-summary">步行至 JR 秋葉原站，搭乘 JR 中央・總武線 1 站直達 淺草橋站 (車程 2 分鐘)。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pa6')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pa5')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -1048,57 +1005,27 @@
       <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d1-pa7" onchange="toggleCheck('item-d1-pa7')">
+            <input type="checkbox" id="item-d1-pa6" onchange="toggleCheck('item-d1-pa6')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d1-pa7">
+        <div class="timeline-card" id="card-item-d1-pa6">
           <div class="card-header">
-            <span class="card-time"></span>
+            <span class="card-time">19:15－19:35</span>
             <div class="card-tags">
               <span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
-            <span>共同收尾行程（Plan A / Plan B 適用）</span>
+            <span>地方生鮮超市採買</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%85%B1%E5%90%8C%E6%94%B6%E5%B0%BE%E8%A1%8C%E7%A8%8B%EF%BC%88Plan%20A%20/%20Plan%20B%20%E9%81%A9%E7%94%A8%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
-            </div>
-          </h3>
-          <div class="card-body">
-            <p class="card-summary"></p>
-            
-            <div class="original-content-holder" style="display: none;">
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d1-pa8" onchange="toggleCheck('item-d1-pa8')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d1-pa8">
-          <div class="card-header">
-            <span class="card-time"></span>
-            <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
-            </div>
-          </div>
-          <h3 class="card-title">
-            <span># 19:15－19:35  地方生鮮超市採買</span>
-            <div class="card-actions">
-              <a class="map-link-btn" href="https://maps.app.goo.gl/LLEqzq7e73zUXbGU9)" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/LLEqzq7e73zUXbGU9" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
             <p class="card-summary">前往飯店旁 <strong>肉之Hanamasa超市 (肉のハナマサ 浅草橋店)</strong> 採買：翌日早餐鮮乳、麵包、優格、礦泉水與當季水果。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pa8')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pa6')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -1112,27 +1039,27 @@
       <div class="timeline-item" data-category="stay">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d1-pa9" onchange="toggleCheck('item-d1-pa9')">
+            <input type="checkbox" id="item-d1-pa7" onchange="toggleCheck('item-d1-pa7')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d1-pa9">
+        <div class="timeline-card" id="card-item-d1-pa7">
           <div class="card-header">
-            <span class="card-time"></span>
+            <span class="card-time">19:40</span>
             <div class="card-tags">
               <span class="tag tag-stay">🏨 住宿</span>
             </div>
           </div>
           <h3 class="card-title">
-            <span># 19:40  回飯店休息整備</span>
+            <span>回飯店休息整備</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%23%2019%3A40%20%20%E5%9B%9E%E9%A3%AF%E5%BA%97%E4%BC%91%E6%81%AF%E6%95%B4%E5%82%99" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8F%A8%20%E5%9B%9E%E9%A3%AF%E5%BA%97%E4%BC%91%E6%81%AF%E6%95%B4%E5%82%99" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
             <p class="card-summary">回到海茵娜酒店。整理明日迪士尼裝備（門票、Welcome Suica、行動電源）。全家輪流洗澡泡澡放鬆。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pa9')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pa7')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -1148,27 +1075,27 @@
       <div class="timeline-item" data-category="stay">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d1-pa10" onchange="toggleCheck('item-d1-pa10')">
+            <input type="checkbox" id="item-d1-pa8" onchange="toggleCheck('item-d1-pa8')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d1-pa10">
+        <div class="timeline-card" id="card-item-d1-pa8">
           <div class="card-header">
-            <span class="card-time"></span>
+            <span class="card-time">21:00－21:30</span>
             <div class="card-tags">
               <span class="tag tag-stay">🏨 住宿</span>
             </div>
           </div>
           <h3 class="card-title">
-            <span># 21:00－21:30 🛌 準時就寢</span>
+            <span>🛌 準時就寢</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%23%2021%3A00%EF%BC%8D21%3A30%20%F0%9F%9B%8C%20%E6%BA%96%E6%99%82%E5%B0%B1%E5%AF%A2" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9B%8C%20%E6%BA%96%E6%99%82%E5%B0%B1%E5%AF%A2" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
             <p class="card-summary"><strong>21:00－21:30 準時就寢</strong>，隔天 06:20 起床睡滿 9 小時，充足體力迎戰東京迪士尼！</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pa10')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pa8')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -1184,7 +1111,7 @@
       </div>
       </div>
       <div class="day1-plan-B" style="display: none;">
-      <div class="timeline-item" data-category="attraction">
+      <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
             <input type="checkbox" id="item-d1-pb0" onchange="toggleCheck('item-d1-pb0')">
@@ -1194,50 +1121,20 @@
         </div>
         <div class="timeline-card" id="card-item-d1-pb0">
           <div class="card-header">
-            <span class="card-time"></span>
-            <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
-            </div>
-          </div>
-          <h3 class="card-title">
-            <span>✅ Plan B（備案：新宿 3D 巨貓）</span>
-            <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E2%9C%85%20Plan%20B%EF%BC%88%E5%82%99%E6%A1%88%EF%BC%9A%E6%96%B0%E5%AE%BF%203D%20%E5%B7%A8%E8%B2%93%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
-            </div>
-          </h3>
-          <div class="card-body">
-            <p class="card-summary"></p>
-            
-            <div class="original-content-holder" style="display: none;">
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="transport">
-        <div class="timeline-check">
-          <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d1-pb1" onchange="toggleCheck('item-d1-pb1')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d1-pb1">
-          <div class="card-header">
-            <span class="card-time"></span>
+            <span class="card-time">16:30－17:15</span>
             <div class="card-tags">
               <span class="tag tag-transport">🚆 交通</span>
             </div>
           </div>
           <h3 class="card-title">
-            <span># 16:30－17:15  交通出發與轉乘（舒適電車移動）</span>
+            <span>交通出發與轉乘（舒適電車移動）</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%23%2016%3A30%EF%BC%8D17%3A15%20%20%E4%BA%A4%E9%80%9A%E5%87%BA%E7%99%BC%E8%88%87%E8%BD%89%E4%B9%98%EF%BC%88%E8%88%92%E9%81%A9%E9%9B%BB%E8%BB%8A%E7%A7%BB%E5%8B%95%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9A%87%20%E4%BA%A4%E9%80%9A%E5%87%BA%E7%99%BC%E8%88%87%E8%BD%89%E4%B9%98%EF%BC%88%E8%88%92%E9%81%A9%E9%9B%BB%E8%BB%8A%E7%A7%BB%E5%8B%95%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
             <p class="card-summary">16:30 離開飯店 ➔ 慢步 2 分鐘前往 JR 淺草橋站。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pb1')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pb0')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -1253,27 +1150,27 @@
       <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d1-pb2" onchange="toggleCheck('item-d1-pb2')">
+            <input type="checkbox" id="item-d1-pb1" onchange="toggleCheck('item-d1-pb1')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d1-pb2">
+        <div class="timeline-card" id="card-item-d1-pb1">
           <div class="card-header">
-            <span class="card-time"></span>
+            <span class="card-time">17:15－17:40</span>
             <div class="card-tags">
               <span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
-            <span># 17:15－17:40 🐈 Cross Shinjuku 3D 巨貓 (クロス新宿ビジョン)</span>
+            <span>🐈 Cross Shinjuku 3D 巨貓 (クロス新宿ビジョン)</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://maps.app.goo.gl/uLh3b6L88oT3b2B5A)" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/uLh3b6L88oT3b2B5A" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
             <p class="card-summary">新宿東口站前廣場抬頭欣賞生動逼真的超巨大 3D 三花貓演出，開闊廣場平坦安心觀賞。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pb2')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pb1')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -1288,27 +1185,27 @@
       <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d1-pb3" onchange="toggleCheck('item-d1-pb3')">
+            <input type="checkbox" id="item-d1-pb2" onchange="toggleCheck('item-d1-pb2')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d1-pb3">
+        <div class="timeline-card" id="card-item-d1-pb2">
           <div class="card-header">
-            <span class="card-time"></span>
+            <span class="card-time">17:40－18:35</span>
             <div class="card-tags">
               <span class="tag tag-food">🍜 美食</span>
             </div>
           </div>
           <h3 class="card-title">
-            <span># 17:40－18:35  晚餐：新宿東口家庭友善美食</span>
+            <span>晚餐：新宿東口家庭友善美食</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://maps.app.goo.gl/FUOWQQCNGGARHkjP8)" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/FUOWQQCNGGARHkjP8" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
             <p class="card-summary"><strong>首選餐廳：</strong><a class="map-link-inline" href="https://maps.app.goo.gl/FUOWQQCNGGARHkjP8" target="_blank">🍽️ Gusto 新宿NOWAビル店 🔗</a> 享用平價日式家庭料理（漢堡排定食，人均 ¥800～¥1,200），全中文平板點餐、貓咪送餐機器人。<br><strong>備案：</strong>LUMINE EST 餐廳街 (7F/8F 蛋包飯/日式洋食)。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pb3')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pb2')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -1325,27 +1222,27 @@
       <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d1-pb4" onchange="toggleCheck('item-d1-pb4')">
+            <input type="checkbox" id="item-d1-pb3" onchange="toggleCheck('item-d1-pb3')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d1-pb4">
+        <div class="timeline-card" id="card-item-d1-pb3">
           <div class="card-header">
-            <span class="card-time"></span>
+            <span class="card-time">18:35－19:15</span>
             <div class="card-tags">
               <span class="tag tag-transport">🚆 交通</span>
             </div>
           </div>
           <h3 class="card-title">
-            <span># 18:35－19:15 🚆 返回淺草橋</span>
+            <span>🚆 返回淺草橋</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%23%2018%3A35%EF%BC%8D19%3A15%20%F0%9F%9A%86%20%E8%BF%94%E5%9B%9E%E6%B7%BA%E8%8D%89%E6%A9%8B" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9A%86%20%E8%BF%94%E5%9B%9E%E6%B7%BA%E8%8D%89%E6%A9%8B" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
             <p class="card-summary">步行至 JR 秋葉原站，搭乘 JR 中央・總武線 1 站直達 淺草橋站 (車程 2 分鐘)。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pb4')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pb3')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -1388,7 +1285,7 @@
             </div>
           </div>
           <h3 class="card-title">
-            <span>🍳 早餐</span>
+            <span>早餐</span>
             <div class="card-actions">
               <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8D%B3%20%E6%97%A9%E9%A4%90" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
@@ -1420,7 +1317,7 @@
           <h3 class="card-title">
             <span>交通出發</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E4%BA%A4%E9%80%9A%E5%87%BA%E7%99%BC" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9A%87%20%E4%BA%A4%E9%80%9A%E5%87%BA%E7%99%BC" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -1454,13 +1351,13 @@
             </div>
           </div>
           <h3 class="card-title">
-            <span>🌿 晨間清涼戶外散步（趁 10:00 前氣溫宜人）</span>
+            <span>晨間清涼戶外散步（趁 10:00 前氣溫宜人）</span>
             <div class="card-actions">
               <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8C%BF%20%E6%99%A8%E9%96%93%E6%B8%85%E6%B6%BC%E6%88%B6%E5%A4%96%E6%95%A3%E6%AD%A5%EF%BC%88%E8%B6%81%2010%3A00%20%E5%89%8D%E6%B0%A3%E6%BA%AB%E5%AE%9C%E4%BA%BA%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">趁著早晨陽光尚未炙熱，散步前往鄰近的不忍池與清水觀音堂：</p>
+            <p class="card-summary">松坂屋出發 ➔ 不忍池（賞荷花） ➔ 清水觀音堂（看月之松）。可順路步行至「兔屋 (うさぎや)」採買現做百年銅鑼燒。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-2')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -1491,13 +1388,13 @@
             </div>
           </div>
           <h3 class="card-title">
-            <span>☕ 進入室內基地營避暑（10:00 百貨開門）</span>
+            <span>進入室內基地營避暑（10:00 百貨開門）</span>
             <div class="card-actions">
               <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E2%98%95%20%E9%80%B2%E5%85%A5%E5%AE%A4%E5%85%A7%E5%9F%BA%E5%9C%B0%E7%87%9F%E9%81%BF%E6%9A%91%EF%BC%8810%3A00%20%E7%99%BE%E8%B2%A8%E9%96%8B%E9%96%80%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">10:00 百貨營業，兩人先至基地營咖啡廳會合歇腳，吹冷氣避開逐漸升高的氣溫：<br>💡 <strong>長輩點餐祕訣</strong>：櫃台有大字菜單，手指照片說 "Hot Coffee" 或 "Latte"，手指玻璃櫃裡的點心即可。</p>
+            <p class="card-summary"><strong>首選基地營：</strong><a class="map-link-inline" href="https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7" target="_blank">☕ DEAN & DELUCA CAFE (PARCO_ya 1F) 🔗</a>（人均 ¥500-800）。<br><strong>備案基地營：</strong>喫茶 トリコロール (松坂屋本館 2F)（人均 ¥800-1,200）。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-3')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -1532,11 +1429,11 @@
           <h3 class="card-title">
             <span>午餐</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://maps.app.goo.gl/87mm5h-MGGARngNQ8)" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/87mm5h-MGGARngNQ8" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary"><strong>首選餐廳：</strong>紅心皇后宴會大廳（主題排餐，人均 ¥1,500-2,000）。<br><strong>🚀 免排隊神招 (Mobile Order)：</strong>提前預訂 <strong>廣場閣樓餐廳</strong>（漢堡排炸蝦拼盤）或 <strong>明日樂園舞台餐廳</strong>（炸雞漢堡），時間到直接取餐入座！</p>
+            <p class="card-summary"><strong>首選餐廳：</strong><a class="map-link-inline" href="https://maps.app.goo.gl/87mm5h-MGGARngNQ8" target="_blank">🍱 すき家 上野三丁目店 🔗</a> (松坂屋正對面) 享用牛鮭雙拼定食/牛肉丼（人均 ¥550～¥850）。全繁體中文平板點餐，自動收銀機結帳。<br><strong>備案：</strong>松坂屋地下美食街便當（冷氣座位區）。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-4')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -1579,13 +1476,13 @@
             </div>
           </div>
           <h3 class="card-title">
-            <span>🏛️ 正午酷暑亮點：國立西洋美術館（全室內強冷氣）</span>
+            <span>正午酷暑亮點：國立西洋美術館（全室內強冷氣）</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8F%9B%EF%B8%8F%20%E6%AD%A3%E5%8D%88%E9%85%B7%E6%9A%91%E4%BA%AE%E9%BB%9E%EF%BC%9A%E5%9C%8B%E7%AB%8B%E8%A5%BF%E6%B4%8B%E7%BE%8E%E8%A1%93%E9%A4%A8%EF%BC%88%E5%85%A8%E5%AE%A4%E5%85%A7%E5%BC%B7%E5%86%B7%E6%B0%A3%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/J8q2bK6k8Y7u9N1P3" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">☀️ <strong>正午避暑策略</strong>：13:00~15:30 是一天中最炎熱時段，由松坂屋步行 5 分鐘穿越公園林蔭，進入世界文化遺產 <strong>國立西洋美術館 (国立西洋美術館)</strong> 參觀室內常設展。<br>💡 <strong>長輩專屬優惠</strong>：<strong>65 歲以上長者憑護照「完全免費入場」</strong>（一般成人僅 ¥500）。</p>
+            <p class="card-summary"><strong>室內避暑亮點：</strong><a class="map-link-inline" href="https://maps.app.goo.gl/J8q2bK6k8Y7u9N1P3" target="_blank">🏛️ 國立西洋美術館 🔗</a> 欣賞羅丹雕塑與莫內睡蓮（<strong>滿 65 歲長輩出示護照常設展免費入場</strong>，冷氣極強！）。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-5')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -1618,11 +1515,11 @@
           <h3 class="card-title">
             <span>傍晚戶外悠閒漫步（陽光減弱）</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%82%8D%E6%99%9A%E6%88%B6%E5%A4%96%E6%82%A0%E9%96%92%E6%BC%AB%E6%AD%A5%EF%BC%88%E9%99%BD%E5%85%89%E6%B8%9B%E5%BC%B1%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8C%B3%20%E5%82%8D%E6%99%9A%E6%88%B6%E5%A4%96%E6%82%A0%E9%96%92%E6%BC%AB%E6%AD%A5%EF%BC%88%E9%99%BD%E5%85%89%E6%B8%9B%E5%BC%B1%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">參觀完美術館後，陽光已大幅減弱，於周邊林蔭漫步：</p>
+            <p class="card-summary">前往上野公園中央噴水廣場林蔭散步，享受傍晚涼風。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-6')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -1656,7 +1553,7 @@
           <h3 class="card-title">
             <span>晚餐</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://maps.app.goo.gl/6RMcXZ6OGGARLLk8P)" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/6RMcXZ6OGGARLLk8P" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -1706,7 +1603,7 @@
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">從松坂屋步行 2 分鐘至 JR 御徒町站 ➔ 搭乘 JR 山手線 1 站至秋葉原 ➔ 轉乘 JR 中央・總武線 1 站返回 淺草橋站（約 10 分鐘），回飯店休息。</p>
+            <p class="card-summary">由御徒町搭乘山手線至秋葉原，轉總武線 1 站返抵淺草橋飯店，早點洗熱水澡放鬆休息。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-8')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -1739,7 +1636,7 @@
             </div>
           </div>
           <h3 class="card-title">
-            <span>🍳 早餐</span>
+            <span>早餐</span>
             <div class="card-actions">
               <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8D%B3%20%E6%97%A9%E9%A4%90" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
@@ -1775,7 +1672,7 @@
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">07:50－08:00 親子組出發： 從飯店慢步走到 JR 淺草橋站，搭乘 JR 中央・總武線 (黃色列車) 1 站至 秋葉原站(秋葉原駅)。</p>
+            <p class="card-summary">淺草橋 ➔ 秋葉原 (總武線) ➔ 八丁堀 (地鐵日比谷線) ➔ 舞濱 (JR京葉線)。全程設有手扶梯與電梯，避開東京車站巨型轉乘。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-1')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -1841,11 +1738,11 @@
           <h3 class="card-title">
             <span>必玩設施與行程建議</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%BF%85%E7%8E%A9%E8%A8%AD%E6%96%BD%E8%88%87%E8%A1%8C%E7%A8%8B%E5%BB%BA%E8%AD%B0" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8E%A2%20%E5%BF%85%E7%8E%A9%E8%A8%AD%E6%96%BD%E8%88%87%E8%A1%8C%E7%A8%8B%E5%BB%BA%E8%AD%B0" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">第一站（必玩）： 美女與野獸：魔法物語(美女と野獣“魔法のものがたり”) (建議直上 DPA)</p>
+            <p class="card-summary">第一站：美女與野獸 (魔法物語 DPA) ➔ 第二站：小熊維尼獵蜜記 (Priority Pass) ➔ 第三站：巨雷山 (130cm)。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-3')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -1878,11 +1775,11 @@
           <h3 class="card-title">
             <span>午餐</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%8D%88%E9%A4%90" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8D%BD%EF%B8%8F%20%E5%8D%88%E9%A4%90" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary"><strong>首選餐廳：</strong>紅心皇后宴會大廳（主題排餐，人均 ¥1,500-2,000）。<br><strong>🚀 免排隊神招 (Mobile Order)：</strong>提前預訂 <strong>廣場閣樓餐廳</strong>（漢堡排炸蝦拼盤）或 <strong>明日樂園舞台餐廳</strong>（炸雞漢堡），時間到直接取餐入座！</p>
+            <p class="card-summary"><strong>首選餐廳：</strong><a class="map-link-inline" href="https://maps.app.goo.gl/87mm5h-MGGARngNQ8" target="_blank">🍱 すき家 上野三丁目店 🔗</a> (松坂屋正對面) 享用牛鮭雙拼定食/牛肉丼（人均 ¥550～¥850）。全繁體中文平板點餐，自動收銀機結帳。<br><strong>備案：</strong>松坂屋地下美食街便當（冷氣座位區）。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-4')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -1916,7 +1813,7 @@
           <h3 class="card-title">
             <span>午後行程與遊行</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%8D%88%E5%BE%8C%E8%A1%8C%E7%A8%8B%E8%88%87%E9%81%8A%E8%A1%8C" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8E%A0%20%E5%8D%88%E5%BE%8C%E8%A1%8C%E7%A8%8B%E8%88%87%E9%81%8A%E8%A1%8C" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -1953,7 +1850,7 @@
           <h3 class="card-title">
             <span>晚餐：主題餐廳時間</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E6%99%9A%E9%A4%90%EF%BC%9A%E4%B8%BB%E9%A1%8C%E9%A4%90%E5%BB%B3%E6%99%82%E9%96%93" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8D%BD%EF%B8%8F%20%E6%99%9A%E9%A4%90%EF%BC%9A%E4%B8%BB%E9%A1%8C%E9%A4%90%E5%BB%B3%E6%99%82%E9%96%93" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -1988,7 +1885,7 @@
           <h3 class="card-title">
             <span>城堡點燈拍照、購買夜間點心與遊行卡位</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%9F%8E%E5%A0%A1%E9%BB%9E%E7%87%88%E6%8B%8D%E7%85%A7%E3%80%81%E8%B3%BC%E8%B2%B7%E5%A4%9C%E9%96%93%E9%BB%9E%E5%BF%83%E8%88%87%E9%81%8A%E8%A1%8C%E5%8D%A1%E4%BD%8D" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8F%B0%20%E5%9F%8E%E5%A0%A1%E9%BB%9E%E7%87%88%E6%8B%8D%E7%85%A7%E3%80%81%E8%B3%BC%E8%B2%B7%E5%A4%9C%E9%96%93%E9%BB%9E%E5%BF%83%E8%88%87%E9%81%8A%E8%A1%8C%E5%8D%A1%E4%BD%8D" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -2024,7 +1921,7 @@
           <h3 class="card-title">
             <span>東京迪士尼樂園電子大遊行「夢之光」</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E8%BF%AA%E5%A3%AB%E5%B0%BC%E6%A8%82%E5%9C%92%E9%9B%BB%E5%AD%90%E5%A4%A7%E9%81%8A%E8%A1%8C%E3%80%8C%E5%A4%A2%E4%B9%8B%E5%85%89%E3%80%8D" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -2058,7 +1955,7 @@
           <h3 class="card-title">
             <span>城堡高空投影秀「Reach for the Stars: Everlasting Dreams」</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%9F%8E%E5%A0%A1%E9%AB%98%E7%A9%BA%E6%8A%95%E5%BD%B1%E7%A7%80%E3%80%8CReach%20for%20the%20Stars%3A%20Everlasting%20Dreams%E3%80%8D" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8F%B0%20%E5%9F%8E%E5%A0%A1%E9%AB%98%E7%A9%BA%E6%8A%95%E5%BD%B1%E7%A7%80%E3%80%8CReach%20for%20the%20Stars%3A%20Everlasting%20Dreams%E3%80%8D" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -2092,7 +1989,7 @@
           <h3 class="card-title">
             <span>世界市集（World Bazaar）最後補貨與出園</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E4%B8%96%E7%95%8C%E5%B8%82%E9%9B%86%EF%BC%88World%20Bazaar%EF%BC%89%E6%9C%80%E5%BE%8C%E8%A3%9C%E8%B2%A8%E8%88%87%E5%87%BA%E5%9C%92" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9B%8D%EF%B8%8F%20%E4%B8%96%E7%95%8C%E5%B8%82%E9%9B%86%EF%BC%88World%20Bazaar%EF%BC%89%E6%9C%80%E5%BE%8C%E8%A3%9C%E8%B2%A8%E8%88%87%E5%87%BA%E5%9C%92" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -2126,7 +2023,7 @@
           <h3 class="card-title">
             <span>🚆 親子組回程交通（首選巴士 / 備案電車）</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9A%86%20%E8%A6%AA%E5%AD%90%E7%B5%84%E5%9B%9E%E7%A8%8B%E4%BA%A4%E9%80%9A%EF%BC%88%E9%A6%96%E9%81%B8%E5%B7%B4%E5%A3%AB%20/%20%E5%82%99%E6%A1%88%E9%9B%BB%E8%BB%8A%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9A%8C%F0%9F%9A%86%20%E8%A6%AA%E5%AD%90%E7%B5%84%E5%9B%9E%E7%A8%8B%E4%BA%A4%E9%80%9A%EF%BC%88%E9%A6%96%E9%81%B8%E5%B7%B4%E5%A3%AB%20/%20%E5%82%99%E6%A1%88%E9%9B%BB%E8%BB%8A%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -2142,114 +2039,6 @@
 <p>2. 八丁堀站(八丁堀駅)轉乘 東京 Metro 地鐵日比谷線(東京メトロ日比谷線) ➔ 刷卡進地鐵站後前往「2 號月台（往北千住方向）」上車 ➔ 抵達 秋葉原站(秋葉原駅)（約 8 分鐘）。</p>
 <p>3. 抵達秋葉原站(秋葉原駅)後，轉乘 JR 中央・總武線 1 站至 淺草橋站 返抵飯店休息。</p>
 </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d2k-12" onchange="toggleCheck('item-d2k-12')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-12">
-          <div class="card-header">
-            <span class="card-time"></span>
-            <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
-            </div>
-          </div>
-          <h3 class="card-title">
-            <span>⏱️ 免費 Priority Pass（若當天仍提供）</span>
-            <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E2%8F%B1%EF%B8%8F%20%E5%85%8D%E8%B2%BB%20Priority%20Pass%EF%BC%88%E8%8B%A5%E7%95%B6%E5%A4%A9%E4%BB%8D%E6%8F%90%E4%BE%9B%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
-            </div>
-          </h3>
-          <div class="card-body">
-            <p class="card-summary">1\. 小熊維尼獵蜜記(プーさんのハニーハント)</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-12')">📖 完整說明與祕訣</button>
-            <div class="original-content-holder" style="display: none;">
-              <p>優先拿：</p>
-<p>1\. 小熊維尼獵蜜記(プーさんのハニーハント)</p>
-<p>2\. 怪獸電力公司(モンスターズ・インク“ライド＆ゴーシーク！”)</p>
-<p>3\. 幽靈公館(ホーンテッドマンション)。</p>
-<p>\*官方公告顯示，40 週年 Priority Pass 將提供到 2026/8/31，你的旅遊日期（2026/8/21）仍可使用。</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d2k-13" onchange="toggleCheck('item-d2k-13')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-13">
-          <div class="card-header">
-            <span class="card-time"></span>
-            <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
-            </div>
-          </div>
-          <h3 class="card-title">
-            <span>🍿 今日必做</span>
-            <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8D%BF%20%E4%BB%8A%E6%97%A5%E5%BF%85%E5%81%9A" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
-            </div>
-          </h3>
-          <div class="card-body">
-            <p class="card-summary">買特色爆米花桶</p>
-            
-            <div class="original-content-holder" style="display: none;">
-              <div class="modal-quote">
-<ul class="modal-list">
-<li>買特色爆米花桶</li>
-<li>品嚐米奇冰棒</li>
-</ul>
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item" data-category="attraction">
-        <div class="timeline-check">
-          <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d2k-14" onchange="toggleCheck('item-d2k-14')">
-            <span class="checkmark"></span>
-          </label>
-          <div class="timeline-line"></div>
-        </div>
-        <div class="timeline-card" id="card-item-d2k-14">
-          <div class="card-header">
-            <span class="card-time"></span>
-            <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
-            </div>
-          </div>
-          <h3 class="card-title">
-            <span>💰 迪士尼預估旅費 (3人)</span>
-            <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%92%B0%20%E8%BF%AA%E5%A3%AB%E5%B0%BC%E9%A0%90%E4%BC%B0%E6%97%85%E8%B2%BB%20%283%E4%BA%BA%29" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
-            </div>
-          </h3>
-          <div class="card-body">
-            <p class="card-summary">| 項目 | 金額（日圓） |</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-14')">📖 完整說明與祕訣</button>
-            <div class="original-content-holder" style="display: none;">
-              <p>| 項目 | 金額（日圓） |</p>
-<p>| :---: | :---: |</p>
-<p>| 門票 | 約 ¥23,000～26,000 |</p>
-<p>| DPA（2～3 項） | 約 ¥6,000～9,000 |</p>
-<p>| 午/晚餐與點心 | 約 ¥12,000 |</p>
-<p>| 紀念品（預留） | 約 ¥8,000～15,000 |</p>
-<p>| 合計 | 約 ¥50,000～62,000（約新台幣 10,300～12,800） |</p>
-<ul class="modal-list">
-<li></li>
-</ul>
             </div>
           </div>
         </div>
@@ -2275,7 +2064,7 @@
             </div>
           </div>
           <h3 class="card-title">
-            <span>🍳 早餐</span>
+            <span>早餐</span>
             <div class="card-actions">
               <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8D%B3%20%E6%97%A9%E9%A4%90" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
@@ -2307,7 +2096,7 @@
           <h3 class="card-title">
             <span>搭乘 JR 前往東京車站</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E6%90%AD%E4%B9%98%20JR%20%E5%89%8D%E5%BE%80%E6%9D%B1%E4%BA%AC%E8%BB%8A%E7%AB%99" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9A%87%20%E6%90%AD%E4%B9%98%20JR%20%E5%89%8D%E5%BE%80%E6%9D%B1%E4%BA%AC%E8%BB%8A%E7%AB%99" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -2337,11 +2126,11 @@
           <h3 class="card-title">
             <span>東京車站丸之內站舍 (東京駅丸の内駅舎)</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://maps.app.goo.gl/GgpXhyaLFhQmKBSe9)" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/GgpXhyaLFhQmKBSe9" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">拍全家福、欣賞東京車站經典紅磚建築（清晨較涼爽，最適合戶外拍照）。</p>
+            <p class="card-summary">漫步丸之內站前開闊廣場，在清晨涼風中與百年壯麗紅磚建築合影。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-2')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <p>拍全家福、欣賞東京車站經典紅磚建築（清晨較涼爽，最適合戶外拍照）。</p>
@@ -2367,11 +2156,11 @@
           <h3 class="card-title">
             <span>返回東京車站一番街入口等待開門</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E8%BF%94%E5%9B%9E%E6%9D%B1%E4%BA%AC%E8%BB%8A%E7%AB%99%E4%B8%80%E7%95%AA%E8%A1%97%E5%85%A5%E5%8F%A3%E7%AD%89%E5%BE%85%E9%96%8B%E9%96%80" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/82oR9GvFHCmhguiE8" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">從車站西側（丸之內口）步行橫跨車站至東側地下（八重洲口）動漫街入口。帶著長輩與小孩不趕不跑，利用這 15 分鐘慢步移動當作完美緩衝。</p>
+            <p class="card-summary"><strong>🚨 避坑防刷卡指南：</strong>從丸之內（西側）跨越到八重洲（東側）時，<strong>請走站外的「北地下自由通路」</strong>！千萬別刷 Suica 誤進站！</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-3')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <p>從車站西側（丸之內口）步行橫跨車站至東側地下（八重洲口）動漫街入口。帶著長輩與小孩不趕不跑，利用這 15 分鐘慢步移動當作完美緩衝。</p>
@@ -2398,11 +2187,11 @@
           <h3 class="card-title">
             <span>東京車站一番街 (東京駅一番街) (八重洲地下中央口)</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://maps.app.goo.gl/82oR9GvFHCmhguiE8)" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/82oR9GvFHCmhguiE8" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">10:00 店家開始營業，依照目標店家優先順序慢慢逛，不需每間店都慢慢逛，保留時間欣賞東京車站地面景觀。</p>
+            <p class="card-summary">10:00 一開門優先逛：寶可夢商店（站長皮卡丘）、TOMICA 專賣店、吉伊卡哇商店、橡子共和國（龍貓）。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-4')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <p>10:00 店家開始營業，依照目標店家優先順序慢慢逛，不需每間店都慢慢逛，保留時間欣賞東京車站地面景觀。</p>
@@ -2438,11 +2227,11 @@
           <h3 class="card-title">
             <span>🌇 KITTE花園 (ＫＩＴＴＥガーデン) (KITTE 6F)</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://maps.app.goo.gl/bRVffwmYQMwP9qJ57)" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/bRVffwmYQMwP9qJ57" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">11:00 頂樓花園剛開門，搭電梯直達 6 樓免費展望台，欣賞東京車站紅磚站舍、新幹線與城市景觀，順便吹冷氣休息。</p>
+            <p class="card-summary">搭電梯直達 KITTE 6F 屋頂花園，免費俯瞰東京車站紅磚站舍全景與新幹線進出站，室內空調充足。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-5')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <p>11:00 頂樓花園剛開門，搭電梯直達 6 樓免費展望台，欣賞東京車站紅磚站舍、新幹線與城市景觀，順便吹冷氣休息。</p>
@@ -2468,11 +2257,11 @@
           <h3 class="card-title">
             <span>午餐（東京車站周邊）</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://maps.app.goo.gl/9t7mK4V8R3Q8v7sW6)" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/9t7mK4V8R3Q8v7sW6" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">首選餐廳：<strong><strong>天丼てんや (天丼てんや 八重洲店)</strong></strong> (八重洲地下街 南1號) 享用日式天丼（推薦：經典全明星天丼、上天丼、炸蝦天婦羅蓋飯），人均約 ¥560～¥850。</p>
+            <p class="card-summary"><strong>首選餐廳：</strong><a class="map-link-inline" href="https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7" target="_blank">🍤 天丼てんや 八重洲店 🔗</a> (八重洲地下街 南1號) 享用日式炸蝦天丼（人均 ¥560～¥850）。出餐極快、平價美味！<br><strong>備案 1：</strong>だし茶漬け えん KITTE丸の内店 (高湯茶泡飯，¥850-1,100)<br><strong>備案 2：</strong>燕子烤肉漢堡排 (大丸東京店 12F)</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-6')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -2506,7 +2295,7 @@
           <h3 class="card-title">
             <span>前往上野</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E5%BE%80%E4%B8%8A%E9%87%8E" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9A%87%20%E5%89%8D%E5%BE%80%E4%B8%8A%E9%87%8E" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -2536,7 +2325,7 @@
           <h3 class="card-title">
             <span>國立科學博物館 (国立科学博物館)</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%9C%8B%E7%AB%8B%E7%A7%91%E5%AD%B8%E5%8D%9A%E7%89%A9%E9%A4%A8%20%28%E5%9B%BD%E7%AB%8B%E7%A7%91%E5%AD%A6%E5%8D%9A%E7%89%A9%E9%A4%A8%29" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/J8q2bK6k8Y7u9N1P3" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -2577,11 +2366,11 @@
           <h3 class="card-title">
             <span>超人氣晚餐 ：鴨 to 蔥拉麵</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E8%B6%85%E4%BA%BA%E6%B0%A3%E6%99%9A%E9%A4%90%20%EF%BC%9A%E9%B4%A8%20to%20%E8%94%A5%E6%8B%89%E9%BA%B5" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">規則： 排隊 ≤ 3 組就吃 <strong>鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)</strong> 享用鴨肉拉麵（推薦：鴨蔥醬油拉麵、親子丼），人均約 ¥1,000～¥1,500，超過 3 組直接放棄，前往阿美橫丁 (アメ横)。</p>
+            <p class="card-summary"><strong>首選名店：</strong>香濃鴨肉醬油拉麵（人均 ¥1,000～¥1,400）。<br><strong>🚨 排隊停損防雷規則：</strong>排隊 ≤ 3 組才吃，超過直接啟動阿美橫丁小吃備案，絕不在烈日下苦等！</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-9')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <p>規則： 排隊 ≤ 3 組就吃 <strong>鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)</strong> 享用鴨肉拉麵（推薦：鴨蔥醬油拉麵、親子丼），人均約 ¥1,000～¥1,500，超過 3 組直接放棄，前往阿美橫丁 (アメ横)。</p>
@@ -2612,11 +2401,11 @@
           <h3 class="card-title">
             <span>阿美橫丁採買</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E7%BE%8E%E6%A9%AB%E4%B8%81%E6%8E%A1%E8%B2%B7" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.klook.com/zh-TW/blog/ameyoko-guide/?utm_source=chatgpt.com" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary"><strong>阿美橫丁介紹文章</strong>、<strong>介紹文2</strong></p>
+            <p class="card-summary"><strong>必掃名店：</strong><br>• 二木菓子（二木の菓子 第一営業所）：掃日本零食名產（Calbee、干貝糖）。<br>• OS Drug 上野店：藥妝免退稅價格之冠。<br>• 街邊小吃：肉之大山炸肉餅、みなとや章魚燒。<br>• 多慶屋（TAKEYA）：紫色商場一站式補貨備案。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-10')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <p><a class="map-link-inline" href="https://www.klook.com/zh-TW/blog/ameyoko-guide/?utm_source=chatgpt.com" target="_blank">阿美橫丁介紹文章 🔗</a>、<a class="map-link-inline" href="https://bobbytravel.tw/ameya-yokocho/?utm_source=chatgpt.com" target="_blank">介紹文2 🔗</a></p>
@@ -2662,7 +2451,7 @@
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">JR 御徒町站 (JR 御徒町駅)（站內設有手扶梯） ➔ JR 山手線 ➔ JR 秋葉原站 (JR 秋葉原駅) ➔ 轉乘 JR 中央・總武線 1 站至 淺草橋站 (浅草橋駅)。</p>
+            <p class="card-summary">步行至 JR 御徒町站搭乘電車返回淺草橋。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-11')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -2694,11 +2483,11 @@
           <h3 class="card-title">
             <span>晚餐（若下午沒吃鴨 to 蔥拉麵）</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E6%99%9A%E9%A4%90%EF%BC%88%E8%8B%A5%E4%B8%8B%E5%8D%88%E6%B2%92%E5%90%83%E9%B4%A8%20to%20%E8%94%A5%E6%8B%89%E9%BA%B5%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://goo.gl/maps/qGvbhoNgapgN5h319" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">首選餐廳：<strong>吉野家 (吉野家 浅草橋店)</strong><br>推薦餐點：牛丼、牛燒肉定食、親子丼。人均：約 ¥500～900。</p>
+            <p class="card-summary">晚餐備案：吉野家 / 松屋 浅草橋店 / ろく月 雞白湯拉麵。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-12')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -2737,14 +2526,14 @@
             </div>
           </div>
           <h3 class="card-title">
-            <span>🍩 宵夜／點心（若下午已吃鴨 to 蔥拉麵）</span>
+            <span>宵夜／點心（若下午已吃鴨 to 蔥拉麵）</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8D%A9%20%E5%AE%B5%E5%A4%9C%EF%BC%8F%E9%BB%9E%E5%BF%83%EF%BC%88%E8%8B%A5%E4%B8%8B%E5%8D%88%E5%B7%B2%E5%90%83%E9%B4%A8%20to%20%E8%94%A5%E6%8B%89%E9%BA%B5%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">享用阿美橫丁或便利商店購買的點心</p>
-            
+            <p class="card-summary">外帶 Cow Cow Kitchen 牛奶起司派或便利商店點心。</p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-13')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -2778,7 +2567,7 @@
             </div>
           </div>
           <h3 class="card-title">
-            <span>🍳 早餐</span>
+            <span>早餐</span>
             <div class="card-actions">
               <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8D%B3%20%E6%97%A9%E9%A4%90" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
@@ -2810,7 +2599,7 @@
           <h3 class="card-title">
             <span>前往三鷹</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E5%BE%80%E4%B8%89%E9%B7%B9" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9A%87%20%E5%89%8D%E5%BE%80%E4%B8%89%E9%B7%B9" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -2840,11 +2629,11 @@
           <h3 class="card-title">
             <span>吉卜力接駁巴士</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%90%89%E5%8D%9C%E5%8A%9B%E6%8E%A5%E9%A7%81%E5%B7%B4%E5%A3%AB" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9A%8C%20%E5%90%89%E5%8D%9C%E5%8A%9B%E6%8E%A5%E9%A7%81%E5%B7%B4%E5%A3%AB" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">三鷹站南口 (三鷹駅南口) 9 號公車站 ➔ 吉卜力美術館 (三鷹の森ジブリ美術館)（約 5 分鐘，站體設有電梯與手扶梯）。</p>
+            <p class="card-summary">三鷹站南口 9 號公車站搭乘黃色龍貓彩繪接駁巴士（車程約 5 分鐘）。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d4-2')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <p>三鷹站南口 (三鷹駅南口) 9 號公車站 ➔ 吉卜力美術館 (三鷹の森ジブリ美術館)（約 5 分鐘，站體設有電梯與手扶梯）。</p>
@@ -2870,7 +2659,7 @@
           <h3 class="card-title">
             <span>三鷹之森吉卜力美術館 (三鷹の森ジブリ美術館)</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E9%B7%B9%E4%B9%8B%E6%A3%AE%E5%90%89%E5%8D%9C%E5%8A%9B%E7%BE%8E%E8%A1%93%E9%A4%A8%20%28%E4%B8%89%E9%B7%B9%E3%81%AE%E6%A3%AE%E3%82%B8%E3%83%96%E3%83%AA%E7%BE%8E%E8%A1%93%E9%A4%A8%29" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/9t7mK4V8R3Q8v7sW6" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -2900,11 +2689,11 @@
           <h3 class="card-title">
             <span>前往吉祥寺(吉祥寺)（Plan A 直達公車 / Plan B 林蔭散步）</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E5%BE%80%E5%90%89%E7%A5%A5%E5%AF%BA%28%E5%90%89%E7%A5%A5%E5%AF%BA%29%EF%BC%88Plan%20A%20%E7%9B%B4%E9%81%94%E5%85%AC%E8%BB%8A%20/%20Plan%20B%20%E6%9E%97%E8%94%AD%E6%95%A3%E6%AD%A5%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9A%8C%F0%9F%9A%B6%E2%80%8D%E2%99%82%EF%B8%8F%20%E5%89%8D%E5%BE%80%E5%90%89%E7%A5%A5%E5%AF%BA%28%E5%90%89%E7%A5%A5%E5%AF%BA%29%EF%BC%88Plan%20A%20%E7%9B%B4%E9%81%94%E5%85%AC%E8%BB%8A%20/%20Plan%20B%20%E6%9E%97%E8%94%AD%E6%95%A3%E6%AD%A5%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">✅ Plan A（強烈建議：防中暑直達公車）： 離開美術館後，直接走到旁邊的「萬助橋(万助橋)」或「明星學園入口(明星学園入口)」公車站牌，搭乘小田急巴士(小田急バス)或關東巴士(関東バス)直達 吉祥寺站南口(吉祥寺駅南口)（車程約 5 分鐘，班次極多）。完美避開 8 月正中午徒步 1.5 公里的熱衰竭風險，保留體力給下午的逛街行程。</p>
+            <p class="card-summary"><strong>首選 Plan A (防中暑公車)：</strong>美術館旁「萬助橋」站牌搭公車 5 分鐘直達吉祥寺站南口。<br><strong>備案 Plan B：</strong>走「井之頭恩賜公園」林蔭步道欣賞湖景。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d4-4')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -2935,7 +2724,7 @@
           <h3 class="card-title">
             <span>午餐：大戶屋</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%8D%88%E9%A4%90%EF%BC%9A%E5%A4%A7%E6%88%B6%E5%B1%8B" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/34k8Z1T3v7sW6" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -2970,7 +2759,7 @@
           <h3 class="card-title">
             <span>吉祥寺商圈慢活 + 下午茶：SATOU 炸牛肉丸</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%90%89%E7%A5%A5%E5%AF%BA%E5%95%86%E5%9C%88%E6%85%A2%E6%B4%BB%20%2B%20%E4%B8%8B%E5%8D%88%E8%8C%B6%EF%BC%9ASATOU%20%E7%82%B8%E7%89%9B%E8%82%89%E4%B8%B8" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/34k8Z1T3v7sW6" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -3011,7 +2800,7 @@
           <h3 class="card-title">
             <span>晚餐：串家物語</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E6%99%9A%E9%A4%90%EF%BC%9A%E4%B8%B2%E5%AE%B6%E7%89%A9%E8%AA%9E" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/kX7m3Q8L9P2t4v8W9" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -3053,7 +2842,7 @@
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">進站前，先於車站商場順路至 <strong>Linde 德國麵包 (ベッカライカフェ・リンデ 吉祥寺本店)</strong> 或 atre 商場內的 <strong>LE BIHAN (ル ビアン アトレ吉祥寺店)</strong> (アトレ吉祥寺 本館 1F) 外帶招牌職人麵包作為隔天早餐（晚餐後再買可避免麵包吸附餐廳油煙味）。<br>交通 轉乘方案：搭乘 JR 中央線快速 (橘色列車)(JR中央線快速) 至「御茶之水站(御茶ノ水駅)」，於同月台直接走到對面，平行轉乘 JR 總武線 (黃色列車)(JR総武線) 返回 淺草橋站(浅草橋駅)。(車程約34分鐘)</p>
+            <p class="card-summary">進站前外帶「Linde 德國麵包」或「Jyonetsu Bakery」人氣麵包當明日早餐。搭中央快速線至御茶之水同月台換總武線返回淺草橋。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d4-8')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -3086,11 +2875,11 @@
           <h3 class="card-title">
             <span>回飯店休息</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%9B%9E%E9%A3%AF%E5%BA%97%E4%BC%91%E6%81%AF" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8F%A8%20%E5%9B%9E%E9%A3%AF%E5%BA%97%E4%BC%91%E6%81%AF" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">---</p>
+            <p class="card-summary">返抵海茵娜酒店休息。</p>
             
             <div class="original-content-holder" style="display: none;">
               <ul class="modal-list">
@@ -3126,7 +2915,7 @@
             </div>
           </div>
           <h3 class="card-title">
-            <span>🍳 早餐</span>
+            <span>早餐</span>
             <div class="card-actions">
               <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8D%B3%20%E6%97%A9%E9%A4%90" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
@@ -3158,7 +2947,7 @@
           <h3 class="card-title">
             <span>前往淺草</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E5%BE%80%E6%B7%BA%E8%8D%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9A%87%20%E5%89%8D%E5%BE%80%E6%B7%BA%E8%8D%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -3196,11 +2985,11 @@
           <h3 class="card-title">
             <span>⛩️ 淺草寺</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E2%9B%A9%EF%B8%8F%20%E6%B7%BA%E8%8D%89%E5%AF%BA" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/j8aWGtGMGGARxgm47" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">建議路線：雷門 ➔ 仲見世商店街 ➔ 寶藏門 ➔ 五重塔 ➔ 本堂</p>
+            <p class="card-summary">清晨人少漫步參拜：雷門大紅燈籠 ➔ 仲見世商店街 ➔ 寶藏門 ➔ 本堂祈福參拜。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-cb2')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <p>建議路線：雷門 ➔ 仲見世商店街 ➔ 寶藏門 ➔ 五重塔 ➔ 本堂</p>
@@ -3237,7 +3026,7 @@
           <h3 class="card-title">
             <span>🌇 展望台：淺草文化觀光中心 (浅草文化観光センター) (8F 展望台)</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8C%87%20%E5%B1%95%E6%9C%9B%E5%8F%B0%EF%BC%9A%E6%B7%BA%E8%8D%89%E6%96%87%E5%8C%96%E8%A7%80%E5%85%89%E4%B8%AD%E5%BF%83%20%28%E6%B5%85%E8%8D%89%E6%96%87%E5%8C%96%E8%A6%B3%E5%85%89%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%29%20%288F%20%E5%B1%95%E6%9C%9B%E5%8F%B0%29" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/j8aWGtGMGGARxgm47" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -3267,7 +3056,7 @@
           <h3 class="card-title">
             <span>前往東京晴空塔 (東京スカイツリー)</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E5%BE%80%E6%9D%B1%E4%BA%AC%E6%99%B4%E7%A9%BA%E5%A1%94%20%28%E6%9D%B1%E4%BA%AC%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%84%E3%83%AA%E3%83%BC%29" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/UaJR8NaOGGAR48j67" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -3303,7 +3092,7 @@
           <h3 class="card-title">
             <span>午餐：東京晴空街道(東京ソラマチ) 餐廳街</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://maps.app.goo.gl/UaJR8NaOGGAR48j67)" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/UaJR8NaOGGAR48j67" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -3341,7 +3130,7 @@
           <h3 class="card-title">
             <span>墨田水族館 (すみだ水族館) (東京晴空塔城 5F/6F)</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%A2%A8%E7%94%B0%E6%B0%B4%E6%97%8F%E9%A4%A8%20%28%E3%81%99%E3%81%BF%E3%81%A0%E6%B0%B4%E6%97%8F%E9%A4%A8%29%20%28%E6%9D%B1%E4%BA%AC%E6%99%B4%E7%A9%BA%E5%A1%94%E5%9F%8E%205F/6F%29" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/UaJR8NaOGGAR48j67" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -3377,11 +3166,11 @@
           <h3 class="card-title">
             <span>【Option 選配行程】東京晴空街道 (東京ソラマチ) 散策與 30/31F 高空景觀</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E3%80%90Option%20%E9%81%B8%E9%85%8D%E8%A1%8C%E7%A8%8B%E3%80%91%E6%9D%B1%E4%BA%AC%E6%99%B4%E7%A9%BA%E8%A1%97%E9%81%93%20%28%E6%9D%B1%E4%BA%AC%E3%82%BD%E3%83%A9%E3%83%9E%E3%83%81%29%20%E6%95%A3%E7%AD%96%E8%88%87%2030/31F%20%E9%AB%98%E7%A9%BA%E6%99%AF%E8%A7%80" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9B%8D%EF%B8%8F%E3%80%90Option%20%E9%81%B8%E9%85%8D%E8%A1%8C%E7%A8%8B%E3%80%91%E6%9D%B1%E4%BA%AC%E6%99%B4%E7%A9%BA%E8%A1%97%E9%81%93%20%28%E6%9D%B1%E4%BA%AC%E3%82%BD%E3%83%A9%E3%83%9E%E3%83%81%29%20%E6%95%A3%E7%AD%96%E8%88%87%2030/31F%20%E9%AB%98%E7%A9%BA%E6%99%AF%E8%A7%80" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">🛍️ <strong>商場散策</strong>：逛生活雜貨、動漫玩具與伴手禮，推薦逛 <strong>Loft (ロフト 東京ソラマチ店)</strong> (東京ソラマチ 3F)、<strong>寶可夢中心 (ポケモンセンタースカイツリータウン)</strong> (東京ソラマチ 4F) 或文具選物店 <strong>Neue (ノイエ 東京ソラマチ店)</strong> (東京ソラマチ 4F)。<br>💡 <strong>時間彈性</strong>：若水族館後想直接前往新宿或保留更多體力，可省略此段直接進入 Plan A。</p>
+            <p class="card-summary">逛寶可夢中心、橡子共和國、晴空塔限定紀念品；搭電梯至 30F/31F 免費展望長廊俯瞰東京市景。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-cb7')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -3416,9 +3205,9 @@
             </div>
           </div>
           <h3 class="card-title">
-            <span>✅ Plan A（首選推薦：新宿都廳百萬夜景）</span>
+            <span>新宿都廳百萬夜景 (Plan A 全覽)</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://maps.app.goo.gl/j8aWGtGMGGARxgm47)" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/j8aWGtGMGGARxgm47" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -3466,7 +3255,7 @@
             </div>
           </div>
           <h3 class="card-title">
-            <span>✅ Plan B（備案：繼續留晴空街道商場與美食街晚餐）</span>
+            <span>晴空街道商場與美食街 (Plan B 全覽)</span>
             <div class="card-actions">
               <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E2%9C%85%20Plan%20B%EF%BC%88%E5%82%99%E6%A1%88%EF%BC%9A%E7%B9%BC%E7%BA%8C%E7%95%99%E6%99%B4%E7%A9%BA%E8%A1%97%E9%81%93%E5%95%86%E5%A0%B4%E8%88%87%E7%BE%8E%E9%A3%9F%E8%A1%97%E6%99%9A%E9%A4%90%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
@@ -3514,13 +3303,13 @@
             </div>
           </div>
           <h3 class="card-title">
-            <span>🍳 早餐與整理行李</span>
+            <span>早餐與整理行李</span>
             <div class="card-actions">
               <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8D%B3%20%E6%97%A9%E9%A4%90%E8%88%87%E6%95%B4%E7%90%86%E8%A1%8C%E6%9D%8E" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">起床梳洗吃早餐，整理打包行李。</p>
+            <p class="card-summary">享用早餐，整理行李辦理 Check-out，將全部大件行李免費寄放於海茵娜酒店櫃檯，輕裝出發。</p>
             
             <div class="original-content-holder" style="display: none;">
               <p>起床梳洗吃早餐，整理打包行李。</p>
@@ -3544,14 +3333,14 @@
             </div>
           </div>
           <h3 class="card-title">
-            <span>🧳 退房</span>
+            <span>退房</span>
             <div class="card-actions">
               <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%A7%B3%20%E9%80%80%E6%88%BF" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">辦理 Check-out，將大型行李寄放飯店。</p>
-            
+            <p class="card-summary">辦理退房手續，行李寄放櫃台。</p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d6-1')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3580,7 +3369,7 @@
           <h3 class="card-title">
             <span>前往築地場外市場</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E5%BE%80%E7%AF%89%E5%9C%B0%E5%A0%B4%E5%A4%96%E5%B8%82%E5%A0%B4" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -3613,13 +3402,13 @@
             </div>
           </div>
           <h3 class="card-title">
-            <span>🐟 築地場外市場（早餐）</span>
+            <span>築地場外市場（早餐）</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%90%9F%20%E7%AF%89%E5%9C%B0%E5%A0%B4%E5%A4%96%E5%B8%82%E5%A0%B4%EF%BC%88%E6%97%A9%E9%A4%90%EF%BC%89" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">趁著早晨人潮還沒到最擁擠的時候，前往 築地場外市場（築地）享用鮮食小吃（推薦：玉子燒、和牛串、草莓大福）。<br>首選餐廳：<strong>築地山長 (山長 玉子焼)</strong></p>
+            <p class="card-summary">享用現做熱騰騰美食：<strong>「築地山長」現做玉子燒</strong>（¥150-200/份）、現烤海鮮、新鮮草莓大福。隨後參訪波除稻荷神社。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d6-3')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -3658,12 +3447,12 @@
           <h3 class="card-title">
             <span>前往東銀座站回飯店</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E5%89%8D%E5%BE%80%E6%9D%B1%E9%8A%80%E5%BA%A7%E7%AB%99%E5%9B%9E%E9%A3%AF%E5%BA%97" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9A%87%20%E5%89%8D%E5%BE%80%E6%9D%B1%E9%8A%80%E5%BA%A7%E7%AB%99%E5%9B%9E%E9%A3%AF%E5%BA%97" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">搭乘 都營淺草線：東銀座站 ➔ 淺草橋站。</p>
-            
+            <p class="card-summary">步行至東銀座站搭乘都營淺草線返回淺草橋站。</p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d6-4')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3690,13 +3479,13 @@
             </div>
           </div>
           <h3 class="card-title">
-            <span>🧳 領行李與車站移動</span>
+            <span>領行李與車站移動</span>
             <div class="card-actions">
               <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%A7%B3%20%E9%A0%98%E8%A1%8C%E6%9D%8E%E8%88%87%E8%BB%8A%E7%AB%99%E7%A7%BB%E5%8B%95" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">回飯店領取行李，做最後的隨身物品確認，慢步前往淺草橋站。</p>
+            <p class="card-summary">回海茵娜酒店櫃檯領取全部大行李，慢步前往淺草橋站 A1 無障礙電梯出口。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d6-5')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -3727,11 +3516,11 @@
           <h3 class="card-title">
             <span>🚆 前往羽田機場 (超便利直達)</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9A%86%20%E5%89%8D%E5%BE%80%E7%BE%BD%E7%94%B0%E6%A9%9F%E5%A0%B4%20%28%E8%B6%85%E4%BE%BF%E5%88%A9%E7%9B%B4%E9%81%94%29" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">於 <strong>都營淺草線 淺草橋站</strong>，搭乘往羽田機場方向的列車（推薦搭乘「機場快特」或直通運轉的急行/特急班次）。</p>
+            <p class="card-summary"><strong>無障礙電梯進站：</strong>走淺草橋站 <strong>A1 出口無障礙電梯</strong> 直達月台，搭乘「機場快特 (直通京急線)」直達 羽田機場第3航廈站 (車程約 40-45 分鐘，免轉乘)。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d6-6')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -3760,13 +3549,13 @@
             </div>
           </div>
           <h3 class="card-title">
-            <span>🛫 辦理登機與安檢</span>
+            <span>辦理登機與安檢</span>
             <div class="card-actions">
               <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%9B%AB%20%E8%BE%A6%E7%90%86%E7%99%BB%E6%A9%9F%E8%88%87%E5%AE%89%E6%AA%A2" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">提早於起飛前 3 小時抵達，這時間點足以從容應付 8 月下旬暑假的出境與安檢排隊人潮。</p>
+            <p class="card-summary">起飛前 2.5 小時抵達第 3 航廈辦理登機與託運行李。逛江戶小路商場、觀景台看飛機起降。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d6-7')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -3797,11 +3586,11 @@
           <h3 class="card-title">
             <span>輕食午餐與免稅店最後採買</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E8%BC%95%E9%A3%9F%E5%8D%88%E9%A4%90%E8%88%87%E5%85%8D%E7%A8%85%E5%BA%97%E6%9C%80%E5%BE%8C%E6%8E%A1%E8%B2%B7" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%F0%9F%8D%BD%EF%B8%8F%F0%9F%9B%8D%EF%B8%8F%20%E8%BC%95%E9%A3%9F%E5%8D%88%E9%A4%90%E8%88%87%E5%85%8D%E7%A8%85%E5%BA%97%E6%9C%80%E5%BE%8C%E6%8E%A1%E8%B2%B7" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">全家可於出境大廳或管制區內 <strong>羽田機場餐廳街 (羽田空港第3ターミナル レストラン街)</strong> 享用最後簡餐（推薦：日式定食、烏龍麵），人均約 ¥1,000～¥1,500，不用擔心時間壓迫。</p>
+            <p class="card-summary">管制區內享用平價定食/烏龍麵。於免稅店採買伴手禮（白色戀人、東京香蕉、Royce巧克力），14:00 前往登機門。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d6-8')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -3832,12 +3621,12 @@
           <h3 class="card-title">
             <span>搭機返台 (CI221)</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E6%90%AD%E6%A9%9F%E8%BF%94%E5%8F%B0%20%28CI221%29" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=%E2%9C%88%EF%B8%8F%20%E6%90%AD%E6%A9%9F%E8%BF%94%E5%8F%B0%20%28CI221%29" target="_blank" title="開啟 Google Maps 導航">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">準備登機，結束完美的東京家庭旅行。</p>
-            
+            <p class="card-summary">搭乘中華航空 CI221 班機（14:30 起飛），滿載戰利品與美好回憶平安返抵台北松山機場 (16:55)。</p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d6-9')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3853,7 +3642,6 @@
 
   </main>
 
-  <!-- Emergency & Survival Box -->
   <section class="emergency-card">
     <div class="emergency-header" onclick="toggleEmergency()">
       <div class="emergency-title">🚨 緊急求助與重要指引</div>
@@ -3867,7 +3655,6 @@
     </div>
   </section>
 
-  <!-- Bottom Sheet Modal Container -->
   <div class="modal-overlay" id="modalOverlay" onclick="closeModal()"></div>
   <div class="modal-sheet" id="modalSheet">
     <div class="sheet-handle"></div>
@@ -3878,16 +3665,13 @@
     <div class="sheet-body" id="modalBody"></div>
   </div>
 
-  <!-- Toast Notification -->
   <div class="toast" id="toastBox">通知訊息</div>
 
   <script>
-    // State management
     let currentDay = 1;
     const STORAGE_KEY = 'tokyo_2026_checklist_v10';
     let checkedItems = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
 
-    // Init
     document.addEventListener('DOMContentLoaded', () => {
       restoreChecklist();
       updateProgressBar();
@@ -3895,7 +3679,6 @@
       registerServiceWorker();
     });
 
-    // Tab switching
     function switchDay(day) {
       currentDay = day;
       document.querySelectorAll('.day-tab').forEach((tab, i) => {
@@ -3907,7 +3690,6 @@
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    // Day 1 Sub-Plan
     function switchDay1Plan(plan) {
       const isPlanA = plan === 'A';
       document.querySelectorAll('#day1-section .sub-toggle-btn')[0].classList.toggle('active', isPlanA);
@@ -3916,7 +3698,6 @@
       document.querySelector('.day1-plan-B').style.display = isPlanA ? 'none' : 'block';
     }
 
-    // Day 2 Sub-Group
     function switchDay2Group(group) {
       const isParents = group === 'parents';
       document.getElementById('day2-btn-parents').classList.toggle('active', isParents);
@@ -3925,7 +3706,6 @@
       document.querySelector('.day2-kids-itinerary').style.display = isParents ? 'none' : 'block';
     }
 
-    // Day 5 Sub-Plan
     function switchDay5Plan(plan) {
       const isPlanA = plan === 'A';
       document.getElementById('day5-btn-planA').classList.toggle('active', isPlanA);
@@ -3934,7 +3714,6 @@
       document.querySelector('.day5-plan-B').style.display = isPlanA ? 'none' : 'block';
     }
 
-    // Checklist
     function toggleCheck(id) {
       const cb = document.getElementById(id);
       if (cb) {
@@ -3975,7 +3754,6 @@
       document.getElementById('progressBar').style.width = pct + '%';
     }
 
-    // Modal Sheet
     function openOriginalModal(cardId) {
       const card = document.getElementById(cardId);
       if (!card) return;
@@ -4001,7 +3779,6 @@
       document.body.style.overflow = '';
     }
 
-    // Countdown
     function startCountdown() {
       const targetDate = new Date('2026-08-20T09:00:00+08:00').getTime();
       function update() {
@@ -4019,7 +3796,6 @@
       setInterval(update, 60000);
     }
 
-    // Toast
     function showToast(msg) {
       const toast = document.getElementById('toastBox');
       toast.innerText = msg;
@@ -4042,7 +3818,6 @@
       body.style.display = (body.style.display === 'none') ? 'block' : 'none';
     }
 
-    // Service Worker Registration
     function registerServiceWorker() {
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('./sw.js').then(reg => {
