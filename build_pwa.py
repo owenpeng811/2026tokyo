@@ -54,45 +54,42 @@ if os.path.exists(TEXT_ENTITIES_PATH):
 else:
     TEXT_ENTITIES = []
 
-def is_non_nav_slot(day, title):
+def is_non_nav_slot(day, title, body=""):
     t = clean_title(title).strip()
     
-    # Specific exceptions that DO need navigation
-    if '築地場外市場' in t:
+    # 1. Any meal with a designated restaurant MUST have navigation
+    if any(k in t for k in ['午餐', '晚餐', '拉麵', '壽司', 'すき家', '宇奈とと', '大戶屋', '串家物語', '文字燒', '天丼', '吉野家', '麥當勞', 'Gusto']):
         return False
-    if '午餐' in t and day != 2: # Day 2 Disney lunch is inside park
+        
+    # 2. Specific outdoor / shopping destinations that MUST have navigation
+    if any(k in t for k in ['築地場外市場', '二木菓子', '阿美橫丁', '不忍池', '淺草寺', '吉卜力', '都廳']):
         return False
-    if '晚餐' in t and day != 2:
-        return False
-    if '早餐' in t and '築地' not in t:
-        return True
-    
-    # Non-movement / In-hotel / Static activities
-    static_keywords = [
-        '退房', '準時就寢', '就寢', '回飯店休息', '回飯店休息整備',
-        '飯店 Check-in 與休息', 'Check-in 與休息', '機場整備與購票',
-        '等待開門', '整理行李', '早餐與整理行李',
-        '宵夜／點心（若下午已吃', '輕食午餐與免稅店最後採買', '搭機返台'
+
+    # 3. Strictly in-hotel or static non-movement activities
+    static_exact = [
+        '早餐', '早餐與整理行李', '退房', '準時就寢', '就寢',
+        '回飯店休息', '回飯店休息整備', '飯店 Check-in 與休息', 'Check-in 與休息',
+        '機場整備與購票', '返回東京車站一番街入口等待開門', '等待開門', '整理行李',
+        '輕食午餐與免稅店最後採買', '搭機返台 (CI221)', '搭機返台'
     ]
     
-    # Disney park internal events (no external nav button)
-    disney_internal = [
+    for s in static_exact:
+        if t == s or t.startswith(s):
+            return True
+            
+    # 4. Disney park internal shows/rides
+    disney_rides = [
         '必玩設施與行程建議', '午後行程與遊行', '城堡點燈拍照',
-        '東京迪士尼樂園電子大遊行', '城堡高空投影秀', '世界市集（World Bazaar）最後補貨與出園',
-        '午餐', '晚餐：主題餐廳時間'
+        '東京迪士尼樂園電子大遊行', '城堡高空投影秀', '世界市集（World Bazaar）最後補貨與出園'
     ]
-    
-    if any(k in t for k in static_keywords):
+    if any(k in t for k in disney_rides):
         return True
-        
-    if day == 2 and any(k in t for k in disney_internal):
-        return True
-        
+
     return False
 
 def get_first_destination_map_link(day, title, body=""):
     # If this is a static / non-movement slot, return empty (no nav button!)
-    if is_non_nav_slot(day, title):
+    if is_non_nav_slot(day, title, body):
         return ""
         
     # 1. Check FIRST_DESTINATIONS dictionary by day and matching key
@@ -299,7 +296,7 @@ CUSTOM_SUMMARIES_V10 = {
     (3, "前往上野"): f"搭乘 JR 山手線 8 分鐘直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('上野站', '')}\" target=\"_blank\">上野站 🔗</a>（公園口出站設有電梯）。",
     (3, "國立科學博物館 (国立科学博物館)"): f"正午避暑勝地！參觀地球館 B1 恐龍化石骨骼、3F 野生動物標本展廳及 360 度球幕影院，冷氣充足放鬆。",
     (3, "超人氣晚餐 ：鴨 to 蔥拉麵"): f"<strong>首選名店：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)', '')}\" target=\"_blank\">🍜 鴨 to 蔥拉麵 御徒町本店 🔗</a> 香濃鴨肉醬油拉麵（人均 ¥1,000～¥1,400）。<br><strong>🚨 排隊停損防雷規則：</strong>排隊 ≤ 3 組才吃，超過直接啟動阿美橫丁小吃備案，絕不在烈日下苦等！",
-    (3, "阿美橫丁採買"): f"<strong>必掃名店：</strong><br>• <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('二木菓子 (二木の菓子 第一営業所)', '')}\" target=\"_blank\">二木菓子（第一営業所） 🔗</a>：掃日本零食名產。<br>• <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('OS Drug 上野店', '')}\" target=\"_blank\">OS Drug 上野店 🔗</a>：藥妝免退稅價格之冠。<br>• 街邊小吃：<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('肉之大山 (肉の大山 上野店)', '')}\" target=\"_blank\">肉之大山炸肉餅 🔗</a>、<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('みなと有食品', '')}\" target=\"_blank\">みなとや章魚燒 🔗</a>。<br>• <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('多慶屋 (多慶屋 TAKEYA 1)', '')}\" target=\"_blank\">多慶屋（TAKEYA） 🔗</a>：紫色商場一站式補貨備案。",
+    (3, "阿美橫丁採買"): f"<strong>必掃名店：</strong><br>• <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('二木菓子 (二木の菓子 第一営業所)', '')}\" target=\"_blank\">二木菓子（第一営業所） 🔗</a>：掃日本零食名產。<br>• <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('OS Drug 上野店', '')}\" target=\"_blank\">OS Drug 上野店 🔗</a>：藥妝免退稅價格之冠。<br>• 街邊小吃：<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('肉之大山 (肉の大山 上野店)', '')}\" target=\"_blank\">肉之大山炸肉餅 🔗</a>、<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('みなとや食品', '')}\" target=\"_blank\">みなとや章魚燒 🔗</a>。<br>• <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('多慶屋 (多慶屋 TAKEYA 1)', '')}\" target=\"_blank\">多慶屋（TAKEYA） 🔗</a>：紫色商場一站式補貨備案。",
     (3, "回程：前往JR 御徒町站"): f"步行至 JR <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('御徒町站', '')}\" target=\"_blank\">御徒町站 🔗</a> 搭乘電車返回淺草橋。",
     (3, "晚餐（若下午沒吃鴨 to 蔥拉麵）"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('吉野家 (吉野家 浅草橋店)', '')}\" target=\"_blank\">吉野家 浅草橋店 🔗</a>。<br><strong>備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('松屋 (松屋 浅草橋店)', '')}\" target=\"_blank\">松屋 浅草橋店 🔗</a> / <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('拉麵 ろく月 (らーめん ろく月)', '')}\" target=\"_blank\">ろく月 雞白湯拉麵 🔗</a>。",
     (3, "宵夜／點心（若下午已吃鴨 to 蔥拉麵）"): f"外帶 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('Cow Cow Kitchen (東京Milk Cheese Factory)', '')}\" target=\"_blank\">Cow Cow Kitchen 牛奶起司派 🔗</a> 或便利商店點心回飯店享用。"
@@ -1500,7 +1497,7 @@ def main():
     html_output = render_full_pwa_html(meta, days_data)
     with open('/home/owen/tokyo/itinerary.html', 'w', encoding='utf-8') as f:
         f.write(html_output)
-    print("✅ Successfully built and verified itinerary.html with No-Nav for In-Hotel/Static Slots!")
+    print("✅ Successfully built and verified itinerary.html!")
 
 if __name__ == '__main__':
     main()
