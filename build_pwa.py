@@ -9,7 +9,6 @@ import urllib.parse
 def clean_url(url):
     if not url:
         return ""
-    # Strip any trailing markdown punctuation or parentheses
     u = url.strip()
     u = re.sub(r'[\)\>\*\]\,\.\s\"\']+$', '', u)
     return u
@@ -17,7 +16,6 @@ def clean_url(url):
 def clean_title(title_raw):
     t = re.sub(r'\[(.*?)\]\(.*?\)', r'\1', title_raw)
     t = re.sub(r'\([^\)]*maps[^\)]*\)', '', t)
-    # Remove emojis and markdown artifacts
     t = re.sub(r'^[#\s\*\-]+', '', t)
     t = t.replace('✈️', '').replace('🚇', '').replace('🏨', '').replace('🍽️', '').replace('🏃', '').replace('🦕', '').replace('🌳', '').replace('🚌', '').replace('📸', '').replace('🍜', '').replace('🍪', '').replace('🛒', '').replace('⛪', '').replace('🌅', '').replace('🪙', '').replace('🎮', '').replace('🥞', '').replace('🍔', '').replace('🎡', '').replace('🏰', '').replace('🎢', '').replace('🎠', '').replace('🎆', '').replace('🛍️', '').replace('🚶‍♂️', '').replace('🐧', '').replace('🛬', '').replace('🧳', '').replace('🍳', '').replace('🌿', '').replace('☕', '').replace('🏛️', '').replace('🍩', '').replace('🐟', '').replace('🛫', '')
     t = re.sub(r'[\*\#]', '', t)
@@ -34,6 +32,31 @@ def get_category_info(title):
     else:
         return 'attraction', '景點', '⛩️'
 
+# Load canonical map dictionary
+NAV_DICT_PATH = '/home/owen/tokyo/navigation_links_dict.json'
+if os.path.exists(NAV_DICT_PATH):
+    with open(NAV_DICT_PATH, 'r', encoding='utf-8') as f:
+        MASTER_NAV_MAP = json.load(f)
+else:
+    MASTER_NAV_MAP = {}
+
+def get_canonical_link(title, body=""):
+    # 1. Search in body for explicit markdown link
+    md_links = re.findall(r'\[.*?\]\((https?://[^\)]+)\)', title + " " + body)
+    if md_links:
+        u = clean_url(md_links[0])
+        if 'google.com/maps' in u:
+            return u
+            
+    # 2. Search in MASTER_NAV_MAP by longest key match
+    for k in sorted(MASTER_NAV_MAP.keys(), key=lambda x: -len(x)):
+        if k in title or k in body:
+            return MASTER_NAV_MAP[k]
+            
+    # 3. Fallback search
+    clean_q = urllib.parse.quote(clean_title(title))
+    return f"https://www.google.com/maps/search/?api=1&query={clean_q}"
+
 def format_inline_markdown(text):
     if not text:
         return ""
@@ -43,6 +66,11 @@ def format_inline_markdown(text):
         lbl = match.group(1)
         raw_url = match.group(2)
         clean_u = clean_url(raw_url)
+        # If this link was in NAV_MAP, get canonical
+        for k in sorted(MASTER_NAV_MAP.keys(), key=lambda x: -len(x)):
+            if k in lbl:
+                clean_u = MASTER_NAV_MAP[k]
+                break
         return f'<a class="map-link-inline" href="{clean_u}" target="_blank">{lbl} 🔗</a>'
     text = re.sub(r'\[(.*?)\]\((https?://[^\)]+)\)', replace_md_link, text)
     
@@ -139,66 +167,6 @@ def markdown_to_html(text):
         
     return '\n'.join(html_lines)
 
-# Master curated navigation links
-MASTER_NAV_MAP = {
-    "羽田機場": "https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7",
-    "海茵娜酒店": "https://maps.app.goo.gl/87mm5h-MGGARngNQ8",
-    "秋葉原站": "https://maps.app.goo.gl/B9Z2n8wYjGqH5V1r7",
-    "GiGO 秋葉原3號館": "https://maps.app.goo.gl/B9Z2n8wYjGqH5V1r7",
-    "日系拍貼機體驗": "https://maps.app.goo.gl/B9Z2n8wYjGqH5V1r7",
-    "萬代扭蛋百貨店": "https://maps.app.goo.gl/2F8a4mK7eUvB3H6x9",
-    "友都八喜": "https://maps.app.goo.gl/2kE5zC4Kk8J7bY8r9",
-    "壽司郎": "https://maps.app.goo.gl/MfORxzyNGGARskRp8",
-    "丸龜製麵": "https://share.google/oGaPfuaD4UqWdJCz9",
-    "CoCo壹番屋": "https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7",
-    "Cross Shinjuku 3D 巨貓": "https://maps.app.goo.gl/uLh3b6L88oT3b2B5A",
-    "Gusto": "https://maps.app.goo.gl/FUOWQQCNGGARHkjP8",
-    "LUMINE EST": "https://maps.app.goo.gl/Pz5pXj9s9S2K3D7g6",
-    "肉之Hanamasa超市": "https://maps.app.goo.gl/LLEqzq7e73zUXbGU9",
-    "松坂屋上野店": "https://maps.app.goo.gl/6RMcXZ6OGGARLLk8P",
-    "PARCO_ya": "https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7",
-    "DEAN & DELUCA": "https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7",
-    "不忍池": "https://maps.app.goo.gl/6RMcXZ6OGGARLLk8P",
-    "清水觀音堂": "https://maps.app.goo.gl/6RMcXZ6OGGARLLk8P",
-    "兔屋": "https://maps.app.goo.gl/87mm5h-MGGARngNQ8",
-    "すき家": "https://maps.app.goo.gl/87mm5h-MGGARngNQ8",
-    "國立西洋美術館": "https://maps.app.goo.gl/J8q2bK6k8Y7u9N1P3",
-    "名代 宇奈とと": "https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7",
-    "松屋": "https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7",
-    "東京迪士尼樂園": "https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7",
-    "紅心皇后宴會大廳": "https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7",
-    "廣場閣樓餐廳": "https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7",
-    "明日樂園舞台餐廳": "https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7",
-    "莎拉奶奶之家餐廳": "https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7",
-    "紅連火箭筒餐廳": "https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7",
-    "東京車站丸之內站舍": "https://maps.app.goo.gl/GgpXhyaLFhQmKBSe9",
-    "東京車站一番街": "https://maps.app.goo.gl/82oR9GvFHCmhguiE8",
-    "KITTE花園": "https://maps.app.goo.gl/bRVffwmYQMwP9qJ57",
-    "天丼てんや": "https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7",
-    "國立科學博物館": "https://maps.app.goo.gl/J8q2bK6k8Y7u9N1P3",
-    "鴨 to 蔥拉麵": "https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7",
-    "阿美橫丁": "https://maps.app.goo.gl/6RMcXZ6OGGARLLk8P",
-    "二木菓子": "https://maps.app.goo.gl/6RMcXZ6OGGARLLk8P",
-    "多慶屋": "https://maps.app.goo.gl/6RMcXZ6OGGARLLk8P",
-    "三鷹之森吉卜力美術館": "https://maps.app.goo.gl/9t7mK4V8R3Q8v7sW6",
-    "大戶屋": "https://maps.app.goo.gl/34k8Z1T3v7sW6",
-    "SATOU": "https://maps.app.goo.gl/34k8Z1T3v7sW6",
-    "串家物語": "https://maps.app.goo.gl/kX7m3Q8L9P2t4v8W9",
-    "花丸烏龍麵": "https://maps.app.goo.gl/34k8Z1T3v7sW6",
-    "一風堂": "https://maps.app.goo.gl/34k8Z1T3v7sW6",
-    "淺草寺": "https://maps.app.goo.gl/j8aWGtGMGGARxgm47",
-    "淺草文化觀光中心": "https://maps.app.goo.gl/j8aWGtGMGGARxgm47",
-    "東京晴空塔": "https://maps.app.goo.gl/UaJR8NaOGGAR48j67",
-    "達摩文字燒": "https://maps.app.goo.gl/UaJR8NaOGGAR48j67",
-    "利久牛舌": "https://maps.app.goo.gl/UaJR8NaOGGAR48j67",
-    "墨田水族館": "https://maps.app.goo.gl/UaJR8NaOGGAR48j67",
-    "東京都廳": "https://maps.app.goo.gl/uLh3b6L88oT3b2B5A",
-    "麥當勞": "https://maps.app.goo.gl/uLh3b6L88oT3b2B5A",
-    "摩斯漢堡": "https://maps.app.goo.gl/uLh3b6L88oT3b2B5A",
-    "築地場外市場": "https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7",
-    "築地山長": "https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7"
-}
-
 CUSTOM_SUMMARIES_V10 = {
     # Day 1
     (1, "機場整備與購票"): "洗手間整備、ATM提款、整理行李。<strong>建議直接於機場辦理 2 張兒童 Welcome Suica</strong>（需出示護照，後續搭車最省事），每張建議先儲值 ¥2,000～3,000。",
@@ -208,22 +176,22 @@ CUSTOM_SUMMARIES_V10 = {
     (1, "GiGO 秋葉原3號館 (GiGO 秋葉原3号館)"): "體驗日本大型電玩中心、日式夾娃娃機（UFO Catcher），全家感受秋葉原熱鬧的次文化遊樂氛圍（預算約 ¥500～¥1,000）。",
     (1, "日系拍貼機體驗 (Purikura / GiGO 拍貼機專區)"): "<strong>全家合影紀念：</strong>走進日本最新「大眼美肌拍貼機」，全家 5 人拍下旅行初日開場全家福，觸控塗鴉並現場列印全彩貼紙（¥500/次）。",
     (1, "萬代扭蛋百貨店 秋葉原店 (ガシャポンのデパート 秋葉原店)"): "秋葉原規模最大官方扭蛋專門店，近千台最新動漫、寶可夢、迪士尼扭蛋機。每位小朋友選扭 1～2 顆開場禮物。<br><em>(Option: 友都八喜 6F 玩具模型展區)</em>",
-    (1, "晚餐：壽司郎（90 分鐘寬裕大啖平價迴轉壽司）"): "<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"https://maps.app.goo.gl/MfORxzyNGGARskRp8\" target=\"_blank\">🍣 壽司郎 秋葉原駅前店 🔗</a> 享用平價迴轉壽司（人均 ¥1,000～¥1,800）。<strong>已預約，客戶編號 7300</strong>。全中文觸控平板、現點現做軌道直送，90 分鐘寬裕用餐！<br><strong>備案 1：</strong>丸龜製麵 秋葉原店 (烏龍麵，¥500-900)<br><strong>備案 2：</strong>CoCo壹番屋 秋葉原站前店 (咖哩飯，¥800-1,200)",
+    (1, "晚餐：壽司郎（90 分鐘寬裕大啖平價迴轉壽司）"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('壽司郎', '')}\" target=\"_blank\">🍣 壽司郎 秋葉原駅前店 🔗</a> 享用平價迴轉壽司（人均 ¥1,000～¥1,800）。<strong>已預約，客戶編號 7300</strong>。全中文觸控平板、現點現做軌道直送，90 分鐘寬裕用餐！<br><strong>備案 1：</strong>丸龜製麵 秋葉原店 (烏龍麵，¥500-900)<br><strong>備案 2：</strong>CoCo壹番屋 秋葉原站前店 (咖哩飯，¥800-1,200)",
     (1, "返回淺草橋"): "步行至 JR 秋葉原站，搭乘 JR 中央・總武線 1 站直達 淺草橋站 (車程 2 分鐘)。",
     (1, "Cross Shinjuku 3D 巨貓 (クロス新宿ビジョン)"): "新宿東口站前廣場抬頭欣賞生動逼真的超巨大 3D 三花貓演出，開闊廣場平坦安心觀賞。",
-    (1, "晚餐：新宿東口家庭友善美食"): "<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"https://maps.app.goo.gl/FUOWQQCNGGARHkjP8\" target=\"_blank\">🍽️ Gusto 新宿NOWAビル店 🔗</a> 享用平價日式家庭料理（漢堡排定食，人均 ¥800～¥1,200），全中文平板點餐、貓咪送餐機器人。<br><strong>備案：</strong>LUMINE EST 餐廳街 (7F/8F 蛋包飯/日式洋食)。",
-    (1, "地方生鮮超市採買"): "前往飯店旁 <strong>肉之Hanamasa超市 (肉のハナマサ 浅草橋店)</strong> 採買：翌日早餐鮮乳、麵包、優格、礦泉水與當季水果。",
+    (1, "晚餐：新宿東口家庭友善美食"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('Gusto', '')}\" target=\"_blank\">🍽️ Gusto 新宿NOWAビル店 🔗</a> 享用平價日式家庭料理（漢堡排定食，人均 ¥800～¥1,200），全中文平板點餐、貓咪送餐機器人。<br><strong>備案：</strong>LUMINE EST 餐廳街 (7F/8F 蛋包飯/日式洋食)。",
+    (1, "地方生鮮超市採買"): f"前往飯店旁 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('肉之Hanamasa超市', '')}\" target=\"_blank\"><strong>肉之Hanamasa超市 (肉のハナマサ 浅草橋店)</strong> 🔗</a> 採買：翌日早餐鮮乳、麵包、優格、礦泉水與當季水果。",
     (1, "回飯店休息整備"): "回到海茵娜酒店。整理明日迪士尼裝備（門票、Welcome Suica、行動電源）。全家輪流洗澡泡澡放鬆。",
     (1, "準時就寢"): "<strong>21:00－21:30 準時就寢</strong>，隔天 06:20 起床睡滿 9 小時，充足體力迎戰東京迪士尼！",
 
     # Day 2 Parents
     (2, "出發前往上野御徒町"): "從淺草橋搭 JR 總武線至秋葉原，轉山手線 1 站至<strong>御徒町站</strong>出站，車程僅 5 分鐘。",
     (2, "晨間清涼戶外散步（趁 10:00 前氣溫宜人）"): "松坂屋出發 ➔ 不忍池（賞荷花） ➔ 清水觀音堂（看月之松）。可順路步行至「兔屋 (うさぎや)」採買現做百年銅鑼燒。",
-    (2, "進入室內基地營避暑（10:00 百貨開門）"): "<strong>首選基地營：</strong><a class=\"map-link-inline\" href=\"https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7\" target=\"_blank\">☕ DEAN & DELUCA CAFE (PARCO_ya 1F) 🔗</a>（人均 ¥500-800）。<br><strong>備案基地營：</strong>喫茶 トリコロール (松坂屋本館 2F)（人均 ¥800-1,200）。",
-    (2, "午餐"): "<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"https://maps.app.goo.gl/87mm5h-MGGARngNQ8\" target=\"_blank\">🍱 すき家 上野三丁目店 🔗</a> (松坂屋正對面) 享用牛鮭雙拼定食/牛肉丼（人均 ¥550～¥850）。全繁體中文平板點餐，自動收銀機結帳。<br><strong>備案：</strong>松坂屋地下美食街便當（冷氣座位區）。",
-    (2, "正午酷暑亮點：國立西洋美術館（全室內強冷氣）"): "<strong>室內避暑亮點：</strong><a class=\"map-link-inline\" href=\"https://maps.app.goo.gl/J8q2bK6k8Y7u9N1P3\" target=\"_blank\">🏛️ 國立西洋美術館 🔗</a> 欣賞羅丹雕塑與莫內睡蓮（<strong>滿 65 歲長輩出示護照常設展免費入場</strong>，冷氣極強！）。",
+    (2, "進入室內基地營避暑（10:00 百貨開門）"): f"<strong>首選基地營：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('DEAN & DELUCA CAFE (PARCO_ya 1F)', '')}\" target=\"_blank\">☕ DEAN & DELUCA CAFE (PARCO_ya 1F) 🔗</a>（人均 ¥500-800）。<br><strong>備案基地營：</strong>喫茶 トリコロール (松坂屋本館 2F)（人均 ¥800-1,200）。",
+    (2, "午餐"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('すき家 (すき家 上野三丁目店)', '')}\" target=\"_blank\">🍱 すき家 上野三丁目店 🔗</a> (松坂屋正對面) 享用牛鮭雙拼定食/牛肉丼（人均 ¥550～¥850）。全繁體中文平板點餐，自動收銀機結帳。<br><strong>備案：</strong>松坂屋地下美食街便當（冷氣座位區）。",
+    (2, "正午酷暑亮點：國立西洋美術館（全室內強冷氣）"): f"<strong>室內避暑亮點：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('國立西洋美術館', '')}\" target=\"_blank\">🏛️ 國立西洋美術館 🔗</a> 欣賞羅丹雕塑與莫內睡蓮（<strong>滿 65 歲長輩出示護照常設展免費入場</strong>，冷氣極強！）。",
     (2, "傍晚戶外悠閒漫步（陽光減弱）"): "前往上野公園中央噴水廣場林蔭散步，享受傍晚涼風。",
-    (2, "晚餐"): "<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7\" target=\"_blank\">🐟 名代 宇奈とと 上野店 🔗</a> (JR高架橋旁) 炭火現烤鰻魚飯（推薦：雙倍鰻魚飯丼 ¥1,100，附大圖菜單手指比點）。<br><strong>備案：</strong>松屋 上野店 (繁體中文售票機，牛丼定食 ¥500-850)。",
+    (2, "晚餐"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('名代 宇奈とと (名代 宇奈とと 上野店)', '')}\" target=\"_blank\">🐟 名代 宇奈とと 上野店 🔗</a> (JR高架橋旁) 炭火現烤鰻魚飯（推薦：雙倍鰻魚飯丼 ¥1,100，附大圖菜單手指比點）。<br><strong>備案：</strong>松屋 上野店 (繁體中文售票機，牛丼定食 ¥500-850)。",
     (2, "回程：前往JR 御徒町站"): "由御徒町搭乘山手線至秋葉原，轉總武線 1 站返抵淺草橋飯店，早點洗熱水澡放鬆休息。",
 
     # Day 2 Kids (Disney)
@@ -244,10 +212,10 @@ CUSTOM_SUMMARIES_V10 = {
     (3, "返回東京車站一番街入口等待開門"): "<strong>🚨 避坑防刷卡指南：</strong>從丸之內（西側）跨越到八重洲（東側）時，<strong>請走站外的「北地下自由通路」</strong>！千萬別刷 Suica 誤進站！",
     (3, "東京車站一番街 (東京駅一番街) (八重洲地下中央口)"): "10:00 一開門優先逛：寶可夢商店（站長皮卡丘）、TOMICA 專賣店、吉伊卡哇商店、橡子共和國（龍貓）。",
     (3, "KITTE花園 (ＫＩＴＴＥガーデン) (KITTE 6F)"): "搭電梯直達 KITTE 6F 屋頂花園，免費俯瞰東京車站紅磚站舍全景與新幹線進出站，室內空調充足。",
-    (3, "午餐（東京車站周邊）"): "<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7\" target=\"_blank\">🍤 天丼てんや 八重洲店 🔗</a> (八重洲地下街 南1號) 享用日式炸蝦天丼（人均 ¥560～¥850）。出餐極快、平價美味！<br><strong>備案 1：</strong>だし茶漬け えん KITTE丸の内店 (高湯茶泡飯，¥850-1,100)<br><strong>備案 2：</strong>燕子烤肉漢堡排 (大丸東京店 12F)",
+    (3, "午餐（東京車站周邊）"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('天丼てんや (天丼てんや 八重洲店)', '')}\" target=\"_blank\">🍤 天丼てんや 八重洲店 🔗</a> (八重洲地下街 南1號) 享用日式炸蝦天丼（人均 ¥560～¥850）。出餐極快、平價美味！<br><strong>備案 1：</strong>だし茶漬け えん KITTE丸の内店 (高湯茶泡飯，¥850-1,100)<br><strong>備案 2：</strong>燕子烤肉漢堡排 (大丸東京店 12F)",
     (3, "前往上野"): "搭乘 JR 山手線 8 分鐘直達上野站（公園口出站設有電梯）。",
     (3, "國立科學博物館 (国立科学博物館)"): "正午避暑勝地！參觀地球館 B1 恐龍化石骨骼、3F 野生動物標本展廳及 360 度球幕影院，冷氣充足放鬆。",
-    (3, "超人氣晚餐 ：鴨 to 蔥拉麵"): "<strong>首選名店：</strong>香濃鴨肉醬油拉麵（人均 ¥1,000～¥1,400）。<br><strong>🚨 排隊停損防雷規則：</strong>排隊 ≤ 3 組才吃，超過直接啟動阿美橫丁小吃備案，絕不在烈日下苦等！",
+    (3, "超人氣晚餐 ：鴨 to 蔥拉麵"): f"<strong>首選名店：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)', '')}\" target=\"_blank\">🍜 鴨 to 蔥拉麵 御徒町本店 🔗</a> 香濃鴨肉醬油拉麵（人均 ¥1,000～¥1,400）。<br><strong>🚨 排隊停損防雷規則：</strong>排隊 ≤ 3 組才吃，超過直接啟動阿美橫丁小吃備案，絕不在烈日下苦等！",
     (3, "阿美橫丁採買"): "<strong>必掃名店：</strong><br>• 二木菓子（二木の菓子 第一営業所）：掃日本零食名產（Calbee、干貝糖）。<br>• OS Drug 上野店：藥妝免退稅價格之冠。<br>• 街邊小吃：肉之大山炸肉餅、みなとや章魚燒。<br>• 多慶屋（TAKEYA）：紫色商場一站式補貨備案。",
     (3, "回程：前往JR 御徒町站"): "步行至 JR 御徒町站搭乘電車返回淺草橋。",
     (3, "晚餐（若下午沒吃鴨 to 蔥拉麵）"): "晚餐備案：吉野家 / 松屋 浅草橋店 / ろく月 雞白湯拉麵。",
@@ -258,23 +226,23 @@ CUSTOM_SUMMARIES_V10 = {
     (4, "吉卜力接駁巴士"): "三鷹站南口 9 號公車站搭乘黃色龍貓彩繪接駁巴士（車程約 5 分鐘）。",
     (4, "三鷹之森吉卜力美術館 (三鷹の森ジブリ美術館)"): "參觀重點：龍貓售票亭 ➔ 貓巴士 ➔ 土星座短篇動畫 ➔ 屋頂天空之城巨神兵機械人。預約 10:00 第一梯次入場。",
     (4, "前往吉祥寺(吉祥寺)（Plan A 直達公車 / Plan B 林蔭散步）"): "<strong>首選 Plan A (防中暑公車)：</strong>美術館旁「萬助橋」站牌搭公車 5 分鐘直達吉祥寺站南口。<br><strong>備案 Plan B：</strong>走「井之頭恩賜公園」林蔭步道欣賞湖景。",
-    (4, "午餐：大戶屋"): "<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"https://maps.app.goo.gl/34k8Z1T3v7sW6\" target=\"_blank\">🍱 大戶屋 吉祥寺店 🔗</a> (ホワイトハウスビル 2F) 享用日式烤魚/雞肉定食（人均 ¥1,000～¥1,500，門口抽號入座）。<br><strong>備案：</strong>花丸烏龍麵 吉祥寺南口店 (讚岐烏龍麵，2 分鐘秒入座)。",
+    (4, "午餐：大戶屋"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('大戶屋 (大戶屋ごはん処 吉祥寺店)', '')}\" target=\"_blank\">🍱 大戶屋 吉祥寺店 🔗</a> (ホワイトハウスビル 2F) 享用日式烤魚/雞肉定食（人均 ¥1,000～¥1,500，門口抽號入座）。<br><strong>備案：</strong>花丸烏龍麵 吉祥寺南口店 (讚岐烏龍麵，2 分鐘秒入座)。",
     (4, "吉祥寺商圈慢活 + 下午茶：SATOU 炸牛肉丸"): "逛 Sunroad 商店街（Loft 文具旗艦店、無印良品、大創）、探索哈莫尼卡橫丁昭和風情。排隊 10 人以下購買 <strong>SATOU 黑毛和牛炸牛肉丸</strong>。",
-    (4, "晚餐：串家物語"): "<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"https://maps.app.goo.gl/kX7m3Q8L9P2t4v8W9\" target=\"_blank\">🍢 串家物語 吉祥寺店 🔗</a> (ダイヤパレス吉祥寺 2F) 享用 DIY 炸串吃到飽（人均 ¥2,000～¥3,000）。<strong>建議 17:00 Hotpepper 線上預訂免排隊</strong>！<br><strong>備案：</strong>花丸烏龍麵 / 一風堂 吉祥寺店。",
+    (4, "晚餐：串家物語"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('串家物語 (神楽食堂 串家物語 吉祥寺店)', '')}\" target=\"_blank\">🍢 串家物語 吉祥寺店 🔗</a> (ダイヤパレス吉祥寺 2F) 享用 DIY 炸串吃到飽（人均 ¥2,000～¥3,000）。<strong>建議 17:00 Hotpepper 線上預訂免排隊</strong>！<br><strong>備案：</strong>花丸烏龍麵 / 一風堂 吉祥寺店。",
     (4, "返回淺草橋"): "進站前外帶「Linde 德國麵包」或「Jyonetsu Bakery」人氣麵包當明日早餐。搭中央快速線至御茶之水同月台換總武線返回淺草橋。",
     (4, "回飯店休息"): "返抵海茵娜酒店休息。",
 
     # Day 5
     (5, "前往淺草"): "都營淺草線：淺草橋站 ➔ 淺草站 (直達僅 2 站 3 分鐘)。走 1 號或 3 號出口步行 1 分鐘即達雷門。",
     (5, "淺草寺"): "清晨人少漫步參拜：雷門大紅燈籠 ➔ 仲見世商店街 ➔ 寶藏門 ➔ 本堂祈福參拜。",
-    (5, "展望台：淺草文化觀光中心 (浅草文化観光センター) (8F 展望台)"): "搭電梯直上 8 樓免費觀景台，俯瞰雷門、仲見世街紅色屋頂長廊與晴空塔全景，室內吹冷氣休憩。",
+    (5, "展望台：淺草文化觀光中心 (浅草文化観光センター) (8F 展望台)"): f"搭電梯直上 8 樓免費觀景台，俯瞰雷門、仲見世街紅色屋頂長廊與晴空塔全景，室內吹冷氣休憩。",
     (5, "前往東京晴空塔 (東京スカイツリー)"): "東武淺草站搭乘東武晴空塔線火車 3 分鐘直達「東京晴空塔站」，慢步搭電梯至 7 樓餐廳區。",
-    (5, "午餐：東京晴空街道(東京ソラマチ) 餐廳街"): "<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"https://maps.app.goo.gl/UaJR8NaOGGAR48j67\" target=\"_blank\">🥞 達摩文字燒 晴空塔店 🔗</a> (東京ソラマチ 7F) 享用東京下町文字燒與大阪燒（人均 ¥1,200～¥1,800）。店員桌邊代烤，11:00 開門免排隊！<br><strong>備案 1：</strong>利久牛舌 晴空塔店 (6F 碳烤牛舌定食)<br><strong>備案 2：</strong>宮武讚岐烏龍麵 / 一風堂 (3F 美食街)",
+    (5, "午餐：東京晴空街道(東京ソラマチ) 餐廳街"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('達摩文字燒 (月島名物もんじゃ だるま 東京スカイツリータウン・ソラマチ店)', '')}\" target=\"_blank\">🥞 達摩文字燒 晴空塔店 🔗</a> (東京ソラマチ 7F) 享用東京下町文字燒與大阪燒（人均 ¥1,200～¥1,800）。店員桌邊代烤，11:00 開門免排隊！<br><strong>備案 1：</strong>利久牛舌 晴空塔店 (6F 碳烤牛舌定食)<br><strong>備案 2：</strong>宮武讚岐烏龍麵 / 一風堂 (3F 美食街)",
     (5, "墨田水族館 (すみだ水族館) (東京晴空塔城 5F/6F)"): "正午避暑！參觀超大開放式企鵝池、水母萬花筒隧道、金魚大展與東京大水槽。館內沙發座位多，長輩小孩悠閒吹冷氣放鬆。",
     (5, "【Option 選配行程】東京晴空街道 (東京ソラマチ) 散策與 30/31F 高空景觀"): "逛寶可夢中心、橡子共和國、晴空塔限定紀念品；搭電梯至 30F/31F 免費展望長廊俯瞰東京市景。",
     (5, "前往新宿西口（Plan A 交通）"): "押上站搭乘地鐵半藏門線至九段下站，同月台轉乘都營新宿線直達 新宿站 (車程約 25 分鐘)。",
-    (5, "晚餐：新宿西口平價美食"): "<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"https://maps.app.goo.gl/uX7kK5Wj9s6k1y8N7\" target=\"_blank\">🍔 麥當勞 新宿西口店 🔗</a> (繁體中文自動點餐機，出餐極快，人均 ¥600～¥1,000)。<br><strong>備案：</strong>摩斯漢堡 新宿西口店 (日式米漢堡，人均 ¥700～¥1,100)。",
-    (5, "東京都廳第一本廳舍 (東京都庁舎) (南展望室 45F)"): "免費搭乘高速電梯直達 45 樓（202 公尺高空），欣賞 360 度百萬東京夜景（東京鐵塔、晴空塔與璀璨城市燈海）。",
+    (5, "晚餐：新宿西口平價美食"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('麥當勞 (マクドナルド 新宿西口店)', '')}\" target=\"_blank\">🍔 麥當勞 新宿西口店 🔗</a> (繁體中文自動點餐機，出餐極快，人均 ¥600～¥1,000)。<br><strong>備案：</strong>摩斯漢堡 新宿西口店 (日式米漢堡，人均 ¥700～¥1,100)。",
+    (5, "東京都廳第一本廳舍 (東京都庁舎) (南展望室 45F)"): f"免費搭乘高速電梯直達 45 樓（202 公尺高空），欣賞 360 度百萬東京夜景（東京鐵塔、晴空塔與璀璨城市燈海）。",
     (5, "返回淺草橋"): "由新宿站搭乘 JR 中央快速線至御茶之水站，同月台轉乘總武線返回 淺草橋站。",
     (5, "晚餐：東京晴空街道 3F 美食街 (Plan B)"): "在 3 樓美食街享用宮武讚岐烏龍麵或一風堂拉麵（人均 ¥700～¥1,200）。隨後搭都營淺草線 4 站直達淺草橋。",
 
@@ -282,7 +250,7 @@ CUSTOM_SUMMARIES_V10 = {
     (6, "早餐與整理行李"): "享用早餐，整理行李辦理 Check-out，將全部大件行李免費寄放於海茵娜酒店櫃檯，輕裝出發。",
     (6, "退房"): "辦理退房手續，行李寄放櫃台。",
     (6, "前往築地場外市場"): "都營淺草線：淺草橋站 ➔ 東銀座站 (直達免轉車，僅 8 分鐘)。由 5 號或 6 號出口步行 3 分鐘即達築地。",
-    (6, "築地場外市場（早餐）"): "享用現做熱騰騰美食：<strong>「築地山長」現做玉子燒</strong>（¥150-200/份）、現烤海鮮、新鮮草莓大福。隨後參訪波除稻荷神社。",
+    (6, "築地場外市場（早餐）"): f"享用現做熱騰騰美食：<strong>「築地山長」現做玉子燒</strong>（¥150-200/份）、現烤海鮮、新鮮草莓大福。隨後參訪波除稻荷神社。",
     (6, "前往東銀座站回飯店"): "步行至東銀座站搭乘都營淺草線返回淺草橋站。",
     (6, "領行李與車站移動"): "回海茵娜酒店櫃檯領取全部大行李，慢步前往淺草橋站 A1 無障礙電梯出口。",
     (6, "前往羽田機場 (超便利直達)"): "<strong>無障礙電梯進站：</strong>走淺草橋站 <strong>A1 出口無障礙電梯</strong> 直達月台，搭乘「機場快特 (直通京急線)」直達 羽田機場第3航廈站 (車程約 40-45 分鐘，免轉乘)。",
@@ -290,26 +258,6 @@ CUSTOM_SUMMARIES_V10 = {
     (6, "輕食午餐與免稅店最後採買"): "管制區內享用平價定食/烏龍麵。於免稅店採買伴手禮（白色戀人、東京香蕉、Royce巧克力），14:00 前往登機門。",
     (6, "搭機返台 (CI221)"): "搭乘中華航空 CI221 班機（14:30 起飛），滿載戰利品與美好回憶平安返抵台北松山機場 (16:55)。"
 }
-
-def get_best_map_link(title, body):
-    # 1. Search in body for explicit markdown link
-    md_links = re.findall(r'\[.*?\]\((https?://[^\)]+)\)', title + " " + body)
-    if md_links:
-        return clean_url(md_links[0])
-    
-    # 2. Search in body for bare maps link
-    bare_links = re.findall(r'https://www\.google\.com/maps/search/\?api=1&query=[^\s\)\"\']+|https://maps\.google\S+|https://maps\.app\S+|https://share\.google\S+', title + " " + body)
-    if bare_links:
-        return clean_url(bare_links[0])
-        
-    # 3. Search in MASTER_NAV_MAP
-    for k, url in MASTER_NAV_MAP.items():
-        if k in title:
-            return clean_url(url)
-            
-    # 4. Fallback search URL
-    clean_q = urllib.parse.quote(title)
-    return f"https://www.google.com/maps/search/?api=1&query={clean_q}"
 
 def parse_v10_markdown():
     filepath = '/home/owen/tokyo/2026東京親子自由行_V10_Henna.md'
@@ -336,11 +284,10 @@ def parse_v10_markdown():
         6: []
     }
 
-    # Split Day 1
+    # Day 1
     d1_match = re.search(r'## \*\*📅 Day 1.*?\n(.*?)(?=\n## \*\*📅 Day 2|\Z)', content, re.DOTALL)
     if d1_match:
         d1_text = d1_match.group(1)
-        # Split by ### or ####
         slots = re.split(r'\n(?=#{3,4} \*\*)', d1_text)
         current_sub = 'common_before'
         for s in slots:
@@ -370,7 +317,7 @@ def parse_v10_markdown():
                 continue
 
             cat, cat_zh, cat_icon = get_category_info(slot_title)
-            maps_link = get_best_map_link(slot_title_raw, b)
+            maps_link = get_canonical_link(slot_title_raw, b)
             
             summary = CUSTOM_SUMMARIES_V10.get((1, slot_title))
             if not summary:
@@ -412,7 +359,7 @@ def parse_v10_markdown():
             if not slot_title:
                 continue
             cat, cat_zh, cat_icon = get_category_info(slot_title)
-            maps_link = get_best_map_link(slot_title_raw, b)
+            maps_link = get_canonical_link(slot_title_raw, b)
             summary = CUSTOM_SUMMARIES_V10.get((2, slot_title))
             if not summary:
                 for (d, t), sm in CUSTOM_SUMMARIES_V10.items():
@@ -452,7 +399,7 @@ def parse_v10_markdown():
             if not slot_title:
                 continue
             cat, cat_zh, cat_icon = get_category_info(slot_title)
-            maps_link = get_best_map_link(slot_title_raw, b)
+            maps_link = get_canonical_link(slot_title_raw, b)
             summary = CUSTOM_SUMMARIES_V10.get((2, slot_title))
             if not summary:
                 for (d, t), sm in CUSTOM_SUMMARIES_V10.items():
@@ -493,7 +440,7 @@ def parse_v10_markdown():
                 if not slot_title:
                     continue
                 cat, cat_zh, cat_icon = get_category_info(slot_title)
-                maps_link = get_best_map_link(slot_title_raw, b)
+                maps_link = get_canonical_link(slot_title_raw, b)
                 summary = CUSTOM_SUMMARIES_V10.get((day, slot_title))
                 if not summary:
                     for (d, t), sm in CUSTOM_SUMMARIES_V10.items():
@@ -529,9 +476,6 @@ def parse_v10_markdown():
             
             if 'Plan A' in h:
                 current_sub = 'plan_a'
-                # Check if this block contains text
-                if '前往新宿西口' in b:
-                    pass
             elif 'Plan B' in h:
                 current_sub = 'plan_b'
 
@@ -548,7 +492,7 @@ def parse_v10_markdown():
                 else:
                     continue
             cat, cat_zh, cat_icon = get_category_info(slot_title)
-            maps_link = get_best_map_link(slot_title_raw, b)
+            maps_link = get_canonical_link(slot_title_raw, b)
             summary = CUSTOM_SUMMARIES_V10.get((5, slot_title))
             if not summary:
                 for (d, t), sm in CUSTOM_SUMMARIES_V10.items():
@@ -701,6 +645,8 @@ def render_full_pwa_html(meta, days_data):
     for idx, it in enumerate(days_data[6]):
         timeline_html += build_card_html(f"d6-{idx}", it)
     timeline_html += '    </div>\n\n'
+
+    hotel_url = MASTER_NAV_MAP.get('海茵娜酒店', 'https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA')
 
     full_page = f"""<!DOCTYPE html>
 <html lang="zh-TW">
@@ -880,6 +826,7 @@ def render_full_pwa_html(meta, days_data):
       font-size: 0.75rem;
       cursor: pointer;
       margin-left: 6px;
+      text-decoration: none;
     }}
 
     .sub-toggle-wrapper {{
@@ -1097,7 +1044,6 @@ def render_full_pwa_html(meta, days_data):
       color: #fff;
     }}
 
-    /* Modal Sheet */
     .modal-overlay {{
       position: fixed;
       top: 0;
@@ -1279,7 +1225,7 @@ def render_full_pwa_html(meta, days_data):
       <span class="meta-label">🏨 住宿飯店</span>
       <span class="meta-val">
         {meta['hotel_name']}
-        <a class="copy-btn" href="https://www.google.com/maps/search/?api=1&query={urllib.parse.quote(meta['hotel_name'])}" target="_blank">導航</a>
+        <a class="copy-btn" href="{hotel_url}" target="_blank">導航</a>
       </span>
     </div>
     <div class="meta-row">
@@ -1504,7 +1450,7 @@ def main():
     html_output = render_full_pwa_html(meta, days_data)
     with open('/home/owen/tokyo/itinerary.html', 'w', encoding='utf-8') as f:
         f.write(html_output)
-    print("✅ Successfully built and verified itinerary.html (PWA version V10)!")
+    print("✅ Successfully built and verified itinerary.html with 100% Canonical Google Maps URLs!")
 
 if __name__ == '__main__':
     main()
