@@ -54,7 +54,7 @@
   "東京迪士尼樂園": "https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ",
   "美女與野獸：魔法物語": "https://www.google.com/maps/search/?api=1&query=35.631147,139.8781888&query_place_id=ChIJ1wJQ0dp9GGARp34ifBAVuOw",
   "小熊維尼獵蜜記": "https://www.google.com/maps/search/?api=1&query=35.630542,139.8800801&query_place_id=ChIJiaEbVRd9GGARVz0em8VQFas",
-  "巨雷山": "https://www.google.com/maps/search/?api=1&query=28.4200118,-81.58458259999999&query_place_id=ChIJf_yCtqOA54gRWHzi--HkWFU",
+  "巨雷山": "https://www.google.com/maps/search/?api=1&query=35.631776,139.879018&query_place_id=ChIJ8_W69A2OGGARi3i22fD64B0",
   "紅心皇后宴會大廳": "https://www.google.com/maps/search/?api=1&query=35.6310489,139.8812591&query_place_id=ChIJW_W1wxF9GGARviku0bVJdWw",
   "廣場閣樓餐廳": "https://www.google.com/maps/search/?api=1&query=35.6328604,139.8814464&query_place_id=ChIJLahNOoJ9GGARr52sz9U-shM",
   "明日樂園舞台餐廳": "https://www.google.com/maps/search/?api=1&query=35.6319086,139.8795571&query_place_id=ChIJTzLkOhd9GGAR_-mrdmCJEn0",
@@ -165,5 +165,6 @@
   "宮武讚岐烏龍麵": "https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E",
   "一風堂 晴空塔店": "https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E",
   "一風堂 吉祥寺店": "https://www.google.com/maps/search/?api=1&query=35.7052815,139.5786162&query_place_id=ChIJZziKmUfuGGAR8iau_mxpQKw",
-  "一風堂": "https://www.google.com/maps/search/?api=1&query=35.7052815,139.5786162&query_place_id=ChIJZziKmUfuGGAR8iau_mxpQKw"
+  "一風堂": "https://www.google.com/maps/search/?api=1&query=35.7052815,139.5786162&query_place_id=ChIJZziKmUfuGGAR8iau_mxpQKw",
+  "巨雷山 (130cm)": "https://www.google.com/maps/search/?api=1&query=35.631776,139.879018&query_place_id=ChIJ8_W69A2OGGARi3i22fD64B0"
 }
