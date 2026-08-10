@@ -106,6 +106,9 @@ flowchart TD
 ```
 
 1. **確認變更點**：比對 `README.md` 與現有 `itinerary.html` 的差異（如新增時段、替換首選/備案餐廳、更新時間）。
-2. **維護導航對照表**：確保所有提及的地點皆在 `navigation_links.html` 中有明確紀錄。
+2. **維護導航對照表**：確保所有提及的地點皆在 `navigation_links.html` / `navigation_links_dict.json` 中有明確紀錄。
 3. **安全更新 HTML**：針對 `itinerary.html` 進行精確文字與連結替換，保留所有原有 CSS 樣式、Modal 結構與 PWA Service Worker 邏輯。
-4. **自動校驗**：執行檢查確認所有美食與景點皆有對應連結，且全頁無編碼損壞。
+4. **反向防漏與健康度自動校驗 (Reverse Missing-Link & Health Audit)**：
+   - 執行反向比對：掃描行程表內文所有粗體地標（如 `**中文 (日文)**`），確認**絕無遺漏超連結的純粗體店家**（100% 皆帶有 `[**...**](URL)`）。
+   - 執行 HTTP 驗證：確認全頁所有 Google Maps 導航連結皆為 Place ID 標準格式且狀態為 200 OK，無任何 `Dynamic Link Not Found` 或 404 錯誤。
+
