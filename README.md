@@ -392,7 +392,7 @@
 JR 淺草橋站 ➔ 搭乘 JR 中央・總武線 1 站至 秋葉原站 ➔ 同站轉乘 **JR 山手線 (綠色列車，往東京方向)** 至 [**東京站 (東京駅)**](https://www.google.com/maps/search/?api=1&query=35.6812996,139.7670659&query_place_id=ChIJn0PtQVOLGGARqZ-06r4mC70)（車程約 8 分鐘）。  
 🚶‍♂️ **出站指引**：下月台後請跟隨頭頂黃色指標前往 1F **「丸之內中央口 / 丸之內南口」** 閘門出站，一走出站體正前方即為開闊的「丸之內站前廣場」。
 
-### **09:25－09:45 �� 欣賞東京車站丸之內站舍建築**
+### **09:25－09:45 📸 欣賞東京車站丸之內站舍建築**
 
 > * 目標地點：[**東京車站丸之內站舍 (東京駅丸の内駅舎)**](https://www.google.com/maps/search/?api=1&query=35.6814247,139.7659944&query_place_id=ChIJE9qjZ0-LGGARQiAs8hULJsg)
 > * 拍全家福、欣賞東京車站百年經典紅磚文藝復興式建築（清晨氣溫舒適、陽光順光，最適合戶外合影）。
@@ -514,7 +514,7 @@ JR 淺草橋站 ➔ 搭乘 JR 中央・總武線 1 站至 秋葉原站 ➔ 同�
 > * 乘車地點：[**三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.7027878,139.5604169&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F90) 南口 9 號公車站（出站後搭乘電梯/手扶梯下至 1F 公車總站；9 號站牌旁設有深綠色「吉卜力售票機」，全家使用 Suica 嗶卡搭車直接排隊即可，不需特別買紙本車票）。  
 >   ![三鷹站南口 9 號公車站牌與深綠色吉卜力售票機](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTALmksFvjrIx-JfWML4ICadWyUaDacb9bxihPsqLry41BZyGxQ6fj_zefn&s=10)
 > * 目的地：直達吉卜力美術館（車程約 5 分鐘，約 10 分鐘一班）。
-> * �� **接駁巴士外觀特徵**：車身為鮮豔的**亮黃色**，上面印滿宮崎駿動畫經典角色彩繪（如龍貓、煤炭精靈灰塵粒子、貓巴士等白色圖畫），車頭與車身側邊寫有「三鷹の森ジブリ美術館」與「MITAKA CITY BUS」字樣，非常醒目好認。  
+> * 🚌 **接駁巴士外觀特徵**：車身為鮮豔的**亮黃色**，上面印滿宮崎駿動畫經典角色彩繪（如龍貓、煤炭精靈灰塵粒子、貓巴士等白色圖畫），車頭與車身側邊寫有「三鷹の森ジブリ美術館」與「MITAKA CITY BUS」字樣，非常醒目好認。  
 >   ![三鷹之森吉卜力美術館專用亮黃色彩繪接駁巴士](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_2kdL1O9Ajy1m5qbNMqW0Yexa_keNzZ_4T7CUhBU2p5Bbfwy3t9DVtoc&s=10)
 
 <details>

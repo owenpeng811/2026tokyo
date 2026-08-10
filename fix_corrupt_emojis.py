@@ -1,24 +1,19 @@
-for fname in ['2026東京親子自由行_V10_Henna.md', 'README.md']:
+for fname in ['README.md', '2026東京親子自由行_V10_Henna.md']:
     fpath = f'/home/owen/tokyo/{fname}'
     with open(fpath, 'r', encoding='utf-8') as f:
-        text = f.read()
+        content = f.read()
 
-    text = text.replace('16:50－17:10 \ufffd\ufffd 日系拍貼機', '16:50－17:10 📸 日系拍貼機')
-    text = text.replace('16:50－17:10  日系拍貼機', '16:50－17:10 📸 日系拍貼機')
-    text = text.replace('16:50－17:10  日系拍貼機', '16:50－17:10 📸 日系拍貼機')
+    # Fix Tokyo station photo emoji
+    content = content.replace('### **09:25－09:45 \ufffd\ufffd 欣賞東京車站丸之內站舍建築**', '### **09:25－09:45 📸 欣賞東京車站丸之內站舍建築**')
+    content = content.replace('### **09:25－09:45  欣賞東京車站丸之內站舍建築**', '### **09:25－09:45 📸 欣賞東京車站丸之內站舍建築**')
+    content = content.replace('### **09:25－09:45  欣賞東京車站丸之內站舍建築**', '### **09:25－09:45 📸 欣賞東京車站丸之內站舍建築**')
 
-    text = text.replace('09:20－10:20 \ufffd\ufffd 晨間不忍池', '09:20－10:20 🌿 晨間不忍池')
-    text = text.replace('09:20－10:20  晨間不忍池', '09:20－10:20 🌿 晨間不忍池')
-    text = text.replace('09:20－10:20  晨間不忍池', '09:20－10:20 🌿 晨間不忍池')
-
-    text = text.replace('19:00 \ufffd\ufffd 前往御徒町站搭車', '19:00 🚆 前往御徒町站搭車')
-    text = text.replace('19:00  前往御徒町站搭車', '19:00 🚆 前往御徒町站搭車')
-    text = text.replace('19:00  前往御徒町站搭車', '19:00 🚆 前往御徒町站搭車')
-
-    # Remove any remaining \ufffd
-    text = text.replace('\ufffd', '')
+    # Fix Ghibli bus emoji
+    content = content.replace('> * \ufffd\ufffd **接駁巴士外觀特徵**：', '> * 🚌 **接駁巴士外觀特徵**：')
+    content = content.replace('> *  **接駁巴士外觀特徵**：', '> * 🚌 **接駁巴士外觀特徵**：')
+    content = content.replace('> *  **接駁巴士外觀特徵**：', '> * �� **接駁巴士外觀特徵**：')
 
     with open(fpath, 'w', encoding='utf-8') as f:
-        f.write(text)
+        f.write(content)
 
-print("Fixed all corrupted emojis in Markdown files!")
+print("Fixed corrupt emojis in both Markdown files!")
