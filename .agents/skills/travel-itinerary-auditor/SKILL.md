@@ -83,6 +83,33 @@ description: 針對家庭/親子暑假日本自由行行程，結合 Google Maps
 
 ---
 
+## 行動端與 GitHub Pages (Docsify) 行動體驗規範 (Mobile-First Markdown & Docsify UX Rules)
+
+為確保 Markdown 在 Android / iOS 手機瀏覽器（經由 GitHub Pages / Docsify 檢視）時獲得極致流暢、易讀且好單手操作的使用者體驗，所有行程修改與生成必須嚴格遵循以下 5 大行動體驗規範：
+
+### 1. 📌 頂部快速跳轉導航列 (Top Sticky Nav & Anchors)
+- **頁首導航膠囊**：在 Markdown 頂部標題下方，必須提供完整的天數與章節快速跳轉膠囊連結（包含 `✈️ 航班/住宿`、`💡 交通提醒`、`📊 行程總覽`、`Day 1 ~ Day 6`）。
+- **一鍵回頂部 (Back to Top)**：在每一天（Day 1 ~ Day 6）與結尾章節的末端，必須加上 `[⬆️ 回頂部](#2026東京親子自由行-henna)` 快速返頂錨點。
+
+### 2. 🗂️ 資訊分層與 `<details><summary>` 卡片式折疊選單
+為避免手機畫面過長導致滑動疲勞（Scroll Fatigue），次要或延伸補充資訊**一律使用 HTML `<details><summary>` 語法包裹（預設收合，點擊展開）**：
+- **餐廳點餐與付款技巧**：如平板中文化切換、點餐上限、手指點餐祕訣、Suica 感應付款操作（如 `<details><summary>💡 壽司郎點餐與用餐技巧（點擊展開）</summary>...</details>`）。
+- **備案餐廳與動線優勢**：首選餐廳外的 Plan B 備案、美食街外帶方案（如 `<details><summary>🍽️ 查看午餐備案餐廳（點擊展開）</summary>...</details>`）。
+- **深入展區介紹與參觀攻略**：如博物館各樓層展品清單、推薦參觀動線、劇場體驗說明。
+- **動態決策與備案分支**：如下午/傍晚方案 A/B 抉擇、DPA 快速通關購買建議與預估預算表。
+- **折疊標題規範**：`<summary>` 內必須附帶清晰 Emoji 與「（點擊展開）」引導提示。
+
+### 3. 📱 表格行動端適應性 (Mobile-Friendly Tables)
+- 總覽表格與花費表格欄位文字保持簡明，避免在手機窄螢幕上產生破版或過度繁複的水平滑動。
+
+### 4. 🗺️ 一鍵喚醒 Google Maps App (Place ID Universal Links)
+- 正文中提及的所有實體景點、首選/備案餐廳、動漫專賣店、商場，必須 100% 採用含經緯度與 Place ID 的標準超連結（`https://www.google.com/maps/search/?api=1&query=LAT,LNG&query_place_id=PLACE_ID`），點擊可直接喚醒手機 Google Maps App 精準定位。
+
+### 5. ⚠️ 關鍵警示顯眼化 (Prominent Critical Alerts)
+- 大行李進出站唯一無障礙電梯動線（如淺草橋站 A1 出口）、純長階梯警示、酷暑高溫避熱提醒、新手易混淆轉乘通道（如北地下自由通路），一律使用 Blockquote（`> ⚠️ ...`）醒目外框呈現。
+
+---
+
 ## 核心審查原則 (Audit Principles)
 
 在審查行程時，必須嚴格檢驗以下 9 大維度：

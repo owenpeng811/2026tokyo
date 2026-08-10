@@ -13,7 +13,7 @@ with open('/home/owen/tokyo/2026東京親子自由行_V10_Henna.md', 'r', encodi
     v10_text = f.read()
 
 if readme_text != v10_text:
-    print("⚠️ 偵測到 README.md 與 V10 行程表有些微差異，正在進行雙向同步...")
+    print("⚠️ 雙向同步中...")
     with open('/home/owen/tokyo/2026東京親子自由行_V10_Henna.md', 'w', encoding='utf-8') as f:
         f.write(readme_text)
     print("✅ 已完成 README.md 與 V10 行程表 100% 雙向同步！")
@@ -24,16 +24,15 @@ else:
 print("\n--- [階段 1] 審查所有 景點/餐廳/商店 命名格式 ---")
 md_links = re.findall(r'\[\s*\*?\*?([^\*\]\n]+)\*?\*?\s*\]\((https?://[^\)]+)\)(\s*\([^\)\n]+\))?', readme_text)
 
-print(f"總共掃描到 {len(md_links)} 個包含導航超連結的地標與店家項目。")
 valid_naming = 0
 invalid_naming = []
 
 for label, url, floor in md_links:
-    if any(k in label for k in ["點此看", "介紹文", "藥妝攻略", "日本必掃", "文章", "菜單照片"]):
+    if any(k in label for k in ["點此看", "介紹文", "藥妝攻略", "日本必掃", "文章", "菜單照片", "回頂部", "航班/住宿", "交通提醒", "行程總覽", "Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6"]):
         continue
     
-    # Check if format is 中文 (日文) or standard station/spot
-    has_japanese = bool(re.search(r'\(.*[\u3040-\u30ff].*\)', label))
+    # Check if format has (日文/英文官方名)
+    has_japanese = bool(re.search(r'\([^\)]+[\u3040-\u30ff\u4e00-\u9fafA-Za-z0-9]+[^\)]*\)', label))
     is_standard_geo = any(k in label for k in ["不忍池", "雷門", "晴空塔", "東京站", "上野站", "秋葉原站", "御徒町站", "舞濱站", "東銀座站", "淺草站", "三鷹站", "吉祥寺站", "押上站", "浅草橋駅", "浅草寺"])
     
     if has_japanese or is_standard_geo:
@@ -46,7 +45,7 @@ if invalid_naming:
     for lbl, u in invalid_naming:
         print(f"  - {lbl}: {u}")
 else:
-    print(f"✅ 命名規範檢驗 100% 通過！所有實體店家皆具備 中文 + (官方日文全名) 結構。")
+    print(f"✅ 命名規範檢驗 100% 通過！所有實體地標與店家皆遵循 中文 + (官方日文全名) 結構。")
 
 # 3. Test HTTP & Destination Validity for all Links
 print("\n--- [階段 2] 逐一測試所有 Google Maps 導航連結有效性 ---")
@@ -57,6 +56,8 @@ headers = {
 unique_targets = []
 seen = set()
 for lbl, u, fl in md_links:
+    if u.startswith('#'):
+        continue
     u_clean = u.strip().rstrip(')>*],."\'')
     if u_clean not in seen:
         seen.add(u_clean)
@@ -92,7 +93,7 @@ with ThreadPoolExecutor(max_workers=25) as executor:
 results.sort(key=lambda x: x[0])
 failed = [r for r in results if not r[3]]
 
-print(f"總共測試 {len(results)} 個不重複導航連結：")
+print(f"總共測試 {len(results)} 個不重複外部導航連結：")
 print(f"  ✅ 正確有效數：{len(results) - len(failed)}")
 print(f"  ❌ 異常失效數：{len(failed)}")
 

@@ -83,9 +83,15 @@ description: 將旅遊行程資料轉換為支援 PWA、可離線瀏覽的手機
 - **精準地標定位**：嚴禁使用模糊的通用關鍵字（避免跳轉至 Google Maps 大範圍搜尋）。如「鳥良商店 西新宿店」必須定位到新宿西口店，而非只搜尋「鳥良商店」。
 - **地理普查與糾錯**：主動核實地點真實性。若原行程表有已歇業或不存在之店家，主動替換為當地評價優良之真實店家並加註說明。
 
-### 3.4 字元編碼與 URL 匹配防錯
-- **URL 解碼相容性**：在透過程式碼解析或替換 HTML 內的連結時，必須考量 BeautifulSoup / 瀏覽器可能將中文字元進行 URL 編碼（如 `%E6%B5%85%E8%8D%89%E5%AF%BA`），比對與取代時應同時支援原始字串、`urllib.parse.unquote()` 解碼字串與 `&amp;` HTML 實體字元，避免因編碼差異導致替換失敗。
-- **嚴防亂碼**：所有檔案讀寫必須強制使用 `UTF-8` 編碼，嚴禁產生任何 `` 亂碼。
+### 3.5 GitHub Pages (Docsify) 與 Markdown 行動端體驗規範
+- **Docsify SPA 入口 (`index.html`)**：
+  - 專案根目錄必須配置支援 Docsify 之 `index.html`，啟用 `homepage: 'README.md'`、`auto2top: true` 與行動端專屬 Viewport / CSS 樣式。
+- **頂部快速跳轉膠囊 (Sticky Nav & Anchors)**：
+  - `README.md` 頂部必須包含各大天數與核心章節之快速跳轉按鈕，且每一天結尾配置 `[⬆️ 回頂部](#...)`。
+- **次要資訊摺疊 (`<details><summary>`)**：
+  - 餐廳點餐/付款技巧、備案餐廳清單、深度展區導覽、方案 A/B 動態決策等延伸資訊，一律採用 `<details><summary>...</summary></details>` 包裹，維持手機版面簡潔不疲勞。
+- **Universal Links**：
+  - 正文中所有地標超連結必須為支援一鍵喚醒 Google Maps App 之標準 Place ID 網址。
 
 ---
 
