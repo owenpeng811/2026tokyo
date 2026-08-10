@@ -142,12 +142,12 @@ def format_inline_markdown(text):
         return ""
     text = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', text)
     
-    # 1. Handle Markdown Image Syntax: ![alt](url)
+    # 1. Handle Markdown Image Syntax: ![alt](url) (supports http/https and local ./assets/)
     def replace_md_img(match):
         alt = match.group(1)
         url = match.group(2).strip()
         return f'<div class="itinerary-img-wrapper" style="margin: 10px 0; text-align: center;"><img src="{url}" alt="{alt}" class="itinerary-img" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12);" /><p style="font-size: 0.82rem; color: #64748b; margin-top: 4px; font-style: italic;">{alt}</p></div>'
-    text = re.sub(r'!\[(.*?)\]\((https?://[^\)]+)\)', replace_md_img, text)
+    text = re.sub(r'!\[(.*?)\]\(([^)]+)\)', replace_md_img, text)
 
     # 2. Handle Markdown Link Syntax: [label](url)
     def replace_md_link(match):

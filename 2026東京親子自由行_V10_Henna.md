@@ -76,7 +76,7 @@
 > * **首選（直達）：** 從羽田機場第3航廈站 搭乘「京急機場線 (直通都營淺草線，紅色/玫瑰紅色列車，往成田空港/青砥方向)」直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)。車程約 40-45 分鐘，免提行李換車。
 > * 🛗 **大行李出站唯一動線**：抵達淺草橋站後，請跟隨無障礙標誌搭電梯至剪票口，並**走「A1 出口（設有直達地面電梯）」**出站。出站後過馬路直行約 95 公尺（約 2 分鐘）即達飯店大門。
 > 
-> ![都營地下鐵淺草線 淺草橋站 A1 出口與無障礙電梯地面外觀](https://upload.wikimedia.org/wikipedia/commons/1/14/Asakusabashi_Station_2008-07-20.jpg)
+> ![都營地下鐵淺草線 淺草橋站 A1 出口與無障礙電梯地面外觀](./assets/images/asakusabashi_a1_exit.jpg)
 > 
 > * 💡 **A1 電梯出口實景指引**：A1 出口為獨立於馬路旁的無障礙電梯亭，出電梯後過馬路直行約 95 公尺（約 2 分鐘）即達 [**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7845347&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F88)。
 > * ⚠️ **警告**：A2 出口距離雖近但為「純長樓梯（約 35 階，無手扶梯與電梯）」，攜帶大行李切勿走 A2。
@@ -272,7 +272,7 @@
 > * 08:25－08:37 火車直達： 搭乘 JR 京葉線 (紅色列車)（往蘇我 Soga 或海濱幕張方向），搭乘 5 站直達「舞濱站(舞浜駅)」。  
 > * 08:37－08:45 抵達出站： 出舞濱站(舞浜駅)「南口」（設有斜坡與手扶梯），順著天橋與人群指標，慢步步行約 5\~8 分鐘即可抵達迪士尼樂園(東京ディズニーランド)正門。
 > 
-> ![JR 舞濱站南口出站往東京迪士尼樂園高架步道天橋](https://upload.wikimedia.org/wikipedia/commons/c/cf/JRE_Maihama-STA_South-Gate.jpg)
+> ![JR 舞濱站南口出站往東京迪士尼樂園高架步道天橋](./assets/images/maihama_south_deck.jpg)
 > 
 > * 💡 **出站動線辨識指引**：從 JR 舞濱站南口出站後，請認準右前方「東京迪士尼樂園（Tokyo Disneyland）」高架行人專用天橋步行直達正門（約 3 分鐘）；切勿走向左側的單軌電車站（那是往海洋 Sea 的）。
 
@@ -410,7 +410,7 @@ JR 淺草橋站 ➔ 搭乘 JR 中央・總武線 1 站至 秋葉原站 ➔ 同�
 > * 🚶‍♂️ **室內零迷路步行動線（全程不需 GPS，抬頭看指標）**：
 >   1. 在丸之內廣場拍完照後，面向紅磚站舍往**左手邊（北側）**走入 **「丸之內北口」**。
 > 
-> ![東京車站丸之內北口圓頂大廳（前往北地下自由通路必經處）](https://upload.wikimedia.org/wikipedia/commons/5/52/Tokyo_Station_Marunouchi_North_Exit_Dome.jpg)
+> ![東京車站丸之內北口圓頂大廳（前往北地下自由通路必經處）](./assets/images/tokyo_station_north_passage.jpg)
 > 
 >   * 💡 **通道入口辨識指引**：欣賞完丸之內紅磚站舍後，進入「丸之內北口」圓頂大廳，依循指標下階梯進入 B1F「北地下自由通路」，不進剪票口免刷卡直通八重洲地下中央口動漫街。
 >   2. **切勿刷卡進 JR 閘門**！在閘門前搭乘手扶梯/電梯**下至 B1F**。
@@ -447,7 +447,7 @@ JR 淺草橋站 ➔ 搭乘 JR 中央・總武線 1 站至 秋葉原站 ➔ 同�
 > * 目標地點：[**上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJqZzHZZyOGGAR0M4X5P7X77A) (公園改札)
 > * 🚶‍♂️ **進站指引**：從天丼てんや（八重洲地下街）搭手扶梯上至 1F **「JR 八重洲南口」** 閘門，刷 Suica 卡進站，前往 **4 號月台搭乘 JR 山手線 (綠色列車，往上野／池袋方向)**，搭車直達 [**上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJqZzHZZyOGGAR0M4X5P7X77A)（車程約 8 分鐘）。
 > 
-> ![JR 上野站公園口（公園改札）2020 全新平坦步道站舍](https://upload.wikimedia.org/wikipedia/commons/8/8b/JRE_Ueno-STA_Park-Gate.jpg)
+> ![JR 上野站公園口（公園改札）2020 全新平坦步道站舍](./assets/images/ueno_station_park_gate.jpg)
 > 
 > * 💡 **出站防爬坡指引**：抵達上野站後，請在月台搭乘電梯/手扶梯上樓走「公園改札（公園口）」，出站即為平坦景觀徒步廣場，直通國立科學博物館，完全免走長階梯爬山坡！
 
@@ -668,7 +668,7 @@ JR 淺草橋站 ➔ 搭乘 JR 中央・總武線 1 站至 秋葉原站 ➔ 同�
 >     * 💡 **點餐祕訣**：位於西口前往都廳的中央通順路轉角處，櫃台備有大彩色圖文菜單，手指圖片即可點餐。  
 > * 17:45 離開餐廳 ➔ 沿著西口地下空調步道或平緩中央通直行約 6～8 分鐘直達 [**東京都廳 (東京都庁)**](https://www.google.com/maps/search/?api=1&query=35.6894807,139.6917502&query_place_id=ChIJ60m9202LGGAR79K37s2o_a8)。
 > 
-> ![新宿站西口地下通路（通往東京都廳電動步道起點）](https://upload.wikimedia.org/wikipedia/commons/6/6f/Shinjuku_Station_West_Exit_Underground_Concourse.jpg)
+> ![新宿站西口地下通路（通往東京都廳電動步道起點）](./assets/images/shinjuku_west_underground.jpg)
 > 
 > * 💡 **地下避暑動線指引**：由新宿站西口地下剪票口出站，依循「東京都廳」指標進入全空調地下通路與自動步道，全程避開酷暑高溫與地面複雜十字路口，直達東京都廳 B1 基地。  
 > * 18:00－19:15 🌇 [**東京都廳南展望室 (東京都庁 南展望室)**](https://www.google.com/maps/search/?api=1&query=35.6894807,139.6917502&query_place_id=ChIJ60m9202LGGAR79K37s2o_a8) (第一本廳舍 45F)：  
