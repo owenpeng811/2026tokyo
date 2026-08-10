@@ -28,7 +28,7 @@ valid_naming = 0
 invalid_naming = []
 
 for label, url, floor in md_links:
-    if any(k in label for k in ["點此看", "介紹文", "藥妝攻略", "日本必掃", "文章", "菜單照片", "回頂部", "航班/住宿", "交通提醒", "行程總覽", "Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6"]):
+    if any(k in label for k in ["點此看", "介紹文", "藥妝攻略", "日本必掃", "文章", "菜單照片", "回頂部", "航班/住宿", "交通提醒", "行程總覽", "Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "短網址", "備用導航"]):
         continue
     
     # Check if format has (日文/英文官方名)

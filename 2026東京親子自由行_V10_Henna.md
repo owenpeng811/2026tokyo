@@ -323,8 +323,8 @@
 
 > * 目標地點：[**秋葉原站東口 (秋葉原駅東口交通広場)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7741315&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F92)
 > * ✅ **Plan A（首選：直達高速巴士，免轉乘一路睡回秋葉原）**：
->   * **乘車地點**：出園剪票口後往右前方步行約 2 分鐘，至迪士尼樂園正門外「東巴士總站東面（Bus Terminal East）」[**東京迪士尼樂園東巴士總站 1 號站牌 (東京ディズニーランド・バスターミナル・イースト 1番のりば)**](https://www.google.com/maps/search/?api=1&query=35.6364946,139.8807661&query_place_id=ChIJ3w8y8xN9GGARe5_gvaqDCMo)（地面與立柱有明顯標示「1番：秋葉原駅行」；可參考 [巴士總站設施與動線介紹文](https://secure.j-bus.co.jp/busrepo/2025/06/23/post-32156/)）。  
->     ![東京迪士尼樂園東巴士總站 1 號公車站牌](https://secure.j-bus.co.jp/busrepo/wp-content/uploads/2025/06/IMG20250513080949-1024x768.jpg)
+>   * **乘車地點**：出園剪票口後往右前方步行約 2 分鐘，至迪士尼樂園正門外「東巴士總站東面（Bus Terminal East）」[**東京迪士尼樂園東巴士總站 1 號站牌 (東京ディズニーランド・バスターミナル・イースト 1番のりば)**](https://www.google.com/maps/search/?api=1&query=35.6364946,139.8807661&query_place_id=ChIJ3w8y8xN9GGARe5_gvaqDCMo)（[短網址備用導航 🔗](https://maps.app.goo.gl/EkzBtj7Q6RDJCh2C6)；地面與立柱有明顯標示「1番：秋葉原駅行」；可參考 [巴士總站設施與動線介紹文](https://secure.j-bus.co.jp/busrepo/2025/06/23/post-32156/)）。  
+    ![東京迪士尼樂園東巴士總站 1 號公車站牌](https://secure.j-bus.co.jp/busrepo/wp-content/uploads/2025/06/IMG20250513080949-1024x768.jpg)
 >   * **巴士特徵與路線**：搭乘京成巴士 (Keisei Bus) 或東京灣城市交通 (Tokyo Bay City Bus) 高速巴士直達 **秋葉原站東口**。車程約 35～45 分鐘，全家每人皆有獨立舒適大座席，免除深夜帶著疲憊小孩擠電車與轉乘的辛苦。  
 >   * **抵達與轉乘**：抵達秋葉原站東口後，步行 1 分鐘進 JR 閘門搭乘中央・總武線 1 站（2 分鐘）即返抵淺草橋站。
 
