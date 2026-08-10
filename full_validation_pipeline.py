@@ -20,9 +20,9 @@ if readme_text != v10_text:
 else:
     print("✅ README.md 與 V10 行程表 100% 一致。")
 
-# 2. Check Naming Rule Compliance
+# 2. Check Naming Rule Compliance (Exclude Image tags ![]() and Internal Anchors)
 print("\n--- [階段 1] 審查所有 景點/餐廳/商店 命名格式 ---")
-md_links = re.findall(r'\[\s*\*?\*?([^\*\]\n]+)\*?\*?\s*\]\((https?://[^\)]+)\)(\s*\([^\)\n]+\))?', readme_text)
+md_links = re.findall(r'(?<!\!)\[\s*\*?\*?([^\*\]\n]+)\*?\*?\s*\]\((https?://[^\)]+)\)(\s*\([^\)\n]+\))?', readme_text)
 
 valid_naming = 0
 invalid_naming = []

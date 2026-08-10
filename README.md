@@ -493,9 +493,11 @@ JR 山手線(綠色列車)（東京站 ➔ 上野站，約 8 分鐘）。
 ### **09:35－09:50 🚌 搭乘吉卜力接駁巴士**
 
 > * 目標地點：[**三鷹之森吉卜力美術館 (三鷹の森ジブリ美術館)**](https://www.google.com/maps/search/?api=1&query=35.696238,139.5704317&query_place_id=ChIJLYwD5TTuGGARBZKEP5BV4U0)
-> * 乘車地點：[**三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.7027878,139.5604169&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F90) 南口 9 號公車站（出站後搭乘電梯/手扶梯下至 1F 公車總站；9 號站牌旁設有深綠色「吉卜力售票機」，全家使用 Suica 嗶卡搭車直接排隊即可，不需特別買紙本車票）。
+> * 乘車地點：[**三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.7027878,139.5604169&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F90) 南口 9 號公車站（出站後搭乘電梯/手扶梯下至 1F 公車總站；9 號站牌旁設有深綠色「吉卜力售票機」，全家使用 Suica 嗶卡搭車直接排隊即可，不需特別買紙本車票）。  
+>   ![三鷹站南口 9 號公車站牌與深綠色吉卜力售票機](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTALmksFvjrIx-JfWML4ICadWyUaDacb9bxihPsqLry41BZyGxQ6fj_zefn&s=10)
 > * 目的地：直達吉卜力美術館（車程約 5 分鐘，約 10 分鐘一班）。
-> * 🚌 **接駁巴士外觀特徵**：車身為鮮豔的**亮黃色**，上面印滿宮崎駿動畫經典角色彩繪（如龍貓、煤炭精靈灰塵粒子、貓巴士等白色圖畫），車頭與車身側邊寫有「三鷹の森ジブリ美術館」與「MITAKA CITY BUS」字樣，非常醒目好認。
+> * �� **接駁巴士外觀特徵**：車身為鮮豔的**亮黃色**，上面印滿宮崎駿動畫經典角色彩繪（如龍貓、煤炭精靈灰塵粒子、貓巴士等白色圖畫），車頭與車身側邊寫有「三鷹の森ジブリ美術館」與「MITAKA CITY BUS」字樣，非常醒目好認。  
+>   ![三鷹之森吉卜力美術館專用亮黃色彩繪接駁巴士](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_2kdL1O9Ajy1m5qbNMqW0Yexa_keNzZ_4T7CUhBU2p5Bbfwy3t9DVtoc&s=10)
 
 <details>
 <summary>🔰 日本公車搭乘 3 大關鍵技巧（點擊展開）</summary>
@@ -513,7 +515,8 @@ JR 山手線(綠色列車)（東京站 ➔ 上野站，約 8 分鐘）。
 ### **12:15－12:50 🚌🚃 前往吉祥寺**
 
 > * ✅ **Plan A（首選：接駁車 ＋ JR 電車，零腦力順暢轉乘）**：
->   * **第一段（回程接駁巴士至三鷹站）**：離開美術館時，回程站牌就在**美術館正門口外側**。此處等候的接駁巴士外觀與去程完全相同（亮黃色彩繪巴士），100% 都是開往三鷹站，完全不用看路線，閉著眼睛上車即可（車程約 5 分鐘，後門上車嗶 Suica ➔ 前門下車嗶 Suica，車停妥再起立）。
+>   * **第一段（回程接駁巴士至三鷹站）**：離開美術館後，直接至門口正前方公車站牌等候。此處等候的接駁巴士外觀與去程完全相同（亮黃色彩繪巴士），100% 都是開往三鷹站，完全不用看路線，閉著眼睛上車即可（車程約 5 分鐘，後門上車嗶 Suica ➔ 前門下車嗶 Suica，車停妥再起立）。  
+>     ![吉卜力美術館門口公車站與停靠的黃色接駁巴士](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiAttfDAWdlM8iGidz7jGYR6LZIA4_HEH_j-1-yOb1LLEfh2KyVo9hSjtR&s=10)
 >   * **第二段（轉乘 JR 至吉祥寺站）**：抵達三鷹站南口後搭電梯/手扶梯上樓刷 Suica 進站。於「新宿／東京」方向月台搭乘黃色中央・總武線或橘色中央線快速，僅搭 1 站（車程約 2 分鐘）即達 [**吉祥寺站 (吉祥寺駅)**](https://www.google.com/maps/search/?api=1&query=35.7031125,139.5797825&query_place_id=ChIJe0e8kkfuGGARvH2cE14g_0I)（建議由「公園口/南口」出站前往商圈與大戶屋）。
 >   * **選擇優勢**：門口直接原線接駁車上車，完全不需要在路口判斷一般公車路線，對新手與家庭來說最簡單直覺且全冷氣。
 
