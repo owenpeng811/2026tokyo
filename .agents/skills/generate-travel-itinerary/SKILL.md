@@ -69,10 +69,11 @@ description: 將旅遊行程資料轉換為支援 PWA、可離線瀏覽的手機
 
 ### 3.3 無死角導航與精準定位原則
 - **內文所有景點/餐廳 100% 全覆蓋導航（Full In-text Anchor Coverage）**：
-  - 行程表各時段的「內文說明、景點清單、順路名產、備案餐廳」中提及的**每一個實體景點、餐廳、商場、車站**（例如：`不忍池`、`清水觀音堂`、`兔屋`、`二木菓子`、`OS Drug`、`肉之大山`、`みなとや食品`、`多慶屋` 等），**一律必須加上 Google Maps 導航超連結**，嚴禁遺漏任何地點。
+  - 行程表各時段的「內文說明、景點清單、順路名產、備案餐廳」中提及的**每一個實體景點、餐廳、商場、車站**（例如：`不忍池`、`清水觀音堂`、`兔屋`、`二木菓子`、`OS Drug`、`肉之大山`、`みなとや食品`、`多慶屋`、`押上站`、`東京都廳` 等），**一律必須加上 Google Maps 導航超連結**，嚴禁遺漏任何地點。
 - **時段主導航「第一個目的地原則」（First Destination Principle）**：
   - 每張卡片右上角／標題旁的「📍 導航」按鈕，必須精準導向**該時段第一個要抵達的實體目的地**。
   - 若該時段為複合路線（如「`松坂屋出發 ➔ 不忍池 ➔ 清水觀音堂 ➔ 兔屋`」），主導航按鈕必須導向第一個目的地（即 `不忍池`），嚴禁誤導向出發點或最後的順路店家。
+  - 若該時段為交通時段（如「`前往三鷹`」、「`前往吉祥寺`」、「`返回淺草橋`」），主導航按鈕必須導向該段移動的第一個目標（如 `三鷹站南口 9 號公車站`、`吉祥寺站`、`海茵娜酒店`）。
   - 若該時段為單一景點或用餐時段，則導向該主要景點或首選餐廳。
 - **非移動／無特定實體目的地時段免附導航按鈕（No-Nav for Static / In-Hotel Slots）**：
   - 當該時段為**飯店內活動或無外出位移之行程**（例如：`飯店內吃早餐`、`整理行李`、`退房`、`回飯店休息整備`、`準時就寢`、`原地等待開門`），**卡片標題旁一律嚴禁顯示「📍 導航」按鈕**。
@@ -80,8 +81,15 @@ description: 將旅遊行程資料轉換為支援 PWA、可離線瀏覽的手機
   - 只有在該時段具備**明確外部實體目標**（如：前往景點、特定餐廳、搭車車站、逛街商場）時，才呈現精準導航按鈕。
 - **永久官方標準網址（Canonical URLs with Place ID）**：
   - 所有地圖連結優先採用含經緯度與 Place ID 的官方永久標準格式（`https://www.google.com/maps/search/?api=1&query=LAT,LNG&query_place_id=PLACE_ID`），徹底避免 Firebase 動態短網址（`maps.app.goo.gl`）可能發生的 `Dynamic Link Not Found` 錯誤。
+  - 若使用者提供短網址，可讓標準 Place ID 連結與 `[短網址備用導航 🔗](...)` 雙連結並存。
 - **精準地標定位**：嚴禁使用模糊的通用關鍵字（避免跳轉至 Google Maps 大範圍搜尋）。如「鳥良商店 西新宿店」必須定位到新宿西口店，而非只搜尋「鳥良商店」。
 - **地理普查與糾錯**：主動核實地點真實性。若原行程表有已歇業或不存在之店家，主動替換為當地評價優良之真實店家並加註說明。
+
+### 3.4 Markdown 圖片解析與響應式渲染 (Markdown Images to Responsive `<img>`)
+- 當 Markdown 行程表中包含實景照片語法 `![alt](url)`（如公車站牌、彩繪接駁巴士外觀照）時：
+  - 編譯器（如 `build_pwa.py`）**必須將其轉換為標準 HTML 響應式圖片標籤**：
+    `<div class="itinerary-img-wrapper" style="margin: 10px 0; text-align: center;"><img src="url" alt="alt" class="itinerary-img" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12);" /><p style="font-size: 0.82rem; color: #64748b; margin-top: 4px; font-style: italic;">alt</p></div>`
+  - **嚴禁**將圖片語法破壞或錯誤轉譯為純文字超連結 `!<a ...>`。
 
 ### 3.5 GitHub Pages (Docsify) 與 Markdown 行動端體驗規範
 - **Docsify SPA 入口 (`index.html`)**：
@@ -89,7 +97,7 @@ description: 將旅遊行程資料轉換為支援 PWA、可離線瀏覽的手機
 - **頂部快速跳轉膠囊 (Sticky Nav & Anchors)**：
   - `README.md` 頂部必須包含各大天數與核心章節之快速跳轉按鈕，且每一天結尾配置 `[⬆️ 回頂部](#...)`。
 - **次要資訊摺疊 (`<details><summary>`)**：
-  - 餐廳點餐/付款技巧、備案餐廳清單、深度展區導覽、方案 A/B 動態決策等延伸資訊，一律採用 `<details><summary>...</summary></details>` 包裹，維持手機版面簡潔不疲勞。
+  - 餐廳點餐/付款技巧、備案餐廳清單、深度展區導覽、公車搭乘關鍵技巧、方案 A/B 動態決策等延伸資訊，一律採用 `<details><summary>...</summary></details>` 包裹，維持手機版面簡潔不疲勞。
 - **Universal Links**：
   - 正文中所有地標超連結必須為支援一鍵喚醒 Google Maps App 之標準 Place ID 網址。
 
@@ -97,24 +105,28 @@ description: 將旅遊行程資料轉換為支援 PWA、可離線瀏覽的手機
 
 ## 4. 行程更新標準作業程序（SOP）
 
-當使用者給予更新指示（例如「我有更新 README.md 了」或「我有更新 navigation_links.html 了」）：
+當使用者給予更新指示（例如「我有更新 README.md 了」或「轉為網頁行程表並幫我 push」）：
 
 ```mermaid
 flowchart TD
-    A[使用者更新 README.md 或 navigation_links.html] --> B[比對與讀取 navigation_links.html 基準表]
+    A[使用者要求轉換網頁行程表] --> B[比對與讀取 navigation_links.html / navigation_links_dict.json]
     B --> C{是否有新地點 / 變更地點?}
-    C -- 是 --> D[查驗 Google Maps 精準地標並增量更新 navigation_links.html]
+    C -- 是 --> D[查驗 Google Maps 精準地標並增量更新對照表]
     C -- 否 --> E[讀取既有對照連結]
-    D --> F[以標籤文字為 Key，精準同步至 itinerary.html]
+    D --> F[以標籤文字為 Key，精準同步至 itinerary.html 與 first_destinations.json]
     E --> F
-    F --> G[自動檢查：是否有遺漏連結、未對齊 Key 或亂碼]
-    G --> H[完成更新並回報精簡同步結果]
+    F --> G[自動執行反向防漏與健康度校驗管線 full_validation_pipeline.py]
+    G --> H{驗證是否完全通過?}
+    H -- 否 (有粗體裸字或失效連結) --> I[立即自動修復裸字與地標超連結]
+    I --> G
+    H -- 是 --> J[完成網頁建置與 Git 推送]
 ```
 
 1. **確認變更點**：比對 `README.md` 與現有 `itinerary.html` 的差異（如新增時段、替換首選/備案餐廳、更新時間）。
-2. **維護導航對照表**：確保所有提及的地點皆在 `navigation_links.html` / `navigation_links_dict.json` 中有明確紀錄。
+2. **維護導航對照表**：確保所有提及的地點皆在 `navigation_links_dict.json` 中有明確紀錄。
 3. **安全更新 HTML**：針對 `itinerary.html` 進行精確文字與連結替換，保留所有原有 CSS 樣式、Modal 結構與 PWA Service Worker 邏輯。
 4. **反向防漏與健康度自動校驗 (Reverse Missing-Link & Health Audit)**：
-   - 執行反向比對：掃描行程表內文所有粗體地標（如 `**中文 (日文)**`），確認**絕無遺漏超連結的純粗體店家**（100% 皆帶有 `[**...**](URL)`）。
-   - 執行 HTTP 驗證：確認全頁所有 Google Maps 導航連結皆為 Place ID 標準格式且狀態為 200 OK，無任何 `Dynamic Link Not Found` 或 404 錯誤。
+   - **粗體裸字零容忍 Linter**：掃描行程表內文所有粗體地標（如 `**中文 (日文)**`），確認**絕無遺漏超連結的純粗體店家**（100% 皆帶有 `[**...**](URL)`）。
+   - **HTTP 與 Place ID 驗證**：確認全頁所有 Google Maps 導航連結皆為 Place ID 標準格式且狀態為 200 OK，無任何 `Dynamic Link Not Found` 或 404 錯誤。
+   - **雙向一致性驗證**：確認 `README.md` 與 `2026東京親子自由行_V10_Henna.md` 內容 100% 一致。
 
