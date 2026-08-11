@@ -627,7 +627,6 @@ def render_full_pwa_html(meta, days_data):
     timeline_html += """    <!-- Day 1 Section -->
     <div class="day-section" id="day1-section">
       <div class="day-overview-header">
-        <div class="day-overview-badge">📅 8/20 星期四 • Day 1</div>
         <h2 class="day-overview-title">抵達東京 × 秋葉原慢遊</h2>
       </div>
       <div class="sub-toggle-wrapper">
@@ -658,7 +657,6 @@ def render_full_pwa_html(meta, days_data):
     timeline_html += """    <!-- Day 2 Section -->
     <div class="day-section" id="day2-section" style="display: none;">
       <div class="day-overview-header">
-        <div class="day-overview-badge">📅 8/21 星期五 • Day 2</div>
         <h2 class="day-overview-title">雙線交織：上野漫遊 (長輩組) ＆ 迪士尼樂園 (親子組)</h2>
       </div>
       <div class="sub-toggle-wrapper">
@@ -704,7 +702,6 @@ def render_full_pwa_html(meta, days_data):
     timeline_html += """    <!-- Day 3 Section -->
     <div class="day-section" id="day3-section" style="display: none;">
       <div class="day-overview-header">
-        <div class="day-overview-badge">📅 8/22 星期六 • Day 3</div>
         <h2 class="day-overview-title">動漫盛宴 × 科學探險與阿美橫丁採買</h2>
       </div>
 """
@@ -716,7 +713,6 @@ def render_full_pwa_html(meta, days_data):
     timeline_html += """    <!-- Day 4 Section -->
     <div class="day-section" id="day4-section" style="display: none;">
       <div class="day-overview-header">
-        <div class="day-overview-badge">📅 8/23 星期日 • Day 4</div>
         <h2 class="day-overview-title">吉卜力童話 × 吉祥寺風格散步與 DIY 炸串</h2>
       </div>
 """
@@ -728,7 +724,6 @@ def render_full_pwa_html(meta, days_data):
     timeline_html += """    <!-- Day 5 Section -->
     <div class="day-section" id="day5-section" style="display: none;">
       <div class="day-overview-header">
-        <div class="day-overview-badge">📅 8/24 星期一 • Day 5</div>
         <h2 class="day-overview-title">下町風情 × 晴空塔水族館 × 新宿都廳百萬夜景</h2>
       </div>
       <div class="sub-toggle-wrapper">
@@ -763,7 +758,6 @@ def render_full_pwa_html(meta, days_data):
     timeline_html += """    <!-- Day 6 Section -->
     <div class="day-section" id="day6-section" style="display: none;">
       <div class="day-overview-header">
-        <div class="day-overview-badge">📅 8/25 星期二 • Day 6</div>
         <h2 class="day-overview-title">築地晨間美食巡禮 × 回程前往機場</h2>
       </div>
 """
@@ -955,26 +949,16 @@ def render_full_pwa_html(meta, days_data):
     }}
 
     .day-overview-header {{
-      margin: 10px 16px 14px;
-      padding: 12px 16px;
-      background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.03) 100%);
+      margin: 8px 16px 12px;
+      padding: 10px 14px;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.02) 100%);
       border: 1px solid var(--card-border);
-      border-radius: 14px;
+      border-radius: 12px;
       backdrop-filter: blur(var(--blur-strength));
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
-    }}
-    .day-overview-badge {{
-      font-size: 0.78rem;
-      font-weight: 700;
-      color: var(--accent-coral);
-      letter-spacing: 0.5px;
-      margin-bottom: 4px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
+      text-align: center;
     }}
     .day-overview-title {{
-      font-size: 1.05rem;
+      font-size: 0.95rem;
       font-weight: 700;
       color: #fff;
       line-height: 1.4;
