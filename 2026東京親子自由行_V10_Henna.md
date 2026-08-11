@@ -275,7 +275,6 @@
 >   * ⚠️ **月台方向確認**：請認明月台指標目的地方向為「**上野 (Ueno) ／ 池袋 (Ikebukuro) ／ 大宮 (Omiya)**」，看到這三個站名即代表方向正確；**若看到「東京 (Tokyo) ／ 品川 (Shinagawa)」請切勿搭乘，那是反方向**。
 > * 搭乘 **JR 山手線 (綠色列車)** 或 **JR 京濱東北線 (水藍色列車)** 1 站直達 [**御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（車程約 2 分鐘）。
 > * 🚶‍♂️ **出站動線**：於 **「御徒町站北口（North Exit）」** 出站，過馬路即直接抵達百貨公司 [**松坂屋 (松坂屋 上野店)**](https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o) 與 [**PARCO_ya (PARCO_ya 上野)**](https://www.google.com/maps/search/?api=1&query=35.7068605,139.7731332&query_place_id=ChIJsW9uBKCOGGAR3hWpxKX-ag0)。
-> * 💡 **長輩防迷路問路小卡**：若一時找不到方向，可直接向站務人員出示此文字或詢問 **"Ueno?"**，站務人員即可指引月台。
 
 ### **09:20－10:20 🌿 晨間不忍池與清水觀音堂散步**
 
@@ -339,7 +338,27 @@
 
 ### **18:10－18:30 🚆 返回淺草橋**
 
-> * 從松坂屋步行 2 分鐘至 JR 御徒町站 ➔ 搭乘 JR 山手線 (綠色列車) 1 站至秋葉原 ➔ 轉乘 JR 中央・總武線 (黃色列車) 1 站返回 淺草橋站（約 10 分鐘），回飯店休息。
+> * 從 [**松坂屋上野店 (松坂屋 上野店)**](https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o) 步行約 2 分鐘至 [**御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)。
+> * 進站後前往 **JR 山手線 (綠色列車)** 月台：
+>   * ⚠️ **月台方向確認**：請認明月台指標目的地方向為「**東京 (Tokyo) ／ 品川 (Shinagawa)**」，看到這兩個站名即代表方向正確。
+>   * 💡 **搭車防呆判斷**：搭車後下一站應為「**秋葉原 (Akihabara)**」，若列車下一站顯示「上野 (Ueno)」表示搭錯方向，請立即下車至對面月台改搭反方向列車。
+> * 搭乘 **JR 山手線 (綠色列車)** 1 站至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)。
+
+> 📸 【辨識：秋葉原站轉乘指標（最重要）】
+> ![秋葉原站中央・總武線 6 號月台往千葉方向指標](./assets/images/akihabara_transfer_chiba_p6.jpg)
+> 
+> * ✔ **請認準頭頂黃色指標**：
+>   * 🟡 **JR 中央・總武線 (JB)**
+>   * **6 號月台 (Platform 6)**
+>   * 標註 **「for Chiba（千葉）」**
+>   * 看到 **Chiba（千葉）** 即代表方向正確，搭乘手扶梯/電梯上至 5F 總武線 6 號月台。
+
+> * 於秋葉原站 6 號月台搭乘 **JR 中央・總武線 (黃色列車，往千葉方向)**：
+>   * 💡 **搭車防呆判斷**：搭車後下一站應為「**淺草橋 (Asakusabashi)**」，若列車下一站顯示「御茶之水 (Ochanomizu)」表示搭錯方向，請立即下車改搭反方向列車。
+> * 搭車 1 站直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)，出站步行回飯店休息（全程約 10 分鐘）。
+> * 💡 **長輩防迷路問路小卡**：若一時找不到方向，可直接向站務人員詢問：
+>   * **"Akihabara?"**（要去秋葉原）
+>   * **"Chiba platform?"**（請問往千葉方向月台）
 
 ---
 

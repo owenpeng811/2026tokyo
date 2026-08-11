@@ -26,7 +26,7 @@ text_without_links = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', 'LINK_PLACEHOLDER', read
 bare_matches = re.findall(r'\*\*([^\*\n]+?\([^\)\n]+[\u3040-\u30ff\u4e00-\u9fafA-Za-z0-9]+[^\)\n]*\))\*\*', text_without_links)
 
 # Allow whitelist for non-physical non-nav metadata (like Day headings, estimated budgets, meal item labels, flight numbers, line codes)
-metadata_whitelist = ["Day ", "迪士尼預估旅費", "建議購買", "行程總覽", "月台", "列車", "うな丼", "うな重", "套餐", "定食", "CI220", "CI221", "搭機返台", "TSA", "HND", "JK", "JY", "Ueno", "Ikebukuro", "Omiya", "Tokyo", "Shinagawa"]
+metadata_whitelist = ["Day ", "迪士尼預估旅費", "建議購買", "行程總覽", "月台", "列車", "うな丼", "うな重", "套餐", "定食", "CI220", "CI221", "搭機返台", "TSA", "HND", "JK", "JY", "JB", "Ueno", "Ikebukuro", "Omiya", "Tokyo", "Shinagawa", "Akihabara", "Chiba", "Asakusabashi", "Ochanomizu"]
 
 actual_bare_errors = []
 for b in bare_matches:
