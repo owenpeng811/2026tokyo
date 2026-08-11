@@ -1,0 +1,229 @@
+### **13:10－14:10 🛬 抵達羽田機場第 3 航廈**
+
+入境、提領行李、海關（預計 50～60 分鐘）。
+
+- 🛬 **下飛機後動線**：跟著頭頂指標 **「Arrivals / 到着」**、**「Immigration / 入国審査」** 前進即可，不需特別找電車方向。
+- 🛂 **入境審查**：準備全家 5 人護照及 Visit Japan Web QR Code（若已完成），依工作人員指示排隊即可。
+- 🧳 **領取行李**：依電子看板尋找 **CI220** 對應之 **「Baggage Claim / 手荷物受取」** 行李轉盤。
+- 🛃 **海關檢查**：完成海關檢查後，即正式進入 **T3 2F 到達大廳（Arrival Lobby）**。
+
+> ⚠️ **第一個容易走錯的地方**
+>
+> 出關後先不要停留逛商店，也不要急著找「京急線」。
+>
+> **先找頭頂大型指標：**
+>
+> **Railways（鉄道）**
+>
+> 找到 Railways 後，再依照 **Keikyu Line（京急線）** 前進即可。
+
+#### 📷 官方參考（建議出發前先看一次）
+
+> **重點請找：Arrival Lobby（2F）→ Railways → Keikyu Line**
+
+```md
+![羽田機場 T3 官方樓層圖](images/HND_T3_FloorMap.png)
+```
+
+官方樓層圖：
+
+- https://tokyo-haneda.com/zh-tw/floor/terminal3/
+- https://tokyo-haneda.com/site_resource/floor/pdf/floor__pdf_floor_map_t3_en.pdf
+
+---
+
+### **14:10－14:40 ✈️ 機場整備與 Suica 交通卡辦理**
+
+> 📍 **位置**：目前位於 **T3 2F 到達大廳**。京急入口、售票機及服務中心皆位於 **2F**，**不用先搭電梯**。
+
+#### 🚶 前往京急線（Keikyu Line）
+
+跟著：
+
+> **Railways（鉄道）**
+
+再依照：
+
+> **Keikyu Line（京急線）**
+
+前進。
+
+⚠️ **不要誤走 Tokyo Monorail（東京モノレール）**。
+
+#### 📷 官方參考（京急入口）
+
+> **重點請找：Keikyu Line、KK16、Ticket Gate**
+
+```md
+![京急入口](images/Keikyu_Entrance.png)
+```
+
+官方資訊：
+
+- https://www.keikyu.co.jp/visit/haneda-airport/use/international/
+
+---
+
+#### 🟢 成人（3 人）交通卡
+
+**Apple Pay（推薦）**
+
+三位成人若皆使用 iPhone，可直接於 **Apple Wallet** 建立 **Suica / PASMO**，免排隊購買實體卡。
+
+⚠️ Apple Wallet **無法建立兒童票卡**，僅適用成人。
+
+若希望使用實體卡，可於售票機購買一般 Suica，每張建議先儲值 **¥2,000～3,000**。
+
+---
+
+#### 🔴 小孩（2 人）辦理兒童 Welcome Suica
+
+請至 **Welcome Suica 專用販售機** 或 **JR EAST Travel Service Center** 辦理。
+
+- 出示兒童本人護照（建議此時不要先收進行李）
+- 每張建議儲值 **¥2,000～3,000**
+- **免 ¥500 押金**
+- **有效期限 28 天**
+
+#### 📷 官方參考（Welcome Suica）
+
+> **重點請找：Welcome Suica 專用販售機**
+
+```md
+![Welcome Suica 專用販售機](images/Welcome_Suica.png)
+```
+
+官方資訊：
+
+- https://www.jreast.co.jp/en/multi/welcomesuica/
+
+---
+
+#### 🆘 找不到 Welcome Suica？
+
+可直接前往：
+
+**JR EAST Travel Service Center**
+
+營業時間：**06:45～20:00**
+
+位於 **T3 2F 到達大廳，東京單軌電車改札旁**（即使你們搭京急，也可前往此處辦理 Welcome Suica）。:contentReference[oaicite:0]{index=0}
+
+#### 📷 官方參考（JR EAST Travel Service Center）
+
+> **重點請找：JR EAST Travel Service Center 招牌**
+
+```md
+![JR EAST Travel Service Center](images/JR_Service_Center.png)
+```
+
+官方資訊：
+
+- https://www.jreast.co.jp/en/multi/customer_support/service_center_haneda.html
+
+---
+
+#### 🆘 迷路 SOP
+
+若找不到京急線或 Welcome Suica，可直接出示以下文字：
+
+**找京急線**
+
+> Where is the Keikyu Line?
+
+> 京急線はどこですか？
+
+**購買兒童 Welcome Suica**
+
+> I'd like to buy two child Welcome Suica cards.
+
+> 子供用のWelcome Suicaを買いたいです。
+
+---
+
+✅ 完成交通卡辦理後，直接依照 **Keikyu Line** 指標前往剪票口，下一段開始搭乘京急直通都營淺草線前往淺草橋。
+
+### **14:40－15:25 🚇 京急直通都營淺草線 → 淺草橋**
+
+> 📍 **目的地：** [海茵娜酒店東京淺草橋（変なホテル東京 浅草橋）](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7845347&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F88)
+
+#### 🚶 前往京急月台
+
+辦好交通卡後，依照 **Keikyu Line（京急線）** 指標前往剪票口。
+
+- 成人：Apple Pay Suica 或實體 Suica 直接刷卡進站。
+- 小孩：Welcome Suica 直接刷卡進站。
+- **不用另外購買車票。**
+
+⚠️ 通過剪票口後，搭乘電梯或電扶梯前往月台即可。
+
+#### 📷 官方參考（京急進站動線）
+
+> **重點請找：Keikyu Ticket Gate → Platform**
+
+```md
+![京急進站動線](images/Keikyu_TicketGate.png)
+```
+
+官方步行指引：
+
+- https://www.haneda-tokyo-access.com/en/haneda-airport/to-stationl.html
+
+---
+
+#### 🚆 搭乘京急直通都營淺草線
+
+搭乘 **京急機場線（Keikyu Airport Line）** 往東京都心方向列車。
+
+**最簡單的判斷方式：**
+
+✅ 月台電子看板有 **「浅草橋（Asakusabashi）」** 停靠站即可搭乘。
+
+⚠️ 不需要刻意分辨：
+
+- 普通
+- 急行
+- 特急
+- 快特
+
+只要電子看板顯示：
+
+> **停靠「浅草橋」**
+
+即可直接搭乘。
+
+大多數直通都營淺草線列車皆可一車直達，不需中途換車。
+
+#### 📷 官方參考（月台）
+
+> **重點請看電子看板是否有「浅草橋」**
+
+```md
+![京急月台](images/Keikyu_Platform.png)
+```
+
+官方資訊：
+
+- https://www.keikyu.co.jp/ride/kakueki/KK16.html
+
+---
+
+#### 💡 如何確認沒有搭錯車？
+
+上車前再次確認：
+
+✅ 電子看板有：
+
+> **浅草橋（Asakusabashi）**
+
+或直接詢問站務人員：
+
+> Does this train stop at Asakusabashi?
+
+> この電車は浅草橋に停まりますか？
+
+若電子看板沒有淺草橋，
+
+請等下一班即可。
+
+
