@@ -131,7 +131,7 @@
 
 ### **14:40－15:25 🚇 前往飯店**
 
-> * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7845347&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F88)
+> * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA)
 
 #### 🚶 **Step 1：前往京急月台**
 * 辦好交通卡後，依照現場 **「Keikyu Line（京急線 - KK16）」** 指標前往剪票口：
@@ -319,7 +319,7 @@
 
 #### **13:00－15:30 🏛️ 參觀國立西洋美術館**
 
-> * ☀️ **正午避暑策略**：13:00~15:30 是一天中最炎熱時段，由松坂屋步行 5 分鐘穿越公園林蔭，進入世界文化遺產 [**國立西洋美術館 (国立西洋美術館)**](https://www.google.com/maps/search/?api=1&query=35.7153869,139.7758145&query_place_id=ChIJl1155pyOGGAR23aZpC-Y27A) 參觀室內常設展。  
+> * ☀️ **正午避暑策略**：13:00~15:30 是一天中最炎熱時段，由松坂屋步行 5 分鐘穿越公園林蔭，進入世界文化遺產 [**國立西洋美術館 (国立西洋美術館)**](https://www.google.com/maps/search/?api=1&query=35.7153869,139.7758138&query_place_id=ChIJf8xB-pyOGGARizzhlNTcI7s) 參觀室內常設展。  
 >   * 💡 **長輩專屬優惠與免費入場方式**：
 >     * **官方規定**：**滿 65 歲以上長者參觀常設展「完全免費」**（一般成人票價 ¥500；特別展除外）。
 >     * **入場方式**：入館前至**售票窗口（券売窓口）**向工作人員**出示護照（確認年齡滿 65 歲）**，即可直接領取「免費常設展入場券（無料観覧券）」，憑券驗票進場。
@@ -343,7 +343,7 @@
 
 #### **09:20－11:20 🏛️ 參觀東京國立博物館本館常設展**
 
-> * 目標地點：[**東京國立博物館 (東京国立博物館)**](https://www.google.com/maps/search/?api=1&query=35.719056,139.77667&query_place_id=ChIJV-u30l2OGGAR55t616_o1sA)
+> * 目標地點：[**東京國立博物館 (東京国立博物館)**](https://www.google.com/maps/search/?api=1&query=35.7188351,139.7765215&query_place_id=ChIJEX3XFIOOGGAR3XdJvRjWLyM)
 > * 🚶‍♂️ **雨天動線**：由御徒町站/松坂屋步行前往上野恩賜公園北側的東京國立博物館（日本歷史最悠久、規模最大的博物館）。
 > * 💡 **長輩專屬優惠與免費入場方式**：
 >   * **官方規定**：**滿 70 歲以上長者參觀「綜合文化展（本館常設展）」完全免費**（一般成人票價 ¥1,000；特別展除外）。
@@ -364,7 +364,7 @@
 
 #### **13:00－15:30 🏛️ 參觀國立西洋美術館室內常設展**
 
-> * 目標地點：[**國立西洋美術館 (国立西洋美術館)**](https://www.google.com/maps/search/?api=1&query=35.7153869,139.7758145&query_place_id=ChIJl1155pyOGGAR23aZpC-Y27A)
+> * 目標地點：[**國立西洋美術館 (国立西洋美術館)**](https://www.google.com/maps/search/?api=1&query=35.7153869,139.7758138&query_place_id=ChIJf8xB-pyOGGARizzhlNTcI7s)
 > * 💡 **長輩專屬優惠與免費入場方式**：
 >   * **官方規定**：**滿 65 歲以上長者參觀常設展「完全免費」**。
 >   * **入場方式**：入館前至**售票窗口（券売窓口）**向工作人員**出示護照（確認年齡滿 65 歲）**領取免費入場券進場。
@@ -643,12 +643,12 @@
 
 ### **15:25－15:50 🚶‍♂️ 前往御徒町商圈**
 
-> * 目標地點：[**鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)**](https://www.google.com/maps/search/?api=1&query=35.7083768,139.7744318&query_place_id=ChIJS2pQn5SOGGARIvO8fG048X0)
+> * 目標地點：[**鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)**](https://www.google.com/maps/search/?api=1&query=35.7085706,139.7751029&query_place_id=ChIJUYJXm5-OGGARRojVXUTMd9Y)
 > * 🚶‍♂️ **步行避暑動線**：從科博館步行至御徒町約 1.1 公里（家庭步速約 20～25 分鐘），建議穿過上野站走中央通騎樓或阿美橫丁商店街遮蔭處。
 
 ### **15:50－16:40 🍜 享用鴨 to 蔥拉麵**
 
-> * 規則： 排隊 ≤ 3 組就吃 [**鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)**](https://www.google.com/maps/search/?api=1&query=35.7083768,139.7744318&query_place_id=ChIJS2pQn5SOGGARIvO8fG048X0) 享用鴨肉拉麵（推薦：鴨蔥醬油拉麵、親子丼），人均約 ¥1,000～¥1,500，超過 3 組直接放棄，前往阿美橫丁 (アメ横)。
+> * 規則： 排隊 ≤ 3 組就吃 [**鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)**](https://www.google.com/maps/search/?api=1&query=35.7085706,139.7751029&query_place_id=ChIJUYJXm5-OGGARRojVXUTMd9Y) 享用鴨肉拉麵（推薦：鴨蔥醬油拉麵、親子丼），人均約 ¥1,000～¥1,500，超過 3 組直接放棄，前往阿美橫丁 (アメ横)。
 > * 💡 **點餐祕訣**：先於門口自動食券機買票 ➔ 入座後店員會拿出一塊「當月 3 種蔥」牌子問「3選2」，直接用手指號碼（例如：1 和 3）即可！
 > * 若順利吃到，可在返程回飯店前，在阿美橫丁購買小吃回飯店吃，以免晚上肚子餓。例如：🍗 炸雞、🍢 烤雞串、牛串、🥟 煎餃或燒賣、🍤 炸海鮮
 
@@ -671,7 +671,7 @@
 
 ### **19:00 🚆 前往御徒町站搭車**
 
-> * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7845347&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F88)
+> * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA)
 > * 🚶‍♂️ **移動與乘車動線**：
 >   * 從阿美橫丁/多慶屋步行 2 分鐘至 [**JR 御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04**） 北口進站（站內設有手扶梯）。
 >   * 於 [**JR 御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04**） 搭乘 **🟢 JR 山手線（JY）** 或 **🔵 JR 京濱東北線（JK）** 往 **東京（Tokyo／JY01）／品川 方向**，搭乘 **1 站** 至 秋葉原站（JY03）（車程約 2 分鐘，下一站即為秋葉原）。
@@ -763,7 +763,7 @@
 
 ### **18:30－19:20 🚆 返回淺草橋**
 
-> * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7845347&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F88)
+> * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA)
 > * 🚆 **首選推薦（平行轉乘快速方案，約 28 分鐘）**：
 >   * 於 [**JR 吉祥寺站 (吉祥寺駅)**](https://www.google.com/maps/search/?api=1&query=35.7031125,139.5797825&query_place_id=ChIJe0e8kkfuGGARvH2cE14g_0I)（**JC11**） 搭乘 **🟠 JR 中央線快速（JC）** 往 **東京（Tokyo／JC01） 方向**，搭乘 **5 站**（快速停靠：荻窪、中野、新宿、四谷、御茶之水）至 御茶之水站（JC03）（車程約 21 分鐘）。
 >   * 於 **御茶之水站（JB18）** **不用出站**，於同月台對面直接平行轉乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **2 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）（車程約 4 分鐘）。由 東口 出站步行約 2 分鐘回飯店。
@@ -868,12 +868,12 @@
 
 #### **17:45 🚶‍♂️ 前往東京都廳**
 
-> * 17:45 離開餐廳 ➔ 走向 [**新宿西口地下通路 (新宿副都心4号街路地下道)**](https://www.google.com/maps/search/?api=1&query=35.690800,139.696500)（從地面入口下階梯進入全空調地下通道與電動步道），沿通道直行約 6～8 分鐘直達 [**東京都廳 (東京都庁)**](https://www.google.com/maps/search/?api=1&query=35.6894807,139.6917502&query_place_id=ChIJ60m9202LGGAR79K37s2o_a8)。  
+> * 17:45 離開餐廳 ➔ 走向 [**新宿西口地下通路 (新宿副都心4号街路地下道)**](https://www.google.com/maps/search/?api=1&query=35.690800,139.696500)（從地面入口下階梯進入全空調地下通道與電動步道），沿通道直行約 6～8 分鐘直達 [**東京都廳 (東京都庁)**](https://www.google.com/maps/search/?api=1&query=35.6894807,139.6916863&query_place_id=ChIJoTcat9SMGGAR6GGG8zdcZvE)。  
 > * 💡 **從地面進入地下道指引**：由西口商圈餐廳出來後，順著中央通前進即可看見「新宿副都心地下通路 (往東京都廳)」地面入口階梯，走下 B1 即進入全冷氣自動步道，全程免曬太陽直達東京都廳 B1 基地。
 
 #### **18:00－19:15 🌇 欣賞東京都廳南展望室夜景**
 
-> * 目標地點：[**東京都廳南展望室 (東京都庁 南展望室)**](https://www.google.com/maps/search/?api=1&query=35.6894807,139.6917502&query_place_id=ChIJ60m9202LGGAR79K37s2o_a8) (第一本廳舍 45F)
+> * 目標地點：[**東京都廳南展望室 (東京都庁 南展望室)**](https://www.google.com/maps/search/?api=1&query=35.6894807,139.6916863&query_place_id=ChIJoTcat9SMGGAR6GGG8zdcZvE) (第一本廳舍 45F)
 > * 搭乘專用直達高速電梯直達 45 樓（免費入場），俯瞰全東京夜景。
 
 #### **19:20－19:45 🚆 返回淺草橋**
@@ -918,7 +918,7 @@
 
 #### **09:15－10:00 🚇 前往台場（日本科學未來館）**
 
-> * 目標地點：[**日本科學未來館 (日本科学未来館)**](https://www.google.com/maps/search/?api=1&query=35.6193358,139.7764353&query_place_id=ChIJt28B1s6LGGAR6G_j4s9F9y0)
+> * 目標地點：[**日本科學未來館 (日本科学未来館)**](https://www.google.com/maps/search/?api=1&query=35.6193359,139.7763995&query_place_id=ChIJz_149P6JGGARoImMn3NlsfY)
 > * 從飯店步行約 2 分鐘至 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（走 A1 出口進站）。
 > * 於 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**） 1 號月台搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **6 站** 直達 [**新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJq0X3kZaLGGARF0k9yTjYI-8)（**A10**）（車程約 7 分鐘）。
 > * 於 **新橋站（A10）** 跟隨 **「ゆりかもめ（百合海鷗線）」** 指標經地下全空調通道轉乘至 **百合海鷗線 新橋站（U01）**（步行約 3 分鐘）。
@@ -927,7 +927,7 @@
 
 #### **10:00－12:00 🤖 參觀日本科學未來館**
 
-> * 目標地點：[**日本科學未來館 (日本科学未来館)**](https://www.google.com/maps/search/?api=1&query=35.6193358,139.7764353&query_place_id=ChIJt28B1s6LGGAR6G_j4s9F9y0)
+> * 目標地點：[**日本科學未來館 (日本科学未来館)**](https://www.google.com/maps/search/?api=1&query=35.6193359,139.7763995&query_place_id=ChIJz_149P6JGGARoImMn3NlsfY)
 > * ☀️ **雨天避雨優勢**：全館為國家級超大型全室內科技館，冷氣涼爽、空間開闊、長椅極多。
 > * 🎟️ **購票策略指引**：
 >   * **最佳做法**：**官方線上購票或現場售票機購票**。
@@ -951,13 +951,13 @@
 
 #### **13:30－14:45 🤖🛍️ 欣賞獨角獸鋼彈與商場逛街**
 
-> * 目標地點：[**實物大獨角獸鋼彈立像 (実物大ユニコーンガンダム立像)**](https://www.google.com/maps/search/?api=1&query=35.6243889,139.7754444&query_place_id=ChIJi1a39b2LGGAR7_G4P3j64Ew)
+> * 目標地點：[**實物大獨角獸鋼彈立像 (実物大ユニコーンガンダム立像)**](https://www.google.com/maps/search/?api=1&query=35.624451,139.7754917&query_place_id=ChIJF6xTyvmJGGARU8t5NIqkNeI)
 > * 🤖 **鋼彈立像觀賞**：於商場節點欣賞實物大獨角獸鋼彈立像（雨天可在 2F 階梯遮雨棚處近距離合影，13:00 / 15:00 有整點變形演出）。
 > * 🛍️ **商場散策**：逛 7F THE GUNDAM BASE TOKYO（鋼彈模型旗艦店）、Uniqlo、BicCamera、各式日系生活雜貨與伴手禮專賣店，長輩可在商場咖啡廳休息。
 
 #### **14:45－17:00 🔍 參觀東京迷你世界博物館（微縮世界展）**
 
-> * 目標地點：[**東京迷你世界博物館 (ミニチュアミュージアム スモールワールズ)**](https://www.google.com/maps/search/?api=1&query=35.6379228,139.7909305&query_place_id=ChIJZRKFm-eJGGAR6KL5MGY7U14)
+> * 目標地點：[**東京迷你世界博物館 (ミニチュアミュージアム スモールワールズ)**](https://www.google.com/maps/search/?api=1&query=35.6379228,139.7883556&query_place_id=ChIJZRKFm-eJGGARglEoaF4NcC8)
 > * 🎟️ **購票策略指引（搶優惠省錢）**：
 >   * **最佳做法**：**透過 Klook 購買特惠門票**。
 >   * **原因**：Klook 平台票價目前明顯低於官方現場原價（成人現場原價約 ¥3,200，平台常有顯著特惠）；但因多屬不可取消方案，**建議出發當天早晨確定啟動雨天備案後再於手機下單購買**。
@@ -983,7 +983,7 @@
 
 #### **18:30－19:15 🚆 返回淺草橋飯店**
 
-> * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7845347&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F88)
+> * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA)
 > * 從 DiverCity 走空橋通道步行約 5 分鐘至 [**百合海鷗線 台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.626111,139.771667&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**U07**）。
 > * 於 [**百合海鷗線 台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.626111,139.771667&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**U07**） 搭乘 **🟠 百合海鷗線（U）** 往 **新橋（Shimbashi／U01） 方向**，搭乘 **6 站** 至 [**新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJq0X3kZaLGGARF0k9yTjYI-8)（**U01**）（車程約 15 分鐘）。
 > * 於 **新橋站（A10）** 經地下通道轉乘 **🌹 都營淺草線（A）** 往 **押上（Oshiage／A20）／青砥 方向**，搭乘 **6 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程約 7 分鐘）。
@@ -1025,7 +1025,7 @@
 
 ### **10:00－10:15 🚇 返回淺草橋飯店**
 
-> * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7845347&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F88)
+> * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA)
 > * 於 [**都營 東銀座站 (東銀座駅)**](https://www.google.com/maps/search/?api=1&query=35.6697003,139.7672886&query_place_id=ChIJb328XZ-OGGAR5e4o-gq0F98)（**A11**） 搭乘 **🌹 都營淺草線（A）** 往 **押上（Oshiage／A20）／青砥 方向**，搭乘 **5 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程約 7 分鐘）。
 > * 由 **「A1 出口（直達地面無障礙電梯）」** 出站，回飯店領取行李。
 
