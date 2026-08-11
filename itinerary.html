@@ -3389,10 +3389,12 @@
     <div class="day-section" id="day5-section" style="display: none;">
       <div class="sub-toggle-wrapper">
         <div class="sub-toggle-container">
-          <button class="sub-toggle-btn active" id="day5-btn-planA" onclick="switchDay5Plan('A')">🌃 Plan A：新宿西口平價速食 × 都廳百萬夜景</button>
-          <button class="sub-toggle-btn" id="day5-btn-planB" onclick="switchDay5Plan('B')">🛍️ Plan B：晴空街道商場悠遊 × 3F美食街晚餐</button>
+          <button class="sub-toggle-btn active" id="day5-btn-planA" onclick="switchDay5Plan('A')">🌃 晴天 Plan A：新宿都廳夜景</button>
+          <button class="sub-toggle-btn" id="day5-btn-planB" onclick="switchDay5Plan('B')">🛍️ 晴天 Plan B：晴空街道晚餐</button>
+          <button class="sub-toggle-btn" id="day5-btn-rainy" onclick="switchDay5Plan('rainy')">☔ 雨天備案：台場 × 微縮世界</button>
         </div>
       </div>
+      <div class="day5-sunny-common">
       <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
@@ -3693,6 +3695,7 @@
           </div>
         </div>
       </div>
+      </div>
       <div class="day5-plan-A">
       <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
@@ -3746,15 +3749,17 @@
       </div>
       </div>
       <div class="day5-plan-B" style="display: none;">
+      </div>
+      <div class="day5-plan-rainy" style="display: none;">
       <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d5-pb0" onchange="toggleCheck('item-d5-pb0')">
+            <input type="checkbox" id="item-d5-rainy0" onchange="toggleCheck('item-d5-rainy0')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d5-pb0">
+        <div class="timeline-card" id="card-item-d5-rainy0">
           <div class="card-header">
             <span class="card-time"></span>
             <div class="card-tags">
@@ -3769,7 +3774,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">目標地點：<strong><strong><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E" target="_blank">東京晴空街道 (東京ソラマチ) 🔗</a></strong></strong><br>首選餐廳：<strong><strong>宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)</strong></strong> (東京ソラマチ 西館 3F 美食街 タベテラス) 享用讚岐烏龍麵（推薦：牛肉溫玉烏龍麵、炸蝦天婦羅、豆皮烏龍麵），人均約 ¥700～¥1,000。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-pb0')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-rainy0')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3783,6 +3788,279 @@
 <li>18:00 回飯店休息、打包整理行李。</li>
 </ul>
 </div>
+<ul class="modal-list">
+<li></li>
+</ul>
+<p><details></p>
+<p><summary>☔ 雨天備案：台場科技 × 微縮世界 × 室內購物（點擊展開）</summary></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item" data-category="food">
+        <div class="timeline-check">
+          <label class="check-wrapper" title="標記已完成">
+            <input type="checkbox" id="item-d5-rainy1" onchange="toggleCheck('item-d5-rainy1')">
+            <span class="checkmark"></span>
+          </label>
+          <div class="timeline-line"></div>
+        </div>
+        <div class="timeline-card" id="card-item-d5-rainy1">
+          <div class="card-header">
+            <span class="card-time">08:30－09:15</span>
+            <div class="card-tags">
+              <span class="tag tag-food">🍜 美食</span>
+            </div>
+          </div>
+          <h3 class="card-title">
+            <span>早餐</span>
+            
+          </h3>
+          <div class="card-body">
+            <p class="card-summary">起床梳洗吃早餐，準備 09:15 出發。</p>
+            
+            <div class="original-content-holder" style="display: none;">
+              <p>起床梳洗吃早餐，準備 09:15 出發。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item" data-category="transport">
+        <div class="timeline-check">
+          <label class="check-wrapper" title="標記已完成">
+            <input type="checkbox" id="item-d5-rainy2" onchange="toggleCheck('item-d5-rainy2')">
+            <span class="checkmark"></span>
+          </label>
+          <div class="timeline-line"></div>
+        </div>
+        <div class="timeline-card" id="card-item-d5-rainy2">
+          <div class="card-header">
+            <span class="card-time">09:15－10:00</span>
+            <div class="card-tags">
+              <span class="tag tag-transport">🚆 交通</span>
+            </div>
+          </div>
+          <h3 class="card-title">
+            <span>前往台場（日本科學未來館）</span>
+            <div class="card-actions">
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=35.6193358,139.7764353&query_place_id=ChIJt28B1s6LGGAR6G_j4s9F9y0" target="_blank" title="開啟 Google Maps 導航（此時段第一個目的地）">📍 導航</a>
+            </div>
+          </h3>
+          <div class="card-body">
+            <p class="card-summary">目標地點：<strong><strong>日本科學未來館 (日本科学未来館)</strong></strong></p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-rainy2')">📖 完整說明與祕訣</button>
+            <div class="original-content-holder" style="display: none;">
+              <div class="modal-quote">
+<ul class="modal-list">
+<li>目標地點：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6193358,139.7764353&query_place_id=ChIJt28B1s6LGGAR6G_j4s9F9y0" target="_blank"><strong>日本科學未來館 (日本科学未来館)</strong> 🔗</a></li>
+<li>從飯店步行約 2 分鐘至 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg" target="_blank"><strong>都營 淺草橋站 (浅草橋駅)</strong> 🔗</a>（<strong>A16</strong>）（走 A1 出口進站）。</li>
+<li>於 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg" target="_blank"><strong>都營 淺草橋站 (浅草橋駅)</strong> 🔗</a>（<strong>A16</strong>） 1 號月台搭乘 <strong>🌹 都營淺草線（A）</strong> 往 <strong>西馬込（Nishi-magome／A01）／羽田空港 方向</strong>，搭乘 <strong>4 站</strong> 直達 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJq0X3kZaLGGARF0k9yTjYI-8" target="_blank"><strong>新橋站 (新橋駅)</strong> 🔗</a>（<strong>A10</strong>）（車程約 7 分鐘）。</li>
+<li>於 <strong>新橋站（A10）</strong> 跟隨 <strong>「ゆりかもめ（百合海鷗線）」</strong> 指標經地下全空調通道轉乘至 <strong>百合海鷗線 新橋站（U01）</strong>（步行約 3 分鐘）。</li>
+<li>於 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJq0X3kZaLGGARF0k9yTjYI-8" target="_blank"><strong>百合海鷗線 新橋站 (新橋駅)</strong> 🔗</a>（<strong>U01</strong>） 搭乘 <strong>🟠 百合海鷗線（U）</strong> 往 <strong>豐洲（Toyosu／U16） 方向</strong>，搭乘 <strong>7 站</strong> 至 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.621213,139.772592&query_place_id=ChIJc1979puNGGARR5_P_y3m5uE" target="_blank"><strong>東京國際郵輪碼頭站 (東京国際クルーズターミナル駅)</strong> 🔗</a>（<strong>U08</strong>）（車程約 16 分鐘）。</li>
+<li>由 <strong>1 號出口（東口）</strong> 出站，沿平緩景觀步道步行約 5 分鐘（約 400 公尺）直達日本科學未來館大門。</li>
+</ul>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item" data-category="attraction">
+        <div class="timeline-check">
+          <label class="check-wrapper" title="標記已完成">
+            <input type="checkbox" id="item-d5-rainy3" onchange="toggleCheck('item-d5-rainy3')">
+            <span class="checkmark"></span>
+          </label>
+          <div class="timeline-line"></div>
+        </div>
+        <div class="timeline-card" id="card-item-d5-rainy3">
+          <div class="card-header">
+            <span class="card-time">10:00－12:00</span>
+            <div class="card-tags">
+              <span class="tag tag-attraction">⛩️ 景點</span>
+            </div>
+          </div>
+          <h3 class="card-title">
+            <span>🤖 參觀日本科學未來館</span>
+            <div class="card-actions">
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=35.6193358,139.7764353&query_place_id=ChIJt28B1s6LGGAR6G_j4s9F9y0" target="_blank" title="開啟 Google Maps 導航（此時段第一個目的地）">📍 導航</a>
+            </div>
+          </h3>
+          <div class="card-body">
+            <p class="card-summary">目標地點：<strong><strong>日本科學未來館 (日本科学未来館)</strong></strong></p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-rainy3')">📖 完整說明與祕訣</button>
+            <div class="original-content-holder" style="display: none;">
+              <div class="modal-quote">
+<ul class="modal-list">
+<li>目標地點：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6193358,139.7764353&query_place_id=ChIJt28B1s6LGGAR6G_j4s9F9y0" target="_blank"><strong>日本科學未來館 (日本科学未来館)</strong> 🔗</a></li>
+<li>☀️ <strong>雨天避雨優勢</strong>：全館為國家級超大型全室內科技館，冷氣涼爽、空間開闊、長椅極多。</li>
+<li><strong>參觀亮點</strong>：</li>
+<li><strong>Geo-Cosmos 巨大動態地球儀</strong>：懸掛於 6 樓挑高中庭，即時投影全球氣象與發光地球，躺在 1F 圓形躺椅上仰望極為震撼。</li>
+<li><strong>AI 與機器人常設展</strong>：近距離觀賞最新人型機器人互動演示、未來生活與醫療科技體驗。</li>
+<li><strong>探索宇宙與地球環境</strong>：從國際太空站 ISS 生活模型到微觀粒子世界，小孩可親手觸摸操作多項互動實驗裝置。</li>
+</ul>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item" data-category="food">
+        <div class="timeline-check">
+          <label class="check-wrapper" title="標記已完成">
+            <input type="checkbox" id="item-d5-rainy4" onchange="toggleCheck('item-d5-rainy4')">
+            <span class="checkmark"></span>
+          </label>
+          <div class="timeline-line"></div>
+        </div>
+        <div class="timeline-card" id="card-item-d5-rainy4">
+          <div class="card-header">
+            <span class="card-time">12:00－14:45</span>
+            <div class="card-tags">
+              <span class="tag tag-food">🍜 美食</span>
+            </div>
+          </div>
+          <h3 class="card-title">
+            <span>DiverCity Tokyo Plaza 午餐、鋼彈與室內逛街</span>
+            <div class="card-actions">
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew" target="_blank" title="開啟 Google Maps 導航（此時段第一個目的地）">📍 導航</a>
+            </div>
+          </h3>
+          <div class="card-body">
+            <p class="card-summary">目標地點：<strong><strong>DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)</strong></strong><br>首選餐廳：<strong><strong>信州蕎麥處 そじ坊 (そじ坊 ダイバーシティ東京プラザ店)</strong></strong> (6F 餐廳街) 享用手打蕎麥麵（推薦：生芥末自磨手打蕎麥麵、炸天婦羅蕎麥麵套餐、鴨肉沾汁蕎麥麵），人均約 ¥900～¥1,500。</p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-rainy4')">📖 完整說明與祕訣</button>
+            <div class="original-content-holder" style="display: none;">
+              <div class="modal-quote">
+<ul class="modal-list">
+<li>目標地點：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew" target="_blank"><strong>DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)</strong> 🔗</a></li>
+<li>🚶‍♂️ <strong>移動動線</strong>：從未來館沿著有明/台場空橋步道慢步約 9 分鐘（約 700 公尺），直接進入 DiverCity Tokyo Plaza 2F/3F 商場。</li>
+<li>🍽️ <strong>午餐享用</strong>：</li>
+<li>首選餐廳：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew" target="_blank"><strong>信州蕎麥處 そじ坊 (そじ坊 ダイバーシティ東京プラザ店)</strong> 🔗</a> (6F 餐廳街) 享用手打蕎麥麵（推薦：生芥末自磨手打蕎麥麵、炸天婦羅蕎麥麵套餐、鴨肉沾汁蕎麥麵），人均約 ¥900～¥1,500。</li>
+<li>備案餐廳 1：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew" target="_blank"><strong>田中蕎麥麵店 (田中そば店 ダイバーシティ東京プラザ店)</strong> 🔗</a> (2F 東京美食廣場) 享用喜多方風味拉麵（推薦：特製中華拉麵、山形辣味噌拉麵、特製叉燒飯），人均約 ¥900～¥1,400。</li>
+<li>備案餐廳 2：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew" target="_blank"><strong>かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)</strong> 🔗</a> (2F 東京美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。</li>
+<li>🤖🛍️ <strong>室內逛街與獨角獸鋼彈</strong>：</li>
+<li>於商場節點欣賞 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6243889,139.7754444&query_place_id=ChIJi1a39b2LGGAR7_G4P3j64Ew" target="_blank"><strong>實物大獨角獸鋼彈立像 (実物大ユニコーンガンダム立像)</strong> 🔗</a>（雨天可在 2F 階梯遮雨棚處近距離合影，13:00 / 15:00 有整點變形演出）。</li>
+<li>逛 7F THE GUNDAM BASE TOKYO（鋼彈模型旗艦店）、Uniqlo、BicCamera、各式日系生活雜貨與伴手禮專賣店，長輩可在商場咖啡廳休息。</li>
+</ul>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item" data-category="attraction">
+        <div class="timeline-check">
+          <label class="check-wrapper" title="標記已完成">
+            <input type="checkbox" id="item-d5-rainy5" onchange="toggleCheck('item-d5-rainy5')">
+            <span class="checkmark"></span>
+          </label>
+          <div class="timeline-line"></div>
+        </div>
+        <div class="timeline-card" id="card-item-d5-rainy5">
+          <div class="card-header">
+            <span class="card-time">14:45－17:00</span>
+            <div class="card-tags">
+              <span class="tag tag-attraction">⛩️ 景點</span>
+            </div>
+          </div>
+          <h3 class="card-title">
+            <span>🔍 參觀東京迷你世界博物館（微縮世界展）</span>
+            <div class="card-actions">
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=35.6379228,139.7909305&query_place_id=ChIJZRKFm-eJGGAR6KL5MGY7U14" target="_blank" title="開啟 Google Maps 導航（此時段第一個目的地）">📍 導航</a>
+            </div>
+          </h3>
+          <div class="card-body">
+            <p class="card-summary">目標地點：<strong><strong>東京迷你世界博物館 (ミニチュアミュージアム スモールワールズ)</strong></strong></p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-rainy5')">📖 完整說明與祕訣</button>
+            <div class="original-content-holder" style="display: none;">
+              <div class="modal-quote">
+<ul class="modal-list">
+<li>目標地點：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6379228,139.7909305&query_place_id=ChIJZRKFm-eJGGAR6KL5MGY7U14" target="_blank"><strong>東京迷你世界博物館 (ミニチュアミュージアム スモールワールズ)</strong> 🔗</a></li>
+<li>🚇 <strong>最順移動動線（搭臨海線直達 1 站，免淋雨走遠路）</strong>：</li>
+<li>從 DiverCity 步行約 3 分鐘進入 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.628889,139.777222&query_place_id=ChIJyXG_6pyOGGAR2u4o-gq0F98" target="_blank"><strong>臨海線 東京電訊港站 (東京テレポート駅)</strong> 🔗</a>（<strong>R04</strong>）。</li>
+<li>搭乘 <strong>🟣 臨海線（R）</strong> 往 <strong>新木場（Shin-kiba／R01） 方向</strong> 列車，搭乘 <strong>1 站</strong> 直達 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.634444,139.7925&query_place_id=ChIJ317-57btGGARX-0r5Zf3774" target="_blank"><strong>國際展示場站 (国際展示場駅)</strong> 🔗</a>（<strong>R03</strong>）（車程僅約 3 分鐘）。</li>
+<li>出站後步行約 8～9 分鐘即達有明物流中心內的「SMALL WORLDS」。</li>
+<li><strong>參觀亮點</strong>：</li>
+<li>亞洲最大規模 1:80 全室內動態微縮模型樂園（全館室內完全不受風雨影響）。</li>
+<li><strong>太空中心展區</strong>：真實倒數發射之阿波羅火箭升空震撼噴煙聲光秀。</li>
+<li><strong>世界小鎮與動漫場景</strong>：穿梭於蒸氣龐克奇幻小鎮、美少女戰士麻布十番街景與新世紀福音戰士第 3 新東京市地下格納庫，精緻度破表！</li>
+</ul>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item" data-category="food">
+        <div class="timeline-check">
+          <label class="check-wrapper" title="標記已完成">
+            <input type="checkbox" id="item-d5-rainy6" onchange="toggleCheck('item-d5-rainy6')">
+            <span class="checkmark"></span>
+          </label>
+          <div class="timeline-line"></div>
+        </div>
+        <div class="timeline-card" id="card-item-d5-rainy6">
+          <div class="card-header">
+            <span class="card-time">17:00－18:15</span>
+            <div class="card-tags">
+              <span class="tag tag-food">🍜 美食</span>
+            </div>
+          </div>
+          <h3 class="card-title">
+            <span>晚餐：月島文字燒 くうや / かつゑもん</span>
+            <div class="card-actions">
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew" target="_blank" title="開啟 Google Maps 導航（此時段第一個目的地）">📍 導航</a>
+            </div>
+          </h3>
+          <div class="card-body">
+            <p class="card-summary">目標地點：<strong><strong>DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)</strong></strong><br>首選餐廳：<strong><strong>月島文字燒 くうや (月島もんじゃ くうや ダイバーシティ東京プラザ店)</strong></strong> (6F 餐廳街) 享用築地直送海鮮與桌邊現場代煎文字燒（推薦：明太子麻糬起司文字燒、特選海鮮文字燒、極品牛筋大阪燒），人均約 ¥1,500～¥2,500。</p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-rainy6')">📖 完整說明與祕訣</button>
+            <div class="original-content-holder" style="display: none;">
+              <div class="modal-quote">
+<ul class="modal-list">
+<li>目標地點：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew" target="_blank"><strong>DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)</strong> 🔗</a></li>
+<li>🚇 <strong>返回 DiverCity 交通</strong>：從 SMALL WORLDS 步行約 3 分鐘至 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.640833,139.791667&query_place_id=ChIJe0e8kkfuGGARvH2cE14g_0I" target="_blank"><strong>百合海鷗線 有明網球之森站 (有明テニスの森駅)</strong> 🔗</a>（<strong>U13</strong>），搭乘 <strong>🟠 百合海鷗線（U）</strong> 往 <strong>新橋（Shimbashi／U01） 方向</strong>，搭乘 <strong>6 站</strong> 至 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.626111,139.771667&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE" target="_blank"><strong>台場站 (台場駅)</strong> 🔗</a>（<strong>U07</strong>）（車程約 11 分鐘），走 2F 遮雨空橋 5 分鐘抵達 DiverCity 6F/2F 餐廳。</li>
+<li>🍽️ <strong>晚餐享用</strong>：</li>
+<li>首選餐廳：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew" target="_blank"><strong>月島文字燒 くうや (月島もんじゃ くうや ダイバーシティ東京プラザ店)</strong> 🔗</a> (6F 餐廳街) 享用築地直送海鮮與桌邊現場代煎文字燒（推薦：明太子麻糬起司文字燒、特選海鮮文字燒、極品牛筋大阪燒），人均約 ¥1,500～¥2,500。</li>
+<li>備案餐廳 1：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew" target="_blank"><strong>かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)</strong> 🔗</a> (2F 美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。</li>
+</ul>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item" data-category="transport">
+        <div class="timeline-check">
+          <label class="check-wrapper" title="標記已完成">
+            <input type="checkbox" id="item-d5-rainy7" onchange="toggleCheck('item-d5-rainy7')">
+            <span class="checkmark"></span>
+          </label>
+          <div class="timeline-line"></div>
+        </div>
+        <div class="timeline-card" id="card-item-d5-rainy7">
+          <div class="card-header">
+            <span class="card-time">18:15－19:00</span>
+            <div class="card-tags">
+              <span class="tag tag-transport">🚆 交通</span>
+            </div>
+          </div>
+          <h3 class="card-title">
+            <span>🚆 返回淺草橋飯店</span>
+            <div class="card-actions">
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA" target="_blank" title="開啟 Google Maps 導航（此時段第一個目的地）">📍 導航</a>
+            </div>
+          </h3>
+          <div class="card-body">
+            <p class="card-summary">目標地點：<strong><strong><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA" target="_blank">海茵娜酒店东京浅草桥 🔗</a> (変なホテル東京 浅草橋)</strong></strong></p>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-rainy7')">📖 完整說明與祕訣</button>
+            <div class="original-content-holder" style="display: none;">
+              <div class="modal-quote">
+<ul class="modal-list">
+<li>目標地點：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA" target="_blank"><strong>海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)</strong> 🔗</a></li>
+<li>從 DiverCity 走空橋通道步行約 5 分鐘至 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.626111,139.771667&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE" target="_blank"><strong>百合海鷗線 台場站 (台場駅)</strong> 🔗</a>（<strong>U07</strong>）。</li>
+<li>於 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.626111,139.771667&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE" target="_blank"><strong>百合海鷗線 台場站 (台場駅)</strong> 🔗</a>（<strong>U07</strong>） 搭乘 <strong>🟠 百合海鷗線（U）</strong> 往 <strong>新橋（Shimbashi／U01） 方向</strong>，搭乘 <strong>6 站</strong> 至 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJq0X3kZaLGGARF0k9yTjYI-8" target="_blank"><strong>新橋站 (新橋駅)</strong> 🔗</a>（<strong>U01</strong>）（車程約 15 分鐘）。</li>
+<li>於 <strong>新橋站（A10）</strong> 經地下通道轉乘 <strong>🌹 都營淺草線（A）</strong> 往 <strong>押上（Oshiage／A20）／青砥 方向</strong>，搭乘 <strong>4 站</strong> 直達 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg" target="_blank"><strong>淺草橋站 (浅草橋駅)</strong> 🔗</a>（<strong>A16</strong>）（車程約 7 分鐘）。</li>
+<li>由 <strong>「A1 出口（直達地面無障礙電梯）」</strong> 出站，步行約 2 分鐘返抵<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA" target="_blank">海茵娜酒店 🔗</a>。</li>
+<li>19:00 回飯店洗澡休息、打包整理大件行李與最後秤重整備。</li>
+</ul>
+</div>
+<p></details></p>
 <ul class="modal-list">
 <li></li>
 </ul>
@@ -4244,10 +4522,32 @@
 
     function switchDay5Plan(plan) {
       const isPlanA = plan === 'A';
+      const isPlanB = plan === 'B';
+      const isRainy = plan === 'rainy';
+      
       document.getElementById('day5-btn-planA').classList.toggle('active', isPlanA);
-      document.getElementById('day5-btn-planB').classList.toggle('active', !isPlanA);
-      document.querySelector('.day5-plan-A').style.display = isPlanA ? 'block' : 'none';
-      document.querySelector('.day5-plan-B').style.display = isPlanA ? 'none' : 'block';
+      document.getElementById('day5-btn-planB').classList.toggle('active', isPlanB);
+      document.getElementById('day5-btn-rainy').classList.toggle('active', isRainy);
+      
+      const commonElem = document.querySelector('.day5-sunny-common');
+      if (commonElem) {
+        commonElem.style.display = isRainy ? 'none' : 'block';
+      }
+      
+      const planAElem = document.querySelector('.day5-plan-A');
+      if (planAElem) {
+        planAElem.style.display = isPlanA ? 'block' : 'none';
+      }
+      
+      const planBElem = document.querySelector('.day5-plan-B');
+      if (planBElem) {
+        planBElem.style.display = isPlanB ? 'block' : 'none';
+      }
+      
+      const rainyElem = document.querySelector('.day5-plan-rainy');
+      if (rainyElem) {
+        rainyElem.style.display = isRainy ? 'block' : 'none';
+      }
     }
 
     function toggleCheck(id) {

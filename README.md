@@ -38,7 +38,7 @@
 | Day 2  (親子組) | 東京迪士尼樂園 | \- |
 | Day 3 | 東京車站一番街、KITTE花園、國立科學博物館、阿美橫丁 | 多慶屋 (備案) |
 | Day 4 | 三鷹之森吉卜力美術館、井之頭恩賜公園、吉祥寺商店街 (Loft/無印/大創/SATOU) | 哈莫尼卡橫丁 (Option)、Linde德國麵包 |
-| Day 5 | 淺草寺、東京晴空塔、墨田水族館、[Plan A] 東京都廳夜景 | [Option] 晴空街道散策(Loft/寶可夢)與30/31F景觀、[Plan B] 晴空街道美食街晚餐 |
+| Day 5 | ☀️晴天: 淺草寺/晴空塔/墨田水族館/[Plan A]都廳夜景/[Plan B]晴空街道 | ☔雨天備案: 日本科學未來館、DiverCity、SMALL WORLDS迷你世界 |
 | Day 6 | 築地場外市場、羽田機場出境免稅店 | 羽田機場輕食與採買 |
 
 ### **2\. 全程餐點概覽**
@@ -855,6 +855,76 @@
 >   * 備案餐廳 2：[**松屋 (松屋 押上店)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8142155&query_place_id=ChIJmeev5CmPGGARBOtl8Si0G2o) (押上站 A1 出口) 享用平價日式定食與牛丼（推薦：牛燒肉定食、蔥蛋牛丼、原創咖哩飯），人均約 ¥500～¥800。  
 > * 17:40 🚇 返程：於 [**都營 押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)（**A20**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **3 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程僅約 6 分鐘）。由 A1 出口 出站步行回飯店休息。  
 > * 18:00 回飯店休息、打包整理行李。
+
+---
+
+<details>
+<summary>☔ 雨天備案：台場科技 × 微縮世界 × 室內購物（點擊展開）</summary>
+
+### **08:30－09:15 🍳 早餐**
+
+起床梳洗吃早餐，準備 09:15 出發。
+
+### **09:15－10:00 🚇 前往台場（日本科學未來館）**
+
+> * 目標地點：[**日本科學未來館 (日本科学未来館)**](https://www.google.com/maps/search/?api=1&query=35.6193358,139.7764353&query_place_id=ChIJt28B1s6LGGAR6G_j4s9F9y0)
+> * 從飯店步行約 2 分鐘至 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（走 A1 出口進站）。
+> * 於 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**） 1 號月台搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **4 站** 直達 [**新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJq0X3kZaLGGARF0k9yTjYI-8)（**A10**）（車程約 7 分鐘）。
+> * 於 **新橋站（A10）** 跟隨 **「ゆりかもめ（百合海鷗線）」** 指標經地下全空調通道轉乘至 **百合海鷗線 新橋站（U01）**（步行約 3 分鐘）。
+> * 於 [**百合海鷗線 新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJq0X3kZaLGGARF0k9yTjYI-8)（**U01**） 搭乘 **🟠 百合海鷗線（U）** 往 **豐洲（Toyosu／U16） 方向**，搭乘 **7 站** 至 [**東京國際郵輪碼頭站 (東京国際クルーズターミナル駅)**](https://www.google.com/maps/search/?api=1&query=35.621213,139.772592&query_place_id=ChIJc1979puNGGARR5_P_y3m5uE)（**U08**）（車程約 16 分鐘）。
+> * 由 **1 號出口（東口）** 出站，沿平緩景觀步道步行約 5 分鐘（約 400 公尺）直達日本科學未來館大門。
+
+### **10:00－12:00 🤖 參觀日本科學未來館**
+
+> * 目標地點：[**日本科學未來館 (日本科学未来館)**](https://www.google.com/maps/search/?api=1&query=35.6193358,139.7764353&query_place_id=ChIJt28B1s6LGGAR6G_j4s9F9y0)
+> * ☀️ **雨天避雨優勢**：全館為國家級超大型全室內科技館，冷氣涼爽、空間開闊、長椅極多。
+> * **參觀亮點**：
+>   * **Geo-Cosmos 巨大動態地球儀**：懸掛於 6 樓挑高中庭，即時投影全球氣象與發光地球，躺在 1F 圓形躺椅上仰望極為震撼。
+>   * **AI 與機器人常設展**：近距離觀賞最新人型機器人互動演示、未來生活與醫療科技體驗。
+>   * **探索宇宙與地球環境**：從國際太空站 ISS 生活模型到微觀粒子世界，小孩可親手觸摸操作多項互動實驗裝置。
+
+### **12:00－14:45 🍽️🛍️ DiverCity Tokyo Plaza 午餐、鋼彈與室內逛街**
+
+> * 目標地點：[**DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew)
+> * 🚶‍♂️ **移動動線**：從未來館沿著有明/台場空橋步道慢步約 9 分鐘（約 700 公尺），直接進入 DiverCity Tokyo Plaza 2F/3F 商場。
+> * 🍽️ **午餐享用**：
+>   * 首選餐廳：[**信州蕎麥處 そじ坊 (そじ坊 ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (6F 餐廳街) 享用手打蕎麥麵（推薦：生芥末自磨手打蕎麥麵、炸天婦羅蕎麥麵套餐、鴨肉沾汁蕎麥麵），人均約 ¥900～¥1,500。
+>   * 備案餐廳 1：[**田中蕎麥麵店 (田中そば店 ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (2F 東京美食廣場) 享用喜多方風味拉麵（推薦：特製中華拉麵、山形辣味噌拉麵、特製叉燒飯），人均約 ¥900～¥1,400。
+>   * 備案餐廳 2：[**かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (2F 東京美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。
+> * 🤖🛍️ **室內逛街與獨角獸鋼彈**：
+>   * 於商場節點欣賞 [**實物大獨角獸鋼彈立像 (実物大ユニコーンガンダム立像)**](https://www.google.com/maps/search/?api=1&query=35.6243889,139.7754444&query_place_id=ChIJi1a39b2LGGAR7_G4P3j64Ew)（雨天可在 2F 階梯遮雨棚處近距離合影，13:00 / 15:00 有整點變形演出）。
+>   * 逛 7F THE GUNDAM BASE TOKYO（鋼彈模型旗艦店）、Uniqlo、BicCamera、各式日系生活雜貨與伴手禮專賣店，長輩可在商場咖啡廳休息。
+
+### **14:45－17:00 🔍 參觀東京迷你世界博物館（微縮世界展）**
+
+> * 目標地點：[**東京迷你世界博物館 (ミニチュアミュージアム スモールワールズ)**](https://www.google.com/maps/search/?api=1&query=35.6379228,139.7909305&query_place_id=ChIJZRKFm-eJGGAR6KL5MGY7U14)
+> * 🚇 **最順移動動線（搭臨海線直達 1 站，免淋雨走遠路）**：
+>   * 從 DiverCity 步行約 3 分鐘進入 [**臨海線 東京電訊港站 (東京テレポート駅)**](https://www.google.com/maps/search/?api=1&query=35.628889,139.777222&query_place_id=ChIJyXG_6pyOGGAR2u4o-gq0F98)（**R04**）。
+>   * 搭乘 **🟣 臨海線（R）** 往 **新木場（Shin-kiba／R01） 方向** 列車，搭乘 **1 站** 直達 [**國際展示場站 (国際展示場駅)**](https://www.google.com/maps/search/?api=1&query=35.634444,139.7925&query_place_id=ChIJ317-57btGGARX-0r5Zf3774)（**R03**）（車程僅約 3 分鐘）。
+>   * 出站後步行約 8～9 分鐘即達有明物流中心內的「SMALL WORLDS」。
+> * **參觀亮點**：
+>   * 亞洲最大規模 1:80 全室內動態微縮模型樂園（全館室內完全不受風雨影響）。
+>   * **太空中心展區**：真實倒數發射之阿波羅火箭升空震撼噴煙聲光秀。
+>   * **世界小鎮與動漫場景**：穿梭於蒸氣龐克奇幻小鎮、美少女戰士麻布十番街景與新世紀福音戰士第 3 新東京市地下格納庫，精緻度破表！
+
+### **17:00－18:15 🍽️ 晚餐：月島文字燒 くうや / かつゑもん**
+
+> * 目標地點：[**DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew)
+> * 🚇 **返回 DiverCity 交通**：從 SMALL WORLDS 步行約 3 分鐘至 [**百合海鷗線 有明網球之森站 (有明テニスの森駅)**](https://www.google.com/maps/search/?api=1&query=35.640833,139.791667&query_place_id=ChIJe0e8kkfuGGARvH2cE14g_0I)（**U13**），搭乘 **🟠 百合海鷗線（U）** 往 **新橋（Shimbashi／U01） 方向**，搭乘 **6 站** 至 [**台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.626111,139.771667&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**U07**）（車程約 11 分鐘），走 2F 遮雨空橋 5 分鐘抵達 DiverCity 6F/2F 餐廳。
+> * 🍽️ **晚餐享用**：
+>   * 首選餐廳：[**月島文字燒 くうや (月島もんじゃ くうや ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (6F 餐廳街) 享用築地直送海鮮與桌邊現場代煎文字燒（推薦：明太子麻糬起司文字燒、特選海鮮文字燒、極品牛筋大阪燒），人均約 ¥1,500～¥2,500。
+>   * 備案餐廳 1：[**かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (2F 美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。
+
+### **18:15－19:00 🚆 返回淺草橋飯店**
+
+> * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7845347&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F88)
+> * 從 DiverCity 走空橋通道步行約 5 分鐘至 [**百合海鷗線 台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.626111,139.771667&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**U07**）。
+> * 於 [**百合海鷗線 台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.626111,139.771667&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**U07**） 搭乘 **🟠 百合海鷗線（U）** 往 **新橋（Shimbashi／U01） 方向**，搭乘 **6 站** 至 [**新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJq0X3kZaLGGARF0k9yTjYI-8)（**U01**）（車程約 15 分鐘）。
+> * 於 **新橋站（A10）** 經地下通道轉乘 **🌹 都營淺草線（A）** 往 **押上（Oshiage／A20）／青砥 方向**，搭乘 **4 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程約 7 分鐘）。
+> * 由 **「A1 出口（直達地面無障礙電梯）」** 出站，步行約 2 分鐘返抵海茵娜酒店。
+> * 19:00 回飯店洗澡休息、打包整理大件行李與最後秤重整備。
+
+</details>
 
 ---
 

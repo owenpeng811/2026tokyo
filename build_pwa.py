@@ -331,7 +331,7 @@ def parse_v10_markdown():
         2: {'parents': [], 'kids': []},
         3: [],
         4: [],
-        5: {'common_before': [], 'plan_a': [], 'plan_b': []},
+        5: {'common_before': [], 'plan_a': [], 'plan_b': [], 'rainy': []},
         6: []
     }
 
@@ -525,7 +525,9 @@ def parse_v10_markdown():
             h = lines[0]
             b = '\n'.join(lines[1:])
             
-            if 'Plan A' in h:
+            if '雨天備案' in h or '雨天備案' in s or '台場科技' in h:
+                current_sub = 'rainy'
+            elif 'Plan A' in h:
                 current_sub = 'plan_a'
             elif 'Plan B' in h:
                 current_sub = 'plan_b'
@@ -677,20 +679,30 @@ def render_full_pwa_html(meta, days_data):
     <div class="day-section" id="day5-section" style="display: none;">
       <div class="sub-toggle-wrapper">
         <div class="sub-toggle-container">
-          <button class="sub-toggle-btn active" id="day5-btn-planA" onclick="switchDay5Plan('A')">🌃 Plan A：新宿西口平價速食 × 都廳百萬夜景</button>
-          <button class="sub-toggle-btn" id="day5-btn-planB" onclick="switchDay5Plan('B')">🛍️ Plan B：晴空街道商場悠遊 × 3F美食街晚餐</button>
+          <button class="sub-toggle-btn active" id="day5-btn-planA" onclick="switchDay5Plan('A')">🌃 晴天 Plan A：新宿都廳夜景</button>
+          <button class="sub-toggle-btn" id="day5-btn-planB" onclick="switchDay5Plan('B')">🛍️ 晴天 Plan B：晴空街道晚餐</button>
+          <button class="sub-toggle-btn" id="day5-btn-rainy" onclick="switchDay5Plan('rainy')">☔ 雨天備案：台場 × 微縮世界</button>
         </div>
       </div>
+      <div class="day5-sunny-common">
 """
     for idx, it in enumerate(days_data[5]['common_before']):
         timeline_html += build_card_html(f"d5-cb{idx}", it)
-    timeline_html += '      <div class="day5-plan-A">\n'
+    timeline_html += """      </div>
+      <div class="day5-plan-A">
+"""
     for idx, it in enumerate(days_data[5]['plan_a']):
         timeline_html += build_card_html(f"d5-pa{idx}", it)
-    timeline_html += '      </div>\n'
-    timeline_html += '      <div class="day5-plan-B" style="display: none;">\n'
+    timeline_html += """      </div>
+      <div class="day5-plan-B" style="display: none;">
+"""
     for idx, it in enumerate(days_data[5]['plan_b']):
         timeline_html += build_card_html(f"d5-pb{idx}", it)
+    timeline_html += """      </div>
+      <div class="day5-plan-rainy" style="display: none;">
+"""
+    for idx, it in enumerate(days_data[5]['rainy']):
+        timeline_html += build_card_html(f"d5-rainy{idx}", it)
     timeline_html += '      </div>\n    </div>\n\n'
 
     # Day 6
@@ -1370,10 +1382,32 @@ def render_full_pwa_html(meta, days_data):
 
     function switchDay5Plan(plan) {{
       const isPlanA = plan === 'A';
+      const isPlanB = plan === 'B';
+      const isRainy = plan === 'rainy';
+      
       document.getElementById('day5-btn-planA').classList.toggle('active', isPlanA);
-      document.getElementById('day5-btn-planB').classList.toggle('active', !isPlanA);
-      document.querySelector('.day5-plan-A').style.display = isPlanA ? 'block' : 'none';
-      document.querySelector('.day5-plan-B').style.display = isPlanA ? 'none' : 'block';
+      document.getElementById('day5-btn-planB').classList.toggle('active', isPlanB);
+      document.getElementById('day5-btn-rainy').classList.toggle('active', isRainy);
+      
+      const commonElem = document.querySelector('.day5-sunny-common');
+      if (commonElem) {{
+        commonElem.style.display = isRainy ? 'none' : 'block';
+      }}
+      
+      const planAElem = document.querySelector('.day5-plan-A');
+      if (planAElem) {{
+        planAElem.style.display = isPlanA ? 'block' : 'none';
+      }}
+      
+      const planBElem = document.querySelector('.day5-plan-B');
+      if (planBElem) {{
+        planBElem.style.display = isPlanB ? 'block' : 'none';
+      }}
+      
+      const rainyElem = document.querySelector('.day5-plan-rainy');
+      if (rainyElem) {{
+        rainyElem.style.display = isRainy ? 'block' : 'none';
+      }}
     }}
 
     function toggleCheck(id) {{
