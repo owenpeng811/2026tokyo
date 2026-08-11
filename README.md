@@ -37,7 +37,7 @@
 | Day 2  (長輩組) | 松坂屋上野店與PARCO_ya、不忍池、清水觀音堂、國立西洋美術館、上野公園噴水廣場 | 上野東照宮、舊岩崎邸庭園 (Option) |
 | Day 2  (親子組) | 東京迪士尼樂園 | \- |
 | Day 3 | 東京車站一番街、KITTE花園、國立科學博物館、阿美橫丁 | 多慶屋 (備案) |
-| Day 4 | 三鷹之森吉卜力美術館、井之頭恩賜公園、吉祥寺商店街 (Loft/無印/大創/SATOU) | 哈莫尼卡橫丁 (Option)、Linde德國麵包 |
+| Day 4 | 三鷹之森吉卜力美術館、吉祥寺商店街 (Loft/無印/大創/SATOU) | 哈莫尼卡橫丁 (Option)、Linde德國麵包 |
 | Day 5 | ☀️晴天: 淺草寺/晴空塔/墨田水族館/[Plan A]都廳夜景/[Plan B]晴空街道 | ☔雨天備案: 日本科學未來館、DiverCity、SMALL WORLDS迷你世界 |
 | Day 6 | 築地場外市場、羽田機場出境免稅店 | 羽田機場輕食與採買 |
 
@@ -215,7 +215,7 @@
 
 > * 16:30 離開飯店 ➔ 慢步約 2 分鐘至 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 1 號月台進站。  
 > * 於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 搭乘 **🟡 JR 中央・總武線（JB）** 往 **新宿（JB10）／三鷹 方向**，搭乘 **2 站** 至 御茶之水站（JB18）（車程約 4 分鐘）。  
-> * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **新宿（Shinjuku／JC05）／高尾 方向**，搭乘 **4 站** 直達 [**新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**）（車程約 9 分鐘，總車程約 18 分鐘，在冷氣車廂內坐著休息補眠）。  
+> * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **新宿（Shinjuku／JC05）／高尾 方向**，搭乘 **2 站**（快速僅停靠：四谷、新宿）直達 [**新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**）（車程約 9 分鐘，總車程約 18 分鐘，在冷氣車廂內坐著休息補眠）。  
 > * 抵達新宿站後不趕時間，跟隨 **「東口（East Exit）」** 黃色指標走地下通道出站（步行約 5-8 分鐘）。
 
 #### **17:15－17:40 🐈 欣賞新宿 3D 巨貓**
@@ -233,7 +233,7 @@
 
 #### **18:35－19:15 🚆 返回淺草橋**
 
-> * 於 [**JR 新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**） 7/8 號月台搭乘 **🟠 JR 中央線快速（JC）** 往 **東京（Tokyo／JC01） 方向**，搭乘 **4 站** 至 御茶之水站（JC03）（車程約 9 分鐘）。
+> * 於 [**JR 新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**） 7/8 號月台搭乘 **🟠 JR 中央線快速（JC）** 往 **東京（Tokyo／JC01） 方向**，搭乘 **2 站**（快速僅停靠：四谷、御茶之水）至 御茶之水站（JC03）（車程約 9 分鐘）。
 > * 於 **御茶之水站（JB18）** **不用出站**，於同月台對面直接平行轉乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **2 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）（車程約 4 分鐘）。由 東口 出站步行前往超市採買。
 > * 💡 此時段剛好稍微避開晚間下班尖峰，電車平穩舒適。
 
@@ -410,26 +410,30 @@
 >   * **"Akihabara?"**（要去秋葉原）
 >   * **"Chiba platform?"**（請問往千葉方向月台）
 
+### **18:30 🏨 回飯店休息**
+
+> * 慢步返回海茵娜酒店，更衣梳洗、放鬆歇腳，享受悠閒夜晚。
+
 ---
 
 ## **📅 Day 2（8/21 星期五）：雙線交織 \- 迪士尼夢幻 (親子組)**
 
-### **07:10－07:50 🍳 早餐**
+### **06:25－07:05 🍳 早餐**
 
-起床梳洗吃早餐。
+起床梳洗吃早餐，為迪士尼全日行程補足充沛體能，準備 07:10 出發。
 
-### **07:50－08:45 🚆 前往東京迪士尼樂園**
+### **07:10－08:00 🚆 前往東京迪士尼樂園**
 
 > * 目標地點：[**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)
-> * **07:50－08:00 總武線移動**：於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 搭乘 **🟡 JR 中央・總武線（JB）** 往 **秋葉原（Akihabara／JB19）／新宿 方向**，搭乘 **1 站** 至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（**JB19**）（車程約 2 分鐘，下一站即為秋葉原）。
-> * **08:00－08:12 日比谷線移動**：由昭和通り口閘門出站，依指標轉乘 **⚪ 東京 Metro 日比谷線（H） 秋葉原站（H16）**，搭乘往 **中目黑（Naka-meguro／H01） 方向** 列車，搭乘 **4 站** 至 八丁堀站（H12）（車程約 7 分鐘）。
-> * **08:12－08:25 地下通道轉乘**：抵達 **八丁堀站（H12）** 後，跟隨 **🔴 JR 京葉線（JE）** 指標，經地下聯絡通道（設有手扶梯與無障礙坡道，全程免出地面吹冷氣）轉乘 **JR 八丁堀站（JE02）**。（此站轉乘結構單純直線，比東京車站輕鬆太多，極適合牽小孩移動）。
-> * **08:25－08:37 京葉線直達**：於 **JR 八丁堀站（JE02）** 搭乘 **🔴 JR 京葉線（JE）** 往 **舞濱（Maihama／JE07）／蘇我（Soga／JE18） 方向**，搭乘 **5 站** 直達 [**舞濱站 (舞浜駅)**](https://www.google.com/maps/search/?api=1&query=35.6361543,139.8838749&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**JE07**）（車程約 12 分鐘）。
-> * **08:37－08:45 抵達出站**：於 **舞濱站（JE07）** 由 **「南口（South Exit）」** 出站（設有無障礙斜坡與手扶梯），順著右前方行人專用天橋步行約 5 分鐘即可抵達 [**東京迪士尼樂園 (東京ディズニーランド)**](https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ) 正門。
+> * **07:10－07:20 總武線移動**：於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 搭乘 **🟡 JR 中央・總武線（JB）** 往 **秋葉原（Akihabara／JB19）／新宿 方向**，搭乘 **1 站** 至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（**JB19**）（車程約 2 分鐘，下一站即為秋葉原）。
+> * **07:20－07:32 日比谷線移動**：由昭和通り口閘門出站，依指標轉乘 **⚪ 東京 Metro 日比谷線（H） 秋葉原站（H16）**，搭乘往 **中目黑（Naka-meguro／H01） 方向** 列車，搭乘 **4 站** 至 八丁堀站（H12）（車程約 7 分鐘）。
+> * **07:32－07:42 地下通道轉乘**：抵達 **八丁堀站（H12）** 後，跟隨 **🔴 JR 京葉線（JE）** 指標，經地下聯絡通道（設有手扶梯與無障礙坡道，全程免出地面吹冷氣）轉乘 **JR 八丁堀站（JE02）**。（此站轉乘結構單純直線，比東京車站輕鬆太多，極適合牽小孩移動）。
+> * **07:42－07:54 京葉線直達**：於 **JR 八丁堀站（JE02）** 搭乘 **🔴 JR 京葉線（JE）** 往 **舞濱（Maihama／JE07）／蘇我（Soga／JE18） 方向**，搭乘 **5 站** 直達 [**舞濱站 (舞浜駅)**](https://www.google.com/maps/search/?api=1&query=35.6361543,139.8838749&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**JE07**）（車程約 12 分鐘）。
+> * **07:54－08:00 抵達出站**：於 **舞濱站（JE07）** 由 **「南口（South Exit）」** 出站（設有無障礙斜坡與手扶梯），順著右前方行人專用天橋步行約 5 分鐘，**預定 08:00 抵達 [東京迪士尼樂園 (東京ディズニーランド)](https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ) 正門排隊區**。
 
-### **08:45 🏰 抵達樂園入園**
+### **08:00 🏰 抵達樂園門口排隊與入園**
 
-先不急著拍照，直接排隊等開園。一刷卡入園立刻打開 Tokyo Disney Resort 官方 App：
+預定 08:00 抵達樂園正門排隊與安檢（通常 08:30～08:45 開始提早開園入場）。先不急著拍照，直接排隊等開園。一刷卡入園立刻打開 Tokyo Disney Resort 官方 App：
 1. **設施預約**：購買 Disney Premier Access (DPA) 或領取免費 Priority Pass (PP)。
 2. **餐廳點餐（關鍵防排隊）**：立刻使用 **「Disney Mobile Order (手機點餐)」** 預選今日午餐（約 11:30）與晚餐（約 18:00）的餐廳與取餐時段，時間一到直接走專用通道領餐入座，免受正午排隊日曬之苦！
 
@@ -503,6 +507,10 @@
 > 2. 經地下連通道轉乘 **⚪ 東京 Metro 日比谷線（H） 八丁堀站（H12）**，於 2 號月台搭乘往 **北千住（Kita-senju／H22） 方向** 列車，搭乘 **4 站** 至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7731315&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F88)（**H16**）（車程約 8 分鐘）。  
 > 3. 抵達秋葉原站後，轉乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **1 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）返抵飯店休息。  
 </details>
+
+### **22:45 🏨 回飯店休息**
+
+> * 22:45 抵達淺草橋站，步行約 2 分鐘返回海茵娜酒店更衣洗漱、好好休息補充體力。
 
 ### **🎟️ 建議購買 Disney Premier Access (依優先順序)**
 
@@ -664,6 +672,10 @@
 
 > * 享用阿美橫丁或便利商店購買的點心
 
+### **19:50 🏨 回飯店休息**
+
+> * 慢步返回海茵娜酒店，放妥今日採買戰利品、更衣梳洗放鬆休息。
+
 ---
 
 ## **📅 Day 4（8/23 星期日）：吉卜力童話 × 吉祥寺風格散步與 DIY 炸串**
@@ -676,7 +688,7 @@
 
 > * 目標地點：[**三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.702683,139.560333&query_place_id=ChIJ317-57btGGARX-0r5Zf3774)
 > * 於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 1 號月台搭乘 **🟡 JR 中央・總武線（JB）** 往 **新宿（JB10）／三鷹（Mitaka／JB01） 方向**，搭乘 **2 站** 至 御茶之水站（JB18）（車程約 4 分鐘）。
-> * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **三鷹（Mitaka／JC12）／高尾 方向**，搭乘 **5 站**（快速停靠：四谷、新宿、中野、荻窪、吉祥寺、三鷹）直達 [**三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.702683,139.560333&query_place_id=ChIJ317-57btGGARX-0r5Zf3774)（**JC12**）（車程約 24 分鐘，總車程約 32 分鐘）。
+> * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **三鷹（Mitaka／JC12）／高尾 方向**，搭乘 **6 站**（假日快速停靠：四谷、新宿、中野、荻窪、吉祥寺、三鷹）直達 [**三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.702683,139.560333&query_place_id=ChIJ317-57btGGARX-0r5Zf3774)（**JC12**）（車程約 24 分鐘，總車程約 32 分鐘）。
 > * 🚶‍♂️ **出站指引**：由 **「南口（South Exit）」** 閘門出站，搭乘手扶梯下至 1F 站前圓環，前往 **9 號公車站牌**。
 
 ### **09:35－09:50 🚌 搭乘吉卜力接駁巴士**
@@ -703,17 +715,10 @@
 
 ### **12:15－12:50 🚌🚃 前往吉祥寺**
 
-> * ✅ **Plan A（首選：接駁車 ＋ JR 電車，零腦力順暢轉乘）**：
->   * **第一段（回程接駁巴士至三鷹站）**：離開美術館後，直接至門口正前方公車站牌等候。此處等候的接駁巴士外觀與去程完全相同（亮黃色彩繪巴士），100% 都是開往三鷹站，完全不用看路線，閉著眼睛上車即可（車程約 5 分鐘，後門上車嗶 Suica ➔ 前門下車嗶 Suica，車停妥再起立）。  
->     ![吉卜力美術館門口公車站與停靠的黃色接駁巴士](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiAttfDAWdlM8iGidz7jGYR6LZIA4_HEH_j-1-yOb1LLEfh2KyVo9hSjtR&s=10)
->   * **第二段（轉乘 JR 至吉祥寺站）**：抵達三鷹站南口後搭電梯/手扶梯上樓刷 Suica 進站。於 [**JR 三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.702683,139.560333&query_place_id=ChIJ317-57btGGARX-0r5Zf3774)（**JC12 / JB01**） 搭乘 **🟠 JR 中央線快速（JC）** 或 **🟡 JR 中央・總武線（JB）** 往 **新宿（JC05）／東京（JC01） 方向**，僅搭 **1 站**（車程約 2 分鐘）即達 [**吉祥寺站 (吉祥寺駅)**](https://www.google.com/maps/search/?api=1&query=35.7031125,139.5797825&query_place_id=ChIJe0e8kkfuGGARvH2cE14g_0I)（**JC11 / JB02**）（建議由「公園口 / 南口」出站前往商圈與大戶屋）。
->   * **選擇優勢**：門口直接原線接駁車上車，完全不需要在路口判斷一般公車路線，對新手與家庭來說最簡單直覺且全冷氣。
-
-<details>
-<summary>🌲 Plan B 備案：井之頭恩賜公園林蔭散步（點擊展開）</summary>
-
-> * 若當天微風涼爽且全家體力充沛，可選擇由美術館一路往下坡漫步穿過 [**井之頭恩賜公園 (井の頭恩賜公園)**](https://www.google.com/maps/search/?api=1&query=35.7001429,139.5760205&query_place_id=ChIJo3N_X5yOGGARyv4l77z-WHQ) 往吉祥寺方向，樹蔭多、湖景漂亮。途中於 [**井之頭池 (井の頭池)**](https://www.google.com/maps/search/?api=1&query=35.69974759999999,139.5769222&query_place_id=ChIJbfIujp-OGGARQpzhp7F2ocZ) 停留約 10～15 分鐘拍照、欣賞湖景，但不建議租船（因後面還有商圈行程）。  
-</details>
+> * **第一段（回程接駁巴士至三鷹站）**：離開美術館後，直接至門口正前方公車站牌等候。此處等候的接駁巴士外觀與去程完全相同（亮黃色彩繪巴士），100% 都是開往三鷹站，完全不用看路線，閉著眼睛上車即可（車程約 5 分鐘，後門上車嗶 Suica ➔ 前門下車嗶 Suica，車停妥再起立）。  
+>   ![吉卜力美術館門口公車站與停靠的黃色接駁巴士](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiAttfDAWdlM8iGidz7jGYR6LZIA4_HEH_j-1-yOb1LLEfh2KyVo9hSjtR&s=10)
+> * **第二段（轉乘 JR 至吉祥寺站）**：抵達三鷹站南口後搭電梯/手扶梯上樓刷 Suica 進站。於 [**JR 三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.702683,139.560333&query_place_id=ChIJ317-57btGGARX-0r5Zf3774)（**JC12 / JB01**） 搭乘 **🟠 JR 中央線快速（JC）** 或 **🟡 JR 中央・總武線（JB）** 往 **新宿（JC05）／東京（JC01） 方向**，僅搭 **1 站**（車程約 2 分鐘）即達 [**吉祥寺站 (吉祥寺駅)**](https://www.google.com/maps/search/?api=1&query=35.7031125,139.5797825&query_place_id=ChIJe0e8kkfuGGARvH2cE14g_0I)（**JC11 / JB02**）（建議由「公園口 / 南口」出站前往商圈與大戶屋）。
+> * **移動優勢**：門口直接原線接駁車上車，完全不需要在路口判斷一般公車路線，對新手與家庭來說最簡單直覺且全冷氣。
 
 ### **13:00－14:10 🍽️ 午餐：大戶屋**
 
@@ -830,9 +835,9 @@
 > * 目標地點：[**押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)
 > * 15:30 離開晴空塔 ➔ 慢步前往 [**押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)。  
 > * 🚇 **舒適補眠電車移動**：
->   * 於 [**都營 押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)（**A20**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（A01）／羽田空港 方向**，搭乘 **3 站** 至 淺草橋站（A16）（車程約 6 分鐘）。
+>   * 於 [**都營 押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)（**A20**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（A01）／羽田空港 方向**，搭乘 **4 站**（停靠：本所吾妻橋、淺草、藏前、淺草橋）至 淺草橋站（A16）（車程約 6 分鐘）。
 >   * 於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 轉乘 **🟡 JR 中央・總武線（JB）** 往 **新宿（JB10） 方向**，搭乘 **2 站** 至 御茶之水站（JB18）（車程約 4 分鐘）。
->   * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **新宿（Shinjuku／JC05）／高尾 方向**，搭乘 **4 站** 直達 [**新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**）（車程約 9 分鐘，總移動約 28 分鐘）。  
+>   * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **新宿（Shinjuku／JC05）／高尾 方向**，搭乘 **2 站**（快速僅停靠：四谷、新宿）直達 [**新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**）（車程約 9 分鐘，總移動約 28 分鐘）。  
 >   * 💡 **長輩小孩充能**：下午正好在冷氣電車上坐著小歇補眠，完全不耗體力。  
 > * 16:15 抵達新宿站：由 **「西口地下剪票口（West Underground Exit）」** 出站，走至地面西口商圈。  
 > * 16:45－17:40 🍽️ **晚餐**：  
@@ -842,7 +847,7 @@
 > * 17:45 離開餐廳 ➔ 走向 [**新宿西口地下通路 (新宿副都心4号街路地下道)**](https://www.google.com/maps/search/?api=1&query=35.690800,139.696500)（從地面入口下階梯進入全空調地下通道與電動步道），沿通道直行約 6～8 分鐘直達 [**東京都廳 (東京都庁)**](https://www.google.com/maps/search/?api=1&query=35.6894807,139.6917502&query_place_id=ChIJ60m9202LGGAR79K37s2o_a8)。  
 >   * 💡 **從地面進入地下道指引**：由西口商圈餐廳出來後，順著中央通前進即可看見「新宿副都心地下通路 (往東京都廳)」地面入口階梯，走下 B1 即進入全冷氣自動步道，全程免曬太陽直達東京都廳 B1 基地。
 > * 18:00－19:15 🌇 [**東京都廳南展望室 (東京都庁 南展望室)**](https://www.google.com/maps/search/?api=1&query=35.6894807,139.6917502&query_place_id=ChIJ60m9202LGGAR79K37s2o_a8) (第一本廳舍 45F)：搭乘專用直達高速電梯直達 45 樓（免費入場），俯瞰全東京夜景。  
-> * 19:20－19:45 🚆 **回程**：從都廳沿地下全空調通道走回 [**JR 新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**），於 7/8 號月台搭乘 **🟠 JR 中央線快速（JC）** 往 **東京（Tokyo／JC01） 方向**，搭乘 **4 站** 至 御茶之水站（JC03）（車程約 9 分鐘）。於 **御茶之水站（JB18）** **不用出站**，於同月台對面直接平行轉乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **2 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）（車程約 4 分鐘，總車程約 20 分鐘）。由 東口 出站步行回飯店。  
+> * 19:20－19:45 🚆 **回程**：從都廳沿地下全空調通道走回 [**JR 新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**），於 7/8 號月台搭乘 **🟠 JR 中央線快速（JC）** 往 **東京（Tokyo／JC01） 方向**，搭乘 **2 站**（快速僅停靠：四谷、御茶之水）至 御茶之水站（JC03）（車程約 9 分鐘）。於 **御茶之水站（JB18）** **不用出站**，於同月台對面直接平行轉乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **2 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）（車程約 4 分鐘，總車程約 20 分鐘）。由 東口 出站步行回飯店。  
 > * 19:50 回飯店打包整理行李、準備明日退房。
 
 ### **✅ Plan B（備案：繼續留晴空街道商場與美食街晚餐）**
@@ -853,7 +858,7 @@
 >   * 首選餐廳：[**宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用讚岐烏龍麵（推薦：牛肉溫玉烏龍麵、炸蝦天婦羅、豆皮烏龍麵），人均約 ¥700～¥1,000。  
 >   * 備案餐廳 1：[**一風堂 (一風堂 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用經典博多豚骨拉麵（推薦：白丸元味、赤丸新味、特製一口煎餃），人均約 ¥900～¥1,300。  
 >   * 備案餐廳 2：[**松屋 (松屋 押上店)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8142155&query_place_id=ChIJmeev5CmPGGARBOtl8Si0G2o) (押上站 A1 出口) 享用平價日式定食與牛丼（推薦：牛燒肉定食、蔥蛋牛丼、原創咖哩飯），人均約 ¥500～¥800。  
-> * 17:40 🚇 返程：於 [**都營 押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)（**A20**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **3 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程僅約 6 分鐘）。由 A1 出口 出站步行回飯店休息。  
+> * 17:40 🚇 返程：於 [**都營 押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)（**A20**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **4 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程僅約 6 分鐘）。由 A1 出口 出站步行回飯店休息。  
 > * 18:00 回飯店休息、打包整理行李。
 
 ---
@@ -869,7 +874,7 @@
 
 > * 目標地點：[**日本科學未來館 (日本科学未来館)**](https://www.google.com/maps/search/?api=1&query=35.6193358,139.7764353&query_place_id=ChIJt28B1s6LGGAR6G_j4s9F9y0)
 > * 從飯店步行約 2 分鐘至 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（走 A1 出口進站）。
-> * 於 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**） 1 號月台搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **4 站** 直達 [**新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJq0X3kZaLGGARF0k9yTjYI-8)（**A10**）（車程約 7 分鐘）。
+> * 於 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**） 1 號月台搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **6 站** 直達 [**新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJq0X3kZaLGGARF0k9yTjYI-8)（**A10**）（車程約 7 分鐘）。
 > * 於 **新橋站（A10）** 跟隨 **「ゆりかもめ（百合海鷗線）」** 指標經地下全空調通道轉乘至 **百合海鷗線 新橋站（U01）**（步行約 3 分鐘）。
 > * 於 [**百合海鷗線 新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJq0X3kZaLGGARF0k9yTjYI-8)（**U01**） 搭乘 **🟠 百合海鷗線（U）** 往 **豐洲（Toyosu／U16） 方向**，搭乘 **7 站** 至 [**東京國際郵輪碼頭站 (東京国際クルーズターミナル駅)**](https://www.google.com/maps/search/?api=1&query=35.621213,139.772592&query_place_id=ChIJc1979puNGGARR5_P_y3m5uE)（**U08**）（車程約 16 分鐘）。
 > * 由 **1 號出口（東口）** 出站，沿平緩景觀步道步行約 5 分鐘（約 400 公尺）直達日本科學未來館大門。
@@ -920,7 +925,7 @@
 > * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7845347&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F88)
 > * 從 DiverCity 走空橋通道步行約 5 分鐘至 [**百合海鷗線 台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.626111,139.771667&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**U07**）。
 > * 於 [**百合海鷗線 台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.626111,139.771667&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**U07**） 搭乘 **🟠 百合海鷗線（U）** 往 **新橋（Shimbashi／U01） 方向**，搭乘 **6 站** 至 [**新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJq0X3kZaLGGARF0k9yTjYI-8)（**U01**）（車程約 15 分鐘）。
-> * 於 **新橋站（A10）** 經地下通道轉乘 **🌹 都營淺草線（A）** 往 **押上（Oshiage／A20）／青砥 方向**，搭乘 **4 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程約 7 分鐘）。
+> * 於 **新橋站（A10）** 經地下通道轉乘 **🌹 都營淺草線（A）** 往 **押上（Oshiage／A20）／青砥 方向**，搭乘 **6 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程約 7 分鐘）。
 > * 由 **「A1 出口（直達地面無障礙電梯）」** 出站，步行約 2 分鐘返抵海茵娜酒店。
 > * 19:00 回飯店洗澡休息、打包整理大件行李與最後秤重整備。
 
@@ -946,7 +951,7 @@
 
 > * 目標地點：[**築地場外市場 (築地場外市場)**](https://www.google.com/maps/search/?api=1&query=35.6655513,139.7707436&query_place_id=ChIJk546Zp6LGGARhZk4aK7r6q0)
 > * 從飯店步行約 2 分鐘至 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）。
-> * 於 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **4 站** 直達 [**東銀座站 (東銀座駅)**](https://www.google.com/maps/search/?api=1&query=35.6697003,139.7672886&query_place_id=ChIJb328XZ-OGGAR5e4o-gq0F98)（**A11**）（車程約 7 分鐘）。
+> * 於 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **5 站** 直達 [**東銀座站 (東銀座駅)**](https://www.google.com/maps/search/?api=1&query=35.6697003,139.7672886&query_place_id=ChIJb328XZ-OGGAR5e4o-gq0F98)（**A11**）（車程約 7 分鐘）。
 > * 🚶‍♂️ **出站動線**：由 **「6 號出口（歌舞伎座/築地方向，設有手扶梯與電梯）」** 出站，沿晴海通平緩直行步行約 5 分鐘即達築地場外市場。
 
 ### **08:15－10:00 🐟 築地場外市場美食散策**
@@ -960,7 +965,7 @@
 ### **10:00－10:15 🚇 返回淺草橋飯店**
 
 > * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7845347&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F88)
-> * 於 [**都營 東銀座站 (東銀座駅)**](https://www.google.com/maps/search/?api=1&query=35.6697003,139.7672886&query_place_id=ChIJb328XZ-OGGAR5e4o-gq0F98)（**A11**） 搭乘 **🌹 都營淺草線（A）** 往 **押上（Oshiage／A20）／青砥 方向**，搭乘 **4 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程約 7 分鐘）。
+> * 於 [**都營 東銀座站 (東銀座駅)**](https://www.google.com/maps/search/?api=1&query=35.6697003,139.7672886&query_place_id=ChIJb328XZ-OGGAR5e4o-gq0F98)（**A11**） 搭乘 **🌹 都營淺草線（A）** 往 **押上（Oshiage／A20）／青砥 方向**，搭乘 **5 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程約 7 分鐘）。
 > * 由 **「A1 出口（直達地面無障礙電梯）」** 出站，回飯店領取行李。
 
 ### **10:15－10:40 🧳 領取行李並前往車站**
