@@ -350,11 +350,15 @@
 >   * 本館為經典「帝冠樣式」國家重要文化財建築，室內空間宏偉開闊、冷氣涼爽、長椅極多且設有無障礙電梯。
 >   * 悠閒參觀 1F/2F 日本古代文物精華：武士刀劍、佛像雕刻、國寶浮世繪、蒔繪漆器與和風屏風畫，全程室內平坦好走、免受風雨影響。
 
-#### **11:20－13:00 ☕🍽️ 松坂屋／PARCO_ya 百貨室內休息與午餐**
+#### **11:20－12:00 ☕ 室內基地營避雨與咖啡休息**
 
 > * 慢步走回松坂屋上野店與 PARCO_ya（兩棟全室內連通）：
-> * ☕ **室內基地營歇腳**：前往 [**喫茶 Tricolore (喫茶トリコロール 松坂屋上野店)**](https://www.google.com/maps/search/?api=1&query=35.7078274,139.7733596&query_place_id=ChIJp0K6QVOLGGARzD9G_rV4j0s) (松坂屋 4F) 或 [**DEAN & DELUCA CAFE (DEAN & DELUCA CAFE パルコヤ上野)**](https://www.google.com/maps/search/?api=1&query=35.7068605,139.7733596&query_place_id=ChIJYw_RZZyOGGARkQYqM_0g4r8) (PARCO_ya 1F) 喝熱茶/手沖咖啡，舒服坐著休息。
-> * 🍽️ **午餐享用**：至松坂屋正對面 [**すき家 (すき家 上野三丁目店)**](https://www.google.com/maps/search/?api=1&query=35.7060633,139.772478&query_place_id=ChIJ87mm5h-MGGARngNQHoLCi8k) 享用熱騰騰牛鮭定食，或於 [**松坂屋地下美食街 (松坂屋上野店 ほっぺタウン)**](https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o) 挑選精緻便當於館內休息區享用。
+> * 前往 [**喫茶 Tricolore (喫茶トリコロール 松坂屋上野店)**](https://www.google.com/maps/search/?api=1&query=35.7078274,139.7733596&query_place_id=ChIJp0K6QVOLGGARzD9G_rV4j0s) (松坂屋 4F) 或 [**DEAN & DELUCA CAFE (DEAN & DELUCA CAFE パルコヤ上野)**](https://www.google.com/maps/search/?api=1&query=35.7068605,139.7733596&query_place_id=ChIJYw_RZZyOGGARkQYqM_0g4r8) (PARCO_ya 1F) 喝熱茶/手沖咖啡，舒服坐著避雨休息。
+
+#### **12:00－13:00 🍽️ 午餐：すき家 / 百貨美食街**
+
+> * 首選餐廳：至松坂屋正對面 [**すき家 (すき家 上野三丁目店)**](https://www.google.com/maps/search/?api=1&query=35.7060633,139.772478&query_place_id=ChIJ87mm5h-MGGARngNQHoLCi8k) 享用日式定食與丼飯（推薦：牛鮭定食、滑蛋牛肉丼），人均約 ¥550～¥850。
+> * 備案餐廳：於 [**松坂屋地下美食街 (松坂屋上野店 ほっぺタウン)**](https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o) 挑選精緻便當於館內休息區享用。
 
 #### **13:00－15:30 🏛️ 參觀國立西洋美術館室內常設展**
 
@@ -633,13 +637,16 @@
 > * **Option**：若累了可於上野公園樹下稍作休息，並於周邊購買冰品飲料；或欣賞國立西洋美術館外觀拍照。  
 </details>
 
-### **16:00 🍜 晚餐：鴨 to 蔥拉麵**
+### **15:25－15:50 🚶‍♂️ 前往御徒町商圈**
 
-規則： 排隊 ≤ 3 組就吃 [**鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)**](https://www.google.com/maps/search/?api=1&query=35.7083768,139.7744318&query_place_id=ChIJS2pQn5SOGGARIvO8fG048X0) 享用鴨肉拉麵（推薦：鴨蔥醬油拉麵、親子丼），人均約 ¥1,000～¥1,500，超過 3 組直接放棄，前往阿美橫丁 (アメ横)。
+> * 目標地點：[**鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)**](https://www.google.com/maps/search/?api=1&query=35.7083768,139.7744318&query_place_id=ChIJS2pQn5SOGGARIvO8fG048X0)
+> * 🚶‍♂️ **步行避暑動線**：從科博館步行至御徒町約 1.1 公里（家庭步速約 20～25 分鐘），建議穿過上野站走中央通騎樓或阿美橫丁商店街遮蔭處。
 
-* 💡 **點餐祕訣**：先於門口自動食券機買票 ➔ 入座後店員會拿出一塊「當月 3 種蔥」牌子問「3選2」，直接用手指號碼（例如：1 和 3）即可！
-* 🚶‍♂️ **步行避暑提醒**：從科博館步行至鴨 to 蔥約 1.1 公里（家庭步速約 20 分鐘），建議穿過上野站走中央通騎樓或阿美橫丁商店街遮蔭處。
-* 若順利吃到，可在返程回飯店前，在阿美橫丁購買小吃回飯店吃，以免晚上肚子餓。例如：🍗 炸雞、🍢 烤雞串、牛串、🥟 煎餃或燒賣、🍤 炸海鮮
+### **15:50－16:40 🍜 享用鴨 to 蔥拉麵**
+
+> * 規則： 排隊 ≤ 3 組就吃 [**鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)**](https://www.google.com/maps/search/?api=1&query=35.7083768,139.7744318&query_place_id=ChIJS2pQn5SOGGARIvO8fG048X0) 享用鴨肉拉麵（推薦：鴨蔥醬油拉麵、親子丼），人均約 ¥1,000～¥1,500，超過 3 組直接放棄，前往阿美橫丁 (アメ横)。
+> * 💡 **點餐祕訣**：先於門口自動食券機買票 ➔ 入座後店員會拿出一塊「當月 3 種蔥」牌子問「3選2」，直接用手指號碼（例如：1 和 3）即可！
+> * 若順利吃到，可在返程回飯店前，在阿美橫丁購買小吃回飯店吃，以免晚上肚子餓。例如：🍗 炸雞、🍢 烤雞串、牛串、🥟 煎餃或燒賣、🍤 炸海鮮
 
 ### **16:40－18:40 🛍️ 阿美橫丁逛街採買**
 
@@ -898,17 +905,22 @@
 >   * **AI 與機器人常設展**：近距離觀賞最新人型機器人互動演示、未來生活與醫療科技體驗。
 >   * **探索宇宙與地球環境**：從國際太空站 ISS 生活模型到微觀粒子世界，小孩可親手觸摸操作多項互動實驗裝置。
 
-### **12:00－14:45 🍽️🛍️ DiverCity Tokyo Plaza 午餐、鋼彈與室內逛街**
+### **12:00－12:15 🚶‍♂️ 前往 DiverCity Tokyo Plaza**
 
 > * 目標地點：[**DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew)
 > * 🚶‍♂️ **移動動線**：從未來館沿著有明/台場空橋步道慢步約 9 分鐘（約 700 公尺），直接進入 DiverCity Tokyo Plaza 2F/3F 商場。
-> * 🍽️ **午餐享用**：
->   * 首選餐廳：[**信州蕎麥處 そじ坊 (そじ坊 ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (6F 餐廳街) 享用手打蕎麥麵（推薦：生芥末自磨手打蕎麥麵、炸天婦羅蕎麥麵套餐、鴨肉沾汁蕎麥麵），人均約 ¥900～¥1,500。
->   * 備案餐廳 1：[**田中蕎麥麵店 (田中そば店 ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (2F 東京美食廣場) 享用喜多方風味拉麵（推薦：特製中華拉麵、山形辣味噌拉麵、特製叉燒飯），人均約 ¥900～¥1,400。
->   * 備案餐廳 2：[**かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (2F 東京美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。
-> * 🤖🛍️ **室內逛街與獨角獸鋼彈**：
->   * 於商場節點欣賞 [**實物大獨角獸鋼彈立像 (実物大ユニコーンガンダム立像)**](https://www.google.com/maps/search/?api=1&query=35.6243889,139.7754444&query_place_id=ChIJi1a39b2LGGAR7_G4P3j64Ew)（雨天可在 2F 階梯遮雨棚處近距離合影，13:00 / 15:00 有整點變形演出）。
->   * 逛 7F THE GUNDAM BASE TOKYO（鋼彈模型旗艦店）、Uniqlo、BicCamera、各式日系生活雜貨與伴手禮專賣店，長輩可在商場咖啡廳休息。
+
+### **12:15－13:30 🍽️ 午餐：そじ坊手打蕎麥麵**
+
+> * 首選餐廳：[**信州蕎麥處 そじ坊 (そじ坊 ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (6F 餐廳街) 享用手打蕎麥麵（推薦：生芥末自磨手打蕎麥麵、炸天婦羅蕎麥麵套餐、鴨肉沾汁蕎麥麵），人均約 ¥900～¥1,500。
+> * 備案餐廳 1：[**田中蕎麥麵店 (田中そば店 ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (2F 東京美食廣場) 享用喜多方風味拉麵（推薦：特製中華拉麵、山形辣味噌拉麵、特製叉燒飯），人均約 ¥900～¥1,400。
+> * 備案餐廳 2：[**かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (2F 東京美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。
+
+### **13:30－14:45 🤖🛍️ 欣賞獨角獸鋼彈與商場逛街**
+
+> * 目標地點：[**實物大獨角獸鋼彈立像 (実物大ユニコーンガンダム立像)**](https://www.google.com/maps/search/?api=1&query=35.6243889,139.7754444&query_place_id=ChIJi1a39b2LGGAR7_G4P3j64Ew)
+> * 🤖 **鋼彈立像觀賞**：於商場節點欣賞實物大獨角獸鋼彈立像（雨天可在 2F 階梯遮雨棚處近距離合影，13:00 / 15:00 有整點變形演出）。
+> * 🛍️ **商場散策**：逛 7F THE GUNDAM BASE TOKYO（鋼彈模型旗艦店）、Uniqlo、BicCamera、各式日系生活雜貨與伴手禮專賣店，長輩可在商場咖啡廳休息。
 
 ### **14:45－17:00 🔍 參觀東京迷你世界博物館（微縮世界展）**
 
@@ -926,15 +938,17 @@
 >   * **太空中心展區**：真實倒數發射之阿波羅火箭升空震撼噴煙聲光秀。
 >   * **世界小鎮與動漫場景**：穿梭於蒸氣龐克奇幻小鎮、美少女戰士麻布十番街景與新世紀福音戰士第 3 新東京市地下格納庫，精緻度破表！
 
-### **17:00－18:15 🍽️ 晚餐：月島文字燒 くうや / かつゑもん**
+### **17:00－17:25 🚇 前往台場 DiverCity**
 
 > * 目標地點：[**DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew)
-> * 🚇 **返回 DiverCity 交通**：從 SMALL WORLDS 步行約 3 分鐘至 [**百合海鷗線 有明網球之森站 (有明テニスの森駅)**](https://www.google.com/maps/search/?api=1&query=35.640833,139.791667&query_place_id=ChIJe0e8kkfuGGARvH2cE14g_0I)（**U13**），搭乘 **🟠 百合海鷗線（U）** 往 **新橋（Shimbashi／U01） 方向**，搭乘 **6 站** 至 [**台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.626111,139.771667&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**U07**）（車程約 11 分鐘），走 2F 遮雨空橋 5 分鐘抵達 DiverCity 6F/2F 餐廳。
-> * 🍽️ **晚餐享用**：
->   * 首選餐廳：[**月島文字燒 くうや (月島もんじゃ くうや ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (6F 餐廳街) 享用築地直送海鮮與桌邊現場代煎文字燒（推薦：明太子麻糬起司文字燒、特選海鮮文字燒、極品牛筋大阪燒），人均約 ¥1,500～¥2,500。
->   * 備案餐廳 1：[**かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (2F 美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。
+> * 從 SMALL WORLDS 步行約 3 分鐘至 [**百合海鷗線 有明網球之森站 (有明テニスの森駅)**](https://www.google.com/maps/search/?api=1&query=35.640833,139.791667&query_place_id=ChIJe0e8kkfuGGARvH2cE14g_0I)（**U13**），搭乘 **🟠 百合海鷗線（U）** 往 **新橋（Shimbashi／U01） 方向**，搭乘 **6 站** 至 [**台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.626111,139.771667&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**U07**）（車程約 11 分鐘），走 2F 遮雨空橋 5 分鐘抵達 DiverCity 6F/2F 餐廳。
 
-### **18:15－19:00 🚆 返回淺草橋飯店**
+### **17:25－18:30 🍽️ 晚餐：月島文字燒 くうや**
+
+> * 首選餐廳：[**月島文字燒 くうや (月島もんじゃ くうや ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (6F 餐廳街) 享用築地直送海鮮與桌邊現場代煎文字燒（推薦：明太子麻糬起司文字燒、特選海鮮文字燒、極品牛筋大阪燒），人均約 ¥1,500～¥2,500。
+> * 備案餐廳 1：[**かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (2F 美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。
+
+### **18:30－19:15 🚆 返回淺草橋飯店**
 
 > * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7845347&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F88)
 > * 從 DiverCity 走空橋通道步行約 5 分鐘至 [**百合海鷗線 台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.626111,139.771667&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**U07**）。
@@ -998,10 +1012,14 @@
 > * 提早於起飛前 3 小時抵達，這時間點足以從容應付 8 月下旬暑假的出境與安檢排隊人潮。  
 > * 報到櫃檯掛行李、過安檢、查驗出境。
 
-### **12:30－14:00 🍽️🛍️ 機場輕食午餐與免稅採買**
+### **12:30－13:15 🍽️ 午餐：羽田機場餐廳街**
 
-> * 全家可於出境大廳或管制區內 [**羽田機場餐廳街 (羽田空港第3ターミナル レストラン街)**](https://www.google.com/maps/search/?api=1&query=35.544843,139.768132&query_place_id=ChIJg4gqf3aKGGAReP-56k2M5n8) 享用最後簡餐（推薦：日式定食、烏龍麵），人均約 ¥1,000～¥1,500，不用擔心時間壓迫。  
-> * 利用最後的空檔在機場免稅店採買白色戀人、東京香蕉等伴手禮。
+> * 目標地點：[**羽田機場餐廳街 (羽田空港第3ターミナル レストラン街)**](https://www.google.com/maps/search/?api=1&query=35.544843,139.768132&query_place_id=ChIJg4gqf3aKGGAReP-56k2M5n8)
+> * 全家可於出境大廳或管制區內享用最後簡餐（推薦：日式定食、烏龍麵），人均約 ¥1,000～¥1,500，出餐快速、不用擔心時間壓迫。
+
+### **13:15－14:00 🛍️ 機場免稅店伴手禮採買**
+
+> * 利用最後的登機前空檔，在機場免稅店採買白色戀人、東京香蕉、Royce 巧克力等熱門伴手禮，採買完畢後從容前往登機門。
 
 ### **14:30 ✈️ 搭機返台 (CI221)**
 
