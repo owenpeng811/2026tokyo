@@ -215,7 +215,7 @@
 
 > * 16:30 離開飯店 ➔ 慢步約 2 分鐘至 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 1 號月台進站。  
 > * 於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 搭乘 **🟡 JR 中央・總武線（JB）** 往 **新宿（JB10）／三鷹 方向**，搭乘 **2 站** 至 御茶之水站（JB18）（車程約 4 分鐘）。  
-> * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **新宿（Shinjuku／JC05）／高尾 方向**，搭乘 **2 站**（快速僅停靠：四谷、新宿）直達 [**新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**）（車程約 9 分鐘，總車程約 18 分鐘，在冷氣車廂內坐著休息補眠）。  
+> * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **新宿（Shinjuku／JC05）／高尾 方向**，搭乘 **2 站**直達 [**新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**）（車程約 9 分鐘，總車程約 18 分鐘，在冷氣車廂內坐著休息補眠）。  
 > * 抵達新宿站後不趕時間，跟隨 **「東口（East Exit）」** 黃色指標走地下通道出站（步行約 5-8 分鐘）。
 
 #### **17:15－17:40 🐈 欣賞新宿 3D 巨貓**
@@ -233,7 +233,7 @@
 
 #### **18:35－19:15 🚆 返回淺草橋**
 
-> * 於 [**JR 新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**） 7/8 號月台搭乘 **🟠 JR 中央線快速（JC）** 往 **東京（Tokyo／JC01） 方向**，搭乘 **2 站**（快速僅停靠：四谷、御茶之水）至 御茶之水站（JC03）（車程約 9 分鐘）。
+> * 於 [**JR 新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**） 7/8 號月台搭乘 **🟠 JR 中央線快速（JC）** 往 **東京（Tokyo／JC01） 方向**，搭乘 **2 站**至 御茶之水站（JC03）（車程約 9 分鐘）。
 > * 於 **御茶之水站（JB18）** **不用出站**，於同月台對面直接平行轉乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **2 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）（車程約 4 分鐘）。由 東口 出站步行前往超市採買。
 > * 💡 此時段剛好稍微避開晚間下班尖峰，電車平穩舒適。
 
@@ -339,6 +339,8 @@
 <details>
 <summary>☔ 雨天備案：全室內文化藝術與百貨散策（點擊展開）</summary>
 
+### **☔ 雨天備案：全室內文化藝術與百貨散策**
+
 #### **09:20－11:20 🏛️ 參觀東京國立博物館本館常設展**
 
 > * 目標地點：[**東京國立博物館 (東京国立博物館)**](https://www.google.com/maps/search/?api=1&query=35.719056,139.77667&query_place_id=ChIJV-u30l2OGGAR55t616_o1sA)
@@ -376,7 +378,9 @@
 
 ---
 
-### **17:00－18:00 🍽️ 晚餐：宇奈とと鰻魚飯**
+### **🍽️ 共同收尾行程（晴天 / 雨天適用）**
+
+#### **17:00－18:00 🍽️ 晚餐：宇奈とと鰻魚飯**
 
 > * 於約定地點會合。  
 > * 首選餐廳：[**名代 宇奈とと (名代 宇奈とと 上野店)**](https://www.google.com/maps/search/?api=1&query=35.7111357,139.7748663&query_place_id=ChIJ6RMcXZ6OGGARLLk8PdeakXs) 享用炭火現烤平價鰻魚飯（人均約 ¥640～¥1,100）。（[📄 點此看彩色菜單照片](https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkClwNYLjKkY9Yq3zdrKmYer9-i4sd-Dfoe7MrBF_E9Pmu6bZnkb78va0NJUKlYzWuGogIqP4gPLT8fvfqwv4sM6CT5L8IMPPEEAfQZt_cVm00WiqkgT7CwRQGH74Y-37QJ_6jQqcjVx3U=s680-w680-h510-rw)）  
@@ -390,7 +394,7 @@
 >     3. 在機台直接投入日幣紙鈔或感應 Suica 卡付款，機器會自動找零並印出餐券。  
 >     4. 拿餐券入座等候店內螢幕叫號或店員送餐，全程 100% 零語言障礙！
 
-### **18:10－18:30 🚆 返回淺草橋**
+#### **18:10－18:30 🚆 返回淺草橋**
 
 > * 從 [**松坂屋上野店 (松坂屋 上野店)**](https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o) 步行約 2 分鐘至 [**JR 御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04**） 北口進站。
 > * 於 [**JR 御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04**） 進站後前往 **🟢 JR 山手線（JY）** 月台：
@@ -414,7 +418,7 @@
 >   * **"Akihabara?"**（要去秋葉原）
 >   * **"Chiba platform?"**（請問往千葉方向月台）
 
-### **18:30 🏨 回飯店休息**
+#### **18:30 🏨 回飯店休息**
 
 > * 慢步返回海茵娜酒店，更衣梳洗、放鬆歇腳，享受悠閒夜晚。
 
@@ -845,45 +849,74 @@
 
 ### **✅ Plan A（首選推薦：新宿都廳百萬夜景）**
 
+#### **15:30－16:15 🚇 前往新宿**
+
 > * 目標地點：[**押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)
 > * 15:30 離開晴空塔 ➔ 慢步前往 [**押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)。  
 > * 🚇 **舒適補眠電車移動**：
->   * 於 [**都營 押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)（**A20**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（A01）／羽田空港 方向**，搭乘 **4 站**（停靠：本所吾妻橋、淺草、藏前、淺草橋）至 淺草橋站（A16）（車程約 6 分鐘）。
+>   * 於 [**都營 押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)（**A20**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（A01）／羽田空港 方向**，搭乘 **4 站** 至 淺草橋站（A16）（車程約 6 分鐘）。
 >   * 於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 轉乘 **🟡 JR 中央・總武線（JB）** 往 **新宿（JB10） 方向**，搭乘 **2 站** 至 御茶之水站（JB18）（車程約 4 分鐘）。
->   * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **新宿（Shinjuku／JC05）／高尾 方向**，搭乘 **2 站**（快速僅停靠：四谷、新宿）直達 [**新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**）（車程約 9 分鐘，總移動約 28 分鐘）。  
+>   * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **新宿（Shinjuku／JC05）／高尾 方向**，搭乘 **2 站** 直達 [**新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**）（車程約 9 分鐘，總移動約 28 分鐘）。  
 >   * 💡 **長輩小孩充能**：下午正好在冷氣電車上坐著小歇補眠，完全不耗體力。  
-> * 16:15 抵達新宿站：由 **「西口地下剪票口（West Underground Exit）」** 出站，走至地面西口商圈。  
-> * 16:45－17:40 🍽️ **晚餐**：  
->   * 首選餐廳：[**麥當勞 (マクドナルド 新宿西口店)**](https://www.google.com/maps/search/?api=1&query=35.6892366,139.6981928&query_place_id=ChIJj8aWGtGMGGARxgm4q3X9Rt4) (西新宿 1-4-5 1F點餐 / 2F-3F座位區) 享用平價速食（推薦：日本限定蝦排堡、照燒豬肉堡、兒童快樂餐），人均約 ¥500～¥900。  
->     * 💡 **點餐祕訣（全繁體中文自動點餐機）**：店內設有多語言觸控售票機，支援繁體中文介面，出餐僅需 3～5 分鐘，極速吃飽、時間最彈性好掌控！  
->   * 備案餐廳 1：[**摩斯漢堡 (モスバーガー 新宿西口店)**](https://www.google.com/maps/search/?api=1&query=35.694661,139.698994&query_place_id=ChIJKdESUJGNGGAReuO_-gbd6jY) (西新宿 1-12-1 高倉第一ビル 1F/B1F) 享用日式漢堡（推薦：經典米漢堡、摩斯吉士漢堡），人均約 ¥650～¥1,000。  
+> * 16:15 抵達新宿站：由 **「西口地下剪票口（West Underground Exit）」** 出站，走至地面西口商圈。
+
+#### **16:45－17:40 🍽️ 晚餐：麥當勞 / 摩斯漢堡**
+
+> * 首選餐廳：[**麥當勞 (マクドナルド 新宿西口店)**](https://www.google.com/maps/search/?api=1&query=35.6892366,139.6981928&query_place_id=ChIJj8aWGtGMGGARxgm4q3X9Rt4) (西新宿 1-4-5 1F點餐 / 2F-3F座位區) 享用平價速食（推薦：日本限定蝦排堡、照燒豬肉堡、兒童快樂餐），人均約 ¥500～¥900。  
+>   * 💡 **點餐祕訣（全繁體中文自動點餐機）**：店內設有多語言觸控售票機，支援繁體中文介面，出餐僅需 3～5 分鐘，極速吃飽、時間最彈性好掌控！  
+> * 備案餐廳 1：[**摩斯漢堡 (モスバーガー 新宿西口店)**](https://www.google.com/maps/search/?api=1&query=35.694661,139.698994&query_place_id=ChIJKdESUJGNGGAReuO_-gbd6jY) (西新宿 1-12-1 高倉第一ビル 1F/B1F) 享用日式漢堡（推薦：經典米漢堡、摩斯吉士漢堡），人均約 ¥650～¥1,000。
+
+#### **17:45 🚶‍♂️ 前往東京都廳**
+
 > * 17:45 離開餐廳 ➔ 走向 [**新宿西口地下通路 (新宿副都心4号街路地下道)**](https://www.google.com/maps/search/?api=1&query=35.690800,139.696500)（從地面入口下階梯進入全空調地下通道與電動步道），沿通道直行約 6～8 分鐘直達 [**東京都廳 (東京都庁)**](https://www.google.com/maps/search/?api=1&query=35.6894807,139.6917502&query_place_id=ChIJ60m9202LGGAR79K37s2o_a8)。  
->   * 💡 **從地面進入地下道指引**：由西口商圈餐廳出來後，順著中央通前進即可看見「新宿副都心地下通路 (往東京都廳)」地面入口階梯，走下 B1 即進入全冷氣自動步道，全程免曬太陽直達東京都廳 B1 基地。
-> * 18:00－19:15 🌇 [**東京都廳南展望室 (東京都庁 南展望室)**](https://www.google.com/maps/search/?api=1&query=35.6894807,139.6917502&query_place_id=ChIJ60m9202LGGAR79K37s2o_a8) (第一本廳舍 45F)：搭乘專用直達高速電梯直達 45 樓（免費入場），俯瞰全東京夜景。  
-> * 19:20－19:45 🚆 **回程**：從都廳沿地下全空調通道走回 [**JR 新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**），於 7/8 號月台搭乘 **🟠 JR 中央線快速（JC）** 往 **東京（Tokyo／JC01） 方向**，搭乘 **2 站**（快速僅停靠：四谷、御茶之水）至 御茶之水站（JC03）（車程約 9 分鐘）。於 **御茶之水站（JB18）** **不用出站**，於同月台對面直接平行轉乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **2 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）（車程約 4 分鐘，總車程約 20 分鐘）。由 東口 出站步行回飯店。  
+> * 💡 **從地面進入地下道指引**：由西口商圈餐廳出來後，順著中央通前進即可看見「新宿副都心地下通路 (往東京都廳)」地面入口階梯，走下 B1 即進入全冷氣自動步道，全程免曬太陽直達東京都廳 B1 基地。
+
+#### **18:00－19:15 🌇 欣賞東京都廳南展望室夜景**
+
+> * 目標地點：[**東京都廳南展望室 (東京都庁 南展望室)**](https://www.google.com/maps/search/?api=1&query=35.6894807,139.6917502&query_place_id=ChIJ60m9202LGGAR79K37s2o_a8) (第一本廳舍 45F)
+> * 搭乘專用直達高速電梯直達 45 樓（免費入場），俯瞰全東京夜景。
+
+#### **19:20－19:45 🚆 返回淺草橋**
+
+> * 從都廳沿地下全空調通道走回 [**JR 新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**），於 7/8 號月台搭乘 **🟠 JR 中央線快速（JC）** 往 **東京（Tokyo／JC01） 方向**，搭乘 **2 站** 至 御茶之水站（JC03）（車程約 9 分鐘）。
+> * 於 **御茶之水站（JB18）** **不用出站**，於同月台對面直接平行轉乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **2 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）（車程約 4 分鐘，總車程約 20 分鐘）。由 東口 出站步行回飯店。
+
+#### **19:50 🏨 回飯店休息**
+
 > * 19:50 回飯店打包整理行李、準備明日退房。
 
 ### **✅ Plan B（備案：繼續留晴空街道商場與美食街晚餐）**
 
-> * 目標地點：[**東京晴空街道 (東京ソラマチ)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E)
-> * 15:30－16:40 繼續悠閒漫逛晴空街道商場、採買各式日本特色伴手禮。  
-> * 16:40－17:30 🍽️ 晚餐：  
->   * 首選餐廳：[**宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用讚岐烏龍麵（推薦：牛肉溫玉烏龍麵、炸蝦天婦羅、豆皮烏龍麵），人均約 ¥700～¥1,000。  
->   * 備案餐廳 1：[**一風堂 (一風堂 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用經典博多豚骨拉麵（推薦：白丸元味、赤丸新味、特製一口煎餃），人均約 ¥900～¥1,300。  
->   * 備案餐廳 2：[**松屋 (松屋 押上店)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8142155&query_place_id=ChIJmeev5CmPGGARBOtl8Si0G2o) (押上站 A1 出口) 享用平價日式定食與牛丼（推薦：牛燒肉定食、蔥蛋牛丼、原創咖哩飯），人均約 ¥500～¥800。  
-> * 17:40 🚇 返程：於 [**都營 押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)（**A20**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **4 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程僅約 6 分鐘）。由 A1 出口 出站步行回飯店休息。  
-> * 18:00 回飯店休息、打包整理行李。
+#### **15:30－16:40 🛍️ 晴空街道商場採買**
 
+> * 目標地點：[**東京晴空街道 (東京ソラマチ)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E)
+> * 繼續悠閒漫逛晴空街道商場、採買各式日本特色伴手禮。
+
+#### **16:40－17:30 🍽️ 晚餐：宮武讚岐烏龍麵 / 一風堂 / 松屋**
+
+> * 首選餐廳：[**宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用讚岐烏龍麵（推薦：牛肉溫玉烏龍麵、炸蝦天婦羅、豆皮烏龍麵），人均約 ¥700～¥1,000。  
+> * 備案餐廳 1：[**一風堂 (一風堂 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用經典博多豚骨拉麵（推薦：白丸元味、赤丸新味、特製一口煎餃），人均約 ¥900～¥1,300。  
+> * 備案餐廳 2：[**松屋 (松屋 押上店)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8142155&query_place_id=ChIJmeev5CmPGGARBOtl8Si0G2o) (押上站 A1 出口) 享用平價日式定食與牛丼（推薦：牛燒肉定食、蔥蛋牛丼、原創咖哩飯），人均約 ¥500～¥800。
+
+#### **17:40 🚇 返回淺草橋**
+
+> * 於 [**都營 押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)（**A20**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **4 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程僅約 6 分鐘）。由 A1 出口 出站步行回飯店休息。
+
+#### **18:00 🏨 回飯店休息**
+
+> * 18:00 回飯店休息、打包整理行李。
 ---
 
 <details>
 <summary>☔ 雨天備案：台場科技 × 微縮世界 × 室內購物（點擊展開）</summary>
 
-### **08:30－09:15 🍳 早餐**
+### **☔ 雨天備案：台場科技 × 微縮世界 × 室內購物**
+
+#### **08:30－09:15 🍳 早餐**
 
 起床梳洗吃早餐，準備 09:15 出發。
 
-### **09:15－10:00 🚇 前往台場（日本科學未來館）**
+#### **09:15－10:00 🚇 前往台場（日本科學未來館）**
 
 > * 目標地點：[**日本科學未來館 (日本科学未来館)**](https://www.google.com/maps/search/?api=1&query=35.6193358,139.7764353&query_place_id=ChIJt28B1s6LGGAR6G_j4s9F9y0)
 > * 從飯店步行約 2 分鐘至 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（走 A1 出口進站）。
@@ -892,7 +925,7 @@
 > * 於 [**百合海鷗線 新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJq0X3kZaLGGARF0k9yTjYI-8)（**U01**） 搭乘 **🟠 百合海鷗線（U）** 往 **豐洲（Toyosu／U16） 方向**，搭乘 **7 站** 至 [**東京國際郵輪碼頭站 (東京国際クルーズターミナル駅)**](https://www.google.com/maps/search/?api=1&query=35.621213,139.772592&query_place_id=ChIJc1979puNGGARR5_P_y3m5uE)（**U08**）（車程約 16 分鐘）。
 > * 由 **1 號出口（東口）** 出站，沿平緩景觀步道步行約 5 分鐘（約 400 公尺）直達日本科學未來館大門。
 
-### **10:00－12:00 🤖 參觀日本科學未來館**
+#### **10:00－12:00 🤖 參觀日本科學未來館**
 
 > * 目標地點：[**日本科學未來館 (日本科学未来館)**](https://www.google.com/maps/search/?api=1&query=35.6193358,139.7764353&query_place_id=ChIJt28B1s6LGGAR6G_j4s9F9y0)
 > * ☀️ **雨天避雨優勢**：全館為國家級超大型全室內科技館，冷氣涼爽、空間開闊、長椅極多。
@@ -905,24 +938,24 @@
 >   * **AI 與機器人常設展**：近距離觀賞最新人型機器人互動演示、未來生活與醫療科技體驗。
 >   * **探索宇宙與地球環境**：從國際太空站 ISS 生活模型到微觀粒子世界，小孩可親手觸摸操作多項互動實驗裝置。
 
-### **12:00－12:15 🚶‍♂️ 前往 DiverCity Tokyo Plaza**
+#### **12:00－12:15 🚶‍♂️ 前往 DiverCity Tokyo Plaza**
 
 > * 目標地點：[**DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew)
 > * 🚶‍♂️ **移動動線**：從未來館沿著有明/台場空橋步道慢步約 9 分鐘（約 700 公尺），直接進入 DiverCity Tokyo Plaza 2F/3F 商場。
 
-### **12:15－13:30 🍽️ 午餐：そじ坊手打蕎麥麵**
+#### **12:15－13:30 🍽️ 午餐：そじ坊手打蕎麥麵**
 
 > * 首選餐廳：[**信州蕎麥處 そじ坊 (そじ坊 ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (6F 餐廳街) 享用手打蕎麥麵（推薦：生芥末自磨手打蕎麥麵、炸天婦羅蕎麥麵套餐、鴨肉沾汁蕎麥麵），人均約 ¥900～¥1,500。
 > * 備案餐廳 1：[**田中蕎麥麵店 (田中そば店 ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (2F 東京美食廣場) 享用喜多方風味拉麵（推薦：特製中華拉麵、山形辣味噌拉麵、特製叉燒飯），人均約 ¥900～¥1,400。
 > * 備案餐廳 2：[**かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (2F 東京美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。
 
-### **13:30－14:45 🤖🛍️ 欣賞獨角獸鋼彈與商場逛街**
+#### **13:30－14:45 🤖🛍️ 欣賞獨角獸鋼彈與商場逛街**
 
 > * 目標地點：[**實物大獨角獸鋼彈立像 (実物大ユニコーンガンダム立像)**](https://www.google.com/maps/search/?api=1&query=35.6243889,139.7754444&query_place_id=ChIJi1a39b2LGGAR7_G4P3j64Ew)
 > * 🤖 **鋼彈立像觀賞**：於商場節點欣賞實物大獨角獸鋼彈立像（雨天可在 2F 階梯遮雨棚處近距離合影，13:00 / 15:00 有整點變形演出）。
 > * 🛍️ **商場散策**：逛 7F THE GUNDAM BASE TOKYO（鋼彈模型旗艦店）、Uniqlo、BicCamera、各式日系生活雜貨與伴手禮專賣店，長輩可在商場咖啡廳休息。
 
-### **14:45－17:00 🔍 參觀東京迷你世界博物館（微縮世界展）**
+#### **14:45－17:00 🔍 參觀東京迷你世界博物館（微縮世界展）**
 
 > * 目標地點：[**東京迷你世界博物館 (ミニチュアミュージアム スモールワールズ)**](https://www.google.com/maps/search/?api=1&query=35.6379228,139.7909305&query_place_id=ChIJZRKFm-eJGGAR6KL5MGY7U14)
 > * 🎟️ **購票策略指引（搶優惠省錢）**：
@@ -938,17 +971,17 @@
 >   * **太空中心展區**：真實倒數發射之阿波羅火箭升空震撼噴煙聲光秀。
 >   * **世界小鎮與動漫場景**：穿梭於蒸氣龐克奇幻小鎮、美少女戰士麻布十番街景與新世紀福音戰士第 3 新東京市地下格納庫，精緻度破表！
 
-### **17:00－17:25 🚇 前往台場 DiverCity**
+#### **17:00－17:25 🚇 前往台場 DiverCity**
 
 > * 目標地點：[**DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew)
 > * 從 SMALL WORLDS 步行約 3 分鐘至 [**百合海鷗線 有明網球之森站 (有明テニスの森駅)**](https://www.google.com/maps/search/?api=1&query=35.640833,139.791667&query_place_id=ChIJe0e8kkfuGGARvH2cE14g_0I)（**U13**），搭乘 **🟠 百合海鷗線（U）** 往 **新橋（Shimbashi／U01） 方向**，搭乘 **6 站** 至 [**台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.626111,139.771667&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**U07**）（車程約 11 分鐘），走 2F 遮雨空橋 5 分鐘抵達 DiverCity 6F/2F 餐廳。
 
-### **17:25－18:30 🍽️ 晚餐：月島文字燒 くうや**
+#### **17:25－18:30 🍽️ 晚餐：月島文字燒 くうや**
 
 > * 首選餐廳：[**月島文字燒 くうや (月島もんじゃ くうや ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (6F 餐廳街) 享用築地直送海鮮與桌邊現場代煎文字燒（推薦：明太子麻糬起司文字燒、特選海鮮文字燒、極品牛筋大阪燒），人均約 ¥1,500～¥2,500。
 > * 備案餐廳 1：[**かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (2F 美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。
 
-### **18:30－19:15 🚆 返回淺草橋飯店**
+#### **18:30－19:15 🚆 返回淺草橋飯店**
 
 > * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7845347&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F88)
 > * 從 DiverCity 走空橋通道步行約 5 分鐘至 [**百合海鷗線 台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.626111,139.771667&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**U07**）。

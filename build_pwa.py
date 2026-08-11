@@ -328,7 +328,7 @@ def parse_v10_markdown():
 
     days_data = {
         1: {'common_before': [], 'plan_a': [], 'plan_b': [], 'common_after': []},
-        2: {'parents': [], 'kids': []},
+        2: {'parents': {'common_before': [], 'sunny': [], 'rainy': [], 'common_after': []}, 'kids': []},
         3: [],
         4: [],
         5: {'common_before': [], 'plan_a': [], 'plan_b': [], 'rainy': []},
@@ -349,14 +349,14 @@ def parse_v10_markdown():
             h = lines[0]
             b = '\n'.join(lines[1:])
             
-            if 'Plan A' in h:
+            if '共同收尾' in h:
+                current_sub = 'common_after'
+                continue
+            elif 'Plan A' in h:
                 current_sub = 'plan_a'
                 continue
             elif 'Plan B' in h:
                 current_sub = 'plan_b'
-                continue
-            elif '共同收尾' in h:
-                current_sub = 'common_after'
                 continue
 
             h_clean = h.replace('####', '').replace('###', '').replace('**', '').strip()
@@ -395,13 +395,25 @@ def parse_v10_markdown():
     d2p_match = re.search(r'## \*\*📅 Day 2.*?長輩組.*?\n(.*?)(?=\n## \*\*📅 Day 2.*?親子組|\n## \*\*📅 Day 3|\Z)', content, re.DOTALL)
     if d2p_match:
         slots = re.split(r'\n(?=#{3,4} \*\*)', d2p_match.group(1))
+        current_sub = 'common_before'
         for s in slots:
             s = s.strip()
             if not s:
                 continue
-            lines = s.split('\n')
-            h = lines[0]
-            b = '\n'.join(lines[1:])
+            s_lines = s.split('\n')
+            h = s_lines[0]
+            b = '\n'.join(s_lines[1:])
+            
+            if '共同收尾' in h:
+                current_sub = 'common_after'
+                continue
+            elif '晴天' in h:
+                current_sub = 'sunny'
+                continue
+            elif '雨天' in h:
+                current_sub = 'rainy'
+                continue
+            
             h_clean = h.replace('####', '').replace('###', '').replace('**', '').strip()
             time_m = re.match(r'^([\d:：]+－[\d:：]+|[\d:：]+)\s*(.*)', h_clean)
             slot_time = time_m.group(1) if time_m else ""
@@ -419,7 +431,7 @@ def parse_v10_markdown():
                         break
             if not summary:
                 summary = clean_markdown_for_summary(b)
-            days_data[2]['parents'].append({
+            days_data[2]['parents'][current_sub].append({
                 'time': slot_time,
                 'title': slot_title,
                 'category': cat,
@@ -521,29 +533,29 @@ def parse_v10_markdown():
             s = s.strip()
             if not s:
                 continue
-            lines = s.split('\n')
-            h = lines[0]
-            b = '\n'.join(lines[1:])
+            s_lines = s.split('\n')
+            h = s_lines[0]
+            b = '\n'.join(s_lines[1:])
             
-            if '雨天備案' in h or '雨天備案' in s or '台場科技' in h:
+            if '雨天備案' in h or '台場科技' in h:
                 current_sub = 'rainy'
+                continue
             elif 'Plan A' in h:
                 current_sub = 'plan_a'
+                continue
             elif 'Plan B' in h:
                 current_sub = 'plan_b'
+                continue
+            elif '動態決策' in h or '下午/傍晚' in h:
+                continue
 
             h_clean = h.replace('####', '').replace('###', '').replace('**', '').strip()
             time_m = re.match(r'^([\d:：]+－[\d:：]+|[\d:：]+)\s*(.*)', h_clean)
             slot_time = time_m.group(1) if time_m else ""
             slot_title_raw = time_m.group(2) if time_m else h_clean
             slot_title = clean_title(slot_title_raw)
-            if not slot_title or 'Plan A' in slot_title or 'Plan B' in slot_title:
-                if 'Plan A' in h and len(b.strip()) > 10:
-                    slot_title = "新宿都廳百萬夜景 (Plan A 全覽)"
-                elif 'Plan B' in h and len(b.strip()) > 10:
-                    slot_title = "晴空街道商場與美食街 (Plan B 全覽)"
-                else:
-                    continue
+            if not slot_title:
+                continue
             cat, cat_zh, cat_icon = get_category_info(slot_title)
             maps_link = get_first_destination_map_link(5, slot_title_raw, b)
             summary = CUSTOM_SUMMARIES_V10.get((5, slot_title))
@@ -648,16 +660,38 @@ def render_full_pwa_html(meta, days_data):
         </div>
       </div>
       <div class="day2-parents-itinerary">
+        <div class="sub-toggle-wrapper" style="margin-top: 10px; margin-bottom: 16px;">
+          <div class="sub-toggle-container">
+            <button class="sub-toggle-btn active" id="day2-parents-btn-sunny" onclick="switchDay2ParentsPlan('sunny')">☀️ 晴天方案：不忍池 × 戶外散步 × 西洋美術館</button>
+            <button class="sub-toggle-btn" id="day2-parents-btn-rainy" onclick="switchDay2ParentsPlan('rainy')">☔ 雨天備案：東京國立博物館 × 松坂屋室內展</button>
+          </div>
+        </div>
+        <div class="day2-parents-common-before">
 """
-    for idx, it in enumerate(days_data[2]['parents']):
-        timeline_html += build_card_html(f"d2p-{idx}", it)
-    timeline_html += """      </div>
+    for idx, it in enumerate(days_data[2]['parents']['common_before']):
+        timeline_html += build_card_html(f"d2p-cb{idx}", it)
+    timeline_html += """        </div>
+        <div class="day2-parents-sunny">
+"""
+    for idx, it in enumerate(days_data[2]['parents']['sunny']):
+        timeline_html += build_card_html(f"d2p-sunny{idx}", it)
+    timeline_html += """        </div>
+        <div class="day2-parents-rainy" style="display: none;">
+"""
+    for idx, it in enumerate(days_data[2]['parents']['rainy']):
+        timeline_html += build_card_html(f"d2p-rainy{idx}", it)
+    timeline_html += """        </div>
+        <div class="day2-parents-common-after">
+"""
+    for idx, it in enumerate(days_data[2]['parents']['common_after']):
+        timeline_html += build_card_html(f"d2p-ca{idx}", it)
+    timeline_html += """        </div>
+      </div>
       <div class="day2-kids-itinerary" style="display: none;">
 """
     for idx, it in enumerate(days_data[2]['kids']):
         timeline_html += build_card_html(f"d2k-{idx}", it)
     timeline_html += '      </div>\n    </div>\n\n'
-
     # Day 3
     timeline_html += """    <!-- Day 3 Section -->
     <div class="day-section" id="day3-section" style="display: none;">
@@ -1378,6 +1412,20 @@ def render_full_pwa_html(meta, days_data):
       document.getElementById('day2-btn-kids').classList.toggle('active', !isParents);
       document.querySelector('.day2-parents-itinerary').style.display = isParents ? 'block' : 'none';
       document.querySelector('.day2-kids-itinerary').style.display = isParents ? 'none' : 'block';
+    }}
+
+    function switchDay2ParentsPlan(plan) {{
+      const isSunny = plan === 'sunny';
+      document.getElementById('day2-parents-btn-sunny').classList.toggle('active', isSunny);
+      document.getElementById('day2-parents-btn-rainy').classList.toggle('active', !isSunny);
+      const sunnyElem = document.querySelector('.day2-parents-sunny');
+      if (sunnyElem) {{
+        sunnyElem.style.display = isSunny ? 'block' : 'none';
+      }}
+      const rainyElem = document.querySelector('.day2-parents-rainy');
+      if (rainyElem) {{
+        rainyElem.style.display = isSunny ? 'none' : 'block';
+      }}
     }}
 
     function switchDay5Plan(plan) {{
