@@ -241,5 +241,8 @@
   "都營 淺草橋站": "https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg",
   "都營 押上站": "https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0",
   "都營 東銀座站": "https://www.google.com/maps/search/?api=1&query=35.6697003,139.7672886&query_place_id=ChIJb328XZ-OGGAR5e4o-gq0F98",
-  "京急 羽田機場第3航廈站": "https://www.google.com/maps/search/?api=1&query=35.544843,139.768443&query_place_id=ChIJyXG_6pyOGGAR2u4o-gq0F93"
+  "京急 羽田機場第3航廈站": "https://www.google.com/maps/search/?api=1&query=35.544843,139.768443&query_place_id=ChIJyXG_6pyOGGAR2u4o-gq0F93",
+  "東京國立博物館 (東京国立博物館)": "https://www.google.com/maps/search/?api=1&query=35.719056,139.77667&query_place_id=ChIJV-u30l2OGGAR55t616_o1sA",
+  "東京國立博物館": "https://www.google.com/maps/search/?api=1&query=35.719056,139.77667&query_place_id=ChIJV-u30l2OGGAR55t616_o1sA",
+  "東京国立博物館": "https://www.google.com/maps/search/?api=1&query=35.719056,139.77667&query_place_id=ChIJV-u30l2OGGAR55t616_o1sA"
 }

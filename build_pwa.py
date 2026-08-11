@@ -311,7 +311,7 @@ CUSTOM_SUMMARIES_V10 = {
 }
 
 def parse_v10_markdown():
-    filepath = '/home/owen/tokyo/2026東京親子自由行_V10_Henna.md'
+    filepath = '/home/owen/tokyo/README.md'
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
 
