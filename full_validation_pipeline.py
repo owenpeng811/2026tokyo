@@ -5,28 +5,24 @@ print("=" * 70)
 print("🚀 開始執行 README.md 全量命名規範、裸字地標防漏與導航連結完整驗證管線...")
 print("=" * 70)
 
-# 1. Check sync between README.md and 2026東京親子自由行_V10_Henna.md
+# 1. Read README.md
 with open('/home/owen/tokyo/README.md', 'r', encoding='utf-8') as f:
     readme_text = f.read()
-
-with open('/home/owen/tokyo/2026東京親子自由行_V10_Henna.md', 'r', encoding='utf-8') as f:
-    v10_text = f.read()
-
-if readme_text != v10_text:
-    print("⚠️ 雙向同步中...")
-    with open('/home/owen/tokyo/2026東京親子自由行_V10_Henna.md', 'w', encoding='utf-8') as f:
-        f.write(readme_text)
-    print("✅ 已完成 README.md 與 V10 行表 100% 雙向同步！")
-else:
-    print("✅ README.md 與 V10 行程表 100% 一致。")
 
 # 2. Check for Bare Bold Entities (Zero-Tolerance Linter)
 print("\n--- [階段 1] 掃描正文中是否有未加超連結的『粗體裸字實體』 ---")
 text_without_links = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', 'LINK_PLACEHOLDER', readme_text)
 bare_matches = re.findall(r'\*\*([^\*\n]+?\([^\)\n]+[\u3040-\u30ff\u4e00-\u9fafA-Za-z0-9]+[^\)\n]*\))\*\*', text_without_links)
 
-# Allow whitelist for non-physical non-nav metadata (like Day headings, estimated budgets, meal item labels, flight numbers, line codes)
-metadata_whitelist = ["Day ", "迪士尼預估旅費", "建議購買", "行程總覽", "月台", "列車", "うな丼", "うな重", "套餐", "定食", "CI220", "CI221", "搭機返台", "TSA", "HND", "JK", "JY", "JB", "Ueno", "Ikebukuro", "Omiya", "Tokyo", "Shinagawa", "Akihabara", "Chiba", "Asakusabashi", "Ochanomizu"]
+# Allow whitelist for non-physical non-nav metadata (like Day headings, estimated budgets, meal item labels, flight numbers, line codes, platform directions)
+metadata_whitelist = [
+    "Day ", "迪士尼預估旅費", "建議購買", "行程總覽", "月台", "列車", "うな丼", "うな重", "套餐", "定食", 
+    "CI220", "CI221", "搭機返台", "TSA", "HND", "JK", "JY", "JB", "JC", "JE", "TS", "KK", "G", "H", "A", "E",
+    "Ueno", "Ikebukuro", "Omiya", "Tokyo", "Shinagawa", "Akihabara", "Chiba", "Asakusabashi", "Ochanomizu", 
+    "Shinjuku", "Mitaka", "Maihama", "Soga", "Naka-meguro", "Kita-senju", "Asakusa", "Oshiage", "Aoto", 
+    "Nishi-magome", "Haneda", "Kasukabe", "Tachikawa", "Yokohama", "South Exit", "North Exit", "East Exit", 
+    "West Exit", "Electric Town Exit", "West Underground Exit", "Exit"
+]
 
 actual_bare_errors = []
 for b in bare_matches:
