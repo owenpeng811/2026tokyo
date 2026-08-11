@@ -626,6 +626,10 @@ def render_full_pwa_html(meta, days_data):
     # Day 1
     timeline_html += """    <!-- Day 1 Section -->
     <div class="day-section" id="day1-section">
+      <div class="day-overview-header">
+        <div class="day-overview-badge">📅 8/20 星期四 • Day 1</div>
+        <h2 class="day-overview-title">抵達東京 × 秋葉原慢遊</h2>
+      </div>
       <div class="sub-toggle-wrapper">
         <div class="sub-toggle-container">
           <button class="sub-toggle-btn active" onclick="switchDay1Plan('A')">🌟 Plan A：秋葉原漫遊（拍貼/扭蛋/壽司郎）</button>
@@ -653,6 +657,10 @@ def render_full_pwa_html(meta, days_data):
     # Day 2
     timeline_html += """    <!-- Day 2 Section -->
     <div class="day-section" id="day2-section" style="display: none;">
+      <div class="day-overview-header">
+        <div class="day-overview-badge">📅 8/21 星期五 • Day 2</div>
+        <h2 class="day-overview-title">雙線交織：上野漫遊 (長輩組) ＆ 迪士尼樂園 (親子組)</h2>
+      </div>
       <div class="sub-toggle-wrapper">
         <div class="sub-toggle-container">
           <button class="sub-toggle-btn active" id="day2-btn-parents" onclick="switchDay2Group('parents')">👵 長輩組：上野松坂屋 × 國立西洋美術館 × 鰻魚飯</button>
@@ -695,6 +703,10 @@ def render_full_pwa_html(meta, days_data):
     # Day 3
     timeline_html += """    <!-- Day 3 Section -->
     <div class="day-section" id="day3-section" style="display: none;">
+      <div class="day-overview-header">
+        <div class="day-overview-badge">📅 8/22 星期六 • Day 3</div>
+        <h2 class="day-overview-title">動漫盛宴 × 科學探險與阿美橫丁採買</h2>
+      </div>
 """
     for idx, it in enumerate(days_data[3]):
         timeline_html += build_card_html(f"d3-{idx}", it)
@@ -703,6 +715,10 @@ def render_full_pwa_html(meta, days_data):
     # Day 4
     timeline_html += """    <!-- Day 4 Section -->
     <div class="day-section" id="day4-section" style="display: none;">
+      <div class="day-overview-header">
+        <div class="day-overview-badge">📅 8/23 星期日 • Day 4</div>
+        <h2 class="day-overview-title">吉卜力童話 × 吉祥寺風格散步與 DIY 炸串</h2>
+      </div>
 """
     for idx, it in enumerate(days_data[4]):
         timeline_html += build_card_html(f"d4-{idx}", it)
@@ -711,6 +727,10 @@ def render_full_pwa_html(meta, days_data):
     # Day 5
     timeline_html += """    <!-- Day 5 Section -->
     <div class="day-section" id="day5-section" style="display: none;">
+      <div class="day-overview-header">
+        <div class="day-overview-badge">📅 8/24 星期一 • Day 5</div>
+        <h2 class="day-overview-title">下町風情 × 晴空塔水族館 × 新宿都廳百萬夜景</h2>
+      </div>
       <div class="sub-toggle-wrapper">
         <div class="sub-toggle-container">
           <button class="sub-toggle-btn active" id="day5-btn-planA" onclick="switchDay5Plan('A')">🌃 晴天 Plan A：新宿都廳夜景</button>
@@ -742,6 +762,10 @@ def render_full_pwa_html(meta, days_data):
     # Day 6
     timeline_html += """    <!-- Day 6 Section -->
     <div class="day-section" id="day6-section" style="display: none;">
+      <div class="day-overview-header">
+        <div class="day-overview-badge">📅 8/25 星期二 • Day 6</div>
+        <h2 class="day-overview-title">築地晨間美食巡禮 × 回程前往機場</h2>
+      </div>
 """
     for idx, it in enumerate(days_data[6]):
         timeline_html += build_card_html(f"d6-{idx}", it)
@@ -928,6 +952,33 @@ def render_full_pwa_html(meta, days_data):
       cursor: pointer;
       margin-left: 6px;
       text-decoration: none;
+    }}
+
+    .day-overview-header {{
+      margin: 10px 16px 14px;
+      padding: 12px 16px;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.03) 100%);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      backdrop-filter: blur(var(--blur-strength));
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    }}
+    .day-overview-badge {{
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--accent-coral);
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }}
+    .day-overview-title {{
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.4;
+      margin: 0;
     }}
 
     .sub-toggle-wrapper {{
@@ -1312,12 +1363,12 @@ def render_full_pwa_html(meta, days_data):
     </div>
 
     <nav class="day-tabs" id="dayTabs">
-      <button class="day-tab active" onclick="switchDay(1)">Day 1 (8/20)</button>
-      <button class="day-tab" onclick="switchDay(2)">Day 2 (8/21)</button>
-      <button class="day-tab" onclick="switchDay(3)">Day 3 (8/22)</button>
-      <button class="day-tab" onclick="switchDay(4)">Day 4 (8/23)</button>
-      <button class="day-tab" onclick="switchDay(5)">Day 5 (8/24)</button>
-      <button class="day-tab" onclick="switchDay(6)">Day 6 (8/25)</button>
+      <button class="day-tab active" onclick="switchDay(1)">D1 (8/20四)</button>
+      <button class="day-tab" onclick="switchDay(2)">D2 (8/21五)</button>
+      <button class="day-tab" onclick="switchDay(3)">D3 (8/22六)</button>
+      <button class="day-tab" onclick="switchDay(4)">D4 (8/23日)</button>
+      <button class="day-tab" onclick="switchDay(5)">D5 (8/24一)</button>
+      <button class="day-tab" onclick="switchDay(6)">D6 (8/25二)</button>
     </nav>
   </header>
 
