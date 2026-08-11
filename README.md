@@ -586,12 +586,12 @@
 
 ### **11:30－12:45 🍽️ 午餐：天丼てんや**
 
-> * 首選餐廳：[**天丼てんや (天丼てんや 八重洲店)**](https://www.google.com/maps/search/?api=1&query=35.6790668,139.7679772&query_place_id=ChIJzQEVm_yLGGAR1QSl3jr9CNU) (八重洲地下街 南1號) 享用日式炸蝦天丼（人均 ¥560～¥850）。出餐極快、平價美味、長輩小孩皆愛！
+> * 首選餐廳：[**天丼てんや (天丼てんや 八重洲店)**](https://www.google.com/maps/search/?api=1&query=35.6790668,139.7679772&query_place_id=ChIJzQEVm_yLGGAR1QSl3jr9CNU) (八重洲地下街 南1號) 享用日式平價炸蝦天丼（推薦：特選海老天丼、野菜天丼、兒童迷你烏龍麵套餐），人均約 ¥650～¥1,100。出餐極快、平價美味、長輩小孩皆愛！
 <details>
 <summary>🍽️ 查看東京車站午餐備案（KITTE茶泡飯 / 燕子漢堡排）（點擊展開）</summary>
 
-> * 備案餐廳 1：[**だし茶漬け えん (だし茶漬け＋肉うどん えん KITTE丸の内店)**](https://www.google.com/maps/search/?api=1&query=35.6792913,139.7653382&query_place_id=ChIJqVS6VgCLGGAR-5BoRnVee14) (KITTE丸の内 B1F) 和風高湯茶泡飯（人均 ¥850～¥1,100，就在 KITTE 6F 下方 B1F）。  
-> * 備案餐廳 2：[**燕子烤肉漢堡排 (つばめグリル 大丸東京店)**](https://www.google.com/maps/search/?api=1&query=35.6812026,139.7678523&query_place_id=ChIJ60m9202LGGAR79K37s2o_a0) (大丸東京店 12F) 經典洋食漢堡排。  
+> * 備案餐廳 1：[**だし茶漬け えん (だし茶漬け＋肉うどん えん KITTE丸の内店)**](https://www.google.com/maps/search/?api=1&query=35.6792913,139.7653382&query_place_id=ChIJqVS6VgCLGGAR-5BoRnVee14) (KITTE丸の内 B1F) 享用和風高湯茶泡飯（推薦：鯛魚高湯茶泡飯、鮭魚親子茶泡飯、肉烏龍麵），人均約 ¥850～¥1,100。  
+> * 備案餐廳 2：[**燕子烤肉漢堡排 (つばめグリル 大丸東京店)**](https://www.google.com/maps/search/?api=1&query=35.6812026,139.7678523&query_place_id=ChIJ60m9202LGGAR79K37s2o_a0) (大丸東京店 12F) 享用經典日式洋食漢堡排（推薦：特製鋁箔包烤漢堡排、和風蘿蔔泥漢堡排），人均約 ¥1,500～¥2,300。  
 </details>
 
 ### **12:50 🚇 前往上野**
@@ -655,14 +655,10 @@
 
 ### **19:20 🍽️ 晚餐：吉野家（若下午未吃拉麵）**
 
-> * 首選餐廳：[**吉野家 (吉野家 浅草橋店)**](https://www.google.com/maps/search/?api=1&query=35.697878,139.786407&query_place_id=ChIJM2s0MnaPGGARLSDkTkqBlG4)  
-> 推薦餐點：牛丼、牛燒肉定食、親子丼。人均：約 ¥500～900。  
-> * 備案餐廳：[**名代 宇奈とと (名代 宇奈とと 上野店)**](https://www.google.com/maps/search/?api=1&query=35.7111357,139.7748663&query_place_id=ChIJ6RMcXZ6OGGARLLk8PdeakXs) 享用鰻魚飯（推薦：鰻魚飯），人均約 ¥640～¥1,100。  
-> * 備案餐廳：[**松屋 (松屋 浅草橋店)**](https://www.google.com/maps/search/?api=1&query=35.696998,139.786388&query_place_id=ChIJW_fJurOOGGARyv4l77z-WHQ)  
-> 推薦餐點：牛燒肉定食、牛丼、咖哩、漢堡排定食。人均：約 ¥500～900。  
-> * 備案餐廳：[**拉麵 ろく月 (らーめん ろく月)**](https://www.google.com/maps/search/?api=1&query=35.6988822,139.7853036&query_place_id=ChIJJXBZm7GOGGARs9xs2jSt0lI)  
-> 推薦餐點：濃厚雞白湯拉麵、特製叉燒拉麵。人均：約 ¥1,000～1,500。  
-> 優點：淺草橋高人氣拉麵店，雞白湯風味濃郁，若排隊人數不多，非常值得一試。
+> * 首選餐廳：[**吉野家 (吉野家 浅草橋店)**](https://www.google.com/maps/search/?api=1&query=35.697878,139.786407&query_place_id=ChIJM2s0MnaPGGARLSDkTkqBlG4) (淺草橋站東口旁) 享用經典日式牛丼與定食（推薦：特選牛丼、牛燒肉定食、滑蛋牛肉丼），人均約 ¥500～¥900。  
+> * 備案餐廳 1：[**松屋 (松屋 浅草橋店)**](https://www.google.com/maps/search/?api=1&query=35.696998,139.786388&query_place_id=ChIJW_fJurOOGGARyv4l77z-WHQ) (淺草橋站東口前) 享用平價日式快餐（推薦：牛燒肉定食、蔥蛋牛丼、原創咖哩飯），人均約 ¥500～¥900。  
+> * 備案餐廳 2：[**拉麵 ろく月 (らーめん ろく月)**](https://www.google.com/maps/search/?api=1&query=35.6988822,139.7853036&query_place_id=ChIJJXBZm7GOGGARs9xs2jSt0lI) (淺草橋 2-4-5) 享用高人氣濃郁雞白湯拉麵（推薦：特製濃厚豚骨雞白湯拉麵、炙燒叉燒拉麵），人均約 ¥1,000～¥1,500。  
+> * 備案餐廳 3：[**名代 宇奈とと (名代 宇奈とと 上野店)**](https://www.google.com/maps/search/?api=1&query=35.7111357,139.7748663&query_place_id=ChIJ6RMcXZ6OGGARLLk8PdeakXs) (上野/御徒町) 享用炭火現烤平價鰻魚飯（推薦：うな丼平價鰻魚丼、うな重厚切大片鰻魚重），人均約 ¥640～¥1,100。
 
 ### **19:20 🍩 外帶點心宵夜（若下午已吃拉麵）**
 
@@ -854,9 +850,9 @@
 > * 目標地點：[**東京晴空街道 (東京ソラマチ)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E)
 > * 15:30－16:40 繼續悠閒漫逛晴空街道商場、採買各式日本特色伴手禮。  
 > * 16:40－17:30 🍽️ 晚餐：  
->   * 首選餐廳：[**宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用烏龍麵（人均約 ¥700～¥1,000）。  
->   * 備案餐廳：[**一風堂 (一風堂 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用拉麵（人均約 ¥900～¥1,300）。  
->   * 備案餐廳：[**松屋 (松屋 押上店)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8142155&query_place_id=ChIJmeev5CmPGGARBOtl8Si0G2o) (押上站 A1 出口) 享用平價牛丼（人均約 ¥500～¥800）。  
+>   * 首選餐廳：[**宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用讚岐烏龍麵（推薦：牛肉溫玉烏龍麵、炸蝦天婦羅、豆皮烏龍麵），人均約 ¥700～¥1,000。  
+>   * 備案餐廳 1：[**一風堂 (一風堂 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用經典博多豚骨拉麵（推薦：白丸元味、赤丸新味、特製一口煎餃），人均約 ¥900～¥1,300。  
+>   * 備案餐廳 2：[**松屋 (松屋 押上店)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8142155&query_place_id=ChIJmeev5CmPGGARBOtl8Si0G2o) (押上站 A1 出口) 享用平價日式定食與牛丼（推薦：牛燒肉定食、蔥蛋牛丼、原創咖哩飯），人均約 ¥500～¥800。  
 > * 17:40 🚇 返程：於 [**都營 押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)（**A20**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **3 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程僅約 6 分鐘）。由 A1 出口 出站步行回飯店休息。  
 > * 18:00 回飯店休息、打包整理行李。
 
@@ -885,13 +881,10 @@
 
 ### **08:15－10:00 🐟 築地場外市場美食散策**
 
-> * 趁著早晨人潮還沒到最擁擠的時候，前往 築地場外市場（築地）享用鮮食小吃（推薦：玉子燒、和牛串、草莓大福）。  
-> * 首選餐廳：[**築地山長 (山長 玉子焼)**](https://www.google.com/maps/search/?api=1&query=35.66512609999999,139.77007&query_place_id=ChIJpYBA196LGGARHJnwxaxGNKg)  
-> 人均：約 ¥1,500～2,000  
-> * 建議路線：築地交叉口 → 波除稻荷神社 → 玉子燒（山長）→ 和牛串 → 海鮮美食區 → 乾貨餐具街  
-> * 景點與商店說明：  
->   * 玉子燒名店：首推 [**築地山長 (山長 玉子焼)**](https://www.google.com/maps/search/?api=1&query=35.66512609999999,139.77007&query_place_id=ChIJpYBA196LGGARHJnwxaxGNKg)（備選：[[**築地丸武 (丸武 玉子焼)**](https://www.google.com/maps/search/?api=1&query=35.6652495,139.7702808&query_place_id=ChIJb328XZ-OGGAR5e4o-gq0F97)]()），口感香嫩，現做現吃約 ¥150～200。  
->   * 必吃美食：推薦現烤和牛串、烤干貝、草莓大福等，可依喜好自由搭配，人均約 ¥1,500～2,000。  
+> * 趁著早晨人潮還沒到最擁擠的時候，前往 築地場外市場（築地）享用鮮食小吃。  
+> * 首選店家：[**築地山長 (山長 玉子焼)**](https://www.google.com/maps/search/?api=1&query=35.66512609999999,139.77007&query_place_id=ChIJpYBA196LGGARHJnwxaxGNKg) (築地場外市場) 享用現煎日式厚蛋燒與街邊小吃（推薦：現煎熱騰騰玉子燒、炙燒和牛串、烤帆立貝、草莓大福），人均約 ¥1,000～¥2,000。  
+> * 備選店家：[**築地丸武 (丸武 玉子焼)**](https://www.google.com/maps/search/?api=1&query=35.6652495,139.7702808&query_place_id=ChIJb328XZ-OGGAR5e4o-gq0F97) (築地場外市場) 享用百年傳承玉子燒（推薦：特製厚煎玉子燒），人均約 ¥150～¥300。  
+> * 建議路線：築地交叉口 → 波除稻荷神社 → 玉子燒（山長/丸武）→ 和牛串 → 海鮮美食區 → 乾貨餐具街  
 >   * 波除稻荷神社：守護築地市場的小巧神廟，入口處巨大的獅子頭神像極具特色。
 
 ### **10:00－10:15 🚇 返回淺草橋飯店**
