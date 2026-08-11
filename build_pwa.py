@@ -323,7 +323,7 @@ def parse_v10_markdown():
         'flight_back': "回程：CI221 羽田(HND) → 松山(TSA) 14:30－16:55",
         'hotel_name': "海茵娜酒店东京浅草桥 (Henn na Hotel Tokyo Asakusabashi)",
         'hotel_addr': "1-10-5 Asakusabashi, Taito-ku, Tokyo 111-0053, JAPAN",
-        'hotel_jp_addr': "東京都台東区浅草橋1-10-5 (JR・都営浅草橋駅徒歩2分)"
+        'hotel_jp_addr': "東京都台東区浅草橋1-10-5"
     }
 
     days_data = {
