@@ -295,12 +295,22 @@
 
 #### **10:20－11:30 ☕ 室內基地營避暑**
 
-> * 10:00 百貨營業，兩人先至基地營咖啡廳會合歇腳，吹冷氣避開逐漸升高的氣溫：  
->   * 首選基地營：[**DEAN & DELUCA CAFE (DEAN & DELUCA CAFE パルコヤ上野)**](https://www.google.com/maps/search/?api=1&query=35.7068605,139.7733596&query_place_id=ChIJYw_RZZyOGGARkQYqM_0g4r8) (PARCO_ya 1F，座位舒適好找）。  
->     * 💡 **長輩點餐祕訣**：櫃台有大字菜單，手指照片說 "Hot Coffee" 或 "Latte"，手指玻璃櫃裡的點心即可。  
->   * 備案基地營：[**喫茶 Tricolore (喫茶トリコロール 松坂屋上野店)**](https://www.google.com/maps/search/?api=1&query=35.7078274,139.7733596&query_place_id=ChIJp0K6QVOLGGARzD9G_rV4j0s) (松坂屋本館 4F，復古日式優雅咖啡廳）。  
->     * 💡 **長輩點餐祕訣**：入座後服務生送上彩色大圖菜單，手指熱咖啡與招牌復古布丁即可。  
-> * **室內自由活動**：可在咖啡廳悠閒品嚐咖啡與銅鑼燒，或逛松坂屋上野店地下美食街、書店與 PARCO_ya 精緻商場。
+> * 10:00 百貨營業，兩人先至基地營會合歇腳，吹冷氣避開逐漸升高的氣溫：  
+>   * 🥇 **首選基地營：[客美多咖啡 (コメダ珈琲店 上野広小路店)](https://www.google.com/maps/search/?api=1&query=35.7087031,139.7729243&query_place_id=ChIJe_0tCHGPGGARZjMuzjwV0Jc)** (上野東洋大樓 2F，松坂屋斜對面，步行約 3～4 分鐘/約 240m；設有沙發型座位，咖啡廳型態適合坐下喝飲料休息，熱咖啡/紅茶約 ¥500～¥700）。（[📄 點此看官網朝食菜單](https://www.komeda.co.jp/menu/morning_komeda.html)）  
+>     * 💡 **長輩點餐與付款祕訣（桌邊點餐・11:00前朝食服務・餐後櫃台結帳）**：  
+>       1. 入座後由店員送上冰水與圖文菜單，手指照片點選熱咖啡（コメダブレンド）或熱紅茶。  
+>       2. **上午 11:00 前點任一飲品享「選べるモーニング」**：可免費選配麵包（「山食パン」吐司 或「ローブパン」圓麵包）與配料（「定番ゆで玉子」水煮蛋、「手作りたまごペースト」蛋沙拉醬 或「コメダ特製おぐらあん」紅豆泥）。  
+>       3. 餐點由店員端送上桌並附帳單。  
+>       4. 用餐完畢後拿著帳單至門口收銀櫃台，以日幣現金、Suica 等交通系 IC 卡或信用卡結帳。  
+>   * 🥈 **備案基地營：[聖瑪克咖啡 (サンマルクカフェ 御徒町南口店)](https://www.google.com/maps/search/?api=1&query=35.7070618,139.7740642&query_place_id=ChIJC9p7GKCOGGARZC2rsIDVwSU)** (靠近 JR 御徒町站，從松坂屋/PARCO_ya 步行約 1～2 分鐘/約 70～130m；官方確認共 65 席，熱咖啡/紅茶約 ¥360～¥420 起，招牌點心「チョコクロ」巧克力可頌約 ¥220～¥240，人均約 ¥400～¥650）。  
+>     * 💡 **長輩點餐與付款祕訣（櫃台前付款・自行取餐）**：  
+>       1. 進店後先至保溫點心櫃夾取「チョコクロ (巧克力可頌)」（或直接至櫃台）。  
+>       2. 於收銀櫃台手指圖文菜單點選飲品（如「ブレンドコーヒー Hot」、「紅茶 Hot」），告知杯型（S/M）。  
+>       3. 於櫃台直接以日幣現金、Suica 等交通系 IC 卡或信用卡付款。  
+>       4. 在取餐區領取托盤餐點後，自行入座享用。  
+>   * 🥉 **館內免費休息點：[松坂屋 (松坂屋 上野店)](https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o) 8F／RF 休憩所** (松坂屋本館 8F/RF 設有免費休憩空間與座位，開放時間為 10:00～18:30，無低消零消費）。  
+>     * ⚠️ **使用注意事項**：此處為百貨館內短暫休憩空間，適合逛累後坐下歇腳；官方未開放作為外帶便當或正餐之用餐場所，請遵守現場規範僅作短暫休息。  
+> * **室內自由活動**：可在咖啡廳悠閒品嚐咖啡，或逛松坂屋上野店地下美食街、書店與 PARCO_ya 精緻商場。
 
 #### **11:30－12:45 🍽️ 午餐：吉野家 / 吉豚屋**
 
@@ -332,7 +342,7 @@
 >   * **西洋美術館戶外庭園**：免費近距離欣賞羅丹世界名作「地獄之門」與「沉思者」青銅雕塑。  
 >   * [**東京文化會館 (東京文化会館)**](https://www.google.com/maps/search/?api=1&query=35.7144707,139.7751315&query_place_id=ChIJyXG_6pyOGGAR2u4o-gq0F88)：欣賞經典現代主義音樂廳建築。  
 >   * [**上野公園大噴水廣場 (上野恩賜公園 大噴水)**](https://www.google.com/maps/search/?api=1&query=35.7147557,139.7745778&query_place_id=ChIJqZzHZZyOGGARkQYqM_0g4rA)：於綠蔭長椅上坐著吹微風、看噴泉放鬆。  
-> * 漫步走回松坂屋上野店/御徒町。
+> * 傍晚漫步走向阿美橫丁／晚餐地點。
 
 ---
 
@@ -355,7 +365,7 @@
 #### **11:20－12:00 ☕ 室內基地營避雨與咖啡休息**
 
 > * 慢步走回松坂屋上野店與 PARCO_ya（兩棟全室內連通）：
-> * 前往 [**喫茶 Tricolore (喫茶トリコロール 松坂屋上野店)**](https://www.google.com/maps/search/?api=1&query=35.7078274,139.7733596&query_place_id=ChIJp0K6QVOLGGARzD9G_rV4j0s) (松坂屋 4F) 或 [**DEAN & DELUCA CAFE (DEAN & DELUCA CAFE パルコヤ上野)**](https://www.google.com/maps/search/?api=1&query=35.7068605,139.7733596&query_place_id=ChIJYw_RZZyOGGARkQYqM_0g4r8) (PARCO_ya 1F) 喝熱茶/手沖咖啡，舒服坐著避雨休息。
+> * 前往 [**客美多咖啡 (コメダ珈琲店 上野広小路店)**](https://www.google.com/maps/search/?api=1&query=35.7087031,139.7729243&query_place_id=ChIJe_0tCHGPGGARZjMuzjwV0Jc) 或 [**聖瑪克咖啡 (サンマルクカフェ 御徒町南口店)**](https://www.google.com/maps/search/?api=1&query=35.7070618,139.7740642&query_place_id=ChIJC9p7GKCOGGARZC2rsIDVwSU) 喝熱茶/咖啡休息，或至 [**松坂屋 (松坂屋 上野店)**](https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o) 8F／RF 休憩所免費坐著避雨歇腳。
 
 #### **12:00－13:00 🍽️ 午餐：吉野家 / 吉豚屋**
 
@@ -403,11 +413,15 @@
 
 #### **18:10－18:30 🚆 返回淺草橋**
 
-> * 從 [**松坂屋上野店 (松坂屋 上野店)**](https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o) 步行約 2 分鐘至 [**JR 御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04**） 北口進站。
-> * 於 [**JR 御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04**） 進站後前往 **🟢 JR 山手線（JY）** 月台：
->   * ⚠️ **月台方向確認**：請認明月台指標目的地方向為「**東京 (Tokyo) ／ 品川 (Shinagawa)**」，看到這兩個站名即代表方向正確。
->   * 💡 **搭車防呆判斷**：搭車後下一站應為「**秋葉原 (Akihabara)**」，若列車下一站顯示「上野 (Ueno)」表示搭錯方向，請立即下車至對面月台改搭反方向列車。
-> * 搭乘 **JR 山手線 (綠色列車)** 1 站至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)。
+> * **依晚餐／活動地點就近進站**：
+>   * **若於 宇奈とと 用餐（首選）**：出店往北步行僅約 **2 分鐘（約 170 公尺）** 即直達 [**JR 上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw)（**JY05**） **不忍口** 進站。
+>   * **若於 松屋 用餐（備案）**：出店往北步行約 **4 分鐘（約 350 公尺）** 至 [**JR 上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw)（**JY05**） 不忍口，或往南步行約 **5 分鐘（約 390 公尺）** 至 [**JR 御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04**） 北口進站。
+>   * **若留在 松坂屋 / PARCO_ya 逛街**：出百貨步行約 **2 分鐘（約 120 公尺）** 至 [**JR 御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04**） 北口進站。
+> * **搭車與乘車方向（兩站搭法完全相同且最順暢）**：
+>   * 於 **JR 上野站** 或 **JR 御徒町站** 進站後前往 **🟢 JR 山手線（JY）** 或 **🔵 JR 京濱東北線（JK）** 月台：
+>     * ⚠️ **月台方向確認**：請認明月台指標目的地方向為「**東京 (Tokyo) ／ 品川 (Shinagawa)**」，看到這兩個站名即代表方向正確。
+>     * 💡 **搭車防呆判斷**：搭車後下一站應為「御徒町」或「秋葉原」，若列車往「鶯谷 (Uguisudani) / 日暮里」方向表示搭錯，請立即下車至對面月台改搭反方向列車。
+>   * 搭乘 **JR 山手線 (綠色列車)** 或 **JR 京濱東北線 (水藍色列車)** 1～2 站至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)。
 
 > 📸 【辨識：秋葉原站轉乘指標（最重要）】
 > ![秋葉原站中央・總武線 6 號月台往千葉方向指標](./assets/images/akihabara_transfer_chiba_p6.jpg)
@@ -501,7 +515,7 @@
 
 > * 目標地點：[**秋葉原站東口 (秋葉原駅東口交通広場)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7741315&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F92)
 > * ✅ **Plan A（首選：直達高速巴士，免轉乘一路睡回秋葉原）**：
->   * **乘車地點**：出園剪票口後往右前方步行約 2 分鐘，至迪士尼樂園正門外「東巴士總站東面（Bus Terminal East）」[**東京迪士尼樂園東巴士總站 1 號站牌 (東京ディズニーランド・バスターミナル・イースト 1番のりば)**](https://www.google.com/maps/search/?api=1&query=35.6364946,139.8807661&query_place_id=ChIJ3w8y8xN9GGARe5_gvaqDCMo)（[短網址備用導航 🔗](https://maps.app.goo.gl/EkzBtj7Q6RDJCh2C6)；地面與立柱有明顯標示「1番：秋葉原駅行」；可參考 [巴士總站設施與動線介紹文](https://secure.j-bus.co.jp/busrepo/2025/06/23/post-32156/)）。  
+>   * **乘車地點**：出園剪票口後往右前方步行約 2 分鐘，至迪士尼樂園正門外「東巴士總站東面（Bus Terminal East）」[**東京迪士尼樂園東巴士總站 1 號站牌 (東京ディズニーランド・バスターミナル・イースト 1番のりば)**](https://www.google.com/maps/search/?api=1&query=35.6364946,139.8807661&query_place_id=ChIJ3w8y8xN9GGARe5_gvaqDCMo)（[短網址備用導航 🔗](https://maps.app.goo.gl/EkzBtj7Q6RDJCh2C6)；地面與立柱有明顯標示「1番：秋葉原駅行」）。  
     ![東京迪士尼樂園東巴士總站 1 號公車站牌](https://secure.j-bus.co.jp/busrepo/wp-content/uploads/2025/06/IMG20250513080949-1024x768.jpg)
 >   * **巴士特徵與路線**：搭乘京成巴士 (Keisei Bus) 或東京灣城市交通 (Tokyo Bay City Bus) 高速巴士直達 **秋葉原站東口**。車程約 35～45 分鐘，全家每人皆有獨立舒適大座席，免除深夜帶著疲憊小孩擠電車與轉乘的辛苦。  
 >   * **抵達與轉乘**：抵達秋葉原站東口後，步行 1 分鐘進 **JR 秋葉原站（JB19）** 閘門，於 5F 6 號月台搭乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **1 站**（車程約 2 分鐘）即返抵 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）。
