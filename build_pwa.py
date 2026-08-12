@@ -154,6 +154,10 @@ def format_inline_markdown(text):
         lbl = match.group(1)
         raw_url = match.group(2)
         clean_u = clean_url(raw_url)
+        # If the URL is already an explicit external resource or doc (e.g. tokyodisneyresort.jp, komeda menu, etc.) or label contains reference words, keep raw URL!
+        if any(k in lbl for k in ["點此看", "官網", "菜單", "介紹文", "指南", "短網址", "備用導航"]) or "tokyodisneyresort.jp" in raw_url or "komeda.co.jp" in raw_url or not ("google.com/maps" in raw_url or "maps.app.goo.gl" in raw_url or "maps.google" in raw_url):
+            return f'<a class="map-link-inline" href="{clean_u}" target="_blank">{lbl} 🔗</a>'
+            
         for k in sorted(MASTER_NAV_MAP.keys(), key=lambda x: -len(x)):
             if k in lbl:
                 clean_u = MASTER_NAV_MAP[k]
@@ -278,25 +282,31 @@ CUSTOM_SUMMARIES_V10 = {
     (2, "室內基地營避暑"): f"<strong>🥇 首選：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('客美多咖啡 (コメダ珈琲店 上野広小路店)', '')}\" target=\"_blank\">客美多咖啡 上野広小路店 🔗</a>（沙發座/11:00前朝食，¥500-700）。<br><strong>🥈 備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('聖瑪克咖啡 (サンマルクカフェ 御徒町南口店)', '')}\" target=\"_blank\">聖瑪克咖啡 御徒町南口店 🔗</a>（¥400-650）。<br><strong>🥉 免費：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('松坂屋 (松坂屋 上野店)', '')}\" target=\"_blank\">松坂屋 8F/RF 休憩所 🔗</a>（免費短暫歇腳）。",
     (2, "進入室內基地營避暑"): f"<strong>🥇 首選：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('客美多咖啡 (コメダ珈琲店 上野広小路店)', '')}\" target=\"_blank\">客美多咖啡 上野広小路店 🔗</a>（沙發座/11:00前朝食，¥500-700）。<br><strong>🥈 備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('聖瑪克咖啡 (サンマルクカフェ 御徒町南口店)', '')}\" target=\"_blank\">聖瑪克咖啡 御徒町南口店 🔗</a>（¥400-650）。<br><strong>🥉 免費：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('松坂屋 (松坂屋 上野店)', '')}\" target=\"_blank\">松坂屋 8F/RF 休憩所 🔗</a>（免費短暫歇腳）。",
     (2, "室內基地營避雨與咖啡休息"): f"<strong>首選：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('客美多咖啡 (コメダ珈琲店 上野広小路店)', '')}\" target=\"_blank\">客美多咖啡 🔗</a> 或 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('聖瑪克咖啡 (サンマルクカフェ 御徒町南口店)', '')}\" target=\"_blank\">聖瑪克咖啡 🔗</a> 喝熱茶/咖啡休息，或至 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('松坂屋 (松坂屋 上野店)', '')}\" target=\"_blank\">松坂屋 8F 休憩所 🔗</a> 免費避雨歇腳。",
-    (2, "午餐"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('吉野家 (吉野家 御徒町駅前店)', '')}\" target=\"_blank\">吉野家 御徒町駅前店 🔗</a> (松坂屋斜對面) 享用熱騰騰日式定食與丼飯（人均 ¥600～¥1,000）。<br><strong>備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('吉豚屋 (かつや 御徒町南口店)', '')}\" target=\"_blank\">吉豚屋 御徒町南口店 🔗</a> 現炸豬排定食與熱豚汁（人均 ¥700～¥1,100）。",
+    (2, "午餐：吉野家 / 吉豚屋"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('吉野家 (吉野家 御徒町駅前店)', '')}\" target=\"_blank\">吉野家 御徒町駅前店 🔗</a> (松坂屋斜對面) 享用熱騰騰日式定食與丼飯（人均 ¥600～¥1,000）。<br><strong>備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('吉豚屋 (かつや 御徒町南口店)', '')}\" target=\"_blank\">吉豚屋 御徒町南口店 🔗</a> 現炸豬排定食與熱豚汁（人均 ¥700～¥1,100）。",
     (2, "正午酷暑亮點：國立西洋美術館"): f"<strong>室內避暑亮點：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('國立西洋美術館 (国立西洋美術館)', '')}\" target=\"_blank\">🏛️ 國立西洋美術館 🔗</a> 欣賞羅丹雕塑與莫內睡蓮（<strong>滿 65 歲長輩出示護照常設展免費入場</strong>，冷氣極強！）。",
     (2, "參觀國立西洋美術館"): f"<strong>室內避暑亮點：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('國立西洋美術館 (国立西洋美術館)', '')}\" target=\"_blank\">🏛️ 國立西洋美術館 🔗</a> 欣賞羅丹雕塑與莫內睡蓮（<strong>滿 65 歲長輩出示護照常設展免費入場</strong>，冷氣極強！）。",
     (2, "傍晚戶外悠閒漫步"): f"前往 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('上野公園大噴水廣場 (上野恩賜公園 大噴水)', '')}\" target=\"_blank\">上野公園大噴水廣場 🔗</a> 林蔭散步，傍晚漫步走向阿美橫丁/晚餐地點。",
     (2, "傍晚噴水廣場林蔭散步"): f"前往 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('上野公園大噴水廣場 (上野恩賜公園 大噴水)', '')}\" target=\"_blank\">上野公園大噴水廣場 🔗</a> 林蔭散步，傍晚漫步走向阿美橫丁/晚餐地點。",
-    (2, "晚餐"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('名代 宇奈とと (名代 宇奈とと 上野店)', '')}\" target=\"_blank\">🐟 名代 宇奈とと 上野店 🔗</a> (JR高架旁) 平價鰻魚飯（うな丼 ¥640、うな重 ¥1,060）。<br><strong>備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('松屋 (松屋 上野店)', '')}\" target=\"_blank\">松屋 上野店 🔗</a> (日式定食附熱味噌湯，人均 ¥550-950)。",
-    (2, "返回淺草橋"): f"<strong>就近進站：</strong>宇奈とと步行 2 分鐘直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 上野站 (上野駅)', '')}\" target=\"_blank\">JR 上野站不忍口 🔗</a>（或從松坂屋步行 2 分鐘至 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 御徒町站 (御徒町駅)', '')}\" target=\"_blank\">JR 御徒町站 🔗</a>），搭山手線至秋葉原轉總武線 1 站回淺草橋。",
+    (2, "晚餐：名代 宇奈とと / 松屋"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('名代 宇奈とと (名代 宇奈とと 上野店)', '')}\" target=\"_blank\">🐟 名代 宇奈とと 上野店 🔗</a> (JR高架旁) 平價鰻魚飯（うな丼 ¥640、うな重 ¥1,060）。<br><strong>備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('松屋 (松屋 上野店)', '')}\" target=\"_blank\">松屋 上野店 🔗</a> (日式定食附熱味噌湯，人均 ¥550-950)。",
+    (2, "返回淺草橋（長輩組）"): f"<strong>就近進站：</strong>宇奈とと步行 2 分鐘直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 上野站 (上野駅)', '')}\" target=\"_blank\">JR 上野站不忍口 🔗</a>（或從松坂屋步行 2 分鐘至 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 御徒町站 (御徒町駅)', '')}\" target=\"_blank\">JR 御徒町站 🔗</a>），搭山手線至秋葉原轉總武線 1 站回淺草橋。",
 
     # Day 2 Kids (Disney)
     (2, "前往東京迪士尼樂園"): f"淺草橋 ➔ 秋葉原 (總武線) ➔ 八丁堀 (地鐵日比谷線) ➔ <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 舞濱站 (舞浜駅)', '')}\" target=\"_blank\">舞濱站 🔗</a> (JR京葉線)。全程設有手扶梯與電梯，避開東京車站巨型轉乘。",
     (2, "抵達樂園門口排隊與入園"): f"<strong>核心策略：免費＋合理視野＋最大化遊樂時間</strong>。入園後以 <strong>40周年 Priority Pass（免費 PP）</strong> 為主要導航，搭配 Entry Request 與周邊設施動態遊玩。",
     (2, "動態遊玩主時段"): f"<strong>本日主體：遊樂設施</strong>。以免費 PP 為核心導航，擴散遊玩所在區域周邊設施。搭配 Notion「迪士尼體驗 Database」即時查看推薦項目與排隊時間。",
+    (2, "午餐窗口（彈性不跨區）"): f"<strong>遊玩 > 吃飯，不預約、不跨區</strong>。使用 Disney App Mobile Order 就近點餐取餐，或找附近行動餐車解決。",
     (2, "午餐窗口"): f"<strong>遊玩 > 吃飯，不預約、不跨區</strong>。使用 Disney App Mobile Order 就近點餐取餐，或找附近行動餐車解決。",
+    (2, "米奇魔法音樂世界"): f"全室內劇場演出，雨天亦非常適合。<strong>抽到合理時段才去，不為其破壞遊樂節奏</strong>。",
+    (2, "日間遊行 Harmony in Color"): f"<strong>有空且晴天才看</strong>，雨天優先放棄，不提前長時間卡位。",
+    (2, "晚餐窗口（快速補充體力）"): f"<strong>快速補充體力</strong>。目前位置附近以 App Mobile Order 下單或買行動餐車，不為吃飯特別跑遠。",
     (2, "晚餐窗口"): f"<strong>快速補充體力</strong>。目前位置附近以 App Mobile Order 下單或買行動餐車，不為吃飯特別跑遠。",
-    (2, "夜間遊行「夢之光」免費卡位"): f"<strong>18:15～18:30 開始卡位</strong>。城堡前 Plaza 附近免費區，不追求最前排神位，以合理視野換取下午遊玩時間。",
+    (2, "跳跳熱舞"): f"戶外舞台演出，<strong>僅優先考慮 18:00 場次</strong>，雨天降低優先度。",
+    (2, "夜間遊行「夢之光」免費卡位"): f"<strong>18:15～18:30 開始卡位</strong>。<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('灰姑娘城堡 (シンデレラ城)', '')}\" target=\"_blank\">灰姑娘城堡 🔗</a> 前 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('城堡前廣場 (プラザ)', '')}\" target=\"_blank\">Plaza 廣場 🔗</a> 附近免費區，以合理視野換取下午遊玩時間。",
     (2, "東京迪士尼樂園電子大遊行「夢之光」"): f"<strong>固定核心／建議必看</strong>。全長約 45 分鐘，璀璨燈光花車與經典音樂遊行，全家坐著放鬆休息。",
-    (2, "前往 Reach for the Stars 免費鑑賞區"): f"遊行結束後直接移動至 <strong>Partners Statue（夥伴銅像）附近</strong> 或城堡前 Plaza 中後方免費區。",
+    (2, "前往 Reach for the Stars 免費鑑賞區"): f"遊行結束後直接移動至 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('夥伴雕像 (パートナーズ像)', '')}\" target=\"_blank\"><strong>Partners Statue（夥伴銅像）</strong> 🔗</a> 附近或 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('城堡前廣場 (プラザ)', '')}\" target=\"_blank\">Plaza 廣場 🔗</a> 中後方免費區。",
     (2, "城堡投影秀 Reach for the Stars"): f"<strong>固定核心（雨天正常演出才看）</strong>。Everlasting Dreams 夏季特別版，3D 燈光投影與焰火震撼演出。",
     (2, "世界市集紀念品採買與出園"): f"於 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('世界市集 (ワールドバザール)', '')}\" target=\"_blank\">世界市集 🔗</a> 採買紀念品與伴手禮，前往東巴士總站搭車。",
+    (2, "返回淺草橋（親子組）"): f"<strong>首選（直達巴士）：</strong>出園至巴士總站 1 號站牌搭乘直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('秋葉原站東口 (秋葉原駅東口交通広場)', '')}\" target=\"_blank\"><strong>秋葉原站東口</strong> 🔗</a> 的高速巴士（車程約 35-45 分鐘，上車有座位一路睡回秋葉原），轉總武線 1 站回淺草橋。<br><strong>備案：</strong>舞濱 ➔ 八丁堀 (京葉線) ➔ 秋葉原 (日比谷線) ➔ 淺草橋。",
     (2, "返回淺草橋"): f"<strong>首選（直達巴士）：</strong>出園至巴士總站 1 號站牌搭乘直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('秋葉原站東口 (秋葉原駅東口交通広場)', '')}\" target=\"_blank\"><strong>秋葉原站東口</strong> 🔗</a> 的高速巴士（車程約 35-45 分鐘，上車有座位一路睡回秋葉原），轉總武線 1 站回淺草橋。<br><strong>備案：</strong>舞濱 ➔ 八丁堀 (京葉線) ➔ 秋葉原 (日比谷線) ➔ 淺草橋。",
 
     # Day 3
@@ -431,7 +441,7 @@ def parse_v10_markdown():
             summary = CUSTOM_SUMMARIES_V10.get((2, slot_title))
             if not summary:
                 for (d, t), sm in CUSTOM_SUMMARIES_V10.items():
-                    if d == 2 and (t in slot_title or slot_title in t):
+                    if d == 2 and ("午餐窗口" not in t and "晚餐窗口" not in t and "迪士尼" not in t and "遊玩" not in t) and (t in slot_title or slot_title in t):
                         summary = sm
                         break
             if not summary:
@@ -471,7 +481,7 @@ def parse_v10_markdown():
             summary = CUSTOM_SUMMARIES_V10.get((2, slot_title))
             if not summary:
                 for (d, t), sm in CUSTOM_SUMMARIES_V10.items():
-                    if d == 2 and (t in slot_title or slot_title in t):
+                    if d == 2 and ("吉野家" not in t and "宇奈とと" not in t and "上野" not in t and "長輩" not in t and "松坂屋" not in t and "兔屋" not in t) and (t in slot_title or slot_title in t):
                         summary = sm
                         break
             if not summary:
