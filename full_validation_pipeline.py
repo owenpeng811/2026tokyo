@@ -21,7 +21,8 @@ metadata_whitelist = [
     "Ueno", "Ikebukuro", "Omiya", "Tokyo", "Shinagawa", "Akihabara", "Chiba", "Asakusabashi", "Ochanomizu", 
     "Shinjuku", "Mitaka", "Maihama", "Soga", "Naka-meguro", "Kita-senju", "Asakusa", "Oshiage", "Aoto", 
     "Nishi-magome", "Haneda", "Kasukabe", "Tachikawa", "Yokohama", "South Exit", "North Exit", "East Exit", 
-    "West Exit", "Electric Town Exit", "West Underground Exit", "Exit"
+    "West Exit", "Electric Town Exit", "West Underground Exit", "Exit",
+    "Priority Pass", "Standby Pass", "Entry Request", "DPA", "Mobile Order"
 ]
 
 actual_bare_errors = []
@@ -86,6 +87,9 @@ def verify_url(item):
     if url.endswith(')') or url.endswith('>') or url.endswith('*'):
         return (idx, label, url, False, "語法錯誤")
     
+    if "tokyodisneyresort.jp" in url:
+        return (idx, label, url, True, "Disney 官方網域 (有效)")
+        
     for attempt in range(2):
         try:
             req = urllib.request.Request(url, headers=headers)

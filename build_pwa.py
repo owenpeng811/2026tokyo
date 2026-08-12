@@ -287,16 +287,17 @@ CUSTOM_SUMMARIES_V10 = {
     (2, "返回淺草橋"): f"<strong>就近進站：</strong>宇奈とと步行 2 分鐘直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 上野站 (上野駅)', '')}\" target=\"_blank\">JR 上野站不忍口 🔗</a>（或從松坂屋步行 2 分鐘至 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 御徒町站 (御徒町駅)', '')}\" target=\"_blank\">JR 御徒町站 🔗</a>），搭山手線至秋葉原轉總武線 1 站回淺草橋。",
 
     # Day 2 Kids (Disney)
-    (2, "迪士尼交通動線"): f"淺草橋 ➔ 秋葉原 (總武線) ➔ 八丁堀 (地鐵日比谷線) ➔ <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('舞濱站', '')}\" target=\"_blank\">舞濱站 🔗</a> (JR京葉線)。全程設有手扶梯與電梯，避開東京車站巨型轉乘。",
-    (2, "抵達樂園門口"): f"08:45 開園排隊。入園後立刻開啟 Disney App：<br>1. <strong>設施預約：</strong>購買 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('美女與野獸：魔法物語', '')}\" target=\"_blank\">「美女與野獸：魔法物語 (DPA)」 🔗</a> 或抽免費 Priority Pass。<br>2. <strong>防排隊關鍵：</strong>立即使用 <strong>Disney Mobile Order 手機點餐</strong> 預定今日 11:30 午餐與 18:00 晚餐時段！",
-    (2, "必玩設施與行程建議"): f"第一站：<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('美女與野獸：魔法物語', '')}\" target=\"_blank\">美女與野獸 (魔法物語 DPA) 🔗</a> ➔ 第二站：<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('小熊維尼獵蜜記', '')}\" target=\"_blank\">小熊維尼獵蜜記 (Priority Pass) 🔗</a> ➔ 第三站：<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('巨雷山', '')}\" target=\"_blank\">巨雷山 (130cm) 🔗</a>。",
-    (2, "午後行程與遊行"): f"<strong>日間遊行：</strong>提前 30-45 分鐘卡位欣賞。<br><strong>必玩推薦：</strong>幽靈公館、加勒比海盜、飛濺山（夏日清涼）。備選：怪獸電力公司、小小世界。",
-    (2, "晚餐：主題餐廳時間"): f"<strong>推薦餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('廣場閣樓餐廳', '')}\" target=\"_blank\">廣場閣樓餐廳 🔗</a>（歐式套餐）或 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('莎拉奶奶之家餐廳', '')}\" target=\"_blank\">莎拉奶奶之家餐廳 🔗</a>（歐姆蛋包飯）。建議入園時即於 App Mobile Order 預訂 18:00 取餐時段。<br><strong>快速備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('紅連火箭筒餐廳', '')}\" target=\"_blank\">紅連火箭筒餐廳 🔗</a>（披薩/卡爾佐內烤餅，出餐極快）。",
-    (2, "城堡點燈拍照、購買夜間點心與遊行卡位"): f"灰姑娘城堡夜間點燈合影，買吉事果或米奇冰棒，19:30 前往圓環區域卡位休息。",
-    (2, "東京迪士尼樂園電子大遊行「夢之光」"): f"璀璨燈光花車與經典迪士尼音樂遊行（全長約 45 分鐘），全家坐著欣賞放鬆雙腿。",
-    (2, "城堡高空投影秀「Reach for the Stars: Everlasting Dreams」"): f"2026 夏季特別版（約 25 分鐘），結合漫威、大英雄天團與經典動畫的 3D 燈光投影與焰火震撼演出。",
-    (2, "世界市集（World Bazaar）最後補貨與出園"): f"於世界市集購買紀念品與伴手禮，約 21:50 離開樂園前往巴士總站/JR舞濱站。",
-    (2, "親子組回程交通（首選巴士 / 備案電車）"): f"<strong>首選（直達巴士）：</strong>出園至巴士總站搭乘直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('秋葉原站', '')}\" target=\"_blank\"><strong>秋葉原站東口</strong> 🔗</a> 的高速巴士（車程約 35-45 分鐘，上車有座位一路睡回秋葉原），轉總武線 1 站回淺草橋。<br><strong>備案：</strong>舞濱 ➔ 八丁堀 (京葉線) ➔ 秋葉原 (日比谷線) ➔ 淺草橋。",
+    (2, "前往東京迪士尼樂園"): f"淺草橋 ➔ 秋葉原 (總武線) ➔ 八丁堀 (地鐵日比谷線) ➔ <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 舞濱站 (舞浜駅)', '')}\" target=\"_blank\">舞濱站 🔗</a> (JR京葉線)。全程設有手扶梯與電梯，避開東京車站巨型轉乘。",
+    (2, "抵達樂園門口排隊與入園"): f"<strong>核心策略：免費＋合理視野＋最大化遊樂時間</strong>。入園後以 <strong>40周年 Priority Pass（免費 PP）</strong> 為主要導航，搭配 Entry Request 與周邊設施動態遊玩。",
+    (2, "動態遊玩主時段"): f"<strong>本日主體：遊樂設施</strong>。以免費 PP 為核心導航，擴散遊玩所在區域周邊設施。搭配 Notion「迪士尼體驗 Database」即時查看推薦項目與排隊時間。",
+    (2, "午餐窗口"): f"<strong>遊玩 > 吃飯，不預約、不跨區</strong>。使用 Disney App Mobile Order 就近點餐取餐，或找附近行動餐車解決。",
+    (2, "晚餐窗口"): f"<strong>快速補充體力</strong>。目前位置附近以 App Mobile Order 下單或買行動餐車，不為吃飯特別跑遠。",
+    (2, "夜間遊行「夢之光」免費卡位"): f"<strong>18:15～18:30 開始卡位</strong>。城堡前 Plaza 附近免費區，不追求最前排神位，以合理視野換取下午遊玩時間。",
+    (2, "東京迪士尼樂園電子大遊行「夢之光」"): f"<strong>固定核心／建議必看</strong>。全長約 45 分鐘，璀璨燈光花車與經典音樂遊行，全家坐著放鬆休息。",
+    (2, "前往 Reach for the Stars 免費鑑賞區"): f"遊行結束後直接移動至 <strong>Partners Statue（夥伴銅像）附近</strong> 或城堡前 Plaza 中後方免費區。",
+    (2, "城堡投影秀 Reach for the Stars"): f"<strong>固定核心（雨天正常演出才看）</strong>。Everlasting Dreams 夏季特別版，3D 燈光投影與焰火震撼演出。",
+    (2, "世界市集紀念品採買與出園"): f"於 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('世界市集 (ワールドバザール)', '')}\" target=\"_blank\">世界市集 🔗</a> 採買紀念品與伴手禮，前往東巴士總站搭車。",
+    (2, "返回淺草橋"): f"<strong>首選（直達巴士）：</strong>出園至巴士總站 1 號站牌搭乘直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('秋葉原站東口 (秋葉原駅東口交通広場)', '')}\" target=\"_blank\"><strong>秋葉原站東口</strong> 🔗</a> 的高速巴士（車程約 35-45 分鐘，上車有座位一路睡回秋葉原），轉總武線 1 站回淺草橋。<br><strong>備案：</strong>舞濱 ➔ 八丁堀 (京葉線) ➔ 秋葉原 (日比谷線) ➔ 淺草橋。",
 
     # Day 3
     (3, "搭乘 JR 前往東京車站"): f"淺草橋 ➔ 秋葉原 ➔ <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('東京站', '')}\" target=\"_blank\">東京站 🔗</a> (JR 山手線，車程 8 分鐘)。",
