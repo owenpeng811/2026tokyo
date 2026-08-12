@@ -528,7 +528,7 @@
 ### **18:15－18:30 💡 夜間遊行「夢之光」免費卡位**
 
 > * 🔴 **本日固定節點**（19:45 開演，不購買 DPA，策略為「**免費＋合理視野＋最大化遊樂時間**」）。  
-> * 🪑 約 **18:15～18:30** 開始尋找位置，優先考慮 [**灰姑娘城堡 (シンデレラ城)**](https://www.google.com/maps/search/?api=1&query=35.6321136,139.8808623&query_place_id=ChIJddVMuXN9GGARaS2CaOt1GUY) 前圓環廣場（Plaza）附近。  
+> * 🪑 約 **18:15～18:30** 開始尋找位置，優先考慮 [**灰姑娘城堡 (シンデレラ城)**](https://www.google.com/maps/search/?api=1&query=35.6321136,139.8808623&query_place_id=ChIJddVMuXN9GGARaS2CaOt1GUY) 前 [**城堡前廣場 (プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ)（圓環 Plaza）附近。  
 > * ❌ **不追求最前排神位**：不從 17:00 前提早卡位，以合理視野換取下午多玩 1～2 小時遊樂時間。  
 > * 🌧️ **雨天不提前卡位**：下雨天視現場狀況彈性決定。
 
@@ -540,7 +540,7 @@
 ### **20:30左右 ✨ 前往 Reach for the Stars 免費鑑賞區**
 
 > * 電子大遊行結束後直接移動。  
-> * 📍 **位置選擇**：優先尋找 **Partners Statue（沃爾特・迪士尼與米奇銅像）附近**，次選 **城堡前 Plaza 中後方**。  
+> * 📍 **位置選擇**：優先尋找 [**夥伴雕像 (パートナーズ像)**](https://www.google.com/maps/search/?api=1&query=35.633055,139.880416)（沃爾特・迪士尼與米奇銅像）附近，次選 [**城堡前廣場 (プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ) 中後方。  
 > * 🎯 接受免費區合理視野，用「不追求第一排」換取整天多玩的設施時間（🌧️ 雨天不提前卡位）。
 
 ### **20:55 ✨ 城堡投影秀 Reach for the Stars: Everlasting Dreams**
@@ -564,9 +564,9 @@
 | **17:00** | 🌈 Harmony in Color 日間遊行 | 🟡 OPTION | 晴天且有空才看，雨天優先放棄，不提前卡位 |
 | **17:30～18:30** | 🍔 晚餐窗口 | 🟡 固定窗口 | 快速補充體力，Mobile Order ／ 行動餐車簡餐 |
 | **18:00** | 💃 跳跳熱舞 (Jamboree Mickey) | 🟡 OPTION | Entry Request 僅優先考慮 18:00 場次 |
-| **18:15～18:30** | 💡 夜間遊行「夢之光」卡位 | 🔴 **固定節點** | 城堡前 Plaza 附近免費區，接受合理視野 |
+| **18:15～18:30** | 💡 夜間遊行「夢之光」卡位 | 🔴 **固定節點** | 城堡前 [**城堡前廣場 (プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ) 附近免費區，接受合理視野 |
 | **19:45～20:30** | 💡 電子大遊行「夢之光」 | 🔴 **核心必看** | 全長約 45 分鐘，不買 DPA，坐著放鬆雙腿 |
-| **20:30左右** | ✨ 前往 Reach 免費區 | 🔴 **固定節點** | 移動至銅像（Partners Statue）或 Plaza 中後方 |
+| **20:30左右** | ✨ 前往 Reach 免費區 | 🔴 **固定節點** | 移動至 [**夥伴雕像 (パートナーズ像)**](https://www.google.com/maps/search/?api=1&query=35.633055,139.880416) 或 Plaza 中後方 |
 | **20:55～** | ✨ 城堡投影秀 Reach for the Stars | 🔴 **核心必看** | Everlasting Dreams 夏季特別版，免費區欣賞 |
 | **21:00～21:50** | 🚪 世界市集採買與離園 | 🔴 **固定節點** | 世界市集補貨後前往巴士總站搭車返回飯店 |
 
