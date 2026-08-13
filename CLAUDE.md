@@ -34,6 +34,9 @@ python3 sync_places.py --fix        # 自動修正 README 不一致的網址
 
 # Place ID 離線偽造偵測（免 API key、免網路，已被驗證管線納為階段 0）
 python3 place_id_audit.py
+
+# 匯出 Google My Maps 用的分天 CSV（每天一個圖層，含景點/餐廳/交通/購物/住宿分類）
+python3 export_mymaps.py --merged
 ```
 
 ⚠️ 依 `.agents/AGENTS.md`：**微調 Markdown 後嚴禁自動執行 `build_pwa.py` 或 `git push`**，只有使用者明確要求（「轉成網頁版」／「更新 PWA」／「幫我 push」）時才執行。
