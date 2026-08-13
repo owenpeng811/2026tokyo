@@ -717,7 +717,7 @@ def render_full_pwa_html(meta, days_data):
     timeline_html += """    <!-- Day 3 Section -->
     <div class="day-section" id="day3-section" style="display: none;">
       <div class="day-overview-header">
-        <h2 class="day-overview-title">動漫盛宴 × 科學探險與阿美橫丁採買</h2>
+        <h2 class="day-overview-title">東京車站菓子樂園 × 科學博物館探險 × 阿美橫丁採買</h2>
       </div>
 """
     for idx, it in enumerate(days_data[3]):
@@ -728,7 +728,7 @@ def render_full_pwa_html(meta, days_data):
     timeline_html += """    <!-- Day 4 Section -->
     <div class="day-section" id="day4-section" style="display: none;">
       <div class="day-overview-header">
-        <h2 class="day-overview-title">吉卜力童話 × 吉祥寺風格散步與 DIY 炸串</h2>
+        <h2 class="day-overview-title">吉卜力美術館 × 哈莫尼卡橫丁 × 吉祥寺商圈漫遊</h2>
       </div>
 """
     for idx, it in enumerate(days_data[4]):
