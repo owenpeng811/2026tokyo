@@ -45,9 +45,42 @@ description: 將旅遊行程資料轉換為支援 PWA、可離線瀏覽的手機
 
 ---
 
-## 3. 導航連結生命週期與 `navigation_links.html` 對照表機制
+## 3. 導航連結生命週期與 `places.json` 單一真相來源機制
 
-導航連結的維護以 [navigation_links.html](file:///home/owen/tokyo/navigation_links.html) 為唯一維護基準表。
+> ⚠️ **2026-08 重大流程變更**：導航連結的維護基準**已由 `navigation_links.html` 改為 [places.json](file:///home/owen/tokyo/places.json)**。
+>
+> 原因：同一網址原本散落在 5 個檔案且無同步機制，導致大量偽造 Place ID 與座標漂移（詳見 `.agents/AGENTS.md` 的「Place ID 品質規則」）。
+>
+> **`navigation_links.html`、`navigation_links_dict.json`、`first_destinations.json`、`text_entities.json` 四個檔案現已全部改為自動生成，嚴禁手動編輯。**
+
+### 3.0 標準維護流程（Claude Code 與 Antigravity 一致）
+
+```bash
+# 1. 只編輯唯一真相來源 places.json，每個地點的欄位：
+#      url            導航網址（含 query_place_id）
+#      nav_dict       該地點在 navigation_links_dict.json 中的鍵名清單
+#      text_entities  需要在內文自動加連結的名稱清單
+#      first_dest     卡片導航按鈕的鍵，格式 "{天數}_{標題關鍵字}"
+#      html           在對照表網頁中顯示的標籤清單
+#      verified_at    Place ID 最後查證日期（YYYY-MM-DD，逾 12 個月會被告警）
+
+# 2. 生成四個衍生檔
+python3 sync_places.py --generate
+
+# 3. 檢查／同步 README.md 內文網址
+#    README 由 Docsify 直接渲染，必須是完成品、不能用佔位符，故只能被檢查與修正
+python3 sync_places.py --check
+python3 sync_places.py --fix
+
+# 4. 稽核 Place ID 是否具偽造特徵（離線、免 API key）
+python3 place_id_audit.py
+
+# 5. 僅在使用者明確要求時才編譯 PWA
+python3 build_pwa.py
+```
+
+### 3.1 對照表結構與規格
+`navigation_links.html`（**由 `sync_places.py --generate` 自動生成，僅供人工開啟瀏覽器逐筆點開驗證**）採用表格呈現，包含以下三欄：
 
 ### 3.1 對照表結構與規格
 `navigation_links.html` 採用表格呈現，包含以下三欄：
@@ -62,10 +95,11 @@ description: 將旅遊行程資料轉換為支援 PWA、可離線瀏覽的手機
 
 ### 3.2 同步與增量維護工作流程
 當使用者更新 `README.md` 或要求更新 `itinerary.html` 時：
-1. **讀取對照表**：優先讀取 `navigation_links.html` 中已校對好的所有 Key 與 URL。
+1. **讀取真相來源**：讀取 `places.json`（**不是** `navigation_links.html`，該檔已改為自動生成的產物）。
 2. **檢測新增地點**：若 `README.md` 中出現新餐廳、景點、車站或商場，主動透過 Google Maps 查詢其**最精準、可直達該分店/確切地點**的導航連結。
-3. **增量寫入對照表**：將新地點以對齊的「中文標籤文字」作為 Key，將精準地圖連結寫入 `navigation_links.html` 並依字首排序。
-4. **注入網頁行程表**：將 `navigation_links.html` 中的最新連結全面同步注入 `itinerary.html`，保證兩者連結 100% 一致。
+   - ⚠️ **必須實際查證**，嚴禁憑空編造 Place ID 或座標；可用 Place ID Finder 或 Antigravity 的 google-maps MCP。
+3. **寫入 `places.json`**：新增一筆，填妥 `url`／`nav_dict`／`text_entities`／`first_dest`／`html`／`verified_at`。
+4. **生成與同步**：執行 `python3 sync_places.py --generate` 生成四個衍生檔，再執行 `--fix` 讓 README 內文網址一致，最後（若使用者要求）執行 `python3 build_pwa.py`。
 
 ### 3.3 無死角導航與精準定位原則
 - **內文所有景點/餐廳 100% 全覆蓋導航（Full In-text Anchor Coverage）**：
@@ -109,17 +143,19 @@ description: 將旅遊行程資料轉換為支援 PWA、可離線瀏覽的手機
 
 ```mermaid
 flowchart TD
-    A[使用者要求轉換網頁行程表] --> B[比對與讀取 navigation_links.html / navigation_links_dict.json]
+    A[使用者要求轉換網頁行程表] --> B[讀取唯一真相來源 places.json]
     B --> C{是否有新地點 / 變更地點?}
-    C -- 是 --> D[查驗 Google Maps 精準地標並增量更新對照表]
-    C -- 否 --> E[讀取既有對照連結]
-    D --> F[以標籤文字為 Key，精準同步至 itinerary.html 與 first_destinations.json]
+    C -- 是 --> D[以 Place ID Finder 或 google-maps MCP 實際查證，嚴禁編造]
+    D --> D2[寫入 places.json 並填 verified_at]
+    C -- 否 --> E[沿用既有連結]
+    D2 --> F[sync_places.py --generate 生成四個衍生檔]
     E --> F
-    F --> G[自動執行反向防漏與健康度校驗管線 full_validation_pipeline.py]
+    F --> F2[sync_places.py --fix 同步 README 內文網址]
+    F2 --> G[full_validation_pipeline.py<br/>階段 0 偽造偵測 + 階段 1-3 既有檢查]
     G --> H{驗證是否完全通過?}
-    H -- 否 (有粗體裸字或失效連結) --> I[立即自動修復裸字與地標超連結]
+    H -- 否 --> I[修復粗體裸字 / 失效連結 / 偽造 Place ID]
     I --> G
-    H -- 是 --> J[完成網頁建置與 Git 推送]
+    H -- 是 --> J[build_pwa.py 建置與 Git 推送<br/>僅在使用者明確要求時]
 ```
 
 1. **確認變更點**：比對 `README.md` 與現有 `itinerary.html` 的差異（如新增時段、替換首選/備案餐廳、更新時間）。

@@ -116,6 +116,31 @@ git push
 
 ## 新增景點或餐廳時的額外步驟
 
+> ⚠️ **2026-08 流程已變更**：導航連結改以 `places.json` 為唯一真相來源，
+> `navigation_links.html` 與三個 JSON 都變成自動生成的產物，**不要再手動編輯它們**。
+
+新增地點的正確流程：
+
+```bash
+# 1. 用 Place ID Finder 查到真實的 Place ID 與經緯度（嚴禁自己編）
+#    https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder
+
+# 2. 編輯 places.json 新增一筆（只改這個檔案）
+
+# 3. 生成四個衍生檔
+python3 sync_places.py --generate
+
+# 4. 讓 README 內文網址與 places.json 一致
+python3 sync_places.py --check     # 先看有哪些不一致
+python3 sync_places.py --fix       # 自動修正
+
+# 5. 稽核有無偽造特徵
+python3 place_id_audit.py
+```
+
+<details>
+<summary>📌 舊流程（已停用，僅供理解歷史）</summary>
+
 若這次編輯**新增了一個地點**，光改 `README.md` 還不夠，導航連結要一併登錄：
 
 1. 到 Google Maps 找到該店家，取得永久標準網址：
@@ -144,6 +169,8 @@ git push
 
    只寫 `**東京菓子樂園 (東京おかしランド)**` 而沒有連結，驗證管線階段 1 會報錯。
 
+</details>
+
 ---
 
 ## 疑難排解
@@ -152,7 +179,9 @@ git push
 | :-- | :-- |
 | 網頁上**整個時段消失** | 標題格式不合。檢查是否為 `### **` 開頭、時間是否用**全形 `－`**。 |
 | 卡片**摘要沒跟著更新** | 該時段的摘要被 `build_pwa.py` 裡的 `CUSTOM_SUMMARIES_V10` 手寫覆蓋了，它以「(天數, 標題)」為索引。**改了標題文字就要同步改那裡**，否則舊摘要會繼續顯示。 |
-| 卡片**沒有「📍 導航」按鈕** | 到 `first_destinations.json` 加一筆 `"天數_標題關鍵字"`；或確認該地點已在 `navigation_links_dict.json` 中。 |
+| 卡片**沒有「📍 導航」按鈕** | 到 `places.json` 該地點的 `first_dest` 欄位加一筆 `"天數_標題關鍵字"`，再跑 `sync_places.py --generate`。（**不要直接改 `first_destinations.json`，會被覆蓋**） |
+| 導航**導到錯誤的地點** | Place ID 可能是偽造或已失效。跑 `python3 place_id_audit.py` 稽核，再用 Place ID Finder 查真值後改 `places.json`。⚠️ 連結能開、回 HTTP 200 **不代表 Place ID 有效**。 |
+| 改了字典檔卻**沒生效／又變回去** | 四個字典檔都是 `sync_places.py --generate` 的產物，手改會被覆蓋。**唯一該改的是 `places.json`**。 |
 | **不該有導航卻出現**（如「退房」「就寢」） | 到 `build_pwa.py` 的 `is_non_nav_slot()` 函式，把這個時段標題加進靜態清單。 |
 | 導航按鈕**指到錯的地方** | `first_destinations.json` 的 key 是用「包含」比對的，可能誤中別的時段。把 key 寫得更精確一點。 |
 | 驗證**階段 1** 報錯（粗體裸字） | 正文有 `**中文 (日文)**` 卻沒包超連結。照上面「新增景點」第 4 點補上連結。 |

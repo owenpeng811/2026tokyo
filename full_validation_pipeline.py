@@ -1,9 +1,18 @@
 import re, json, time, urllib.request, urllib.error
 from concurrent.futures import ThreadPoolExecutor
+from place_id_audit import audit_files, format_report
 
 print("=" * 70)
 print("🚀 開始執行 README.md 全量命名規範、裸字地標防漏與導航連結完整驗證管線...")
 print("=" * 70)
+
+# 0. Offline fabrication detection (no API key / no network required)
+#    HTTP 200 檢查抓不到偽造的 place_id（Google 對任何 ID 都回 200 後靜默退回座標），
+#    因此先做結構性稽核。詳見 place_id_audit.py。
+print("\n--- [階段 0] Place ID 與座標離線偽造偵測 ---")
+audit_issues, audit_total = audit_files()
+print(format_report(audit_issues, audit_total))
+FABRICATION_FOUND = bool(audit_issues)
 
 # 1. Read README.md
 with open('/home/owen/tokyo/README.md', 'r', encoding='utf-8') as f:
@@ -130,5 +139,8 @@ if failed:
         print(f"  - [{lbl}]: {u} -> {msg}")
     exit(1)
 else:
-    print("\n🎉 驗證完全通過！全行程所有地點命名 100% 合規，粗體裸字 0 遺漏，導航連結 100% 正確有效！")
+    if FABRICATION_FOUND:
+        print(f"\n⚠️ 階段 1～3 通過，但【階段 0 偽造偵測】仍有 {len(audit_issues)} 項可疑資料未處理，請往上捲動查看。")
+        exit(1)
+    print("\n🎉 驗證完全通過！全行程所有地點命名 100% 合規，粗體裸字 0 遺漏，導航連結 100% 正確有效，Place ID 偽造偵測全數通過！")
 

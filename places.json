@@ -1,0 +1,2321 @@
+{
+  "schema": 2,
+  "note": "唯一真相來源。修改地點只改這裡，再執行 python3 sync_places.py --generate。nav_dict／text_entities／first_dest／html 四個欄位記錄該地點在各衍生檔中的鍵名。",
+  "places": {
+    "CoCo壹番屋 (CoCo壱番屋 JR秋葉原駅昭和通り口店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6984515,139.77577&query_place_id=ChIJSyxsj6iOGGARvBM2kRLvJZs",
+      "nav_dict": [
+        "CoCo壹番屋 (CoCo壱番屋 JR秋葉原駅昭和通り口店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "CoCo壹番屋 (CoCo壱番屋 JR秋葉原駅昭和通り口店)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "Cow Cow Kitchen (東京Milk Cheese Factory LUMINE EST店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6917502,139.7011419&query_place_id=ChIJr8RjHpyNGGAR-2K84o0P4sQ",
+      "nav_dict": [
+        "Cow Cow Kitchen (東京Milk Cheese Factory LUMINE EST店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "Cow Cow Kitchen (東京Milk Cheese Factory)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6917502,139.700984&query_place_id=ChIJmXynH96NGGAR5e9a3acK1q0",
+      "nav_dict": [
+        "Cow Cow Kitchen",
+        "Cow Cow Kitchen (東京Milk Cheese Factory)"
+      ],
+      "text_entities": [
+        "Cow Cow Kitchen",
+        "Cow Cow Kitchen (東京Milk Cheese Factory)"
+      ],
+      "first_dest": [],
+      "html": [
+        "Cow Cow Kitchen",
+        "Cow Cow Kitchen (東京Milk Cheese Factory)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "Cross Shinjuku 3D 巨貓 (クロス新宿ビジョン)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6926882,139.7008265&query_place_id=ChIJrwWR35uNGGARG7Svj20aEfM",
+      "nav_dict": [
+        "Cross Shinjuku 3D 巨貓",
+        "Cross Shinjuku 3D 巨貓 (クロス新宿ビジョン)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "Cross Shinjuku 3D 巨貓",
+        "Cross Shinjuku 3D 巨貓 (クロス新宿ビジョン)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "DEAN & DELUCA CAFE (DEAN & DELUCA CAFE パルコヤ上野)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7068605,139.7733596&query_place_id=ChIJYw_RZZyOGGARkQYqM_0g4r8",
+      "nav_dict": [
+        "DEAN & DELUCA CAFE (DEAN & DELUCA CAFE パルコヤ上野)",
+        "DEAN & DELUCA 咖啡",
+        "DEAN & DELUCA 咖啡 (DEAN & DELUCA CAFE パルコヤ上野)",
+        "PARCO_ya (PARCO_ya 上野)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "DEAN & DELUCA CAFE (PARCO_ya 1F)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.70701,139.77345&query_place_id=ChIJh7iJ_R-MGGARk32pRTmYtIM",
+      "nav_dict": [
+        "DEAN & DELUCA CAFE (PARCO_ya 1F)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "DEAN & DELUCA CAFE (PARCO_ya 1F)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc",
+      "nav_dict": [
+        "DiverCity Tokyo Plaza",
+        "DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)",
+        "かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)",
+        "ダイバーシティ東京 プラザ",
+        "信州蕎麥處 そじ坊 (そじ坊 ダイバーシティ東京プラザ店)",
+        "月島文字燒 くうや (月島もんじゃ くうや ダイバーシティ東京プラザ店)",
+        "田中蕎麥麵店 (田中そば店 ダイバーシティ東京プラザ店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "Dream Market (ドリームマーケット 吉祥寺店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88%20%E5%90%89%E7%A5%A5%E5%AF%BA%E5%BA%97",
+      "nav_dict": [
+        "Dream Market",
+        "Dream Market (ドリームマーケット 吉祥寺店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "Dream Market (ドリームマーケット 吉祥寺店)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "Gusto (ガスト 新宿NOWAビル店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6903733,139.7013626&query_place_id=ChIJFUOWQQCNGGARHkjPPx28PfI",
+      "nav_dict": [
+        "Gusto (ガスト 新宿NOWAビル店)",
+        "Gusto 新宿NOWAビル店"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "1_Gusto"
+      ],
+      "html": [
+        "Gusto (ガスト 新宿NOWAビル店)",
+        "Gusto 新宿NOWAビル店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "JR 三鷹站 (三鷹駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7027156,139.5610291&query_place_id=ChIJQ6xBTbDvGGARWjMM50vhcgE",
+      "nav_dict": [
+        "JR 三鷹站",
+        "JR 三鷹站 (三鷹駅)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "JR 上野站 (上野駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw",
+      "nav_dict": [
+        "JR 上野站",
+        "JR 上野站 (上野駅)",
+        "上野站"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "3_前往上野"
+      ],
+      "html": [
+        "上野站"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "JR 吉祥寺站 (吉祥寺駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7031125,139.5797825&query_place_id=ChIJe0e8kkfuGGARvH2cE14g_0I",
+      "nav_dict": [
+        "JR 吉祥寺站",
+        "JR 吉祥寺站 (吉祥寺駅)",
+        "吉祥寺站 (吉祥寺駅)"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "4_前往吉祥寺"
+      ],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "JR 御徒町站 (御徒町駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI",
+      "nav_dict": [
+        "JR 御徒町站",
+        "JR 御徒町站 (御徒町駅)",
+        "御徒町站",
+        "御徒町駅"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "2_出發前往上野御徒町"
+      ],
+      "html": [
+        "御徒町站",
+        "御徒町駅"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "JR 新宿站 (新宿駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJH7qx1tCMGGAR1f2s7PGhMhw",
+      "nav_dict": [
+        "JR 新宿站",
+        "JR 新宿站 (新宿駅)",
+        "新宿站 (新宿駅)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "JR 東京站 (東京駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6812996,139.7670659&query_place_id=ChIJn0PtQVOLGGARqZ-06r4mC70",
+      "nav_dict": [
+        "JR 東京站",
+        "JR 東京站 (東京駅)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "JR 淺草橋站 (浅草橋駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg",
+      "nav_dict": [
+        "JR 淺草橋站",
+        "JR 淺草橋站 (浅草橋駅)",
+        "浅草橋駅",
+        "淺草橋站",
+        "都營 淺草橋站",
+        "都營 淺草橋站 (浅草橋駅)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "浅草橋駅",
+        "淺草橋站"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "JR 秋葉原站 (秋葉原駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU",
+      "nav_dict": [
+        "JR 秋葉原站",
+        "JR 秋葉原站 (秋葉原駅)",
+        "秋葉原站",
+        "秋葉原駅"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "1_出發前往秋葉原"
+      ],
+      "html": [
+        "秋葉原站",
+        "秋葉原駅"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "JR 舞濱站 (舞浜駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6361543,139.8838749&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE",
+      "nav_dict": [
+        "JR 舞濱站",
+        "JR 舞濱站 (舞浜駅)",
+        "舞濱站"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "2_抵達樂園入園",
+        "2_親子組出發前往東京迪士尼樂園"
+      ],
+      "html": [
+        "舞濱站"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "Jyonetsu Bakery": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7031128,139.5790112&query_place_id=ChIJm4Jc8EfuGGARqyy_yr_4JTo",
+      "nav_dict": [
+        "Jyonetsu Bakery"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "Jyonetsu Bakery"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "KITTE花園 (ＫＩＴＴＥガーデン)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6795336,139.7654445&query_place_id=ChIJtZRvRvqLGGARdS57rQP2NEk",
+      "nav_dict": [
+        "KITTE花園",
+        "KITTE花園 (ＫＩＴＴＥガーデン)"
+      ],
+      "text_entities": [
+        "KITTE花園",
+        "KITTE花園 (ＫＩＴＴＥガーデン)"
+      ],
+      "first_dest": [
+        "3_KITTE頂樓花園眺望東京車站"
+      ],
+      "html": [
+        "KITTE花園",
+        "KITTE花園 (ＫＩＴＴＥガーデン)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "LE BIHAN (ル ビアン アトレ吉祥寺店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7031125,139.5797825&query_place_id=ChIJp5K9kkfuGGAR9kK84t3D5sQ",
+      "nav_dict": [
+        "LE BIHAN (ル ビアン アトレ吉祥寺店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "LUMINE EST 餐廳街 (ルミネエスト新宿 7&8 DINER)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6912505,139.7011419&query_place_id=ChIJ_TibA9qMGGARNYmVIFyGU9k",
+      "nav_dict": [
+        "LUMINE EST 餐廳街",
+        "LUMINE EST 餐廳街 (ルミネエスト新宿 7&8 DINER)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "LUMINE EST 餐廳街",
+        "LUMINE EST 餐廳街 (ルミネエスト新宿 7&8 DINER)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "Linde 德國麵包 (ベッカライカフェ・リンデ 吉祥寺本店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.704096,139.5802054&query_place_id=ChIJBUM940XuGGAR4dVP7nqzDHc",
+      "nav_dict": [
+        "Linde 德國麵包 (ベッカライカフェ・リンデ 吉祥寺本店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "Linde 德國麵包 (ベッカライカフェ・リンデ 吉祥寺本店)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "Loft (ロフト 東京ソラマチ店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7102004,139.8112003&query_place_id=ChIJWYeDW9aOGGARadWLUMju2wI",
+      "nav_dict": [
+        "Loft (ロフト 東京ソラマチ店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "Loft (吉祥寺ロフト)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.705206,139.5788868&query_place_id=ChIJ80-AKEbuGGARmN-6SihPfpU",
+      "nav_dict": [
+        "Loft (吉祥寺ロフト)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "Loft (吉祥寺ロフト)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "Neue (ノイエ 東京ソラマチ店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7102806,139.8124005&query_place_id=ChIJf-b1-daOGGAR9uM64x8H9qC",
+      "nav_dict": [
+        "Neue (ノイエ 東京ソラマチ店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "OS Drug 上野店": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7108985,139.774618&query_place_id=ChIJAQB_jZ-OGGARLPaThjF_JIQ",
+      "nav_dict": [
+        "OS Drug 上野店"
+      ],
+      "text_entities": [
+        "OS Drug",
+        "OS Drug 上野店"
+      ],
+      "first_dest": [],
+      "html": [
+        "OS Drug 上野店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "OS Drug 藥妝店 (OSドラッグ 上野店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7108985,139.7748721&query_place_id=ChIJAQB_jZ-OGGARLPaThjF_JIQ",
+      "nav_dict": [
+        "OS Drug 藥妝店 (OSドラッグ 上野店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "PARCO_ya": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7068605,139.7731332&query_place_id=ChIJsW9uBKCOGGAR3hWpxKX-ag0",
+      "nav_dict": [
+        "PARCO_ya"
+      ],
+      "text_entities": [
+        "PARCO_ya"
+      ],
+      "first_dest": [],
+      "html": [
+        "PARCO_ya"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "SATOU (黒毛和牛専門店 さとう 吉祥寺店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.703975,139.579041&query_place_id=ChIJEerD2EfuGGARNzol9ZsrCkg",
+      "nav_dict": [
+        "SATOU",
+        "SATOU (黒毛和牛専門店 さとう 吉祥寺店)"
+      ],
+      "text_entities": [
+        "SATOU",
+        "SATOU (黒毛和牛専門店 さとう 吉祥寺店)"
+      ],
+      "first_dest": [
+        "4_下午茶：SATOU"
+      ],
+      "html": [
+        "SATOU",
+        "SATOU (黒毛和牛専門店 さとう 吉祥寺店)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "THANK YOU MART (サンキューマート コピス吉祥寺店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%83%B3%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%88%20%E3%82%B3%E3%83%94%E3%82%B9%E5%90%89%E7%A5%A5%E5%AF%BA%E5%BA%97",
+      "nav_dict": [
+        "THANK YOU MART",
+        "THANK YOU MART (サンキューマート コピス吉祥寺店)"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "4_逛平價雜貨與角色小物店"
+      ],
+      "html": [
+        "THANK YOU MART (サンキューマート コピス吉祥寺店)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "TOMICA專賣店 (トミカショップ 東京店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6816001,139.7671501&query_place_id=ChIJtxODuv6LGGARax9fUJblNJg",
+      "nav_dict": [
+        "TOMICA專賣店 (トミカショップ 東京店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "gashacoco (gashacoco 吉祥寺元町通り)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=gashacoco%20%E5%90%89%E7%A5%A5%E5%AF%BA%E5%85%83%E7%94%BA%E9%80%9A%E3%82%8A",
+      "nav_dict": [
+        "gashacoco",
+        "gashacoco (gashacoco 吉祥寺元町通り)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "gashacoco (gashacoco 吉祥寺元町通り)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "https://www.google.com/maps/search/?api=": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7153869,139.7758257&query_place_id=ChIJo3N_X5yOGGARRm670m3Gj_E",
+      "nav_dict": [],
+      "text_entities": [],
+      "first_dest": [
+        "2_國立西洋美術館"
+      ],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "https://www.google.com/maps/search/?api=＋": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7083768,139.7744318&query_place_id=ChIJS2pQn5SOGGARIvO8fG048X0",
+      "nav_dict": [],
+      "text_entities": [],
+      "first_dest": [
+        "3_鴨 to 蔥拉麵"
+      ],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "かつや (かつや 御徒町南口店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.706452,139.774601&query_place_id=ChIJ_1sjRaCOGGAREsy5UBC6OLc",
+      "nav_dict": [
+        "かつや (かつや 御徒町南口店)",
+        "かつや 御徒町南口店",
+        "吉豚屋",
+        "吉豚屋 (かつや 御徒町南口店)",
+        "吉豚屋 御徒町南口店"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "すき家 (すき家 上野三丁目店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7060633,139.772478&query_place_id=ChIJ87mm5h-MGGARngNQHoLCi8k",
+      "nav_dict": [
+        "すき家 (すき家 上野三丁目店)",
+        "すき家 上野三丁目店"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "すき家 (すき家 上野三丁目店)",
+        "すき家 上野三丁目店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "だし茶漬け えん KITTE丸の内店": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6792913,139.7653382&query_place_id=ChIJqVS6VgCLGGAR-5BoRnVee14",
+      "nav_dict": [
+        "だし茶漬け えん",
+        "だし茶漬け えん KITTE丸の内店"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "だし茶漬け えん",
+        "だし茶漬け えん KITTE丸の内店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "みなとや食品 (みなとや食品 本店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7083669,139.7746294&query_place_id=ChIJbfIujp-OGGARQpzhp7F2ocY",
+      "nav_dict": [
+        "みなとや食品"
+      ],
+      "text_entities": [
+        "みなとや食品",
+        "みなとや食品 (みなとや食品 本店)"
+      ],
+      "first_dest": [],
+      "html": [
+        "みなとや食品"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "スシロー 秋葉原中央通り店": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.701526,139.7711875&query_place_id=ChIJ-SFJXgCNGGARjAlrBY5hHL4",
+      "nav_dict": [
+        "スシロー 秋葉原中央通り店"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "スシロー 秋葉原中央通り店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "一風堂 (一風堂 吉祥寺店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7052815,139.5786162&query_place_id=ChIJZziKmUfuGGAR8iau_mxpQKw",
+      "nav_dict": [
+        "一風堂",
+        "一風堂 (一風堂 吉祥寺店)",
+        "一風堂 吉祥寺店"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "一風堂",
+        "一風堂 (一風堂 吉祥寺店)",
+        "一風堂 吉祥寺店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "三鷹之森吉卜力美術館 (三鷹の森ジブリ美術館)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.696238,139.5704317&query_place_id=ChIJLYwD5TTuGGARBZKEP5BV4U0",
+      "nav_dict": [
+        "三鷹之森吉卜力美術館",
+        "三鷹之森吉卜力美術館 (三鷹の森ジブリ美術館)"
+      ],
+      "text_entities": [
+        "三鷹之森吉卜力美術館",
+        "三鷹之森吉卜力美術館 (三鷹の森ジブリ美術館)"
+      ],
+      "first_dest": [
+        "4_參觀三鷹之森吉卜力美術館",
+        "4_搭乘吉卜力接駁巴士"
+      ],
+      "html": [
+        "三鷹之森吉卜力美術館",
+        "三鷹之森吉卜力美術館 (三鷹の森ジブリ美術館)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "三鷹站": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7027156,139.5610291&query_place_id=ChIJQ6xBTbDvGGARWjMM50vhcgE",
+      "nav_dict": [
+        "三鷹站"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "三鷹站"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "三鷹站 (三鷹駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7027156,139.5610291&query_place_id=ChIJQ6xBTbDvGGARWjMM50vhcgE",
+      "nav_dict": [
+        "三鷹站 (三鷹駅)"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "4_前往三鷹"
+      ],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "上野公園噴水廣場 (上野恩賜公園 噴水広場)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7147557,139.7745778&query_place_id=ChIJw2qQRZuOGGARWmROEiM2y7E",
+      "nav_dict": [
+        "上野公園噴水廣場 (上野恩賜公園 噴水広場)",
+        "上野公園大噴水廣場 (上野恩賜公園 大噴水)"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "2_傍晚戶外悠閒漫步"
+      ],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "上野恩賜公園 (上野恩賜公園)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7140707,139.7741315&query_place_id=ChIJw2qQRZuOGGARWmROEiM2y7E",
+      "nav_dict": [
+        "上野恩賜公園 (上野恩賜公園)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "上野恩賜公園 噴水広場": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7147557,139.7734312&query_place_id=ChIJw2qQRZuOGGARWmROEiM2y7E",
+      "nav_dict": [
+        "上野公園噴水廣場"
+      ],
+      "text_entities": [
+        "上野公園中央噴水廣場",
+        "上野恩賜公園 噴水広場"
+      ],
+      "first_dest": [],
+      "html": [
+        "上野公園噴水廣場"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "上野東照宮": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7153719,139.7707328&query_place_id=ChIJP7lRfyiMGGARqb1QQhfm9EQ",
+      "nav_dict": [
+        "上野東照宮"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "上野東照宮"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "不忍池 (不忍池 弁天堂)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7122453,139.7708284&query_place_id=ChIJo8VKlCCMGGARarjlIsaLY1g",
+      "nav_dict": [
+        "不忍池"
+      ],
+      "text_entities": [
+        "不忍池",
+        "不忍池 (不忍池 弁天堂)"
+      ],
+      "first_dest": [],
+      "html": [
+        "不忍池"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "不忍池 (不忍池 弁天堂)＋": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7122453,139.7709849&query_place_id=ChIJz-n2a5yOGGARkO91888iW-Q",
+      "nav_dict": [
+        "不忍池 (不忍池 弁天堂)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "世界市集 (ワールドバザール)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6335001,139.8795001&query_place_id=ChIJe-a0-daOGGAR0vL55w7G8pR",
+      "nav_dict": [
+        "世界市集 (ワールドバザール)"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "2_世界市集紀念品採買與出園"
+      ],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "串家物語 (神楽食堂 串家物語 吉祥寺店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7048979,139.5802557&query_place_id=ChIJNbTiyUfuGGAR6lter_U3i7g",
+      "nav_dict": [
+        "串家物語",
+        "串家物語 (神楽食堂 串家物語 吉祥寺店)",
+        "串家物語 吉祥寺店"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "4_串家物語"
+      ],
+      "html": [
+        "串家物語",
+        "串家物語 (神楽食堂 串家物語 吉祥寺店)",
+        "串家物語 吉祥寺店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "丸龜製麵 (丸亀製麺 秋葉原店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6984426,139.7724317&query_place_id=ChIJFa5T2GqNGGARmSiHDgcJFf8",
+      "nav_dict": [
+        "丸龜製麵 (丸亀製麺 秋葉原店)",
+        "丸龜製麵 秋葉原店"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "丸龜製麵 (丸亀製麺 秋葉原店)",
+        "丸龜製麵 秋葉原店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "二木菓子 (二木の菓子 第一営業所)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7083528,139.7744756&query_place_id=ChIJ8ez-kZ-OGGARyxJTsXAcAjk",
+      "nav_dict": [
+        "二木菓子",
+        "二木菓子 (二木の菓子 第一営業所)"
+      ],
+      "text_entities": [
+        "二木菓子",
+        "二木菓子（二木の菓子 第一営業所）"
+      ],
+      "first_dest": [
+        "3_阿美橫丁逛街採買"
+      ],
+      "html": [
+        "二木菓子",
+        "二木菓子 (二木の菓子 第一営業所)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "井之頭恩賜公園": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.69974759999999,139.5737018&query_place_id=ChIJLWaVdDXuGGART_Pg1R3CZ4A",
+      "nav_dict": [
+        "井之頭恩賜公園"
+      ],
+      "text_entities": [
+        "井之頭恩賜公園"
+      ],
+      "first_dest": [],
+      "html": [
+        "井之頭恩賜公園"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "井之頭恩賜公園 (井の頭恩賜公園)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7001429,139.5760205&query_place_id=ChIJo3N_X5yOGGARyv4l77z-WHQ",
+      "nav_dict": [
+        "井之頭恩賜公園 (井の頭恩賜公園)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "井之頭池 (井の頭池)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.69974759999999,139.5769222&query_place_id=ChIJG9eUqDfuGGAR_ea8Odfq2MA",
+      "nav_dict": [
+        "井之頭池 (井の頭池)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "京急 羽田機場第3航廈站 (羽田空港第3ターミナル駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.544843,139.768443&query_place_id=ChIJsXfyslZhGGARbL8nFGOsncU",
+      "nav_dict": [
+        "京急 羽田機場第3航廈站",
+        "京急 羽田機場第3航廈站 (羽田空港第3ターミナル駅)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "仲見世商店街 (仲見世商店街)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7118413,139.7964542&query_place_id=ChIJPd37MMGOGGARvJ2hfxoiNVE",
+      "nav_dict": [
+        "仲見世商店街 (仲見世商店街)"
+      ],
+      "text_entities": [
+        "仲見世商店街",
+        "仲見世商店街 (仲見世商店街)"
+      ],
+      "first_dest": [],
+      "html": [
+        "仲見世商店街 (仲見世商店街)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "兔屋 (うさぎや)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7061495,139.7718239&query_place_id=ChIJ2zdQ8x-MGGARevmtQEbnfWo",
+      "nav_dict": [
+        "兔屋 (うさぎや)"
+      ],
+      "text_entities": [
+        "兔屋",
+        "兔屋 (うさぎや)"
+      ],
+      "first_dest": [],
+      "html": [
+        "兔屋 (うさぎや)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "八丁堀站": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6746248,139.7768846&query_place_id=ChIJO1wpfl6JGGARjNtDmO2lRrI",
+      "nav_dict": [
+        "八丁堀站"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "八丁堀站"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "利久牛舌 (牛たん炭焼 利久 東京ソラマチ店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7102538,139.8124786&query_place_id=ChIJrfccWNaOGGARVhFln5H6kug",
+      "nav_dict": [
+        "利久牛舌",
+        "利久牛舌 (牛たん炭焼 利久 東京ソラマチ店)",
+        "利久牛舌 晴空塔店"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "利久牛舌",
+        "利久牛舌 (牛たん炭焼 利久 東京ソラマチ店)",
+        "利久牛舌 晴空塔店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "友都八喜 (ヨドバシカメラ マルチメディアAkiba)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.698917,139.774798&query_place_id=ChIJGU_M2aeOGGARdnOLcMYXuXs",
+      "nav_dict": [
+        "友都八喜",
+        "友都八喜 (ヨドバシカメラ マルチメディアAkiba)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "友都八喜",
+        "友都八喜 (ヨドバシカメラ マルチメディアAkiba)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "吉伊卡哇專賣店 (ちいかわらんど TOKYO Station)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6813803,139.7672203&query_place_id=ChIJN8ZtQVOLGGARHqT_8o2w3k8",
+      "nav_dict": [
+        "吉伊卡哇專賣店 (ちいかわらんど TOKYO Station)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "吉祥寺 Sunroad 商店街 (吉祥寺サンロード商店街)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7050504,139.580504&query_place_id=ChIJ8W2Ms0fuGGAR5CNgR7olN8g",
+      "nav_dict": [
+        "吉祥寺 Sunroad 商店街",
+        "吉祥寺 Sunroad 商店街 (吉祥寺サンロード商店街)",
+        "大創 (DAISO 吉祥寺サンロード店)"
+      ],
+      "text_entities": [
+        "吉祥寺 Sunroad 商店街"
+      ],
+      "first_dest": [
+        "4_自由活動與休息"
+      ],
+      "html": [
+        "吉祥寺 Sunroad 商店街",
+        "大創 (DAISO 吉祥寺サンロード店)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "吉祥寺站": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7031125,139.5801608&query_place_id=ChIJCalq8UfuGGARr6-Rc3R6atQ",
+      "nav_dict": [
+        "吉祥寺站"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "吉祥寺站"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "吉野家 (吉野家 御徒町駅前店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7080179,139.7740346&query_place_id=ChIJ8d2S8p-OGGARSVSv1dotT6g",
+      "nav_dict": [
+        "吉野家 (吉野家 御徒町駅前店)",
+        "吉野家 御徒町駅前店"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "2_午餐：吉野家",
+        "2_吉野家"
+      ],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "吉野家 (吉野家 浅草橋店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.697878,139.786407&query_place_id=ChIJM2s0MnaPGGARLSDkTkqBlG4",
+      "nav_dict": [
+        "吉野家",
+        "吉野家 (吉野家 浅草橋店)",
+        "吉野家 浅草橋店"
+      ],
+      "text_entities": [
+        "吉野家",
+        "吉野家 (吉野家 浅草橋店)",
+        "吉野家 浅草橋店"
+      ],
+      "first_dest": [
+        "3_吉野家"
+      ],
+      "html": [
+        "吉野家",
+        "吉野家 (吉野家 浅草橋店)",
+        "吉野家 浅草橋店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "名代 宇奈とと (名代 宇奈とと 上野店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7111357,139.7748663&query_place_id=ChIJ6RMcXZ6OGGARLLk8PdeakXs",
+      "nav_dict": [
+        "名代 宇奈とと (名代 宇奈とと 上野店)",
+        "名代 宇奈とと 上野店"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "2_宇奈とと",
+        "2_晚餐：名代 宇奈とと"
+      ],
+      "html": [
+        "名代 宇奈とと (名代 宇奈とと 上野店)",
+        "名代 宇奈とと 上野店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "哈莫尼卡橫丁 (ハーモニカ横丁)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=%E3%83%8F%E3%83%BC%E3%83%A2%E3%83%8B%E3%82%AB%E6%A8%AA%E4%B8%81",
+      "nav_dict": [
+        "哈莫尼卡橫丁 (ハーモニカ横丁)"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "4_逛哈莫尼卡橫丁"
+      ],
+      "html": [
+        "哈莫尼卡橫丁 (ハーモニカ横丁)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "喫茶 Tricolore (喫茶トリコロール 松坂屋上野店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7078274,139.7733625&query_place_id=ChIJq-gr-5-OGGARval_iCHtxlw",
+      "nav_dict": [
+        "三色旗喫茶店 (喫茶トリコロール 松坂屋上野店)",
+        "喫茶 Tricolore (喫茶トリコロール 松坂屋上野店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "喫茶 トリコロール (松坂屋本館 2F)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7078274,139.7733625&query_place_id=ChIJq-gr-5-OGGARval_iCHtxlw",
+      "nav_dict": [
+        "喫茶 Tricolore",
+        "喫茶 トリコロール (松坂屋本館 2F)",
+        "喫茶トリコロール"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "喫茶 Tricolore",
+        "喫茶 トリコロール (松坂屋本館 2F)",
+        "喫茶トリコロール"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "國立科學博物館 (国立科学博物館)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7164273,139.7763336&query_place_id=ChIJ8Vuh65yOGGARyj4L5IBFiIk",
+      "nav_dict": [
+        "國立科學博物館",
+        "國立科學博物館 (国立科学博物館)"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "3_國立科學博物館"
+      ],
+      "html": [
+        "國立科學博物館",
+        "國立科學博物館 (国立科学博物館)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "國立西洋美術館 (国立西洋美術館)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7153869,139.7758138&query_place_id=ChIJf8xB-pyOGGARizzhlNTcI7s",
+      "nav_dict": [
+        "國立西洋美術館",
+        "國立西洋美術館 (国立西洋美術館)"
+      ],
+      "text_entities": [
+        "國立西洋美術館"
+      ],
+      "first_dest": [],
+      "html": [
+        "國立西洋美術館"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "墨田水族館 (すみだ水族館)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7099301,139.8095855&query_place_id=ChIJO6bK3daOGGARYEFGg4Xm-VI",
+      "nav_dict": [
+        "墨田水族館",
+        "墨田水族館 (すみだ水族館)"
+      ],
+      "text_entities": [
+        "墨田水族館",
+        "墨田水族館 (すみだ水族館)"
+      ],
+      "first_dest": [
+        "5_參觀墨田水族館"
+      ],
+      "html": [
+        "墨田水族館",
+        "墨田水族館 (すみだ水族館)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "壽司郎 (スシロー 秋葉原駅前店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.698736,139.77189&query_place_id=ChIJMfORxzyNGGARskRptNTnsVE",
+      "nav_dict": [
+        "壽司郎 (スシロー 秋葉原駅前店)",
+        "壽司郎 秋葉原駅前店"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "1_壽司郎"
+      ],
+      "html": [
+        "壽司郎 (スシロー 秋葉原駅前店)",
+        "壽司郎 秋葉原駅前店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "多慶屋 (多慶屋 TAKEYA 1)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7068257,139.7768298&query_place_id=ChIJrdKWej2PGGARePk-9rp1pos",
+      "nav_dict": [
+        "多慶屋",
+        "多慶屋 (多慶屋 TAKEYA 1)"
+      ],
+      "text_entities": [
+        "多慶屋",
+        "多慶屋 (多慶屋 TAKEYA 1)",
+        "多慶屋 (多慶屋 TAKEYA1)",
+        "多慶屋（TAKEYA）"
+      ],
+      "first_dest": [],
+      "html": [
+        "多慶屋",
+        "多慶屋 (多慶屋 TAKEYA 1)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "多慶屋 (多慶屋 TAKEYA 1號館)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7068257,139.7766029&query_place_id=ChIJn8vSn5SOGGARj0X_4k3D4lA",
+      "nav_dict": [
+        "多慶屋 (多慶屋 TAKEYA 1號館)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "多慶屋 (多慶屋 TAKEYA1)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7068257,139.7770977&query_place_id=ChIJi8e8_JuOGGAR5e4o-gq0F88",
+      "nav_dict": [
+        "多慶屋 (多慶屋 TAKEYA1)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "夥伴雕像 (パートナーズ像)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.633055,139.880416",
+      "nav_dict": [
+        "夥伴雕像",
+        "夥伴雕像 (パートナーズ像)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "大戶屋 (大戶屋ごはん処 吉祥寺店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7032718,139.5784738&query_place_id=ChIJ-34cDUjuGGARIZkFocT8a5o",
+      "nav_dict": [
+        "大戶屋",
+        "大戶屋 (大戶屋ごはん処 吉祥寺店)",
+        "大戶屋 (大戸屋ごはん処 吉祥寺店)",
+        "大戶屋 吉祥寺店"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "4_大戶屋"
+      ],
+      "html": [
+        "大戶屋",
+        "大戶屋 (大戸屋ごはん処 吉祥寺店)",
+        "大戶屋 吉祥寺店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "天丼てんや (天丼てんや 八重洲店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6790668,139.7679772&query_place_id=ChIJzQEVm_yLGGAR1QSl3jr9CNU",
+      "nav_dict": [
+        "天丼てんや (天丼てんや 八重洲店)",
+        "天丼てんや 八重洲店"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "3_天丼てんや"
+      ],
+      "html": [
+        "天丼てんや (天丼てんや 八重洲店)",
+        "天丼てんや 八重洲店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "天音 (有職たい菓子本舗 天音)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=%E6%9C%89%E8%81%B7%E3%81%9F%E3%81%84%E8%8F%93%E5%AD%90%E6%9C%AC%E8%88%97%20%E5%A4%A9%E9%9F%B3%20%E5%90%89%E7%A5%A5%E5%AF%BA",
+      "nav_dict": [
+        "天音",
+        "天音 (有職たい菓子本舗 天音)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "天音 (有職たい菓子本舗 天音)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "奧爾良劇場 (シアターオーリンズ)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6341151,139.8815492&query_place_id=ChIJxeUaFhF9GGARy1fbZhwja0M",
+      "nav_dict": [
+        "奧爾良劇場 (シアターオーリンズ)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "客美多咖啡 (コメダ珈琲店 上野広小路店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7087031,139.7729243&query_place_id=ChIJe_0tCHGPGGARZjMuzjwV0Jc",
+      "nav_dict": [
+        "客美多咖啡",
+        "客美多咖啡 (コメダ珈琲店 上野広小路店)"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "2_室內基地營避暑"
+      ],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E",
+      "nav_dict": [
+        "一風堂 (一風堂 東京ソラマチ店)",
+        "一風堂 晴空塔店",
+        "宮武讚岐烏龍麵",
+        "宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)",
+        "東京晴空街道 (東京ソラマチ)"
+      ],
+      "text_entities": [
+        "晴空街道",
+        "東京晴空街道",
+        "東京晴空街道 (東京ソラマチ)"
+      ],
+      "first_dest": [
+        "5_前往東京晴空塔",
+        "5_晴空街道散策與高空景觀"
+      ],
+      "html": [
+        "一風堂 (一風堂 東京ソラマチ店)",
+        "一風堂 晴空塔店",
+        "宮武讚岐烏龍麵",
+        "宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)",
+        "東京晴空街道 (東京ソラマチ)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "實物大獨角獸鋼彈立像 (実物大ユニコーンガンダム立像)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.624451,139.7754917&query_place_id=ChIJF6xTyvmJGGARU8t5NIqkNeI",
+      "nav_dict": [
+        "實物大獨角獸鋼彈立像",
+        "實物大獨角獸鋼彈立像 (実物大ユニコーンガンダム立像)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "寶可夢中心 (ポケモンセンタースカイツリータウン)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7102505,139.8123004&query_place_id=ChIJt6u9QtaOGGARHbxorE1IKXw",
+      "nav_dict": [
+        "寶可夢中心 (ポケモンセンタースカイツリータウン)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "寶可夢商店 (ポケモンストア 東京駅店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6824964,139.7686833&query_place_id=ChIJGeYlX_mLGGAR5X58S2PvaO8",
+      "nav_dict": [
+        "寶可夢商店 (ポケモンストア 東京駅店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "小ざさ (小ざさ 吉祥寺本店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E3%81%96%E3%81%95%20%E5%90%89%E7%A5%A5%E5%AF%BA%E6%9C%AC%E7%94%BA1-1-8",
+      "nav_dict": [
+        "小ざさ",
+        "小ざさ (小ざさ 吉祥寺本店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "小ざさ (小ざさ 吉祥寺本店)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "小熊維尼獵蜜記": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.630542,139.8800801&query_place_id=ChIJiaEbVRd9GGARVz0em8VQFas",
+      "nav_dict": [
+        "小熊維尼獵蜜記"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "小熊維尼獵蜜記"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "巨雷山 (130cm)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6324683,139.8835266&query_place_id=ChIJk0lZchB9GGARIn8k5SNRH2g",
+      "nav_dict": [
+        "巨雷山",
+        "巨雷山 (130cm)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "巨雷山"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "廣場閣樓餐廳": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6328604,139.8814464&query_place_id=ChIJLahNOoJ9GGARr52sz9U-shM",
+      "nav_dict": [
+        "廣場閣樓餐廳"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "廣場閣樓餐廳"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "廣場閣樓餐廳 (プラザパビリオン・レストラン)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6328604,139.8803604&query_place_id=ChIJLahNOoJ9GGARr52sz9U-shM",
+      "nav_dict": [
+        "廣場閣樓餐廳 (プラザパビリオン・レストラン)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "拉麵 ろく月 (らーめん ろく月)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6988822,139.7853036&query_place_id=ChIJJXBZm7GOGGARs9xs2jSt0lI",
+      "nav_dict": [
+        "ろく月",
+        "ろく月 雞白湯拉麵",
+        "拉麵 ろく月",
+        "拉麵 ろく月 (らーめん ろく月)"
+      ],
+      "text_entities": [
+        "ろく月 雞白湯拉麵",
+        "拉麵 ろく月",
+        "拉麵 ろく月 (らーめん ろく月)"
+      ],
+      "first_dest": [],
+      "html": [
+        "ろく月",
+        "ろく月 雞白湯拉麵",
+        "拉麵 ろく月",
+        "拉麵 ろく月 (らーめん ろく月)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "摩斯漢堡 (モスバーガー 新宿西口店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.694661,139.698994&query_place_id=ChIJKdESUJGNGGAReuO_-gbd6jY",
+      "nav_dict": [
+        "摩斯漢堡",
+        "摩斯漢堡 (モスバーガー 新宿西口店)",
+        "摩斯漢堡 新宿西口店"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "摩斯漢堡",
+        "摩斯漢堡 (モスバーガー 新宿西口店)",
+        "摩斯漢堡 新宿西口店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "新宿站": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6896067,139.7005713&query_place_id=ChIJH7qx1tCMGGAR1f2s7PGhMhw",
+      "nav_dict": [
+        "新宿站"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "1_出發前往新宿東口"
+      ],
+      "html": [
+        "新宿站"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "新宿西口地下通路 (新宿副都心4号街路地下道)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.690800,139.696500",
+      "nav_dict": [
+        "新宿西口地下通路 (新宿副都心4号街路地下道)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "日本科學未來館 (日本科学未来館)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6193359,139.7763995&query_place_id=ChIJz_149P6JGGARoImMn3NlsfY",
+      "nav_dict": [
+        "日本科学未来館",
+        "日本科學未來館",
+        "日本科學未來館 (日本科学未来館)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "日系拍貼機體驗 (Purikura / GiGO 拍貼機專區)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6992456,139.7709552&query_place_id=ChIJR-PMBx2MGGARPFrgtULaJB0",
+      "nav_dict": [
+        "GiGO 秋葉原3號館",
+        "日系拍貼機體驗 (Purikura / GiGO 拍貼機專區)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "GiGO 秋葉原3號館",
+        "日系拍貼機體驗 (Purikura / GiGO 拍貼機專區)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "明日樂園舞台餐廳": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6319086,139.8795571&query_place_id=ChIJTzLkOhd9GGAR_-mrdmCJEn0",
+      "nav_dict": [
+        "明日樂園舞台餐廳"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "明日樂園舞台餐廳"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "明日樂園舞台餐廳 (トゥモローランド・テラス)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJTzLkOhd9GGAR_-mrdmCJEn0",
+      "nav_dict": [
+        "明日樂園舞台餐廳 (トゥモローランド・テラス)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "東京國立博物館 (東京国立博物館)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7188351,139.7765215&query_place_id=ChIJEX3XFIOOGGAR3XdJvRjWLyM",
+      "nav_dict": [
+        "東京国立博物館",
+        "東京國立博物館",
+        "東京國立博物館 (東京国立博物館)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "東京文化會館 (東京文化会館)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7144707,139.7751315&query_place_id=ChIJRRISsp2OGGARTNMhXv2t-BQ",
+      "nav_dict": [
+        "東京文化會館 (東京文化会館)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "東京晴空塔 (東京スカイツリー)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7100627,139.8107004&query_place_id=ChIJ35ov0dCOGGARKvdDH7NPHX0",
+      "nav_dict": [
+        "東京晴空塔",
+        "東京晴空塔 (東京スカイツリー)"
+      ],
+      "text_entities": [
+        "晴空塔",
+        "東京晴空塔",
+        "東京晴空塔 (東京スカイツリー)"
+      ],
+      "first_dest": [],
+      "html": [
+        "東京晴空塔",
+        "東京晴空塔 (東京スカイツリー)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "東京晴空塔站": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7095445,139.8090493&query_place_id=ChIJ5_rl0daOGGAR0BEODNSc_W8",
+      "nav_dict": [
+        "東京晴空塔站"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "東京晴空塔站"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "東京車站": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6812996,139.7670658&query_place_id=ChIJC3Cf2PuLGGAROO00ukl8JwA",
+      "nav_dict": [
+        "東京站",
+        "東京車站"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "3_前往東京車站"
+      ],
+      "html": [
+        "東京站",
+        "東京車站"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "東京車站一番街 (東京駅一番街)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%A7%85%E4%B8%80%E7%95%AA%E8%A1%97",
+      "nav_dict": [
+        "東京車站一番街",
+        "東京車站一番街 (東京駅一番街)"
+      ],
+      "text_entities": [
+        "東京車站一番街",
+        "東京車站一番街 (東京駅一番街)"
+      ],
+      "first_dest": [
+        "3_移動至東京車站一番街動漫街",
+        "3_逛東京車站一番街動漫街"
+      ],
+      "html": [
+        "東京車站一番街",
+        "東京車站一番街 (東京駅一番街)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "東京車站丸之內站舍 (東京駅丸の内駅舎)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6814247,139.7659944&query_place_id=ChIJE9qjZ0-LGGARQiAs8hULJsg",
+      "nav_dict": [
+        "東京車站丸之內站舍",
+        "東京車站丸之內站舍 (東京駅丸の内駅舎)"
+      ],
+      "text_entities": [
+        "東京車站丸之內站舍",
+        "東京車站丸之內站舍 (東京駅丸の内駅舎)"
+      ],
+      "first_dest": [
+        "3_欣賞東京車站丸之內站舍建築"
+      ],
+      "html": [
+        "東京車站丸之內站舍",
+        "東京車站丸之內站舍 (東京駅丸の内駅舎)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "東京迪士尼樂園 (東京ディズニーランド)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJcRLMWRd9GGAR53hJkYCYyxw",
+      "nav_dict": [
+        "城堡前廣場",
+        "城堡前廣場 (プラザ)",
+        "東京迪士尼樂園",
+        "東京迪士尼樂園 (東京ディズニーランド)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "東京迪士尼樂園"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "東京迪士尼樂園東巴士總站 1 號站牌 (東京ディズニーランド・バスターミナル・イースト 1番のりば)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6364946,139.8807661&query_place_id=ChIJ3w8y8xN9GGARe5_gvaoDCMo",
+      "nav_dict": [
+        "東京迪士尼樂園東巴士總站 (東京ディズニーランド・バスターミナル・イースト 1番のりば)",
+        "東京迪士尼樂園東巴士總站 1 號站牌 (東京ディズニーランド・バスターミナル・イースト 1番のりば)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "東京迷你世界博物館 (ミニチュアミュージアム スモールワールズ)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6379228,139.7883556&query_place_id=ChIJZRKFm-eJGGARglEoaF4NcC8",
+      "nav_dict": [
+        "SMALL WORLDS",
+        "ミニチュアミュージアム スモールワールズ",
+        "東京迷你世界博物館",
+        "東京迷你世界博物館 (ミニチュアミュージアム スモールワールズ)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "東京都廳南展望室 (東京都庁 南展望室)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6894807,139.6916863&query_place_id=ChIJoTcat9SMGGAR6GGG8zdcZvE",
+      "nav_dict": [
+        "東京都廳",
+        "東京都廳 (東京都庁)",
+        "東京都廳南展望室 (東京都庁 南展望室)",
+        "東京都廳第一本廳舍 (東京都庁舎)"
+      ],
+      "text_entities": [
+        "東京都廳",
+        "東京都廳 (東京都庁)"
+      ],
+      "first_dest": [
+        "5_前往東京都廳展望室",
+        "5_都廳觀景與欣賞新宿夜景"
+      ],
+      "html": [
+        "東京都廳",
+        "東京都廳第一本廳舍 (東京都庁舎)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "東武 淺草站 (東武浅草駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7118,139.7977&query_place_id=ChIJL68h0YmNGGARm2u01N4793Y",
+      "nav_dict": [
+        "東武 淺草站",
+        "東武 淺草站 (東武浅草駅)",
+        "東武淺草站"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "東銀座站": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6697003,139.7671399&query_place_id=ChIJK2bxJueLGGARwHHeH52hGiM",
+      "nav_dict": [
+        "東銀座站"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "東銀座站"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "松坂屋地下美食街 (松坂屋上野店 ほっぺタウン)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o",
+      "nav_dict": [
+        "松坂屋 (松坂屋 上野店)",
+        "松坂屋上野店",
+        "松坂屋上野店與PARCO_ya",
+        "松坂屋地下美食街",
+        "松坂屋地下美食街 (松坂屋上野店 ほっぺタウン)"
+      ],
+      "text_entities": [
+        "松坂屋",
+        "松坂屋上野店"
+      ],
+      "first_dest": [
+        "2_晨間清涼戶外散步"
+      ],
+      "html": [
+        "松坂屋上野店",
+        "松坂屋上野店與PARCO_ya",
+        "松坂屋地下美食街",
+        "松坂屋地下美食街 (松坂屋上野店 ほっぺタウン)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "松屋 (松屋 上野店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.710037,139.773889&query_place_id=ChIJZ44cNJ6OGGAR5MROF68O1B0",
+      "nav_dict": [
+        "松屋 (松屋 上野店)",
+        "松屋 上野店"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "松屋 (松屋 上野店)",
+        "松屋 上野店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "松屋 (松屋 押上店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.710448,139.8142155&query_place_id=ChIJmeev5CmPGGARBOtl8Si0G2o",
+      "nav_dict": [
+        "松屋 (松屋 押上店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "松屋 (松屋 押上店)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "松屋 (松屋 浅草橋店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.696998,139.786388&query_place_id=ChIJW_fJurOOGGARyv4l77z-WHQ",
+      "nav_dict": [
+        "松屋 (松屋 浅草橋店)",
+        "松屋 浅草橋店"
+      ],
+      "text_entities": [
+        "松屋 (松屋 浅草橋店)",
+        "松屋 浅草橋店"
+      ],
+      "first_dest": [],
+      "html": [
+        "松屋 (松屋 浅草橋店)",
+        "松屋 浅草橋店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "松本清 (マツモトキヨシ 上野アメ横店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7099502,139.7747201&query_place_id=ChIJY-y5k5SOGGARxK308s2j1jM",
+      "nav_dict": [
+        "松本清 (マツモトキヨシ 上野アメ横店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "森林劇院 (ファンタジーランド・フォレストシアター)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6312777,139.8777727&query_place_id=ChIJCRE2shF9GGARWEzVE8BxiPk",
+      "nav_dict": [
+        "森林劇院 (ファンタジーランド・フォレストシアター)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "橡子共和國 (ジブリがいっぱい どんぐり共和国 東京駅店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6814502,139.7671802&query_place_id=ChIJYySqIPuLGGARoe1sGm-47Mw",
+      "nav_dict": [
+        "橡子共和國 (ジブリがいっぱい どんぐり共和国 東京駅店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "波除稻荷神社": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6635186,139.7715677&query_place_id=ChIJa4JUjdiLGGARfzINTSU_X0s",
+      "nav_dict": [
+        "波除稻荷神社"
+      ],
+      "text_entities": [
+        "波除稻荷神社"
+      ],
+      "first_dest": [],
+      "html": [
+        "波除稻荷神社"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "海茵娜酒店东京浅草桥": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA",
+      "nav_dict": [
+        "海茵娜酒店",
+        "海茵娜酒店东京浅草桥"
+      ],
+      "text_entities": [
+        "海茵娜酒店",
+        "海茵娜酒店东京浅草桥"
+      ],
+      "first_dest": [
+        "1_前往飯店",
+        "1_方案 B：返回淺草橋",
+        "1_返回淺草橋",
+        "2_回程：前往JR 御徒町站",
+        "3_前往御徒町站搭車",
+        "4_返回淺草橋",
+        "5_返回淺草橋",
+        "6_返回淺草橋飯店"
+      ],
+      "html": [
+        "海茵娜酒店",
+        "海茵娜酒店东京浅草桥"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "淺草寺 (浅草寺)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7147651,139.7966553&query_place_id=ChIJ8T1GpMGOGGARDYGSgpooDWw",
+      "nav_dict": [
+        "淺草寺",
+        "淺草寺 (浅草寺)"
+      ],
+      "text_entities": [
+        "淺草寺",
+        "淺草寺 (浅草寺)"
+      ],
+      "first_dest": [],
+      "html": [
+        "淺草寺",
+        "淺草寺 (浅草寺)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "淺草文化觀光中心 (浅草文化観光センター)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7107074,139.7965461&query_place_id=ChIJr2cNBsGOGGARSX3xfkspQHc",
+      "nav_dict": [
+        "淺草文化觀光中心 (浅草文化観光センター)"
+      ],
+      "text_entities": [
+        "淺草文化觀光中心",
+        "淺草文化觀光中心 (浅草文化観光センター)"
+      ],
+      "first_dest": [
+        "5_淺草文化觀光中心眺望晴空塔"
+      ],
+      "html": [
+        "淺草文化觀光中心 (浅草文化観光センター)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "淺草橋站(浅草橋駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6974952,139.7865048&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg",
+      "nav_dict": [
+        "淺草橋站(浅草橋駅)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "淺草站": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7098669,139.7971675&query_place_id=ChIJL34SkMaOGGAR8M8COhoCH_Q",
+      "nav_dict": [
+        "淺草站"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "淺草站"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "清水觀音堂 (清水観音堂)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7126261,139.7735665&query_place_id=ChIJ9Rg_5Z2OGGAR40HN7lsM5_U",
+      "nav_dict": [
+        "清水觀音堂"
+      ],
+      "text_entities": [
+        "清水觀音堂",
+        "清水觀音堂 (清水観音堂)"
+      ],
+      "first_dest": [],
+      "html": [
+        "清水觀音堂"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "清水觀音堂 (清水観音堂)＋": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7126261,139.7735391&query_place_id=ChIJqZzHZZyOGGARkQYqM_0g4r8",
+      "nav_dict": [
+        "清水觀音堂 (清水観音堂)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "灰姑娘城堡 (シンデレラ城)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6321136,139.8808623&query_place_id=ChIJddVMuXN9GGARaS2CaOt1GUY",
+      "nav_dict": [
+        "灰姑娘城堡",
+        "灰姑娘城堡 (シンデレラ城)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "無印良品 (無印良品 コピス吉祥寺)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7049541,139.5795709&query_place_id=ChIJB0eQ1EfuGGARaKthmgoKqwU",
+      "nav_dict": [
+        "無印良品 (無印良品 コピス吉祥寺)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "無印良品 (無印良品 コピス吉祥寺)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "燕子烤肉漢堡排 (つばめグリル 大丸東京店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6812026,139.7685845&query_place_id=ChIJGeYlX_mLGGARrZDoFX4WYlY",
+      "nav_dict": [
+        "燕子烤肉漢堡排",
+        "燕子烤肉漢堡排 (つばめグリル 大丸東京店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "燕子烤肉漢堡排",
+        "燕子烤肉漢堡排 (つばめグリル 大丸東京店)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "百合海鷗線 台場站 (台場駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6259459,139.7714957&query_place_id=ChIJuSwSCR2KGGAR-N7KPSFFRXM",
+      "nav_dict": [
+        "百合海鷗線 台場站 (台場駅)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "百合海鷗線 新橋站 (新橋駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJq0X3kZaLGGARF0k9yTjYI-8",
+      "nav_dict": [
+        "百合海鷗線 新橋站 (新橋駅)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "百合海鷗線 有明網球之森站 (有明テニスの森駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6400414,139.7888454&query_place_id=ChIJRU5FTeuJGGARK2atWKJ5P_g",
+      "nav_dict": [
+        "百合海鷗線 有明網球之森站 (有明テニスの森駅)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "百合海鷗線 東京國際郵輪碼頭站 (東京国際クルーズターミナル駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.621213,139.772592&query_place_id=ChIJc1979puNGGARR5_P_y3m5uE",
+      "nav_dict": [
+        "百合海鷗線 東京國際郵輪碼頭站 (東京国際クルーズターミナル駅)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "秋葉原扭蛋會館": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7018425,139.7712256&query_place_id=ChIJBztW3x2MGGARadHYl5vTEK0",
+      "nav_dict": [
+        "秋葉原扭蛋會館"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "秋葉原扭蛋會館"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "秋葉原站東口 (秋葉原駅東口交通広場)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.698383,139.7741315&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU",
+      "nav_dict": [
+        "秋葉原站東口 (秋葉原駅東口交通広場)"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "2_返回淺草橋"
+      ],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "築地丸武 (丸武 玉子焼)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6652495,139.7702808&query_place_id=ChIJpYBA196LGGARQNBJMp7ncm8",
+      "nav_dict": [
+        "築地丸武 (丸武 玉子焼)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "築地丸武 (丸武 築地本店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6651719,139.7700056&query_place_id=ChIJpYBA196LGGARQNBJMp7ncm8",
+      "nav_dict": [
+        "築地丸武 (丸武 築地本店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "築地丸武 (丸武 築地本店)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "築地場外市場 (築地場外市場)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6647703,139.7702515&query_place_id=ChIJW2cLzSGLGGARXAKXv6EkbqI",
+      "nav_dict": [
+        "築地場外市場",
+        "築地場外市場 (築地場外市場)"
+      ],
+      "text_entities": [
+        "築地場外市場",
+        "築地場外市場 (築地場外市場)"
+      ],
+      "first_dest": [
+        "6_前往築地場外市場"
+      ],
+      "html": [
+        "築地場外市場",
+        "築地場外市場 (築地場外市場)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "築地山長 (つきぢ山長)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.66512609999999,139.77007&query_place_id=ChIJpYBA196LGGARHJnwxaxGNKg",
+      "nav_dict": [
+        "築地山長",
+        "築地山長 (つきぢ山長)"
+      ],
+      "text_entities": [
+        "「築地山長」現做玉子燒",
+        "築地山長",
+        "築地山長 (つきぢ山長)"
+      ],
+      "first_dest": [
+        "6_築地場外市場美食散策"
+      ],
+      "html": [
+        "築地山長",
+        "築地山長 (つきぢ山長)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "紅心皇后宴會大廳": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6310489,139.8812591&query_place_id=ChIJW_W1wxF9GGARviku0bVJdWw",
+      "nav_dict": [
+        "紅心皇后宴會大廳"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "紅心皇后宴會大廳"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "紅心皇后宴會大廳 (クイーン・オブ・ハートのバンケットホール)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6318964,139.8808964&query_place_id=ChIJd_6R8NaOGGAR_H6n4m5Jj3a",
+      "nav_dict": [
+        "紅心皇后宴會大廳 (クイーン・オブ・ハートのバンケットホール)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "紅連火箭筒餐廳": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6330921,139.8786083&query_place_id=ChIJwSy1wxF9GGARTnJEfdbTKtI",
+      "nav_dict": [
+        "紅連火箭筒餐廳"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "紅連火箭筒餐廳"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "紅連火箭筒餐廳 (パン・ギャラクティック・ピザ・ポート)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6330921,139.8810921&query_place_id=ChIJd-Z9-daOGGAR1wK46v6F7oQ",
+      "nav_dict": [
+        "紅連火箭筒餐廳 (パン・ギャラクティック・ピザ・ポート)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "美女與野獸：魔法物語": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.631147,139.8781888&query_place_id=ChIJ1wJQ0dp9GGARp34ifBAVuOw",
+      "nav_dict": [
+        "美女與野獸：魔法物語"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "美女與野獸：魔法物語"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "羽田機場第3航廈": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.543913,139.768155&query_place_id=ChIJ01PIBVRhGGARR1RZERfkuvo",
+      "nav_dict": [
+        "羽田機場",
+        "羽田機場第3航廈"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "6_前往羽田機場"
+      ],
+      "html": [
+        "羽田機場",
+        "羽田機場第3航廈"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "羽田機場餐廳街 (羽田空港第3ターミナル レストラン街)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.544843,139.768132&query_place_id=ChIJg4gqf3aKGGAReP-56k2M5n8",
+      "nav_dict": [
+        "羽田機場餐廳街 (羽田空港第3ターミナル レストラン街)"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "6_羽田機場餐廳街"
+      ],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "聖瑪克咖啡 (サンマルクカフェ 御徒町南口店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7070618,139.7740642&query_place_id=ChIJC9p7GKCOGGARZC2rsIDVwSU",
+      "nav_dict": [
+        "聖瑪克咖啡",
+        "聖瑪克咖啡 (サンマルクカフェ 御徒町南口店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "肉之Hanamasa超市 (肉のハナマサ 浅草橋店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6966953,139.7840376&query_place_id=ChIJS7K2bLKOGGARGySfwejBx4o",
+      "nav_dict": [
+        "肉のハナマサ 浅草橋店",
+        "肉之Hanamasa超市"
+      ],
+      "text_entities": [
+        "肉之Hanamasa超市",
+        "肉之Hanamasa超市 (肉のハナマサ 浅草橋店)"
+      ],
+      "first_dest": [
+        "1_地方生鮮超市採買"
+      ],
+      "html": [
+        "肉のハナマサ 浅草橋店",
+        "肉之Hanamasa超市"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "肉之大山 (肉の大山 上野店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7103925,139.7752423&query_place_id=ChIJsfxOVJ6OGGARYR08nkWSLdY",
+      "nav_dict": [
+        "肉之大山 (肉の大山 上野店)"
+      ],
+      "text_entities": [
+        "肉之大山",
+        "肉之大山 (肉の大山 上野店)"
+      ],
+      "first_dest": [],
+      "html": [
+        "肉之大山 (肉の大山 上野店)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "臨海線 國際展示場站 (国際展示場駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6344246,139.7916459&query_place_id=ChIJjbq5s-mJGGAR0GKPNjCtoPQ",
+      "nav_dict": [
+        "臨海線 國際展示場站 (国際展示場駅)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "臨海線 東京電訊港站 (東京テレポート駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.628889,139.777222&query_place_id=ChIJyXG_6pyOGGAR2u4o-gq0F98",
+      "nav_dict": [
+        "臨海線 東京電訊港站 (東京テレポート駅)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "舊岩崎邸庭園": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7097847,139.7671385&query_place_id=ChIJ7x2-BSSMGGARahVDg6WIAag",
+      "nav_dict": [
+        "舊岩崎邸庭園"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "舊岩崎邸庭園"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "花丸烏龍麵 (はなまるうどん 吉祥寺南口店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.70285620000001,139.5789358&query_place_id=ChIJI3N-B0juGGARVFt2kRKykZs",
+      "nav_dict": [
+        "花丸烏龍麵",
+        "花丸烏龍麵 (はなまるうどん 吉祥寺南口店)",
+        "花丸烏龍麵 吉祥寺南口店"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "花丸烏龍麵",
+        "花丸烏龍麵 (はなまるうどん 吉祥寺南口店)",
+        "花丸烏龍麵 吉祥寺南口店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "莎拉奶奶之家餐廳": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6310799,139.8825518&query_place_id=ChIJp7mIexp9GGARVeP8hxCaRN8",
+      "nav_dict": [
+        "莎拉奶奶之家餐廳"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "莎拉奶奶之家餐廳"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "莎拉奶奶之家餐廳 (グランマ・サラのキッチン)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.631147,139.878847&query_place_id=ChIJcRLMWRd9GGAR53hJkYCYyxw",
+      "nav_dict": [
+        "莎拉奶奶之家餐廳 (グランマ・サラのキッチン)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "萬代扭蛋百貨店 秋葉原店": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6996473,139.7713703&query_place_id=ChIJzdWdgh2MGGARh4kg2pVZL3c",
+      "nav_dict": [
+        "萬代扭蛋百貨店 秋葉原店"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "1_萬代扭蛋"
+      ],
+      "html": [
+        "萬代扭蛋百貨店 秋葉原店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "迪士尼商店 (ディズニーストア 東京駅店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6812904,139.7672504&query_place_id=ChIJO0Z_QVOLGGARz8y08o3_2wU",
+      "nav_dict": [
+        "迪士尼商店 (ディズニーストア 東京駅店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "迪士尼樂園巴士總站 (東京ディズニーランド バスターミナル 1番のりば)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.634151,139.878701&query_place_id=ChIJ3w8y8xN9GGARe5_gvaoDCMo",
+      "nav_dict": [
+        "迪士尼樂園巴士總站 (東京ディズニーランド バスターミナル 1番のりば)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "達摩文字燒 (月島名物もんじゃ だるま 東京スカイツリータウン・ソラマチ店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7101381,139.8122049&query_place_id=ChIJUaJR8NaOGGAR48j6xkTvMeY",
+      "nav_dict": [
+        "達摩文字燒",
+        "達摩文字燒 (月島名物もんじゃ だるま 東京スカイツリータウン・ソラマチ店)",
+        "達摩文字燒 晴空塔店"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "5_達摩文字燒"
+      ],
+      "html": [
+        "達摩文字燒",
+        "達摩文字燒 (月島名物もんじゃ だるま 東京スカイツリータウン・ソラマチ店)",
+        "達摩文字燒 晴空塔店"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "都營 押上站 (押上駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0",
+      "nav_dict": [
+        "押上站 (押上駅)",
+        "都營 押上站",
+        "都營 押上站 (押上駅)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "都營 東銀座站 (東銀座駅)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6697003,139.7672886&query_place_id=ChIJK2bxJueLGGARwHHeH52hGiM",
+      "nav_dict": [
+        "都營 東銀座站",
+        "都營 東銀座站 (東銀座駅)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [],
+      "verified_at": "2026-08-14"
+    },
+    "阿美橫丁(アメ横)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7090028,139.7746259&query_place_id=ChIJh7eDrwCPGGARCs9fpCkKS2U",
+      "nav_dict": [
+        "阿美橫丁",
+        "阿美橫丁(アメ横)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "阿美橫丁",
+        "阿美橫丁(アメ横)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "雷門 (雷門)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7111163,139.7963656&query_place_id=ChIJ0YwG28aOGGARvRKAXIBWqNk",
+      "nav_dict": [
+        "雷門 (雷門)"
+      ],
+      "text_entities": [
+        "雷門",
+        "雷門 (雷門)"
+      ],
+      "first_dest": [
+        "5_前往淺草",
+        "5_參觀淺草寺與雷門散策"
+      ],
+      "html": [
+        "雷門 (雷門)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7083768,139.7752537&query_place_id=ChIJ6-Rvg5-OGGAR99AELnNenOU",
+      "nav_dict": [
+        "鴨 to 蔥拉麵",
+        "鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "鴨 to 蔥拉麵",
+        "鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "麥當勞 (マクドナルド 新宿西口店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6892366,139.6981928&query_place_id=ChIJj8aWGtGMGGARxgm4q3X9Rt4",
+      "nav_dict": [
+        "麥當勞",
+        "麥當勞 (マクドナルド 新宿西口店)",
+        "麥當勞 新宿西口店"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "麥當勞",
+        "麥當勞 (マクドナルド 新宿西口店)",
+        "麥當勞 新宿西口店"
+      ],
+      "verified_at": "2026-08-14"
+    }
+  }
+}

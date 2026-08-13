@@ -22,9 +22,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 # 編譯 PWA：README.md → itinerary.html（唯一的建置指令）
 python3 build_pwa.py
 
-# 全量驗證管線：粗體裸字 linter + 命名規範 + 全部 Google Maps 連結 HTTP 檢測
+# 全量驗證管線：階段 0 偽造偵測 + 粗體裸字 linter + 命名規範 + 全部連結 HTTP 檢測
 # 失敗時 exit(1)。含網路請求（8 執行緒），約需數十秒
 python3 full_validation_pipeline.py
+
+# 導航連結：places.json 是唯一真相來源，四個字典檔皆由它生成
+python3 sync_places.py --generate   # 生成 navigation_links.html 與三個 JSON
+python3 sync_places.py --check      # 檢查 README 內文網址是否與 places.json 一致
+python3 sync_places.py --fix        # 自動修正 README 不一致的網址
+
+# Place ID 離線偽造偵測（免 API key、免網路，已被驗證管線納為階段 0）
+python3 place_id_audit.py
 ```
 
 ⚠️ 依 `.agents/AGENTS.md`：**微調 Markdown 後嚴禁自動執行 `build_pwa.py` 或 `git push`**，只有使用者明確要求（「轉成網頁版」／「更新 PWA」／「幫我 push」）時才執行。
@@ -72,18 +80,24 @@ README.md  ──(build_pwa.py: parse → render)──▶  itinerary.html  ─�
 - `autolink_text_entities()` — 把 `text_entities.json`（list of `[名稱, URL]`）中的地名在已渲染 HTML 中自動加上連結，會跳過既有 `<a>` 區段，每個名稱最多取代 2 次。
 - `CUSTOM_SUMMARIES_V10` — 以 `(day, title)` 為 key 的手寫卡片摘要，覆蓋自動生成的摘要。改標題時這裡也要跟著改，否則摘要會靜默失效（見 commit `f5d8b9b`、`a9b6bb8`）。
 
-## 導航連結字典的分工
+## 導航連結：places.json 為唯一真相來源
 
-四個 JSON 都是「中文標籤 → Google Maps Place ID URL」，用途不同，不要混用：
+⚠️ **2026-08 流程變更**：原本同一網址散落 5 個檔案且無同步機制，導致大量偽造 Place ID 與座標漂移。現改為單一真相來源＋自動生成。
 
-| 檔案 | 內容 | 用途 |
-| :-- | :-- | :-- |
-| `navigation_links_dict.json` | 293 筆，主字典 | 通用查找與 fallback |
-| `first_destinations.json` | 58 筆，key 為 `"{day}_{標題}"` | 卡片右上角「📍 導航」的第一目的地 |
-| `canonical_nav_map.json` | 83 筆 | 官方標準座標／Place ID 校準用 |
-| `text_entities.json` | 74 筆（list） | 內文自動加連結 |
+| 檔案 | 角色 |
+| :-- | :-- |
+| **`places.json`** | **唯一真相來源，只改這裡**。每筆記錄 `url`／`nav_dict`／`text_entities`／`first_dest`／`html`／`verified_at` |
+| `navigation_links_dict.json` | 🤖 生成物，`build_pwa.py:36` 讀取，通用 fallback |
+| `first_destinations.json` | 🤖 生成物，`build_pwa.py:43` 讀取，卡片「📍 導航」第一目的地 |
+| `text_entities.json` | 🤖 生成物，`build_pwa.py:50` 讀取，內文自動加連結 |
+| `navigation_links.html` | 🤖 生成物，供人開瀏覽器逐筆點開驗證，**無程式讀取** |
+| `canonical_nav_map.json` | ⚰️ 歷史遺留，**無程式讀取**，勿再依賴 |
 
-`navigation_links.html` 是人工校對用的深色表格頁面，為連結的**唯一維護基準**；新增地點時先在此登錄再同步進 JSON。
+**維護流程**：改 `places.json` → `sync_places.py --generate` → `sync_places.py --fix`（同步 README）→（使用者要求時）`build_pwa.py`。
+
+`README.md` 由 Docsify 直接渲染，必須是完成品、不能用佔位符，因此**只能被檢查與修正，不能被生成**。
+
+⚠️ **HTTP 200 不代表 Place ID 有效** —— Google 對任何 `query_place_id` 都回 200 後靜默退回座標定位。驗證用 `place_id_audit.py`（6 條離線規則：格式、座標複製、ID 尾碼遞增、張冠李戴、座標出境、驗證逾期），或用具 API key 的 Places API。**嚴禁憑空編造 Place ID 或座標。**
 
 URL 一律使用永久標準格式 `https://www.google.com/maps/search/?api=1&query=LAT,LNG&query_place_id=PLACE_ID`；**禁止** `maps.app.goo.gl` 短網址（會出現 `Dynamic Link Not Found`，驗證管線會擋）。
 
