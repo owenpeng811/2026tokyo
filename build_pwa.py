@@ -17,13 +17,13 @@ def clean_title(title_raw):
     t = re.sub(r'\[(.*?)\]\(.*?\)', r'\1', title_raw)
     t = re.sub(r'\([^\)]*maps[^\)]*\)', '', t)
     t = re.sub(r'^[#\s\*\-]+', '', t)
-    t = t.replace('✈️', '').replace('🚇', '').replace('🏨', '').replace('🍽️', '').replace('🏃', '').replace('🦕', '').replace('🌳', '').replace('🚌', '').replace('📸', '').replace('🍜', '').replace('🍪', '').replace('🛒', '').replace('⛪', '').replace('🌅', '').replace('🪙', '').replace('🎮', '').replace('🥞', '').replace('🍔', '').replace('🎡', '').replace('🏰', '').replace('🎢', '').replace('🎠', '').replace('🎆', '').replace('🛍️', '').replace('🚶‍♂️', '').replace('🐧', '').replace('🛬', '').replace('🧳', '').replace('🍳', '').replace('🌿', '').replace('☕', '').replace('🏛️', '').replace('🍩', '').replace('🐟', '').replace('🛫', '')
+    t = t.replace('✈️', '').replace('🚇', '').replace('🏨', '').replace('🍽️', '').replace('🏃', '').replace('🦕', '').replace('🌳', '').replace('🚌', '').replace('📸', '').replace('🍜', '').replace('🍪', '').replace('🛒', '').replace('⛪', '').replace('🌅', '').replace('🪙', '').replace('🎮', '').replace('🥞', '').replace('🍔', '').replace('🎡', '').replace('🏰', '').replace('🎢', '').replace('🎠', '').replace('🎆', '').replace('🛍️', '').replace('🚶‍♂️', '').replace('🐧', '').replace('🛬', '').replace('🧳', '').replace('🍳', '').replace('🌿', '').replace('☕', '').replace('🏛️', '').replace('🍩', '').replace('🐟', '').replace('🛫', '').replace('🏮', '').replace('🥩', '')
     t = re.sub(r'[\*\#]', '', t)
     return t.strip()
 
 def get_category_info(title):
     t_lower = title.lower()
-    if any(x in t_lower for x in ['餐', '食', '吃', '拉麵', '燒', '飲', '咖啡', '麵', '丼', '牛舌', '丸子', '甜點', '泡芙', '銅鑼燒', '炸牛肉丸', '壽司', '文字燒', '麥當勞', '摩斯', '大戶屋', '串家物語', 'すき家', '宇奈とと', '天丼', '玉子燒', '早午餐', '宵夜']):
+    if any(x in t_lower for x in ['餐', '食', '吃', '拉麵', '燒', '飲', '咖啡', '麵', '丼', '牛舌', '丸子', '甜點', '泡芙', '銅鑼燒', '炸牛肉丸', '壽司', '文字燒', '麥當勞', '摩斯', '大戶屋', '串家物語', 'すき家', '宇奈とと', '天丼', '玉子燒', '早午餐', '宵夜', '下午茶']):
         return 'food', '美食', '🍜'
     elif any(x in t_lower for x in ['車', '航', '抵達', '交通', '公車', '地鐵', '捷運', '飛機', '前往', '返回', '機場線', '京急', '總武線', '山手線', '電車', '出發', '回程']):
         return 'transport', '交通', '🚆'

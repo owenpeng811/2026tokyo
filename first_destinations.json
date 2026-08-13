@@ -39,7 +39,6 @@
   "4_參觀三鷹之森吉卜力美術館": "https://www.google.com/maps/search/?api=1&query=35.696238,139.5704317&query_place_id=ChIJLYwD5TTuGGARBZKEP5BV4U0",
   "4_前往吉祥寺": "https://www.google.com/maps/search/?api=1&query=35.7031125,139.5797825&query_place_id=ChIJe0e8kkfuGGARvH2cE14g_0I",
   "4_大戶屋": "https://www.google.com/maps/search/?api=1&query=35.7027156,139.5786162&query_place_id=ChIJz-n765yOGGARkO0_7s2P4p8",
-  "4_吉祥寺商圈漫遊與下午茶": "https://www.google.com/maps/search/?api=1&query=35.7050504,139.5786162&query_place_id=ChIJ8_W69A2OGGARi3i22fD64B2",
   "4_串家物語": "https://www.google.com/maps/search/?api=1&query=35.7048979,139.5802557&query_place_id=ChIJNbTiyUfuGGAR6lter_U3i7g",
   "4_返回淺草橋": "https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA",
   "5_前往淺草": "https://www.google.com/maps/search/?api=1&query=35.7111163,139.7963656&query_place_id=ChIJ0YwG28aOGGARvRKAXIBWqNk",
@@ -56,5 +55,9 @@
   "6_築地場外市場美食散策": "https://www.google.com/maps/search/?api=1&query=35.66512609999999,139.77007&query_place_id=ChIJpYBA196LGGARHJnwxaxGNKg",
   "6_返回淺草橋飯店": "https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA",
   "6_前往羽田機場": "https://www.google.com/maps/search/?api=1&query=35.543913,139.768155&query_place_id=ChIJ01PIBVRhGGARR1RZERfkuvo",
-  "6_羽田機場餐廳街": "https://www.google.com/maps/search/?api=1&query=35.544843,139.768132&query_place_id=ChIJg4gqf3aKGGAReP-56k2M5n8"
+  "6_羽田機場餐廳街": "https://www.google.com/maps/search/?api=1&query=35.544843,139.768132&query_place_id=ChIJg4gqf3aKGGAReP-56k2M5n8",
+  "4_逛哈莫尼卡橫丁": "https://www.google.com/maps/search/?api=1&query=%E3%83%8F%E3%83%BC%E3%83%A2%E3%83%8B%E3%82%AB%E6%A8%AA%E4%B8%81",
+  "4_逛平價雜貨與角色小物店": "https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%83%B3%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%88%20%E3%82%B3%E3%83%94%E3%82%B9%E5%90%89%E7%A5%A5%E5%AF%BA%E5%BA%97",
+  "4_下午茶：SATOU": "https://www.google.com/maps/search/?api=1&query=35.703975,139.5786162&query_place_id=ChIJi8e8kkfuGGAR32X1_t2M5n8",
+  "4_自由活動與休息": "https://www.google.com/maps/search/?api=1&query=35.7050504,139.580504&query_place_id=ChIJ8W2Ms0fuGGAR5CNgR7olN8g"
 }
