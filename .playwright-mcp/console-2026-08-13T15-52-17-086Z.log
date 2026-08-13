@@ -1,0 +1,16 @@
+[     921ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :3102
+[    1029ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://maps-docs-team.web.app/favicon.ico:0
+[   42683ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace:0
+[   42856ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace:0
+[   42876ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace:0
+[  300760ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace:0
+[  301078ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace:0
+[  301132ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace:0
+[  301186ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace:0
+[  301239ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace:0
+[  301291ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace:0
+[  301342ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace:0
+[  301384ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace:0
+[  301436ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace:0
+[  301492ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace:0
+[  301545ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace:0

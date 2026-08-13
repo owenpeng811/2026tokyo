@@ -210,7 +210,7 @@
 >     3. **90 分鐘寬裕時間**：長輩慢慢喝熱茶品嚐鮮魚握壽司，全家無壓力享受第一晚的日式美食！  
 > * 備案餐廳 1：[**丸龜製麵 (丸亀製麺 秋葉原店)**](https://www.google.com/maps/search/?api=1&query=35.6984426,139.7724317&query_place_id=ChIJFa5T2GqNGGARmSiHDgcJFf8) (アトレ秋葉原1 1F) 享用讚岐烏龍麵（推薦：豚骨烏龍麵、炸天婦羅），人均約 ¥500～¥900。  
 >   * 💡 **點餐祕訣**：拿托盤 ➔ 向廚師手指照片點麵（說 "Hot/Cold"、"Regular"）➔ 自己夾炸物 ➔ 結帳 ➔ 免費自助加蔥花與天婦羅酥。  
-> * 備案餐廳 2：[**CoCo壹番屋 (CoCo壱番屋 JR秋葉原駅昭和通り口店)**](https://www.google.com/maps/search/?api=1&query=35.6984515,139.7757913&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F96) (渡辺ビル 1F) 享用日式咖哩（推薦：炸豬排咖哩、兒童咖哩套餐），人均約 ¥800～¥1,200。
+> * 備案餐廳 2：[**CoCo壹番屋 (CoCo壱番屋 JR秋葉原駅昭和通り口店)**](https://www.google.com/maps/search/?api=1&query=35.6984515,139.77577&query_place_id=ChIJSyxsj6iOGGARvBM2kRLvJZs) (渡辺ビル 1F) 享用日式咖哩（推薦：炸豬排咖哩、兒童咖哩套餐），人均約 ¥800～¥1,200。
 >   * 💡 **點餐與付款祕訣（依店舖採不同方式，現場為準）**：  
 >     1. 官方確認共三種點餐方式：**入座後叫店員點餐（餐後至收銀櫃台結帳）**、**桌上平板點餐**、**手機行動點餐**；⚠️ 本分店採哪一種未經官方確認。  
 >     2. ⚠️ **外語菜單有無查無官方資料**；咖哩需選擇「飯量」與「辣度」，若為口頭點餐建議直接指認菜單照片並比出數字。
@@ -227,7 +227,7 @@
 
 > * 16:30 離開飯店 ➔ 慢步約 2 分鐘至 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 1 號月台進站。  
 > * 於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 搭乘 **🟡 JR 中央・總武線（JB）** 往 **新宿（JB10）／三鷹 方向**，搭乘 **2 站** 至 御茶之水站（JB18）（車程約 4 分鐘）。  
-> * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **新宿（Shinjuku／JC05）／高尾 方向**，搭乘 **2 站**直達 [**新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**）（車程約 9 分鐘，總車程約 18 分鐘，在冷氣車廂內坐著休息補眠）。  
+> * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **新宿（Shinjuku／JC05）／高尾 方向**，搭乘 **2 站**直達 [**新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJH7qx1tCMGGAR1f2s7PGhMhw)（**JC05**）（車程約 9 分鐘，總車程約 18 分鐘，在冷氣車廂內坐著休息補眠）。  
 > * 抵達新宿站後不趕時間，跟隨 **「東口（East Exit）」** 黃色指標走地下通道出站（步行約 5-8 分鐘）。
 
 #### **17:15－17:40 🐈 欣賞新宿 3D 巨貓**
@@ -245,7 +245,7 @@
 
 #### **18:35－19:15 🚆 返回淺草橋**
 
-> * 於 [**JR 新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**） 7/8 號月台搭乘 **🟠 JR 中央線快速（JC）** 往 **東京（Tokyo／JC01） 方向**，搭乘 **2 站**至 御茶之水站（JC03）（車程約 9 分鐘）。
+> * 於 [**JR 新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJH7qx1tCMGGAR1f2s7PGhMhw)（**JC05**） 7/8 號月台搭乘 **🟠 JR 中央線快速（JC）** 往 **東京（Tokyo／JC01） 方向**，搭乘 **2 站**至 御茶之水站（JC03）（車程約 9 分鐘）。
 > * 於 **御茶之水站（JB18）** **不用出站**，於同月台對面直接平行轉乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **2 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）（車程約 4 分鐘）。由 東口 出站步行前往超市採買。
 > * 💡 此時段剛好稍微避開晚間下班尖峰，電車平穩舒適。
 
@@ -303,7 +303,7 @@
 > * 趁著早晨陽光尚未炙熱，散步前往鄰近的不忍池與清水觀音堂：  
 >   * [**不忍池 (不忍池 弁天堂)**](https://www.google.com/maps/search/?api=1&query=35.7122453,139.7709849&query_place_id=ChIJz-n2a5yOGGARkO91888iW-Q)：欣賞夏日滿池盛開的荷花與湖中弁天堂，步道平緩好走，晨風涼爽宜人。  
 >   * [**清水觀音堂 (清水観音堂)**](https://www.google.com/maps/search/?api=1&query=35.7126261,139.7735391&query_place_id=ChIJqZzHZZyOGGARkQYqM_0g4r8)：仿京都清水寺的紅色舞台建築，於樹蔭高台俯瞰不忍池與著名的「月之松」。  
->   * 🍪 **順路名產**：回程順道步行至 [**兔屋 (うさぎや)**](https://www.google.com/maps/search/?api=1&query=35.7061495,139.7725974&query_place_id=ChIJp0K6QVOLGGARzD9G_rV4j07) 購買全東京排名前三的現做百年熱騰騰銅鑼燒，帶至咖啡廳享用。
+>   * 🍪 **順路名產**：回程順道步行至 [**兔屋 (うさぎや)**](https://www.google.com/maps/search/?api=1&query=35.7061495,139.7718239&query_place_id=ChIJ2zdQ8x-MGGARevmtQEbnfWo) 購買全東京排名前三的現做百年熱騰騰銅鑼燒，帶至咖啡廳享用。
 
 #### **10:20－11:30 ☕ 室內基地營避暑**
 
@@ -598,7 +598,7 @@
 
 > * 目標地點：[**秋葉原站東口 (秋葉原駅東口交通広場)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7741315&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F92)
 > * ✅ **Plan A（首選：直達高速巴士，免轉乘一路睡回秋葉原）**：
->   * **乘車地點**：出園剪票口後往右前方步行約 2 分鐘，至迪士尼樂園正門外「東巴士總站東面（Bus Terminal East）」[**東京迪士尼樂園東巴士總站 1 號站牌 (東京ディズニーランド・バスターミナル・イースト 1番のりば)**](https://www.google.com/maps/search/?api=1&query=35.6364946,139.8807661&query_place_id=ChIJ3w8y8xN9GGARe5_gvaqDCMo)（[短網址備用導航 🔗](https://maps.app.goo.gl/EkzBtj7Q6RDJCh2C6)；地面與立柱有明顯標示「1番：秋葉原駅行」）。  
+>   * **乘車地點**：出園剪票口後往右前方步行約 2 分鐘，至迪士尼樂園正門外「東巴士總站東面（Bus Terminal East）」[**東京迪士尼樂園東巴士總站 1 號站牌 (東京ディズニーランド・バスターミナル・イースト 1番のりば)**](https://www.google.com/maps/search/?api=1&query=35.6364946,139.8807661&query_place_id=ChIJ3w8y8xN9GGARe5_gvaoDCMo)（[短網址備用導航 🔗](https://maps.app.goo.gl/EkzBtj7Q6RDJCh2C6)；地面與立柱有明顯標示「1番：秋葉原駅行」）。  
     ![東京迪士尼樂園東巴士總站 1 號公車站牌](https://secure.j-bus.co.jp/busrepo/wp-content/uploads/2025/06/IMG20250513080949-1024x768.jpg)
 >   * **巴士特徵與路線**：搭乘京成巴士 (Keisei Bus) 或東京灣城市交通 (Tokyo Bay City Bus) 高速巴士直達 **秋葉原站東口**。車程約 35～45 分鐘，全家每人皆有獨立舒適大座席，免除深夜帶著疲憊小孩擠電車與轉乘的辛苦。  
 >   * **抵達與轉乘**：抵達秋葉原站東口後，步行 1 分鐘進 **JR 秋葉原站（JB19）** 閘門，於 5F 6 號月台搭乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **1 站**（車程約 2 分鐘）即返抵 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）。
@@ -749,7 +749,7 @@
 <summary>🍽️ 查看東京車站午餐備案（KITTE茶泡飯 / 燕子漢堡排）（點擊展開）</summary>
 
 > * 備案餐廳 1：[**高湯茶泡飯 圓 (だし茶漬け＋肉うどん えん KITTE丸の内店)**](https://www.google.com/maps/search/?api=1&query=35.6792913,139.7653382&query_place_id=ChIJqVS6VgCLGGAR-5BoRnVee14) (KITTE丸の内 B1F) 享用和風高湯茶泡飯（推薦：鯛魚高湯茶泡飯、鮭魚親子茶泡飯、肉烏龍麵），人均約 ¥850～¥1,100。  
-> * 備案餐廳 2：[**燕子烤肉漢堡排 (つばめグリル 大丸東京店)**](https://www.google.com/maps/search/?api=1&query=35.6812026,139.7678523&query_place_id=ChIJ60m9202LGGAR79K37s2o_a0) (大丸東京店 12F) 享用經典日式洋食漢堡排（推薦：特製鋁箔包烤漢堡排、和風蘿蔔泥漢堡排），人均約 ¥1,500～¥2,300。  
+> * 備案餐廳 2：[**燕子烤肉漢堡排 (つばめグリル 大丸東京店)**](https://www.google.com/maps/search/?api=1&query=35.6812026,139.7685845&query_place_id=ChIJGeYlX_mLGGARrZDoFX4WYlY) (大丸東京店 12F) 享用經典日式洋食漢堡排（推薦：特製鋁箔包烤漢堡排、和風蘿蔔泥漢堡排），人均約 ¥1,500～¥2,300。  
 </details>
 
 ### **12:50 🚇 前往上野**
@@ -787,12 +787,12 @@
 
 ### **15:25－15:50 🚶‍♂️ 前往御徒町商圈**
 
-> * 目標地點：[**鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)**](https://www.google.com/maps/search/?api=1&query=35.7085706,139.7751029&query_place_id=ChIJUYJXm5-OGGARRojVXUTMd9Y)
+> * 目標地點：[**鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)**](https://www.google.com/maps/search/?api=1&query=35.7083768,139.7752537&query_place_id=ChIJ6-Rvg5-OGGAR99AELnNenOU)
 > * 🚶‍♂️ **步行避暑動線**：從科博館步行至御徒町約 1.1 公里（家庭步速約 20～25 分鐘），建議穿過上野站走中央通騎樓或阿美橫丁商店街遮蔭處。
 
 ### **15:50－16:40 🍜 享用鴨 to 蔥拉麵**
 
-> * 規則： 排隊 ≤ 3 組就吃 [**鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)**](https://www.google.com/maps/search/?api=1&query=35.7085706,139.7751029&query_place_id=ChIJUYJXm5-OGGARRojVXUTMd9Y) 享用鴨肉拉麵（推薦：鴨蔥醬油拉麵、親子丼），人均約 ¥1,000～¥1,500，超過 3 組直接放棄，前往阿美橫丁 (アメ横)。
+> * 規則： 排隊 ≤ 3 組就吃 [**鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)**](https://www.google.com/maps/search/?api=1&query=35.7083768,139.7752537&query_place_id=ChIJ6-Rvg5-OGGAR99AELnNenOU) 享用鴨肉拉麵（推薦：鴨蔥醬油拉麵、親子丼），人均約 ¥1,000～¥1,500，超過 3 組直接放棄，前往阿美橫丁 (アメ横)。
 > * 💡 **點餐祕訣**：先於門口自動食券機買票 ➔ 入座後店員會拿出一塊「當月 3 種蔥」牌子問「3選2」，直接用手指號碼（例如：1 和 3）即可！
 > * 若順利吃到，可在返程回飯店前，在阿美橫丁購買小吃回飯店吃，以免晚上肚子餓。例如：🍗 炸雞、🍢 烤雞串、牛串、🥟 煎餃或燒賣、🍤 炸海鮮
 
@@ -802,10 +802,10 @@
 建議路線：二木菓子 ➔ OS Drug/松本清 ➔ 街邊美食區 ➔ 多慶屋 (備案)  
 景點與商店說明：
 
-> * [**二木菓子 (二木の菓子 第一営業所)**](https://www.google.com/maps/search/?api=1&query=35.7083528,139.7748439&query_place_id=ChIJwWvXn5SOGGAR0kGqP0uE1rE)：規模宏大的零食專賣店，種類極多且價格極具競爭力。可刷卡，可退稅。[介紹文1](https://bobbytravel.tw/niki-no-kashi/)、[介紹文2](https://yukigo.tw/nikinokashi/)、[日本必掃日本零食](https://bobbytravel.tw/japan-souvenir/#%E5%BF%85%E6%8E%83%E6%97%A5%E6%9C%AC%E9%9B%B6%E9%A3%9F%E3%80%81%E6%9E%9C%E5%87%8D%E3%80%81%E6%B3%A1%E9%BA%B5)  
+> * [**二木菓子 (二木の菓子 第一営業所)**](https://www.google.com/maps/search/?api=1&query=35.7083528,139.7744756&query_place_id=ChIJ8ez-kZ-OGGARyxJTsXAcAjk)：規模宏大的零食專賣店，種類極多且價格極具競爭力。可刷卡，可退稅。[介紹文1](https://bobbytravel.tw/niki-no-kashi/)、[介紹文2](https://yukigo.tw/nikinokashi/)、[日本必掃日本零食](https://bobbytravel.tw/japan-souvenir/#%E5%BF%85%E6%8E%83%E6%97%A5%E6%9C%AC%E9%9B%B6%E9%A3%9F%E3%80%81%E6%9E%9C%E5%87%8D%E3%80%81%E6%B3%A1%E9%BA%B5)  
 >   * ⭐⭐⭐ 必買：提拉米蘇巧克力、東京限定 KitKat、Royce 洋芋片巧克力、干貝糖、龍角散喉糖  
 >   * ⭐⭐ 很推薦：Calbee 薯條三兄弟、北海道起司米果、各式日本限定洋芋片、大包裝巧克力（分送同事 CP 值高）  
-> * [**OS Drug 藥妝店 (OSドラッグ 上野店)**](https://www.google.com/maps/search/?api=1&query=35.7108985,139.7748721&query_place_id=ChIJ5c3Vd5yOGGARkO0_7s2P4p8) / [**松本清 (マツモトキヨシ 上野アメ横店)**](https://www.google.com/maps/search/?api=1&query=35.7099502,139.7747201&query_place_id=ChIJY-y5k5SOGGARxK308s2j1jM)：以現金交易為主的 OS Drug 是當地藥妝價格指標店。  
+> * [**OS Drug 藥妝店 (OSドラッグ 上野店)**](https://www.google.com/maps/search/?api=1&query=35.7108985,139.7748721&query_place_id=ChIJAQB_jZ-OGGARLPaThjF_JIQ) / [**松本清 (マツモトキヨシ 上野アメ横店)**](https://www.google.com/maps/search/?api=1&query=35.7099502,139.7747201&query_place_id=ChIJY-y5k5SOGGARxK308s2j1jM)：以現金交易為主的 OS Drug 是當地藥妝價格指標店。  
 >   * TODO: 建議購買的項目  
 >   * [藥妝攻略1](https://bobbytravel.tw/japan-souvenir/)  
 > * 街邊美食：可品嚐章魚燒、鯛魚燒、烤干貝或新鮮水果串，體驗在地市集樂趣。  
@@ -861,15 +861,15 @@
 
 ### **08:50－09:35 🚇 前往三鷹**
 
-> * 目標地點：[**三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.702683,139.560333&query_place_id=ChIJ317-57btGGARX-0r5Zf3774)
+> * 目標地點：[**三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.702683,139.560333&query_place_id=ChIJQ6xBTbDvGGARWjMM50vhcgE)
 > * 於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 1 號月台搭乘 **🟡 JR 中央・總武線（JB）** 往 **新宿（JB10）／三鷹（Mitaka／JB01） 方向**，搭乘 **2 站** 至 御茶之水站（JB18）（車程約 4 分鐘）。
-> * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **三鷹（Mitaka／JC12）／高尾 方向**，搭乘 **6 站**（假日快速停靠：四谷、新宿、中野、荻窪、吉祥寺、三鷹）直達 [**三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.702683,139.560333&query_place_id=ChIJ317-57btGGARX-0r5Zf3774)（**JC12**）（車程約 24 分鐘，總車程約 32 分鐘）。
+> * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **三鷹（Mitaka／JC12）／高尾 方向**，搭乘 **6 站**（假日快速停靠：四谷、新宿、中野、荻窪、吉祥寺、三鷹）直達 [**三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.702683,139.560333&query_place_id=ChIJQ6xBTbDvGGARWjMM50vhcgE)（**JC12**）（車程約 24 分鐘，總車程約 32 分鐘）。
 > * 🚶‍♂️ **出站指引**：由 **「南口（South Exit）」** 閘門出站，搭乘手扶梯下至 1F 站前圓環，前往 **9 號公車站牌**。
 
 ### **09:35－09:50 🚌 搭乘吉卜力接駁巴士**
 
 > * 目標地點：[**三鷹之森吉卜力美術館 (三鷹の森ジブリ美術館)**](https://www.google.com/maps/search/?api=1&query=35.696238,139.5704317&query_place_id=ChIJLYwD5TTuGGARBZKEP5BV4U0)
-> * 乘車地點：[**三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.7027878,139.5604169&query_place_id=ChIJ8Y-8_JuOGGAR5e4o-gq0F90) 南口 9 號公車站（出站後搭乘電梯/手扶梯下至 1F 公車總站；9 號站牌旁設有深綠色「吉卜力售票機」，全家使用 Suica 嗶卡搭車直接排隊即可，不需特別買紙本車票）。  
+> * 乘車地點：[**三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.7027878,139.5604169&query_place_id=ChIJQ6xBTbDvGGARWjMM50vhcgE) 南口 9 號公車站（出站後搭乘電梯/手扶梯下至 1F 公車總站；9 號站牌旁設有深綠色「吉卜力售票機」，全家使用 Suica 嗶卡搭車直接排隊即可，不需特別買紙本車票）。  
 >   ![三鷹站南口 9 號公車站牌與深綠色吉卜力售票機](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTALmksFvjrIx-JfWML4ICadWyUaDacb9bxihPsqLry41BZyGxQ6fj_zefn&s=10)
 > * 目的地：直達吉卜力美術館（車程約 5 分鐘，約 10 分鐘一班）。
 > * 🚌 **接駁巴士外觀特徵**：車身為鮮豔的**亮黃色**，上面印滿宮崎駿動畫經典角色彩繪（如龍貓、煤炭精靈灰塵粒子、貓巴士等白色圖畫），車頭與車身側邊寫有「三鷹の森ジブリ美術館」與「MITAKA CITY BUS」字樣，非常醒目好認。  
@@ -898,12 +898,12 @@
 
 > * **第一段（回程接駁巴士至三鷹站）**：離開美術館後，直接至門口正前方公車站牌等候。此處等候的接駁巴士外觀與去程完全相同（亮黃色彩繪巴士），100% 都是開往三鷹站，完全不用看路線，閉著眼睛上車即可（車程約 5 分鐘，後門上車嗶 Suica ➔ 前門下車嗶 Suica，車停妥再起立）。  
 >   ![吉卜力美術館門口公車站與停靠的黃色接駁巴士](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiAttfDAWdlM8iGidz7jGYR6LZIA4_HEH_j-1-yOb1LLEfh2KyVo9hSjtR&s=10)
-> * **第二段（轉乘 JR 至吉祥寺站）**：抵達三鷹站南口後搭電梯/手扶梯上樓刷 Suica 進站。於 [**JR 三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.702683,139.560333&query_place_id=ChIJ317-57btGGARX-0r5Zf3774)（**JC12 / JB01**） 搭乘 **🟠 JR 中央線快速（JC）** 或 **🟡 JR 中央・總武線（JB）** 往 **新宿（JC05）／東京（JC01） 方向**，僅搭 **1 站**（車程約 2 分鐘）即達 [**吉祥寺站 (吉祥寺駅)**](https://www.google.com/maps/search/?api=1&query=35.7031125,139.5797825&query_place_id=ChIJe0e8kkfuGGARvH2cE14g_0I)（**JC11 / JB02**）（**請由「北口（North Exit）」出站**，大戶屋、哈莫尼卡橫丁、Sunroad 商店街與 Coppice 全在北口側，全程零折返）。
+> * **第二段（轉乘 JR 至吉祥寺站）**：抵達三鷹站南口後搭電梯/手扶梯上樓刷 Suica 進站。於 [**JR 三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.702683,139.560333&query_place_id=ChIJQ6xBTbDvGGARWjMM50vhcgE)（**JC12 / JB01**） 搭乘 **🟠 JR 中央線快速（JC）** 或 **🟡 JR 中央・總武線（JB）** 往 **新宿（JC05）／東京（JC01） 方向**，僅搭 **1 站**（車程約 2 分鐘）即達 [**吉祥寺站 (吉祥寺駅)**](https://www.google.com/maps/search/?api=1&query=35.7031125,139.5797825&query_place_id=ChIJe0e8kkfuGGARvH2cE14g_0I)（**JC11 / JB02**）（**請由「北口（North Exit）」出站**，大戶屋、哈莫尼卡橫丁、Sunroad 商店街與 Coppice 全在北口側，全程零折返）。
 > * **移動優勢**：門口直接原線接駁車上車，完全不需要在路口判斷一般公車路線，對新手與家庭來說最簡單直覺且全冷氣。
 
 ### **13:00－14:10 🍽️ 午餐：大戶屋**
 
-> * 首選餐廳：[**大戶屋 (大戸屋ごはん処 吉祥寺店)**](https://www.google.com/maps/search/?api=1&query=35.7027156,139.5786162&query_place_id=ChIJz-n765yOGGARkO0_7s2P4p8) (ホワイトハウスビル 2F，北口步行 2 分鐘) 享用定食（推薦：烤魚定食、雞肉野菜定食），人均約 ¥1,000～¥1,500。  
+> * 首選餐廳：[**大戶屋 (大戸屋ごはん処 吉祥寺店)**](https://www.google.com/maps/search/?api=1&query=35.7032718,139.5784738&query_place_id=ChIJ-34cDUjuGGARIZkFocT8a5o) (ホワイトハウスビル 2F，北口步行 2 分鐘) 享用定食（推薦：烤魚定食、雞肉野菜定食），人均約 ¥1,000～¥1,500。  
 >   * 💡 **點餐與付款祕訣（桌上觸控平板點餐）**：  
 >     1. 官方店舖資訊確認本店採 **觸控平板點餐（タッチパネル注文）**，入座後直接於平板點選，不需要與店員口頭溝通。  
 >     2. 付款支援 **信用卡、QR 行動支付、電子錢包與交通系電子錢包（Suica 等）**，亦可付現。  
@@ -949,7 +949,7 @@
 
 ### **15:15－15:40 🥩 下午茶：SATOU**
 
-> * 首選店家：[**SATOU (黒毛和牛専門店 さとう 吉祥寺店)**](https://www.google.com/maps/search/?api=1&query=35.703975,139.5786162&query_place_id=ChIJi8e8kkfuGGAR32X1_t2M5n8)（1F 外帶櫃台）享用 **元祖丸メンチカツ（炸牛肉餅／牛肉丸）**，每個 ¥350、一次購買 5 個以上每個 ¥330；2F 為鐵板牛排餐廳。
+> * 首選店家：[**SATOU (黒毛和牛専門店 さとう 吉祥寺店)**](https://www.google.com/maps/search/?api=1&query=35.703975,139.579041&query_place_id=ChIJEerD2EfuGGARNzol9ZsrCkg)（1F 外帶櫃台）享用 **元祖丸メンチカツ（炸牛肉餅／牛肉丸）**，每個 ¥350、一次購買 5 個以上每個 ¥330；2F 為鐵板牛排餐廳。
 > * 吉祥寺代表性名物，使用國產牛 100%，外皮酥脆、內餡多汁；是本段行程的主要下午茶目標。
 > * 📌 規則：**排隊 10 人以下就買，超過則直接放棄**，不用為了牛肉丸浪費長輩與小孩的時間。
 
@@ -968,18 +968,18 @@
 <details>
 <summary>🛍️ 查看自由活動分流建議（點擊展開）</summary>
 
-> * 🛍️ [**大創 (DAISO 吉祥寺サンロード店)**](https://www.google.com/maps/search/?api=1&query=35.7046001,139.5794002&query_place_id=ChIJo3v-j0fuGGARx_j09g1C2lE)｜**優先推薦**
+> * 🛍️ [**大創 (DAISO 吉祥寺サンロード店)**](https://www.google.com/maps/search/?api=1&query=35.7050504,139.580504&query_place_id=ChIJ8W2Ms0fuGGAR5CNgR7olN8g)｜**優先推薦**
 >   * 適合全家一起挖寶，鎖定日本較少見的和風小物、文具、廚房用品、旅行用品及生活創意商品。
 >   * 單價低，小孩也可以自己挑選一樣小物；**比單純逛一般藥妝更有「日本挖寶」的樂趣。**
-> * ✏️ [**Loft (吉祥寺ロフト)**](https://www.google.com/maps/search/?api=1&query=35.7050504,139.5786162&query_place_id=ChIJ8_W69A2OGGARi3i22fD64B2)｜**喜歡文具者推薦**
+> * ✏️ [**Loft (吉祥寺ロフト)**](https://www.google.com/maps/search/?api=1&query=35.705206,139.5788868&query_place_id=ChIJ80-AKEbuGGARmN-6SihPfpU)｜**喜歡文具者推薦**
 >   * 重點看日本限定色、期間限定商品、特色文具、貼紙及設計雜貨，不需要逐層慢慢逛。
-> * 🏠 [**無印良品 (無印良品 コピス吉祥寺)**](https://www.google.com/maps/search/?api=1&query=35.7048979,139.5789312&query_place_id=ChIJd2m9j0fuGGARs8j03g3B7mY)（コピス吉祥寺 B1F）｜**路過順便逛**
+> * 🏠 [**無印良品 (無印良品 コピス吉祥寺)**](https://www.google.com/maps/search/?api=1&query=35.7049541,139.5795709&query_place_id=ChIJB0eQ1EfuGGARaKthmgoKqwU)（コピス吉祥寺 B1F）｜**路過順便逛**
 >   * 鎖定 **¥500 左右的文具、小型收納、旅行用品及日本食品**；不需要特別安排大量購物時間。
 > * 🧴 [**Dream Market (ドリームマーケット 吉祥寺店)**](https://www.google.com/maps/search/?api=1&query=%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88%20%E5%90%89%E7%A5%A5%E5%AF%BA%E5%BA%97)｜**若前面跳過，可在此時補逛**
 >   * 想找低價化妝品、日用品、零食及折扣商品時再去。
 > * 👴👵 **長輩**：若已經逛累，可直接找咖啡店休息，不需要陪同逛街。
-> * 👧👦 **小孩**：可選擇 [**THANK YOU MART (サンキューマート コピス吉祥寺店)**](https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%83%B3%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%88%20%E3%82%B3%E3%83%94%E3%82%B9%E5%90%89%E7%A5%A5%E5%AF%BA%E5%BA%97)、[**大創 (DAISO 吉祥寺サンロード店)**](https://www.google.com/maps/search/?api=1&query=35.7046001,139.5794002&query_place_id=ChIJo3v-j0fuGGARx_j09g1C2lE)，或視興趣前往 [**gashacoco (gashacoco 吉祥寺元町通り)**](https://www.google.com/maps/search/?api=1&query=gashacoco%20%E5%90%89%E7%A5%A5%E5%AF%BA%E5%85%83%E7%94%BA%E9%80%9A%E3%82%8A)（選配）。
-> * 👨 **大人**：可自由選擇 [**Loft (吉祥寺ロフト)**](https://www.google.com/maps/search/?api=1&query=35.7050504,139.5786162&query_place_id=ChIJ8_W69A2OGGARi3i22fD64B2)、[**大創 (DAISO 吉祥寺サンロード店)**](https://www.google.com/maps/search/?api=1&query=35.7046001,139.5794002&query_place_id=ChIJo3v-j0fuGGARx_j09g1C2lE)、[**無印良品 (無印良品 コピス吉祥寺)**](https://www.google.com/maps/search/?api=1&query=35.7048979,139.5789312&query_place_id=ChIJd2m9j0fuGGARs8j03g3B7mY) 等店家。
+> * 👧👦 **小孩**：可選擇 [**THANK YOU MART (サンキューマート コピス吉祥寺店)**](https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%83%B3%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%88%20%E3%82%B3%E3%83%94%E3%82%B9%E5%90%89%E7%A5%A5%E5%AF%BA%E5%BA%97)、[**大創 (DAISO 吉祥寺サンロード店)**](https://www.google.com/maps/search/?api=1&query=35.7050504,139.580504&query_place_id=ChIJ8W2Ms0fuGGAR5CNgR7olN8g)，或視興趣前往 [**gashacoco (gashacoco 吉祥寺元町通り)**](https://www.google.com/maps/search/?api=1&query=gashacoco%20%E5%90%89%E7%A5%A5%E5%AF%BA%E5%85%83%E7%94%BA%E9%80%9A%E3%82%8A)（選配）。
+> * 👨 **大人**：可自由選擇 [**Loft (吉祥寺ロフト)**](https://www.google.com/maps/search/?api=1&query=35.705206,139.5788868&query_place_id=ChIJ80-AKEbuGGARmN-6SihPfpU)、[**大創 (DAISO 吉祥寺サンロード店)**](https://www.google.com/maps/search/?api=1&query=35.7050504,139.580504&query_place_id=ChIJ8W2Ms0fuGGAR5CNgR7olN8g)、[**無印良品 (無印良品 コピス吉祥寺)**](https://www.google.com/maps/search/?api=1&query=35.7049541,139.5795709&query_place_id=ChIJB0eQ1EfuGGARaKthmgoKqwU) 等店家。
 </details>
 
 ### **17:00－18:30 🍽️ 晚餐：串家物語**
@@ -1066,12 +1066,12 @@
 
 > * 首選餐廳：[**達摩文字燒 (月島名物もんじゃ だるま 東京スカイツリータウン・ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7101381,139.8122049&query_place_id=ChIJUaJR8NaOGGAR48j6xkTvMeY) (東京ソラマチ 東館 7F 餐廳街) 享用東京下町文字燒與大阪燒（推薦：麻糬明太子起司文字燒、特選海鮮大阪燒、日式炒麵），人均約 ¥1,200～¥1,800。  
 >   * 特色與代烤服務：月島百年文字燒名店直營，全家圍坐鐵板前香氣四溢。店內服務生會親自在桌邊鐵板現場代煎代烤，海外遊客完全不需擔心不會煎！大人小孩拿著小鐵鏟刮香脆鍋巴吃，兼具美味與極佳的日本文化沉浸感。吃完搭電梯下樓就是 5F/6F 墨田水族館，動線 100% 順路零繞路！  
-> * 備案餐廳 1：[**利久牛舌 (牛たん炭焼 利久 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7103501,139.8118002&query_place_id=ChIJL8P8-daOGGARz0_59g1L3pE) (東京ソラマチ 東館 6F 餐廳街) 享用碳烤牛舌（推薦：極品牛舌定食、牛舌與燉肉拼盤），人均約 ¥2,000～¥3,000。  
-> * 備案餐廳 2：[**宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7101502,139.8105001&query_place_id=ChIJb-X7-daOGGAR3yH28t4D5lM) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用烏龍麵（推薦：肉烏龍麵、炸天婦羅），人均約 ¥700～¥1,000。  
+> * 備案餐廳 1：[**利久牛舌 (牛たん炭焼 利久 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102538,139.8124786&query_place_id=ChIJrfccWNaOGGARVhFln5H6kug) (東京ソラマチ 東館 6F 餐廳街) 享用碳烤牛舌（推薦：極品牛舌定食、牛舌與燉肉拼盤），人均約 ¥2,000～¥3,000。  
+> * 備案餐廳 2：[**宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用烏龍麵（推薦：肉烏龍麵、炸天婦羅），人均約 ¥700～¥1,000。  
 >   * 💡 **點餐與付款祕訣（美食街自助式・全程指認免對話）**：  
 >     1. 官方確認本店為 **自助式（セルフ方式）**：端起托盤 ➔ 選擇烏龍麵 ➔ 自行夾取喜歡的炸物 ➔ 於櫃台結帳。  
 >     2. **高湯由自己澆淋**，座位區與餐具皆為自助自取；炸物為實物陳列，**全程指認即可，不需開口說日文**。  
-> * 備案餐廳 3：[**一風堂 (一風堂 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7101803,139.8105502&query_place_id=ChIJc-Y8-daOGGAR2xJ37u5E6nQ) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用拉麵（推薦：白丸元味、赤丸新味），人均約 ¥900～¥1,300。
+> * 備案餐廳 3：[**一風堂 (一風堂 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用拉麵（推薦：白丸元味、赤丸新味），人均約 ¥900～¥1,300。
 >   * 💡 **點餐與付款祕訣（依店舖採不同方式，現場為準）**：  
 >     1. 官方確認共三種點餐方式：**桌上平板**、**手機 QR 掃碼點餐**（可切換語言）、**觸控券売機**；⚠️ 官方明言依分店而異，本分店採哪一種未經確認。  
 >     2. 本店位於美食街，可先看店頭有無券売機，或入座後找桌面 QR 貼紙。
@@ -1138,7 +1138,7 @@
 > * 🚇 **舒適補眠電車移動**：
 >   * 於 [**都營 押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)（**A20**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（A01）／羽田空港 方向**，搭乘 **4 站** 至 淺草橋站（A16）（車程約 6 分鐘）。
 >   * 於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 轉乘 **🟡 JR 中央・總武線（JB）** 往 **新宿（JB10） 方向**，搭乘 **2 站** 至 御茶之水站（JB18）（車程約 4 分鐘）。
->   * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **新宿（Shinjuku／JC05）／高尾 方向**，搭乘 **2 站** 直達 [**新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**）（車程約 9 分鐘，總移動約 28 分鐘）。  
+>   * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **新宿（Shinjuku／JC05）／高尾 方向**，搭乘 **2 站** 直達 [**新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJH7qx1tCMGGAR1f2s7PGhMhw)（**JC05**）（車程約 9 分鐘，總移動約 28 分鐘）。  
 >   * 💡 **長輩小孩充能**：下午正好在冷氣電車上坐著小歇補眠，完全不耗體力。  
 > * 16:15 抵達新宿站：**新宿站是全東京最複雜的車站（出口超過 200 個），請全家集中不要走散。**
 >   * 🚶‍♂️ **精準動線**：中央線快速（東京方面）停靠 **JR 新宿站 1F 的 7／8 號月台**。下車後**不要亂走**，直接抬頭找 **「西改札（West Gate）」** 指標下樓 ➔ 由 **西改札**出站，即可通往**西口地下街與地面西口商圈**。
@@ -1176,7 +1176,7 @@
 
 #### **19:20－19:45 🚆 返回淺草橋**
 
-> * 從都廳沿地下全空調通道走回 [**JR 新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJ126rX_uLGGARvj7L442E6p0)（**JC05**），於 7/8 號月台搭乘 **🟠 JR 中央線快速（JC）** 往 **東京（Tokyo／JC01） 方向**，搭乘 **2 站** 至 御茶之水站（JC03）（車程約 9 分鐘）。
+> * 從都廳沿地下全空調通道走回 [**JR 新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJH7qx1tCMGGAR1f2s7PGhMhw)（**JC05**），於 7/8 號月台搭乘 **🟠 JR 中央線快速（JC）** 往 **東京（Tokyo／JC01） 方向**，搭乘 **2 站** 至 御茶之水站（JC03）（車程約 9 分鐘）。
 > * 於 **御茶之水站（JB18）** **不用出站**，於同月台對面直接平行轉乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **2 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）（車程約 4 分鐘，總車程約 20 分鐘）。由 東口 出站步行回飯店。
 
 #### **19:50 🏨 回飯店休息**
@@ -1258,7 +1258,7 @@
 
 #### **12:00－12:15 🚶‍♂️ 前往 DiverCity Tokyo Plaza**
 
-> * 目標地點：[**DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew)
+> * 目標地點：[**DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc)
 > * 🚶‍♂️ **移動動線**：從未來館沿著有明/台場空橋步道慢步約 9 分鐘（約 700 公尺），直接進入 DiverCity Tokyo Plaza 2F/3F 商場。
 > * 🛗 **商場垂直動線（今天會在這棟上下多次，先記樓層）**：
 >   * **2F**：美食廣場、伴手禮店，**獨角獸鋼彈廣場入口**（下午看變身秀由此出去）。
@@ -1269,12 +1269,12 @@
 
 #### **12:15－13:30 🍽️ 午餐：そじ坊手打蕎麥麵**
 
-> * 首選餐廳：[**信州蕎麥處 そじ坊 (そじ坊 ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (6F 餐廳街) 享用手打蕎麥麵（推薦：生芥末自磨手打蕎麥麵、炸天婦羅蕎麥麵套餐、鴨肉沾汁蕎麥麵），人均約 ¥900～¥1,500。
+> * 首選餐廳：[**信州蕎麥處 そじ坊 (そじ坊 ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc) (6F 餐廳街) 享用手打蕎麥麵（推薦：生芥末自磨手打蕎麥麵、炸天婦羅蕎麥麵套餐、鴨肉沾汁蕎麥麵），人均約 ¥900～¥1,500。
 >   * 💡 **點餐與付款祕訣（全菜單附英文標示）**：  
 >     1. 商場官方確認本店 **全菜單皆有英文標示（全メニュー英語表記）**，可直接對照英文點餐，是本日語言門檻最低的選擇。  
 >     2. 同時具備 **過敏原標示**與**無障礙設施**，並為**清真（Halal）認證店**。  
-> * 備案餐廳 1：[**田中蕎麥麵店 (田中そば店 ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (2F 東京美食廣場) 享用喜多方風味拉麵（推薦：特製中華拉麵、山形辣味噌拉麵、特製叉燒飯），人均約 ¥900～¥1,400。
-> * 備案餐廳 2：[**かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (2F 東京美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。
+> * 備案餐廳 1：[**田中蕎麥麵店 (田中そば店 ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc) (2F 東京美食廣場) 享用喜多方風味拉麵（推薦：特製中華拉麵、山形辣味噌拉麵、特製叉燒飯），人均約 ¥900～¥1,400。
+> * 備案餐廳 2：[**かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc) (2F 東京美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。
 
 #### **13:30－15:10 🤖🛍️ 欣賞獨角獸鋼彈與商場逛街**
 
@@ -1305,7 +1305,7 @@
 >   * **團員買票對象**：**3 位大人（你＋爸媽）＋ 2 位小孩**。
 > * 🚇 **最順移動動線（搭臨海線直達 1 站，免淋雨走遠路）**：
 >   * 從 DiverCity 步行約 3 分鐘進入 [**臨海線 東京電訊港站 (東京テレポート駅)**](https://www.google.com/maps/search/?api=1&query=35.628889,139.777222&query_place_id=ChIJyXG_6pyOGGAR2u4o-gq0F98)（**R04**）。
->   * 搭乘 **🟣 臨海線（R）** 往 **新木場（Shin-kiba／R01） 方向** 列車，搭乘 **1 站** 直達 [**國際展示場站 (国際展示場駅)**](https://www.google.com/maps/search/?api=1&query=35.634444,139.7925&query_place_id=ChIJ317-57btGGARX-0r5Zf3774)（**R03**）（車程僅約 3 分鐘）。
+>   * 搭乘 **🟣 臨海線（R）** 往 **新木場（Shin-kiba／R01） 方向** 列車，搭乘 **1 站** 直達 [**國際展示場站 (国際展示場駅)**](https://www.google.com/maps/search/?api=1&query=35.634444,139.7925&query_place_id=ChIJQ6xBTbDvGGARWjMM50vhcgE)（**R03**）（車程僅約 3 分鐘）。
 >   * 於 **國際展示場站（R03）** 下車，出站後步行約 **9 分鐘**（部分資料為 12 分鐘，帶長輩小孩請抓 12 分鐘）即達有明物流中心內的「SMALL WORLDS」（地址：**江東區有明 1-3-33**）。
 >   * ⚠️ **出口編號官方查無明確資料**：出站後請跟隨 **「有明（Ariake）」** 方向指標，或直接向站務人員出示地址「**有明1-3-33 スモールワールズ**」詢問，此段為地面步行，**手機 GPS 可正常導航**。
 > * **參觀亮點**：
@@ -1315,17 +1315,17 @@
 
 #### **17:00－17:25 🚇 前往台場 DiverCity**
 
-> * 目標地點：[**DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew)
+> * 目標地點：[**DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc)
 > * 從 SMALL WORLDS 步行約 3 分鐘至 [**百合海鷗線 有明網球之森站 (有明テニスの森駅)**](https://www.google.com/maps/search/?api=1&query=35.640833,139.791667&query_place_id=ChIJe0e8kkfuGGARvH2cE14g_0I)（**U13**），搭乘 **🟠 百合海鷗線（U）** 往 **新橋（Shimbashi／U01） 方向**，搭乘 **6 站** 至 [**台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.626111,139.771667&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**U07**）（車程約 11 分鐘），走 2F 遮雨空橋 5 分鐘抵達 DiverCity 6F/2F 餐廳。
 
 #### **17:25－18:30 🍽️ 晚餐：月島文字燒 くうや**
 
-> * 首選餐廳：[**月島文字燒 くうや (月島もんじゃ くうや ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (6F 餐廳街) 享用築地直送海鮮與桌邊現場代煎文字燒（推薦：明太子麻糬起司文字燒、特選海鮮文字燒、極品牛筋大阪燒），人均約 ¥1,500～¥2,500。
+> * 首選餐廳：[**月島文字燒 くうや (月島もんじゃ くうや ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc) (6F 餐廳街) 享用築地直送海鮮與桌邊現場代煎文字燒（推薦：明太子麻糬起司文字燒、特選海鮮文字燒、極品牛筋大阪燒），人均約 ¥1,500～¥2,500。
 >   * 💡 **點餐與付款祕訣（店員全程代煎・不需自己動手）**：  
 >     1. 商場官方確認 **文字燒全部由店員在桌邊鐵板親自煎製**（すべてスタッフが目の前の鉄板で焼き上げる），第一次吃文字燒也完全不用擔心。  
 >     2. 點餐後只需在座位等待，不需要理解「土手做法」等日式煎法步驟，也不需要與店員討論火候。  
 >     3. 配料可自由客製，指認菜單圖片即可。  
-> * 備案餐廳 1：[**かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJ38yV_L2LGGAR7_G4P3j64Ew) (2F 美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。
+> * 備案餐廳 1：[**かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc) (2F 美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。
 
 #### **18:30－19:15 🚆 返回淺草橋飯店**
 
