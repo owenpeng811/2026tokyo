@@ -602,6 +602,7 @@ ARTICLE_KEYWORDS = ('介紹文', '攻略', '文章', '教學', '懶人包', '菜
 TICKET_STATES = (
     ('已購票', 'ticket-done', '🎫 已購票'),
     ('已訂位', 'ticket-booked', '🍽️ 已訂位'),
+    ('免費入場', 'ticket-free', '🆓 免費入場'),
     ('需購票', 'ticket-todo', '🎫 需購票'),
 )
 
@@ -1203,6 +1204,7 @@ def render_full_pwa_html(meta, days_data):
     /* 票務狀態：已購票／已訂位為綠色（安心），需購票為紅色（待辦） */
     .tag-ticket-done {{ background: rgba(34, 197, 94, 0.22); color: #86efac; border: 1px solid rgba(34, 197, 94, 0.45); }}
     .tag-ticket-booked {{ background: rgba(34, 197, 94, 0.22); color: #86efac; border: 1px solid rgba(34, 197, 94, 0.45); }}
+    .tag-ticket-free {{ background: rgba(56, 189, 248, 0.2); color: #7dd3fc; border: 1px solid rgba(56, 189, 248, 0.4); }}
     .tag-ticket-todo {{
       background: rgba(239, 68, 68, 0.22);
       color: #fca5a5;
