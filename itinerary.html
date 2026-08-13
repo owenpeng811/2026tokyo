@@ -363,6 +363,20 @@
       transform: translateY(-1px);
     }
 
+    /* 票務狀態：已購票／已訂位為綠色（安心），需購票為紅色（待辦） */
+    .tag-ticket-done { background: rgba(34, 197, 94, 0.22); color: #86efac; border: 1px solid rgba(34, 197, 94, 0.45); }
+    .tag-ticket-booked { background: rgba(34, 197, 94, 0.22); color: #86efac; border: 1px solid rgba(34, 197, 94, 0.45); }
+    .tag-ticket-todo {
+      background: rgba(239, 68, 68, 0.22);
+      color: #fca5a5;
+      border: 1px solid rgba(239, 68, 68, 0.5);
+      animation: ticketPulse 2.4s ease-in-out infinite;
+    }
+    @keyframes ticketPulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+      50% { box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.18); }
+    }
+
     .card-title {
       font-size: 0.98rem;
       font-weight: 700;
@@ -1127,7 +1141,7 @@
           <div class="card-header">
             <span class="card-time">17:30－19:00</span>
             <div class="card-tags">
-              <span class="tag tag-food">🍜 美食</span>
+              <span class="tag tag-ticket-booked">🍽️ 已訂位</span><span class="tag tag-food">🍜 美食</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -1141,6 +1155,9 @@
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d1-pa4')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>🎫 <strong>票務狀態：已訂位</strong></p>
+</div>
+<div class="modal-quote">
 <ul class="modal-list">
 <li>首選餐廳：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.698736,139.77189&query_place_id=ChIJMfORxzyNGGARskRptNTnsVE" target="_blank"><strong>壽司郎 (スシロー 秋葉原駅前店)</strong> 🔗</a> (BiTO AKIBA B1F) 享用平價迴轉壽司（推薦：鮭魚三貫、鮪魚泥海苔包、炸蝦天婦羅壽司、茶碗蒸、酥脆薯條、甜點百匯），人均約 ¥1,000～¥1,800。</li>
 <li>💡 <strong>點餐與用餐祕訣（全繁體中文平板）</strong>：</li>
@@ -1712,7 +1729,7 @@
           <div class="card-header">
             <span class="card-time">13:00－15:30</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <span class="tag tag-ticket-todo">🎫 需購票</span><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -1726,6 +1743,9 @@
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-sunny3')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>🎫 <strong>票務狀態：需購票</strong></p>
+</div>
+<div class="modal-quote">
 <ul class="modal-list">
 <li>☀️ <strong>正午避暑策略</strong>：13:00~15:30 是一天中最炎熱時段，由<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o" target="_blank">松坂屋 🔗</a>步行 5 分鐘穿越公園林蔭，進入世界文化遺產 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.7153869,139.7758138&query_place_id=ChIJf8xB-pyOGGARizzhlNTcI7s" target="_blank"><strong>國立西洋美術館 (国立西洋美術館)</strong> 🔗</a> 參觀室內常設展。</li>
 <li>💡 <strong>長輩專屬優惠與免費入場方式</strong>：</li>
@@ -1796,7 +1816,7 @@
           <div class="card-header">
             <span class="card-time">09:20－11:20</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <span class="tag tag-ticket-todo">🎫 需購票</span><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -1806,10 +1826,13 @@
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">目標地點：<strong><strong>東京國立博物館 (東京国立博物館)</strong></strong><br>💡 <strong>長輩專屬優惠與免費入場方式</strong>：</p>
+            <p class="card-summary">🎫 <strong>票務狀態：需購票</strong><br>💡 <strong>長輩專屬優惠與免費入場方式</strong>：</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-rainy0')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>🎫 <strong>票務狀態：需購票</strong></p>
+</div>
+<div class="modal-quote">
 <ul class="modal-list">
 <li>目標地點：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.7188351,139.7765215&query_place_id=ChIJEX3XFIOOGGAR3XdJvRjWLyM" target="_blank"><strong>東京國立博物館 (東京国立博物館)</strong> 🔗</a></li>
 <li>🚶‍♂️ <strong>雨天動線</strong>：由御徒町站/松坂屋步行前往上野恩賜公園北側的東京國立博物館（日本歷史最悠久、規模最大的博物館）。</li>
@@ -1917,7 +1940,7 @@
           <div class="card-header">
             <span class="card-time">13:00－15:30</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <span class="tag tag-ticket-todo">🎫 需購票</span><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -1931,6 +1954,9 @@
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d2p-rainy3')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>🎫 <strong>票務狀態：需購票</strong></p>
+</div>
+<div class="modal-quote">
 <ul class="modal-list">
 <li>目標地點：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.7153869,139.7758138&query_place_id=ChIJf8xB-pyOGGARizzhlNTcI7s" target="_blank"><strong>國立西洋美術館 (国立西洋美術館)</strong> 🔗</a></li>
 <li>💡 <strong>長輩專屬優惠與免費入場方式</strong>：</li>
@@ -2214,7 +2240,7 @@
           <div class="card-header">
             <span class="card-time">08:00－09:00</span>
             <div class="card-tags">
-              <span class="tag tag-transport">🚆 交通</span>
+              <span class="tag tag-ticket-done">🎫 已購票</span><span class="tag tag-transport">🚆 交通</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -2226,6 +2252,9 @@
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-2')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>🎫 <strong>票務狀態：已購票</strong></p>
+</div>
+<div class="modal-quote">
 <ul class="modal-list">
 <li>預定 08:00 抵達樂園正門排隊與安檢（通常 08:30～08:45 開始提早開園入場）。</li>
 <li><strong>核心策略：免費＋合理視野＋最大化遊樂時間</strong></li>
@@ -3351,7 +3380,7 @@
           <div class="card-header">
             <span class="card-time">13:25－15:25</span>
             <div class="card-tags">
-              <button class="tag tag-article" title="此時段有 1 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d3-12')">📄 攻略</button><span class="tag tag-attraction">⛩️ 景點</span>
+              <span class="tag tag-ticket-todo">🎫 需購票</span><button class="tag tag-article" title="此時段有 1 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d3-12')">📄 攻略</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -3361,10 +3390,13 @@
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">📄 <strong>行前必讀介紹文</strong>：<strong>國立科學博物館親子攻略文章（恐龍化石、動物標本、免費兒童遊戲室）</strong></p>
+            <p class="card-summary">🎫 <strong>票務狀態：需購票</strong></p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-12')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>🎫 <strong>票務狀態：需購票</strong></p>
+</div>
+<div class="modal-quote">
 <p>📄 <strong>行前必讀介紹文</strong>：<a class="map-link-inline" href="https://2bunny.tw/post-66981027/" target="_blank">國立科學博物館親子攻略文章（恐龍化石、動物標本、免費兒童遊戲室） 🔗</a></p>
 </div>
 <div class="modal-quote">
@@ -3812,7 +3844,7 @@
           <div class="card-header">
             <span class="card-time">09:50－12:15</span>
             <div class="card-tags">
-              <button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d4-3')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
+              <span class="tag tag-ticket-done">🎫 已購票</span><button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d4-3')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -3822,10 +3854,13 @@
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">📄 <strong>行前必讀介紹文</strong>：<strong>吉卜力美術館 5 種購票方式教學文章</strong>｜<strong>2026 必看展區與亮點介紹文</strong><br>💡 <strong>土星座</strong>小劇場的吉卜力限定短片<strong>每人每次入館限看一場</strong>，只有這裡看得到，務必安排。</p>
+            <p class="card-summary">🎫 <strong>票務狀態：已購票</strong><br>💡 <strong>土星座</strong>小劇場的吉卜力限定短片<strong>每人每次入館限看一場</strong>，只有這裡看得到，務必安排。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d4-3')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>🎫 <strong>票務狀態：已購票</strong></p>
+</div>
+<div class="modal-quote">
 <p>📄 <strong>行前必讀介紹文</strong>：<a class="map-link-inline" href="https://gototravel.tw/ghibli-museum-ticket/" target="_blank">吉卜力美術館 5 種購票方式教學文章 🔗</a>｜<a class="map-link-inline" href="https://marktrip.tw/ghibli-museum-mitaka/" target="_blank">2026 必看展區與亮點介紹文 🔗</a></p>
 <p></p>
 <ul class="modal-list">
@@ -4137,7 +4172,7 @@
           <div class="card-header">
             <span class="card-time">17:00－18:30</span>
             <div class="card-tags">
-              <span class="tag tag-food">🍜 美食</span>
+              <span class="tag tag-ticket-booked">🍽️ 已訂位</span><span class="tag tag-food">🍜 美食</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -4147,10 +4182,13 @@
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">首選餐廳：<strong><strong>串家物語 (神楽食堂 串家物語 吉祥寺店)</strong></strong> (ダイヤパレス吉祥寺 2F) 享用 DIY 炸串（推薦：各式肉類與蔬菜串炸），人均約 ¥2,000～¥3,000。<br>💡 <strong>用餐祕訣</strong>：入座後由店員開鍋 ➔ 90 分鐘吃到飽，自行至吧檯夾肉串/蔬菜/麵糊 ➔ 桌上有「炸物時間圖卡」（肉類約 2-3 分鐘、蔬菜約 1 分鐘），照著圖卡油炸最美味！</p>
+            <p class="card-summary">🎫 <strong>票務狀態：已訂位</strong><br>首選餐廳：<strong><strong>串家物語 (神楽食堂 串家物語 吉祥寺店)</strong></strong> (ダイヤパレス吉祥寺 2F) 享用 DIY 炸串（推薦：各式肉類與蔬菜串炸），人均約 ¥2,000～¥3,000。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d4-10')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>🎫 <strong>票務狀態：已訂位</strong></p>
+</div>
+<div class="modal-quote">
 <ul class="modal-list">
 <li>首選餐廳：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.7048979,139.5802557&query_place_id=ChIJNbTiyUfuGGAR6lter_U3i7g" target="_blank"><strong>串家物語 (神楽食堂 串家物語 吉祥寺店)</strong> 🔗</a> (ダイヤパレス吉祥寺 2F) 享用 DIY 炸串（推薦：各式肉類與蔬菜串炸），人均約 ¥2,000～¥3,000。</li>
 <li>建議：事先預約 17:00，可避開週末晚餐尖峰時段（位於 Sunroad 商店街內的ダイヤパレス吉祥寺 2F）。</li>
@@ -4516,7 +4554,7 @@
           <div class="card-header">
             <span class="card-time">12:30－14:45</span>
             <div class="card-tags">
-              <button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-cb6')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
+              <span class="tag tag-ticket-done">🎫 已購票</span><button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-cb6')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -4526,10 +4564,13 @@
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">📄 <strong>行前必讀介紹文</strong>：<strong><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.7099301,139.8095855&query_place_id=ChIJO6bK3daOGGARYEFGg4Xm-VI" target="_blank">墨田水族館 🔗</a>三大必看與企鵝餵食秀介紹文</strong>｜<strong>必看重點與門票優惠攻略文章</strong><br>💡 <strong>建議動線</strong>：入館先看 <strong>13:00 花園鰻</strong> ➔ <strong>13:30 企鵝</strong>（小孩最愛，日本國內最大規模室內開放式企鵝池）➔ <strong>14:00 珊瑚礁魚</strong> ➔ <strong>14:30 小笠原大水槽</strong>，四場連看幾乎不用等待。</p>
+            <p class="card-summary">🎫 <strong>票務狀態：已購票</strong><br>💡 <strong>建議動線</strong>：入館先看 <strong>13:00 花園鰻</strong> ➔ <strong>13:30 企鵝</strong>（小孩最愛，日本國內最大規模室內開放式企鵝池）➔ <strong>14:00 珊瑚礁魚</strong> ➔ <strong>14:30 小笠原大水槽</strong>，四場連看幾乎不用等待。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-cb6')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>🎫 <strong>票務狀態：已購票</strong></p>
+</div>
+<div class="modal-quote">
 <p>📄 <strong>行前必讀介紹文</strong>：<a class="map-link-inline" href="https://gogojp.tw/sumida-aquarium/" target="_blank">墨田水族館三大必看與企鵝餵食秀介紹文 🔗</a>｜<a class="map-link-inline" href="https://bobbytravel.tw/sumida-aquarium/" target="_blank">必看重點與門票優惠攻略文章 🔗</a></p>
 </div>
 <p><details></p>
@@ -5100,7 +5141,7 @@
           <div class="card-header">
             <span class="card-time">10:00－12:00</span>
             <div class="card-tags">
-              <button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-rainy2')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
+              <span class="tag tag-ticket-todo">🎫 需購票</span><button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-rainy2')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -5110,10 +5151,13 @@
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">📄 <strong>行前必讀介紹文</strong>：<strong>日本科學未來館一篇就夠懶人包文章（含台場交通與百合海鷗線搭乘）</strong>｜<strong>各展區與機器人體驗介紹文</strong><br>💡 <strong>樓層概念</strong>：6F 球幕劇場｜5F 常設展「探索世界」（地球科學、天文、生物）｜3F 常設展「創造未來」（電子、物理，互動裝置最多，小孩最愛）｜7F 餐廳可眺望台場與東京鐵塔。</p>
+            <p class="card-summary">🎫 <strong>票務狀態：需購票</strong><br>💡 <strong>樓層概念</strong>：6F 球幕劇場｜5F 常設展「探索世界」（地球科學、天文、生物）｜3F 常設展「創造未來」（電子、物理，互動裝置最多，小孩最愛）｜7F 餐廳可眺望台場與東京鐵塔。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-rainy2')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>🎫 <strong>票務狀態：需購票</strong></p>
+</div>
+<div class="modal-quote">
 <p>📄 <strong>行前必讀介紹文</strong>：<a class="map-link-inline" href="https://goodcutecat.pixnet.net/blog/post/355788991" target="_blank">日本科學未來館一篇就夠懶人包文章（含台場交通與百合海鷗線搭乘） 🔗</a>｜<a class="map-link-inline" href="https://vocus.cc/article/66a3b008fd89780001cfc1e7" target="_blank">各展區與機器人體驗介紹文 🔗</a></p>
 <p></p>
 <ul class="modal-list">
@@ -5281,7 +5325,7 @@
           <div class="card-header">
             <span class="card-time">15:10－17:00</span>
             <div class="card-tags">
-              <button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-rainy6')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
+              <span class="tag tag-ticket-todo">🎫 需購票</span><button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-rainy6')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -5291,10 +5335,13 @@
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">📄 <strong>行前必讀介紹文</strong>：<strong>SMALL WORLDS 展區與遊玩心得介紹文</strong>｜<strong>親子視角完整攻略文章</strong><br>💡 <strong>每 15 分鐘晝夜交替</strong>：全館以燈光模擬白天 ➔ 黃昏 ➔ 夜晚循環，<strong>同一區停留一輪就能看到三種完全不同的樣貌</strong>，別急著走。</p>
+            <p class="card-summary">🎫 <strong>票務狀態：需購票</strong><br>💡 <strong>每 15 分鐘晝夜交替</strong>：全館以燈光模擬白天 ➔ 黃昏 ➔ 夜晚循環，<strong>同一區停留一輪就能看到三種完全不同的樣貌</strong>，別急著走。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-rainy6')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>🎫 <strong>票務狀態：需購票</strong></p>
+</div>
+<div class="modal-quote">
 <p>📄 <strong>行前必讀介紹文</strong>：<a class="map-link-inline" href="https://oreo.blog/smallworldstokyo/" target="_blank">SMALL WORLDS 展區與遊玩心得介紹文 🔗</a>｜<a class="map-link-inline" href="https://jnluo.com/small-world-tokyo/" target="_blank">親子視角完整攻略文章 🔗</a></p>
 <p></p>
 <ul class="modal-list">

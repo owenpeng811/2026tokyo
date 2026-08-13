@@ -597,6 +597,25 @@ def parse_v10_markdown():
 
 ARTICLE_KEYWORDS = ('介紹文', '攻略', '文章', '教學', '懶人包', '菜單')
 
+# 票務狀態標籤：在 README 時段內文寫「> 🎫 **票務狀態：已購票**」即可，
+# 這樣 Docsify 版與 PWA 都看得到，且改標題時不會靜默失效。
+TICKET_STATES = (
+    ('已購票', 'ticket-done', '🎫 已購票'),
+    ('已訂位', 'ticket-booked', '🍽️ 已訂位'),
+    ('需購票', 'ticket-todo', '🎫 需購票'),
+)
+
+
+def detect_ticket_state(html_content):
+    """回傳 (css_class, 標籤文字)，沒有標記則回傳 None。"""
+    if not html_content:
+        return None
+    plain = re.sub(r'<[^>]+>', '', html_content)
+    for keyword, css, label in TICKET_STATES:
+        if f'票務狀態：{keyword}' in plain:
+            return css, label
+    return None
+
 
 def count_articles(html_content):
     """數出該時段內文有幾篇可閱讀的外部文章（排除 Google Maps 導航連結）。"""
@@ -618,6 +637,12 @@ def build_card_html(item_id, item):
     if item['has_modal']:
         btn_html = f'<button class="view-original-btn" onclick="openOriginalModal(\'card-item-{item_id}\')">📖 完整說明與祕訣</button>'
         
+    ticket = detect_ticket_state(item.get('html_content', ''))
+    ticket_tag_html = ''
+    if ticket:
+        css, label = ticket
+        ticket_tag_html = f'<span class="tag tag-{css}">{label}</span>'
+
     n_articles = count_articles(item.get('html_content', ''))
     article_tag_html = ""
     if n_articles:
@@ -646,7 +671,7 @@ def build_card_html(item_id, item):
           <div class="card-header">
             <span class="card-time">{item['time']}</span>
             <div class="card-tags">
-              {article_tag_html}<span class="tag tag-{item['category']}">{item['category_icon']} {item['category_zh']}</span>
+              {ticket_tag_html}{article_tag_html}<span class="tag tag-{item['category']}">{item['category_icon']} {item['category_zh']}</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -1173,6 +1198,20 @@ def render_full_pwa_html(meta, days_data):
     .tag-article:hover, .tag-article:active {{
       background: rgba(245, 158, 11, 0.38);
       transform: translateY(-1px);
+    }}
+
+    /* 票務狀態：已購票／已訂位為綠色（安心），需購票為紅色（待辦） */
+    .tag-ticket-done {{ background: rgba(34, 197, 94, 0.22); color: #86efac; border: 1px solid rgba(34, 197, 94, 0.45); }}
+    .tag-ticket-booked {{ background: rgba(34, 197, 94, 0.22); color: #86efac; border: 1px solid rgba(34, 197, 94, 0.45); }}
+    .tag-ticket-todo {{
+      background: rgba(239, 68, 68, 0.22);
+      color: #fca5a5;
+      border: 1px solid rgba(239, 68, 68, 0.5);
+      animation: ticketPulse 2.4s ease-in-out infinite;
+    }}
+    @keyframes ticketPulse {{
+      0%, 100% {{ box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }}
+      50% {{ box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.18); }}
     }}
 
     .card-title {{
