@@ -14,6 +14,8 @@
     - `navigation_links.html`
   - 要新增或修正地點：**只改 `places.json`**，接著依序執行
     `python3 sync_places.py --generate` ➔ `python3 sync_places.py --fix`（同步 README 內文網址）➔ `python3 build_pwa.py`（僅在使用者要求更新 PWA 時）。
+  - 若直接在 `README.md` 內文新增了地點連結，執行 **`python3 sync_places.py --adopt`** 把這些「孤兒連結」收編進 `places.json`。
+    ⚠️ 孤兒連結是最危險的一類：它們不在任何字典檔中，稽核規則因找不到同伴而抓不到，`--check` 也會略過。2026-08 抽查 26 個孤兒連結，其中 11 個 Place ID 是無效或指向錯誤地點的。
   - `canonical_nav_map.json` 為歷史遺留檔，**已無任何程式讀取**，請勿再寫入或依賴它。
 
 - **Place ID 品質規則（重要，過去曾大量出錯）**：

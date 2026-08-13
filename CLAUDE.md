@@ -27,6 +27,7 @@ python3 build_pwa.py
 python3 full_validation_pipeline.py
 
 # 導航連結：places.json 是唯一真相來源，四個字典檔皆由它生成
+python3 sync_places.py --adopt      # 收編只存在於 README 的「孤兒連結」
 python3 sync_places.py --generate   # 生成 navigation_links.html 與三個 JSON
 python3 sync_places.py --check      # 檢查 README 內文網址是否與 places.json 一致
 python3 sync_places.py --fix        # 自動修正 README 不一致的網址

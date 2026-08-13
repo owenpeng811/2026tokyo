@@ -6,8 +6,9 @@ places.json 單一真相來源的同步工具。
 2026-08 稽核發現大量偽造 Place ID 與座標漂移。改為以 places.json 為唯一真相，
 其餘字典檔一律由本工具生成，不再手工維護。
 
-四個模式
+五個模式
   --bootstrap  由現有檔案彙整出 places.json（只需執行一次，之後別再用）
+  --adopt      收編只存在於 README、尚未登錄的「孤兒連結」
   --generate   由 places.json 生成 navigation_links.html 與三個字典 JSON
   --check      掃描 README.md 內文網址，列出與 places.json 不符者
   --fix        直接改寫 README.md 中不符的網址
@@ -128,6 +129,57 @@ def bootstrap():
         print(f'⚠️ 發現 {len(conflicts)} 組同鍵不同網址的衝突，已各自獨立成筆，請人工確認：')
         for field, key, a, b in conflicts[:10]:
             print(f'  [{field}] {key}\n      {a}\n      {b}')
+
+
+def adopt():
+    """把只存在於 README、尚未登錄 places.json 的「孤兒連結」收編進來。
+
+    這類連結過去完全在管理之外：稽核規則因為找不到同伴而抓不到它們，
+    `--check` 也因為查無標籤而略過。收編後即納入單一真相來源。
+    """
+    data = _read_json(PLACES, None)
+    if not data:
+        sys.exit('❌ 找不到 places.json，請先執行 --bootstrap')
+    places = data['places']
+
+    known = set()
+    for rec in places.values():
+        known.update(rec.get('nav_dict', []))
+        known.update(rec.get('html', []))
+        known.update(rec.get('text_entities', []))
+
+    with open(README, encoding='utf-8') as f:
+        text = f.read()
+
+    added = []
+    for _, label, url in MAPS_LINK_RE.findall(text):
+        label = label.strip()
+        if label in known or label in places:
+            continue
+        known.add(label)
+        places[label] = {
+            'url': url,
+            'nav_dict': [label],
+            'text_entities': [],
+            'first_dest': [],
+            'html': [label],
+            'verified_at': date.today().isoformat(),
+        }
+        added.append(label)
+
+    if not added:
+        print('✅ 沒有孤兒連結，README 的地點皆已登錄於 places.json')
+        return 0
+
+    data['places'] = dict(sorted(places.items()))
+    _write_json(PLACES, data)
+    print(f'✅ 已收編 {len(added)} 個孤兒連結進 places.json：')
+    for a in added:
+        print(f'  • {a}')
+    print('\n⚠️ 收編只是納管，並未驗證這些 Place ID 是否真實有效；'
+          '請以 Place ID Finder 逐一查證後更新 verified_at。')
+    print('接著執行 python3 sync_places.py --generate')
+    return 0
 
 
 def _load_places():
@@ -268,6 +320,8 @@ if __name__ == '__main__':
         bootstrap()
     elif mode == '--generate':
         generate()
+    elif mode == '--adopt':
+        sys.exit(adopt())
     elif mode == '--check':
         sys.exit(check())
     elif mode == '--fix':

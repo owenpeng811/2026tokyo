@@ -195,7 +195,7 @@
 
 #### **17:10－17:30 🪙 萬代官方扭蛋體驗**
 
-> * 目標地點：[**萬代扭蛋百貨店 秋葉原店 (ガシャポンのデパート 秋葉原店)**](https://www.google.com/maps/search/?api=1&query=35.6996473,139.7713703&query_place_id=ChIJzdWdgh2MGGARh4kg2pVZL3c) (いちご秋葉原駅前ビル 4F / namco 4F)
+> * 目標地點：[**萬代扭蛋百貨店 秋葉原店 (ガシャポンバンダイオフィシャルショップ秋葉原店)**](https://www.google.com/maps/search/?api=1&query=35.6980094,139.7724164&query_place_id=ChIJlzTvUTuNGGARzn7gpOn8et8) (いちご秋葉原駅前ビル 4F / namco 4F)
 > * 前往全秋葉原規模最大之一的官方扭蛋專門店，擁有近千台最新動漫、寶可夢、迪士尼、可愛動物與微縮模型扭蛋機。  
 > * 館內冷氣充足、動線好逛，每位小朋友選扭 1～2 顆喜愛的扭蛋作為開場禮物。  
 > * 💡 **消費預估**：每顆約 ¥300～¥500，預算約 ¥600～¥1,000 / 2 位小孩。  
@@ -616,7 +616,7 @@
 <summary>🚆 Plan B 備案：電車轉乘路線（若巴士滿載或班次無法配合）（點擊展開）</summary>
 
 > 1. 於 [**JR 舞濱站 (舞浜駅)**](https://www.google.com/maps/search/?api=1&query=35.6361543,139.8838749&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**JE07**） 南口進站，搭乘 **🔴 JR 京葉線（JE）** 往 **東京（Tokyo／JE01） 方向**（2 號月台），搭乘 **5 站** 至 [**八丁堀站 (八丁堀駅)**](https://www.google.com/maps/search/?api=1&query=35.674998,139.777402&query_place_id=ChIJO1wpfl6JGGARjNtDmO2lRrI)（**JE02**）（車程約 12 分鐘）。  
-> 2. 經地下連通道轉乘 **⚪ 東京 Metro 日比谷線（H） 八丁堀站（H12）**，於 2 號月台搭乘往 **北千住（Kita-senju／H22） 方向** 列車，搭乘 **4 站** 至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7731315&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（**H16**）（車程約 8 分鐘）。  
+> 2. 經地下連通道轉乘 **⚪ 東京 Metro 日比谷線（H） 八丁堀站（H12）**，於 2 號月台搭乘往 **北千住（Kita-senju／H22） 方向** 列車，搭乘 **4 站** 至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（**H16**）（車程約 8 分鐘）。  
 > 3. 抵達秋葉原站後，轉乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **1 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）返抵飯店休息。  
 </details>
 
@@ -673,7 +673,7 @@
 ### **09:10 🚇 前往東京車站**
 
 > * 從飯店步行約 2 分鐘至 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 1 號月台搭乘 **🟡 JR 中央・總武線（JB）** 往 **秋葉原（Akihabara／JB19）／新宿 方向**，搭乘 **1 站** 至 秋葉原站（JB19）（車程約 2 分鐘）。
-> * 於 **JR 秋葉原站（JY03）** **不用出站**，轉乘 **🟢 JR 山手線（JY）** 或 **🔵 JR 京濱東北線（JK）** 往 **東京（Tokyo／JY01）／品川 方向**，搭乘 **2 站** 直達 [**東京站 (東京駅)**](https://www.google.com/maps/search/?api=1&query=35.6812996,139.7670659&query_place_id=ChIJn0PtQVOLGGARqZ-06r4mC70)（**JY01**）（車程約 4 分鐘，總車程約 8 分鐘）。  
+> * 於 **JR 秋葉原站（JY03）** **不用出站**，轉乘 **🟢 JR 山手線（JY）** 或 **🔵 JR 京濱東北線（JK）** 往 **東京（Tokyo／JY01）／品川 方向**，搭乘 **2 站** 直達 [**東京站 (東京駅)**](https://www.google.com/maps/search/?api=1&query=35.6812996,139.7670659&query_place_id=ChIJC3Cf2PuLGGAROO00ukl8JwA)（**JY01**）（車程約 4 分鐘，總車程約 8 分鐘）。  
 🚶‍♂️ **出站指引**：下月台後請跟隨頭頂黃色指標前往 1F **「丸之內中央口 / 丸之內南口」** 閘門出站，一走出站體正前方即為開闊的「丸之內站前廣場」。
 
 ### **09:25－09:50 📸 欣賞東京車站丸之內站舍建築**
@@ -754,8 +754,8 @@
 
 ### **12:50 🚇 前往上野**
 
-> * 目標地點：[**上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJqZzHZZyOGGAR0M4X5P7X77A) (公園改札)
-> * 🚶‍♂️ **進站乘車**：從天丼てんや（八重洲地下街）搭手扶梯上至 1F [**JR 東京站 (東京駅)**](https://www.google.com/maps/search/?api=1&query=35.6812996,139.7670659&query_place_id=ChIJn0PtQVOLGGARqZ-06r4mC70)（**JY01**） **「JR 八重洲南口」** 閘門，刷 Suica 卡進站，前往 **4 號月台** 搭乘 **🟢 JR 山手線（JY）** 往 **上野（Ueno／JY05）／池袋（Ikebukuro／JY13） 方向**，搭乘 **4 站** 直達 [**上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJqZzHZZyOGGAR0M4X5P7X77A)（**JY05**）（車程約 8 分鐘）。
+> * 目標地點：[**上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw) (公園改札)
+> * 🚶‍♂️ **進站乘車**：從天丼てんや（八重洲地下街）搭手扶梯上至 1F [**JR 東京站 (東京駅)**](https://www.google.com/maps/search/?api=1&query=35.6812996,139.7670659&query_place_id=ChIJC3Cf2PuLGGAROO00ukl8JwA)（**JY01**） **「JR 八重洲南口」** 閘門，刷 Suica 卡進站，前往 **4 號月台** 搭乘 **🟢 JR 山手線（JY）** 往 **上野（Ueno／JY05）／池袋（Ikebukuro／JY13） 方向**，搭乘 **4 站** 直達 [**上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw)（**JY05**）（車程約 8 分鐘）。
 > 
 > ![JR 上野站公園口（公園改札）2020 全新平坦步道站舍](./assets/images/ueno_station_park_gate.jpg)
 > 
@@ -1026,7 +1026,7 @@
 
 > * 目標地點：[**雷門 (雷門)**](https://www.google.com/maps/search/?api=1&query=35.7111163,139.7963656&query_place_id=ChIJ0YwG28aOGGARvRKAXIBWqNk)
 > * 從飯店步行約 2 分鐘至 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（走 A1/A3 出口進站）。
-> * 於 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**） 搭乘 **🌹 都營淺草線（A）** 往 **押上（Oshiage／A20）／青砥 方向** 列車，搭乘 **2 站** 直達 [**淺草站 (浅草駅)**](https://www.google.com/maps/search/?api=1&query=35.7120743,139.7984852&query_place_id=ChIJrY9W4-eOGGARbW0X2d_H7kE)（**A18**）（車程僅約 3 分鐘）。
+> * 於 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**） 搭乘 **🌹 都營淺草線（A）** 往 **押上（Oshiage／A20）／青砥 方向** 列車，搭乘 **2 站** 直達 [**淺草站 (浅草駅)**](https://www.google.com/maps/search/?api=1&query=35.7120743,139.7984852&query_place_id=ChIJL34SkMaOGGAR8M8COhoCH_Q)（**A18**）（車程僅約 3 分鐘）。
 > * 🚶‍♂️ **出站動線與電梯指引**：由 **「1 號出口」**（約 28 階短樓梯）出站即達雷門前廣場；若需無障礙電梯請走 **「A2b 電梯出口」**。
 
 ### **08:45－10:15 ⛩️ 參觀淺草寺與雷門散策**
@@ -1059,7 +1059,7 @@
 > * 目標地點：[**東京晴空街道 (東京ソラマチ)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E)
 > * 🚶‍♂️ **搭車路線（最省力直達首選）**：
 >   * 從淺草文化觀光中心步行約 3 分鐘至 [**東武 淺草站 (東武浅草駅)**](https://www.google.com/maps/search/?api=1&query=35.7118,139.7977&query_place_id=ChIJL68h0YmNGGARm2u01N4793Y)（**TS01**）。
->   * 於 [**東武 淺草站 (東武浅草駅)**](https://www.google.com/maps/search/?api=1&query=35.7118,139.7977&query_place_id=ChIJL68h0YmNGGARm2u01N4793Y)（**TS01**） 搭乘 **🔷 東武晴空塔線（TS）** 往 **東京晴空塔（TS02）／春日部 方向** 列車，搭乘 **1 站** 直達 [**東京晴空塔站 (とうきょうスカイツリー駅)**](https://www.google.com/maps/search/?api=1&query=35.7100627,139.8107004&query_place_id=ChIJ31sMxpqOGGAR8r0hZ9xP631)（**TS02**）（車程僅 2 分鐘）。
+>   * 於 [**東武 淺草站 (東武浅草駅)**](https://www.google.com/maps/search/?api=1&query=35.7118,139.7977&query_place_id=ChIJL68h0YmNGGARm2u01N4793Y)（**TS01**） 搭乘 **🔷 東武晴空塔線（TS）** 往 **東京晴空塔（TS02）／春日部 方向** 列車，搭乘 **1 站** 直達 [**東京晴空塔站 (とうきょうスカイツリー駅)**](https://www.google.com/maps/search/?api=1&query=35.7100627,139.8107004&query_place_id=ChIJ5_rl0daOGGAR0BEODNSc_W8)（**TS02**）（車程僅 2 分鐘）。
 >   * 出站即直通晴空塔與東京晴空街道商場西館 1F，全程免曬太陽爬坡。
 
 ### **11:00－12:30 🍽️ 午餐：達摩文字燒**
@@ -1229,12 +1229,12 @@
 
 > * 目標地點：[**日本科學未來館 (日本科学未来館)**](https://www.google.com/maps/search/?api=1&query=35.6193359,139.7763995&query_place_id=ChIJz_149P6JGGARoImMn3NlsfY)
 > * 從飯店步行約 2 分鐘至 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（走 A1 出口進站）。
-> * 於 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**） 1 號月台搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **6 站** 直達 [**新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJq0X3kZaLGGARF0k9yTjYI-8)（**A10**）（車程約 7 分鐘）。
+> * 於 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**） 1 號月台搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **6 站** 直達 [**新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJ4RGu0emLGGARuUX8XtPxUVg)（**A10**）（車程約 7 分鐘）。
 > * 於 **新橋站（A10）** 轉乘至 **百合海鷗線 新橋站（U01）**，**標準轉乘時間約 6 分鐘**，請預留充裕時間。
 >   * 🚨 **改札選擇是成敗關鍵**：都營淺草線新橋站有**兩個改札**，**務必由「JR新橋駅・汐留方面」改札出站**；若走另一個改札會大幅繞遠路。
 >   * 🚶‍♂️ **實際路線（會走到地面，非全程地下）**：於月台找 **「出口 A1～A3」** 指示的階梯上行 ➔ 由 **「JR新橋駅・汐留方面」改札**出站 ➔ **左轉**上階梯 ➔ **右轉**，於新橋駅前大樓 1 號館入口前**右側階梯（A2-4）**上行 ➔ **出到地面**後即見 **ゆりかもめ（百合海鷗線）新橋站**入口階梯，上樓進站。
 >   * ⚠️ 此段**需短暫走出地面**（約 1～2 分鐘），雨天請備妥雨具。
-> * 於 [**百合海鷗線 新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJq0X3kZaLGGARF0k9yTjYI-8)（**U01**） 搭乘 **🟠 百合海鷗線（U）** 往 **豐洲（Toyosu／U16） 方向**，搭乘 **7 站** 至 [**東京國際郵輪碼頭站 (東京国際クルーズターミナル駅)**](https://www.google.com/maps/search/?api=1&query=35.621213,139.772592&query_place_id=ChIJc1979puNGGARR5_P_y3m5uE)（**U08**）（車程約 16 分鐘）。
+> * 於 [**百合海鷗線 新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJ4RGu0emLGGARuUX8XtPxUVg)（**U01**） 搭乘 **🟠 百合海鷗線（U）** 往 **豐洲（Toyosu／U16） 方向**，搭乘 **7 站** 至 [**東京國際郵輪碼頭站 (東京国際クルーズターミナル駅)**](https://www.google.com/maps/search/?api=1&query=35.621213,139.772592&query_place_id=ChIJbRi2oviJGGARCPAeqoxF6_Y)（**U08**）（車程約 16 分鐘）。
 > * 由 **1 號出口（東口）** 出站，沿平緩景觀步道步行約 5 分鐘（約 400 公尺）直達日本科學未來館大門。
 
 #### **10:00－12:00 🤖 參觀日本科學未來館**
@@ -1331,7 +1331,7 @@
 
 > * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA)
 > * 從 DiverCity 走空橋通道步行約 5 分鐘至 [**百合海鷗線 台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.6259459,139.7714957&query_place_id=ChIJuSwSCR2KGGAR-N7KPSFFRXM)（**U07**）。
-> * 於 [**百合海鷗線 台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.6259459,139.7714957&query_place_id=ChIJuSwSCR2KGGAR-N7KPSFFRXM)（**U07**） 搭乘 **🟠 百合海鷗線（U）** 往 **新橋（Shimbashi／U01） 方向**，搭乘 **6 站** 至 [**新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJq0X3kZaLGGARF0k9yTjYI-8)（**U01**）（車程約 15 分鐘）。
+> * 於 [**百合海鷗線 台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.6259459,139.7714957&query_place_id=ChIJuSwSCR2KGGAR-N7KPSFFRXM)（**U07**） 搭乘 **🟠 百合海鷗線（U）** 往 **新橋（Shimbashi／U01） 方向**，搭乘 **6 站** 至 [**新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJ4RGu0emLGGARuUX8XtPxUVg)（**U01**）（車程約 15 分鐘）。
 > * 於 **新橋站（A10）** 經地下通道轉乘 **🌹 都營淺草線（A）** 往 **押上（Oshiage／A20）／青砥 方向**，搭乘 **6 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程約 7 分鐘）。
 > * 由 **「A1 出口（直達地面無障礙電梯）」** 出站，步行約 2 分鐘返抵海茵娜酒店。
 > * 19:00 回飯店洗澡休息、打包整理大件行李與最後秤重整備。
