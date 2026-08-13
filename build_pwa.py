@@ -595,11 +595,39 @@ def parse_v10_markdown():
 
     return meta, days_data
 
+ARTICLE_KEYWORDS = ('介紹文', '攻略', '文章', '教學', '懶人包', '菜單')
+
+
+def count_articles(html_content):
+    """數出該時段內文有幾篇可閱讀的外部文章（排除 Google Maps 導航連結）。"""
+    if not html_content:
+        return 0
+    seen = set()
+    for href, text in re.findall(r'<a\b[^>]*href="(https?://[^"]+)"[^>]*>(.*?)</a>',
+                                 html_content, re.DOTALL):
+        if 'google.com/maps' in href or 'maps.app.goo.gl' in href:
+            continue
+        plain = re.sub(r'<[^>]+>', '', text)
+        if any(k in plain for k in ARTICLE_KEYWORDS):
+            seen.add(href)
+    return len(seen)
+
+
 def build_card_html(item_id, item):
     btn_html = ""
     if item['has_modal']:
         btn_html = f'<button class="view-original-btn" onclick="openOriginalModal(\'card-item-{item_id}\')">📖 完整說明與祕訣</button>'
         
+    n_articles = count_articles(item.get('html_content', ''))
+    article_tag_html = ""
+    if n_articles:
+        label = f'📄 攻略 {n_articles}' if n_articles > 1 else '📄 攻略'
+        title = f'此時段有 {n_articles} 篇介紹文／攻略可閱讀，點我展開完整說明'
+        article_tag_html = (
+            f'<button class="tag tag-article" title="{title}" '
+            f'onclick="openOriginalModal(\'card-item-{item_id}\')">{label}</button>'
+        )
+
     action_btn_html = ""
     if item.get('maps_link'):
         action_btn_html = f"""<div class="card-actions">
@@ -618,7 +646,7 @@ def build_card_html(item_id, item):
           <div class="card-header">
             <span class="card-time">{item['time']}</span>
             <div class="card-tags">
-              <span class="tag tag-{item['category']}">{item['category_icon']} {item['category_zh']}</span>
+              {article_tag_html}<span class="tag tag-{item['category']}">{item['category_icon']} {item['category_zh']}</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -1131,6 +1159,21 @@ def render_full_pwa_html(meta, days_data):
     .tag-transport {{ background: rgba(56, 189, 248, 0.2); color: #7dd3fc; border: 1px solid rgba(56, 189, 248, 0.3); }}
     .tag-attraction {{ background: rgba(167, 139, 250, 0.2); color: #c4b5fd; border: 1px solid rgba(167, 139, 250, 0.3); }}
     .tag-stay {{ background: rgba(52, 211, 153, 0.2); color: #6ee7b7; border: 1px solid rgba(52, 211, 153, 0.3); }}
+
+    /* 有介紹文／攻略可讀：點擊直接開啟完整說明抽屜 */
+    .tag-article {{
+      background: rgba(245, 158, 11, 0.22);
+      color: #fcd34d;
+      border: 1px solid rgba(245, 158, 11, 0.45);
+      font-family: inherit;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }}
+    .tag-article:hover, .tag-article:active {{
+      background: rgba(245, 158, 11, 0.38);
+      transform: translateY(-1px);
+    }}
 
     .card-title {{
       font-size: 0.98rem;

@@ -348,6 +348,21 @@
     .tag-attraction { background: rgba(167, 139, 250, 0.2); color: #c4b5fd; border: 1px solid rgba(167, 139, 250, 0.3); }
     .tag-stay { background: rgba(52, 211, 153, 0.2); color: #6ee7b7; border: 1px solid rgba(52, 211, 153, 0.3); }
 
+    /* 有介紹文／攻略可讀：點擊直接開啟完整說明抽屜 */
+    .tag-article {
+      background: rgba(245, 158, 11, 0.22);
+      color: #fcd34d;
+      border: 1px solid rgba(245, 158, 11, 0.45);
+      font-family: inherit;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+    .tag-article:hover, .tag-article:active {
+      background: rgba(245, 158, 11, 0.38);
+      transform: translateY(-1px);
+    }
+
     .card-title {
       font-size: 0.98rem;
       font-weight: 700;
@@ -794,7 +809,7 @@
           <div class="card-header">
             <span class="card-time">14:10－14:40</span>
             <div class="card-tags">
-              <span class="tag tag-transport">🚆 交通</span>
+              <button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d1-cb4')">📄 攻略 2</button><span class="tag tag-transport">🚆 交通</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -1595,7 +1610,7 @@
           <div class="card-header">
             <span class="card-time">10:20－11:30</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-article" title="此時段有 1 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d2p-sunny1')">📄 攻略</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -1980,7 +1995,7 @@
           <div class="card-header">
             <span class="card-time">17:00－18:00</span>
             <div class="card-tags">
-              <span class="tag tag-food">🍜 美食</span>
+              <button class="tag tag-article" title="此時段有 1 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d2p-ca0')">📄 攻略</button><span class="tag tag-food">🍜 美食</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -2976,7 +2991,7 @@
           <div class="card-header">
             <span class="card-time">10:00－10:50</span>
             <div class="card-tags">
-              <span class="tag tag-transport">🚆 交通</span>
+              <button class="tag tag-article" title="此時段有 1 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d3-4')">📄 攻略</button><span class="tag tag-transport">🚆 交通</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -3291,7 +3306,7 @@
           <div class="card-header">
             <span class="card-time">13:25－15:25</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-article" title="此時段有 1 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d3-12')">📄 攻略</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -3420,7 +3435,7 @@
           <div class="card-header">
             <span class="card-time">16:40－18:40</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-article" title="此時段有 4 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d3-15')">📄 攻略 4</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -3752,7 +3767,7 @@
           <div class="card-header">
             <span class="card-time">09:50－12:15</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d4-3')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -4282,7 +4297,7 @@
           <div class="card-header">
             <span class="card-time">08:45－10:15</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-cb2')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -4456,7 +4471,7 @@
           <div class="card-header">
             <span class="card-time">12:30－14:45</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-cb6')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -4700,7 +4715,7 @@
           <div class="card-header">
             <span class="card-time">18:00－19:15</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-pa3')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -5040,7 +5055,7 @@
           <div class="card-header">
             <span class="card-time">10:00－12:00</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-rainy2')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -5174,7 +5189,7 @@
           <div class="card-header">
             <span class="card-time">13:30－15:10</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-rainy5')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -5221,7 +5236,7 @@
           <div class="card-header">
             <span class="card-time">15:10－17:00</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-rainy6')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -5505,7 +5520,7 @@
           <div class="card-header">
             <span class="card-time">08:15－10:00</span>
             <div class="card-tags">
-              <span class="tag tag-food">🍜 美食</span>
+              <button class="tag tag-article" title="此時段有 1 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d6-3')">📄 攻略</button><span class="tag tag-food">🍜 美食</span>
             </div>
           </div>
           <h3 class="card-title">
