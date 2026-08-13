@@ -655,45 +655,74 @@
 > * 於 **JR 秋葉原站（JY03）** **不用出站**，轉乘 **🟢 JR 山手線（JY）** 或 **🔵 JR 京濱東北線（JK）** 往 **東京（Tokyo／JY01）／品川 方向**，搭乘 **2 站** 直達 [**東京站 (東京駅)**](https://www.google.com/maps/search/?api=1&query=35.6812996,139.7670659&query_place_id=ChIJn0PtQVOLGGARqZ-06r4mC70)（**JY01**）（車程約 4 分鐘，總車程約 8 分鐘）。  
 🚶‍♂️ **出站指引**：下月台後請跟隨頭頂黃色指標前往 1F **「丸之內中央口 / 丸之內南口」** 閘門出站，一走出站體正前方即為開闊的「丸之內站前廣場」。
 
-### **09:25－09:45 📸 欣賞東京車站丸之內站舍建築**
+### **09:25－09:50 📸 欣賞東京車站丸之內站舍建築**
 
 > * 目標地點：[**東京車站丸之內站舍 (東京駅丸の内駅舎)**](https://www.google.com/maps/search/?api=1&query=35.6814247,139.7659944&query_place_id=ChIJE9qjZ0-LGGARQiAs8hULJsg)
 > * 拍全家福、欣賞東京車站百年經典紅磚文藝復興式建築（清晨氣溫舒適、陽光順光，最適合戶外合影）。
 
-### **09:45－10:00 🚶‍♂️ 移動至東京車站一番街動漫街（室內無腦走法）**
+### **09:50－10:00 🚶‍♂️ 移動至八重洲地下街**
 
-> * 🚶‍♂️ **室內零迷路步行動線（全程不需 GPS，抬頭看指標）**：
->   1. 在丸之內廣場拍完照後，面向紅磚站舍往**左手邊（北側）**走入 **「丸之內北口」**。
-> 
-> ![東京車站丸之內北口圓頂大廳（前往北地下自由通路必經處）](./assets/images/tokyo_station_north_passage.jpg)
-> 
->   * 💡 **通道入口辨識指引**：欣賞完丸之內紅磚站舍後，進入「丸之內北口」圓頂大廳，依循指標下階梯進入 B1F「北地下自由通路」，不進剪票口免刷卡直通八重洲地下中央口動漫街。
->   2. **切勿刷卡進 JR 閘門**！在閘門前搭乘手扶梯/電梯**下至 B1F**。
->   3. 抬頭看到黃底黑字標示 **「北地下自由通路 (North Underground Passage)」**，沿著這條寬敞筆直的冷氣地下通道直走到底（約 3 分鐘）。
->   4. 出通道即抵達 **「八重洲地下中央口」**，正前方與兩側整條就是 [**東京車站一番街 (東京駅一番街)**](https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%A7%85%E4%B8%80%E7%95%AA%E8%A1%97) 的「東京動漫人物街」！
+> * 🚶‍♂️ **步行動線（全程免刷卡，抬頭找指標即可）**：
+>   1. 拍完照後，走回到紅磚站舍建築正面，找 **「丸の内北口 (North Gate)」** 標示進入大廳。
+>   2. 大廳內**不要進 JR 剪票口**，沿牆找 **「北自由通路 (North Underground Passage)」** 指標，下行至 B1F。
+>   3. 通道內跟著 **「八重洲方面 (Yaesu)」** 指標直走（通道為直線，約 3 分鐘），出口看到 **「八重洲地下中央口」「東京駅一番街」** 指標代表走對了。
+>   4. [**東京菓子樂園 (東京おかしランド)**](https://www.google.com/maps/search/?api=1&query=35.6814,139.7672&query_place_id=ChIJtQ_H8j2LGGARLGVuLGZqEGk) 就在 **「八重洲地下中央口」改札正對面，B1F 東京駅一番街** 內，出通道即見。
 
-### **10:00－11:05 🛍️ 逛東京車站一番街動漫街**
+#### ☀️ **晴天方案**
 
-> * 目標地點：[**東京車站一番街 (東京駅一番街)**](https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%A7%85%E4%B8%80%E7%95%AA%E8%A1%97) (八重洲地下中央口 B1F)
-> * 10:00 店家開始營業，整條動漫街為直線單純動線，依照優先順序輕鬆逛：
-> * [**寶可夢商店 (ポケモンストア 東京駅店)**](https://www.google.com/maps/search/?api=1&query=35.6815344,139.7671239&query_place_id=ChIJp0K6QVOLGGARzD9G_rV4j0s) (動漫人物街 B1F)：精選寶可夢周邊，包含東京車站限定版站長皮卡丘。  
-> * [**TOMICA專賣店 (トミカショップ 東京店)**](https://www.google.com/maps/search/?api=1&query=35.6816001,139.7671501&query_place_id=ChIJ-Q1qQVOLGGARrK8i8u1d1gU) (動漫人物街 B1F)：小車迷天堂，各式合金小車與組裝工廠。  
-> * [**橡子共和國 (ジブリがいっぱい どんぐり共和国 東京駅店)**](https://www.google.com/maps/search/?api=1&query=35.6814502,139.7671802&query_place_id=ChIJJb3hQlOLGGARp0FqX5_w3mE) (動漫人物街 B1F)：吉卜力工作室官方周邊。  
-> * [**吉伊卡哇專賣店 (ちいかわらんど TOKYO Station)**](https://www.google.com/maps/search/?api=1&query=35.6813803,139.7672203&query_place_id=ChIJN8ZtQVOLGGARHqT_8o2w3k8) (動漫人物街 B1F)：超人氣 Chiikawa 日本限定文具與玩偶。  
-> * [**迪士尼商店 (ディズニーストア 東京駅店)**](https://www.google.com/maps/search/?api=1&query=35.6812904,139.7672504&query_place_id=ChIJO0Z_QVOLGGARz8y08o3_2wU) (動漫人物街 B1F)：迪士尼限定商品專區。
+### **10:00－10:50 🍪 東京車站菓子樂園限定採買**
 
-### **11:05－11:25 🌇 KITTE頂樓花園眺望東京車站**
+> * 目標地點：[**東京菓子樂園 (東京おかしランド)**](https://www.google.com/maps/search/?api=1&query=35.6814,139.7672&query_place_id=ChIJtQ_H8j2LGGARLGVuLGZqEGk)（八重洲地下中央口 B1F）
+> * 江崎固力果、森永製菓、卡樂比、亀田製菓四大菓子大廠現做限定品一次收齊，小孩必瘋狂！各廠均有獨立門市，可逛可試吃，動線單純直線。
+> * 💡 **GRANSTA 選配**：若菓子樂園掃完仍有餘裕，可繼續往改札外 [**GRANSTA 東京 (グランスタ東京)**](https://www.google.com/maps/search/?api=1&query=35.6815,139.7671&query_place_id=ChIJK4kK2j2LGGARpOLqF6R8tNs)（B1F）掃東京限定甜點伴手禮，與菓子樂園同樓連走無需移動。
 
-> * 目標地點：[**KITTE花園 (ＫＩＴＴＥガーデン)**](https://www.google.com/maps/search/?api=1&query=35.6795336,139.7654445&query_place_id=ChIJtZRvRvqLGGARdS57rQP2NEk) (KITTE 6F)
-> * 🚶‍♂️ **移動動線**：從一番街 B1F 往南側地下通道直通 [**KITTE丸之內 (KITTE丸の内)**](https://www.google.com/maps/search/?api=1&query=35.6795336,139.7654445&query_place_id=ChIJtZRvRvqLGGARdS57rQP2NEk) B1F 連通道，搭乘館內中庭電梯直達 6F 免費屋頂花園，俯瞰東京車站紅磚全景與新幹線進出站。
+### **10:50－11:00 🚶‍♂️ 移動至 KITTE**
 
-### **11:30－12:45 🍽️ 午餐：天丼てんや**
+> * 🚶‍♂️ **移動動線**：
+>   1. 從東京菓子樂園沿 B1F 往 **「丸の内方面」「丸の内地下南口」** 指標步行約 5 分鐘。
+>   2. 看到 **「KITTE」** 指標或玻璃門入口即可進入，**無需過 JR 剪票口**。
+>   3. 進入 [**KITTE丸之內 (KITTE丸の内)**](https://www.google.com/maps/search/?api=1&query=35.6795336,139.7654445&query_place_id=ChIJtZRvRvqLGGARdS57rQP2NEk) B1F 後，搭館內電梯或中庭手扶梯上至 6F。
+
+### **11:00－11:20 🌇 KITTE頂樓花園眺望東京車站**
+
+> * 目標地點：[**KITTE花園 (ＫＩＴＴＥガーデン)**](https://www.google.com/maps/search/?api=1&query=35.6795336,139.7654445&query_place_id=ChIJtZRvRvqLGGARdS57rQP2NEk) (KITTE丸之內 6F)
+> * ⚠️ **開放時間提醒**：週六 **11:00** 準時開放，請勿提早上樓。
+> * 俯瞰東京車站紅磚全景與新幹線進出站，難得的「正上方制高點」免費打卡絕景。20 分鐘輕鬆拍完即可離開。
+
+### **11:20－11:30 🚶‍♂️ 移動至天丼てんや**
+
+> * 🚶‍♂️ **移動動線**：
+>   1. KITTE 6F 搭館內電梯下至 B1F，回到地下通道。
+>   2. 沿原路往 **「八重洲方面」「八重洲地下中央口」** 指標走回，約 5 分鐘。
+>   3. 進入 **八重洲地下街（ヤエチカ）南ゾーン** 後，找 **「南1號」** 店面，即為 [**天丼てんや (天丼てんや 八重洲店)**](https://www.google.com/maps/search/?api=1&query=35.6790668,139.7679772&query_place_id=ChIJzQEVm_yLGGAR1QSl3jr9CNU)。11:30 前可直接入座，週六小隊伍出餐仍快。
+
+---
+
+#### ☔ **雨天方案**
+
+### **10:00－10:50 🍪 GRANSTA 東京美食伴手禮採買**
+
+> * 目標地點：[**GRANSTA 東京 (グランスタ東京)**](https://www.google.com/maps/search/?api=1&query=35.6815,139.7671&query_place_id=ChIJK4kK2j2LGGARpOLqF6R8tNs) (東京駅 B1F 改札內外)
+> * 雨天室內最佳去處！全程在有冷氣的地下街採買，同時逛 [**東京菓子樂園 (東京おかしランド)**](https://www.google.com/maps/search/?api=1&query=35.6814,139.7672&query_place_id=ChIJtQ_H8j2LGGARLGVuLGZqEGk)（四大菓子廠限定品）與 GRANSTA 各式東京限定伴手禮。
+
+### **11:00－11:20 🦴 參觀東京大學博物館 Intermediatheque（選配）**
+
+> * 目標地點：[**Intermediatheque (インターメディアテク)**](https://www.google.com/maps/search/?api=1&query=35.6795,139.7653&query_place_id=ChIJN-Z-ZJ2LGGAR79WbT64mJsk) (KITTE丸之內 2F 入口，展覽延伸至 3F)
+> * 🚶‍♂️ **進入方式**：從 KITTE B1F 進館後，搭館內電梯或手扶梯至 **2F**，找 **「インターメディアテク／INTERMEDIATHEQUE」** 指標，入口在 2F（不是 6F）。入館免費，展覽橫跨 2F～3F。
+> * 免費入館！東京大學與日本郵便聯合運營的博物館，展示珍貴恐龍化石標本、百年學術典藏與標本奇珍，非常適合好奇心旺盛的孩子與長輩。
+> * 開放時間：11:00，請 11:00 準時入場。20 分鐘快速瀏覽重點展品即可。
+> * 💡 雨天下午進國立科學博物館前的完美暖場；若小孩體力不佳可直接跳過，前往午餐。
+
+---
+
+### **11:30－12:45 🍽️ 午餐：天丼Tenya**
 
 > * 首選餐廳：[**天丼てんや (天丼てんや 八重洲店)**](https://www.google.com/maps/search/?api=1&query=35.6790668,139.7679772&query_place_id=ChIJzQEVm_yLGGAR1QSl3jr9CNU) (八重洲地下街 南1號) 享用日式平價炸蝦天丼（推薦：特選海老天丼、野菜天丼、兒童迷你烏龍麵套餐），人均約 ¥650～¥1,100。出餐極快、平價美味、長輩小孩皆愛！
+
 <details>
 <summary>🍽️ 查看東京車站午餐備案（KITTE茶泡飯 / 燕子漢堡排）（點擊展開）</summary>
 
-> * 備案餐廳 1：[**だし茶漬け えん (だし茶漬け＋肉うどん えん KITTE丸の内店)**](https://www.google.com/maps/search/?api=1&query=35.6792913,139.7653382&query_place_id=ChIJqVS6VgCLGGAR-5BoRnVee14) (KITTE丸の内 B1F) 享用和風高湯茶泡飯（推薦：鯛魚高湯茶泡飯、鮭魚親子茶泡飯、肉烏龍麵），人均約 ¥850～¥1,100。  
+> * 備案餐廳 1：[**高湯茶泡飯 圓 (だし茶漬け＋肉うどん えん KITTE丸の内店)**](https://www.google.com/maps/search/?api=1&query=35.6792913,139.7653382&query_place_id=ChIJqVS6VgCLGGAR-5BoRnVee14) (KITTE丸の内 B1F) 享用和風高湯茶泡飯（推薦：鯛魚高湯茶泡飯、鮭魚親子茶泡飯、肉烏龍麵），人均約 ¥850～¥1,100。  
 > * 備案餐廳 2：[**燕子烤肉漢堡排 (つばめグリル 大丸東京店)**](https://www.google.com/maps/search/?api=1&query=35.6812026,139.7678523&query_place_id=ChIJ60m9202LGGAR79K37s2o_a0) (大丸東京店 12F) 享用經典日式洋食漢堡排（推薦：特製鋁箔包烤漢堡排、和風蘿蔔泥漢堡排），人均約 ¥1,500～¥2,300。  
 </details>
 
