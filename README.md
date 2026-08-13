@@ -674,6 +674,7 @@
 
 > * 目標地點：[**東京菓子樂園 (東京おかしランド)**](https://www.google.com/maps/search/?api=1&query=35.6814,139.7672&query_place_id=ChIJtQ_H8j2LGGARLGVuLGZqEGk)（八重洲地下中央口 B1F）
 > * 江崎固力果、森永製菓、卡樂比、亀田製菓四大菓子大廠現做限定品一次收齊，小孩必瘋狂！各廠均有獨立門市，可逛可試吃，動線單純直線。
+> * 📖 **出發前預習**：[東京おかしランド完整攻略（台灣媽媽實地介紹）](https://linshibi.com/?p=45284)
 > * 💡 **GRANSTA 選配**：若菓子樂園掃完仍有餘裕，可繼續往改札外 [**GRANSTA 東京 (グランスタ東京)**](https://www.google.com/maps/search/?api=1&query=35.6815,139.7671&query_place_id=ChIJK4kK2j2LGGARpOLqF6R8tNs)（B1F）掃東京限定甜點伴手禮，與菓子樂園同樓連走無需移動。
 
 ### **10:50－11:00 🚶‍♂️ 移動至 KITTE**
