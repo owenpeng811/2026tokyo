@@ -687,16 +687,16 @@
 >   1. 拍完照後，走回到紅磚站舍建築正面，找 **「丸の内北口 (North Gate)」** 標示進入大廳。
 >   2. 大廳內**不要進 JR 剪票口**，沿牆找 **「北自由通路 (North Underground Passage)」** 指標，下行至 B1F。
 >   3. 通道內跟著 **「八重洲方面 (Yaesu)」** 指標直走（通道為直線，約 3 分鐘），出口看到 **「八重洲地下中央口」「東京駅一番街」** 指標代表走對了。
->   4. [**東京菓子樂園 (東京おかしランド)**](https://www.google.com/maps/search/?api=1&query=35.6814,139.7672&query_place_id=ChIJtQ_H8j2LGGARLGVuLGZqEGk) 就在 **「八重洲地下中央口」改札正對面，B1F 東京駅一番街** 內，出通道即見。
+>   4. [**東京菓子樂園 (東京おかしランド)**](https://www.google.com/maps/search/?api=1&query=35.680931,139.7682387&query_place_id=ChIJESNWC_yLGGARctOSTpDcc8Q) 就在 **「八重洲地下中央口」改札正對面，B1F 東京駅一番街** 內，出通道即見。
 
 #### ☀️ **晴天方案**
 
 ### **10:00－10:50 🍪 東京車站菓子樂園限定採買**
 
-> * 目標地點：[**東京菓子樂園 (東京おかしランド)**](https://www.google.com/maps/search/?api=1&query=35.6814,139.7672&query_place_id=ChIJtQ_H8j2LGGARLGVuLGZqEGk)（八重洲地下中央口 B1F）
+> * 目標地點：[**東京菓子樂園 (東京おかしランド)**](https://www.google.com/maps/search/?api=1&query=35.680931,139.7682387&query_place_id=ChIJESNWC_yLGGARctOSTpDcc8Q)（八重洲地下中央口 B1F）
 > * 江崎固力果、森永製菓、卡樂比、亀田製菓四大菓子大廠現做限定品一次收齊，小孩必瘋狂！各廠均有獨立門市，可逛可試吃，動線單純直線。
 > * 📖 **出發前預習**：[東京おかしランド完整攻略（台灣媽媽實地介紹）](https://linshibi.com/?p=45284)
-> * 💡 **GRANSTA 選配**：若菓子樂園掃完仍有餘裕，可繼續往改札外 [**GRANSTA 東京 (グランスタ東京)**](https://www.google.com/maps/search/?api=1&query=35.6815,139.7671&query_place_id=ChIJK4kK2j2LGGARpOLqF6R8tNs)（B1F）掃東京限定甜點伴手禮，與菓子樂園同樓連走無需移動。
+> * 💡 **GRANSTA 選配**：若菓子樂園掃完仍有餘裕，可繼續往改札外 [**GRANSTA 東京 (グランスタ東京)**](https://www.google.com/maps/search/?api=1&query=35.6798702,139.7675145&query_place_id=ChIJoYwA2fuLGGARrTNyOELGyV8)（B1F）掃東京限定甜點伴手禮，與菓子樂園同樓連走無需移動。
 
 ### **10:50－11:00 🚶‍♂️ 移動至 KITTE**
 
@@ -724,12 +724,12 @@
 
 ### **10:00－10:50 🍪 GRANSTA 東京美食伴手禮採買**
 
-> * 目標地點：[**GRANSTA 東京 (グランスタ東京)**](https://www.google.com/maps/search/?api=1&query=35.6815,139.7671&query_place_id=ChIJK4kK2j2LGGARpOLqF6R8tNs) (東京駅 B1F 改札內外)
-> * 雨天室內最佳去處！全程在有冷氣的地下街採買，同時逛 [**東京菓子樂園 (東京おかしランド)**](https://www.google.com/maps/search/?api=1&query=35.6814,139.7672&query_place_id=ChIJtQ_H8j2LGGARLGVuLGZqEGk)（四大菓子廠限定品）與 GRANSTA 各式東京限定伴手禮。
+> * 目標地點：[**GRANSTA 東京 (グランスタ東京)**](https://www.google.com/maps/search/?api=1&query=35.6798702,139.7675145&query_place_id=ChIJoYwA2fuLGGARrTNyOELGyV8) (東京駅 B1F 改札內外)
+> * 雨天室內最佳去處！全程在有冷氣的地下街採買，同時逛 [**東京菓子樂園 (東京おかしランド)**](https://www.google.com/maps/search/?api=1&query=35.680931,139.7682387&query_place_id=ChIJESNWC_yLGGARctOSTpDcc8Q)（四大菓子廠限定品）與 GRANSTA 各式東京限定伴手禮。
 
 ### **11:00－11:20 🦴 參觀東京大學博物館 Intermediatheque（選配）**
 
-> * 目標地點：[**Intermediatheque (インターメディアテク)**](https://www.google.com/maps/search/?api=1&query=35.6795,139.7653&query_place_id=ChIJN-Z-ZJ2LGGAR79WbT64mJsk) (KITTE丸之內 2F 入口，展覽延伸至 3F)
+> * 目標地點：[**Intermediatheque (インターメディアテク)**](https://www.google.com/maps/search/?api=1&query=35.6800744,139.7646866&query_place_id=ChIJF5AiNPqLGGAR2igPgxC2_Kw) (KITTE丸之內 2F 入口，展覽延伸至 3F)
 > * 🚶‍♂️ **進入方式**：從 KITTE B1F 進館後，搭館內電梯或手扶梯至 **2F**，找 **「インターメディアテク／INTERMEDIATHEQUE」** 指標，入口在 2F（不是 6F）。入館免費，展覽橫跨 2F～3F。
 > * 免費入館！東京大學與日本郵便聯合運營的博物館，展示珍貴恐龍化石標本、百年學術典藏與標本奇珍，非常適合好奇心旺盛的孩子與長輩。
 > * 開放時間：11:00，請 11:00 準時入場。20 分鐘快速瀏覽重點展品即可。
@@ -805,7 +805,7 @@
 > * [**二木菓子 (二木の菓子 第一営業所)**](https://www.google.com/maps/search/?api=1&query=35.7083528,139.7744756&query_place_id=ChIJ8ez-kZ-OGGARyxJTsXAcAjk)：規模宏大的零食專賣店，種類極多且價格極具競爭力。可刷卡，可退稅。[介紹文1](https://bobbytravel.tw/niki-no-kashi/)、[介紹文2](https://yukigo.tw/nikinokashi/)、[日本必掃日本零食](https://bobbytravel.tw/japan-souvenir/#%E5%BF%85%E6%8E%83%E6%97%A5%E6%9C%AC%E9%9B%B6%E9%A3%9F%E3%80%81%E6%9E%9C%E5%87%8D%E3%80%81%E6%B3%A1%E9%BA%B5)  
 >   * ⭐⭐⭐ 必買：提拉米蘇巧克力、東京限定 KitKat、Royce 洋芋片巧克力、干貝糖、龍角散喉糖  
 >   * ⭐⭐ 很推薦：Calbee 薯條三兄弟、北海道起司米果、各式日本限定洋芋片、大包裝巧克力（分送同事 CP 值高）  
-> * [**OS Drug 藥妝店 (OSドラッグ 上野店)**](https://www.google.com/maps/search/?api=1&query=35.7108985,139.7748721&query_place_id=ChIJAQB_jZ-OGGARLPaThjF_JIQ) / [**松本清 (マツモトキヨシ 上野アメ横店)**](https://www.google.com/maps/search/?api=1&query=35.7099502,139.7747201&query_place_id=ChIJY-y5k5SOGGARxK308s2j1jM)：以現金交易為主的 OS Drug 是當地藥妝價格指標店。  
+> * [**OS Drug 藥妝店 (OSドラッグ 上野店)**](https://www.google.com/maps/search/?api=1&query=35.7108985,139.7748721&query_place_id=ChIJAQB_jZ-OGGARLPaThjF_JIQ) / [**松本清 (マツモトキヨシ 上野アメ横Part1店)**](https://www.google.com/maps/search/?api=1&query=35.7106717,139.7744501&query_place_id=ChIJJz9gCDKPGGAROxkLYxlbGYs)：以現金交易為主的 OS Drug 是當地藥妝價格指標店。  
 >   * TODO: 建議購買的項目  
 >   * [藥妝攻略1](https://bobbytravel.tw/japan-souvenir/)  
 > * 街邊美食：可品嚐章魚燒、鯛魚燒、烤干貝或新鮮水果串，體驗在地市集樂趣。  

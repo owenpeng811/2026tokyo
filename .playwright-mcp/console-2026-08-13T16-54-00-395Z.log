@@ -1,0 +1,6 @@
+[     436ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://maps-docs-team.web.app/favicon.ico:0
+[   10104ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace:0
+[   10539ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace:0
+[   10983ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace:0
+[   11421ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://places.googleapis.com/$rpc/google.maps.places.v1.Places/GetPlace:0
+[   13830ms] [VERBOSE] Rendering was performed in a subtree hidden by content-visibility. @ :3102

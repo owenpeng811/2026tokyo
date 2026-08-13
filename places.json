@@ -2,6 +2,58 @@
   "schema": 2,
   "note": "唯一真相來源。修改地點只改這裡，再執行 python3 sync_places.py --generate。nav_dict／text_entities／first_dest／html 四個欄位記錄該地點在各衍生檔中的鍵名。",
   "places": {
+    "GRANSTA 東京 (グランスタ東京)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6798702,139.7675145&query_place_id=ChIJoYwA2fuLGGARrTNyOELGyV8",
+      "nav_dict": [
+        "GRANSTA 東京",
+        "GRANSTA 東京 (グランスタ東京)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "GRANSTA 東京 (グランスタ東京)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "Intermediatheque (インターメディアテク)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6800744,139.7646866&query_place_id=ChIJF5AiNPqLGGAR2igPgxC2_Kw",
+      "nav_dict": [
+        "Intermediatheque",
+        "Intermediatheque (インターメディアテク)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "Intermediatheque (インターメディアテク)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "松本清 (マツモトキヨシ 上野アメ横Part1店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7106717,139.7744501&query_place_id=ChIJJz9gCDKPGGAROxkLYxlbGYs",
+      "nav_dict": [
+        "松本清 (マツモトキヨシ 上野アメ横Part1店)",
+        "松本清 上野アメ横Part1店"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "松本清 (マツモトキヨシ 上野アメ横Part1店)"
+      ],
+      "verified_at": "2026-08-14"
+    },
+    "東京菓子樂園 (東京おかしランド)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.680931,139.7682387&query_place_id=ChIJESNWC_yLGGARctOSTpDcc8Q",
+      "nav_dict": [
+        "東京菓子樂園",
+        "東京菓子樂園 (東京おかしランド)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "東京菓子樂園 (東京おかしランド)"
+      ],
+      "verified_at": "2026-08-14"
+    },
     "CoCo壹番屋 (CoCo壱番屋 JR秋葉原駅昭和通り口店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6984515,139.77577&query_place_id=ChIJSyxsj6iOGGARvBM2kRLvJZs",
       "nav_dict": [
