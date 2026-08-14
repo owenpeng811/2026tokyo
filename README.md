@@ -155,7 +155,7 @@
 
 #### 🚶 **Step 1：前往京急月台**
 * 辦好交通卡後，依照現場 **「Keikyu Line（京急線 - KK16）」** 指標前往剪票口：
-  * 於 [**京急 羽田機場第3航廈站 (羽田空港第3ターミナル駅)**](https://www.google.com/maps/search/?api=1&query=35.544843,139.768443&query_place_id=ChIJsXfyslZhGGARbL8nFGOsncU)（**KK16**） 地下 2 樓改札口感應刷卡進站。
+  * 於 [**京急 羽田機場第3航廈站 (羽田空港第3ターミナル駅)**](https://www.google.com/maps/search/?api=1&query=35.5446472,139.7677877&query_place_id=ChIJsXfyslZhGGARbL8nFGOsncU)（**KK16**） 地下 2 樓改札口感應刷卡進站。
   * 成人：3 位持成人實體 Suica 直接感應刷卡進站。
   * 小孩：2 位持兒童 Welcome Suica 直接感應刷卡進站。
   * **不用另外購買單程車票。**
@@ -165,7 +165,7 @@
 > ![羽田機場第3航廈站京急線改札口實景](./assets/images/haneda_t3_keikyu_gate.jpg)
 
 #### 🚆 **Step 2：搭乘京急直通都營淺草線（一車直達淺草橋）**
-* 於 [**京急 羽田機場第3航廈站 (羽田空港第3ターミナル駅)**](https://www.google.com/maps/search/?api=1&query=35.544843,139.768443&query_place_id=ChIJsXfyslZhGGARbL8nFGOsncU)（**KK16**） 搭乘 **🔴 京急機場線直通 🌹 都營淺草線（A）** 列車（紅色/玫瑰紅色列車，往 成田空港／青砥／押上 方向），一車直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程約 40-45 分鐘，免提大行李轉乘）。
+* 於 [**京急 羽田機場第3航廈站 (羽田空港第3ターミナル駅)**](https://www.google.com/maps/search/?api=1&query=35.5446472,139.7677877&query_place_id=ChIJsXfyslZhGGARbL8nFGOsncU)（**KK16**） 搭乘 **🔴 京急機場線直通 🌹 都營淺草線（A）** 列車（紅色/玫瑰紅色列車，往 成田空港／青砥／押上 方向），一車直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程約 40-45 分鐘，免提大行李轉乘）。
 * 💡 **最簡單判斷法（上車防搭錯）**：
   * ✅ **月台電子看板有「浅草橋（Asakusabashi）」停靠站即可上車**！不需要刻意分辨普通、急行、特急或快特，只要顯示停靠「浅草橋」即為直達車。
   * 若不確定可詢問月台站務人員：`Does this train stop at Asakusabashi? / この電車は浅草橋に停まりますか？`
@@ -305,7 +305,7 @@
 > * 於秋葉原站 **不用出站**，跟隨指標下樓至月台：
 >   * ⚠️ **月台方向確認**：請認明月台指標目的地方向為「**上野 (Ueno) ／ 池袋 (Ikebukuro) ／ 大宮 (Omiya)**」，看到這三個站名即代表方向正確；**若看到「東京 (Tokyo) ／ 品川 (Shinagawa)」請切勿搭乘，那是反方向**。
 > * 搭乘 **JR 山手線 (綠色列車)** 或 **JR 京濱東北線 (水藍色列車)** 1 站直達 [**御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（車程約 2 分鐘）。
-> * 🚶‍♂️ **出站動線**：於 **「御徒町站北口（North Exit）」** 出站，過馬路即直接抵達百貨公司 [**松坂屋 (松坂屋 上野店)**](https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o) 與 [**PARCO_ya (PARCO_ya 上野)**](https://www.google.com/maps/search/?api=1&query=35.7068605,139.7733596&query_place_id=ChIJYw_RZZyOGGARkQYqM_0g4r8)。
+> * 🚶‍♂️ **出站動線**：於 **「御徒町站北口（North Exit）」** 出站，過馬路即直接抵達百貨公司 [**松坂屋 (松坂屋 上野店)**](https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o) 與 [**PARCO_ya (PARCO_ya 上野)**](https://www.google.com/maps/search/?api=1&query=35.7070100,139.7734500&query_place_id=ChIJh7iJ_R-MGGARk32pRTmYtIM)。
 
 ---
 
@@ -314,8 +314,8 @@
 #### **09:20－10:20 🌿 晨間不忍池與清水觀音堂散步**
 
 > * 趁著早晨陽光尚未炙熱，散步前往鄰近的不忍池與清水觀音堂：  
->   * [**不忍池 (不忍池 弁天堂)**](https://www.google.com/maps/search/?api=1&query=35.7122453,139.7709849&query_place_id=ChIJz-n2a5yOGGARkO91888iW-Q)：欣賞夏日滿池盛開的荷花與湖中弁天堂，步道平緩好走，晨風涼爽宜人。  
->   * [**清水觀音堂 (清水観音堂)**](https://www.google.com/maps/search/?api=1&query=35.7126261,139.7735391&query_place_id=ChIJqZzHZZyOGGARkQYqM_0g4r8)：仿京都清水寺的紅色舞台建築，於樹蔭高台俯瞰不忍池與著名的「月之松」。  
+>   * [**不忍池 (不忍池 弁天堂)**](https://www.google.com/maps/search/?api=1&query=35.7121418,139.7710956&query_place_id=ChIJd9rFFieMGGAR0zV_avi5q-8)：欣賞夏日滿池盛開的荷花與湖中弁天堂，步道平緩好走，晨風涼爽宜人。  
+>   * [**清水觀音堂 (清水観音堂)**](https://www.google.com/maps/search/?api=1&query=35.7126261,139.7735665&query_place_id=ChIJ9Rg_5Z2OGGAR40HN7lsM5_U)：仿京都清水寺的紅色舞台建築，於樹蔭高台俯瞰不忍池與著名的「月之松」。  
 >   * 🍪 **順路名產**：回程順道步行至 [**兔屋 (うさぎや)**](https://www.google.com/maps/search/?api=1&query=35.7061495,139.7718239&query_place_id=ChIJ2zdQ8x-MGGARevmtQEbnfWo) 購買全東京排名前三的現做百年熱騰騰銅鑼燒，帶至咖啡廳享用。
 
 #### **10:20－11:30 ☕ 室內基地營避暑**
@@ -368,7 +368,7 @@
 > * 參觀完美術館後，陽光已大幅減弱，於周邊林蔭漫步：  
 >   * **西洋美術館戶外庭園**：免費近距離欣賞羅丹世界名作「地獄之門」與「沉思者」青銅雕塑。  
 >   * [**東京文化會館 (東京文化会館)**](https://www.google.com/maps/search/?api=1&query=35.7144707,139.7751315&query_place_id=ChIJRRISsp2OGGARTNMhXv2t-BQ)：欣賞經典現代主義音樂廳建築。  
->   * [**上野公園大噴水廣場 (上野恩賜公園 大噴水)**](https://www.google.com/maps/search/?api=1&query=35.7147557,139.7745778&query_place_id=ChIJw2qQRZuOGGARWmROEiM2y7E)：於綠蔭長椅上坐著吹微風、看噴泉放鬆。  
+>   * [**上野公園大噴水廣場 (上野恩賜公園 大噴水)**](https://www.google.com/maps/search/?api=1&query=35.7147557,139.7734312&query_place_id=ChIJw2qQRZuOGGARWmROEiM2y7E)：於綠蔭長椅上坐著吹微風、看噴泉放鬆。  
 > * 傍晚漫步走向阿美橫丁／晚餐地點。
 
 ---
@@ -494,7 +494,7 @@
 >   * ⏱️ **轉乘時間**：熟悉者約 4 分半，**首次前往建議抓 5～7 分鐘**；本行程已預留 10 分鐘，從容不趕。
 >   * 💡 **省力小技巧**：日比谷線乘車時盡量坐在**第 7 節車廂靠第 4 個車門**附近，下車即鄰近轉乘用的手扶梯與階梯。
 > * **07:42－07:54 京葉線直達**：於 **JR 八丁堀站（JE02）** 搭乘 **🔴 JR 京葉線（JE）** 往 **舞濱（Maihama／JE07）／蘇我（Soga／JE18） 方向**，搭乘 **5 站** 直達 [**舞濱站 (舞浜駅)**](https://www.google.com/maps/search/?api=1&query=35.6361543,139.8838749&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**JE07**）（車程約 12 分鐘）。
-> * **07:54－08:00 抵達出站**：於 **舞濱站（JE07）** 由 **「南口（South Exit）」** 出站（設有無障礙斜坡與手扶梯），順著右前方行人專用天橋步行約 5 分鐘，**預定 08:00 抵達 [東京迪士尼樂園 (東京ディズニーランド)](https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJcRLMWRd9GGAR53hJkYCYyxw) 正門排隊區**。
+> * **07:54－08:00 抵達出站**：於 **舞濱站（JE07）** 由 **「南口（South Exit）」** 出站（設有無障礙斜坡與手扶梯），順著右前方行人專用天橋步行約 5 分鐘，**預定 08:00 抵達 [東京迪士尼樂園 (東京ディズニーランド)](https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ) 正門排隊區**。
 
 ### **08:00－09:00 🏰 抵達樂園門口排隊與入園**
 
@@ -540,7 +540,7 @@
 > * 🟢 **特點**：全室內劇場演出，雨天亦非常適合。  
 > * 💡 **策略**：抽到合理時段建議前往欣賞；若時段會嚴重破壞主要遊玩節奏則果斷放棄。
 
-#### **17:00 🌈 [日間遊行「迪士尼眾彩交融」 (ディズニー・ハーモニー・イン・カラー)](https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJcRLMWRd9GGAR53hJkYCYyxw)｜OPTION**
+#### **17:00 🌈 [日間遊行「迪士尼眾彩交融」 (ディズニー・ハーモニー・イン・カラー)](https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ)｜OPTION**
 > * 🟡 **定位**：有空且晴天才看，不是固定必看項目；**雨天優先放棄**。  
 > * ❌ **不提前長時間卡位**：若當時正在攻略重點設施、剛取得關鍵 PP，或認為與夜間電子大遊行重複性較高，**直接放棄、繼續玩設施**。
 
@@ -566,7 +566,7 @@
 ### **18:15－18:30 💡 夜間遊行「夢之光」免費卡位**
 
 > * 🔴 **本日固定節點**（19:45 開演，不購買 DPA，策略為「**免費＋合理視野＋最大化遊樂時間**」）。  
-> * 🪑 約 **18:15～18:30** 開始尋找位置，優先考慮 [**灰姑娘城堡 (シンデレラ城)**](https://www.google.com/maps/search/?api=1&query=35.6321136,139.8808623&query_place_id=ChIJddVMuXN9GGARaS2CaOt1GUY) 前 [**城堡前廣場 (プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJcRLMWRd9GGAR53hJkYCYyxw)（圓環 Plaza）附近。  
+> * 🪑 約 **18:15～18:30** 開始尋找位置，優先考慮 [**灰姑娘城堡 (シンデレラ城)**](https://www.google.com/maps/search/?api=1&query=35.6321136,139.8808623&query_place_id=ChIJddVMuXN9GGARaS2CaOt1GUY) 前 [**城堡前廣場 (プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ)（圓環 Plaza）附近。  
 > * ❌ **不追求最前排神位**：不從 17:00 前提早卡位，以合理視野換取下午多玩 1～2 小時遊樂時間。  
 > * 🌧️ **雨天不提前卡位**：下雨天視現場狀況彈性決定。
 
@@ -578,7 +578,7 @@
 ### **20:30左右 ✨ 前往 Reach for the Stars 免費鑑賞區**
 
 > * 電子大遊行結束後直接移動。  
-> * 📍 **位置選擇**：優先尋找 [**夥伴雕像 (パートナーズ像)**](https://www.google.com/maps/search/?api=1&query=35.633055,139.880416)（沃爾特・迪士尼與米奇銅像）附近，次選 [**城堡前廣場 (プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJcRLMWRd9GGAR53hJkYCYyxw) 中後方。  
+> * 📍 **位置選擇**：優先尋找 [**夥伴雕像 (パートナーズ像)**](https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ)（沃爾特・迪士尼與米奇銅像）附近，次選 [**城堡前廣場 (プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ) 中後方。  
 > * 🎯 接受免費區合理視野，用「不追求第一排」換取整天多玩的設施時間（🌧️ 雨天不提前卡位）。
 
 ### **20:55 ✨ 城堡投影秀 Reach for the Stars: Everlasting Dreams**
@@ -588,7 +588,7 @@
 
 ### **21:20－21:50 🛍️ 世界市集紀念品採買與出園**
 
-> * 於 [**世界市集 (ワールドバザール)**](https://www.google.com/maps/search/?api=1&query=35.6335001,139.8795001&query_place_id=ChIJe-a0-daOGGAR0vL55w7G8pR) 購買紀念品與伴手禮，約 21:50 離開樂園前往東巴士總站 1 號站牌。
+> * 於 [**世界市集 (ワールドバザール)**](https://www.google.com/maps/search/?api=1&query=35.6342994,139.8795646&query_place_id=ChIJ6QHIuhZ9GGARYwf8I_89e4Y) 購買紀念品與伴手禮，約 21:50 離開樂園前往東巴士總站 1 號站牌。
 
 ---
 
@@ -602,9 +602,9 @@
 | **17:00** | 🌈 Harmony in Color 日間遊行 | 🟡 OPTION | 晴天且有空才看，雨天優先放棄，不提前卡位 |
 | **17:30～18:30** | 🍔 晚餐窗口 | 🟡 固定窗口 | 快速補充體力，Mobile Order ／ 行動餐車簡餐 |
 | **18:00** | 💃 跳跳熱舞 (Jamboree Mickey) | 🟡 OPTION | Entry Request 僅優先考慮 18:00 場次 |
-| **18:15～18:30** | 💡 夜間遊行「夢之光」卡位 | 🔴 **固定節點** | 城堡前 [**城堡前廣場 (プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJcRLMWRd9GGAR53hJkYCYyxw) 附近免費區，接受合理視野 |
+| **18:15～18:30** | 💡 夜間遊行「夢之光」卡位 | 🔴 **固定節點** | 城堡前 [**城堡前廣場 (プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ) 附近免費區，接受合理視野 |
 | **19:45～20:30** | 💡 電子大遊行「夢之光」 | 🔴 **核心必看** | 全長約 45 分鐘，不買 DPA，坐著放鬆雙腿 |
-| **20:30左右** | ✨ 前往 Reach 免費區 | 🔴 **固定節點** | 移動至 [**夥伴雕像 (パートナーズ像)**](https://www.google.com/maps/search/?api=1&query=35.633055,139.880416) 或 Plaza 中後方 |
+| **20:30左右** | ✨ 前往 Reach 免費區 | 🔴 **固定節點** | 移動至 [**夥伴雕像 (パートナーズ像)**](https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ) 或 Plaza 中後方 |
 | **20:55～** | ✨ 城堡投影秀 Reach for the Stars | 🔴 **核心必看** | Everlasting Dreams 夏季特別版，免費區欣賞 |
 | **21:00～21:50** | 🚪 世界市集採買與離園 | 🔴 **固定節點** | 世界市集補貨後前往巴士總站搭車返回飯店 |
 
@@ -617,7 +617,7 @@
 
 ### **21:50－22:45 🚌🚆 返回淺草橋**
 
-> * 目標地點：[**秋葉原站東口 (秋葉原駅東口交通広場)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7741315&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)
+> * 目標地點：[**秋葉原站東口 (秋葉原駅東口交通広場)**](https://www.google.com/maps/search/?api=1&query=35.6987386,139.7726645&query_place_id=ChIJy09DJACNGGARbMLEHxY_6MA)
 > * ✅ **Plan A（首選：直達高速巴士，免轉乘一路睡回秋葉原）**：
 >   * **乘車地點**：出園剪票口後往右前方步行約 2 分鐘，至迪士尼樂園正門外「東巴士總站東面（Bus Terminal East）」[**東京迪士尼樂園東巴士總站 1 號站牌 (東京ディズニーランド・バスターミナル・イースト 1番のりば)**](https://www.google.com/maps/search/?api=1&query=35.6364946,139.8807661&query_place_id=ChIJ3w8y8xN9GGARe5_gvaoDCMo)（[短網址備用導航 🔗](https://maps.app.goo.gl/EkzBtj7Q6RDJCh2C6)；地面與立柱有明顯標示「1番：秋葉原駅行」）。  
     ![東京迪士尼樂園東巴士總站 1 號公車站牌](https://secure.j-bus.co.jp/busrepo/wp-content/uploads/2025/06/IMG20250513080949-1024x768.jpg)
@@ -636,7 +636,7 @@
 <details>
 <summary>🚆 Plan B 備案：電車轉乘路線（若巴士滿載或班次無法配合）（點擊展開）</summary>
 
-> 1. 於 [**JR 舞濱站 (舞浜駅)**](https://www.google.com/maps/search/?api=1&query=35.6361543,139.8838749&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**JE07**） 南口進站，搭乘 **🔴 JR 京葉線（JE）** 往 **東京（Tokyo／JE01） 方向**（2 號月台），搭乘 **5 站** 至 [**八丁堀站 (八丁堀駅)**](https://www.google.com/maps/search/?api=1&query=35.674998,139.777402&query_place_id=ChIJO1wpfl6JGGARjNtDmO2lRrI)（**JE02**）（車程約 12 分鐘）。  
+> 1. 於 [**JR 舞濱站 (舞浜駅)**](https://www.google.com/maps/search/?api=1&query=35.6361543,139.8838749&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**JE07**） 南口進站，搭乘 **🔴 JR 京葉線（JE）** 往 **東京（Tokyo／JE01） 方向**（2 號月台），搭乘 **5 站** 至 [**八丁堀站 (八丁堀駅)**](https://www.google.com/maps/search/?api=1&query=35.6746248,139.7768846&query_place_id=ChIJO1wpfl6JGGARjNtDmO2lRrI)（**JE02**）（車程約 12 分鐘）。  
 > 2. 經地下連通道轉乘 **⚪ 東京 Metro 日比谷線（H） 八丁堀站（H12）**，於 2 號月台搭乘往 **北千住（Kita-senju／H22） 方向** 列車，搭乘 **4 站** 至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（**H16**）（車程約 8 分鐘）。  
 > 3. 抵達秋葉原站後，轉乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **1 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）返抵飯店休息。  
 </details>
@@ -698,7 +698,7 @@
 > * 🚶‍♂️ **移動動線**：
 >   1. 從東京菓子樂園沿 B1F 往 **「丸の内方面」「丸の内地下南口」** 指標步行約 5 分鐘。
 >   2. 看到 **「KITTE」** 指標或玻璃門入口即可進入，**無需過 JR 剪票口**。
->   3. 進入 [**KITTE丸之內 (KITTE丸の内)**](https://www.google.com/maps/search/?api=1&query=35.6795336,139.7654445&query_place_id=ChIJtZRvRvqLGGARdS57rQP2NEk) B1F 後，搭館內電梯或中庭手扶梯上至 6F。
+>   3. 進入 [**KITTE丸之內 (KITTE丸の内)**](https://www.google.com/maps/search/?api=1&query=35.6797983,139.7648650&query_place_id=ChIJdUbpSvqLGGARCmbc6R7hZJ8) B1F 後，搭館內電梯或中庭手扶梯上至 6F。
 
 ### **11:00－11:20 🌇 KITTE頂樓花園眺望東京車站**
 
@@ -815,7 +815,7 @@
 > * 街邊美食：可品嚐章魚燒、鯛魚燒、烤干貝或新鮮水果串，體驗在地市集樂趣。  
 >   * [**肉之大山 (肉の大山 上野店)**](https://www.google.com/maps/search/?api=1&query=35.7103925,139.7752423&query_place_id=ChIJsfxOVJ6OGGARYR08nkWSLdY)：和牛炸肉餅、可樂餅  
 >   * [**みなとや食品 (みなとや食品 本店)**](https://www.google.com/maps/search/?api=1&query=35.7083669,139.7746294&query_place_id=ChIJbfIujp-OGGARQpzhp7F2ocY) (大章魚燒/海鮮丼)  
-> * [**多慶屋 (多慶屋 TAKEYA1)**](https://www.google.com/maps/search/?api=1&query=35.7068257,139.7770977&query_place_id=ChIJi8e8_JuOGGAR5e4o-gq0F88) (備案)：知名的紫色大樓綜合商場，若在阿美橫丁沒買齊生活用品可來此補貨。
+> * [**多慶屋 (多慶屋 TAKEYA1)**](https://www.google.com/maps/search/?api=1&query=35.7068257,139.7768298&query_place_id=ChIJrdKWej2PGGARePk-9rp1pos) (備案)：知名的紫色大樓綜合商場，若在阿美橫丁沒買齊生活用品可來此補貨。
 
 ### **19:00 🚆 前往御徒町站搭車**
 
@@ -904,7 +904,7 @@
 
 > * **第一段（回程接駁巴士至三鷹站）**：離開美術館後，直接至門口正前方公車站牌等候。此處等候的接駁巴士外觀與去程完全相同（亮黃色彩繪巴士），100% 都是開往三鷹站，完全不用看路線，閉著眼睛上車即可（車程約 5 分鐘，後門上車嗶 Suica ➔ 前門下車嗶 Suica，車停妥再起立）。  
 >   ![吉卜力美術館門口公車站與停靠的黃色接駁巴士](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiAttfDAWdlM8iGidz7jGYR6LZIA4_HEH_j-1-yOb1LLEfh2KyVo9hSjtR&s=10)
-> * **第二段（轉乘 JR 至吉祥寺站）**：抵達三鷹站南口後搭電梯/手扶梯上樓刷 Suica 進站。於 [**JR 三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.7027156,139.5610291&query_place_id=ChIJQ6xBTbDvGGARWjMM50vhcgE)（**JC12 / JB01**） 搭乘 **🟠 JR 中央線快速（JC）** 或 **🟡 JR 中央・總武線（JB）** 往 **新宿（JC05）／東京（JC01） 方向**，僅搭 **1 站**（車程約 2 分鐘）即達 [**吉祥寺站 (吉祥寺駅)**](https://www.google.com/maps/search/?api=1&query=35.7031125,139.5797825&query_place_id=ChIJe0e8kkfuGGARvH2cE14g_0I)（**JC11 / JB02**）（**請由「北口（North Exit）」出站**，大戶屋、哈莫尼卡橫丁、Sunroad 商店街與 Coppice 全在北口側，全程零折返）。
+> * **第二段（轉乘 JR 至吉祥寺站）**：抵達三鷹站南口後搭電梯/手扶梯上樓刷 Suica 進站。於 [**JR 三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.7027156,139.5610291&query_place_id=ChIJQ6xBTbDvGGARWjMM50vhcgE)（**JC12 / JB01**） 搭乘 **🟠 JR 中央線快速（JC）** 或 **🟡 JR 中央・總武線（JB）** 往 **新宿（JC05）／東京（JC01） 方向**，僅搭 **1 站**（車程約 2 分鐘）即達 [**吉祥寺站 (吉祥寺駅)**](https://www.google.com/maps/search/?api=1&query=35.7031125,139.5801608&query_place_id=ChIJCalq8UfuGGARr6-Rc3R6atQ)（**JC11 / JB02**）（**請由「北口（North Exit）」出站**，大戶屋、哈莫尼卡橫丁、Sunroad 商店街與 Coppice 全在北口側，全程零折返）。
 > * **移動優勢**：門口直接原線接駁車上車，完全不需要在路口判斷一般公車路線，對新手與家庭來說最簡單直覺且全冷氣。
 
 ### **13:00－14:10 🍽️ 午餐：大戶屋**
@@ -931,25 +931,25 @@
 
 ### **14:10－14:40 🏮 逛哈莫尼卡橫丁**
 
-> * 目標地點：[**哈莫尼卡橫丁 (ハーモニカ横丁)**](https://www.google.com/maps/search/?api=1&query=%E3%83%8F%E3%83%BC%E3%83%A2%E3%83%8B%E3%82%AB%E6%A8%AA%E4%B8%81)（吉祥寺站北口前，步行約 2 分鐘）
+> * 目標地點：[**哈莫尼卡橫丁 (ハーモニカ横丁)**](https://www.google.com/maps/search/?api=1&query=35.7035959,139.5790815&query_place_id=ChIJZXco9RXvGGARYzRNqY-U-o8)（吉祥寺站北口前，步行約 2 分鐘）
 > * 吉祥寺北口前的昭和風小巷，約有 100 間小店，適合體驗與一般商店街不同的老東京氛圍。
-> * 🍡 [**天音 (有職たい菓子本舗 天音)**](https://www.google.com/maps/search/?api=1&query=%E6%9C%89%E8%81%B7%E3%81%9F%E3%81%84%E8%8F%93%E5%AD%90%E6%9C%AC%E8%88%97%20%E5%A4%A9%E9%9F%B3%20%E5%90%89%E7%A5%A5%E5%AF%BA)（橫丁內）：推薦購買 **羽根付きたい焼き（帶脆皮羽根的鯛魚燒）**，粒餡口味每個約 ¥220；也可視情況選擇糰子等和菓子。建議少量分食，避免影響後面的牛肉丸。
-> * 🍘 [**小ざさ (小ざさ 吉祥寺本店)**](https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E3%81%96%E3%81%95%20%E5%90%89%E7%A5%A5%E5%AF%BA%E6%9C%AC%E7%94%BA1-1-8)（ダイヤ街，橫丁旁步行約 1 分鐘）：1951 年創業的吉祥寺老字號和菓子店，以 **最中（もなか）** 聞名；羊羹需清晨排隊領整理券，本行程不以購買羊羹為目標，直接購買最中即可。
+> * 🍡 [**天音 (有職たい菓子本舗 天音)**](https://www.google.com/maps/search/?api=1&query=35.7038412,139.5792430&query_place_id=ChIJc5dW5kfuGGARQId7I7u99hc)（橫丁內）：推薦購買 **羽根付きたい焼き（帶脆皮羽根的鯛魚燒）**，粒餡口味每個約 ¥220；也可視情況選擇糰子等和菓子。建議少量分食，避免影響後面的牛肉丸。
+> * 🍘 [**小ざさ (小ざさ 吉祥寺本店)**](https://www.google.com/maps/search/?api=1&query=35.7039775,139.5791044&query_place_id=ChIJJzDG3kfuGGARele8Ej0Qwtc)（ダイヤ街，橫丁旁步行約 1 分鐘）：1951 年創業的吉祥寺老字號和菓子店，以 **最中（もなか）** 聞名；羊羹需清晨排隊領整理券，本行程不以購買羊羹為目標，直接購買最中即可。
 > * 📌 規則：**天音、小ざさ以「看到就買」為原則，不為排隊久等而打亂後續行程。**
 
 > ⚠️ **營業提醒**：天音 11:00 開賣、**售完即打烊**（不定休）；小ざさ 10:00－19:30、週二公休。**8/23 為週日，兩家皆正常營業。**
 
 ### **14:40－15:15 🛍️ 逛平價雜貨與角色小物店**
 
-> * 目標地點：[**THANK YOU MART (サンキューマート コピス吉祥寺店)**](https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%83%B3%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%88%20%E3%82%B3%E3%83%94%E3%82%B9%E5%90%89%E7%A5%A5%E5%AF%BA%E5%BA%97)（コピス吉祥寺 A 館 2F）
-> * 🧴 **14:40－14:55 選配**：[**Dream Market (ドリームマーケット 吉祥寺店)**](https://www.google.com/maps/search/?api=1&query=%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88%20%E5%90%89%E7%A5%A5%E5%AF%BA%E5%BA%97)（位於 [**吉祥寺 Sunroad 商店街 (吉祥寺サンロード商店街)**](https://www.google.com/maps/search/?api=1&query=35.7050504,139.580504&query_place_id=ChIJ8W2Ms0fuGGAR5CNgR7olN8g) 內，前往 Coppice 順路經過）
+> * 目標地點：[**THANK YOU MART (サンキューマート コピス吉祥寺店)**](https://www.google.com/maps/search/?api=1&query=35.7049401,139.5791020&query_place_id=ChIJl0FxI9jvGGARvamO7ToYYMM)（コピス吉祥寺 A 館 2F）
+> * 🧴 **14:40－14:55 選配**：[**Dream Market (ドリームマーケット 吉祥寺店)**](https://www.google.com/maps/search/?api=1&query=35.7044147,139.5800730&query_place_id=ChIJcyJKMq3vGGAR5jSfQieBwN8)（位於 [**吉祥寺 Sunroad 商店街 (吉祥寺サンロード商店街)**](https://www.google.com/maps/search/?api=1&query=35.7038362,139.5798441&query_place_id=ChIJ8VJw6UfuGGARipDI2iZLP9o) 內，前往 Coppice 順路經過）
 >   * 便宜挖寶型商店，可尋找化妝品、日用品、零食及各種特價商品。
 >   * 定位為「看看有沒有值得買的便宜商品」，不設定購物目標；有興趣再進去即可。
-> * 🛍️ **14:55－15:15**：[**THANK YOU MART (サンキューマート コピス吉祥寺店)**](https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%83%B3%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%88%20%E3%82%B3%E3%83%94%E3%82%B9%E5%90%89%E7%A5%A5%E5%AF%BA%E5%BA%97)（コピス吉祥寺 A 館 2F）
+> * 🛍️ **14:55－15:15**：[**THANK YOU MART (サンキューマート コピス吉祥寺店)**](https://www.google.com/maps/search/?api=1&query=35.7049401,139.5791020&query_place_id=ChIJl0FxI9jvGGARvamO7ToYYMM)（コピス吉祥寺 A 館 2F）
 >   * 以平價角色商品、流行雜貨、文具及小物為主。
 >   * 比 KIDDY LAND 更符合本行程的「**便宜、特色、台灣較少見**」原則，適合大人、小孩各自尋找喜歡的小物。
 >   * 建議停留約 **15～20 分鐘**，不用逐項仔細挑選。
-> * 🎰 **選配**：[**gashacoco (gashacoco 吉祥寺元町通り)**](https://www.google.com/maps/search/?api=1&query=gashacoco%20%E5%90%89%E7%A5%A5%E5%AF%BA%E5%85%83%E7%94%BA%E9%80%9A%E3%82%8A)（吉祥寺パレスビル 1F）
+> * 🎰 **選配**：[**gashacoco (gashacoco 吉祥寺元町通り)**](https://www.google.com/maps/search/?api=1&query=35.7043122,139.5794762&query_place_id=ChIJK_uU_bfvGGARHQdBOz663BY)（吉祥寺パレスビル 1F）
 >   * 扭蛋專門店，機台約 650 台以上；如果小孩對扭蛋有興趣，可利用經過附近的時間進去逛 **10～15 分鐘**。
 >   * Day 1 秋葉原已安排扭蛋，因此本店不列為必要行程；**小孩有興趣才去**。
 
@@ -967,25 +967,25 @@
 
 ### **15:40－16:30 🛍️ 自由活動與休息**
 
-> * 目標地點：[**吉祥寺 Sunroad 商店街 (吉祥寺サンロード商店街)**](https://www.google.com/maps/search/?api=1&query=35.7050504,139.580504&query_place_id=ChIJ8W2Ms0fuGGAR5CNgR7olN8g)（全程有頂棚遮陽避雨）
+> * 目標地點：[**吉祥寺 Sunroad 商店街 (吉祥寺サンロード商店街)**](https://www.google.com/maps/search/?api=1&query=35.7038362,139.5798441&query_place_id=ChIJ8VJw6UfuGGARipDI2iZLP9o)（全程有頂棚遮陽避雨）
 > * 不再安排固定景點，讓大家依興趣分流，避免連續逛街造成長輩疲勞。
 > * **16:30 左右於 Sunroad 商店街集合**，保留時間前往晚餐；如果大家已經疲累，可以提早結束商圈行程。
 
 <details>
 <summary>🛍️ 查看自由活動分流建議（點擊展開）</summary>
 
-> * 🛍️ [**大創 (DAISO 吉祥寺サンロード店)**](https://www.google.com/maps/search/?api=1&query=35.7050504,139.580504&query_place_id=ChIJ8W2Ms0fuGGAR5CNgR7olN8g)｜**優先推薦**
+> * 🛍️ [**大創 (DAISO 吉祥寺サンロード店)**](https://www.google.com/maps/search/?api=1&query=35.7038362,139.5798441&query_place_id=ChIJ8VJw6UfuGGARipDI2iZLP9o)｜**優先推薦**
 >   * 適合全家一起挖寶，鎖定日本較少見的和風小物、文具、廚房用品、旅行用品及生活創意商品。
 >   * 單價低，小孩也可以自己挑選一樣小物；**比單純逛一般藥妝更有「日本挖寶」的樂趣。**
 > * ✏️ [**Loft (吉祥寺ロフト)**](https://www.google.com/maps/search/?api=1&query=35.705206,139.5788868&query_place_id=ChIJ80-AKEbuGGARmN-6SihPfpU)｜**喜歡文具者推薦**
 >   * 重點看日本限定色、期間限定商品、特色文具、貼紙及設計雜貨，不需要逐層慢慢逛。
 > * 🏠 [**無印良品 (無印良品 コピス吉祥寺)**](https://www.google.com/maps/search/?api=1&query=35.7049541,139.5795709&query_place_id=ChIJB0eQ1EfuGGARaKthmgoKqwU)（コピス吉祥寺 B1F）｜**路過順便逛**
 >   * 鎖定 **¥500 左右的文具、小型收納、旅行用品及日本食品**；不需要特別安排大量購物時間。
-> * 🧴 [**Dream Market (ドリームマーケット 吉祥寺店)**](https://www.google.com/maps/search/?api=1&query=%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88%20%E5%90%89%E7%A5%A5%E5%AF%BA%E5%BA%97)｜**若前面跳過，可在此時補逛**
+> * 🧴 [**Dream Market (ドリームマーケット 吉祥寺店)**](https://www.google.com/maps/search/?api=1&query=35.7044147,139.5800730&query_place_id=ChIJcyJKMq3vGGAR5jSfQieBwN8)｜**若前面跳過，可在此時補逛**
 >   * 想找低價化妝品、日用品、零食及折扣商品時再去。
 > * 👴👵 **長輩**：若已經逛累，可直接找咖啡店休息，不需要陪同逛街。
-> * 👧👦 **小孩**：可選擇 [**THANK YOU MART (サンキューマート コピス吉祥寺店)**](https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%83%B3%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%88%20%E3%82%B3%E3%83%94%E3%82%B9%E5%90%89%E7%A5%A5%E5%AF%BA%E5%BA%97)、[**大創 (DAISO 吉祥寺サンロード店)**](https://www.google.com/maps/search/?api=1&query=35.7050504,139.580504&query_place_id=ChIJ8W2Ms0fuGGAR5CNgR7olN8g)，或視興趣前往 [**gashacoco (gashacoco 吉祥寺元町通り)**](https://www.google.com/maps/search/?api=1&query=gashacoco%20%E5%90%89%E7%A5%A5%E5%AF%BA%E5%85%83%E7%94%BA%E9%80%9A%E3%82%8A)（選配）。
-> * 👨 **大人**：可自由選擇 [**Loft (吉祥寺ロフト)**](https://www.google.com/maps/search/?api=1&query=35.705206,139.5788868&query_place_id=ChIJ80-AKEbuGGARmN-6SihPfpU)、[**大創 (DAISO 吉祥寺サンロード店)**](https://www.google.com/maps/search/?api=1&query=35.7050504,139.580504&query_place_id=ChIJ8W2Ms0fuGGAR5CNgR7olN8g)、[**無印良品 (無印良品 コピス吉祥寺)**](https://www.google.com/maps/search/?api=1&query=35.7049541,139.5795709&query_place_id=ChIJB0eQ1EfuGGARaKthmgoKqwU) 等店家。
+> * 👧👦 **小孩**：可選擇 [**THANK YOU MART (サンキューマート コピス吉祥寺店)**](https://www.google.com/maps/search/?api=1&query=35.7049401,139.5791020&query_place_id=ChIJl0FxI9jvGGARvamO7ToYYMM)、[**大創 (DAISO 吉祥寺サンロード店)**](https://www.google.com/maps/search/?api=1&query=35.7038362,139.5798441&query_place_id=ChIJ8VJw6UfuGGARipDI2iZLP9o)，或視興趣前往 [**gashacoco (gashacoco 吉祥寺元町通り)**](https://www.google.com/maps/search/?api=1&query=35.7043122,139.5794762&query_place_id=ChIJK_uU_bfvGGARHQdBOz663BY)（選配）。
+> * 👨 **大人**：可自由選擇 [**Loft (吉祥寺ロフト)**](https://www.google.com/maps/search/?api=1&query=35.705206,139.5788868&query_place_id=ChIJ80-AKEbuGGARmN-6SihPfpU)、[**大創 (DAISO 吉祥寺サンロード店)**](https://www.google.com/maps/search/?api=1&query=35.7038362,139.5798441&query_place_id=ChIJ8VJw6UfuGGARipDI2iZLP9o)、[**無印良品 (無印良品 コピス吉祥寺)**](https://www.google.com/maps/search/?api=1&query=35.7049541,139.5795709&query_place_id=ChIJB0eQ1EfuGGARaKthmgoKqwU) 等店家。
 </details>
 
 ### **17:00－18:30 🍽️ 晚餐：串家物語**
@@ -1008,10 +1008,10 @@
 
 > * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA)
 > * 🚆 **首選推薦（平行轉乘快速方案，約 28 分鐘）**：
->   * 於 [**JR 吉祥寺站 (吉祥寺駅)**](https://www.google.com/maps/search/?api=1&query=35.7031125,139.5797825&query_place_id=ChIJe0e8kkfuGGARvH2cE14g_0I)（**JC11**） 搭乘 **🟠 JR 中央線快速（JC）** 往 **東京（Tokyo／JC01） 方向**，搭乘 **5 站**（快速停靠：荻窪、中野、新宿、四谷、御茶之水）至 御茶之水站（JC03）（車程約 21 分鐘）。
+>   * 於 [**JR 吉祥寺站 (吉祥寺駅)**](https://www.google.com/maps/search/?api=1&query=35.7031125,139.5801608&query_place_id=ChIJCalq8UfuGGARr6-Rc3R6atQ)（**JC11**） 搭乘 **🟠 JR 中央線快速（JC）** 往 **東京（Tokyo／JC01） 方向**，搭乘 **5 站**（快速停靠：荻窪、中野、新宿、四谷、御茶之水）至 御茶之水站（JC03）（車程約 21 分鐘）。
 >   * 於 **御茶之水站（JB18）** **不用出站**，於同月台對面直接平行轉乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **2 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）（車程約 4 分鐘）。由 東口 出站步行約 2 分鐘回飯店。
 > * 🚆 **備案（各站停車直達免換車方案，約 45 分鐘）**：
->   * 於 [**JR 吉祥寺站 (吉祥寺駅)**](https://www.google.com/maps/search/?api=1&query=35.7031125,139.5797825&query_place_id=ChIJe0e8kkfuGGARvH2cE14g_0I)（**JB02**） 直接搭乘 **🟡 JR 中央・總武線（JB）** 各站停車往 **千葉（Chiba／JB39） 方向** 列車，一車直達 **淺草橋站（JB20）**（免換車、在車廂內吹冷氣安穩休息）。
+>   * 於 [**JR 吉祥寺站 (吉祥寺駅)**](https://www.google.com/maps/search/?api=1&query=35.7031125,139.5801608&query_place_id=ChIJCalq8UfuGGARr6-Rc3R6atQ)（**JB02**） 直接搭乘 **🟡 JR 中央・總武線（JB）** 各站停車往 **千葉（Chiba／JB39） 方向** 列車，一車直達 **淺草橋站（JB20）**（免換車、在車廂內吹冷氣安穩休息）。
 > * ⚠️ **閘門提醒**：吉祥寺站同時有 JR 和京王電鐵（井之頭線）。進站時請認明 JR 的「綠色招牌」或「JR」Logo 閘門進站，切勿誤入京王電鐵閘門。
 
 ### **19:20 🏨 回飯店休息**
@@ -1034,7 +1034,7 @@
 
 > * 目標地點：[**雷門 (雷門)**](https://www.google.com/maps/search/?api=1&query=35.7111163,139.7963656&query_place_id=ChIJ0YwG28aOGGARvRKAXIBWqNk)
 > * 從飯店步行約 2 分鐘至 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（走 A1/A3 出口進站）。
-> * 於 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**） 搭乘 **🌹 都營淺草線（A）** 往 **押上（Oshiage／A20）／青砥 方向** 列車，搭乘 **2 站** 直達 [**淺草站 (浅草駅)**](https://www.google.com/maps/search/?api=1&query=35.7120743,139.7984852&query_place_id=ChIJL34SkMaOGGAR8M8COhoCH_Q)（**A18**）（車程僅約 3 分鐘）。
+> * 於 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**） 搭乘 **🌹 都營淺草線（A）** 往 **押上（Oshiage／A20）／青砥 方向** 列車，搭乘 **2 站** 直達 [**淺草站 (浅草駅)**](https://www.google.com/maps/search/?api=1&query=35.7119535,139.7983367&query_place_id=ChIJLyyKQTiPGGARsFv-uaDdzwo)（**A18**）（車程僅約 3 分鐘）。
 > * 🚶‍♂️ **出站動線與電梯指引**：由 **「1 號出口」**（約 28 階短樓梯）出站即達雷門前廣場；若需無障礙電梯請走 **「A2b 電梯出口」**。
 
 ### **08:45－10:15 ⛩️ 參觀淺草寺與雷門散策**
@@ -1064,10 +1064,10 @@
 
 ### **10:35－11:00 🚇 前往東京晴空塔**
 
-> * 目標地點：[**東京晴空街道 (東京ソラマチ)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E)
+> * 目標地點：[**東京晴空街道 (東京ソラマチ)**](https://www.google.com/maps/search/?api=1&query=35.7100876,139.8106698&query_place_id=ChIJUaJR8NaOGGAR9-rraNT1PZo)
 > * 🚶‍♂️ **搭車路線（最省力直達首選）**：
->   * 從淺草文化觀光中心步行約 3 分鐘至 [**東武 淺草站 (東武浅草駅)**](https://www.google.com/maps/search/?api=1&query=35.7118,139.7977&query_place_id=ChIJL68h0YmNGGARm2u01N4793Y)（**TS01**）。
->   * 於 [**東武 淺草站 (東武浅草駅)**](https://www.google.com/maps/search/?api=1&query=35.7118,139.7977&query_place_id=ChIJL68h0YmNGGARm2u01N4793Y)（**TS01**） 搭乘 **🔷 東武晴空塔線（TS）** 往 **東京晴空塔（TS02）／春日部 方向** 列車，搭乘 **1 站** 直達 [**東京晴空塔站 (とうきょうスカイツリー駅)**](https://www.google.com/maps/search/?api=1&query=35.7100627,139.8107004&query_place_id=ChIJ5_rl0daOGGAR0BEODNSc_W8)（**TS02**）（車程僅 2 分鐘）。
+>   * 從淺草文化觀光中心步行約 3 分鐘至 [**東武 淺草站 (東武浅草駅)**](https://www.google.com/maps/search/?api=1&query=35.7119535,139.7983367&query_place_id=ChIJLyyKQTiPGGARsFv-uaDdzwo)（**TS01**）。
+>   * 於 [**東武 淺草站 (東武浅草駅)**](https://www.google.com/maps/search/?api=1&query=35.7119535,139.7983367&query_place_id=ChIJLyyKQTiPGGARsFv-uaDdzwo)（**TS01**） 搭乘 **🔷 東武晴空塔線（TS）** 往 **東京晴空塔（TS02）／春日部 方向** 列車，搭乘 **1 站** 直達 [**東京晴空塔站 (とうきょうスカイツリー駅)**](https://www.google.com/maps/search/?api=1&query=35.7095445,139.8090493&query_place_id=ChIJ5_rl0daOGGAR0BEODNSc_W8)（**TS02**）（車程僅 2 分鐘）。
 >   * 出站即直通晴空塔與東京晴空街道商場西館 1F，全程免曬太陽爬坡。
 
 ### **11:00－12:30 🍽️ 午餐：達摩文字燒**
@@ -1075,11 +1075,11 @@
 > * 首選餐廳：[**達摩文字燒 (月島名物もんじゃ だるま 東京スカイツリータウン・ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7101381,139.8122049&query_place_id=ChIJUaJR8NaOGGAR48j6xkTvMeY) (東京ソラマチ 東館 7F 餐廳街) 享用東京下町文字燒與大阪燒（推薦：麻糬明太子起司文字燒、特選海鮮大阪燒、日式炒麵），人均約 ¥1,200～¥1,800。  
 >   * 特色與代烤服務：月島百年文字燒名店直營，全家圍坐鐵板前香氣四溢。店內服務生會親自在桌邊鐵板現場代煎代烤，海外遊客完全不需擔心不會煎！大人小孩拿著小鐵鏟刮香脆鍋巴吃，兼具美味與極佳的日本文化沉浸感。吃完搭電梯下樓就是 5F/6F 墨田水族館，動線 100% 順路零繞路！  
 > * 備案餐廳 1：[**利久牛舌 (牛たん炭焼 利久 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102538,139.8124786&query_place_id=ChIJrfccWNaOGGARVhFln5H6kug) (東京ソラマチ 東館 6F 餐廳街) 享用碳烤牛舌（推薦：極品牛舌定食、牛舌與燉肉拼盤），人均約 ¥2,000～¥3,000。  
-> * 備案餐廳 2：[**宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用烏龍麵（推薦：肉烏龍麵、炸天婦羅），人均約 ¥700～¥1,000。  
+> * 備案餐廳 2：[**宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7100876,139.8106698&query_place_id=ChIJUaJR8NaOGGAR9-rraNT1PZo) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用烏龍麵（推薦：肉烏龍麵、炸天婦羅），人均約 ¥700～¥1,000。  
 >   * 💡 **點餐與付款祕訣（美食街自助式・全程指認免對話）**：  
 >     1. 官方確認本店為 **自助式（セルフ方式）**：端起托盤 ➔ 選擇烏龍麵 ➔ 自行夾取喜歡的炸物 ➔ 於櫃台結帳。  
 >     2. **高湯由自己澆淋**，座位區與餐具皆為自助自取；炸物為實物陳列，**全程指認即可，不需開口說日文**。  
-> * 備案餐廳 3：[**一風堂 (一風堂 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用拉麵（推薦：白丸元味、赤丸新味），人均約 ¥900～¥1,300。
+> * 備案餐廳 3：[**一風堂 (一風堂 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7100876,139.8106698&query_place_id=ChIJUaJR8NaOGGAR9-rraNT1PZo) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用拉麵（推薦：白丸元味、赤丸新味），人均約 ¥900～¥1,300。
 >   * 💡 **點餐與付款祕訣（依店舖採不同方式，現場為準）**：  
 >     1. 官方確認共三種點餐方式：**桌上平板**、**手機 QR 掃碼點餐**（可切換語言）、**觸控券売機**；⚠️ 官方明言依分店而異，本分店採哪一種未經確認。  
 >     2. 本店位於美食街，可先看店頭有無券売機，或入座後找桌面 QR 貼紙。
@@ -1130,8 +1130,8 @@
 
 ### **14:45－15:30 🛍️ 晴空街道散策與高空景觀**
 
-> * 目標地點：[**東京晴空街道 (東京ソラマチ)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E) (東館 30F/31F 高空景觀)
-> * 🛍️ **商場散策**：逛生活雜貨、動漫玩具與伴手禮，推薦逛 [**Loft (ロフト 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102004,139.8112003&query_place_id=ChIJWYeDW9aOGGARadWLUMju2wI) (東京ソラマチ 3F)、[**寶可夢中心 (ポケモンセンタースカイツリータウン)**](https://www.google.com/maps/search/?api=1&query=35.7102505,139.8123004&query_place_id=ChIJt6u9QtaOGGARHbxorE1IKXw) (東京ソラマチ 4F) 或文具選物店 [**Neue (ノイエ 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102806,139.8124005&query_place_id=ChIJf-b1-daOGGAR9uM64x8H9qC) (東京ソラマチ 4F)。  
+> * 目標地點：[**東京晴空街道 (東京ソラマチ)**](https://www.google.com/maps/search/?api=1&query=35.7100876,139.8106698&query_place_id=ChIJUaJR8NaOGGAR9-rraNT1PZo) (東館 30F/31F 高空景觀)
+> * 🛍️ **商場散策**：逛生活雜貨、動漫玩具與伴手禮，推薦逛 [**Loft (ロフト 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7101427,139.8126513&query_place_id=ChIJWYeDW9aOGGARadWLUMju2wI) (東京ソラマチ 3F)、[**寶可夢中心 (ポケモンセンタースカイツリータウン)**](https://www.google.com/maps/search/?api=1&query=35.7102505,139.8123004&query_place_id=ChIJt6u9QtaOGGARHbxorE1IKXw) (東京ソラマチ 4F) 或文具選物店 [**Neue (ノイエ 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7104243,139.8122265&query_place_id=ChIJUaJR8NaOGGARaFnWrnipzVM) (東京ソラマチ 4F)。  
 > * 🌇 **30/31F 高空景觀**：搭乘直達景觀電梯至 30、31 樓餐廳樓層免費觀景窗，俯瞰東京晴空塔周邊市景。  
 > * 💡 **時間彈性**：若水族館後想直接前往新宿或保留更多體力，可省略此段直接進入 Plan A。
 
@@ -1143,10 +1143,10 @@
 
 #### **15:30－16:15 🚇 前往新宿**
 
-> * 目標地點：[**押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)
-> * 15:30 離開晴空塔 ➔ 慢步前往 [**押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)。  
+> * 目標地點：[**押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.7103320,139.8132971&query_place_id=ChIJaUNCPNaOGGARuV-q32bYbaE)
+> * 15:30 離開晴空塔 ➔ 慢步前往 [**押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.7103320,139.8132971&query_place_id=ChIJaUNCPNaOGGARuV-q32bYbaE)。  
 > * 🚇 **舒適補眠電車移動**：
->   * 於 [**都營 押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)（**A20**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（A01）／羽田空港 方向**，搭乘 **4 站** 至 淺草橋站（A16）（車程約 6 分鐘）。
+>   * 於 [**都營 押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.7103320,139.8132971&query_place_id=ChIJaUNCPNaOGGARuV-q32bYbaE)（**A20**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（A01）／羽田空港 方向**，搭乘 **4 站** 至 淺草橋站（A16）（車程約 6 分鐘）。
 >   * 於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 轉乘 **🟡 JR 中央・總武線（JB）** 往 **新宿（JB10） 方向**，搭乘 **2 站** 至 御茶之水站（JB18）（車程約 4 分鐘）。
 >   * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **新宿（Shinjuku／JC05）／高尾 方向**，搭乘 **2 站** 直達 [**新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJH7qx1tCMGGAR1f2s7PGhMhw)（**JC05**）（車程約 9 分鐘，總移動約 28 分鐘）。  
 >   * 💡 **長輩小孩充能**：下午正好在冷氣電車上坐著小歇補眠，完全不耗體力。  
@@ -1167,7 +1167,7 @@
 
 #### **17:45 🚶‍♂️ 前往東京都廳**
 
-> * 17:45 離開餐廳 ➔ 走向 [**新宿西口地下通路 (新宿副都心4号街路地下道)**](https://www.google.com/maps/search/?api=1&query=35.690800,139.696500)（從地面入口下階梯進入全空調地下通道與電動步道），沿通道直行約 6～8 分鐘直達 [**東京都廳 (東京都庁)**](https://www.google.com/maps/search/?api=1&query=35.6894807,139.6916863&query_place_id=ChIJoTcat9SMGGAR6GGG8zdcZvE)。  
+> * 17:45 離開餐廳 ➔ 走向 [**新宿西口地下通路 (新宿副都心4号街路地下道)**](https://www.google.com/maps/search/?api=1&query=35.6905813,139.6942589&query_place_id=ChIJ7Y19XNSMGGARHj_BMBTDfIg)（從地面入口下階梯進入全空調地下通道與電動步道），沿通道直行約 6～8 分鐘直達 [**東京都廳 (東京都庁)**](https://www.google.com/maps/search/?api=1&query=35.6893249,139.6918129&query_place_id=ChIJ_UlItvCNGGARP1NMx2sFsYg)。  
 >   * 🚶‍♂️ **抬頭找這個指標**：地下道內**天花板懸掛「東京都庁方面」指示牌**，全程跟著它走即可，通道為**直線 303 公尺**不會有岔路選擇困難。
 >   * 💡 **若尚未出地面**：從 JR 新宿站 **西改札**出站後可**直接由地下前往，全程不必上到地面**（西改札至都廳第一本廳舍入口約 10 分鐘）。本行程因先在西口地面用晚餐，故由地面入口下行。
 >   * ⚠️ **電動步道（動く歩道）可能停駛**：有實地回報靠右側的電動步道長期停止運轉，請以正常步行時間估算，不要指望它加速。  
@@ -1181,7 +1181,7 @@
 > * ⚠️ **都廳為政府機關，入內需過安檢**；夜景尖峰時段排隊安檢可能耗時約 30 分鐘。
 > * 💡 建議**日落前 30 分鐘抵達**，可一次看到夕陽與夜景。
 
-> * 目標地點：[**東京都廳南展望室 (東京都庁 南展望室)**](https://www.google.com/maps/search/?api=1&query=35.6894807,139.6916863&query_place_id=ChIJoTcat9SMGGAR6GGG8zdcZvE) (第一本廳舍 45F)
+> * 目標地點：[**東京都廳南展望室 (東京都庁 南展望室)**](https://www.google.com/maps/search/?api=1&query=35.6893249,139.6918129&query_place_id=ChIJ_UlItvCNGGARP1NMx2sFsYg) (第一本廳舍 45F)
 > * 搭乘專用直達高速電梯直達 45 樓（免費入場），俯瞰全東京夜景。
 
 #### **19:20－19:45 🚆 返回淺草橋**
@@ -1197,17 +1197,17 @@
 
 #### **15:30－16:40 🛍️ 晴空街道商場採買**
 
-> * 目標地點：[**東京晴空街道 (東京ソラマチ)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E)
+> * 目標地點：[**東京晴空街道 (東京ソラマチ)**](https://www.google.com/maps/search/?api=1&query=35.7100876,139.8106698&query_place_id=ChIJUaJR8NaOGGAR9-rraNT1PZo)
 > * 繼續悠閒漫逛晴空街道商場、採買各式日本特色伴手禮。
 
 #### **16:40－17:30 🍽️ 晚餐：宮武讚岐烏龍麵 / 一風堂 / 松屋**
 
-> * 首選餐廳：[**宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用讚岐烏龍麵（推薦：牛肉溫玉烏龍麵、炸蝦天婦羅、豆皮烏龍麵），人均約 ¥700～¥1,000。  
+> * 首選餐廳：[**宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7100876,139.8106698&query_place_id=ChIJUaJR8NaOGGAR9-rraNT1PZo) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用讚岐烏龍麵（推薦：牛肉溫玉烏龍麵、炸蝦天婦羅、豆皮烏龍麵），人均約 ¥700～¥1,000。  
 >   * 💡 **點餐與付款祕訣（美食街自助式・全程指認免對話）**：  
 >     1. 官方確認本店為 **自助式（セルフ方式）**：端起托盤 ➔ 選擇烏龍麵 ➔ 自行夾取喜歡的炸物（雞唐揚、地瓜天婦羅、什錦炸餅等）➔ 於櫃台結帳。  
 >     2. **高湯由自己澆淋**，座位區與餐具（筷子等）皆為自助自取。  
 >     3. 炸物皆為實物陳列，**全程用手指認即可，不需要開口說日文**；小孩可自己挑選喜歡的炸物。  
-> * 備案餐廳 1：[**一風堂 (一風堂 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用經典博多豚骨拉麵（推薦：白丸元味、赤丸新味、特製一口煎餃），人均約 ¥900～¥1,300。  
+> * 備案餐廳 1：[**一風堂 (一風堂 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7100876,139.8106698&query_place_id=ChIJUaJR8NaOGGAR9-rraNT1PZo) (東京ソラマチ 西館 3F 美食街 タベテラス) 享用經典博多豚骨拉麵（推薦：白丸元味、赤丸新味、特製一口煎餃），人均約 ¥900～¥1,300。  
 >   * 💡 **點餐與付款祕訣（依店舖採不同方式，現場為準）**：  
 >     1. 官方確認共三種點餐方式：**桌上平板**、**手機 QR 掃碼點餐**（可切換語言）、**觸控券売機**；⚠️ 官方明言依分店而異，本分店採哪一種未經確認。  
 >     2. 本店位於美食街，可先看店頭有無券売機，或入座後找桌面 QR 貼紙。  
@@ -1219,7 +1219,7 @@
 
 #### **17:40 🚇 返回淺草橋**
 
-> * 於 [**都營 押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0)（**A20**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **4 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程僅約 6 分鐘）。由 A1 出口 出站步行回飯店休息。
+> * 於 [**都營 押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.7103320,139.8132971&query_place_id=ChIJaUNCPNaOGGARuV-q32bYbaE)（**A20**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **4 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程僅約 6 分鐘）。由 A1 出口 出站步行回飯店休息。
 
 #### **18:00 🏨 回飯店休息**
 
@@ -1244,7 +1244,7 @@
 >   * 🚨 **改札選擇是成敗關鍵**：都營淺草線新橋站有**兩個改札**，**務必由「JR新橋駅・汐留方面」改札出站**；若走另一個改札會大幅繞遠路。
 >   * 🚶‍♂️ **實際路線（會走到地面，非全程地下）**：於月台找 **「出口 A1～A3」** 指示的階梯上行 ➔ 由 **「JR新橋駅・汐留方面」改札**出站 ➔ **左轉**上階梯 ➔ **右轉**，於新橋駅前大樓 1 號館入口前**右側階梯（A2-4）**上行 ➔ **出到地面**後即見 **ゆりかもめ（百合海鷗線）新橋站**入口階梯，上樓進站。
 >   * ⚠️ 此段**需短暫走出地面**（約 1～2 分鐘），雨天請備妥雨具。
-> * 於 [**百合海鷗線 新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJ4RGu0emLGGARuUX8XtPxUVg)（**U01**） 搭乘 **🟠 百合海鷗線（U）** 往 **豐洲（Toyosu／U16） 方向**，搭乘 **7 站** 至 [**東京國際郵輪碼頭站 (東京国際クルーズターミナル駅)**](https://www.google.com/maps/search/?api=1&query=35.621213,139.772592&query_place_id=ChIJbRi2oviJGGARCPAeqoxF6_Y)（**U08**）（車程約 16 分鐘）。
+> * 於 [**百合海鷗線 新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJ4RGu0emLGGARuUX8XtPxUVg)（**U01**） 搭乘 **🟠 百合海鷗線（U）** 往 **豐洲（Toyosu／U16） 方向**，搭乘 **7 站** 至 [**東京國際郵輪碼頭站 (東京国際クルーズターミナル駅)**](https://www.google.com/maps/search/?api=1&query=35.6214209,139.7730549&query_place_id=ChIJbRi2oviJGGARCPAeqoxF6_Y)（**U08**）（車程約 16 分鐘）。
 > * 由 **1 號出口（東口）** 出站，沿平緩景觀步道步行約 5 分鐘（約 400 公尺）直達日本科學未來館大門。
 
 #### **10:00－12:00 🤖 參觀日本科學未來館**
@@ -1270,7 +1270,7 @@
 
 #### **12:00－12:15 🚶‍♂️ 前往 DiverCity Tokyo Plaza**
 
-> * 目標地點：[**DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc)
+> * 目標地點：[**DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6247851,139.7758551&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc)
 > * 🚶‍♂️ **移動動線**：從未來館沿著有明/台場空橋步道慢步約 9 分鐘（約 700 公尺），直接進入 DiverCity Tokyo Plaza 2F/3F 商場。
 > * 🛗 **商場垂直動線（今天會在這棟上下多次，先記樓層）**：
 >   * **2F**：美食廣場、伴手禮店，**獨角獸鋼彈廣場入口**（下午看變身秀由此出去）。
@@ -1281,12 +1281,12 @@
 
 #### **12:15－13:30 🍽️ 午餐：そじ坊手打蕎麥麵**
 
-> * 首選餐廳：[**信州蕎麥處 そじ坊 (そじ坊 ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc) (6F 餐廳街) 享用手打蕎麥麵（推薦：生芥末自磨手打蕎麥麵、炸天婦羅蕎麥麵套餐、鴨肉沾汁蕎麥麵），人均約 ¥900～¥1,500。
+> * 首選餐廳：[**信州蕎麥處 そじ坊 (そじ坊 ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6247851,139.7758551&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc) (6F 餐廳街) 享用手打蕎麥麵（推薦：生芥末自磨手打蕎麥麵、炸天婦羅蕎麥麵套餐、鴨肉沾汁蕎麥麵），人均約 ¥900～¥1,500。
 >   * 💡 **點餐與付款祕訣（全菜單附英文標示）**：  
 >     1. 商場官方確認本店 **全菜單皆有英文標示（全メニュー英語表記）**，可直接對照英文點餐，是本日語言門檻最低的選擇。  
 >     2. 同時具備 **過敏原標示**與**無障礙設施**，並為**清真（Halal）認證店**。  
-> * 備案餐廳 1：[**田中蕎麥麵店 (田中そば店 ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc) (2F 東京美食廣場) 享用喜多方風味拉麵（推薦：特製中華拉麵、山形辣味噌拉麵、特製叉燒飯），人均約 ¥900～¥1,400。
-> * 備案餐廳 2：[**かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc) (2F 東京美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。
+> * 備案餐廳 1：[**田中蕎麥麵店 (田中そば店 ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6247851,139.7758551&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc) (2F 東京美食廣場) 享用喜多方風味拉麵（推薦：特製中華拉麵、山形辣味噌拉麵、特製叉燒飯），人均約 ¥900～¥1,400。
+> * 備案餐廳 2：[**かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6247851,139.7758551&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc) (2F 東京美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。
 
 #### **13:30－15:10 🤖🛍️ 欣賞獨角獸鋼彈與商場逛街**
 
@@ -1318,7 +1318,7 @@
 >   * **原因**：Klook 平台票價目前明顯低於官方現場原價（成人現場原價約 ¥3,200，平台常有顯著特惠）；但因多屬不可取消方案，**建議出發當天早晨確定啟動雨天備案後再於手機下單購買**。
 >   * **團員買票對象**：**3 位大人（你＋爸媽）＋ 2 位小孩**。
 > * 🚇 **最順移動動線（搭臨海線直達 1 站，免淋雨走遠路）**：
->   * 從 DiverCity 步行約 3 分鐘進入 [**臨海線 東京電訊港站 (東京テレポート駅)**](https://www.google.com/maps/search/?api=1&query=35.628889,139.777222&query_place_id=ChIJyXG_6pyOGGAR2u4o-gq0F98)（**R04**）。
+>   * 從 DiverCity 步行約 3 分鐘進入 [**臨海線 東京電訊港站 (東京テレポート駅)**](https://www.google.com/maps/search/?api=1&query=35.6272350,139.7787204&query_place_id=ChIJRUIUpfCJGGARL2W9XgEbwms)（**R04**）。
 >   * 搭乘 **🟣 臨海線（R）** 往 **新木場（Shin-kiba／R01） 方向** 列車，搭乘 **1 站** 直達 [**國際展示場站 (国際展示場駅)**](https://www.google.com/maps/search/?api=1&query=35.6344246,139.7916459&query_place_id=ChIJjbq5s-mJGGAR0GKPNjCtoPQ)（**R03**）（車程僅約 3 分鐘）。
 >   * 於 **國際展示場站（R03）** 下車，出站後步行約 **9 分鐘**（部分資料為 12 分鐘，帶長輩小孩請抓 12 分鐘）即達有明物流中心內的「SMALL WORLDS」（地址：**江東區有明 1-3-33**）。
 >   * ⚠️ **出口編號官方查無明確資料**：出站後請跟隨 **「有明（Ariake）」** 方向指標，或直接向站務人員出示地址「**有明1-3-33 スモールワールズ**」詢問，此段為地面步行，**手機 GPS 可正常導航**。
@@ -1329,23 +1329,23 @@
 
 #### **17:00－17:25 🚇 前往台場 DiverCity**
 
-> * 目標地點：[**DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc)
-> * 從 SMALL WORLDS 步行約 3 分鐘至 [**百合海鷗線 有明網球之森站 (有明テニスの森駅)**](https://www.google.com/maps/search/?api=1&query=35.6400414,139.7888454&query_place_id=ChIJRU5FTeuJGGARK2atWKJ5P_g)（**U13**），搭乘 **🟠 百合海鷗線（U）** 往 **新橋（Shimbashi／U01） 方向**，搭乘 **6 站** 至 [**台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.6259459,139.7714957&query_place_id=ChIJuSwSCR2KGGAR-N7KPSFFRXM)（**U07**）（車程約 11 分鐘），走 2F 遮雨空橋 5 分鐘抵達 DiverCity 6F/2F 餐廳。
+> * 目標地點：[**DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)**](https://www.google.com/maps/search/?api=1&query=35.6247851,139.7758551&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc)
+> * 從 SMALL WORLDS 步行約 3 分鐘至 [**百合海鷗線 有明網球之森站 (有明テニスの森駅)**](https://www.google.com/maps/search/?api=1&query=35.6400414,139.7888454&query_place_id=ChIJRU5FTeuJGGARK2atWKJ5P_g)（**U13**），搭乘 **🟠 百合海鷗線（U）** 往 **新橋（Shimbashi／U01） 方向**，搭乘 **6 站** 至 [**台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.6259459,139.7714957&query_place_id=ChIJhSSiCx2KGGARMH8prUZIf4M)（**U07**）（車程約 11 分鐘），走 2F 遮雨空橋 5 分鐘抵達 DiverCity 6F/2F 餐廳。
 
 #### **17:25－18:30 🍽️ 晚餐：月島文字燒 くうや**
 
-> * 首選餐廳：[**月島文字燒 くうや (月島もんじゃ くうや ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc) (6F 餐廳街) 享用築地直送海鮮與桌邊現場代煎文字燒（推薦：明太子麻糬起司文字燒、特選海鮮文字燒、極品牛筋大阪燒），人均約 ¥1,500～¥2,500。
+> * 首選餐廳：[**月島文字燒 くうや (月島もんじゃ くうや ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6247851,139.7758551&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc) (6F 餐廳街) 享用築地直送海鮮與桌邊現場代煎文字燒（推薦：明太子麻糬起司文字燒、特選海鮮文字燒、極品牛筋大阪燒），人均約 ¥1,500～¥2,500。
 >   * 💡 **點餐與付款祕訣（店員全程代煎・不需自己動手）**：  
 >     1. 商場官方確認 **文字燒全部由店員在桌邊鐵板親自煎製**（すべてスタッフが目の前の鉄板で焼き上げる），第一次吃文字燒也完全不用擔心。  
 >     2. 點餐後只需在座位等待，不需要理解「土手做法」等日式煎法步驟，也不需要與店員討論火候。  
 >     3. 配料可自由客製，指認菜單圖片即可。  
-> * 備案餐廳 1：[**かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc) (2F 美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。
+> * 備案餐廳 1：[**かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6247851,139.7758551&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc) (2F 美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。
 
 #### **18:30－19:15 🚆 返回淺草橋飯店**
 
 > * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA)
-> * 從 DiverCity 走空橋通道步行約 5 分鐘至 [**百合海鷗線 台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.6259459,139.7714957&query_place_id=ChIJuSwSCR2KGGAR-N7KPSFFRXM)（**U07**）。
-> * 於 [**百合海鷗線 台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.6259459,139.7714957&query_place_id=ChIJuSwSCR2KGGAR-N7KPSFFRXM)（**U07**） 搭乘 **🟠 百合海鷗線（U）** 往 **新橋（Shimbashi／U01） 方向**，搭乘 **6 站** 至 [**新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJ4RGu0emLGGARuUX8XtPxUVg)（**U01**）（車程約 15 分鐘）。
+> * 從 DiverCity 走空橋通道步行約 5 分鐘至 [**百合海鷗線 台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.6259459,139.7714957&query_place_id=ChIJhSSiCx2KGGARMH8prUZIf4M)（**U07**）。
+> * 於 [**百合海鷗線 台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.6259459,139.7714957&query_place_id=ChIJhSSiCx2KGGARMH8prUZIf4M)（**U07**） 搭乘 **🟠 百合海鷗線（U）** 往 **新橋（Shimbashi／U01） 方向**，搭乘 **6 站** 至 [**新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJ4RGu0emLGGARuUX8XtPxUVg)（**U01**）（車程約 15 分鐘）。
 > * 於 **新橋站（A10）** 經地下通道轉乘 **🌹 都營淺草線（A）** 往 **押上（Oshiage／A20）／青砥 方向**，搭乘 **6 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程約 7 分鐘）。
 > * 由 **「A1 出口（直達地面無障礙電梯）」** 出站，步行約 2 分鐘返抵海茵娜酒店。
 > * 19:00 回飯店洗澡休息、打包整理大件行李與最後秤重整備。
@@ -1406,8 +1406,8 @@
 
 ### **10:40－11:30 🚆 前往羽田機場**
 
-> * 目標地點：[**羽田機場第3航廈 (羽田空港第3ターミナル)**](https://www.google.com/maps/search/?api=1&query=35.544843,139.768443&query_place_id=ChIJsXfyslZhGGARbL8nFGOsncU)
-> * 於 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（走 A1 出口無障礙電梯進站）搭乘 **🌹 都營淺草線直通 🔴 京急機場線（KK）** 之「機場特快 (エアポート快特) / 快特」列車，往 **羽田空港（Haneda Airport／KK16） 方向**，直達 [**羽田機場第3航廈站 (羽田空港第3ターミナル駅)**](https://www.google.com/maps/search/?api=1&query=35.544843,139.768443&query_place_id=ChIJsXfyslZhGGARbL8nFGOsncU)（**KK16**）（車程約 35-40 分鐘，一車直達免換車）。  
+> * 目標地點：[**羽田機場第3航廈 (羽田空港第3ターミナル)**](https://www.google.com/maps/search/?api=1&query=35.5446472,139.7677877&query_place_id=ChIJsXfyslZhGGARbL8nFGOsncU)
+> * 於 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（走 A1 出口無障礙電梯進站）搭乘 **🌹 都營淺草線直通 🔴 京急機場線（KK）** 之「機場特快 (エアポート快特) / 快特」列車，往 **羽田空港（Haneda Airport／KK16） 方向**，直達 [**羽田機場第3航廈站 (羽田空港第3ターミナル駅)**](https://www.google.com/maps/search/?api=1&query=35.5446472,139.7677877&query_place_id=ChIJsXfyslZhGGARbL8nFGOsncU)（**KK16**）（車程約 35-40 分鐘，一車直達免換車）。  
 > * 🛗 **出站動線（末日大行李，這段要走對）**：
 >   * 京急線改札位於**列車行進方向的前方**，下車後往前走即是。
 >   * **出改札後正前方設有 4 部大型電梯**（可容納大行李，帶行李箱請優先走這裡），直達 **3F 出境大廳**。
@@ -1421,7 +1421,7 @@
 
 ### **12:30－13:15 🍽️ 午餐：羽田機場餐廳街**
 
-> * 目標地點：[**羽田機場餐廳街 (羽田空港第3ターミナル レストラン街)**](https://www.google.com/maps/search/?api=1&query=35.544843,139.768132&query_place_id=ChIJg4gqf3aKGGAReP-56k2M5n8)
+> * 目標地點：[**羽田機場餐廳街 (羽田空港第3ターミナル レストラン街)**](https://www.google.com/maps/search/?api=1&query=35.5452071,139.7692639&query_place_id=ChIJNUhg6GFhGGAR3CX1Keaj8Ow)
 > * 全家可於出境大廳或管制區內享用最後簡餐（推薦：日式定食、烏龍麵），人均約 ¥1,000～¥1,500，出餐快速、不用擔心時間壓迫。
 
 ### **13:15－14:00 🛍️ 機場免稅店伴手禮採買**

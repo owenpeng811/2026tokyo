@@ -266,8 +266,12 @@ def fix():
         return 0
     with open(README, encoding='utf-8') as f:
         text = f.read()
-    for _, url, want in bad:
-        text = text.replace(url, want)
+    for label, url, want in bad:
+        escaped_label = re.escape(label)
+        escaped_url = re.escape(url)
+        # 精確匹配 [**label**](url) 或 [label](url)
+        regex = re.compile(rf'(\[(\*{{0,2}}){escaped_label}\2\]\(){escaped_url}(\))')
+        text = regex.sub(rf'\g<1>{want}\g<3>', text)
     with open(README, 'w', encoding='utf-8') as f:
         f.write(text)
     print(f'✅ 已修正 README.md 中 {len(bad)} 個連結（請重新執行 build_pwa.py）')

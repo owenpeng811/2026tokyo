@@ -12,20 +12,24 @@
       "html": [
         "CoCo壹番屋 (CoCo壱番屋 JR秋葉原駅昭和通り口店)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "CoCo Ichibanya JR Akihabara Showadoriguchi",
+      "verified_address": "Japan, 〒101-0027 Tokyo, Chiyoda City, Kanda Hirakawachō, ４ 渡辺ビル １階"
     },
     "Cow Cow Kitchen (東京Milk Cheese Factory LUMINE EST店)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6917502,139.7011419&query_place_id=ChIJr8RjHpyNGGAR-2K84o0P4sQ",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6917502,139.7009840&query_place_id=ChIJmXynH96NGGAR5e9a3acK1q0",
       "nav_dict": [
         "Cow Cow Kitchen (東京Milk Cheese Factory LUMINE EST店)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo milk cheese factory ice cream shop",
+      "verified_address": "Japan, 〒160-0022 Tokyo, Shinjuku City, Shinjuku, 3-chōme−38−１ ルミネエスト新宿 1F"
     },
     "Cow Cow Kitchen (東京Milk Cheese Factory)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6917502,139.700984&query_place_id=ChIJmXynH96NGGAR5e9a3acK1q0",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6917502,139.7009840&query_place_id=ChIJmXynH96NGGAR5e9a3acK1q0",
       "nav_dict": [
         "Cow Cow Kitchen",
         "Cow Cow Kitchen (東京Milk Cheese Factory)"
@@ -39,7 +43,9 @@
         "Cow Cow Kitchen",
         "Cow Cow Kitchen (東京Milk Cheese Factory)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo milk cheese factory ice cream shop",
+      "verified_address": "Japan, 〒160-0022 Tokyo, Shinjuku City, Shinjuku, 3-chōme−38−１ ルミネエスト新宿 1F"
     },
     "Cross Shinjuku 3D 巨貓 (クロス新宿ビジョン)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6926882,139.7008265&query_place_id=ChIJrwWR35uNGGARG7Svj20aEfM",
@@ -53,10 +59,12 @@
         "Cross Shinjuku 3D 巨貓",
         "Cross Shinjuku 3D 巨貓 (クロス新宿ビジョン)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Cross Shinjuku Vision",
+      "verified_address": "Japan, 〒160-0022 Tokyo, Shinjuku City, Shinjuku, 3-chōme−23−１８ 東新宿ビル クロス RF"
     },
     "DEAN & DELUCA CAFE (DEAN & DELUCA CAFE パルコヤ上野)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7068605,139.7733596&query_place_id=ChIJYw_RZZyOGGARkQYqM_0g4r8",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7070100,139.7734500&query_place_id=ChIJh7iJ_R-MGGARk32pRTmYtIM",
       "nav_dict": [
         "DEAN & DELUCA CAFE (DEAN & DELUCA CAFE パルコヤ上野)",
         "DEAN & DELUCA 咖啡",
@@ -66,10 +74,12 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "DEAN & DELUCA Cafe parco_ya Ueno",
+      "verified_address": "Japan, 〒110-0005 Tokyo, Taito City, Ueno, 3-chōme−24−６ パルコヤ上野 1F"
     },
     "DEAN & DELUCA CAFE (PARCO_ya 1F)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.70701,139.77345&query_place_id=ChIJh7iJ_R-MGGARk32pRTmYtIM",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7075727,139.7729864&query_place_id=ChIJh7iJ_R-MGGARk32pRTmYtIM",
       "nav_dict": [
         "DEAN & DELUCA CAFE (PARCO_ya 1F)"
       ],
@@ -78,10 +88,12 @@
       "html": [
         "DEAN & DELUCA CAFE (PARCO_ya 1F)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "DEAN & DELUCA CAFEパルコヤ上野",
+      "verified_address": "Japan, 〒110-0005 Tokyo, Taito City, Ueno, 3-chōme−24−６ パルコヤ上野 1F"
     },
     "DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6252988,139.7753177&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6247851,139.7758551&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc",
       "nav_dict": [
         "DiverCity Tokyo Plaza",
         "DiverCity Tokyo Plaza (ダイバーシティ東京 プラザ)",
@@ -94,10 +106,12 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "DiverCity Tokyo Plaza",
+      "verified_address": "1-chōme-1-10 Aomi, Koto City, Tokyo 135-0064, Japan"
     },
     "Dream Market (ドリームマーケット 吉祥寺店)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88%20%E5%90%89%E7%A5%A5%E5%AF%BA%E5%BA%97",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7044147,139.5800730&query_place_id=ChIJcyJKMq3vGGAR5jSfQieBwN8",
       "nav_dict": [
         "Dream Market",
         "Dream Market (ドリームマーケット 吉祥寺店)"
@@ -107,7 +121,9 @@
       "html": [
         "Dream Market (ドリームマーケット 吉祥寺店)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Dream market 吉祥寺店",
+      "verified_address": "Japan, 〒180-0004 Tokyo, Musashino, Kichijōji Honchō, 1-chōme−9−９ 寿楽ビル"
     },
     "GRANSTA 東京 (グランスタ東京)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6798702,139.7675145&query_place_id=ChIJoYwA2fuLGGARrTNyOELGyV8",
@@ -120,7 +136,9 @@
       "html": [
         "GRANSTA 東京 (グランスタ東京)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "GRANSTA TOKYO",
+      "verified_address": "Japan, 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ JR東日本 東京駅構內 B1～1F"
     },
     "GiGO 秋葉原3號館 (GiGO 秋葉原3号館)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6992456,139.7709552&query_place_id=ChIJR-PMBx2MGGARPFrgtULaJB0",
@@ -132,7 +150,9 @@
       "html": [
         "GiGO 秋葉原3號館 (GiGO 秋葉原3号館)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "GiGO Akihabara Building 3",
+      "verified_address": "Japan, 〒101-0021 Tokyo, Chiyoda City, Sotokanda, 1-chōme−11−１１ 1丁目ビルディング"
     },
     "Gusto (ガスト 新宿NOWAビル店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6903733,139.7013626&query_place_id=ChIJFUOWQQCNGGARHkjPPx28PfI",
@@ -148,7 +168,9 @@
         "Gusto (ガスト 新宿NOWAビル店)",
         "Gusto 新宿NOWAビル店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "GUSTO Shinjuku NOWA building",
+      "verified_address": "Japan, 〒160-0022 Tokyo, Shinjuku City, Shinjuku, 3-chōme−37−１２ 新宿ＮＯＷＡ ７階"
     },
     "Intermediatheque (インターメディアテク)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6800744,139.7646866&query_place_id=ChIJF5AiNPqLGGAR2igPgxC2_Kw",
@@ -161,7 +183,9 @@
       "html": [
         "Intermediatheque (インターメディアテク)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Intermediatheque",
+      "verified_address": "Japan, 〒100-7003 Tokyo, Chiyoda City, Marunouchi, 2-chōme−7−２ ＫＩＴＴＥ 2・3階"
     },
     "JR 三鷹站 (三鷹駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7027156,139.5610291&query_place_id=ChIJQ6xBTbDvGGARWjMM50vhcgE",
@@ -172,7 +196,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Mitaka Station",
+      "verified_address": "3-chōme-46-1 Shimorenjaku, Mitaka, Tokyo 181-0013, Japan"
     },
     "JR 上野站 (上野駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw",
@@ -188,10 +214,12 @@
       "html": [
         "上野站"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Ueno Station",
+      "verified_address": "7 Chome-1 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "JR 吉祥寺站 (吉祥寺駅)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7031125,139.5797825&query_place_id=ChIJe0e8kkfuGGARvH2cE14g_0I",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7031125,139.5801608&query_place_id=ChIJCalq8UfuGGARr6-Rc3R6atQ",
       "nav_dict": [
         "JR 吉祥寺站",
         "JR 吉祥寺站 (吉祥寺駅)",
@@ -202,7 +230,9 @@
         "4_前往吉祥寺"
       ],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Kichijōji Station",
+      "verified_address": "Japan, 〒180-0003 Tokyo, Musashino, Kichijōji Minamichō, 1-chōme−１"
     },
     "JR 御徒町站 (御徒町駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI",
@@ -220,7 +250,9 @@
         "御徒町站",
         "御徒町駅"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Okachimachi Station",
+      "verified_address": "5 Chome-27 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "JR 新宿站 (新宿駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJH7qx1tCMGGAR1f2s7PGhMhw",
@@ -232,7 +264,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Shinjuku Station",
+      "verified_address": "3-chōme-38-1 Shinjuku, Shinjuku City, Tokyo 160-0022, Japan"
     },
     "JR 東京站 (東京駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6812996,139.7670659&query_place_id=ChIJC3Cf2PuLGGAROO00ukl8JwA",
@@ -243,7 +277,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo Station",
+      "verified_address": "1 Chome-9 Marunouchi, Chiyoda City, Tokyo 100-0005, Japan"
     },
     "JR 淺草橋站 (浅草橋駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg",
@@ -261,7 +297,9 @@
         "浅草橋駅",
         "淺草橋站"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Asakusabashi Station",
+      "verified_address": "1 Chome-18 Asakusabashi, Taito City, Tokyo 111-0053, Japan"
     },
     "JR 秋葉原站 (秋葉原駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU",
@@ -279,7 +317,9 @@
         "秋葉原站",
         "秋葉原駅"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Akihabara Station",
+      "verified_address": "1 Chome Sotokanda, Chiyoda City, Tokyo 101-0028, Japan"
     },
     "JR 舞濱站 (舞浜駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6361543,139.8838749&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE",
@@ -296,7 +336,9 @@
       "html": [
         "舞濱站"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Maihama Station",
+      "verified_address": "26-5 Maihama, Urayasu, Chiba 279-0031, Japan"
     },
     "Jyonetsu Bakery": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7031128,139.5790112&query_place_id=ChIJm4Jc8EfuGGARqyy_yr_4JTo",
@@ -308,10 +350,12 @@
       "html": [
         "Jyonetsu Bakery"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Liberté Pâtisserie Boulangerie Tokyo Kichijōji",
+      "verified_address": "2-chōme-14-3 1F･2F Kichijōji Honchō, Musashino, Tokyo 180-0004, Japan"
     },
     "KITTE丸之內 (KITTE丸の内)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6795336,139.7654445&query_place_id=ChIJtZRvRvqLGGARdS57rQP2NEk",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6797983,139.7648650&query_place_id=ChIJdUbpSvqLGGARCmbc6R7hZJ8",
       "nav_dict": [
         "KITTE丸之內 (KITTE丸の内)"
       ],
@@ -320,7 +364,9 @@
       "html": [
         "KITTE丸之內 (KITTE丸の内)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "KITTE Marunouchi",
+      "verified_address": "2-chōme-7-2 Marunouchi, Chiyoda City, Tokyo 100-0005, Japan"
     },
     "KITTE花園 (ＫＩＴＴＥガーデン)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6795336,139.7654445&query_place_id=ChIJtZRvRvqLGGARdS57rQP2NEk",
@@ -339,17 +385,21 @@
         "KITTE花園",
         "KITTE花園 (ＫＩＴＴＥガーデン)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "KITTE Garden",
+      "verified_address": "Japan, 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 2-chōme−7−２ KITTE丸の内 6F"
     },
     "LE BIHAN (ル ビアン アトレ吉祥寺店)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7031125,139.5797825&query_place_id=ChIJp5K9kkfuGGAR9kK84t3D5sQ",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7031128,139.5800450&query_place_id=ChIJXX1z-kfuGGAR5lBP-tjaEhE",
       "nav_dict": [
         "LE BIHAN (ル ビアン アトレ吉祥寺店)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Le Bihan",
+      "verified_address": "Japan, 〒180-0003 Tokyo, Musashino, Kichijōji Minamichō, 1-chōme−１−２４ アトレ吉祥寺 1F"
     },
     "LUMINE EST 餐廳街 (ルミネエスト新宿 7&8 DINER)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6912505,139.7011419&query_place_id=ChIJ_TibA9qMGGARNYmVIFyGU9k",
@@ -363,10 +413,12 @@
         "LUMINE EST 餐廳街",
         "LUMINE EST 餐廳街 (ルミネエスト新宿 7&8 DINER)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "LUMINE EST Shinjuku",
+      "verified_address": "3-chōme-38-1 Shinjuku, Shinjuku City, Tokyo 160-0022, Japan"
     },
     "Linde 德國麵包 (ベッカライカフェ・リンデ 吉祥寺本店)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.704096,139.5802054&query_place_id=ChIJBUM940XuGGAR4dVP7nqzDHc",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7055485,139.5806334&query_place_id=ChIJAQD3TEbuGGARnqMvYYN2B78",
       "nav_dict": [
         "Linde 德國麵包 (ベッカライカフェ・リンデ 吉祥寺本店)"
       ],
@@ -375,17 +427,21 @@
       "html": [
         "Linde 德國麵包 (ベッカライカフェ・リンデ 吉祥寺本店)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Linde Kichijōji",
+      "verified_address": "1-chōme-11-27 Kichijōji Honchō, Musashino, Tokyo 180-0004, Japan"
     },
     "Loft (ロフト 東京ソラマチ店)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7102004,139.8112003&query_place_id=ChIJWYeDW9aOGGARadWLUMju2wI",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7101427,139.8126513&query_place_id=ChIJWYeDW9aOGGARadWLUMju2wI",
       "nav_dict": [
         "Loft (ロフト 東京ソラマチ店)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo Solamachi LOFT",
+      "verified_address": "Japan, 〒131-8634 Tokyo, Sumida City, Oshiage, 1-chōme−1−２ 東京スカイツリータウン・ソラマチ イーストヤード 3階"
     },
     "Loft (吉祥寺ロフト)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.705206,139.5788868&query_place_id=ChIJ80-AKEbuGGARmN-6SihPfpU",
@@ -397,17 +453,21 @@
       "html": [
         "Loft (吉祥寺ロフト)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Kichijōji Loft",
+      "verified_address": "1-chōme-10-1 Kichijōji Honchō, Musashino, Tokyo 180-0004, Japan"
     },
     "Neue (ノイエ 東京ソラマチ店)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7102806,139.8124005&query_place_id=ChIJf-b1-daOGGAR9uM64x8H9qC",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7104243,139.8122265&query_place_id=ChIJUaJR8NaOGGARaFnWrnipzVM",
       "nav_dict": [
         "Neue (ノイエ 東京ソラマチ店)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Neue",
+      "verified_address": "1-chōme-1-2 Oshiage, Sumida City, Tokyo 131-0045, Japan"
     },
     "OS Drug 上野店": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7108985,139.774618&query_place_id=ChIJAQB_jZ-OGGARLPaThjF_JIQ",
@@ -422,7 +482,9 @@
       "html": [
         "OS Drug 上野店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "OS Drug Ueno",
+      "verified_address": "6-chōme-11-5 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "OS Drug 藥妝店 (OSドラッグ 上野店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7108985,139.7748721&query_place_id=ChIJAQB_jZ-OGGARLPaThjF_JIQ",
@@ -432,7 +494,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "OS Drug Ueno",
+      "verified_address": "6-chōme-11-5 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "PARCO_ya": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7068605,139.7731332&query_place_id=ChIJsW9uBKCOGGAR3hWpxKX-ag0",
@@ -446,7 +510,9 @@
       "html": [
         "PARCO_ya"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "PARCO_ya Ueno",
+      "verified_address": "3-chōme-24-6 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "SATOU (黒毛和牛専門店 さとう 吉祥寺店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.703975,139.579041&query_place_id=ChIJEerD2EfuGGARNzol9ZsrCkg",
@@ -465,10 +531,12 @@
         "SATOU",
         "SATOU (黒毛和牛専門店 さとう 吉祥寺店)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Satou Kichijoji",
+      "verified_address": "Japan, 〒180-0004 Tokyo, Musashino, Kichijōji Honchō, 1-chōme−1−８ 吉祥寺さとう"
     },
     "THANK YOU MART (サンキューマート コピス吉祥寺店)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%83%B3%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%88%20%E3%82%B3%E3%83%94%E3%82%B9%E5%90%89%E7%A5%A5%E5%AF%BA%E5%BA%97",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7049401,139.5791020&query_place_id=ChIJl0FxI9jvGGARvamO7ToYYMM",
       "nav_dict": [
         "THANK YOU MART",
         "THANK YOU MART (サンキューマート コピス吉祥寺店)"
@@ -480,20 +548,24 @@
       "html": [
         "THANK YOU MART (サンキューマート コピス吉祥寺店)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "THANK YOU MART Coppice Kichijoji",
+      "verified_address": "Japan, 〒180-0004 Tokyo, Musashino, Kichijōji Honchō, 1-chōme−11−<b>5</b> Building A, 2F Coppice"
     },
     "TOMICA專賣店 (トミカショップ 東京店)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6816001,139.7671501&query_place_id=ChIJtxODuv6LGGARax9fUJblNJg",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6816265,139.7684950&query_place_id=ChIJtxODuv6LGGARax9fUJblNJg",
       "nav_dict": [
         "TOMICA專賣店 (トミカショップ 東京店)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tomica Shop Tokyo Character Street",
+      "verified_address": "Japan, 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ 東京駅一番街 東京キャラクターストリート"
     },
     "gashacoco (gashacoco 吉祥寺元町通り)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=gashacoco%20%E5%90%89%E7%A5%A5%E5%AF%BA%E5%85%83%E7%94%BA%E9%80%9A%E3%82%8A",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7043122,139.5794762&query_place_id=ChIJK_uU_bfvGGARHQdBOz663BY",
       "nav_dict": [
         "gashacoco",
         "gashacoco (gashacoco 吉祥寺元町通り)"
@@ -503,27 +575,41 @@
       "html": [
         "gashacoco (gashacoco 吉祥寺元町通り)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "gashacoco Kichijoji Motomachi Street(Capsule Toy Store)",
+      "verified_address": "Japan, 〒180-0004 Tokyo, Musashino, Kichijōji Honchō, 1-chōme−8−２２ パレスビル 1Ｆ"
     },
-    "https://www.google.com/maps/search/?api=": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7153869,139.7758257&query_place_id=ChIJo3N_X5yOGGARRm670m3Gj_E",
-      "nav_dict": [],
-      "text_entities": [],
-      "first_dest": [
-        "2_國立西洋美術館"
+    "國立西洋美術館 (国立西洋美術館)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7153869,139.7758138&query_place_id=ChIJf8xB-pyOGGARizzhlNTcI7s",
+      "nav_dict": [
+        "國立西洋美術館 (国立西洋美術館)"
       ],
-      "html": [],
-      "verified_at": "2026-08-14"
+      "text_entities": [
+        "國立西洋美術館"
+      ],
+      "first_dest": [],
+      "html": [
+        "國立西洋美術館 (国立西洋美術館)"
+      ],
+      "verified_at": "2026-08-14",
+      "verified_name": "The National Museum of Western Art",
+      "verified_address": "7-7 Uenokōen, Taito City, Tokyo 110-0007, Japan"
     },
-    "https://www.google.com/maps/search/?api=＋": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7083768,139.7744318&query_place_id=ChIJS2pQn5SOGGARIvO8fG048X0",
-      "nav_dict": [],
+    "鴨 to 蔥拉麵 (らーめん 鴨to葱)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7083768,139.7752537&query_place_id=ChIJ6-Rvg5-OGGAR99AELnNenOU",
+      "nav_dict": [
+        "鴨 to 蔥拉麵 (らーめん 鴨to葱)"
+      ],
       "text_entities": [],
       "first_dest": [
         "3_鴨 to 蔥拉麵"
       ],
-      "html": [],
-      "verified_at": "2026-08-14"
+      "html": [
+        "鴨 to 蔥拉麵 (らーめん 鴨to葱)"
+      ],
+      "verified_at": "2026-08-14",
+      "verified_name": "Ramen Kamo to Negi Ueno Okachimachi Main Store",
+      "verified_address": "6-chōme-4-15 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "かつや (かつや 御徒町南口店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.706452,139.774601&query_place_id=ChIJ_1sjRaCOGGAREsy5UBC6OLc",
@@ -537,7 +623,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Katsuya",
+      "verified_address": "5-chōme-20-3 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "すき家 (すき家 上野三丁目店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7060633,139.772478&query_place_id=ChIJ87mm5h-MGGARngNQHoLCi8k",
@@ -551,7 +639,9 @@
         "すき家 (すき家 上野三丁目店)",
         "すき家 上野三丁目店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Sukiya Okachimachi Chuodoriten",
+      "verified_address": "Japan, 〒110-0005 Tokyo, Taito City, Ueno, 3-chōme−17, 1F"
     },
     "だし茶漬け えん KITTE丸の内店": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6792913,139.7653382&query_place_id=ChIJqVS6VgCLGGAR-5BoRnVee14",
@@ -565,7 +655,9 @@
         "だし茶漬け えん",
         "だし茶漬け えん KITTE丸の内店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "だし茶漬け＋肉うどん えん KITTE丸の内店",
+      "verified_address": "Japan, 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 2-chōme−7−２ キッテ丸の内 B1F"
     },
     "みなとや食品 (みなとや食品 本店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7083669,139.7746294&query_place_id=ChIJbfIujp-OGGARQpzhp7F2ocY",
@@ -580,7 +672,9 @@
       "html": [
         "みなとや食品"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Minatoya",
+      "verified_address": "4-chōme-1-9 Ueno, Taito City, Tokyo 110-0015, Japan"
     },
     "スシロー 秋葉原中央通り店": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.701526,139.7711875&query_place_id=ChIJ-SFJXgCNGGARjAlrBY5hHL4",
@@ -592,7 +686,9 @@
       "html": [
         "スシロー 秋葉原中央通り店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Sushiro",
+      "verified_address": "Japan, 〒101-0021 Tokyo, Chiyoda City, Sotokanda, 3-chōme−15−１ アキバプレイスビル 8階"
     },
     "一風堂 (一風堂 吉祥寺店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7052815,139.5786162&query_place_id=ChIJZziKmUfuGGAR8iau_mxpQKw",
@@ -608,7 +704,9 @@
         "一風堂 (一風堂 吉祥寺店)",
         "一風堂 吉祥寺店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Ippudo Kichijoji",
+      "verified_address": "Japan, 〒180-0004 Tokyo, Musashino, Kichijōji Honchō, 1-chōme−10−４ 古城会館 1F"
     },
     "三鷹之森吉卜力美術館 (三鷹の森ジブリ美術館)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.696238,139.5704317&query_place_id=ChIJLYwD5TTuGGARBZKEP5BV4U0",
@@ -628,7 +726,9 @@
         "三鷹之森吉卜力美術館",
         "三鷹之森吉卜力美術館 (三鷹の森ジブリ美術館)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Ghibli Museum",
+      "verified_address": "1-chōme-1-83 Shimorenjaku, Mitaka, Tokyo 181-0013, Japan"
     },
     "三鷹站": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7027156,139.5610291&query_place_id=ChIJQ6xBTbDvGGARWjMM50vhcgE",
@@ -640,7 +740,9 @@
       "html": [
         "三鷹站"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Mitaka Station",
+      "verified_address": "3-chōme-46-1 Shimorenjaku, Mitaka, Tokyo 181-0013, Japan"
     },
     "三鷹站 (三鷹駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7027156,139.5610291&query_place_id=ChIJQ6xBTbDvGGARWjMM50vhcgE",
@@ -652,10 +754,12 @@
         "4_前往三鷹"
       ],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Mitaka Station",
+      "verified_address": "3-chōme-46-1 Shimorenjaku, Mitaka, Tokyo 181-0013, Japan"
     },
     "上野公園噴水廣場 (上野恩賜公園 噴水広場)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7147557,139.7745778&query_place_id=ChIJw2qQRZuOGGARWmROEiM2y7E",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7147557,139.7734312&query_place_id=ChIJw2qQRZuOGGARWmROEiM2y7E",
       "nav_dict": [
         "上野公園噴水廣場 (上野恩賜公園 噴水広場)",
         "上野公園大噴水廣場 (上野恩賜公園 大噴水)"
@@ -665,17 +769,23 @@
         "2_傍晚戶外悠閒漫步"
       ],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Ueno Park",
+      "verified_address": "4 Uenokoen, Taito City, Tokyo 110-0007, Japan",
+      "poi_level": "container",
+      "container_note": "Google 無獨立 POI，導航指向上野恩賜公園"
     },
     "上野恩賜公園 (上野恩賜公園)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7140707,139.7741315&query_place_id=ChIJw2qQRZuOGGARWmROEiM2y7E",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7147557,139.7734312&query_place_id=ChIJw2qQRZuOGGARWmROEiM2y7E",
       "nav_dict": [
         "上野恩賜公園 (上野恩賜公園)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Ueno Park",
+      "verified_address": "4 Uenokoen, Taito City, Tokyo 110-0007, Japan"
     },
     "上野恩賜公園 噴水広場": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7147557,139.7734312&query_place_id=ChIJw2qQRZuOGGARWmROEiM2y7E",
@@ -690,7 +800,11 @@
       "html": [
         "上野公園噴水廣場"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Ueno Park",
+      "verified_address": "4 Uenokoen, Taito City, Tokyo 110-0007, Japan",
+      "poi_level": "container",
+      "container_note": "Google 無獨立 POI，導航指向上野恩賜公園"
     },
     "上野東照宮": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7153719,139.7707328&query_place_id=ChIJP7lRfyiMGGARqb1QQhfm9EQ",
@@ -702,7 +816,9 @@
       "html": [
         "上野東照宮"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Ueno Toshogu Shrine",
+      "verified_address": "9-88 Uenokōen, Taito City, Tokyo 110-0007, Japan"
     },
     "上野站 (上野駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw",
@@ -714,10 +830,12 @@
       "html": [
         "上野站 (上野駅)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Ueno Station",
+      "verified_address": "7 Chome-1 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "不忍池 (不忍池 弁天堂)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7122453,139.7708284&query_place_id=ChIJo8VKlCCMGGARarjlIsaLY1g",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7121418,139.7710956&query_place_id=ChIJd9rFFieMGGAR0zV_avi5q-8",
       "nav_dict": [
         "不忍池"
       ],
@@ -729,20 +847,24 @@
       "html": [
         "不忍池"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Shinobazu no Ike Bentendō",
+      "verified_address": "2-1 Uenokōen, Taito City, Tokyo 110-0007, Japan"
     },
     "不忍池 (不忍池 弁天堂)＋": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7122453,139.7709849&query_place_id=ChIJz-n2a5yOGGARkO91888iW-Q",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7121418,139.7710956&query_place_id=ChIJd9rFFieMGGAR0zV_avi5q-8",
       "nav_dict": [
         "不忍池 (不忍池 弁天堂)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Shinobazu no Ike Bentendō",
+      "verified_address": "2-1 Uenokōen, Taito City, Tokyo 110-0007, Japan"
     },
     "世界市集 (ワールドバザール)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6335001,139.8795001&query_place_id=ChIJe-a0-daOGGAR0vL55w7G8pR",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6342994,139.8795646&query_place_id=ChIJ6QHIuhZ9GGARYwf8I_89e4Y",
       "nav_dict": [
         "世界市集 (ワールドバザール)"
       ],
@@ -751,7 +873,9 @@
         "2_世界市集紀念品採買與出園"
       ],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "World Bazaar",
+      "verified_address": "Japan, 〒279-8511 Chiba, Urayasu, Maihama, １−１"
     },
     "串家物語 (神楽食堂 串家物語 吉祥寺店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7048979,139.5802557&query_place_id=ChIJNbTiyUfuGGAR6lter_U3i7g",
@@ -769,7 +893,9 @@
         "串家物語 (神楽食堂 串家物語 吉祥寺店)",
         "串家物語 吉祥寺店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Kushiyamonogata Kichijojiten",
+      "verified_address": "1-chōme-11-30-711 Kichijōji Honchō, Musashino, Tokyo 180-0004, Japan"
     },
     "丸龜製麵 (丸亀製麺 秋葉原店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6984426,139.7724317&query_place_id=ChIJFa5T2GqNGGARmSiHDgcJFf8",
@@ -783,7 +909,9 @@
         "丸龜製麵 (丸亀製麺 秋葉原店)",
         "丸龜製麵 秋葉原店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Marugame Seimen atre Akihabara 1 Shop",
+      "verified_address": "Japan, 〒101-0021 Tokyo, Chiyoda City, Sotokanda, 1-chōme−17−６ アトレ秋葉原1 1F"
     },
     "二木菓子 (二木の菓子 第一営業所)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7083528,139.7744756&query_place_id=ChIJ8ez-kZ-OGGARyxJTsXAcAjk",
@@ -802,7 +930,9 @@
         "二木菓子",
         "二木菓子 (二木の菓子 第一営業所)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Niki no Kashi",
+      "verified_address": "4-chōme-1-8 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "井之頭恩賜公園": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.69974759999999,139.5737018&query_place_id=ChIJLWaVdDXuGGART_Pg1R3CZ4A",
@@ -816,30 +946,36 @@
       "html": [
         "井之頭恩賜公園"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Inokashira Park",
+      "verified_address": "1-chōme-18-31 Gotenyama, Musashino, Tokyo 180-0005, Japan"
     },
     "井之頭恩賜公園 (井の頭恩賜公園)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7001429,139.5760205&query_place_id=ChIJo3N_X5yOGGARyv4l77z-WHQ",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6997476,139.5737018&query_place_id=ChIJLWaVdDXuGGART_Pg1R3CZ4A",
       "nav_dict": [
         "井之頭恩賜公園 (井の頭恩賜公園)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Inokashira Park",
+      "verified_address": "1-chōme-18-31 Gotenyama, Musashino, Tokyo 180-0005, Japan"
     },
     "井之頭池 (井の頭池)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.69974759999999,139.5769222&query_place_id=ChIJG9eUqDfuGGAR_ea8Odfq2MA",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7001342,139.5772634&query_place_id=ChIJG9eUqDfuGGAR_ea8Odfq2MA",
       "nav_dict": [
         "井之頭池 (井の頭池)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Inokashira Pond",
+      "verified_address": "4 Chome-1 Inokashira, Mitaka, Tokyo 181-0001, Japan"
     },
     "京急 羽田機場第3航廈站 (羽田空港第3ターミナル駅)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.544843,139.768443&query_place_id=ChIJsXfyslZhGGARbL8nFGOsncU",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.5446472,139.7677877&query_place_id=ChIJsXfyslZhGGARbL8nFGOsncU",
       "nav_dict": [
         "京急 羽田機場第3航廈站",
         "京急 羽田機場第3航廈站 (羽田空港第3ターミナル駅)"
@@ -847,7 +983,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Haneda Airport Terminal 3 Station",
+      "verified_address": "Japan, 〒144-0041 東京都大田区Hanedakūkō, 2-chōme−５−１"
     },
     "仲見世商店街 (仲見世商店街)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7118413,139.7964542&query_place_id=ChIJPd37MMGOGGARvJ2hfxoiNVE",
@@ -862,7 +1000,9 @@
       "html": [
         "仲見世商店街 (仲見世商店街)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Nakamise Shopping Street",
+      "verified_address": "1-chōme-36-3 Asakusa, Taito City, Tokyo 111-0032, Japan"
     },
     "兔屋 (うさぎや)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7061495,139.7718239&query_place_id=ChIJ2zdQ8x-MGGARevmtQEbnfWo",
@@ -877,7 +1017,9 @@
       "html": [
         "兔屋 (うさぎや)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Usagiya",
+      "verified_address": "1-chōme-10-10 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "八丁堀站": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6746248,139.7768846&query_place_id=ChIJO1wpfl6JGGARjNtDmO2lRrI",
@@ -889,10 +1031,12 @@
       "html": [
         "八丁堀站"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Hatchōbori Station",
+      "verified_address": "3 Chome-22 Hatchobori, Chuo City, Tokyo 104-0032, Japan"
     },
     "八丁堀站 (八丁堀駅)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.674998,139.777402&query_place_id=ChIJO1wpfl6JGGARjNtDmO2lRrI",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6746248,139.7768846&query_place_id=ChIJO1wpfl6JGGARjNtDmO2lRrI",
       "nav_dict": [
         "八丁堀站 (八丁堀駅)"
       ],
@@ -901,7 +1045,9 @@
       "html": [
         "八丁堀站 (八丁堀駅)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Hatchōbori Station",
+      "verified_address": "3 Chome-22 Hatchobori, Chuo City, Tokyo 104-0032, Japan"
     },
     "利久牛舌 (牛たん炭焼 利久 東京ソラマチ店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7102538,139.8124786&query_place_id=ChIJrfccWNaOGGARVhFln5H6kug",
@@ -917,7 +1063,9 @@
         "利久牛舌 (牛たん炭焼 利久 東京ソラマチ店)",
         "利久牛舌 晴空塔店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Rikyu Charcoal-Grilled Beef Tongue",
+      "verified_address": "Japan, 〒131-0045 Tokyo, Sumida City, Oshiage, 1-chōme−1−２ 東京スカイツリータウン ソラマチ6F"
     },
     "友都八喜 (ヨドバシカメラ マルチメディアAkiba)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.698917,139.774798&query_place_id=ChIJGU_M2aeOGGARdnOLcMYXuXs",
@@ -931,10 +1079,12 @@
         "友都八喜",
         "友都八喜 (ヨドバシカメラ マルチメディアAkiba)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Yodobashi Akiba",
+      "verified_address": "1-1 Kanda Hanaokachō, Chiyoda City, Tokyo 101-0028, Japan"
     },
     "台場站 (台場駅)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6259459,139.7714957&query_place_id=ChIJuSwSCR2KGGAR-N7KPSFFRXM",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6259459,139.7714957&query_place_id=ChIJhSSiCx2KGGARMH8prUZIf4M",
       "nav_dict": [
         "台場站 (台場駅)"
       ],
@@ -943,20 +1093,24 @@
       "html": [
         "台場站 (台場駅)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Daiba Station",
+      "verified_address": "2 Chome-6 Daiba, Minato City, Tokyo 135-0091, Japan"
     },
     "吉伊卡哇專賣店 (ちいかわらんど TOKYO Station)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6813803,139.7672203&query_place_id=ChIJN8ZtQVOLGGARHqT_8o2w3k8",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6821886,139.7686315&query_place_id=ChIJuX8Ow12LGGARqzPAGzb7mxg",
       "nav_dict": [
         "吉伊卡哇專賣店 (ちいかわらんど TOKYO Station)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Chiikawa Land TOKYO Station",
+      "verified_address": "JR Tokyo Station, 1-chōme-9-1 Marunouchi, Chiyoda City, Tokyo 100-0005, Japan"
     },
     "吉祥寺 Sunroad 商店街 (吉祥寺サンロード商店街)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7050504,139.580504&query_place_id=ChIJ8W2Ms0fuGGAR5CNgR7olN8g",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7038362,139.5798441&query_place_id=ChIJ8VJw6UfuGGARipDI2iZLP9o",
       "nav_dict": [
         "吉祥寺 Sunroad 商店街",
         "吉祥寺 Sunroad 商店街 (吉祥寺サンロード商店街)",
@@ -972,7 +1126,9 @@
         "吉祥寺 Sunroad 商店街",
         "大創 (DAISO 吉祥寺サンロード店)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Kichijoji SUNROAD shopping district",
+      "verified_address": "1-chōme-15-1 Kichijōji Honchō, Musashino, Tokyo 180-0004, Japan"
     },
     "吉祥寺站": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7031125,139.5801608&query_place_id=ChIJCalq8UfuGGARr6-Rc3R6atQ",
@@ -984,7 +1140,9 @@
       "html": [
         "吉祥寺站"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Kichijōji Station",
+      "verified_address": "Japan, 〒180-0003 Tokyo, Musashino, Kichijōji Minamichō, 1-chōme−１"
     },
     "吉野家 (吉野家 御徒町駅前店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7080179,139.7740346&query_place_id=ChIJ8d2S8p-OGGARSVSv1dotT6g",
@@ -998,7 +1156,9 @@
         "2_吉野家"
       ],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Yoshinoya",
+      "verified_address": "4-chōme-2-1 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "吉野家 (吉野家 浅草橋店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.697878,139.786407&query_place_id=ChIJM2s0MnaPGGARLSDkTkqBlG4",
@@ -1020,7 +1180,9 @@
         "吉野家 (吉野家 浅草橋店)",
         "吉野家 浅草橋店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Yoshinoya",
+      "verified_address": "1-chōme-30-1 Asakusabashi, Taito City, Tokyo 111-0053, Japan"
     },
     "名代 宇奈とと (名代 宇奈とと 上野店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7111357,139.7748663&query_place_id=ChIJ6RMcXZ6OGGARLLk8PdeakXs",
@@ -1037,10 +1199,12 @@
         "名代 宇奈とと (名代 宇奈とと 上野店)",
         "名代 宇奈とと 上野店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Nadai Unatoto",
+      "verified_address": "6-chōme-11-15 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "哈莫尼卡橫丁 (ハーモニカ横丁)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=%E3%83%8F%E3%83%BC%E3%83%A2%E3%83%8B%E3%82%AB%E6%A8%AA%E4%B8%81",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7035959,139.5790815&query_place_id=ChIJZXco9RXvGGARYzRNqY-U-o8",
       "nav_dict": [
         "哈莫尼卡橫丁 (ハーモニカ横丁)"
       ],
@@ -1051,7 +1215,9 @@
       "html": [
         "哈莫尼卡橫丁 (ハーモニカ横丁)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Harmonica Yokocho",
+      "verified_address": "1-chōme-1-3 Kichijōji Honchō, Musashino, Tokyo 180-0004, Japan"
     },
     "喫茶 Tricolore (喫茶トリコロール 松坂屋上野店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7078274,139.7733625&query_place_id=ChIJq-gr-5-OGGARval_iCHtxlw",
@@ -1062,7 +1228,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "喫茶トリコロール 松坂屋上野店",
+      "verified_address": "Japan, 〒110-8503 Tokyo, Taito City, Ueno, 3-chōme−29−５ 4F"
     },
     "喫茶 トリコロール (松坂屋本館 2F)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7078274,139.7733625&query_place_id=ChIJq-gr-5-OGGARval_iCHtxlw",
@@ -1078,7 +1246,9 @@
         "喫茶 トリコロール (松坂屋本館 2F)",
         "喫茶トリコロール"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "喫茶トリコロール 松坂屋上野店",
+      "verified_address": "Japan, 〒110-8503 Tokyo, Taito City, Ueno, 3-chōme−29−５ 4F"
     },
     "國立科學博物館 (国立科学博物館)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7164273,139.7763336&query_place_id=ChIJ8Vuh65yOGGARyj4L5IBFiIk",
@@ -1094,22 +1264,9 @@
         "國立科學博物館",
         "國立科學博物館 (国立科学博物館)"
       ],
-      "verified_at": "2026-08-14"
-    },
-    "國立西洋美術館 (国立西洋美術館)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7153869,139.7758138&query_place_id=ChIJf8xB-pyOGGARizzhlNTcI7s",
-      "nav_dict": [
-        "國立西洋美術館",
-        "國立西洋美術館 (国立西洋美術館)"
-      ],
-      "text_entities": [
-        "國立西洋美術館"
-      ],
-      "first_dest": [],
-      "html": [
-        "國立西洋美術館"
-      ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "National Museum of Nature and Science",
+      "verified_address": "7-20 Uenokōen, Taito City, Tokyo 110-8718, Japan"
     },
     "國際展示場站 (国際展示場駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6344246,139.7916459&query_place_id=ChIJjbq5s-mJGGAR0GKPNjCtoPQ",
@@ -1121,7 +1278,9 @@
       "html": [
         "國際展示場站 (国際展示場駅)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Kokusai-tenjijō Station",
+      "verified_address": "3 Chome-7 Ariake, Koto City, Tokyo 135-0063, Japan"
     },
     "墨田水族館 (すみだ水族館)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7099301,139.8095855&query_place_id=ChIJO6bK3daOGGARYEFGg4Xm-VI",
@@ -1140,7 +1299,9 @@
         "墨田水族館",
         "墨田水族館 (すみだ水族館)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Sumida Aquarium",
+      "verified_address": "Japan, 〒131-0045 Tokyo, Sumida City, Oshiage, 1-chōme−1−２ 東京スカイツリータウン・ソラマチ ５階～６階"
     },
     "壽司郎 (スシロー 秋葉原駅前店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.698736,139.77189&query_place_id=ChIJMfORxzyNGGARskRptNTnsVE",
@@ -1156,7 +1317,9 @@
         "壽司郎 (スシロー 秋葉原駅前店)",
         "壽司郎 秋葉原駅前店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Sushiro",
+      "verified_address": "Japan, 〒101-0021 Tokyo, Chiyoda City, Sotokanda, 1-chōme−18−１９ BiTO AKIBA B1F"
     },
     "多慶屋 (多慶屋 TAKEYA 1)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7068257,139.7768298&query_place_id=ChIJrdKWej2PGGARePk-9rp1pos",
@@ -1175,30 +1338,36 @@
         "多慶屋",
         "多慶屋 (多慶屋 TAKEYA 1)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "TAKEYA 1（多慶屋 食品・生活館）",
+      "verified_address": "4-chōme-12-1 Taitō, Taito City, Tokyo 110-0016, Japan"
     },
     "多慶屋 (多慶屋 TAKEYA 1號館)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7068257,139.7766029&query_place_id=ChIJn8vSn5SOGGARj0X_4k3D4lA",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7068257,139.7768298&query_place_id=ChIJrdKWej2PGGARePk-9rp1pos",
       "nav_dict": [
         "多慶屋 (多慶屋 TAKEYA 1號館)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "TAKEYA 1（多慶屋 食品・生活館）",
+      "verified_address": "4-chōme-12-1 Taitō, Taito City, Tokyo 110-0016, Japan"
     },
     "多慶屋 (多慶屋 TAKEYA1)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7068257,139.7770977&query_place_id=ChIJi8e8_JuOGGAR5e4o-gq0F88",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7068257,139.7768298&query_place_id=ChIJrdKWej2PGGARePk-9rp1pos",
       "nav_dict": [
         "多慶屋 (多慶屋 TAKEYA1)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "TAKEYA 1（多慶屋 食品・生活館）",
+      "verified_address": "4-chōme-12-1 Taitō, Taito City, Tokyo 110-0016, Japan"
     },
     "夥伴雕像 (パートナーズ像)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.633055,139.880416",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ",
       "nav_dict": [
         "夥伴雕像",
         "夥伴雕像 (パートナーズ像)"
@@ -1206,7 +1375,11 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo Disneyland",
+      "verified_address": "1-1 Maihama, Urayasu, Chiba 279-0031, Japan",
+      "poi_level": "container",
+      "container_note": "Google 無獨立 POI，導航指向東京迪士尼樂園園區"
     },
     "大戶屋 (大戶屋ごはん処 吉祥寺店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7032718,139.5784738&query_place_id=ChIJ-34cDUjuGGARIZkFocT8a5o",
@@ -1225,7 +1398,9 @@
         "大戶屋 (大戸屋ごはん処 吉祥寺店)",
         "大戶屋 吉祥寺店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Ootoya Kichijoji",
+      "verified_address": "Japan, 〒180-0004 Tokyo, Musashino, Kichijōji Honchō, 1-chōme−4−１５ ホワイトハウス 2F"
     },
     "天丼てんや (天丼てんや 八重洲店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6790668,139.7679772&query_place_id=ChIJzQEVm_yLGGAR1QSl3jr9CNU",
@@ -1241,10 +1416,12 @@
         "天丼てんや (天丼てんや 八重洲店)",
         "天丼てんや 八重洲店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tendon Tenya Yaesu Restaurant",
+      "verified_address": "Japan, 〒104-0028 Tokyo, Chuo City, Yaesu, 2-chōme−9−１ 地下街南 １号"
     },
     "天音 (有職たい菓子本舗 天音)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=%E6%9C%89%E8%81%B7%E3%81%9F%E3%81%84%E8%8F%93%E5%AD%90%E6%9C%AC%E8%88%97%20%E5%A4%A9%E9%9F%B3%20%E5%90%89%E7%A5%A5%E5%AF%BA",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7038412,139.5792430&query_place_id=ChIJc5dW5kfuGGARQId7I7u99hc",
       "nav_dict": [
         "天音",
         "天音 (有職たい菓子本舗 天音)"
@@ -1254,7 +1431,9 @@
       "html": [
         "天音 (有職たい菓子本舗 天音)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Amane Taiyaki",
+      "verified_address": "1-chōme-1-9 Kichijōji Honchō, Musashino, Tokyo 180-0004, Japan"
     },
     "奧爾良劇場 (シアターオーリンズ)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6341151,139.8815492&query_place_id=ChIJxeUaFhF9GGARy1fbZhwja0M",
@@ -1264,7 +1443,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Theatre Orleans",
+      "verified_address": "Japan, 〒279-0031 Chiba, Urayasu, Maihama, 1−１ 東京ディズニーランド アドベンチャーランド"
     },
     "客美多咖啡 (コメダ珈琲店 上野広小路店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7087031,139.7729243&query_place_id=ChIJe_0tCHGPGGARZjMuzjwV0Jc",
@@ -1277,10 +1458,12 @@
         "2_室內基地營避暑"
       ],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "KOMEDA'S Coffee",
+      "verified_address": "Japan, 〒110-0005 Tokyo, Taito City, Ueno, 2-chōme−6−１２ 上野東洋ビル ２Ｆ"
     },
     "宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7102333,139.8115747&query_place_id=ChIJD9Pd-daOGGARCYgMMXqki5E",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7100876,139.8106698&query_place_id=ChIJUaJR8NaOGGAR9-rraNT1PZo",
       "nav_dict": [
         "一風堂 (一風堂 東京ソラマチ店)",
         "一風堂 晴空塔店",
@@ -1304,7 +1487,9 @@
         "宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)",
         "東京晴空街道 (東京ソラマチ)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Miyatake Sanuki Udon",
+      "verified_address": "Japan, 〒131-0045 Tokyo, Sumida City, Oshiage, 1-chōme−1−2 東京スカイツリータウン・ソラマチ 3F"
     },
     "實物大獨角獸鋼彈立像 (実物大ユニコーンガンダム立像)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.624451,139.7754917&query_place_id=ChIJF6xTyvmJGGARU8t5NIqkNeI",
@@ -1315,7 +1500,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Unicorn Gundam",
+      "verified_address": "Japan, 〒135-0064 Tokyo, Koto City, Aomi, 1-chōme−1−１０ ダイバーシティ東京プラザ内 2Fフェスティバル広場"
     },
     "寶可夢中心 (ポケモンセンタースカイツリータウン)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7102505,139.8123004&query_place_id=ChIJt6u9QtaOGGARHbxorE1IKXw",
@@ -1325,7 +1512,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Pokémon Center Skytree",
+      "verified_address": "Japan, 〒131-0045 Tokyo, Sumida City, Oshiage, 1-chōme−1−２ 東京スカイツリータウン・ソラマチ East Yard 4F"
     },
     "寶可夢商店 (ポケモンストア 東京駅店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6824964,139.7686833&query_place_id=ChIJGeYlX_mLGGAR5X58S2PvaO8",
@@ -1335,10 +1524,12 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Pokémon Store Tokyo Station Shop",
+      "verified_address": "Japan, 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ 東京駅一番街 1F"
     },
     "小ざさ (小ざさ 吉祥寺本店)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E3%81%96%E3%81%95%20%E5%90%89%E7%A5%A5%E5%AF%BA%E6%9C%AC%E7%94%BA1-1-8",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7039775,139.5791044&query_place_id=ChIJJzDG3kfuGGARele8Ej0Qwtc",
       "nav_dict": [
         "小ざさ",
         "小ざさ (小ざさ 吉祥寺本店)"
@@ -1348,7 +1539,9 @@
       "html": [
         "小ざさ (小ざさ 吉祥寺本店)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Ozasa",
+      "verified_address": "1-chōme-1-8 Kichijōji Honchō, Musashino, Tokyo 180-0004, Japan"
     },
     "小熊維尼獵蜜記": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.630542,139.8800801&query_place_id=ChIJiaEbVRd9GGARVz0em8VQFas",
@@ -1360,7 +1553,9 @@
       "html": [
         "小熊維尼獵蜜記"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Pooh's Hunny Hunt",
+      "verified_address": "1-1 Maihama, Urayasu, Chiba 279-0031, Japan"
     },
     "巨雷山 (130cm)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6324683,139.8835266&query_place_id=ChIJk0lZchB9GGARIn8k5SNRH2g",
@@ -1373,7 +1568,9 @@
       "html": [
         "巨雷山"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Big Thunder Mountain",
+      "verified_address": "1-1 Maihama, Urayasu, Chiba 279-0031, Japan"
     },
     "廣場閣樓餐廳": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6328604,139.8814464&query_place_id=ChIJLahNOoJ9GGARr52sz9U-shM",
@@ -1385,17 +1582,21 @@
       "html": [
         "廣場閣樓餐廳"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Plaza Pavilion Restaurant",
+      "verified_address": "1-1 Maihama, Urayasu, Chiba 279-0031, Japan"
     },
     "廣場閣樓餐廳 (プラザパビリオン・レストラン)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6328604,139.8803604&query_place_id=ChIJLahNOoJ9GGARr52sz9U-shM",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6328604,139.8814464&query_place_id=ChIJLahNOoJ9GGARr52sz9U-shM",
       "nav_dict": [
         "廣場閣樓餐廳 (プラザパビリオン・レストラン)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Plaza Pavilion Restaurant",
+      "verified_address": "1-1 Maihama, Urayasu, Chiba 279-0031, Japan"
     },
     "御徒町站 (御徒町駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI",
@@ -1407,7 +1608,9 @@
       "html": [
         "御徒町站 (御徒町駅)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Okachimachi Station",
+      "verified_address": "5 Chome-27 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "拉麵 ろく月 (らーめん ろく月)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6988822,139.7853036&query_place_id=ChIJJXBZm7GOGGARs9xs2jSt0lI",
@@ -1429,7 +1632,9 @@
         "拉麵 ろく月",
         "拉麵 ろく月 (らーめん ろく月)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Rokutsuki",
+      "verified_address": "Japan, 〒111-0053 Tokyo, Taito City, Asakusabashi, 2-chōme−4−５ NYビル 101"
     },
     "摩斯漢堡 (モスバーガー 新宿西口店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.694661,139.698994&query_place_id=ChIJKdESUJGNGGAReuO_-gbd6jY",
@@ -1445,7 +1650,9 @@
         "摩斯漢堡 (モスバーガー 新宿西口店)",
         "摩斯漢堡 新宿西口店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "MOS BURGER Shinjuku West Gate Shop",
+      "verified_address": "7-chōme-1-8 Nishishinjuku, Shinjuku City, Tokyo 160-0023, Japan"
     },
     "新宿站": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6896067,139.7005713&query_place_id=ChIJH7qx1tCMGGAR1f2s7PGhMhw",
@@ -1459,17 +1666,21 @@
       "html": [
         "新宿站"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Shinjuku Station",
+      "verified_address": "3-chōme-38-1 Shinjuku, Shinjuku City, Tokyo 160-0022, Japan"
     },
     "新宿西口地下通路 (新宿副都心4号街路地下道)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.690800,139.696500",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6905813,139.6942589&query_place_id=ChIJ7Y19XNSMGGARHj_BMBTDfIg",
       "nav_dict": [
         "新宿西口地下通路 (新宿副都心4号街路地下道)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Shinjuku Underground Pedestrian Sub-Center 4",
+      "verified_address": "1-chōme Nishishinjuku, Shinjuku City, Tokyo 160-0023, Japan"
     },
     "新橋站 (新橋駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJ4RGu0emLGGARuUX8XtPxUVg",
@@ -1481,7 +1692,9 @@
       "html": [
         "新橋站 (新橋駅)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Shimbashi Station",
+      "verified_address": "2 Chome-17 Shinbashi, Minato City, Tokyo 105-0004, Japan"
     },
     "日本科學未來館 (日本科学未来館)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6193359,139.7763995&query_place_id=ChIJz_149P6JGGARoImMn3NlsfY",
@@ -1493,7 +1706,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Museum of Emerging Science and Innovation",
+      "verified_address": "2-chōme-3-6 Aomi, Koto City, Tokyo 135-0064, Japan"
     },
     "日系拍貼機體驗 (Purikura / GiGO 拍貼機專區)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6992456,139.7709552&query_place_id=ChIJR-PMBx2MGGARPFrgtULaJB0",
@@ -1507,10 +1722,12 @@
         "GiGO 秋葉原3號館",
         "日系拍貼機體驗 (Purikura / GiGO 拍貼機專區)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "GiGO Akihabara Building 3",
+      "verified_address": "Japan, 〒101-0021 Tokyo, Chiyoda City, Sotokanda, 1-chōme−11−１１ 1丁目ビルディング"
     },
     "日間遊行「迪士尼眾彩交融」 (ディズニー・ハーモニー・イン・カラー)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJcRLMWRd9GGAR53hJkYCYyxw",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ",
       "nav_dict": [
         "日間遊行「迪士尼眾彩交融」 (ディズニー・ハーモニー・イン・カラー)"
       ],
@@ -1519,7 +1736,11 @@
       "html": [
         "日間遊行「迪士尼眾彩交融」 (ディズニー・ハーモニー・イン・カラー)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo Disneyland",
+      "verified_address": "1-1 Maihama, Urayasu, Chiba 279-0031, Japan",
+      "poi_level": "container",
+      "container_note": "遊行表演，導航指向東京迪士尼樂園園區"
     },
     "明日樂園舞台餐廳": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6319086,139.8795571&query_place_id=ChIJTzLkOhd9GGAR_-mrdmCJEn0",
@@ -1531,17 +1752,21 @@
       "html": [
         "明日樂園舞台餐廳"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tomorrowland Terrace",
+      "verified_address": "Japan, 〒279-0031 Chiba, Urayasu, Maihama, １−１ 東京ディズニーランド トゥモローランド 内"
     },
     "明日樂園舞台餐廳 (トゥモローランド・テラス)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJTzLkOhd9GGAR_-mrdmCJEn0",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6319086,139.8795571&query_place_id=ChIJTzLkOhd9GGAR_-mrdmCJEn0",
       "nav_dict": [
         "明日樂園舞台餐廳 (トゥモローランド・テラス)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tomorrowland Terrace",
+      "verified_address": "Japan, 〒279-0031 Chiba, Urayasu, Maihama, １−１ 東京ディズニーランド トゥモローランド 内"
     },
     "東京國立博物館 (東京国立博物館)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7188351,139.7765215&query_place_id=ChIJEX3XFIOOGGAR3XdJvRjWLyM",
@@ -1553,10 +1778,12 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo National Museum",
+      "verified_address": "13-9 Uenokōen, Taito City, Tokyo 110-8712, Japan"
     },
     "東京國際郵輪碼頭站 (東京国際クルーズターミナル駅)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.621213,139.772592&query_place_id=ChIJbRi2oviJGGARCPAeqoxF6_Y",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6214209,139.7730549&query_place_id=ChIJbRi2oviJGGARCPAeqoxF6_Y",
       "nav_dict": [
         "東京國際郵輪碼頭站 (東京国際クルーズターミナル駅)"
       ],
@@ -1565,7 +1792,9 @@
       "html": [
         "東京國際郵輪碼頭站 (東京国際クルーズターミナル駅)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo International Cruise Terminal Station",
+      "verified_address": "Japan, 〒135-0064 東京都江東区Aomi, ２−５−７"
     },
     "東京文化會館 (東京文化会館)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7144707,139.7751315&query_place_id=ChIJRRISsp2OGGARTNMhXv2t-BQ",
@@ -1575,7 +1804,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo Metropolitan Festival Hall",
+      "verified_address": "5-45 Uenokōen, Taito City, Tokyo 110-8716, Japan"
     },
     "東京晴空塔 (東京スカイツリー)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7100627,139.8107004&query_place_id=ChIJ35ov0dCOGGARKvdDH7NPHX0",
@@ -1593,7 +1824,9 @@
         "東京晴空塔",
         "東京晴空塔 (東京スカイツリー)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo Skytree",
+      "verified_address": "1-chōme-1-2 Oshiage, Sumida City, Tokyo 131-0045, Japan"
     },
     "東京晴空塔站": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7095445,139.8090493&query_place_id=ChIJ5_rl0daOGGAR0BEODNSc_W8",
@@ -1605,10 +1838,12 @@
       "html": [
         "東京晴空塔站"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo Skytree Station",
+      "verified_address": "1 Chome-1 Oshiage, Sumida City, Tokyo 131-0045, Japan"
     },
     "東京晴空塔站 (とうきょうスカイツリー駅)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7100627,139.8107004&query_place_id=ChIJ5_rl0daOGGAR0BEODNSc_W8",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7095445,139.8090493&query_place_id=ChIJ5_rl0daOGGAR0BEODNSc_W8",
       "nav_dict": [
         "東京晴空塔站 (とうきょうスカイツリー駅)"
       ],
@@ -1617,7 +1852,9 @@
       "html": [
         "東京晴空塔站 (とうきょうスカイツリー駅)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo Skytree Station",
+      "verified_address": "1 Chome-1 Oshiage, Sumida City, Tokyo 131-0045, Japan"
     },
     "東京站 (東京駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6812996,139.7670659&query_place_id=ChIJC3Cf2PuLGGAROO00ukl8JwA",
@@ -1629,7 +1866,9 @@
       "html": [
         "東京站 (東京駅)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo Station",
+      "verified_address": "1 Chome-9 Marunouchi, Chiyoda City, Tokyo 100-0005, Japan"
     },
     "東京菓子樂園 (東京おかしランド)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.680931,139.7682387&query_place_id=ChIJESNWC_yLGGARctOSTpDcc8Q",
@@ -1642,7 +1881,9 @@
       "html": [
         "東京菓子樂園 (東京おかしランド)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo Okashi Land",
+      "verified_address": "1-chōme-9-1 Marunouchi, Chiyoda City, Tokyo 100-0005, Japan"
     },
     "東京車站": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6812996,139.7670658&query_place_id=ChIJC3Cf2PuLGGAROO00ukl8JwA",
@@ -1658,10 +1899,12 @@
         "東京站",
         "東京車站"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo Station",
+      "verified_address": "1 Chome-9 Marunouchi, Chiyoda City, Tokyo 100-0005, Japan"
     },
     "東京車站一番街 (東京駅一番街)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%A7%85%E4%B8%80%E7%95%AA%E8%A1%97",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6822889,139.7684903&query_place_id=ChIJaQ_xQPyLGGARBPvtwIjivTA",
       "nav_dict": [
         "東京車站一番街",
         "東京車站一番街 (東京駅一番街)"
@@ -1678,7 +1921,9 @@
         "東京車站一番街",
         "東京車站一番街 (東京駅一番街)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "First Avenue Tokyo Station",
+      "verified_address": "1-chōme-9-1 Marunouchi, Chiyoda City, Tokyo 100-0005, Japan"
     },
     "東京車站丸之內站舍 (東京駅丸の内駅舎)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6814247,139.7659944&query_place_id=ChIJE9qjZ0-LGGARQiAs8hULJsg",
@@ -1697,10 +1942,12 @@
         "東京車站丸之內站舍",
         "東京車站丸之內站舍 (東京駅丸の内駅舎)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo Station Marunouchi Building",
+      "verified_address": "1-chōme-9-1 Marunouchi, Chiyoda City, Tokyo 100-0005, Japan"
     },
     "東京迪士尼樂園 (東京ディズニーランド)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJcRLMWRd9GGAR53hJkYCYyxw",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ",
       "nav_dict": [
         "城堡前廣場",
         "城堡前廣場 (プラザ)",
@@ -1712,7 +1959,9 @@
       "html": [
         "東京迪士尼樂園"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo Disneyland",
+      "verified_address": "1-1 Maihama, Urayasu, Chiba 279-0031, Japan"
     },
     "東京迪士尼樂園東巴士總站 1 號站牌 (東京ディズニーランド・バスターミナル・イースト 1番のりば)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6364946,139.8807661&query_place_id=ChIJ3w8y8xN9GGARe5_gvaoDCMo",
@@ -1723,7 +1972,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo Disneyland Bus Terminal East",
+      "verified_address": "1-1 Maihama, Urayasu, Chiba 279-0031, Japan"
     },
     "東京迷你世界博物館 (ミニチュアミュージアム スモールワールズ)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6379228,139.7883556&query_place_id=ChIJZRKFm-eJGGARglEoaF4NcC8",
@@ -1736,10 +1987,12 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "small worlds",
+      "verified_address": "Japan, 〒135-0063 Tokyo, Koto City, Ariake, 1-chōme−3−３３ 有明物流センター"
     },
     "東京都廳南展望室 (東京都庁 南展望室)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6894807,139.6916863&query_place_id=ChIJoTcat9SMGGAR6GGG8zdcZvE",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6893249,139.6918129&query_place_id=ChIJ_UlItvCNGGARP1NMx2sFsYg",
       "nav_dict": [
         "東京都廳",
         "東京都廳 (東京都庁)",
@@ -1758,10 +2011,12 @@
         "東京都廳",
         "東京都廳第一本廳舍 (東京都庁舎)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "South Observation Deck, Tokyo Metropolitan Government Building No. 1",
+      "verified_address": "Japan, 〒160-8001 Tokyo, Shinjuku City, Nishishinjuku, 2-chōme−8−１ Tochomae Station, 45階"
     },
     "東武 淺草站 (東武浅草駅)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7118,139.7977&query_place_id=ChIJL68h0YmNGGARm2u01N4793Y",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7119535,139.7983367&query_place_id=ChIJLyyKQTiPGGARsFv-uaDdzwo",
       "nav_dict": [
         "東武 淺草站",
         "東武 淺草站 (東武浅草駅)",
@@ -1770,7 +2025,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Asakusa Station",
+      "verified_address": "1-chōme-4-1 Hanakawado, Taito City, Tokyo 111-0033, Japan"
     },
     "東銀座站": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6697003,139.7671399&query_place_id=ChIJK2bxJueLGGARwHHeH52hGiM",
@@ -1782,7 +2039,9 @@
       "html": [
         "東銀座站"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Higashi-ginza Sta.",
+      "verified_address": "4-chōme-10-１０先 Ginza, Chuo City, Tokyo 104-0061, Japan"
     },
     "東銀座站 (東銀座駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6697003,139.7672886&query_place_id=ChIJK2bxJueLGGARwHHeH52hGiM",
@@ -1794,7 +2053,9 @@
       "html": [
         "東銀座站 (東銀座駅)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Higashi-ginza Sta.",
+      "verified_address": "4-chōme-10-１０先 Ginza, Chuo City, Tokyo 104-0061, Japan"
     },
     "松坂屋地下美食街 (松坂屋上野店 ほっぺタウン)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o",
@@ -1818,7 +2079,9 @@
         "松坂屋地下美食街",
         "松坂屋地下美食街 (松坂屋上野店 ほっぺタウン)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Matsuzakaya Ueno",
+      "verified_address": "3-chōme-29-5 Ueno, Taito City, Tokyo 110-8503, Japan"
     },
     "松屋 (松屋 上野店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.710037,139.773889&query_place_id=ChIJZ44cNJ6OGGAR5MROF68O1B0",
@@ -1832,7 +2095,9 @@
         "松屋 (松屋 上野店)",
         "松屋 上野店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Matsuya Ueno",
+      "verified_address": "Japan, 〒110-0005 Tokyo, Taito City, Ueno, 4-chōme−9−５ 石井ビル 1F.2F"
     },
     "松屋 (松屋 押上店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.710448,139.8142155&query_place_id=ChIJmeev5CmPGGARBOtl8Si0G2o",
@@ -1844,7 +2109,9 @@
       "html": [
         "松屋 (松屋 押上店)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Matsuya Oshiage",
+      "verified_address": "Taki Bldg., 1-chōme-11-3 Oshiage, Sumida City, Tokyo 131-0045, Japan"
     },
     "松屋 (松屋 浅草橋店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.696998,139.786388&query_place_id=ChIJW_fJurOOGGARyv4l77z-WHQ",
@@ -1861,7 +2128,9 @@
         "松屋 (松屋 浅草橋店)",
         "松屋 浅草橋店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Matsuya Asakusabashi",
+      "verified_address": "Japan, 〒111-0052 Tokyo, Taito City, Yanagibashi, 1-chōme−13−４ 1.2F"
     },
     "松本清 (マツモトキヨシ 上野アメ横Part1店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7106717,139.7744501&query_place_id=ChIJJz9gCDKPGGAROxkLYxlbGYs",
@@ -1874,17 +2143,21 @@
       "html": [
         "松本清 (マツモトキヨシ 上野アメ横Part1店)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Matsumoto Kiyoshi Ueno Ameyoko Part1",
+      "verified_address": "4-chōme-10-16 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "松本清 (マツモトキヨシ 上野アメ横店)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7099502,139.7747201&query_place_id=ChIJY-y5k5SOGGARxK308s2j1jM",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7091490,139.7746410&query_place_id=ChIJ83IE5wyPGGAR_OTlmTFOWrA",
       "nav_dict": [
         "松本清 (マツモトキヨシ 上野アメ横店)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Matsumoto Kiyoshi Ueno Ameyoko Part2",
+      "verified_address": "4-chōme-7-17 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "森林劇院 (ファンタジーランド・フォレストシアター)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6312777,139.8777727&query_place_id=ChIJCRE2shF9GGARWEzVE8BxiPk",
@@ -1894,17 +2167,21 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Fantasyland Forest Theater",
+      "verified_address": "1-1 Maihama, Urayasu, Chiba 279-0031, Japan"
     },
     "橡子共和國 (ジブリがいっぱい どんぐり共和国 東京駅店)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6814502,139.7671802&query_place_id=ChIJYySqIPuLGGARoe1sGm-47Mw",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6818583,139.7686687&query_place_id=ChIJYySqIPuLGGARoe1sGm-47Mw",
       "nav_dict": [
         "橡子共和國 (ジブリがいっぱい どんぐり共和国 東京駅店)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Ghibli Donguri Republic Tokyo Station",
+      "verified_address": "First Avenue Tokyo Station, 1-chōme-9-1 Marunouchi, Chiyoda City, Tokyo 100-0005, Japan"
     },
     "波除稻荷神社": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6635186,139.7715677&query_place_id=ChIJa4JUjdiLGGARfzINTSU_X0s",
@@ -1918,7 +2195,9 @@
       "html": [
         "波除稻荷神社"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Namiyoke Shrine",
+      "verified_address": "6-chōme-20-37 Tsukiji, Chuo City, Tokyo 104-0045, Japan"
     },
     "海茵娜酒店东京浅草桥": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA",
@@ -1944,7 +2223,9 @@
         "海茵娜酒店",
         "海茵娜酒店东京浅草桥"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Henn na Hotel Tokyo Asakusabashi",
+      "verified_address": "1-chōme-10-5 Asakusabashi, Taito City, Tokyo 111-0053, Japan"
     },
     "海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA",
@@ -1956,7 +2237,9 @@
       "html": [
         "海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Henn na Hotel Tokyo Asakusabashi",
+      "verified_address": "1-chōme-10-5 Asakusabashi, Taito City, Tokyo 111-0053, Japan"
     },
     "淺草寺 (浅草寺)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7147651,139.7966553&query_place_id=ChIJ8T1GpMGOGGARDYGSgpooDWw",
@@ -1973,7 +2256,9 @@
         "淺草寺",
         "淺草寺 (浅草寺)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Sensō-ji",
+      "verified_address": "2-chōme-3-1 Asakusa, Taito City, Tokyo 111-0032, Japan"
     },
     "淺草文化觀光中心 (浅草文化観光センター)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7107074,139.7965461&query_place_id=ChIJr2cNBsGOGGARSX3xfkspQHc",
@@ -1990,7 +2275,9 @@
       "html": [
         "淺草文化觀光中心 (浅草文化観光センター)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Asakusa Culture Tourist Information Center",
+      "verified_address": "Japan, 〒111-0034 Tokyo, Taito City, Kaminarimon, 2-chōme−18−９ 浅草文化観光センタ"
     },
     "淺草橋站 (浅草橋駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg",
@@ -2002,20 +2289,24 @@
       "html": [
         "淺草橋站 (浅草橋駅)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Asakusabashi Station",
+      "verified_address": "1 Chome-18 Asakusabashi, Taito City, Tokyo 111-0053, Japan"
     },
     "淺草橋站(浅草橋駅)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6974952,139.7865048&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg",
       "nav_dict": [
         "淺草橋站(浅草橋駅)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Asakusabashi Station",
+      "verified_address": "1 Chome-18 Asakusabashi, Taito City, Tokyo 111-0053, Japan"
     },
     "淺草站": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7098669,139.7971675&query_place_id=ChIJL34SkMaOGGAR8M8COhoCH_Q",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7119535,139.7983367&query_place_id=ChIJLyyKQTiPGGARsFv-uaDdzwo",
       "nav_dict": [
         "淺草站"
       ],
@@ -2024,10 +2315,12 @@
       "html": [
         "淺草站"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Asakusa Station",
+      "verified_address": "1-chōme-4-1 Hanakawado, Taito City, Tokyo 111-0033, Japan"
     },
     "淺草站 (浅草駅)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7120743,139.7984852&query_place_id=ChIJL34SkMaOGGAR8M8COhoCH_Q",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7119535,139.7983367&query_place_id=ChIJLyyKQTiPGGARsFv-uaDdzwo",
       "nav_dict": [
         "淺草站 (浅草駅)"
       ],
@@ -2036,7 +2329,9 @@
       "html": [
         "淺草站 (浅草駅)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Asakusa Station",
+      "verified_address": "1-chōme-4-1 Hanakawado, Taito City, Tokyo 111-0033, Japan"
     },
     "清水觀音堂 (清水観音堂)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7126261,139.7735665&query_place_id=ChIJ9Rg_5Z2OGGAR40HN7lsM5_U",
@@ -2051,17 +2346,21 @@
       "html": [
         "清水觀音堂"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Kiyomizu Kannon-dō Temple",
+      "verified_address": "Japan, 〒110-0007 東京都台東区上野公園１丁目２９"
     },
     "清水觀音堂 (清水観音堂)＋": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.7126261,139.7735391&query_place_id=ChIJqZzHZZyOGGARkQYqM_0g4r8",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7126261,139.7735665&query_place_id=ChIJ9Rg_5Z2OGGAR40HN7lsM5_U",
       "nav_dict": [
         "清水觀音堂 (清水観音堂)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Kiyomizu Kannon-dō Temple",
+      "verified_address": "Japan, 〒110-0007 東京都台東区上野公園１丁目２９"
     },
     "灰姑娘城堡 (シンデレラ城)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6321136,139.8808623&query_place_id=ChIJddVMuXN9GGARaS2CaOt1GUY",
@@ -2072,7 +2371,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Cinderella Castle",
+      "verified_address": "Japan, 〒279-0031 Chiba, Urayasu, Maihama, 1−１ 東京ディズニーランド ファンタジーランド"
     },
     "無印良品 (無印良品 コピス吉祥寺)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7049541,139.5795709&query_place_id=ChIJB0eQ1EfuGGARaKthmgoKqwU",
@@ -2084,7 +2385,9 @@
       "html": [
         "無印良品 (無印良品 コピス吉祥寺)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Coppice",
+      "verified_address": "1-chōme-11-5 Kichijōji Honchō, Musashino, Tokyo 180-0004, Japan"
     },
     "燕子烤肉漢堡排 (つばめグリル 大丸東京店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6812026,139.7685845&query_place_id=ChIJGeYlX_mLGGARrZDoFX4WYlY",
@@ -2098,17 +2401,21 @@
         "燕子烤肉漢堡排",
         "燕子烤肉漢堡排 (つばめグリル 大丸東京店)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tsubame Grill DAIMARU Tokyo",
+      "verified_address": "Japan, 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ 大丸東京 12F"
     },
     "百合海鷗線 台場站 (台場駅)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6259459,139.7714957&query_place_id=ChIJuSwSCR2KGGAR-N7KPSFFRXM",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6259459,139.7714957&query_place_id=ChIJhSSiCx2KGGARMH8prUZIf4M",
       "nav_dict": [
         "百合海鷗線 台場站 (台場駅)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Daiba Station",
+      "verified_address": "2 Chome-6 Daiba, Minato City, Tokyo 135-0091, Japan"
     },
     "百合海鷗線 新橋站 (新橋駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJ4RGu0emLGGARuUX8XtPxUVg",
@@ -2118,7 +2425,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Shimbashi Station",
+      "verified_address": "2 Chome-17 Shinbashi, Minato City, Tokyo 105-0004, Japan"
     },
     "百合海鷗線 有明網球之森站 (有明テニスの森駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6400414,139.7888454&query_place_id=ChIJRU5FTeuJGGARK2atWKJ5P_g",
@@ -2128,17 +2437,21 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Ariake-tennis-no-mori Station",
+      "verified_address": "1 Chome-9 Ariake, Koto City, Tokyo 135-0063, Japan"
     },
     "百合海鷗線 東京國際郵輪碼頭站 (東京国際クルーズターミナル駅)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.621213,139.772592&query_place_id=ChIJc1979puNGGARR5_P_y3m5uE",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6214209,139.7730549&query_place_id=ChIJbRi2oviJGGARCPAeqoxF6_Y",
       "nav_dict": [
         "百合海鷗線 東京國際郵輪碼頭站 (東京国際クルーズターミナル駅)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo International Cruise Terminal Station",
+      "verified_address": "Japan, 〒135-0064 東京都江東区Aomi, ２−５−７"
     },
     "秋葉原扭蛋會館": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7018425,139.7712256&query_place_id=ChIJBztW3x2MGGARadHYl5vTEK0",
@@ -2150,7 +2463,9 @@
       "html": [
         "秋葉原扭蛋會館"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Akihabara Gachapon Hall",
+      "verified_address": "Japan, 〒101-0021 Tokyo, Chiyoda City, Sotokanda, 3-chōme−15−５ MNビル 1F"
     },
     "秋葉原站 (秋葉原駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU",
@@ -2162,10 +2477,12 @@
       "html": [
         "秋葉原站 (秋葉原駅)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Akihabara Station",
+      "verified_address": "1 Chome Sotokanda, Chiyoda City, Tokyo 101-0028, Japan"
     },
     "秋葉原站東口 (秋葉原駅東口交通広場)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.698383,139.7741315&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6987386,139.7726645&query_place_id=ChIJy09DJACNGGARbMLEHxY_6MA",
       "nav_dict": [
         "秋葉原站東口 (秋葉原駅東口交通広場)"
       ],
@@ -2174,7 +2491,9 @@
         "2_返回淺草橋"
       ],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Akihabara Station Electric Town West Plaza",
+      "verified_address": "1-chōme-17-18 Sotokanda, Chiyoda City, Tokyo 101-0021, Japan"
     },
     "築地丸武 (丸武 玉子焼)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6652495,139.7702808&query_place_id=ChIJpYBA196LGGARQNBJMp7ncm8",
@@ -2184,7 +2503,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Marutake",
+      "verified_address": "4-chōme-10-10 Tsukiji, Chuo City, Tokyo 104-0045, Japan"
     },
     "築地丸武 (丸武 築地本店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6651719,139.7700056&query_place_id=ChIJpYBA196LGGARQNBJMp7ncm8",
@@ -2196,7 +2517,9 @@
       "html": [
         "築地丸武 (丸武 築地本店)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Marutake",
+      "verified_address": "4-chōme-10-10 Tsukiji, Chuo City, Tokyo 104-0045, Japan"
     },
     "築地場外市場 (築地場外市場)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6647703,139.7702515&query_place_id=ChIJW2cLzSGLGGARXAKXv6EkbqI",
@@ -2215,7 +2538,9 @@
         "築地場外市場",
         "築地場外市場 (築地場外市場)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Fish Market Tsukiji Outer Market",
+      "verified_address": "Japan, 〒104-0045 Tokyo, Chuo City, Tsukiji, 4-chōme−16 および６丁目一部"
     },
     "築地山長 (つきぢ山長)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.66512609999999,139.77007&query_place_id=ChIJpYBA196LGGARHJnwxaxGNKg",
@@ -2235,7 +2560,9 @@
         "築地山長",
         "築地山長 (つきぢ山長)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tsukiji Yamacho",
+      "verified_address": "4-chōme-10-10 Tsukiji, Chuo City, Tokyo 104-0045, Japan"
     },
     "築地山長 (山長 玉子焼)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.66512609999999,139.77007&query_place_id=ChIJpYBA196LGGARHJnwxaxGNKg",
@@ -2247,7 +2574,9 @@
       "html": [
         "築地山長 (山長 玉子焼)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tsukiji Yamacho",
+      "verified_address": "4-chōme-10-10 Tsukiji, Chuo City, Tokyo 104-0045, Japan"
     },
     "米奇魔法音樂世界 (ミッキーのマジカルミュージックワールド)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6312777,139.8777727&query_place_id=ChIJCRE2shF9GGARWEzVE8BxiPk",
@@ -2259,7 +2588,9 @@
       "html": [
         "米奇魔法音樂世界 (ミッキーのマジカルミュージックワールド)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Fantasyland Forest Theater",
+      "verified_address": "1-1 Maihama, Urayasu, Chiba 279-0031, Japan"
     },
     "紅心皇后宴會大廳": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6310489,139.8812591&query_place_id=ChIJW_W1wxF9GGARviku0bVJdWw",
@@ -2271,17 +2602,21 @@
       "html": [
         "紅心皇后宴會大廳"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Queen of Hearts Banquet Hall",
+      "verified_address": "Japan, 〒279-0031 Chiba, Urayasu, Maihama, １−１ 東京ディズニーランド ファンタジーランド"
     },
     "紅心皇后宴會大廳 (クイーン・オブ・ハートのバンケットホール)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6318964,139.8808964&query_place_id=ChIJd_6R8NaOGGAR_H6n4m5Jj3a",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6310489,139.8812591&query_place_id=ChIJW_W1wxF9GGARviku0bVJdWw",
       "nav_dict": [
         "紅心皇后宴會大廳 (クイーン・オブ・ハートのバンケットホール)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Queen of Hearts Banquet Hall",
+      "verified_address": "Japan, 〒279-0031 Chiba, Urayasu, Maihama, １−１ 東京ディズニーランド ファンタジーランド"
     },
     "紅連火箭筒餐廳": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6330921,139.8786083&query_place_id=ChIJwSy1wxF9GGARTnJEfdbTKtI",
@@ -2293,20 +2628,24 @@
       "html": [
         "紅連火箭筒餐廳"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Pan Galactic Pizza Port",
+      "verified_address": "1-1 Maihama, Urayasu, Chiba 279-0031, Japan"
     },
     "紅連火箭筒餐廳 (パン・ギャラクティック・ピザ・ポート)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6330921,139.8810921&query_place_id=ChIJd-Z9-daOGGAR1wK46v6F7oQ",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6330921,139.8786083&query_place_id=ChIJwSy1wxF9GGARTnJEfdbTKtI",
       "nav_dict": [
         "紅連火箭筒餐廳 (パン・ギャラクティック・ピザ・ポート)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Pan Galactic Pizza Port",
+      "verified_address": "1-1 Maihama, Urayasu, Chiba 279-0031, Japan"
     },
     "美女與野獸：魔法物語": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.631147,139.8781888&query_place_id=ChIJ1wJQ0dp9GGARp34ifBAVuOw",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6311470,139.8781888&query_place_id=ChIJ1wJQ0dp9GGARp34ifBAVuOw",
       "nav_dict": [
         "美女與野獸：魔法物語"
       ],
@@ -2315,10 +2654,12 @@
       "html": [
         "美女與野獸：魔法物語"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Enchanted Tale of Beauty and the Beast",
+      "verified_address": "1-1 Maihama, Urayasu, Chiba 279-0031, Japan"
     },
     "羽田機場第3航廈": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.543913,139.768155&query_place_id=ChIJ01PIBVRhGGARR1RZERfkuvo",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.5454613,139.7687222&query_place_id=ChIJEzipOlRhGGAR3-3UwuMqAnI",
       "nav_dict": [
         "羽田機場",
         "羽田機場第3航廈"
@@ -2331,10 +2672,12 @@
         "羽田機場",
         "羽田機場第3航廈"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Terminal 3",
+      "verified_address": "Terminal 3, 2-chōme-6-5 Hanedakūkō, Ota City, Tokyo 144-0041, Japan"
     },
     "羽田機場第3航廈 (羽田空港第3ターミナル)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.544843,139.768443&query_place_id=ChIJsXfyslZhGGARbL8nFGOsncU",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.5446472,139.7677877&query_place_id=ChIJsXfyslZhGGARbL8nFGOsncU",
       "nav_dict": [
         "羽田機場第3航廈 (羽田空港第3ターミナル)"
       ],
@@ -2343,10 +2686,12 @@
       "html": [
         "羽田機場第3航廈 (羽田空港第3ターミナル)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Haneda Airport Terminal 3 Station",
+      "verified_address": "Japan, 〒144-0041 東京都大田区Hanedakūkō, 2-chōme−５−１"
     },
     "羽田機場第3航廈站 (羽田空港第3ターミナル駅)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.544843,139.768443&query_place_id=ChIJsXfyslZhGGARbL8nFGOsncU",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.5446472,139.7677877&query_place_id=ChIJsXfyslZhGGARbL8nFGOsncU",
       "nav_dict": [
         "羽田機場第3航廈站 (羽田空港第3ターミナル駅)"
       ],
@@ -2355,10 +2700,12 @@
       "html": [
         "羽田機場第3航廈站 (羽田空港第3ターミナル駅)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Haneda Airport Terminal 3 Station",
+      "verified_address": "Japan, 〒144-0041 東京都大田区Hanedakūkō, 2-chōme−５−１"
     },
     "羽田機場餐廳街 (羽田空港第3ターミナル レストラン街)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.544843,139.768132&query_place_id=ChIJg4gqf3aKGGAReP-56k2M5n8",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.5452071,139.7692639&query_place_id=ChIJNUhg6GFhGGAR3CX1Keaj8Ow",
       "nav_dict": [
         "羽田機場餐廳街 (羽田空港第3ターミナル レストラン街)"
       ],
@@ -2367,7 +2714,9 @@
         "6_羽田機場餐廳街"
       ],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Edo Kōji",
+      "verified_address": "Japan, 〒144-0041 Tokyo, Ota City, Hanedakūkō, 2-chōme-6-５ 4F"
     },
     "聖瑪克咖啡 (サンマルクカフェ 御徒町南口店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7070618,139.7740642&query_place_id=ChIJC9p7GKCOGGARZC2rsIDVwSU",
@@ -2378,7 +2727,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "St.Marc Cafe",
+      "verified_address": "3-chōme-27-3 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "肉之Hanamasa超市 (肉のハナマサ 浅草橋店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6966953,139.7840376&query_place_id=ChIJS7K2bLKOGGARGySfwejBx4o",
@@ -2397,7 +2748,9 @@
         "肉のハナマサ 浅草橋店",
         "肉之Hanamasa超市"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Hanamasa",
+      "verified_address": "Japan, 〒111-0053 Tokyo, Taito City, Asakusabashi, 1-chōme−3−１５ リバーサイド浅草橋ビル"
     },
     "肉之大山 (肉の大山 上野店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7103925,139.7752423&query_place_id=ChIJsfxOVJ6OGGARYR08nkWSLdY",
@@ -2412,7 +2765,9 @@
       "html": [
         "肉之大山 (肉の大山 上野店)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Niku no Ohyama",
+      "verified_address": "Japan, 〒110-0005 Tokyo, Taito City, Ueno, 6-chōme−13−２ 渡辺上野ビル 2F"
     },
     "臨海線 國際展示場站 (国際展示場駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6344246,139.7916459&query_place_id=ChIJjbq5s-mJGGAR0GKPNjCtoPQ",
@@ -2422,17 +2777,21 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Kokusai-tenjijō Station",
+      "verified_address": "3 Chome-7 Ariake, Koto City, Tokyo 135-0063, Japan"
     },
     "臨海線 東京電訊港站 (東京テレポート駅)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.628889,139.777222&query_place_id=ChIJyXG_6pyOGGAR2u4o-gq0F98",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6272350,139.7787204&query_place_id=ChIJRUIUpfCJGGARL2W9XgEbwms",
       "nav_dict": [
         "臨海線 東京電訊港站 (東京テレポート駅)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo Teleport Station",
+      "verified_address": "1 Chome-2 Aomi, Koto City, Tokyo 135-0064, Japan"
     },
     "舊岩崎邸庭園": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7097847,139.7671385&query_place_id=ChIJ7x2-BSSMGGARahVDg6WIAag",
@@ -2444,7 +2803,9 @@
       "html": [
         "舊岩崎邸庭園"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Kyū-Iwasaki-tei Gardens",
+      "verified_address": "1-chōme-3-45 Ikenohata, Taito City, Tokyo 110-0008, Japan"
     },
     "舞濱站 (舞浜駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6361543,139.8838749&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE",
@@ -2456,7 +2817,9 @@
       "html": [
         "舞濱站 (舞浜駅)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Maihama Station",
+      "verified_address": "26-5 Maihama, Urayasu, Chiba 279-0031, Japan"
     },
     "花丸烏龍麵 (はなまるうどん 吉祥寺南口店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.70285620000001,139.5789358&query_place_id=ChIJI3N-B0juGGARVFt2kRKykZs",
@@ -2472,7 +2835,9 @@
         "花丸烏龍麵 (はなまるうどん 吉祥寺南口店)",
         "花丸烏龍麵 吉祥寺南口店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Hanamaru Udon Kichijoji South Exit",
+      "verified_address": "Japan, 〒180-0003 Tokyo, Musashino, Kichijōji Minamichō, 1-chōme−1−４ Mikawaya Building, B1F"
     },
     "莎拉奶奶之家餐廳": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6310799,139.8825518&query_place_id=ChIJp7mIexp9GGARVeP8hxCaRN8",
@@ -2484,20 +2849,24 @@
       "html": [
         "莎拉奶奶之家餐廳"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Grandma Sara's Kitchen",
+      "verified_address": "Japan, 〒279-0031 Chiba, Urayasu, Maihama, 1−１ 東京ディズニーランド クリッターカントリ"
     },
     "莎拉奶奶之家餐廳 (グランマ・サラのキッチン)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.631147,139.878847&query_place_id=ChIJcRLMWRd9GGAR53hJkYCYyxw",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6310799,139.8825518&query_place_id=ChIJp7mIexp9GGARVeP8hxCaRN8",
       "nav_dict": [
         "莎拉奶奶之家餐廳 (グランマ・サラのキッチン)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Grandma Sara's Kitchen",
+      "verified_address": "Japan, 〒279-0031 Chiba, Urayasu, Maihama, 1−１ 東京ディズニーランド クリッターカントリ"
     },
     "萬代扭蛋百貨店 秋葉原店": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6996473,139.7713703&query_place_id=ChIJzdWdgh2MGGARh4kg2pVZL3c",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6980094,139.7724164&query_place_id=ChIJlzTvUTuNGGARzn7gpOn8et8",
       "nav_dict": [
         "萬代扭蛋百貨店 秋葉原店"
       ],
@@ -2508,7 +2877,9 @@
       "html": [
         "萬代扭蛋百貨店 秋葉原店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Gashapon Bandai Official Shop - Akihabara",
+      "verified_address": "Japan, 〒101-0021 Tokyo, Chiyoda City, Sotokanda, 1-chōme−15−９ ４F"
     },
     "萬代扭蛋百貨店 秋葉原店 (ガシャポンバンダイオフィシャルショップ秋葉原店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6980094,139.7724164&query_place_id=ChIJlzTvUTuNGGARzn7gpOn8et8",
@@ -2520,7 +2891,9 @@
       "html": [
         "萬代扭蛋百貨店 秋葉原店 (ガシャポンバンダイオフィシャルショップ秋葉原店)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Gashapon Bandai Official Shop - Akihabara",
+      "verified_address": "Japan, 〒101-0021 Tokyo, Chiyoda City, Sotokanda, 1-chōme−15−９ ４F"
     },
     "跳跳熱舞 (ジャンボリミッキー！レッツ・ダンス！)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6341151,139.8815492&query_place_id=ChIJxeUaFhF9GGARy1fbZhwja0M",
@@ -2532,27 +2905,33 @@
       "html": [
         "跳跳熱舞 (ジャンボリミッキー！レッツ・ダンス！)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Theatre Orleans",
+      "verified_address": "Japan, 〒279-0031 Chiba, Urayasu, Maihama, 1−１ 東京ディズニーランド アドベンチャーランド"
     },
     "迪士尼商店 (ディズニーストア 東京駅店)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6812904,139.7672504&query_place_id=ChIJO0Z_QVOLGGARz8y08o3_2wU",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6775185,139.7658449&query_place_id=ChIJVWVtC1aLGGARc1OiAK8VaSw",
       "nav_dict": [
         "迪士尼商店 (ディズニーストア 東京駅店)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Disney Fantasy Shop Tokyo station",
+      "verified_address": "Japan, 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1-chōme−9−１ JR 東日本東京駅 改札内 京葉線地下１階"
     },
     "迪士尼樂園巴士總站 (東京ディズニーランド バスターミナル 1番のりば)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.634151,139.878701&query_place_id=ChIJ3w8y8xN9GGARe5_gvaoDCMo",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6341510,139.8787010&query_place_id=ChIJ3w8y8xN9GGARe5_gvaoDCMo",
       "nav_dict": [
         "迪士尼樂園巴士總站 (東京ディズニーランド バスターミナル 1番のりば)"
       ],
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Tokyo Disneyland Bus Terminal East",
+      "verified_address": "1-1 Maihama, Urayasu, Chiba 279-0031, Japan"
     },
     "達摩文字燒 (月島名物もんじゃ だるま 東京スカイツリータウン・ソラマチ店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7101381,139.8122049&query_place_id=ChIJUaJR8NaOGGAR48j6xkTvMeY",
@@ -2570,10 +2949,12 @@
         "達摩文字燒 (月島名物もんじゃ だるま 東京スカイツリータウン・ソラマチ店)",
         "達摩文字燒 晴空塔店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Daruma Monjayaki Skytree Restaurant",
+      "verified_address": "Japan, 〒131-0045 Tokyo, Sumida City, Oshiage, 1-chōme−1−２ 東京スカイツリータウン・ソラマチ7F"
     },
     "都營 押上站 (押上駅)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.710448,139.8132155&query_place_id=ChIJn84f3CmPGGARP2Jv-Wz2sL0",
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7103320,139.8132971&query_place_id=ChIJaUNCPNaOGGARuV-q32bYbaE",
       "nav_dict": [
         "押上站 (押上駅)",
         "都營 押上站",
@@ -2582,7 +2963,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Oshiage Sta.(SKYTREE)",
+      "verified_address": "1-chōme-1-65 Oshiage, Sumida City, Tokyo 131-0045, Japan"
     },
     "都營 東銀座站 (東銀座駅)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6697003,139.7672886&query_place_id=ChIJK2bxJueLGGARwHHeH52hGiM",
@@ -2593,7 +2976,9 @@
       "text_entities": [],
       "first_dest": [],
       "html": [],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Higashi-ginza Sta.",
+      "verified_address": "4-chōme-10-１０先 Ginza, Chuo City, Tokyo 104-0061, Japan"
     },
     "阿美橫丁(アメ横)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7090028,139.7746259&query_place_id=ChIJh7eDrwCPGGARCs9fpCkKS2U",
@@ -2607,7 +2992,9 @@
         "阿美橫丁",
         "阿美橫丁(アメ横)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Ameyoko market",
+      "verified_address": "6-chōme-10-7 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "阿美橫丁介紹文章": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7090028,139.7746259&query_place_id=ChIJh7eDrwCPGGARCs9fpCkKS2U",
@@ -2619,7 +3006,9 @@
       "html": [
         "阿美橫丁介紹文章"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Ameyoko market",
+      "verified_address": "6-chōme-10-7 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "雷門 (雷門)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7111163,139.7963656&query_place_id=ChIJ0YwG28aOGGARvRKAXIBWqNk",
@@ -2637,7 +3026,9 @@
       "html": [
         "雷門 (雷門)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Kaminarimon Gate",
+      "verified_address": "2-chōme-3-1 Asakusa, Taito City, Tokyo 111-0032, Japan"
     },
     "高湯茶泡飯 圓 (だし茶漬け＋肉うどん えん KITTE丸の内店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6792913,139.7653382&query_place_id=ChIJqVS6VgCLGGAR-5BoRnVee14",
@@ -2649,7 +3040,9 @@
       "html": [
         "高湯茶泡飯 圓 (だし茶漬け＋肉うどん えん KITTE丸の内店)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "だし茶漬け＋肉うどん えん KITTE丸の内店",
+      "verified_address": "Japan, 〒100-0005 Tokyo, Chiyoda City, Marunouchi, 2-chōme−7−２ キッテ丸の内 B1F"
     },
     "鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7083768,139.7752537&query_place_id=ChIJ6-Rvg5-OGGAR99AELnNenOU",
@@ -2663,7 +3056,9 @@
         "鴨 to 蔥拉麵",
         "鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "Ramen Kamo to Negi Ueno Okachimachi Main Store",
+      "verified_address": "6-chōme-4-15 Ueno, Taito City, Tokyo 110-0005, Japan"
     },
     "麥當勞 (マクドナルド 新宿西口店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6892366,139.6981928&query_place_id=ChIJj8aWGtGMGGARxgm4q3X9Rt4",
@@ -2679,7 +3074,9 @@
         "麥當勞 (マクドナルド 新宿西口店)",
         "麥當勞 新宿西口店"
       ],
-      "verified_at": "2026-08-14"
+      "verified_at": "2026-08-14",
+      "verified_name": "McDonald's Shinjuku Nishiguchi Exit",
+      "verified_address": "Japan, 〒160-0023 Tokyo, Shinjuku City, Nishishinjuku, 1-chōme−17−１ 宍戸ビル 2,3F"
     }
   }
 }
