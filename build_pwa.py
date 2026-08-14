@@ -80,7 +80,8 @@ def is_non_nav_slot(day, title, body=""):
     # 4. Disney park internal shows/rides
     disney_rides = [
         '必玩設施與行程建議', '午後行程與遊行', '城堡點燈拍照',
-        '東京迪士尼樂園電子大遊行', '城堡高空投影秀', '世界市集（World Bazaar）最後補貨與出園'
+        '東京迪士尼樂園電子大遊行', '城堡高空投影秀', '世界市集（World Bazaar）最後補貨與出園',
+        'DPA 與 Priority Pass 快速通關'
     ]
     if any(k in t for k in disney_rides):
         return True

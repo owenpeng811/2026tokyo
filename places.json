@@ -194,7 +194,10 @@
         "JR 三鷹站 (三鷹駅)"
       ],
       "text_entities": [],
-      "first_dest": [],
+      "first_dest": [
+        "4_搭乘吉卜力接駁巴士",
+        "4_前往吉祥寺"
+      ],
       "html": [],
       "verified_at": "2026-08-14",
       "verified_name": "Mitaka Station",
@@ -209,7 +212,7 @@
       ],
       "text_entities": [],
       "first_dest": [
-        "3_前往上野"
+        "2_返回淺草橋（長輩組）"
       ],
       "html": [
         "上野站"
@@ -227,7 +230,7 @@
       ],
       "text_entities": [],
       "first_dest": [
-        "4_前往吉祥寺"
+        "4_返回淺草橋"
       ],
       "html": [],
       "verified_at": "2026-08-14",
@@ -244,7 +247,7 @@
       ],
       "text_entities": [],
       "first_dest": [
-        "2_出發前往上野御徒町"
+        "3_前往御徒町站搭車"
       ],
       "html": [
         "御徒町站",
@@ -275,7 +278,9 @@
         "JR 東京站 (東京駅)"
       ],
       "text_entities": [],
-      "first_dest": [],
+      "first_dest": [
+        "3_前往上野"
+      ],
       "html": [],
       "verified_at": "2026-08-14",
       "verified_name": "Tokyo Station",
@@ -292,7 +297,19 @@
         "都營 淺草橋站 (浅草橋駅)"
       ],
       "text_entities": [],
-      "first_dest": [],
+      "first_dest": [
+        "1_前往秋葉原",
+        "1_前往新宿東口",
+        "2_前往上野御徒町",
+        "2_前往東京迪士尼樂園",
+        "3_前往東京車站",
+        "4_前往三鷹",
+        "5_前往淺草",
+        "5_前往台場（日本科學未來館）",
+        "6_前往築地場外市場",
+        "6_領取行李並前往車站",
+        "6_前往羽田機場"
+      ],
       "html": [
         "浅草橋駅",
         "淺草橋站"
@@ -310,9 +327,7 @@
         "秋葉原駅"
       ],
       "text_entities": [],
-      "first_dest": [
-        "1_出發前往秋葉原"
-      ],
+      "first_dest": [],
       "html": [
         "秋葉原站",
         "秋葉原駅"
@@ -719,8 +734,7 @@
         "三鷹之森吉卜力美術館 (三鷹の森ジブリ美術館)"
       ],
       "first_dest": [
-        "4_參觀三鷹之森吉卜力美術館",
-        "4_搭乘吉卜力接駁巴士"
+        "4_參觀三鷹之森吉卜力美術館"
       ],
       "html": [
         "三鷹之森吉卜力美術館",
@@ -750,9 +764,7 @@
         "三鷹站 (三鷹駅)"
       ],
       "text_entities": [],
-      "first_dest": [
-        "4_前往三鷹"
-      ],
+      "first_dest": [],
       "html": [],
       "verified_at": "2026-08-14",
       "verified_name": "Mitaka Station",
@@ -981,7 +993,9 @@
         "京急 羽田機場第3航廈站 (羽田空港第3ターミナル駅)"
       ],
       "text_entities": [],
-      "first_dest": [],
+      "first_dest": [
+        "1_前往飯店"
+      ],
       "html": [],
       "verified_at": "2026-08-14",
       "verified_name": "Haneda Airport Terminal 3 Station",
@@ -1477,7 +1491,6 @@
         "東京晴空街道 (東京ソラマチ)"
       ],
       "first_dest": [
-        "5_前往東京晴空塔",
         "5_晴空街道散策與高空景觀"
       ],
       "html": [
@@ -1498,7 +1511,9 @@
         "實物大獨角獸鋼彈立像 (実物大ユニコーンガンダム立像)"
       ],
       "text_entities": [],
-      "first_dest": [],
+      "first_dest": [
+        "5_欣賞獨角獸鋼彈"
+      ],
       "html": [],
       "verified_at": "2026-08-14",
       "verified_name": "Unicorn Gundam",
@@ -1660,9 +1675,7 @@
         "新宿站"
       ],
       "text_entities": [],
-      "first_dest": [
-        "1_出發前往新宿東口"
-      ],
+      "first_dest": [],
       "html": [
         "新宿站"
       ],
@@ -1892,9 +1905,7 @@
         "東京車站"
       ],
       "text_entities": [],
-      "first_dest": [
-        "3_前往東京車站"
-      ],
+      "first_dest": [],
       "html": [
         "東京站",
         "東京車站"
@@ -1970,7 +1981,9 @@
         "東京迪士尼樂園東巴士總站 1 號站牌 (東京ディズニーランド・バスターミナル・イースト 1番のりば)"
       ],
       "text_entities": [],
-      "first_dest": [],
+      "first_dest": [
+        "2_返回淺草橋（親子組）"
+      ],
       "html": [],
       "verified_at": "2026-08-14",
       "verified_name": "Tokyo Disneyland Bus Terminal East",
@@ -2023,7 +2036,9 @@
         "東武淺草站"
       ],
       "text_entities": [],
-      "first_dest": [],
+      "first_dest": [
+        "5_前往東京晴空塔"
+      ],
       "html": [],
       "verified_at": "2026-08-14",
       "verified_name": "Asakusa Station",
@@ -2209,16 +2224,7 @@
         "海茵娜酒店",
         "海茵娜酒店东京浅草桥"
       ],
-      "first_dest": [
-        "1_前往飯店",
-        "1_方案 B：返回淺草橋",
-        "1_返回淺草橋",
-        "2_回程：前往JR 御徒町站",
-        "3_前往御徒町站搭車",
-        "4_返回淺草橋",
-        "5_返回淺草橋",
-        "6_返回淺草橋飯店"
-      ],
+      "first_dest": [],
       "html": [
         "海茵娜酒店",
         "海茵娜酒店东京浅草桥"
@@ -2411,7 +2417,9 @@
         "百合海鷗線 台場站 (台場駅)"
       ],
       "text_entities": [],
-      "first_dest": [],
+      "first_dest": [
+        "5_返回淺草橋飯店"
+      ],
       "html": [],
       "verified_at": "2026-08-14",
       "verified_name": "Daiba Station",
@@ -2435,7 +2443,9 @@
         "百合海鷗線 有明網球之森站 (有明テニスの森駅)"
       ],
       "text_entities": [],
-      "first_dest": [],
+      "first_dest": [
+        "5_前往台場 DiverCity"
+      ],
       "html": [],
       "verified_at": "2026-08-14",
       "verified_name": "Ariake-tennis-no-mori Station",
@@ -2487,9 +2497,7 @@
         "秋葉原站東口 (秋葉原駅東口交通広場)"
       ],
       "text_entities": [],
-      "first_dest": [
-        "2_返回淺草橋"
-      ],
+      "first_dest": [],
       "html": [],
       "verified_at": "2026-08-14",
       "verified_name": "Akihabara Station Electric Town West Plaza",
@@ -2531,9 +2539,7 @@
         "築地場外市場",
         "築地場外市場 (築地場外市場)"
       ],
-      "first_dest": [
-        "6_前往築地場外市場"
-      ],
+      "first_dest": [],
       "html": [
         "築地場外市場",
         "築地場外市場 (築地場外市場)"
@@ -2666,7 +2672,8 @@
       ],
       "text_entities": [],
       "first_dest": [
-        "6_前往羽田機場"
+        "1_抵達羽田機場",
+        "1_機場整備與 Suica"
       ],
       "html": [
         "羽田機場",
@@ -2974,7 +2981,9 @@
         "都營 東銀座站 (東銀座駅)"
       ],
       "text_entities": [],
-      "first_dest": [],
+      "first_dest": [
+        "6_返回淺草橋飯店"
+      ],
       "html": [],
       "verified_at": "2026-08-14",
       "verified_name": "Higashi-ginza Sta.",
@@ -3020,7 +3029,6 @@
         "雷門 (雷門)"
       ],
       "first_dest": [
-        "5_前往淺草",
         "5_參觀淺草寺與雷門散策"
       ],
       "html": [
