@@ -25,12 +25,21 @@
   - 每次改動導航連結後，務必執行 `python3 place_id_audit.py`（或包含它的 `full_validation_pipeline.py`），確認 5 項偽造偵測規則全數通過。
 
 - **查詢 Place ID 只能用 Places API，嚴禁用 Geocoding（2026-08 實際踩過的坑）**：
-  - **Geocoding 回傳的是「地址／行政區」，不是「商家 POI」**。遇到店名與地名同名時會**靜默降級**，
-    回傳一個真實存在、格式正確、座標也在日本的 ID —— 但那是**町名的 ID**。
-    實例：查「変なホテル東京 浅草橋」得到町名「淺草橋」；查「雷門」得到台東區的町名「雷門」；
-    查「台場駅」得到町名「台場」；查「井の頭池」降級成「井の頭恩賜公園」。
-  - 正確用法：**由名稱找 ID 用 Places Text Search／Find Place；由既有 ID 取資料用 Place Details**。
-    Geocoding 僅在「由純地址找座標」時適用。
+  - **正確工具**（google-maps MCP）：
+    | 用途 | 工具 |
+    | :-- | :-- |
+    | 由名稱／店名找地點 | **`maps_search_places`**（Places Text Search） |
+    | 由既有 place_id 取權威資料 | **`maps_place_details`**（Place Details） |
+    | 由純地址找座標 | `maps_geocode`（**僅此情境**適用） |
+  - ⚠️ **前置條件：Google Cloud Console 必須同時啟用「Places API（新版）」與「Places API (Legacy)」。**
+    上述兩個 MCP 工具走的是 **Legacy** 端點；若只啟用新版，呼叫會失敗。
+  - 🚨 **工具失敗時，嚴禁靜默改用 `maps_geocode` 頂替**——這正是 2026-08 出錯的真正原因：
+    當時 Legacy Places API 未啟用，導致 fallback 到 Geocoding，而 **Geocoding 回傳的是「地址／行政區」
+    不是「商家 POI」**，遇到店名與地名同名時會**靜默降級**，回傳一個真實存在、格式正確、座標也在日本的 ID
+    —— 但那是**町名的 ID**。實例：查「変なホテル東京 浅草橋」得到町名「淺草橋」；查「雷門」得到台東區
+    的町名「雷門」；查「台場駅」得到町名「台場」；查「井の頭池」降級成「井の頭恩賜公園」。
+  - **若 Places 工具不可用，正確做法是停下來回報「工具不可用、需啟用 Legacy Places API」，
+    而不是換一個語意不同的 API 繼續跑完並宣稱成功。**
   - **每筆結果都要自檢是否為 POI**，符合任一條即為降級、必須丟棄重查：
     `formattedAddress` 無番地門牌｜`types` 含 `political`／`sublocality`／`locality`／`administrative_area_*`｜
     回傳名稱比查詢字串更短更泛化｜查車站卻沒回「駅／Station」｜查店家卻回建物名或地名。

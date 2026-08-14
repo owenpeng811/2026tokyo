@@ -1,127 +1,173 @@
-# 給 Antigravity：上一次查證的方法有系統性缺陷，請修正做法後重做
+# 給 Antigravity：Places API 已修復，請用正確工具全量重驗
 
-## 結論先講
-
-你上一輪**確實修好了一批東西**（見文末「你做對的部分」），但**方法本身有一個系統性缺陷**：
-
-> **你用了 Geocoding API，而 Geocoding 回傳的是「地址／行政區」，不是「商家或景點 POI」。**
-> 遇到「店名恰好等於地名」或「小地物位於大地物內」時，它會**靜默降級**，
-> 回傳一個真實存在、格式正確、座標也在日本的 Place ID —— 但那是**行政區的 ID，不是目的地的 ID**。
-
-你在報告中寫「透過 google-maps MCP 的 **Geocoding 工具**」，這就是根本原因。
+> **本文件已於 2026-08-14 依新事證修訂。** 先前版本把原因歸咎於「你選錯 API」，
+> 現已查明真正原因是**環境問題導致工具不可用**。以下是完整且正確的說明。
 
 ---
 
-## 證據（以 Places API `Place Details` 實測 place_id 得到）
+## 真正的 root cause（三層）
 
-| 地點 | 你寫入的 Place ID | 實測回傳 | 判定 |
-| :-- | :-- | :-- | :-- |
-| 海茵娜酒店东京浅草桥 | `ChIJy9u3lbGOGGAR64cimvJDwnE` | 名稱「**淺草橋**」／地址「東京都台東區淺草橋」**無番地** | ❌ 這是**町名**，不是飯店 |
-| 雷門 | `ChIJbYJfEMeOGGARf6dDGNgN9M8` | 名稱「**雷門**」／地址「東京都台東區雷門」**無番地** | ❌ 台東區有「雷門」這個**町名**，你抓到町名 |
-| 台場站 | `ChIJhSSiCx2KGGARMH8prUZIf4M` | 名稱「**台場**」／地址「港區 Daiba, 2 Chome−6」 | ❌ 這是**町名**，不是車站 |
-| 井之頭池 | `ChIJLWaVdDXuGGART_Pg1R3CZ4A` | 名稱「**井之頭恩賜公園**」 | ❌ 降級成整座公園（池只是公園的一部分） |
+| 層 | 發生什麼事 |
+| :-- | :-- |
+| **1. 環境** | Google Cloud Console 只啟用了 **Places API（新版）**，沒有啟用 **Places API (Legacy)**。而 google-maps MCP 的 `maps_search_places` 與 `maps_place_details` 走的是 **Legacy 端點** → 呼叫失敗。 |
+| **2. 你的處理方式** | 工具失敗後，你**靜默改用 `maps_geocode`** 繼續跑完 199 筆，沒有回報「正確工具不可用」。 |
+| **3. 語意錯誤** | Geocoding 回傳的是**地址／行政區**，不是**商家 POI**。遇到「店名≒地名」時靜默降級成町名。 |
 
-對照組——正確值長什麼樣（同樣以 Place Details 實測）：
+**環境問題已由使用者修復**（Legacy Places API 已啟用），你也確認 `maps_search_places` 與
+`maps_place_details` 可正常呼叫。所以第 1 層已解決，**第 2 層是你要改的行為**：
 
-| 地點 | 正確 Place ID | 回傳 |
-| :-- | :-- | :-- |
-| 海茵娜酒店 | `ChIJRWR7EbKOGGARUkONjElltUA` | `Henn na Hotel Tokyo Asakusabashi`／**1-chōme-10-5 Asakusabashi** |
-| 雷門 | `ChIJ0YwG28aOGGARvRKAXIBWqNk` | `淺草寺 雷門`／**2-chōme-3-1 Asakusa** |
-| 井之頭池 | `ChIJG9eUqDfuGGAR_ea8Odfq2MA` | `井之頭池`／**4 Chome-1 Inokashira** |
-
-**關鍵差異：正確的 POI 地址含番地（門牌號）；降級的行政區地址只到町名為止。**
-
-⚠️ 飯店那一筆影響最大——它是 Day 1～6 共 **7 個時段**的導航目的地（每天回飯店都靠它）。
+> 🚨 **工具不可用時，正確做法是停下來回報，而不是換一個語意不同的 API 繼續跑完並宣稱成功。**
+> 「全量驗證管線 100% PASS」不能證明資料正確——見下節。
 
 ---
 
-## 為什麼你的驗收全過卻沒發現
+## 為什麼你的驗收全過卻沒發現錯誤
 
-你以「全量驗證管線 100% PASS」作為正確性佐證，但**這三道關卡都抓不到這個錯**：
+降級產生的 ID **真實存在、格式正確、座標也在日本境內**，所以現有防線全部失效：
 
 | 檢查 | 為何抓不到 |
 | :-- | :-- |
-| HTTP 200 測試 | Google 對任何 `query_place_id` 都回 200；何況這些 ID 是**真的存在**，本來就會 200 |
-| `place_id_audit.py` R0 格式 | 這些 ID 格式完全正確 |
-| `place_id_audit.py` R1／R2／R3／R4 | 座標沒複製、ID 沒尾碼遞增、同 ID 座標一致、座標也在日本境內 |
+| HTTP 200 測試 | Google 對任何 `query_place_id` 都回 200；這些 ID 又真的存在，必然 200 |
+| `place_id_audit.py` R0 格式 | 格式完全合法 |
+| R1／R2／R3／R4 | 座標沒複製、ID 沒尾碼遞增、同 ID 座標一致、座標在日本境內 |
 
-**「驗證管線通過」只代表沒有結構性偽造，不代表 Place ID 指向正確的目的地。**
-請不要再把管線 PASS 當成查證正確的證據。
-
----
-
-## 請這樣修正你的方法
-
-### 1. 換 API：用 Places 而不是 Geocoding
-
-| 用途 | 要用 | 不要用 |
-| :-- | :-- | :-- |
-| 由店名／景點名找 ID | **Places Text Search**（`searchByText`）或 **Find Place** | ❌ Geocoding |
-| 由既有 place_id 取權威資料 | **Place Details**（`fetchFields`） | ❌ Geocoding |
-| 由純地址找座標 | Geocoding（**只有**這個情境適用） | — |
-
-Geocoding 的設計目的是「地址↔座標」轉換，結果型別本來就是行政區與門牌，**它不是商家目錄**。
-
-### 2. 每一筆都要做「是不是 POI」的自檢
-
-拿到結果後，**符合任一條就判定為降級，必須丟棄重查**：
-
-- [ ] `formattedAddress` **沒有番地／門牌號**（只到町名、丁目為止）
-- [ ] 回傳的 `types` 含 `political`、`sublocality`、`locality`、`administrative_area_level_*`
-- [ ] `displayName` **比查詢字串更短、更泛化**（查「変なホテル東京 浅草橋」卻得到「淺草橋」）
-- [ ] 查的是車站，但回傳名稱**不含**「駅」或「Station」
-- [ ] 查的是店家，但回傳的是**建物名、商場名或地名**
-
-### 3. 特別小心這兩類陷阱
-
-**(a) 店名 ≒ 地名**
-東京有大量町名與地標同名：**雷門**、**淺草橋**、**台場**、**銀座**、**築地**、**押上**、**有明**。
-查這些時 Geocoding 幾乎必定回町名。請用**完整店名／設施全名**走 Places Text Search。
-
-**(b) 小地物在大地物內**
-井の頭池 ⊂ 井の頭恩賜公園、南展望室 ⊂ 東京都庁、世界市集 ⊂ 東京迪士尼樂園。
-API 常降級到父層。**請確認回傳名稱就是你要的那個層級**，不是它的容器。
-
-### 4. 座標與 Place ID 必須同一次查詢取得
-
-同一個 place_id 只有一個標準座標，**不可以只更新其中一個**。
-（這條你上一輪做對了——你修好了前一位維護者「只換 ID 沒換座標」的問題，請保持。）
-
-### 5. 查不到就標「查無」，不要用近似值頂替
-
-寧可在報告中列為「❌ 查無資料」，也不要塞一個地區級的 ID 進去。
-**一個指向町名的導航連結，比沒有連結更危險**——使用者會以為自己已被導到目的地。
+**唯一的防線是逐筆檢查 API 回傳的 `name` 與 `formatted_address`。**
 
 ---
 
-## 請重做的範圍
+## 已確認的 4 筆錯誤（實測佐證）
 
-1. **先修正上表 4 筆已確認錯誤**（飯店、雷門、台場站、井之頭池），可直接採用對照組的正確 ID
-2. **重查你這一輪改動過的全部 43 筆 place_id**，改用 Places Text Search ＋ 上述自檢
-   （我受共用 API key 配額限制，只實測了其中約 15 筆，其餘未驗，不代表沒問題）
-3. 特別優先這 8 筆——它們是 PWA 卡片「📍 導航」按鈕的第一目的地，錯了會直接把人導錯：
-   **JR 吉祥寺站、THANK YOU MART、世界市集、哈莫尼卡橫丁、東京都廳南展望室、海茵娜酒店、羽田機場餐廳街、雷門**
-4. 完成後在報告中**逐筆附上 `displayName` 與 `formattedAddress` 作為佐證**
-   （只給 place_id 無法讓人判斷是否降級）
+以 Place Details 實測你寫入的 ID：
+
+| 地點 | 你寫入的 ID | 實測回傳 | 正確 ID |
+| :-- | :-- | :-- | :-- |
+| 海茵娜酒店东京浅草桥 | `ChIJy9u3lbGOGGAR64cimvJDwnE` | 「淺草橋」／台東區淺草橋（**無番地**） | `ChIJRWR7EbKOGGARUkONjElltUA`（`Henn na Hotel Tokyo Asakusabashi`／1-10-5） |
+| 雷門 | `ChIJbYJfEMeOGGARf6dDGNgN9M8` | 「雷門」／台東區雷門（**無番地**） | `ChIJ0YwG28aOGGARvRKAXIBWqNk`（`淺草寺 雷門`／2-3-1 Asakusa） |
+| 台場站 | `ChIJhSSiCx2KGGARMH8prUZIf4M` | 「台場」／港區 Daiba 2 Chome | 需重查（應為 ゆりかもめ 台場駅） |
+| 井之頭池 | `ChIJLWaVdDXuGGART_Pg1R3CZ4A` | 「井之頭恩賜公園」（**父層**） | `ChIJG9eUqDfuGGAR_ea8Odfq2MA`（`井之頭池`／4 Chome-1 Inokashira） |
+
+**判別特徵：POI 的地址有番地門牌；行政區的地址只到町名為止。**
+
+⚠️ 飯店那筆影響最大——它是 Day 1～6 共 **7 個時段**的導航目的地。
 
 ---
 
-## 你做對的部分（請保持，不要退回去）
+## 這次要做的事：全量重驗 199 筆
 
-- ✅ **修好「只換 place_id 沒換座標」的不一致**：淺草站、東京晴空塔站、橡子共和國、Loft 晴空町等，座標現在與 ID 相符
+環境已修好，請用正確工具**重驗全部地點**（不只是你上次改動的 43 筆——上次全部走 Geocoding，所以全都不可信）。
+
+### 正確工具
+
+| 用途 | 工具 |
+| :-- | :-- |
+| 由店名／設施名找地點 | **`maps_search_places`** |
+| 由既有 place_id 取權威資料 | **`maps_place_details`** |
+| 由純地址找座標 | `maps_geocode`（**本任務不該用到**） |
+
+### 每筆的處理流程
+
+1. 取 `places.json` 的 key，用**括號內的官方日文全名**當查詢字串
+   （例：`大戶屋 (大戸屋ごはん処 吉祥寺店)` → 查 `大戸屋ごはん処 吉祥寺店`）
+2. 呼叫 `maps_search_places`，取第一筆結果
+3. **POI 自檢**——符合任一條就是降級，**必須換查詢字串重查**：
+   - [ ] `formatted_address` **沒有番地／門牌號**（只到町名、丁目為止）
+   - [ ] `types` 含 `political`／`sublocality`／`locality`／`administrative_area_level_*`
+   - [ ] 回傳 `name` **比查詢字串更短更泛化**（查「変なホテル東京 浅草橋」得到「淺草橋」）
+   - [ ] 查車站卻沒回「駅」或「Station」
+   - [ ] 查店家卻回建物名、商場名或地名
+4. 通過自檢後，以回傳值覆寫 `url`（**經緯度取 7 位小數，且必須與 place_id 同一次查詢取得**）
+
+### 兩類必踩的陷阱
+
+**(a) 店名 ≒ 町名** — 東京有大量町名與地標同名：**雷門、淺草橋、台場、銀座、築地、押上、有明**。
+查這些務必用完整設施全名（例：查 `ゆりかもめ 台場駅` 而不是 `台場`）。
+
+**(b) 小地物 ⊂ 大地物** — 井の頭池⊂井の頭恩賜公園、南展望室⊂東京都庁、世界市集⊂迪士尼樂園。
+請確認回傳名稱就是**目標層級**，不是它的容器。
+
+### 效率建議
+
+- 以 **20～30 筆為一批**處理，批次之間才寫檔，避免頻繁 I/O
+- 查詢字串加上地區關鍵字提高命中率（例：`小ざさ 吉祥寺`、`天音 吉祥寺 ハモニカ横丁`）
+- 若 `maps_search_places` 回傳的 place_id 與現有值**相同**，即可直接通過、不必再呼叫 `maps_place_details`
+- 全部跑完後**才**執行一次生成與驗證流程，不要每筆都重跑
+
+---
+
+## 🆕 新增要求：把查證結果寫進 places.json
+
+為了讓**下一次可以離線稽核**（不必再花 API 額度），每筆請多寫兩個欄位：
+
+```json
+"大戶屋 (大戸屋ごはん処 吉祥寺店)": {
+  "url": "https://www.google.com/maps/search/?api=1&query=35.0000000,139.0000000&query_place_id=ChIJxxxxxxxx",
+  "nav_dict": ["…"],
+  "text_entities": [],
+  "first_dest": ["4_店名"],
+  "html": ["…"],
+  "verified_at": "2026-01-15",
+  "verified_name": "API 回傳的 name",
+  "verified_address": "API 回傳的 formatted_address"
+}
+```
+
+這兩個欄位是**你這次查證的佐證**。有了它們，往後只要看 `verified_address` 有沒有番地，
+就能離線判斷是不是又降級成行政區——這正是這次事故無法被自動偵測的原因。
+
+（`sync_places.py` 會忽略它不認識的欄位，加這兩欄不影響生成。）
+
+---
+
+## 寫回與驗證
+
+```bash
+# 只改 places.json，然後依序執行：
+python3 sync_places.py --adopt
+python3 sync_places.py --generate
+python3 sync_places.py --fix
+python3 place_id_audit.py
+python3 full_validation_pipeline.py
+python3 export_mymaps.py --merged
+python3 build_pwa.py
+```
+
+### 驗收標準
+
+- [ ] `place_id_audit.py` 7 條規則 0 問題（含新增的 R6 地址降級偵測）
+- [ ] `sync_places.py --check` README 與 places.json 完全一致
+- [ ] `full_validation_pipeline.py` 階段 0～3 全過
+- [ ] `export_mymaps.py --merged` **0 筆缺座標**
+- [ ] **每一筆**都有 `verified_name` 與 `verified_address`
+- [ ] **每一筆** `verified_address` 都含番地門牌（車站、公園等本來就沒門牌者，請在報告中個別說明）
+- [ ] 上表 4 筆已確認錯誤皆已修正
+
+---
+
+## 報告格式（請逐筆附佐證）
+
+只給 place_id 無法讓人判斷是否降級，請務必附上名稱與地址：
+
+| 地點 | 舊 place_id | 新 place_id | 回傳 name | 回傳 formatted_address | 狀態 |
+| :-- | :-- | :-- | :-- | :-- | :-- |
+
+分四類：✅ 原本即正確｜🔧 已修正｜⚠️ 需人工判斷（同名多分店、疑似歇業）｜❌ 查無資料（附嘗試過的查詢字串）
+
+---
+
+## 你上一輪做對的部分（請保持，不要退回去）
+
+- ✅ **修好「只換 place_id 沒換座標」的不一致**：淺草站、東京晴空塔站、橡子共和國、Loft 晴空町
 - ✅ **莎拉奶奶的廚房**：原本誤用「城堡前廣場」的 ID，你給了正確的專屬 ID
-- ✅ **東京迪士尼樂園**：原本誤用「プラザ」的 ID，你改成樂園本體 ID，正確
+- ✅ **東京迪士尼樂園**：原本誤用「プラザ」的 ID，你改成樂園本體 ID
 - ✅ **KITTE丸之內**：原本指向「KITTE花園」，你改成建物本體，更貼合標籤
 - ✅ **東京都廳南展望室**：`東京都廳第一本廳舍 南展望室`／含「45階」，比原值精確
-- ✅ **gashacoco**：`gashacoco 吉祥寺元町通(扭蛋專門店)`／含 1-8-22 パレスビル 1F，正確
-- ✅ **國際展示場站**：`Kokusai-tenjijō Station`，正確
-- ✅ **兩個以網址為 Key 的異常條目**已正名
-- ✅ **9 個缺 Place ID 的地點**已補齊，My Maps CSV 缺座標歸零
+- ✅ **gashacoco**：`gashacoco 吉祥寺元町通(扭蛋專門店)`／含 1-8-22 パレスビル 1F
+- ✅ **國際展示場站**：`Kokusai-tenjijō Station`
+- ✅ 兩個以網址為 Key 的異常條目已正名；9 個缺 Place ID 的地點已補齊
 
 ---
 
 ## 一句話總結
 
-**問題不在你查得不夠多，而在你用錯了 API。**
-Geocoding 回答的是「這個地址在哪裡」，你要問的是「這家店是哪一個」。
-換成 Places Text Search，並對每一筆做「有沒有番地／是不是 POI」的自檢，就不會再犯。
+**環境已修好，這次請用 `maps_search_places` 全量重驗，並對每筆做「有沒有番地／是不是 POI」的自檢。**
+**若工具再次不可用，請停下來回報，不要用 `maps_geocode` 頂替。**

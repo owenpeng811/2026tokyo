@@ -97,7 +97,10 @@ python3 build_pwa.py
 當使用者更新 `README.md` 或要求更新 `itinerary.html` 時：
 1. **讀取真相來源**：讀取 `places.json`（**不是** `navigation_links.html`，該檔已改為自動生成的產物）。
 2. **檢測新增地點**：若 `README.md` 中出現新餐廳、景點、車站或商場，主動透過 Google Maps 查詢其**最精準、可直達該分店/確切地點**的導航連結。
-   - ⚠️ **必須實際查證**，嚴禁憑空編造 Place ID 或座標；可用 Place ID Finder 或 Antigravity 的 google-maps MCP。
+   - ⚠️ **必須實際查證**，嚴禁憑空編造 Place ID 或座標。
+   - 查證工具（依優先序）：**google-maps MCP 的 `maps_search_places`**（由店名找地點）與 **`maps_place_details`**（由 ID 取權威資料）；無 MCP 時用 [Place ID Finder](https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder)。
+   - 🚨 **嚴禁改用 `maps_geocode` 頂替**：Geocoding 回傳行政區而非商家 POI，會靜默降級（詳見 `.agents/AGENTS.md`）。工具不可用時應停下回報，而非換 API 繼續跑。
+   - ✅ **每筆結果都要自檢是否為 POI**：`formatted_address` 要有番地門牌；`types` 不可含 `political`／`sublocality`／`locality`／`administrative_area_*`。
 3. **寫入 `places.json`**：新增一筆，填妥 `url`／`nav_dict`／`text_entities`／`first_dest`／`html`／`verified_at`。
 4. **生成與同步**：執行 `python3 sync_places.py --generate` 生成四個衍生檔，再執行 `--fix` 讓 README 內文網址一致，最後（若使用者要求）執行 `python3 build_pwa.py`。
 
@@ -145,7 +148,7 @@ python3 build_pwa.py
 flowchart TD
     A[使用者要求轉換網頁行程表] --> B[讀取唯一真相來源 places.json]
     B --> C{是否有新地點 / 變更地點?}
-    C -- 是 --> D[以 Place ID Finder 或 google-maps MCP 實際查證，嚴禁編造]
+    C -- 是 --> D[以 maps_search_places 實際查證並自檢是否為 POI<br/>嚴禁編造、嚴禁用 maps_geocode 頂替]
     D --> D2[寫入 places.json 並填 verified_at]
     C -- 否 --> E[沿用既有連結]
     D2 --> F[sync_places.py --generate 生成四個衍生檔]

@@ -120,7 +120,7 @@ https://www.google.com/maps/search/?api=1&query=35.7032718,139.5784738&query_pla
 
 ## 驗收標準（全部都要通過）
 
-- [ ] `python3 place_id_audit.py` → 6 條規則 0 問題
+- [ ] `python3 place_id_audit.py` → 7 條規則 0 問題
 - [ ] `python3 sync_places.py --check` → README 與 places.json 完全一致
 - [ ] `python3 full_validation_pipeline.py` → 階段 0～3 全數通過
 - [ ] `python3 export_mymaps.py --merged` → **0 筆缺少座標**（目前有 6 筆）

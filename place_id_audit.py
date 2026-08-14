@@ -206,13 +206,31 @@ def audit_files():
             issues.append(('R5 驗證已逾期', f'{len(stale)} 筆超過 12 個月',
                            '、'.join(stale[:8]) + ('…' if len(stale) > 8 else '')))
 
+        # R6：查證地址沒有番地門牌 ＝ 疑似被降級成行政區（町名）而非商家 POI
+        #     成因：用 Geocoding 而非 Places Text Search 查詢，遇到「店名≒町名」會靜默降級。
+        #     只檢查有記錄 verified_address 的條目；沒記錄者無從判斷，略過。
+        degraded = []
+        for label, rec in data.get('places', {}).items():
+            addr = rec.get('verified_address')
+            if not addr:
+                continue
+            # 先移除郵遞區號（〒123-4567 或裸的 123-4567），再看還有沒有數字
+            stripped = re.sub(r'〒?\d{3}-\d{4}', '', addr)
+            if not re.search(r'\d', stripped):
+                degraded.append(f'{label}（{addr}）')
+        if degraded:
+            issues.append((
+                'R6 疑似降級為行政區', f'{len(degraded)} 筆地址無番地門牌',
+                '這通常代表查到的是町名而非店家，請改用 Places Text Search 重查：'
+                + '、'.join(degraded[:6]) + ('…' if len(degraded) > 6 else '')))
+
     return issues, len(rows)
 
 
 def format_report(issues, total):
     lines = [f'掃描 {total} 筆導航連結（README 與全部字典檔）']
     if not issues:
-        lines.append('✅ 偽造偵測 5 項規則全數通過，未發現可疑的 Place ID 或座標。')
+        lines.append('✅ 偽造偵測 7 項規則全數通過，未發現可疑的 Place ID 或座標。')
         return '\n'.join(lines)
     lines.append(f'❌ 發現 {len(issues)} 項可疑：')
     for rule, subject, detail in issues:

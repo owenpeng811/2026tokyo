@@ -1,3 +1,6 @@
 # Python 編譯快取（build_pwa.py 執行後產生，不需版控）
 __pycache__/
 *.pyc
+
+# Playwright MCP 的頁面快照與 console log 暫存
+.playwright-mcp/

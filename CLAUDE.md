@@ -101,7 +101,9 @@ README.md  ──(build_pwa.py: parse → render)──▶  itinerary.html  ─�
 
 `README.md` 由 Docsify 直接渲染，必須是完成品、不能用佔位符，因此**只能被檢查與修正，不能被生成**。
 
-⚠️ **HTTP 200 不代表 Place ID 有效** —— Google 對任何 `query_place_id` 都回 200 後靜默退回座標定位。驗證用 `place_id_audit.py`（6 條離線規則：格式、座標複製、ID 尾碼遞增、張冠李戴、座標出境、驗證逾期），或用具 API key 的 Places API。**嚴禁憑空編造 Place ID 或座標。**
+⚠️ **HTTP 200 不代表 Place ID 有效** —— Google 對任何 `query_place_id` 都回 200 後靜默退回座標定位。驗證用 `place_id_audit.py`（7 條離線規則：格式、座標複製、ID 尾碼遞增、同 ID 座標矛盾、座標出境、驗證逾期、地址無番地疑似降級為町名），或用具 API key 的 Places API。**嚴禁憑空編造 Place ID 或座標。**
+
+⚠️ **查 Place ID 只能用 Places API（`maps_search_places` / `maps_place_details`），嚴禁用 Geocoding** —— Geocoding 回傳行政區而非商家 POI，遇到「店名≒町名」會靜默降級成町名（詳見 `.agents/AGENTS.md`）。
 
 URL 一律使用永久標準格式 `https://www.google.com/maps/search/?api=1&query=LAT,LNG&query_place_id=PLACE_ID`；**禁止** `maps.app.goo.gl` 短網址（會出現 `Dynamic Link Not Found`，驗證管線會擋）。
 
