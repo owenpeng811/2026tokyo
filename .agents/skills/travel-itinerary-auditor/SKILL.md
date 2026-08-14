@@ -146,7 +146,7 @@ description: 針對家庭/親子暑假日本自由行行程，結合 Google Maps
 0. **導航連結真實性 (Navigation Link Authenticity)**
    - **唯一真相來源是 `places.json`**；`navigation_links.html`、`navigation_links_dict.json`、`first_destinations.json`、`text_entities.json` 皆為 `sync_places.py --generate` 的產物，**要修就修 `places.json`，不要分別修衍生檔**。
    - ⚠️ **HTTP 200 完全不代表 Place ID 有效**：Google 對任何 `query_place_id` 都回 200，隨後靜默退回用 `query` 座標定位。若座標也錯，使用者會被導到錯誤地點而毫無警訊。
-   - 每次稽核**必須執行 `python3 place_id_audit.py`**，它以 7 條離線規則偵測偽造：
+   - 每次稽核**必須執行 `python3 place_id_audit.py`**，它以 8 條離線規則偵測偽造：
 
    | 規則 | 偵測目標 |
    | :-- | :-- |
@@ -156,7 +156,8 @@ description: 針對家庭/親子暑假日本自由行行程，結合 Google Maps
    | R3 | 同一 Place ID 被語意無關的地點共用（張冠李戴） |
    | R4 | 座標落在日本範圍之外 |
    | R5 | `verified_at` 逾 12 個月（Google 官方建議重新查證） |
-   | R6 | `verified_address` 無番地門牌（疑似被降級成町名而非店家） |
+   | R6 | `verified_address` 無番地門牌（疑似被降級成町名而非店家；宣告 `poi_level="container"` 者豁免） |
+   | R7 | `verified_*` 出現 `fallback`／`manual`／`手動`／`placeholder` 等人工填寫痕跡（佐證造假） |
 
    - 發現可疑者，**必須實際查證後更正**，嚴禁憑印象填寫。查證工具：google-maps MCP 的 **`maps_search_places`**（由店名找地點）與 **`maps_place_details`**（由 ID 取權威資料）；無 MCP 時用 [Place ID Finder](https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder)。
    - 🚨 **嚴禁以 `maps_geocode` 頂替**：Geocoding 回傳的是行政區而非商家 POI，會靜默降級成町名（如查「雷門」得到台東區的町名「雷門」）。**這類錯誤 6 條離線規則與 HTTP 200 測試全都抓不到**，唯一防線是逐筆自檢回傳結果。

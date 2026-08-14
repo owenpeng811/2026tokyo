@@ -48,5 +48,30 @@
     請確認回傳名稱就是目標層級，不是它的容器。
   - **座標與 place_id 必須同一次查詢取得**，不可只更新其中一個（同一 place_id 只有一個標準座標）。
   - 查不到就在報告中標「查無」，**嚴禁用地區級 ID 頂替**——指向町名的導航連結比沒有連結更危險。
+
+- **`verified_*` 佐證欄位與 `poi_level` 宣告規範（2026-08-14 新增）**：
+  - `places.json` 每筆須記錄 **`verified_name`** 與 **`verified_address`**，兩者**必須是 Places API 原封不動的回傳值**。
+    它們的用途是讓日後能**離線**判斷有沒有被降級，不必再消耗 API 額度。
+  - 🚨 **嚴禁手寫或編造這兩個欄位**。曾發生為了讓 R6 通過而把 `verified_name` 寫成
+    `"Tokyo Disneyland Partners Statue Fallback"`（`Fallback` 不可能是 API 回傳值）的情形——
+    **這等於把稽核機制本身廢掉**。`place_id_audit.py` 的 R7 會偵測此類痕跡。
+  - **有些地點在 Google 上確實沒有獨立 POI**（園區內的雕像與遊行、航廈裡的餐廳街、公園裡的廣場、
+    商場中未單獨登錄的櫃位）。這**不是造假的理由**，正確做法是誠實宣告：
+
+    ```json
+    "夥伴雕像 (パートナーズ像)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.0000000,139.0000000&query_place_id=ChIJxxxxxxxx",
+      "poi_level": "container",
+      "container_note": "Google 無獨立 POI，導航指向東京迪士尼樂園園區",
+      "verified_name": "API 回傳的容器名稱（原封不動）",
+      "verified_address": "API 回傳的容器地址（原封不動）",
+      "verified_at": "2026-01-15"
+    }
+    ```
+
+  - `poi_level` 取值：**`"exact"`**（預設，可省略；指向該地點自身的 POI）／
+    **`"container"`**（只能導到所在建物、園區或公園層級）。
+  - 宣告 `container` 者**豁免 R6 的番地檢查**，但 `verified_name`／`verified_address` **仍必須是真實回傳值**。
+  - 每次查證後請在報告中**列出所有 `container` 條目**，讓使用者知道哪些導航只到建物層級。
   - ⚠️ **驗證管線 PASS 不等於 Place ID 正確**：HTTP 200 測試與 5 條離線規則都抓不到「降級到行政區」
     （那些 ID 真實存在、格式正確、座標也在日本），**不可拿管線通過當作查證正確的證據**。

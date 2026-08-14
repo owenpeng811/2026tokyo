@@ -214,6 +214,9 @@ def audit_files():
             addr = rec.get('verified_address')
             if not addr:
                 continue
+            # 已誠實宣告 poi_level=container 者豁免：它本來就只能導到建物／園區層級
+            if rec.get('poi_level') == 'container':
+                continue
             # 先移除郵遞區號（〒123-4567 或裸的 123-4567），再看還有沒有數字
             stripped = re.sub(r'〒?\d{3}-\d{4}', '', addr)
             if not re.search(r'\d', stripped):
@@ -221,8 +224,25 @@ def audit_files():
         if degraded:
             issues.append((
                 'R6 疑似降級為行政區', f'{len(degraded)} 筆地址無番地門牌',
-                '這通常代表查到的是町名而非店家，請改用 Places Text Search 重查：'
+                '這通常代表查到的是町名而非店家，請改用 Places Text Search 重查；'
+                '若該地點在 Google 上確實沒有獨立 POI，請宣告 poi_level="container"：'
                 + '、'.join(degraded[:6]) + ('…' if len(degraded) > 6 else '')))
+
+        # R7：verified_* 欄位出現人工填寫的痕跡 ＝ 佐證造假
+        #     這兩個欄位必須是 API 原封不動的回傳值，手寫會讓離線稽核完全失去意義。
+        FAKE_MARKERS = ('fallback', 'manual', '手動', '手工', 'unknown',
+                        'n/a', 'tbd', 'placeholder', '暫定')
+        faked = []
+        for label, rec in data.get('places', {}).items():
+            blob = f"{rec.get('verified_name') or ''} {rec.get('verified_address') or ''}".lower()
+            if any(m in blob for m in FAKE_MARKERS):
+                faked.append(f'{label}（{rec.get("verified_name")}）')
+        if faked:
+            issues.append((
+                'R7 佐證欄位疑似人工填寫', f'{len(faked)} 筆',
+                'verified_name／verified_address 必須是 API 原始回傳值、不可手寫；'
+                '若該地點沒有獨立 POI，正確做法是宣告 poi_level="container" 並保留容器的真實回傳值：'
+                + '、'.join(faked[:6]) + ('…' if len(faked) > 6 else '')))
 
     return issues, len(rows)
 
@@ -230,7 +250,7 @@ def audit_files():
 def format_report(issues, total):
     lines = [f'掃描 {total} 筆導航連結（README 與全部字典檔）']
     if not issues:
-        lines.append('✅ 偽造偵測 7 項規則全數通過，未發現可疑的 Place ID 或座標。')
+        lines.append('✅ 偽造偵測 8 項規則全數通過，未發現可疑的 Place ID 或座標。')
         return '\n'.join(lines)
     lines.append(f'❌ 發現 {len(issues)} 項可疑：')
     for rule, subject, detail in issues:

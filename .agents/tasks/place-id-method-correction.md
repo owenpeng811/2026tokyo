@@ -133,7 +133,7 @@ python3 build_pwa.py
 
 ### 驗收標準
 
-- [ ] `place_id_audit.py` 7 條規則 0 問題（含新增的 R6 地址降級偵測）
+- [ ] `place_id_audit.py` 8 條規則 0 問題（含 R6 地址降級與 R7 佐證造假偵測）
 - [ ] `sync_places.py --check` README 與 places.json 完全一致
 - [ ] `full_validation_pipeline.py` 階段 0～3 全過
 - [ ] `export_mymaps.py --merged` **0 筆缺座標**
