@@ -128,12 +128,22 @@ def autolink_text_entities(html_text):
         escaped_name = re.escape(name)
         parts = re.split(r'(<a\b[^>]*>.*?</a>)', html_text, flags=re.DOTALL)
         new_parts = []
+        remaining = 2
         for p in parts:
             if p.startswith('<a') and p.endswith('</a>'):
                 new_parts.append(p)
-            else:
-                p_sub = re.sub(r'(?<![="\'/])' + escaped_name, f'<a class="map-link-inline" href="{url}" target="_blank">{name} 🔗</a>', p, count=2)
-                new_parts.append(p_sub)
+                continue
+            # 再依標籤切一次，只在文字節點取代；否則像 <img alt="…不忍池…">
+            # 這種屬性值會被塞進 <a>，導致引號提前結束、HTML 破損
+            for seg in re.split(r'(<[^>]+>)', p):
+                if seg.startswith('<') or remaining <= 0:
+                    new_parts.append(seg)
+                    continue
+                seg_sub, n = re.subn(r'(?<![="\'/])' + escaped_name,
+                                     f'<a class="map-link-inline" href="{url}" target="_blank">{name} 🔗</a>',
+                                     seg, count=remaining)
+                remaining -= n
+                new_parts.append(seg_sub)
         html_text = "".join(new_parts)
         
     return html_text
