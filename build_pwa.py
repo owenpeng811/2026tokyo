@@ -1720,8 +1720,26 @@ def render_full_pwa_html(meta, days_data):
       registerServiceWorker();
       initSwipeNavigation();
       applyFontSize(fontSizeIdx, false);
+      restoreBranches();
       restoreLastPosition();
     }});
+
+    // 還原上次選的分流（Plan A/B、長輩組/親子組、晴天/雨天）。
+    // 必須在 restoreLastPosition() 之前跑：切換分流會改變頁面高度，
+    // 先還原完才捲得到正確位置。
+    function restoreBranches() {{
+      const saved = [
+        ['branchDay1', switchDay1Plan],
+        ['branchDay2Group', switchDay2Group],
+        ['branchDay2Parents', switchDay2ParentsPlan],
+        ['branchDay3', switchDay3Plan],
+        ['branchDay5', switchDay5Plan]
+      ];
+      saved.forEach(([key, fn]) => {{
+        const val = localStorage.getItem(key);
+        if (val) fn(val);
+      }});
+    }}
 
     // 記住上次看到哪一天與捲動位置。PWA 被系統回收後重新開啟時，
     // 預設會回到 D1，對正在看 Day 3 的人很不方便。
@@ -1823,6 +1841,7 @@ def render_full_pwa_html(meta, days_data):
     }}
 
     function switchDay1Plan(plan) {{
+      localStorage.setItem('branchDay1', plan);
       const isPlanA = plan === 'A';
       document.querySelectorAll('#day1-section .sub-toggle-btn')[0].classList.toggle('active', isPlanA);
       document.querySelectorAll('#day1-section .sub-toggle-btn')[1].classList.toggle('active', !isPlanA);
@@ -1831,6 +1850,7 @@ def render_full_pwa_html(meta, days_data):
     }}
 
     function switchDay3Plan(plan) {{
+      localStorage.setItem('branchDay3', plan);
       const isSunny = plan === 'sunny';
       document.getElementById('day3-btn-sunny').classList.toggle('active', isSunny);
       document.getElementById('day3-btn-rainy').classList.toggle('active', !isSunny);
@@ -1839,6 +1859,7 @@ def render_full_pwa_html(meta, days_data):
     }}
 
     function switchDay2Group(group) {{
+      localStorage.setItem('branchDay2Group', group);
       const isParents = group === 'parents';
       document.getElementById('day2-btn-parents').classList.toggle('active', isParents);
       document.getElementById('day2-btn-kids').classList.toggle('active', !isParents);
@@ -1847,6 +1868,7 @@ def render_full_pwa_html(meta, days_data):
     }}
 
     function switchDay2ParentsPlan(plan) {{
+      localStorage.setItem('branchDay2Parents', plan);
       const isSunny = plan === 'sunny';
       document.getElementById('day2-parents-btn-sunny').classList.toggle('active', isSunny);
       document.getElementById('day2-parents-btn-rainy').classList.toggle('active', !isSunny);
@@ -1861,6 +1883,7 @@ def render_full_pwa_html(meta, days_data):
     }}
 
     function switchDay5Plan(plan) {{
+      localStorage.setItem('branchDay5', plan);
       const isPlanA = plan === 'A';
       const isPlanB = plan === 'B';
       const isRainy = plan === 'rainy';
