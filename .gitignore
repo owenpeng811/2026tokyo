@@ -4,3 +4,7 @@ __pycache__/
 
 # Playwright MCP 的頁面快照與 console log 暫存
 .playwright-mcp/
+
+# 私人設定（住家所在地、成員年齡身高、訂位編號等）
+# 此 repo 為 public，這些資訊只留在本機供 AI 排行程使用
+.agents/private/
