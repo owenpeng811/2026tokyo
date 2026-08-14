@@ -1705,7 +1705,41 @@ def render_full_pwa_html(meta, days_data):
       updateProgressBar();
       startCountdown();
       registerServiceWorker();
+      initSwipeNavigation();
     }});
+
+    // 左右滑動切換天數。刻意避開會橫向捲動的區域（總覽表格、頁籤列、
+    // 分流按鈕列）與開啟中的抽屜，否則會跟它們自己的橫向捲動打架。
+    function initSwipeNavigation() {{
+      const NO_SWIPE = '.prep-table-wrap, .day-tabs, .sub-toggle-container, .modal-sheet';
+      const MIN_DIST = 60;      // 位移不足視為誤觸
+      const RATIO = 1.8;        // 橫向要明顯大於縱向，才不會擋到上下捲動
+      const MAX_TIME = 600;     // 太慢的拖曳不算滑動
+      let x0 = null, y0 = 0, t0 = 0, blocked = false;
+
+      document.addEventListener('touchstart', e => {{
+        if (e.touches.length !== 1) {{ x0 = null; return; }}
+        const sheet = document.getElementById('modalSheet');
+        blocked = !!(e.target.closest && e.target.closest(NO_SWIPE)) ||
+                  !!(sheet && sheet.classList.contains('active'));
+        x0 = e.touches[0].clientX;
+        y0 = e.touches[0].clientY;
+        t0 = Date.now();
+      }}, {{ passive: true }});
+
+      document.addEventListener('touchend', e => {{
+        if (x0 === null || blocked) return;
+        const dx = e.changedTouches[0].clientX - x0;
+        const dy = e.changedTouches[0].clientY - y0;
+        const dt = Date.now() - t0;
+        x0 = null;
+        if (dt > MAX_TIME) return;
+        if (Math.abs(dx) < MIN_DIST || Math.abs(dx) < Math.abs(dy) * RATIO) return;
+        const next = currentDay + (dx < 0 ? 1 : -1);
+        if (next < 0 || next > 6) return;
+        switchDay(next);
+      }}, {{ passive: true }});
+    }}
 
     function switchDay(day) {{
       currentDay = day;
@@ -1718,6 +1752,9 @@ def render_full_pwa_html(meta, days_data):
       document.querySelectorAll('.day-section').forEach((sec, i) => {{
         sec.style.display = (i + 1 === day) ? 'block' : 'none';
       }});
+      // 滑動切換時把作用中的頁籤帶進視野（block:'nearest' 避免頁面上下跳動）
+      const activeTab = document.querySelectorAll('.day-tab')[day];
+      if (activeTab) activeTab.scrollIntoView({{ block: 'nearest', inline: 'center', behavior: 'smooth' }});
       window.scrollTo({{ top: 0, behavior: 'smooth' }});
     }}
 
