@@ -351,7 +351,7 @@ def parse_v10_markdown():
     days_data = {
         1: {'common_before': [], 'plan_a': [], 'plan_b': [], 'common_after': []},
         2: {'parents': {'common_before': [], 'sunny': [], 'rainy': [], 'common_after': []}, 'kids': []},
-        3: [],
+        3: {'common_before': [], 'sunny': [], 'rainy': [], 'common_after': []},
         4: [],
         5: {'common_before': [], 'plan_a': [], 'plan_b': [], 'rainy': []},
         6: []
@@ -505,8 +505,61 @@ def parse_v10_markdown():
                 'has_modal': len(b.strip()) > 20
             })
 
-    # Day 3, 4, 6
-    for day in [3, 4, 6]:
+    # Day 3（含 ☀️ 晴天方案／☔ 雨天方案 分流）
+    # 分流標題是 `#### ☀️ **晴天方案**`，井號後面不是 `**`，所以這裡的切分正則
+    # 不能沿用 `#{3,4} \*\*`，必須放寬成 `#{3,4} `，讓標記行自己成為一個區塊。
+    d3_match = re.search(r'## \*\*📅 Day 3.*?\n(.*?)(?=\n## \*\*📅 Day 4|\Z)', content, re.DOTALL)
+    if d3_match:
+        slots = re.split(r'\n(?=#{3,4} )', d3_match.group(1))
+        current_sub = 'common_before'
+        for s in slots:
+            s = s.strip()
+            if not s:
+                continue
+            s_lines = s.split('\n')
+            h = s_lines[0]
+            b = '\n'.join(s_lines[1:])
+
+            if '晴天方案' in h:
+                current_sub = 'sunny'
+                continue
+            elif '雨天方案' in h:
+                current_sub = 'rainy'
+                continue
+
+            h_clean = h.replace('####', '').replace('###', '').replace('**', '').strip()
+            time_m = re.match(r'^([\d:：]+－[\d:：]+|[\d:：]+)\s*(.*)', h_clean)
+            slot_time = time_m.group(1) if time_m else ""
+            slot_title_raw = time_m.group(2) if time_m else h_clean
+            slot_title = clean_title(slot_title_raw)
+            if not slot_title:
+                continue
+            cat, cat_zh, cat_icon = get_category_info(slot_title)
+            summary = CUSTOM_SUMMARIES_V10.get((3, slot_title))
+            if not summary:
+                for (d, t), sm in CUSTOM_SUMMARIES_V10.items():
+                    if d == 3 and (t in slot_title or slot_title in t):
+                        summary = sm
+                        break
+            if not summary:
+                summary = clean_markdown_for_summary(b)
+            days_data[3][current_sub].append({
+                'time': slot_time,
+                'title': slot_title,
+                'category': cat,
+                'category_zh': cat_zh,
+                'category_icon': cat_icon,
+                'summary': summary,
+                'maps_link': get_first_destination_map_link(3, slot_title_raw, b),
+                'html_content': markdown_to_html(b.strip()),
+                'has_modal': len(b.strip()) > 20
+            })
+            # 雨天區塊以水平線收尾，之後的時段是晴雨共用的下半天
+            if current_sub == 'rainy' and b.rstrip().endswith('---'):
+                current_sub = 'common_after'
+
+    # Day 4, 6
+    for day in [4, 6]:
         d_match = re.search(rf'## \*\*📅 Day {day}.*?\n(.*?)(?=\n## \*\*📅 Day {day+1}|\Z)', content, re.DOTALL)
         if d_match:
             slots = re.split(r'\n(?=#{3,4} \*\*)', d_match.group(1))
@@ -859,9 +912,28 @@ def render_full_pwa_html(meta, days_data):
       <div class="day-overview-header">
         <h2 class="day-overview-title">東京車站菓子樂園 × 科學博物館探險 × 阿美橫丁採買</h2>
       </div>
+      <div class="sub-toggle-wrapper">
+        <div class="sub-toggle-container">
+          <button class="sub-toggle-btn active" id="day3-btn-sunny" onclick="switchDay3Plan('sunny')">☀️ 晴天方案：菓子樂園 × KITTE 頂樓花園</button>
+          <button class="sub-toggle-btn" id="day3-btn-rainy" onclick="switchDay3Plan('rainy')">☔ 雨天方案：GRANSTA × Intermediatheque</button>
+        </div>
+      </div>
 """
-    for idx, it in enumerate(days_data[3]):
-        timeline_html += build_card_html(f"d3-{idx}", it)
+    for idx, it in enumerate(days_data[3]['common_before']):
+        timeline_html += build_card_html(f"d3-cb{idx}", it)
+
+    timeline_html += '      <div class="day3-plan-sunny">\n'
+    for idx, it in enumerate(days_data[3]['sunny']):
+        timeline_html += build_card_html(f"d3-s{idx}", it)
+    timeline_html += '      </div>\n'
+
+    timeline_html += '      <div class="day3-plan-rainy" style="display: none;">\n'
+    for idx, it in enumerate(days_data[3]['rainy']):
+        timeline_html += build_card_html(f"d3-r{idx}", it)
+    timeline_html += '      </div>\n'
+
+    for idx, it in enumerate(days_data[3]['common_after']):
+        timeline_html += build_card_html(f"d3-ca{idx}", it)
     timeline_html += '    </div>\n\n'
 
     # Day 4
@@ -1645,6 +1717,14 @@ def render_full_pwa_html(meta, days_data):
       document.querySelectorAll('#day1-section .sub-toggle-btn')[1].classList.toggle('active', !isPlanA);
       document.querySelector('.day1-plan-A').style.display = isPlanA ? 'block' : 'none';
       document.querySelector('.day1-plan-B').style.display = isPlanA ? 'none' : 'block';
+    }}
+
+    function switchDay3Plan(plan) {{
+      const isSunny = plan === 'sunny';
+      document.getElementById('day3-btn-sunny').classList.toggle('active', isSunny);
+      document.getElementById('day3-btn-rainy').classList.toggle('active', !isSunny);
+      document.querySelector('.day3-plan-sunny').style.display = isSunny ? 'block' : 'none';
+      document.querySelector('.day3-plan-rainy').style.display = isSunny ? 'none' : 'block';
     }}
 
     function switchDay2Group(group) {{

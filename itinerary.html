@@ -3073,15 +3073,21 @@
       <div class="day-overview-header">
         <h2 class="day-overview-title">東京車站菓子樂園 × 科學博物館探險 × 阿美橫丁採買</h2>
       </div>
+      <div class="sub-toggle-wrapper">
+        <div class="sub-toggle-container">
+          <button class="sub-toggle-btn active" id="day3-btn-sunny" onclick="switchDay3Plan('sunny')">☀️ 晴天方案：菓子樂園 × KITTE 頂樓花園</button>
+          <button class="sub-toggle-btn" id="day3-btn-rainy" onclick="switchDay3Plan('rainy')">☔ 雨天方案：GRANSTA × Intermediatheque</button>
+        </div>
+      </div>
       <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-0" onchange="toggleCheck('item-d3-0')">
+            <input type="checkbox" id="item-d3-cb0" onchange="toggleCheck('item-d3-cb0')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-0">
+        <div class="timeline-card" id="card-item-d3-cb0">
           <div class="card-header">
             <span class="card-time">08:20－09:00</span>
             <div class="card-tags">
@@ -3104,12 +3110,12 @@
       <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-1" onchange="toggleCheck('item-d3-1')">
+            <input type="checkbox" id="item-d3-cb1" onchange="toggleCheck('item-d3-cb1')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-1">
+        <div class="timeline-card" id="card-item-d3-cb1">
           <div class="card-header">
             <span class="card-time">09:10</span>
             <div class="card-tags">
@@ -3124,7 +3130,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">淺草橋 ➔ 秋葉原 ➔ <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6812996,139.7670658&query_place_id=ChIJC3Cf2PuLGGAROO00ukl8JwA" target="_blank">東京站 🔗</a> (JR 山手線，車程 8 分鐘)。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-1')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-cb1')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3140,12 +3146,12 @@
       <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-2" onchange="toggleCheck('item-d3-2')">
+            <input type="checkbox" id="item-d3-cb2" onchange="toggleCheck('item-d3-cb2')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-2">
+        <div class="timeline-card" id="card-item-d3-cb2">
           <div class="card-header">
             <span class="card-time">09:25－09:50</span>
             <div class="card-tags">
@@ -3160,7 +3166,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">目標地點：<strong><strong><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6814247,139.7659944&query_place_id=ChIJE9qjZ0-LGGARQiAs8hULJsg" target="_blank">東京車站丸之內站舍 (東京駅丸の内駅舎) 🔗</a></strong></strong></p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-2')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-cb2')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3175,12 +3181,12 @@
       <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-3" onchange="toggleCheck('item-d3-3')">
+            <input type="checkbox" id="item-d3-cb3" onchange="toggleCheck('item-d3-cb3')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-3">
+        <div class="timeline-card" id="card-item-d3-cb3">
           <div class="card-header">
             <span class="card-time">09:50－10:00</span>
             <div class="card-tags">
@@ -3195,7 +3201,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">🚶‍♂️ <strong>步行動線（全程免刷卡，抬頭找指標即可）</strong>：</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-3')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-cb3')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3206,24 +3212,24 @@
 <p>3. 通道內跟著 <strong>「八重洲方面 (Yaesu)」</strong> 指標直走（通道為直線，約 3 分鐘），出口看到 <strong>「八重洲地下中央口」「東京駅一番街」</strong> 指標代表走對了。</p>
 <p>4. <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.680931,139.7682387&query_place_id=ChIJESNWC_yLGGARctOSTpDcc8Q" target="_blank"><strong>東京菓子樂園 (東京おかしランド)</strong> 🔗</a> 就在 <strong>「八重洲地下中央口」改札正對面，B1F 東京駅一番街</strong> 內，出通道即見。</p>
 </div>
-<h4 class="modal-subheading">☀️ <strong>晴天方案</strong></h4>
             </div>
           </div>
         </div>
       </div>
+      <div class="day3-plan-sunny">
       <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-4" onchange="toggleCheck('item-d3-4')">
+            <input type="checkbox" id="item-d3-s0" onchange="toggleCheck('item-d3-s0')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-4">
+        <div class="timeline-card" id="card-item-d3-s0">
           <div class="card-header">
             <span class="card-time">10:00－10:50</span>
             <div class="card-tags">
-              <button class="tag tag-article" title="此時段有 1 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d3-4')">📄 攻略</button><span class="tag tag-transport">🚆 交通</span>
+              <button class="tag tag-article" title="此時段有 1 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d3-s0')">📄 攻略</button><span class="tag tag-transport">🚆 交通</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -3234,7 +3240,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">目標地點：<strong><strong>東京菓子樂園 (東京おかしランド)</strong></strong>（八重洲地下中央口 B1F）<br>💡 <strong>GRANSTA 選配</strong>：若菓子樂園掃完仍有餘裕，可繼續往改札外 <strong><strong>GRANSTA 東京 (グランスタ東京)</strong></strong>（B1F）掃東京限定甜點伴手禮，與菓子樂園同樓連走無需移動。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-4')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-s0')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3251,12 +3257,12 @@
       <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-5" onchange="toggleCheck('item-d3-5')">
+            <input type="checkbox" id="item-d3-s1" onchange="toggleCheck('item-d3-s1')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-5">
+        <div class="timeline-card" id="card-item-d3-s1">
           <div class="card-header">
             <span class="card-time">10:50－11:00</span>
             <div class="card-tags">
@@ -3271,7 +3277,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">🚶‍♂️ <strong>移動動線</strong>：</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-5')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-s1')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3288,12 +3294,12 @@
       <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-6" onchange="toggleCheck('item-d3-6')">
+            <input type="checkbox" id="item-d3-s2" onchange="toggleCheck('item-d3-s2')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-6">
+        <div class="timeline-card" id="card-item-d3-s2">
           <div class="card-header">
             <span class="card-time">11:00－11:20</span>
             <div class="card-tags">
@@ -3308,7 +3314,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">目標地點：<strong><strong><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6795336,139.7654445&query_place_id=ChIJtZRvRvqLGGARdS57rQP2NEk" target="_blank">KITTE花園 (ＫＩＴＴＥガーデン) 🔗</a></strong></strong> (KITTE丸之內 6F)</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-6')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-s2')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3324,12 +3330,12 @@
       <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-7" onchange="toggleCheck('item-d3-7')">
+            <input type="checkbox" id="item-d3-s3" onchange="toggleCheck('item-d3-s3')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-7">
+        <div class="timeline-card" id="card-item-d3-s3">
           <div class="card-header">
             <span class="card-time">11:20－11:30</span>
             <div class="card-tags">
@@ -3344,7 +3350,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">🚶‍♂️ <strong>移動動線</strong>：</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-7')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-s3')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3357,20 +3363,21 @@
 <ul class="modal-list">
 <li></li>
 </ul>
-<h4 class="modal-subheading">☔ <strong>雨天方案</strong></h4>
             </div>
           </div>
         </div>
       </div>
+      </div>
+      <div class="day3-plan-rainy" style="display: none;">
       <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-8" onchange="toggleCheck('item-d3-8')">
+            <input type="checkbox" id="item-d3-r0" onchange="toggleCheck('item-d3-r0')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-8">
+        <div class="timeline-card" id="card-item-d3-r0">
           <div class="card-header">
             <span class="card-time">10:00－10:50</span>
             <div class="card-tags">
@@ -3385,7 +3392,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">目標地點：<strong><strong>GRANSTA 東京 (グランスタ東京)</strong></strong> (東京駅 B1F 改札內外)</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-8')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-r0')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3400,12 +3407,12 @@
       <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-9" onchange="toggleCheck('item-d3-9')">
+            <input type="checkbox" id="item-d3-r1" onchange="toggleCheck('item-d3-r1')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-9">
+        <div class="timeline-card" id="card-item-d3-r1">
           <div class="card-header">
             <span class="card-time">11:00－11:20</span>
             <div class="card-tags">
@@ -3420,7 +3427,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">目標地點：<strong><strong>Intermediatheque (インターメディアテク)</strong></strong> (KITTE丸之內 2F 入口，展覽延伸至 3F)<br>💡 雨天下午進國立科學博物館前的完美暖場；若小孩體力不佳可直接跳過，前往午餐。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-9')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-r1')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3438,15 +3445,16 @@
           </div>
         </div>
       </div>
+      </div>
       <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-10" onchange="toggleCheck('item-d3-10')">
+            <input type="checkbox" id="item-d3-ca0" onchange="toggleCheck('item-d3-ca0')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-10">
+        <div class="timeline-card" id="card-item-d3-ca0">
           <div class="card-header">
             <span class="card-time">11:30－12:45</span>
             <div class="card-tags">
@@ -3461,7 +3469,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">首選餐廳：<strong><strong>天丼てんや (天丼てんや 八重洲店)</strong></strong> (八重洲地下街 南1號) 享用日式平價炸蝦天丼（推薦：特選海老天丼、野菜天丼、兒童迷你烏龍麵套餐），人均約 ¥650～¥1,100。出餐極快、平價美味、長輩小孩皆愛！<br>💡 <strong>點餐與付款祕訣</strong>：</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-10')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-ca0')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3488,12 +3496,12 @@
       <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-11" onchange="toggleCheck('item-d3-11')">
+            <input type="checkbox" id="item-d3-ca1" onchange="toggleCheck('item-d3-ca1')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-11">
+        <div class="timeline-card" id="card-item-d3-ca1">
           <div class="card-header">
             <span class="card-time">12:50</span>
             <div class="card-tags">
@@ -3508,7 +3516,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">搭乘 JR 山手線 8 分鐘直達 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw" target="_blank">上野站 🔗</a>（公園口出站設有電梯）。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-11')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-ca1')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3529,16 +3537,16 @@
       <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-12" onchange="toggleCheck('item-d3-12')">
+            <input type="checkbox" id="item-d3-ca2" onchange="toggleCheck('item-d3-ca2')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-12">
+        <div class="timeline-card" id="card-item-d3-ca2">
           <div class="card-header">
             <span class="card-time">13:25－15:25</span>
             <div class="card-tags">
-              <span class="tag tag-ticket-todo">🎫 需購票</span><button class="tag tag-article" title="此時段有 1 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d3-12')">📄 攻略</button><span class="tag tag-attraction">⛩️ 景點</span>
+              <span class="tag tag-ticket-todo">🎫 需購票</span><button class="tag tag-article" title="此時段有 1 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d3-ca2')">📄 攻略</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -3549,7 +3557,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">🎫 <strong>票務狀態：需購票</strong></p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-12')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-ca2')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <p>🎫 <strong>票務狀態：需購票</strong></p>
@@ -3590,12 +3598,12 @@
       <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-13" onchange="toggleCheck('item-d3-13')">
+            <input type="checkbox" id="item-d3-ca3" onchange="toggleCheck('item-d3-ca3')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-13">
+        <div class="timeline-card" id="card-item-d3-ca3">
           <div class="card-header">
             <span class="card-time">15:25－15:50</span>
             <div class="card-tags">
@@ -3610,7 +3618,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">目標地點：<strong><strong>鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)</strong></strong></p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-13')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-ca3')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3625,12 +3633,12 @@
       <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-14" onchange="toggleCheck('item-d3-14')">
+            <input type="checkbox" id="item-d3-ca4" onchange="toggleCheck('item-d3-ca4')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-14">
+        <div class="timeline-card" id="card-item-d3-ca4">
           <div class="card-header">
             <span class="card-time">15:50－16:40</span>
             <div class="card-tags">
@@ -3645,7 +3653,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">規則： 排隊 ≤ 3 組就吃 <strong><strong>鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)</strong></strong> 享用鴨肉拉麵（推薦：鴨蔥醬油拉麵、親子丼），人均約 ¥1,000～¥1,500，超過 3 組直接放棄，前往阿美橫丁 (アメ横)。<br>💡 <strong>點餐祕訣</strong>：先於門口自動食券機買票 ➔ 入座後店員會拿出一塊「當月 3 種蔥」牌子問「3選2」，直接用手指號碼（例如：1 和 3）即可！</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-14')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-ca4')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3661,16 +3669,16 @@
       <div class="timeline-item" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-15" onchange="toggleCheck('item-d3-15')">
+            <input type="checkbox" id="item-d3-ca5" onchange="toggleCheck('item-d3-ca5')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-15">
+        <div class="timeline-card" id="card-item-d3-ca5">
           <div class="card-header">
             <span class="card-time">16:40－18:40</span>
             <div class="card-tags">
-              <button class="tag tag-article" title="此時段有 6 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d3-15')">📄 攻略 6</button><span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-article" title="此時段有 6 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d3-ca5')">📄 攻略 6</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -3681,7 +3689,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">📄 <strong>行前必讀介紹文（免稅規定，全程採買通用）</strong>：<strong>日本退稅新舊制差異與流程完整攻略文章</strong>｜<strong>免稅新制懶人包文章</strong><br>💡 <strong>舊制重點</strong>：同一店家同日消費滿 <strong>¥5,000（未稅）</strong> 可辦免稅，需<strong>出示護照本人辦理</strong>。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-15')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-ca5')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <p>📄 <strong>行前必讀介紹文（免稅規定，全程採買通用）</strong>：<a class="map-link-inline" href="https://www.letsgojp.com/archives/782/" target="_blank">日本退稅新舊制差異與流程完整攻略文章 🔗</a>｜<a class="map-link-inline" href="https://www.businessweekly.com.tw/style/blog/3015817" target="_blank">免稅新制懶人包文章 🔗</a></p>
@@ -3717,12 +3725,12 @@
       <div class="timeline-item" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-16" onchange="toggleCheck('item-d3-16')">
+            <input type="checkbox" id="item-d3-ca6" onchange="toggleCheck('item-d3-ca6')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-16">
+        <div class="timeline-card" id="card-item-d3-ca6">
           <div class="card-header">
             <span class="card-time">19:00</span>
             <div class="card-tags">
@@ -3737,7 +3745,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">目標地點：<strong><strong><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA" target="_blank">海茵娜酒店东京浅草桥 🔗</a> (変なホテル東京 浅草橋)</strong></strong></p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-16')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-ca6')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3756,12 +3764,12 @@
       <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-17" onchange="toggleCheck('item-d3-17')">
+            <input type="checkbox" id="item-d3-ca7" onchange="toggleCheck('item-d3-ca7')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-17">
+        <div class="timeline-card" id="card-item-d3-ca7">
           <div class="card-header">
             <span class="card-time">19:20</span>
             <div class="card-tags">
@@ -3776,7 +3784,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">首選餐廳：<strong><strong><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.697878,139.786407&query_place_id=ChIJM2s0MnaPGGARLSDkTkqBlG4" target="_blank">吉野家 (吉野家 浅草橋店) 🔗</a></strong></strong> (淺草橋站東口旁) 享用經典日式牛丼與定食（推薦：特選牛丼、牛燒肉定食、滑蛋牛肉丼），人均約 ¥500～¥900。<br>💡 <strong>點餐與付款祕訣（自動售票機・螢幕叫號取餐）</strong>：</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-17')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-ca7')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -3813,12 +3821,12 @@
       <div class="timeline-item" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-18" onchange="toggleCheck('item-d3-18')">
+            <input type="checkbox" id="item-d3-ca8" onchange="toggleCheck('item-d3-ca8')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-18">
+        <div class="timeline-card" id="card-item-d3-ca8">
           <div class="card-header">
             <span class="card-time">19:20</span>
             <div class="card-tags">
@@ -3845,12 +3853,12 @@
       <div class="timeline-item" data-category="stay">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
-            <input type="checkbox" id="item-d3-19" onchange="toggleCheck('item-d3-19')">
+            <input type="checkbox" id="item-d3-ca9" onchange="toggleCheck('item-d3-ca9')">
             <span class="checkmark"></span>
           </label>
           <div class="timeline-line"></div>
         </div>
-        <div class="timeline-card" id="card-item-d3-19">
+        <div class="timeline-card" id="card-item-d3-ca9">
           <div class="card-header">
             <span class="card-time">19:50</span>
             <div class="card-tags">
@@ -3863,7 +3871,7 @@
           </h3>
           <div class="card-body">
             <p class="card-summary">慢步返回<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA" target="_blank">海茵娜酒店 🔗</a>，放妥今日採買戰利品、更衣梳洗放鬆休息。</p>
-            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-19')">📖 完整說明與祕訣</button>
+            <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-ca9')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
@@ -6160,6 +6168,14 @@
       document.querySelectorAll('#day1-section .sub-toggle-btn')[1].classList.toggle('active', !isPlanA);
       document.querySelector('.day1-plan-A').style.display = isPlanA ? 'block' : 'none';
       document.querySelector('.day1-plan-B').style.display = isPlanA ? 'none' : 'block';
+    }
+
+    function switchDay3Plan(plan) {
+      const isSunny = plan === 'sunny';
+      document.getElementById('day3-btn-sunny').classList.toggle('active', isSunny);
+      document.getElementById('day3-btn-rainy').classList.toggle('active', !isSunny);
+      document.querySelector('.day3-plan-sunny').style.display = isSunny ? 'block' : 'none';
+      document.querySelector('.day3-plan-rainy').style.display = isSunny ? 'none' : 'block';
     }
 
     function switchDay2Group(group) {
