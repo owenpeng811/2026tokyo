@@ -341,6 +341,12 @@ def parse_v10_markdown():
         'hotel_jp_addr': "東京都台東区浅草橋1-10-5"
     }
 
+    # Day 1 標題之前的行前資訊（航班接送／住宿／新手交通提醒／行程與餐點總覽）。
+    # 日程正則只切取 `## **📅 Day N` 之後的內容，這段以往在 PWA 完全看不到，
+    # 現改由「📌 行前」頁籤呈現。
+    pre_match = re.search(r'\n(## \*\*✈️ .*?)\n## \*\*📅 Day 1', content, re.DOTALL)
+    meta['preamble'] = pre_match.group(1).strip() if pre_match else ''
+
     days_data = {
         1: {'common_before': [], 'plan_a': [], 'plan_b': [], 'common_after': []},
         2: {'parents': {'common_before': [], 'sunny': [], 'rainy': [], 'common_after': []}, 'kids': []},
@@ -633,6 +639,75 @@ def count_articles(html_content):
     return len(seen)
 
 
+def render_prep_body(lines):
+    """渲染行前段落的內文：連續的 `|` 開頭行合併成表格，其餘交給 markdown_to_html。"""
+    parts = []
+    buf = []
+    table = []
+
+    def flush_buf():
+        if buf:
+            parts.append(markdown_to_html('\n'.join(buf)))
+            buf.clear()
+
+    def flush_table():
+        if not table:
+            return
+        rows = [[c.strip() for c in r.strip().strip('|').split('|')] for r in table]
+        header, body = rows[0], [r for r in rows[1:] if set(''.join(r)) - set(': -')]
+        html = '<div class="prep-table-wrap"><table class="prep-table"><thead><tr>'
+        html += ''.join(f'<th>{format_inline_markdown(c)}</th>' for c in header)
+        html += '</tr></thead><tbody>'
+        for r in body:
+            html += '<tr>' + ''.join(f'<td>{format_inline_markdown(c)}</td>' for c in r) + '</tr>'
+        parts.append(html + '</tbody></table></div>')
+        table.clear()
+
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith('|'):
+            flush_buf()
+            table.append(stripped)
+        elif stripped.startswith(('<details', '</details', '<summary')):
+            # 摺疊區塊是原生 HTML，包進 <p> 會被瀏覽器拆壞
+            flush_table()
+            flush_buf()
+            parts.append(stripped)
+        else:
+            flush_table()
+            # 略過分隔線與只有 `>` 的空引用行（後者會產生空 <p>）
+            if stripped not in ('---', '>'):
+                # 還原 Markdown 逸出字元（README 用 `1\.`、`\=` 避免被誤解析）
+                buf.append(re.sub(r'\\([.\-=+#|*_`])', r'\1', line))
+    flush_table()
+    flush_buf()
+    return '\n'.join(parts)
+
+
+def render_prep_html(md_text, meta):
+    """把 Day 1 之前的行前 Markdown 轉成「📌 行前」頁籤的 HTML。"""
+    if not md_text:
+        return ''
+    html = ''
+    for block in re.split(r'\n(?=## \*\*)', md_text):
+        lines = block.strip().split('\n')
+        if not lines or not lines[0].startswith('## '):
+            continue
+        heading = lines[0].lstrip('#').strip().strip('*').replace('\\', '')
+        html += f'      <div class="prep-block">\n        <h3 class="prep-title">{heading}</h3>\n'
+        html += render_prep_body(lines[1:])
+        # README 的住宿地址是羅馬拼音，給計程車司機看的日文地址只有這裡有
+        if '住宿資訊' in heading and meta.get('hotel_jp_addr'):
+            jp_addr = meta['hotel_jp_addr']
+            html += (f'\n        <div class="prep-copy-row">'
+                     f'<span class="prep-copy-label">🚕 給司機看</span>'
+                     f'<span class="prep-copy-val">{jp_addr}</span>'
+                     f'<button class="copy-btn" onclick="copyText(\'{jp_addr}\', \'已複製日文地址！\')">複製</button>'
+                     f'</div>')
+        html += '\n      </div>\n'
+    return html
+
+
 def build_card_html(item_id, item):
     btn_html = ""
     if item['has_modal']:
@@ -691,7 +766,17 @@ def build_card_html(item_id, item):
 
 def render_full_pwa_html(meta, days_data):
     timeline_html = ""
-    
+
+    # 行前（Day 1 之前的段落）
+    prep_body = render_prep_html(meta.get('preamble', ''), meta)
+    if prep_body:
+        timeline_html += """    <!-- 行前 Section -->
+    <div class="prep-section" id="prep-section" style="display: none;">
+      <div class="day-overview-header">
+        <h2 class="day-overview-title">行前必讀：航班住宿 × 搭車提醒 × 全程總覽</h2>
+      </div>
+""" + prep_body + "    </div>\n\n"
+
     # Day 1
     timeline_html += """    <!-- Day 1 Section -->
     <div class="day-section" id="day1-section">
@@ -834,8 +919,6 @@ def render_full_pwa_html(meta, days_data):
         timeline_html += build_card_html(f"d6-{idx}", it)
     timeline_html += '    </div>\n\n'
 
-    hotel_url = MASTER_NAV_MAP.get('海茵娜酒店', 'https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA')
-
     full_page = f"""<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -973,36 +1056,80 @@ def render_full_pwa_html(meta, days_data):
       box-shadow: 0 4px 12px rgba(228, 95, 86, 0.35);
     }}
 
-    .meta-card {{
-      margin: 12px 16px;
+    .prep-section {{
+      padding: 0 16px 24px;
+    }}
+    .prep-block {{
       background: var(--card-bg);
       backdrop-filter: blur(var(--blur-strength));
       border: 1px solid var(--card-border);
       border-radius: 14px;
-      padding: 12px 14px;
+      padding: 14px 16px;
+      margin-bottom: 14px;
+    }}
+    .prep-title {{
+      font-size: 1.02rem;
+      font-weight: 700;
+      color: var(--accent-gold);
+      margin-bottom: 10px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--card-border);
+    }}
+    .prep-block p {{
+      font-size: 0.9rem;
+      line-height: 1.7;
+      margin-bottom: 8px;
+    }}
+    .prep-block .modal-list li {{
+      font-size: 0.9rem;
+      line-height: 1.7;
+    }}
+    .prep-table-wrap {{
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin-bottom: 10px;
+    }}
+    .prep-table {{
+      border-collapse: collapse;
+      width: 100%;
+      min-width: 520px;
+      font-size: 0.82rem;
+    }}
+    .prep-table th, .prep-table td {{
+      border: 1px solid var(--card-border);
+      padding: 8px 10px;
+      text-align: left;
+      vertical-align: top;
+      line-height: 1.6;
+    }}
+    .prep-table th {{
+      background: rgba(255, 255, 255, 0.06);
+      font-weight: 700;
+      white-space: nowrap;
+    }}
+    .prep-table td:first-child {{
+      white-space: nowrap;
+      text-align: center;
+    }}
+
+    .prep-copy-row {{
       display: flex;
-      flex-direction: column;
+      align-items: center;
       gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+      padding: 8px 10px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 8px;
+      font-size: 0.86rem;
     }}
-
-    .meta-row {{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      font-size: 0.85rem;
-    }}
-
-    .meta-label {{
+    .prep-copy-label {{
       color: var(--text-muted);
-      display: flex;
-      align-items: center;
-      gap: 6px;
+      white-space: nowrap;
     }}
-
-    .meta-val {{
-      font-weight: 500;
+    .prep-copy-val {{
+      font-weight: 600;
       color: #fff;
-      text-align: right;
     }}
 
     .copy-btn {{
@@ -1446,6 +1573,7 @@ def render_full_pwa_html(meta, days_data):
     </div>
 
     <nav class="day-tabs" id="dayTabs">
+      <button class="day-tab" onclick="switchDay(0)">📌 行前</button>
       <button class="day-tab active" onclick="switchDay(1)">D1 (8/20四)</button>
       <button class="day-tab" onclick="switchDay(2)">D2 (8/21五)</button>
       <button class="day-tab" onclick="switchDay(3)">D3 (8/22六)</button>
@@ -1454,31 +1582,6 @@ def render_full_pwa_html(meta, days_data):
       <button class="day-tab" onclick="switchDay(6)">D6 (8/25二)</button>
     </nav>
   </header>
-
-  <section class="meta-card">
-    <div class="meta-row">
-      <span class="meta-label">🏨 住宿飯店</span>
-      <span class="meta-val">
-        {meta['hotel_name']}
-        <a class="copy-btn" href="{hotel_url}" target="_blank">導航</a>
-      </span>
-    </div>
-    <div class="meta-row">
-      <span class="meta-label">🚕 給司機地址</span>
-      <span class="meta-val">
-        {meta['hotel_jp_addr']}
-        <button class="copy-btn" onclick="copyText('{meta['hotel_jp_addr']}', '已複製日文地址！')">複製</button>
-      </span>
-    </div>
-    <div class="meta-row">
-      <span class="meta-label">✈️ 去程航班</span>
-      <span class="meta-val">{meta['flight_go']}</span>
-    </div>
-    <div class="meta-row">
-      <span class="meta-label">✈️ 回程航班</span>
-      <span class="meta-val">{meta['flight_back']}</span>
-    </div>
-  </section>
 
   <main class="timeline-container">
 {timeline_html}
@@ -1523,9 +1626,12 @@ def render_full_pwa_html(meta, days_data):
 
     function switchDay(day) {{
       currentDay = day;
+      // 第 0 個頁籤是「📌 行前」，其後才是 D1～D6
       document.querySelectorAll('.day-tab').forEach((tab, i) => {{
-        tab.classList.toggle('active', i + 1 === day);
+        tab.classList.toggle('active', i === day);
       }});
+      const prep = document.getElementById('prep-section');
+      if (prep) prep.style.display = (day === 0) ? 'block' : 'none';
       document.querySelectorAll('.day-section').forEach((sec, i) => {{
         sec.style.display = (i + 1 === day) ? 'block' : 'none';
       }});
