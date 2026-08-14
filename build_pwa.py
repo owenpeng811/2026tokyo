@@ -1720,7 +1720,24 @@ def render_full_pwa_html(meta, days_data):
       registerServiceWorker();
       initSwipeNavigation();
       applyFontSize(fontSizeIdx, false);
+      restoreLastPosition();
     }});
+
+    // 記住上次看到哪一天與捲動位置。PWA 被系統回收後重新開啟時，
+    // 預設會回到 D1，對正在看 Day 3 的人很不方便。
+    function restoreLastPosition() {{
+      // 先把捲動位置讀出來，switchDay() 會把它歸零（手動換天要回到頂端）
+      const y = parseInt(localStorage.getItem('lastScroll'), 10);
+      const day = parseInt(localStorage.getItem('lastDay'), 10);
+      if (day >= 0 && day <= 6 && day !== currentDay) switchDay(day);
+
+      if (y > 0) {{
+        // 等版面與圖片穩定後再捲，否則會被 switchDay 的置頂蓋掉
+        requestAnimationFrame(() => setTimeout(() => window.scrollTo({{ top: y }}), 120));
+      }}
+      ['visibilitychange', 'pagehide'].forEach(evt =>
+        document.addEventListener(evt, () => localStorage.setItem('lastScroll', Math.round(window.scrollY))));
+    }}
 
     // 文字大小：整份 CSS 都用 rem，所以只要改根字級就能整頁等比縮放。
     // 選擇存在 localStorage，下次開啟（含安裝成 App 後）沿用。
@@ -1784,6 +1801,8 @@ def render_full_pwa_html(meta, days_data):
 
     function switchDay(day) {{
       currentDay = day;
+      localStorage.setItem('lastDay', day);
+      localStorage.setItem('lastScroll', 0);
       // 第 0 個頁籤是「📌 行前」，其後才是 D1～D6
       document.querySelectorAll('.day-tab').forEach((tab, i) => {{
         tab.classList.toggle('active', i === day);
@@ -1793,9 +1812,13 @@ def render_full_pwa_html(meta, days_data):
       document.querySelectorAll('.day-section').forEach((sec, i) => {{
         sec.style.display = (i + 1 === day) ? 'block' : 'none';
       }});
-      // 滑動切換時把作用中的頁籤帶進視野（block:'nearest' 避免頁面上下跳動）
+      // 滑動切換時把作用中的頁籤帶進視野。只捲動頁籤列本身，
+      // 不用 scrollIntoView——它會連帶動到頁面的垂直捲動，跟下面的置頂打架。
+      const tabs = document.getElementById('dayTabs');
       const activeTab = document.querySelectorAll('.day-tab')[day];
-      if (activeTab) activeTab.scrollIntoView({{ block: 'nearest', inline: 'center', behavior: 'smooth' }});
+      if (tabs && activeTab) {{
+        tabs.scrollTo({{ left: activeTab.offsetLeft - (tabs.clientWidth - activeTab.clientWidth) / 2, behavior: 'smooth' }});
+      }}
       window.scrollTo({{ top: 0, behavior: 'smooth' }});
     }}
 
