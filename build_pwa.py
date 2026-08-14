@@ -1088,7 +1088,6 @@ def render_full_pwa_html(meta, days_data):
       min-height: 44px;
       padding: 6px 12px;
       margin-left: auto;
-      margin-right: 8px;
       border-radius: 12px;
       border: 1px solid var(--card-border);
       background: rgba(255, 255, 255, 0.06);
@@ -1101,16 +1100,6 @@ def render_full_pwa_html(meta, days_data):
     }}
     .font-size-btn:active {{
       background: rgba(255, 255, 255, 0.16);
-    }}
-
-    .countdown-badge {{
-      font-size: 0.75rem;
-      background: rgba(228, 95, 86, 0.2);
-      color: #ff7b72;
-      border: 1px solid rgba(228, 95, 86, 0.4);
-      padding: 3px 8px;
-      border-radius: 12px;
-      font-weight: 600;
     }}
 
     .progress-bar-container {{
@@ -1674,9 +1663,6 @@ def render_full_pwa_html(meta, days_data):
         <span>🗼 東京親子自由行</span>
       </div>
       <button class="font-size-btn" id="fontSizeBtn" onclick="cycleFontSize()" aria-label="調整文字大小">🔠 標準</button>
-      <div class="countdown-badge" id="countdownBadge">
-        ⏳ 倒數計時中
-      </div>
     </div>
     
     <div class="progress-bar-container">
@@ -1731,7 +1717,6 @@ def render_full_pwa_html(meta, days_data):
     document.addEventListener('DOMContentLoaded', () => {{
       restoreChecklist();
       updateProgressBar();
-      startCountdown();
       registerServiceWorker();
       initSwipeNavigation();
       applyFontSize(fontSizeIdx, false);
@@ -1945,23 +1930,6 @@ def render_full_pwa_html(meta, days_data):
       document.getElementById('modalOverlay').classList.remove('active');
       document.getElementById('modalSheet').classList.remove('active');
       document.body.style.overflow = '';
-    }}
-
-    function startCountdown() {{
-      const targetDate = new Date('2026-08-20T09:00:00+08:00').getTime();
-      function update() {{
-        const now = new Date().getTime();
-        const diff = targetDate - now;
-        if (diff <= 0) {{
-          document.getElementById('countdownBadge').innerText = '🎉 旅程進行中！';
-          return;
-        }}
-        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        document.getElementById('countdownBadge').innerText = `⏳ 倒數 ${{days}} 天 ${{hours}} 時出發`;
-      }}
-      update();
-      setInterval(update, 60000);
     }}
 
     function showToast(msg) {{
