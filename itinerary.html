@@ -79,6 +79,26 @@
       gap: 6px;
     }
 
+    .font-size-btn {
+      flex: 0 0 auto;
+      min-height: 44px;
+      padding: 6px 12px;
+      margin-left: auto;
+      margin-right: 8px;
+      border-radius: 12px;
+      border: 1px solid var(--card-border);
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text-main);
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: var(--transition-smooth);
+    }
+    .font-size-btn:active {
+      background: rgba(255, 255, 255, 0.16);
+    }
+
     .countdown-badge {
       font-size: 0.75rem;
       background: rgba(228, 95, 86, 0.2);
@@ -634,6 +654,13 @@
       transform: translateX(-50%) translateY(0);
     }
   </style>
+  <script>
+    // 在畫面繪製前先套用上次選的字級，避免載入瞬間字體大小跳動
+    (function () {
+      var pct = [90, 100, 115, 130][parseInt(localStorage.getItem('fontScaleIdx'), 10)];
+      if (pct) document.documentElement.style.fontSize = pct + '%';
+    })();
+  </script>
 </head>
 <body>
 
@@ -642,6 +669,7 @@
       <div class="app-title">
         <span>🗼 東京親子自由行</span>
       </div>
+      <button class="font-size-btn" id="fontSizeBtn" onclick="cycleFontSize()" aria-label="調整文字大小">🔠 標準</button>
       <div class="countdown-badge" id="countdownBadge">
         ⏳ 倒數計時中
       </div>
@@ -6180,7 +6208,35 @@
       startCountdown();
       registerServiceWorker();
       initSwipeNavigation();
+      applyFontSize(fontSizeIdx, false);
     });
+
+    // 文字大小：整份 CSS 都用 rem，所以只要改根字級就能整頁等比縮放。
+    // 選擇存在 localStorage，下次開啟（含安裝成 App 後）沿用。
+    const FONT_LEVELS = [
+      { label: '小', pct: 90 },
+      { label: '標準', pct: 100 },
+      { label: '大', pct: 115 },
+      { label: '特大', pct: 130 }
+    ];
+    let fontSizeIdx = (function () {
+      const saved = parseInt(localStorage.getItem('fontScaleIdx'), 10);
+      return (saved >= 0 && saved < FONT_LEVELS.length) ? saved : 1;
+    })();
+
+    function applyFontSize(idx, notify) {
+      fontSizeIdx = idx;
+      const level = FONT_LEVELS[idx];
+      document.documentElement.style.fontSize = level.pct + '%';
+      localStorage.setItem('fontScaleIdx', idx);
+      const btn = document.getElementById('fontSizeBtn');
+      if (btn) btn.textContent = '🔠 ' + level.label;
+      if (notify) showToast('文字大小：' + level.label);
+    }
+
+    function cycleFontSize() {
+      applyFontSize((fontSizeIdx + 1) % FONT_LEVELS.length, true);
+    }
 
     // 左右滑動切換天數。刻意避開會橫向捲動的區域（總覽表格、頁籤列、
     // 分流按鈕列）與開啟中的抽屜，否則會跟它們自己的橫向捲動打架。
