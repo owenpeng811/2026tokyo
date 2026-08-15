@@ -424,6 +424,8 @@
 
 #### **09:25－11:00 🌿 晨間不忍池與清水觀音堂散步**
 
+> 📄 **行前必讀介紹文**：[上野恩賜公園：清水觀音堂、不忍池、上野大佛、花園稻荷神社實走介紹](https://tintinhg.pixnet.net/blog/post/463768787)｜[上野公園南側：清水堂、弁天堂、不忍池畔散步路線](https://travel.yam.com/article/113812)
+
 > * 由 **JR 上野站「不忍口（Shinobazu Exit）」** 出站，該出口就開在不忍池那一側。趁著早晨陽光尚未炙熱，散步前往不忍池與清水觀音堂：  
 >   * [**不忍池 (不忍池 弁天堂)**](https://www.google.com/maps/search/?api=1&query=35.7121418,139.7710956&query_place_id=ChIJd9rFFieMGGAR0zV_avi5q-8)：夏日荷花與湖中弁天堂，步道平緩好走。  
 >   * [**清水觀音堂 (清水観音堂)**](https://www.google.com/maps/search/?api=1&query=35.7126261,139.7735665&query_place_id=ChIJ9Rg_5Z2OGGAR40HN7lsM5_U)：仿京都清水寺的紅色舞台建築，於樹蔭高台俯瞰不忍池與著名的「月之松」。  
@@ -465,6 +467,8 @@
 
 > 🎫 **票務狀態：免費入場**（本時段僅長輩組前往，常設展符合免費資格，出示護照即可）
 
+> 📄 **行前必讀介紹文**：[上野國立西洋美術館：參觀資訊、交通方式、門票資訊](https://sakurainjapan.com/tokyo-ueno-nmwa/)｜[國立西洋美術館（東京旅遊官方網站 GO TOKYO 繁體中文）](https://www.gotokyo.org/tc/spot/120/index.html)
+
 > * 目標地點：[**國立西洋美術館 (国立西洋美術館)**](https://www.google.com/maps/search/?api=1&query=35.7153869,139.7758138&query_place_id=ChIJf8xB-pyOGGARizzhlNTcI7s)（世界文化遺產，參觀室內常設展）  
 >   * 💡 **長輩專屬優惠與免費入場方式**：
 >     * **官方規定**：**滿 65 歲以上長者參觀常設展「完全免費」**（一般成人票價 ¥500；特別展除外）。
@@ -497,7 +501,8 @@
 #### **15:45－16:45 ☕🛍️ 松坂屋／PARCO_ya 逛街與下午茶**
 
 > * 目標地點：[**松坂屋 (松坂屋 上野店)**](https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o) 與 [**PARCO_ya (PARCO_ya 上野)**](https://www.google.com/maps/search/?api=1&query=35.7070100,139.7734500&query_place_id=ChIJh7iJ_R-MGGARk32pRTmYtIM)（兩棟全室內連通）
-> * 🍪 **順路名產**：先步行約 5 分鐘至 [**兔屋 (うさぎや)**](https://www.google.com/maps/search/?api=1&query=35.7061495,139.7718239&query_place_id=ChIJ2zdQ8x-MGGARevmtQEbnfWo) 買現做的百年銅鑼燒，帶到咖啡廳配茶吃。
+> * 🍪 **順路名產**：步行約 5 分鐘至 [**兔屋 (うさぎや)**](https://www.google.com/maps/search/?api=1&query=35.7061495,139.7718239&query_place_id=ChIJ2zdQ8x-MGGARevmtQEbnfWo) 買現做的百年銅鑼燒。
+>   * ⚠️ **咖啡廳通常謝絕外食**：銅鑼燒不要帶進咖啡廳吃，**買了直接收好，帶回飯店當宵夜**（常溫可放，當天吃風味最好）。
 > * **室內自由活動**：可在咖啡廳悠閒品嚐咖啡，或逛松坂屋上野店地下美食街、書店與 PARCO_ya 精緻商場。
 
 <details>
@@ -538,6 +543,8 @@
 
 > 🎫 **票務狀態：免費入場**（本時段僅長輩組前往，綜合文化展符合免費資格，出示護照即可）
 
+> 📄 **行前必讀介紹文**：[東京國立博物館 2026：門票、開放時間、六大展館與必看國寶攻略](https://jp-travel.williamlion.tw/japan/tokyo-national-museum-guide-2026/)｜[東京國立博物館：體驗日本歷史和文化的必去之地](https://japan-food.guide/zh-TW/articles/Tokyo-National-Museum-A-Must-Visit-Destination-to-Experience-Japans-History-and-Culture)
+
 > * 目標地點：[**東京國立博物館 (東京国立博物館)**](https://www.google.com/maps/search/?api=1&query=35.7188351,139.7765215&query_place_id=ChIJEX3XFIOOGGAR3XdJvRjWLyM)（日本歷史最悠久、規模最大的博物館）
 > * 💡 **長輩專屬優惠與免費入場方式**：
 >   * **官方規定**：**滿 70 歲以上長者參觀「綜合文化展（本館常設展）」完全免費**（一般成人票價 ¥1,000；特別展除外）。
@@ -577,6 +584,8 @@
 #### **13:25－15:25 🏛️ 參觀國立西洋美術館室內常設展**
 
 > 🎫 **票務狀態：免費入場**（本時段僅長輩組前往，常設展符合免費資格，出示護照即可）
+
+> 📄 **行前必讀介紹文**：[上野國立西洋美術館：參觀資訊、交通方式、門票資訊](https://sakurainjapan.com/tokyo-ueno-nmwa/)｜[國立西洋美術館（東京旅遊官方網站 GO TOKYO 繁體中文）](https://www.gotokyo.org/tc/spot/120/index.html)
 
 > * 目標地點：[**國立西洋美術館 (国立西洋美術館)**](https://www.google.com/maps/search/?api=1&query=35.7153869,139.7758138&query_place_id=ChIJf8xB-pyOGGARizzhlNTcI7s)
 > * 💡 **長輩專屬優惠與免費入場方式**：
