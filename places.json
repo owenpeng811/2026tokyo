@@ -1395,6 +1395,28 @@
       "poi_level": "container",
       "container_note": "Google 無獨立 POI，導航指向東京迪士尼樂園園區"
     },
+    "薩莉亞 (サイゼリヤ 吉祥寺駅北口)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7043574,139.5789601&query_place_id=ChIJi3cb1kfuGGARiZitA8UrSEQ",
+      "nav_dict": [
+        "薩莉亞",
+        "薩莉亞 (サイゼリヤ 吉祥寺駅北口)",
+        "薩莉亞 吉祥寺駅北口",
+        "サイゼリヤ 吉祥寺駅北口"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "4_午餐"
+      ],
+      "html": [
+        "薩莉亞",
+        "薩莉亞 (サイゼリヤ 吉祥寺駅北口)",
+        "薩莉亞 吉祥寺駅北口"
+      ],
+      "verified_at": "2026-08-15",
+      "verified_name": "Saizeriya",
+      "verified_address": "Japan, 〒180-0004 Tokyo, Musashino, Kichijoji Honcho, 1 Chome−8−3 ｺｽﾓ吉祥寺 3F",
+      "verified_source": "使用者提供 maps.app.goo.gl 短網址，解析出 ftid 0x6018ee47d61b778b:0x44482bc503ad9889，轉為 place_id 後以該 place_id 反查瀏覽器，回到同一 POI（ftid 與座標一致）。verified_name／verified_address 取自 Google Maps 網頁介面 hl=en 的實際顯示值，非 Places API 回傳（本機無 API key）。hl=ja 顯示為「サイゼリヤ 吉祥寺駅北口」，與官方店舖頁 code=0837 的店名與地址一致。"
+    },
     "大戶屋 (大戶屋ごはん処 吉祥寺店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7032718,139.5784738&query_place_id=ChIJ-34cDUjuGGARIZkFocT8a5o",
       "nav_dict": [
@@ -1404,9 +1426,7 @@
         "大戶屋 吉祥寺店"
       ],
       "text_entities": [],
-      "first_dest": [
-        "4_午餐"
-      ],
+      "first_dest": [],
       "html": [
         "大戶屋",
         "大戶屋 (大戸屋ごはん処 吉祥寺店)",
