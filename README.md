@@ -369,7 +369,8 @@
 ### **09:00－09:20 🚇 前往上野御徒町**
 
 > * 從飯店步行約 2 分鐘至 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 東口進站。
-> * 於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 1 號月台搭乘 **🟡 JR 中央・總武線（JB）** 往 **秋葉原（Akihabara／JB19）／新宿 方向**，搭乘 **1 站** 直達 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（車程僅 2 分鐘）。
+> * **第一段（淺草橋 ➔ 秋葉原）**：於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） **1 號月台** 搭乘 **🟡 JR 中央・總武線（JB）** 往 **秋葉原（Akihabara／JB19）／新宿（Shinjuku／JB10） 方向**，搭乘 **1 站** 至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（**JB19**）（車程約 2 分鐘）。
+>   * 💡 **下一站防呆**：搭車後下一站應為 **秋葉原（Akihabara）**；若顯示 **兩國（Ryogoku）** 表示搭錯方向，請立即下車改搭對面月台列車。
 
 > 📸 【辨識：秋葉原站轉乘指標（最重要）】
 > ![秋葉原站 JR 山手線與京濱東北線往上野方向轉乘指標](./assets/images/akihabara_transfer_ueno.jpg)
@@ -380,9 +381,10 @@
 >   * 標註 **「for Ueno & Omiya（往上野、大宮）」**
 >   * 看到此指標即可順著階梯/電扶梯往下走至月台，表示方向正確。
 
-> * 於秋葉原站 **不用出站**，跟隨指標下樓至月台：
->   * ⚠️ **月台方向確認**：請認明月台指標目的地方向為「**上野 (Ueno) ／ 池袋 (Ikebukuro) ／ 大宮 (Omiya)**」，看到這三個站名即代表方向正確；**若看到「東京 (Tokyo) ／ 品川 (Shinagawa)」請切勿搭乘，那是反方向**。
-> * 搭乘 **JR 山手線 (綠色列車)** 或 **JR 京濱東北線 (水藍色列車)** 1 站直達 [**御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（車程約 2 分鐘）。
+> * **第二段（秋葉原 ➔ 御徒町，站內轉乘不出站）**：於秋葉原站 **不用出站**，跟隨指標下樓至月台。
+>   * 搭乘 **🟢 JR 山手線（JY）**（秋葉原 **JY03**）往 **上野（Ueno／JY05）／池袋（Ikebukuro／JY13） 方向**，或 **🔵 JR 京濱東北線（JK）**（秋葉原 **JK28**）往 **上野（Ueno／JK30）／大宮（Omiya） 方向**，搭乘 **1 站** 至 [**御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04 / JK29**）（車程約 2 分鐘）。
+>   * ⚠️ **正反方向對照**：請認明月台指標目的地方向為「**上野 (Ueno) ／ 池袋 (Ikebukuro) ／ 大宮 (Omiya)**」，看到這三個站名即代表方向正確；**若看到「東京 (Tokyo) ／ 品川 (Shinagawa)」請切勿搭乘，那是反方向**。
+>   * 💡 **下一站防呆**：搭車後下一站即為 **御徒町（Okachimachi）**。
 > * 🚶‍♂️ **出站動線**：於 **「御徒町站北口（North Exit）」** 出站，過馬路即直接抵達百貨公司 [**松坂屋 (松坂屋 上野店)**](https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o) 與 [**PARCO_ya (PARCO_ya 上野)**](https://www.google.com/maps/search/?api=1&query=35.7070100,139.7734500&query_place_id=ChIJh7iJ_R-MGGARk32pRTmYtIM)。
 
 ---
@@ -560,11 +562,11 @@
 >   * **若於 宇奈とと 用餐（首選）**：出店往北步行僅約 **2 分鐘（約 170 公尺）** 即直達 [**JR 上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw)（**JY05**） **不忍口** 進站。
 >   * **若於 松屋 用餐（備案）**：出店往北步行約 **4 分鐘（約 350 公尺）** 至 [**JR 上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw)（**JY05**） 不忍口，或往南步行約 **5 分鐘（約 390 公尺）** 至 [**JR 御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04**） 北口進站。
 >   * **若留在 松坂屋 / PARCO_ya 逛街**：出百貨步行約 **2 分鐘（約 120 公尺）** 至 [**JR 御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04**） 北口進站。
-> * **搭車與乘車方向（兩站搭法完全相同且最順暢）**：
->   * 於 **JR 上野站** 或 **JR 御徒町站** 進站後前往 **🟢 JR 山手線（JY）** 或 **🔵 JR 京濱東北線（JK）** 月台：
->     * ⚠️ **月台方向確認**：請認明月台指標目的地方向為「**東京 (Tokyo) ／ 品川 (Shinagawa)**」，看到這兩個站名即代表方向正確。
->     * 💡 **搭車防呆判斷**：搭車後下一站應為「御徒町」或「秋葉原」，若列車往「鶯谷 (Uguisudani) / 日暮里」方向表示搭錯，請立即下車至對面月台改搭反方向列車。
->   * 搭乘 **JR 山手線 (綠色列車)** 或 **JR 京濱東北線 (水藍色列車)** 1～2 站至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)。
+> * **第一段（上野／御徒町 ➔ 秋葉原）**：兩站搭乘的路線與方向完全相同，只差站數。
+>   * 由 [**JR 上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw)（**JY05 / JK30**） 出發：搭乘 **🟢 JR 山手線（JY）** 或 **🔵 JR 京濱東北線（JK）** 往 **東京（Tokyo）／品川（Shinagawa） 方向**，搭乘 **2 站**（途經御徒町）至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（**JY03 / JK28**）（車程約 4 分鐘）。
+>   * 由 [**JR 御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04 / JK29**） 出發：同路線、同方向，搭乘 **1 站** 至 秋葉原站（**JY03 / JK28**）（車程約 2 分鐘）。
+>   * ⚠️ **正反方向對照**：請認明月台指標目的地方向為「**東京 (Tokyo) ／ 品川 (Shinagawa)**」；**不要**搭往「**鶯谷 (Uguisudani) ／ 日暮里 (Nippori) ／ 池袋 (Ikebukuro)**」方向。
+>   * 💡 **下一站防呆**：由上野出發下一站應為 **御徒町（Okachimachi）**，由御徒町出發下一站應為 **秋葉原（Akihabara）**；若列車往鶯谷方向表示搭錯，請立即下車至對面月台改搭反方向列車。
 
 > 📸 【辨識：秋葉原站轉乘指標（最重要）】
 > ![秋葉原站中央・總武線 6 號月台往千葉方向指標](./assets/images/akihabara_transfer_chiba_p6.jpg)
@@ -575,9 +577,9 @@
 >   * 標註 **「for Chiba（千葉）」**
 >   * 看到 **Chiba（千葉）** 即代表方向正確，搭乘手扶梯/電梯上至 5F 總武線 6 號月台。
 
-> * 於秋葉原站 6 號月台搭乘 **JR 中央・總武線 (黃色列車，往千葉方向)**：
->   * 💡 **搭車防呆判斷**：搭車後下一站應為「**淺草橋 (Asakusabashi)**」，若列車下一站顯示「御茶之水 (Ochanomizu)」表示搭錯方向，請立即下車改搭反方向列車。
-> * 搭車 1 站直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)，出站步行回飯店休息（全程約 10 分鐘）。
+> * **第二段（秋葉原 ➔ 淺草橋，站內轉乘不出站）**：於 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（**JB19**） 上至 **5F 6 號月台**，搭乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **1 站** 至 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）（車程約 2 分鐘）。
+>   * 💡 **下一站防呆**：搭車後下一站應為 **淺草橋（Asakusabashi）**；若下一站顯示 **御茶之水（Ochanomizu）** 表示搭錯方向，請立即下車改搭對面月台列車。
+> * 抵達後出站步行回飯店休息（全程約 10 分鐘）。
 > * 💡 **長輩防迷路問路小卡**：若一時找不到方向，可直接向站務人員詢問：
 >   * **"Akihabara?"**（要去秋葉原）
 >   * **"Chiba platform?"**（請問往千葉方向月台）
@@ -1050,7 +1052,7 @@
 >   1. 菜單每道菜都印有 **4 位數編號**，點餐時只要指認或輸入數字，全程不需要說日語，是本行程語言門檻最低的一餐。  
 >   2. ⚠️ 現場可能是紙本點餐單、掃 QR 用手機點餐，或口頭向店員點；**官方店舖頁未標示本店採哪一種**，入座後先看桌上有沒有 QR 卡片。  
 >   3. 若為手機點餐，需要有人的手機能上網掃 QR，掃完同樣是輸入菜單編號。  
-> * 🍽️ **午餐刻意吃輕**：晚上 17:00 是串家物語炸串吃到飽，下午還有天音鯛魚燒與 SATOU 炸牛肉丸兩個點心。**每人點一份主餐即可，不加點飲料吧與甜點。**
+> * 🍽️ **午餐刻意吃輕**：晚上 17:00 是串家物語炸串吃到飽，下午還有天音鯛魚燒。**每人點一份主餐即可。**
 
 > * 備案餐廳 1：[**大戶屋 (大戸屋ごはん処 吉祥寺店)**](https://www.google.com/maps/search/?api=1&query=35.7032718,139.5784738&query_place_id=ChIJ-34cDUjuGGARIZkFocT8a5o) (ホワイトハウスビル 2F，北口步行 2 分鐘) 享用定食（推薦：烤魚定食、雞肉野菜定食），人均約 ¥1,000～¥1,500。  
 >   * 💡 **點餐與付款祕訣（桌上觸控平板點餐）**：  
@@ -1227,7 +1229,7 @@
 > * 目標地點：[**東京晴空街道 (東京ソラマチ)**](https://www.google.com/maps/search/?api=1&query=35.7100876,139.8106698&query_place_id=ChIJUaJR8NaOGGAR9-rraNT1PZo)
 > * 🚶‍♂️ **搭車路線（最省力直達首選）**：
 >   * 從淺草文化觀光中心步行約 3 分鐘至 [**東武 淺草站 (東武浅草駅)**](https://www.google.com/maps/search/?api=1&query=35.7119535,139.7983367&query_place_id=ChIJLyyKQTiPGGARsFv-uaDdzwo)（**TS01**）。
->   * 於 [**東武 淺草站 (東武浅草駅)**](https://www.google.com/maps/search/?api=1&query=35.7119535,139.7983367&query_place_id=ChIJLyyKQTiPGGARsFv-uaDdzwo)（**TS01**） 搭乘 **🔷 東武晴空塔線（TS）** 往 **東京晴空塔（TS02）／春日部 方向** 列車，搭乘 **1 站** 直達 [**東京晴空塔站 (とうきょうスカイツリー駅)**](https://www.google.com/maps/search/?api=1&query=35.7095445,139.8090493&query_place_id=ChIJ5_rl0daOGGAR0BEODNSc_W8)（**TS02**）（車程僅 2 分鐘）。
+>   * 於 [**東武 淺草站 (東武浅草駅)**](https://www.google.com/maps/search/?api=1&query=35.7119535,139.7983367&query_place_id=ChIJLyyKQTiPGGARsFv-uaDdzwo)（**TS01**） 搭乘 **🔷 東武晴空塔線（TS）** 往 **東京晴空塔（Tokyo Skytree／TS02）／春日部（Kasukabe） 方向** 列車，搭乘 **1 站** 直達 [**東京晴空塔站 (とうきょうスカイツリー駅)**](https://www.google.com/maps/search/?api=1&query=35.7095445,139.8090493&query_place_id=ChIJ5_rl0daOGGAR0BEODNSc_W8)（**TS02**）（車程僅 2 分鐘）。
 >   * 出站即直通晴空塔與東京晴空街道商場西館 1F，全程免曬太陽爬坡。
 
 ### **11:00－12:30 🍽️ 午餐：達摩文字燒**
