@@ -196,8 +196,14 @@
       white-space: nowrap;
     }
     .prep-table td:first-child {
-      white-space: nowrap;
       text-align: center;
+      /* 不用 nowrap：長店名會把第一欄撐到數百 px，把後面的欄位擠掉。
+         改為限寬換行，短標籤（時間、樓層）照樣維持單行。 */
+      max-width: 11em;
+      word-break: break-word;
+    }
+    .prep-table td:nth-child(2) {
+      min-width: 11em;
     }
 
     .prep-copy-row {
@@ -940,7 +946,11 @@
               <div class="modal-quote">
 <p>🏪 <strong>便利商店位置（松山機場官網查證）</strong></p>
 <p></p>
-<div class="prep-table-wrap"><table class="prep-table"><thead><tr><th>店家</th><th>位置</th><th>管制區</th><th>營業時間</th></tr></thead><tbody><tr><td><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=25.0640539,121.5518526&query_place_id=ChIJsY0-OuqrQjQRe9qx3EyVAi4" target="_blank"><strong>7-ELEVEN 松航門市</strong> 🔗</a><br>（機場官網名稱：統一超商複合式概念店）</td><td><strong>第一航廈 國際線報到大廳北側</strong><br>敦化北路 340-9 號</td><td>❌ 管制區外</td><td><strong>05:30－22:00</strong></td></tr><tr><td>7-ELEVEN 松機門市</td><td>第二航廈 國內線到站大廳<br>敦化北路 340-10 號</td><td>❌ 管制區外</td><td>05:30－22:00</td></tr></tbody></table></div>
+<div class="prep-table-wrap"><table class="prep-table"><thead><tr><th>店家</th><th>位置</th><th>管制區</th><th>營業時間</th></tr></thead><tbody><tr><td><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=25.0640539,121.5518526&query_place_id=ChIJsY0-OuqrQjQRe9qx3EyVAi4" target="_blank"><strong>7-ELEVEN 松航門市</strong> 🔗</a></td><td><strong>第一航廈 國際線報到大廳北側</strong>（敦化北路 340-9 號）</td><td>❌ 管制區外</td><td><strong>05:30－22:00</strong></td></tr><tr><td>7-ELEVEN 松機門市</td><td>第二航廈 國內線到站大廳（敦化北路 340-10 號）</td><td>❌ 管制區外</td><td>05:30－22:00</td></tr></tbody></table></div>
+<p></p>
+<ul class="modal-list">
+<li>⚠️ <strong>兩家名字只差一字、門牌只差 1 號</strong>：機場官網把松航門市標示為「統一超商複合式概念店（國際航廈）」，認明 <strong>340-9 號</strong> 就對了。</li>
+</ul>
 <p></p>
 <ul class="modal-list">
 <li>✅ <strong>本行程要去的是第一航廈報到大廳北側那家</strong>：與中華航空櫃台同一層，託運完走過去即到，<strong>不必跑到第二航廈</strong>。</li>
@@ -6263,7 +6273,11 @@
 <p></p>
 <p>🏪 <strong>便利商店位置（羽田官網查證）</strong></p>
 <p></p>
-<div class="prep-table-wrap"><table class="prep-table"><thead><tr><th>店家</th><th>位置</th><th>管制區</th><th>營業時間</th></tr></thead><tbody><tr><td><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.5435435,139.7705995&query_place_id=ChIJkyBuQxBhGGAR-L5rTEKwwgE" target="_blank"><strong>7-ELEVEN 出国ゲート店 (セブンイレブン羽田空港T3出国ゲート店)</strong> 🔗</a></td><td><strong>第 3 航廈 3F 出境審查後區域</strong></td><td>✅ <strong>管制區內</strong></td><td><strong>24 小時</strong></td></tr><tr><td><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.5449352,139.7684662&query_place_id=ChIJdWpVnlZhGGAR38ke8Odkrrc" target="_blank"><strong>Air LAWSON (ローソン 羽田空港第３ターミナル店)</strong> 🔗</a></td><td>第 3 航廈 1F 入境大廳廣場</td><td>❌ 管制區外</td><td>24 小時</td></tr></tbody></table></div>
+<div class="prep-table-wrap"><table class="prep-table"><thead><tr><th>店家</th><th>位置</th><th>管制區</th><th>營業時間</th></tr></thead><tbody><tr><td><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.5435435,139.7705995&query_place_id=ChIJkyBuQxBhGGAR-L5rTEKwwgE" target="_blank"><strong>7-ELEVEN 出国ゲート店</strong> 🔗</a></td><td><strong>第 3 航廈 3F 出境審查後區域</strong></td><td>✅ <strong>管制區內</strong></td><td><strong>24 小時</strong></td></tr><tr><td><a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.5449352,139.7684662&query_place_id=ChIJdWpVnlZhGGAR38ke8Odkrrc" target="_blank"><strong>Air LAWSON</strong> 🔗</a></td><td>第 3 航廈 1F 入境大廳廣場</td><td>❌ 管制區外</td><td>24 小時</td></tr></tbody></table></div>
+<p></p>
+<ul class="modal-list">
+<li>🔤 <strong>Google 地圖上的登錄名稱</strong>：7-ELEVEN 出国ゲート店＝「セブンイレブン羽田空港T3出国ゲート店」；Air LAWSON＝「ローソン 羽田空港第３ターミナル店」。</li>
+</ul>
 <p></p>
 <ul class="modal-list">
 <li>✅ <strong>本行程要去的是 3F 那家 7-ELEVEN</strong>：11:30－12:30 已完成報到、安檢與出境查驗，屆時人就在管制區內，出了審查後往登機門方向即可看到。</li>

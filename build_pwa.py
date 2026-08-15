@@ -1228,8 +1228,14 @@ def render_full_pwa_html(meta, days_data):
       white-space: nowrap;
     }}
     .prep-table td:first-child {{
-      white-space: nowrap;
       text-align: center;
+      /* 不用 nowrap：長店名會把第一欄撐到數百 px，把後面的欄位擠掉。
+         改為限寬換行，短標籤（時間、樓層）照樣維持單行。 */
+      max-width: 11em;
+      word-break: break-word;
+    }}
+    .prep-table td:nth-child(2) {{
+      min-width: 11em;
     }}
 
     .prep-copy-row {{
