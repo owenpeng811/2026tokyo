@@ -1405,7 +1405,7 @@
       ],
       "text_entities": [],
       "first_dest": [
-        "4_大戶屋"
+        "4_午餐"
       ],
       "html": [
         "大戶屋",
@@ -1626,30 +1626,6 @@
       "verified_at": "2026-08-14",
       "verified_name": "Okachimachi Station",
       "verified_address": "5 Chome-27 Ueno, Taito City, Tokyo 110-0005, Japan"
-    },
-    "拉麵 ろく月 (らーめん ろく月)": {
-      "url": "https://www.google.com/maps/search/?api=1&query=35.6988822,139.7853036&query_place_id=ChIJJXBZm7GOGGARs9xs2jSt0lI",
-      "nav_dict": [
-        "ろく月",
-        "ろく月 雞白湯拉麵",
-        "拉麵 ろく月",
-        "拉麵 ろく月 (らーめん ろく月)"
-      ],
-      "text_entities": [
-        "ろく月 雞白湯拉麵",
-        "拉麵 ろく月",
-        "拉麵 ろく月 (らーめん ろく月)"
-      ],
-      "first_dest": [],
-      "html": [
-        "ろく月",
-        "ろく月 雞白湯拉麵",
-        "拉麵 ろく月",
-        "拉麵 ろく月 (らーめん ろく月)"
-      ],
-      "verified_at": "2026-08-14",
-      "verified_name": "Rokutsuki",
-      "verified_address": "Japan, 〒111-0053 Tokyo, Taito City, Asakusabashi, 2-chōme−4−５ NYビル 101"
     },
     "摩斯漢堡 (モスバーガー 新宿西口店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.694661,139.698994&query_place_id=ChIJKdESUJGNGGAReuO_-gbd6jY",
