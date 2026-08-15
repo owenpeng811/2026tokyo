@@ -217,9 +217,39 @@ def render_md_table(rows):
     return html + '</tbody></table></div>'
 
 
+def strip_orphan_details(text):
+    """剝除跨時段殘留的孤兒 <details>／</details>。
+
+    README 為了 Docsify 用 <details><summary>☔ 雨天備案…</summary> 包住整個分支，
+    該開頭標籤會被切進「前一個時段」的本文，在 PWA 產生一個點開沒有內容的空摺疊；
+    對應的 </details> 則落在分支最後一個時段。時段內自己成對的 <details> 不受影響。
+    """
+    lines = text.split('\n')
+    opens = [i for i, l in enumerate(lines) if l.strip() == '<details>']
+    closes = [i for i, l in enumerate(lines) if l.strip() == '</details>']
+    drop = set()
+    # 由後往前配對：每個 </details> 找它前面最近、尚未被配對的 <details>
+    unpaired_opens = list(opens)
+    for c in closes:
+        prior = [o for o in unpaired_opens if o < c]
+        if prior:
+            unpaired_opens.remove(prior[-1])
+        else:
+            drop.add(c)                      # 沒有開頭的孤兒結尾
+    for o in unpaired_opens:                 # 沒有結尾的孤兒開頭
+        drop.add(o)
+        nxt = o + 1
+        while nxt < len(lines) and not lines[nxt].strip():
+            nxt += 1
+        if nxt < len(lines) and lines[nxt].strip().startswith('<summary>'):
+            drop.add(nxt)
+    return '\n'.join(l for i, l in enumerate(lines) if i not in drop)
+
+
 def markdown_to_html(text):
     if not text:
         return ""
+    text = strip_orphan_details(text)
     lines = text.split('\n')
     html_lines = []
     in_list = False
