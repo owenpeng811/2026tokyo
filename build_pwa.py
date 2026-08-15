@@ -205,6 +205,18 @@ def clean_markdown_for_summary(md_text):
         return autolink_text_entities(first)
     return autolink_text_entities("<br>".join(summary_parts))
 
+def render_md_table(rows):
+    """把連續的 Markdown 表格行轉成 HTML；沿用行前頁籤的 .prep-table 樣式。"""
+    cells = [[c.strip() for c in r.strip().strip('|').split('|')] for r in rows]
+    header, body = cells[0], [r for r in cells[1:] if set(''.join(r)) - set(': -')]
+    html = '<div class="prep-table-wrap"><table class="prep-table"><thead><tr>'
+    html += ''.join(f'<th>{format_inline_markdown(c)}</th>' for c in header)
+    html += '</tr></thead><tbody>'
+    for r in body:
+        html += '<tr>' + ''.join(f'<td>{format_inline_markdown(c)}</td>' for c in r) + '</tr>'
+    return html + '</tbody></table></div>'
+
+
 def markdown_to_html(text):
     if not text:
         return ""
@@ -212,9 +224,24 @@ def markdown_to_html(text):
     html_lines = []
     in_list = False
     in_quote = False
-    
+    table = []
+
+    def flush_table():
+        if table:
+            html_lines.append(render_md_table(table))
+            table.clear()
+
     for raw_line in lines:
         line = raw_line.strip()
+        # 表格：`| a | b |`，或引用區塊內的 `> | a | b |`
+        cell_line = line.lstrip('>').strip() if line.startswith('>') else line
+        if cell_line.startswith('|') and cell_line.endswith('|'):
+            if in_list:
+                html_lines.append('</ul>')
+                in_list = False
+            table.append(cell_line)
+            continue
+        flush_table()
         if not line:
             if in_list:
                 html_lines.append('</ul>')
@@ -262,11 +289,12 @@ def markdown_to_html(text):
             else:
                 html_lines.append(f'<p>{format_inline_markdown(line)}</p>')
                 
+    flush_table()
     if in_list:
         html_lines.append('</ul>')
     if in_quote:
         html_lines.append('</div>')
-        
+
     full_html = '\n'.join(html_lines)
     return autolink_text_entities(full_html)
 
