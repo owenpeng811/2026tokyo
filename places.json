@@ -348,7 +348,7 @@
       "first_dest": [
         "1_前往秋葉原",
         "1_前往新宿東口",
-        "2_前往上野御徒町",
+        "2_前往上野",
         "2_前往東京迪士尼樂園",
         "3_前往東京車站",
         "4_前往三鷹",
@@ -2143,6 +2143,42 @@
       "verified_at": "2026-08-14",
       "verified_name": "Matsuzakaya Ueno",
       "verified_address": "3-chōme-29-5 Ueno, Taito City, Tokyo 110-8503, Japan"
+    },
+    "松屋 (松屋 上野浅草口店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.712541,139.777373&query_place_id=ChIJm6bhuZ6OGGARPMoVjXV14NY",
+      "nav_dict": [
+        "松屋 (松屋 上野浅草口店)",
+        "松屋 上野浅草口店"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "2_午餐：松屋"
+      ],
+      "html": [
+        "松屋 (松屋 上野浅草口店)",
+        "松屋 上野浅草口店"
+      ],
+      "verified_at": "2026-08-15",
+      "verified_name": "松屋 上野浅草口店",
+      "verified_address": "日本、〒110-0005 東京都台東区上野７丁目２−１",
+      "verified_source": "以 Google Maps 搜尋取得 ftid 0x60188e9eb9e1a69b:0xd6e075758d15ca3c，轉為 place_id 後反查回同一 POI（名稱與座標一致）。與既有的「松屋 上野店」（上野4丁目9-5，晚餐備案）是不同分店。verified_* 取自 Google Maps 網頁介面 hl=ja 顯示值，非 Places API 回傳（本機無 API key）。"
+    },
+    "吉野家 (吉野家 上野駅前店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7124103,139.7778238&query_place_id=ChIJ2ctgyp6OGGARGZaEvjKB-UY",
+      "nav_dict": [
+        "吉野家 (吉野家 上野駅前店)",
+        "吉野家 上野駅前店"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "吉野家 (吉野家 上野駅前店)",
+        "吉野家 上野駅前店"
+      ],
+      "verified_at": "2026-08-15",
+      "verified_name": "吉野家 上野駅前店",
+      "verified_address": "日本、〒110-0005 東京都台東区上野７丁目３−２ Ge上野駅前ビル",
+      "verified_source": "以 Google Maps 搜尋取得 ftid 0x60188e9eca60cbd9:0x46f98132be849619，轉為 place_id 後反查回同一 POI（名稱與座標一致）。與既有的「吉野家 御徒町駅前店」「吉野家 浅草橋店」皆為不同分店。verified_* 取自 Google Maps 網頁介面 hl=ja 顯示值，非 Places API 回傳（本機無 API key）。"
     },
     "松屋 (松屋 上野店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.710037,139.773889&query_place_id=ChIJZ44cNJ6OGGAR5MROF68O1B0",

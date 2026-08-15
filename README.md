@@ -392,7 +392,7 @@
 
 起床梳洗吃早餐，準備 09:00 出發。
 
-### **09:00－09:20 🚇 前往上野御徒町**
+### **09:00－09:25 🚇 前往上野／御徒町**
 
 > * 從飯店步行約 2 分鐘至 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 東口進站。
 > * **第一段（淺草橋 ➔ 秋葉原）**：於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） **1 號月台** 搭乘 **🟡 JR 中央・總武線（JB）** 往 **秋葉原（Akihabara／JB19）／新宿（Shinjuku／JB10） 方向**，搭乘 **1 站** 至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（**JB19**）（車程約 2 分鐘）。
@@ -407,11 +407,14 @@
 >   * 標註 **「for Ueno & Omiya（往上野、大宮）」**
 >   * 看到此指標即可順著階梯/電扶梯往下走至月台，表示方向正確。
 
-> * **第二段（秋葉原 ➔ 御徒町，站內轉乘不出站）**：於秋葉原站 **不用出站**，跟隨指標下樓至月台。
->   * 搭乘 **🟢 JR 山手線（JY）**（秋葉原 **JY03**）往 **上野（Ueno／JY05）／池袋（Ikebukuro／JY13） 方向**，或 **🔵 JR 京濱東北線（JK）**（秋葉原 **JK28**）往 **上野（Ueno／JK30）／大宮（Omiya） 方向**，搭乘 **1 站** 至 [**御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04 / JK29**）（車程約 2 分鐘）。
+> * **第二段（秋葉原 ➔ 御徒町／上野，站內轉乘不出站）**：於秋葉原站 **不用出站**，跟隨指標下樓至月台，搭乘 **🟢 JR 山手線（JY）**（秋葉原 **JY03**）往 **上野（Ueno／JY05）／池袋（Ikebukuro／JY13） 方向**，或 **🔵 JR 京濱東北線（JK）**（秋葉原 **JK28**）往 **上野（Ueno／JK30）／大宮（Omiya） 方向**。
 >   * ⚠️ **正反方向對照**：請認明月台指標目的地方向為「**上野 (Ueno) ／ 池袋 (Ikebukuro) ／ 大宮 (Omiya)**」，看到這三個站名即代表方向正確；**若看到「東京 (Tokyo) ／ 品川 (Shinagawa)」請切勿搭乘，那是反方向**。
->   * 💡 **下一站防呆**：搭車後下一站即為 **御徒町（Okachimachi）**。
-> * 🚶‍♂️ **出站動線**：於 **「御徒町站北口（North Exit）」** 出站，過馬路即直接抵達百貨公司 [**松坂屋 (松坂屋 上野店)**](https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o) 與 [**PARCO_ya (PARCO_ya 上野)**](https://www.google.com/maps/search/?api=1&query=35.7070100,139.7734500&query_place_id=ChIJh7iJ_R-MGGARk32pRTmYtIM)。
+
+> 🚩 **兩個方案在這裡分開，下車站不同**：
+>
+> * ☀️ **晴天方案 ➔ 御徒町下車（1 站，09:20 抵達）**：搭乘 **1 站** 至 [**御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04 / JK29**），由 **「北口（North Exit）」** 出站，過馬路即達 [**松坂屋 (松坂屋 上野店)**](https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o) 與 [**PARCO_ya (PARCO_ya 上野)**](https://www.google.com/maps/search/?api=1&query=35.7070100,139.7734500&query_place_id=ChIJh7iJ_R-MGGARk32pRTmYtIM)。
+> * ☔ **雨天方案 ➔ 多坐一站到上野（2 站，09:25 抵達）**：搭乘 **2 站** 至 [**JR 上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw)（**JY05 / JK30**），由 **「公園口（Park Exit）」** 出站，正對上野恩賜公園，直接走進公園前往東京國立博物館。
+>   * 💡 **為何雨天要多坐一站**：從御徒町走到東京國立博物館要 1.5 公里、長輩 30 分鐘；從上野站公園口只要 655 公尺、12 分鐘。
 
 ---
 
@@ -510,12 +513,17 @@
 
 ### **☔ 雨天備案：全室內文化藝術與百貨散策**
 
-#### **09:20－11:20 🏛️ 參觀東京國立博物館本館常設展**
+#### **09:25－09:40 🚶‍♂️ 公園口步行至東京國立博物館**
+
+> * 目標地點：[**東京國立博物館 (東京国立博物館)**](https://www.google.com/maps/search/?api=1&query=35.7188351,139.7765215&query_place_id=ChIJEX3XFIOOGGAR3XdJvRjWLyM)
+> * 由 **JR 上野站「公園口（Park Exit）」** 出站即正對上野恩賜公園，沿園內主步道往北直走，實走約 **655 公尺、長輩步速 12 分鐘**。
+> * ☔ 途中會依序經過 [**國立西洋美術館 (国立西洋美術館)**](https://www.google.com/maps/search/?api=1&query=35.7153869,139.7758138&query_place_id=ChIJf8xB-pyOGGARizzhlNTcI7s)（下午的行程）與 **國立科學博物館**，下雨可沿建物屋簷與樹蔭前進。
+
+#### **09:40－11:40 🏛️ 參觀東京國立博物館本館常設展**
 
 > 🎫 **票務狀態：免費入場**（本時段僅長輩組前往，綜合文化展符合免費資格，出示護照即可）
 
-> * 目標地點：[**東京國立博物館 (東京国立博物館)**](https://www.google.com/maps/search/?api=1&query=35.7188351,139.7765215&query_place_id=ChIJEX3XFIOOGGAR3XdJvRjWLyM)
-> * 🚶‍♂️ **雨天動線**：由御徒町站/松坂屋步行前往上野恩賜公園北側的東京國立博物館（日本歷史最悠久、規模最大的博物館）。
+> * 目標地點：[**東京國立博物館 (東京国立博物館)**](https://www.google.com/maps/search/?api=1&query=35.7188351,139.7765215&query_place_id=ChIJEX3XFIOOGGAR3XdJvRjWLyM)（日本歷史最悠久、規模最大的博物館）
 > * 💡 **長輩專屬優惠與免費入場方式**：
 >   * **官方規定**：**滿 70 歲以上長者參觀「綜合文化展（本館常設展）」完全免費**（一般成人票價 ¥1,000；特別展除外）。
 >   * **入場方式**：前往**正門售票處窗口（正門チケット売場 窓口）**向工作人員**出示護照（確認年齡滿 70 歲）**，即可直接領取「免費入場券（無料観覧券）」或依工作人員指引由專用通道驗票免費進場。
@@ -526,39 +534,32 @@
 > 🗺️ **上野公園區域位置圖（博物館在公園的最深處）**
 > ![上野公園區域位置圖：東京國立博物館位於公園最北側最右邊，國立西洋美術館與國立科學博物館在其左下方，JR 上野站公園口在最下方](./assets/images/ueno_park_area_map.gif)
 >
-> * **東京國立博物館在地圖最右邊、公園的最深處**，從 **JR 上野駅 公園口** 進來後要沿著大噴水廣場往北直走約 10 分鐘。
-> * 途中會依序經過 **國立西洋美術館**（紅色方塊，下午的行程）與 **國立科學博物館**；下雨天可沿建物屋簷與樹蔭前進。（地圖來源：台東區公所）
+> * **東京國立博物館在地圖最右邊、公園的最深處**，紅色方塊的 **國立西洋美術館**（下午的行程）與 **國立科學博物館** 都在它與 **JR 上野駅 公園口** 之間。（地圖來源：台東區公所）
 
-#### **11:20－11:50 🚶‍♂️ 走回御徒町商圈**
+#### **11:40－12:00 🚶‍♂️ 走回上野站浅草口**
 
-> ⏱️ **這段主要是走路，不是休息**：東京國立博物館在公園最深處，走回御徒町一帶**實走約 1.5 公里、長輩步速需 28 分鐘**。雨天撐傘更慢，建議改搭 JR 山手線（上野站 ➔ 御徒町站 1 站）省力。
+> * 目標地點：[**JR 上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw)（**JY05 / JK30**）
+> * 沿來時路走回公園口（約 12 分鐘），**進站後穿越站內通道走到浅草口**，站內全程有頂遮雨，不必在外面撐傘繞行。
+> * ☔ 雨勢大時可在站內商場稍作停留，午餐店 24 小時營業，不必趕。
 
-> * 慢步走回松坂屋上野店與 PARCO_ya（兩棟全室內連通）：
-> * 前往 [**客美多咖啡 (コメダ珈琲店 上野広小路店)**](https://www.google.com/maps/search/?api=1&query=35.7087031,139.7729243&query_place_id=ChIJe_0tCHGPGGARZjMuzjwV0Jc) 或 [**聖瑪克咖啡 (サンマルクカフェ 御徒町南口店)**](https://www.google.com/maps/search/?api=1&query=35.7070618,139.7740642&query_place_id=ChIJC9p7GKCOGGARZC2rsIDVwSU) 喝熱茶/咖啡休息，或至 [**松坂屋 (松坂屋 上野店)**](https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o) 8F／RF 休憩所免費坐著避雨歇腳。
+#### **12:00－13:15 🍽️ 午餐：松屋 / 吉野家**
 
-#### **11:50－13:05 🍽️ 午餐：吉野家 / 吉豚屋**
+> * 首選餐廳：[**松屋 (松屋 上野浅草口店)**](https://www.google.com/maps/search/?api=1&query=35.712541,139.777373&query_place_id=ChIJm6bhuZ6OGGARPMoVjXV14NY) (上野站浅草口出站步行約 1 分鐘) 享用平價日式定食與丼飯（推薦：牛燒肉定食、蔥蛋牛丼、原創咖哩飯），人均約 ¥500～¥900。  
+>   * 🪑 **有桌席**（不是只有吧台），兩位長輩可同桌坐；**24 小時營業**，不必趕時間。  
+>   * 💡 **點餐與付款祕訣（自動售票機・螢幕叫號取餐）**：  
+>     1. 進店門口使用自動點餐機，**可切換語言**，也可直接依照片按。  
+>     2. 觸控點選餐點，投入日幣紙鈔或感應 Suica 卡付款取食券。  
+>     3. 拿食券入座（食券不用交給店員，系統已自動連線廚房），等店內螢幕顯示號碼至取餐口領餐。  
+>     4. **全程不需要與店員對話。**  
+> * 備案餐廳：[**吉野家 (吉野家 上野駅前店)**](https://www.google.com/maps/search/?api=1&query=35.7124103,139.7778238&query_place_id=ChIJ2ctgyp6OGGARGZaEvjKB-UY) (Ge上野駅前ビル，就在松屋隔壁一棟) 享用經典日式牛丼與定食（推薦：特選牛丼、牛燒肉定食、滑蛋牛肉丼），人均約 ¥500～¥900。  
+>   * ⚠️ 官方未標示本分店的點餐方式，Google 標示**以吧台席為主**；兩位長輩若想坐桌席，優先選松屋。
 
-> * 首選餐廳：至松坂屋斜對面 [**吉野家 (吉野家 御徒町駅前店)**](https://www.google.com/maps/search/?api=1&query=35.7080179,139.7740346&query_place_id=ChIJ8d2S8p-OGGARSVSv1dotT6g) 享用日式定食與丼飯（推薦：牛鮭定食、豚生薑燒定食），人均約 ¥600～¥1,000。  
->   * 💡 **點餐與付款祕訣（Cooking & Comfort 新型門市・前結帳取鈴制）**：  
->     1. 門市店內設有桌席。  
->     2. 進店後先至櫃台看圖文菜單點餐並直接付款（支援 Suica、現金、信用卡）。  
->     3. 領取震動呼叫鈴至座位就座，鈴響至取餐口領餐，用餐完將餐盤放回返還口。  
-> * 備案餐廳：至 PARCO_ya 旁 [**吉豚屋 (かつや 御徒町南口店)**](https://www.google.com/maps/search/?api=1&query=35.706452,139.774601&query_place_id=ChIJ_1sjRaCOGGAREsy5UBC6OLc) 享用現炸日式豬排定食與熱豚汁（推薦：里肌豬排定食、滑蛋豬排蓋飯、豚汁豬肉蔬菜味噌湯），人均約 ¥700～¥1,100。  
->   * 💡 **點餐與付款祕訣（自動售票機・依店內動線出餐）**：  
->     1. 門口售票機可切換語言或直接依照片選餐。  
->     2. 觸控選餐後投入日幣紙鈔或感應 Suica 卡付款取餐券（定食類附熱豚汁）。  
->     3. 入座將餐券交給店員，依序等候餐點上桌，免日文溝通。
-
-#### **13:05－13:35 🚶‍♂️ 前往國立西洋美術館**
+#### **13:15－13:25 🚶‍♂️ 前往國立西洋美術館**
 
 > * 目標地點：[**國立西洋美術館 (国立西洋美術館)**](https://www.google.com/maps/search/?api=1&query=35.7153869,139.7758138&query_place_id=ChIJf8xB-pyOGGARizzhlNTcI7s)
-> * 御徒町一帶到美術館約 **1.1 公里**，長輩步速 **20～25 分鐘**；雨天撐傘更慢，本段預留 30 分鐘。
+> * 由浅草口穿回站內走到 **公園口（Park Exit）** 出站，實走約 **432 公尺、長輩步速 8 分鐘**，出公園口後幾乎正對美術館。
 
-> 🚃 **雨天建議改搭電車（1 站）**：於 [**JR 御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04**） 搭乘 **🟢 JR 山手線（JY）** 往 **上野（Ueno／JY05）／池袋（Ikebukuro／JY13） 方向**，搭乘 **1 站** 至 [**JR 上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw)（**JY05**），由 **「公園口（Park Exit）」** 出站，站內與公園口全程平坦、少淋雨。
->
-> ⚠️ **這個時段只能搭山手線**：京濱東北線在 **10:30－15:30** 之間行駛「快速」，**平日的快速通過御徒町不停車**（8/21 為週五）。月台上看到水藍色的京濱東北線不要上，等綠色的 🟢 山手線。
-
-#### **13:35－15:30 🏛️ 參觀國立西洋美術館室內常設展**
+#### **13:25－15:25 🏛️ 參觀國立西洋美術館室內常設展**
 
 > 🎫 **票務狀態：免費入場**（本時段僅長輩組前往，常設展符合免費資格，出示護照即可）
 
@@ -575,9 +576,21 @@
 > * 它的**右邊緊鄰國立科學博物館**，再往右就是上午參觀的 **東京國立博物館**。
 > * 看完展後從美術館往下走幾分鐘就是 **JR 上野駅 公園口**，回程很近。（地圖來源：台東區公所）
 
-#### **15:30－16:45 🛍️ 館內休息與松坂屋／PARCO_ya 室內逛街**
+#### **15:25－15:45 🚇 前往御徒町商圈**
 
-> * 參觀後若戶外雨勢持續，可於西洋美術館內咖啡廳歇腳，或返回松坂屋上野店與 PARCO_ya 逛地下美食街伴手禮、日式工藝品專櫃與書店。
+> * 目標地點：[**JR 上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw)（**JY05**）
+> * 出美術館步行約 **5 分鐘** 至上野站公園口進站。
+> * 於 [**JR 上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw)（**JY05**） 搭乘 **🟢 JR 山手線（JY）** 往 **東京（Tokyo）／品川（Shinagawa） 方向**，搭乘 **1 站** 至 [**JR 御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04**），由 **「北口（North Exit）」** 出站，過馬路即達松坂屋。
+>   * 💡 **下一站防呆**：搭車後下一站即為 **御徒町（Okachimachi）**；若列車往 **鶯谷（Uguisudani）** 方向表示搭錯，請立即下車改搭對面月台。
+
+> ⚠️ **這段只能搭山手線**：京濱東北線在 **10:30－15:30** 之間行駛「快速」，**平日的快速通過御徒町不停車**（8/21 為週五）。月台上看到水藍色的京濱東北線不要上，等綠色的 🟢 山手線。
+
+#### **15:45－16:45 🛍️ 松坂屋／PARCO_ya 室內逛街與咖啡休息**
+
+> * 目標地點：[**松坂屋 (松坂屋 上野店)**](https://www.google.com/maps/search/?api=1&query=35.707472,139.773395&query_place_id=ChIJo3tx-Z-OGGARmtgBAh8wp8o) 與 [**PARCO_ya (PARCO_ya 上野)**](https://www.google.com/maps/search/?api=1&query=35.7070100,139.7734500&query_place_id=ChIJh7iJ_R-MGGARk32pRTmYtIM)（兩棟全室內連通）
+> * 逛地下美食街伴手禮、日式工藝品專櫃與書店。
+> * ☕ **想坐下來休息**：[**客美多咖啡 (コメダ珈琲店 上野広小路店)**](https://www.google.com/maps/search/?api=1&query=35.7087031,139.7729243&query_place_id=ChIJe_0tCHGPGGARZjMuzjwV0Jc)（沙發座，熱咖啡/紅茶約 ¥500～¥700）或 [**聖瑪克咖啡 (サンマルクカフェ 御徒町南口店)**](https://www.google.com/maps/search/?api=1&query=35.7070618,139.7740642&query_place_id=ChIJC9p7GKCOGGARZC2rsIDVwSU)（65 席，約 ¥360～¥420 起）；不想花錢也可到松坂屋 **8F／RF 休憩所** 免費坐著歇腳。
+> * 🚶‍♂️ **16:45 出發前往晚餐**：松坂屋到宇奈とと實走約 **535 公尺、長輩步速 10 分鐘**。
 
 </details>
 
