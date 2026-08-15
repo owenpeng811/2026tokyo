@@ -2,6 +2,54 @@
   "schema": 2,
   "note": "唯一真相來源。修改地點只改這裡，再執行 python3 sync_places.py --generate。nav_dict／text_entities／first_dest／html 四個欄位記錄該地點在各衍生檔中的鍵名。",
   "places": {
+    "7-ELEVEN 松航門市": {
+      "url": "https://www.google.com/maps/search/?api=1&query=25.0640539,121.5518526&query_place_id=ChIJsY0-OuqrQjQRe9qx3EyVAi4",
+      "nav_dict": [
+        "7-ELEVEN 松航門市",
+        "統一超商複合式概念店（國際航廈）"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "7-ELEVEN 松航門市"
+      ],
+      "verified_at": "2026-08-15",
+      "verified_name": "7-ELEVEN 松航門市",
+      "verified_address": "340-9號, 敦化北路精忠里松山區臺北市105",
+      "verified_source": "以 Google Maps 搜尋取得 ftid 0x3442abea3a3e8db1:0x2e02954cdcb1da7b，轉為 place_id 後反查回同一 POI（名稱與座標一致）。門牌 340-9 號與松山機場官網標示的第一航廈地址「敦化北路340之9號」相符；同機場另有 7-ELEVEN 松機門市（340-10 號，第二航廈國內線），非本行程目標。verified_* 取自 Google Maps 網頁介面 hl=zh-TW 顯示值，非 Places API 回傳（本機無 API key）。"
+    },
+    "7-ELEVEN 出国ゲート店 (セブンイレブン羽田空港T3出国ゲート店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.5435435,139.7705995&query_place_id=ChIJkyBuQxBhGGAR-L5rTEKwwgE",
+      "nav_dict": [
+        "7-ELEVEN 出国ゲート店",
+        "7-ELEVEN 出国ゲート店 (セブンイレブン羽田空港T3出国ゲート店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "7-ELEVEN 出国ゲート店 (セブンイレブン羽田空港T3出国ゲート店)"
+      ],
+      "verified_at": "2026-08-15",
+      "verified_name": "セブンイレブン羽田空港T3出国ゲート店",
+      "verified_address": "日本、〒144-0041 東京都大田区羽田空港２丁目６−５",
+      "verified_source": "以 Google Maps 搜尋取得 ftid 0x60186110436e2093:0x1c2b0424c6bbef8，轉為 place_id 後反查回同一 POI（名稱與座標一致）。verified_* 取自 Google Maps 網頁介面 hl=ja 顯示值，非 Places API 回傳（本機無 API key）。"
+    },
+    "Air LAWSON (ローソン 羽田空港第３ターミナル店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.5449352,139.7684662&query_place_id=ChIJdWpVnlZhGGAR38ke8Odkrrc",
+      "nav_dict": [
+        "Air LAWSON",
+        "Air LAWSON (ローソン 羽田空港第３ターミナル店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "Air LAWSON (ローソン 羽田空港第３ターミナル店)"
+      ],
+      "verified_at": "2026-08-15",
+      "verified_name": "ローソン 羽田空港第３ターミナル店",
+      "verified_address": "日本、〒144-0041 東京都大田区羽田空港２丁目６−５ 第3ターミナル １Ｆ",
+      "verified_source": "以 Google Maps 搜尋取得 ftid 0x601861569e556a75:0xb7ae64e7f01ec9df，轉為 place_id 後反查回同一 POI（名稱與座標一致）。地址標示第3ターミナル 1F，與羽田官網 Air LAWSON 所在樓層相符；惟 Google 登錄名稱為「ローソン 羽田空港第３ターミナル店」而非「Air LAWSON」，是否為同一招牌未經官方確認，行程表已同時標示兩個名稱。verified_* 取自 Google Maps 網頁介面 hl=ja 顯示值，非 Places API 回傳（本機無 API key）。"
+    },
     "CoCo壹番屋 (CoCo壱番屋 JR秋葉原駅昭和通り口店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6984515,139.77577&query_place_id=ChIJSyxsj6iOGGARvBM2kRLvJZs",
       "nav_dict": [

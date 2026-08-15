@@ -22,6 +22,12 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 JP_LAT = (24.0, 46.0)
 JP_LNG = (122.0, 154.0)
 
+# 行程起訖在台北松山機場，該處店家的座標本來就在台灣，不是錯誤。
+# 這不是放寬規則：命中的標籤改用台灣範圍檢查，仍然逐筆檢查，只是換成正確的國別。
+TW_LABELS = ('松航門市', '松機門市', '統一超商複合式概念店')
+TW_LAT = (21.5, 25.5)
+TW_LNG = (119.5, 122.5)
+
 # Place ID 允許的字元集（Google 使用 base64url 變體）
 PLACE_ID_RE = re.compile(r'^[A-Za-z0-9_-]{20,}$')
 
@@ -132,9 +138,13 @@ def audit_files():
                 issues.append(('R0 格式異常', f'{label}（{src}）', f'place_id 不符合格式：{pid}'))
 
         if lat is not None and lng is not None:
-            # R4：座標跑出日本
-            if not (JP_LAT[0] <= lat <= JP_LAT[1] and JP_LNG[0] <= lng <= JP_LNG[1]):
-                issues.append(('R4 座標不在日本', f'{label}（{src}）', f'{lat},{lng}'))
+            # R4：座標跑出應在的國別範圍
+            #     預設檢查日本；台北松山機場的店家改用台灣範圍（見 TW_LABELS）
+            is_tw = any(tok in label for tok in TW_LABELS)
+            lat_rng, lng_rng = (TW_LAT, TW_LNG) if is_tw else (JP_LAT, JP_LNG)
+            country = '台灣' if is_tw else '日本'
+            if not (lat_rng[0] <= lat <= lat_rng[1] and lng_rng[0] <= lng <= lng_rng[1]):
+                issues.append((f'R4 座標不在{country}', f'{label}（{src}）', f'{lat},{lng}'))
             by_lng[lng].add((lat, label))
             by_lat[lat].add((lng, label))
             if pid:
