@@ -1324,9 +1324,10 @@
 > * 目標地點：[**淺草文化觀光中心 (浅草文化観光センター)**](https://www.google.com/maps/search/?api=1&query=35.7107074,139.7965461&query_place_id=ChIJr2cNBsGOGGARSX3xfkspQHc) (8F 展望台)
 俯瞰雷門 (雷門)、仲見世商店街 (仲見世商店街)、淺草寺 (浅草寺) 全景與遠眺晴空塔 (東京スカイツリー)。館內有冷氣、座位與洗手間，可稍作休息。
 
-### **10:35－11:00 🚇 前往東京晴空塔**
+### **10:35－11:00 🚇 前往東京晴空街道**
 
-> * 目標地點：[**東京晴空街道 (東京ソラマチ)**](https://www.google.com/maps/search/?api=1&query=35.7100876,139.8106698&query_place_id=ChIJUaJR8NaOGGAR9-rraNT1PZo)
+> * 目標地點：[**東京晴空街道 (東京ソラマチ)**](https://www.google.com/maps/search/?api=1&query=35.7100876,139.8106698&query_place_id=ChIJUaJR8NaOGGAR9-rraNT1PZo)（晴空塔腳下的商場，非塔上展望台）
+> * 💡 **今天在晴空塔城的行程全都在商場裡**：午餐在東館 7F、墨田水族館在 5F／6F、下午散策與 30／31F **免費**觀景窗也都在商場內。**本行程不含付費的晴空塔展望台**（想上塔需另外購票排隊）。
 > * 🚶‍♂️ **搭車路線（最省力直達首選）**：
 >   * 從淺草文化觀光中心步行約 3 分鐘至 [**東武 淺草站 (東武浅草駅)**](https://www.google.com/maps/search/?api=1&query=35.7119535,139.7983367&query_place_id=ChIJLyyKQTiPGGARsFv-uaDdzwo)（**TS01**）。
 >   * 於 [**東武 淺草站 (東武浅草駅)**](https://www.google.com/maps/search/?api=1&query=35.7119535,139.7983367&query_place_id=ChIJLyyKQTiPGGARsFv-uaDdzwo)（**TS01**） 搭乘 **🔷 東武晴空塔線（TS）** 往 **東京晴空塔（Tokyo Skytree／TS02）／春日部（Kasukabe） 方向** 列車，搭乘 **1 站** 直達 [**東京晴空塔站 (とうきょうスカイツリー駅)**](https://www.google.com/maps/search/?api=1&query=35.7095445,139.8090493&query_place_id=ChIJ5_rl0daOGGAR0BEODNSc_W8)（**TS02**）（車程僅 2 分鐘）。
