@@ -395,17 +395,16 @@ def markdown_to_html(text):
 
 CUSTOM_SUMMARIES_V10 = {
     # Day 1
-    (1, "機場整備與購票"): f"洗手間整備、ATM提款、整理行李。<strong>建議直接於機場辦理 2 張兒童 Welcome Suica</strong>（需出示護照，後續搭車最省事），每張建議先儲值 ¥2,000～3,000。",
+    (1, "機場整備與 Suica 交通卡辦理"): f"洗手間整備、ATM提款、整理行李。<strong>建議直接於機場辦理 2 張兒童 Welcome Suica</strong>（需出示護照，後續搭車最省事），每張建議先儲值 ¥2,000～3,000。",
     (1, "前往飯店 (Henn na Hotel)"): f"<strong>搭乘首選（直達）：</strong>從 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('羽田機場第3航廈', '')}\" target=\"_blank\">羽田機場第3航廈站 🔗</a> 搭乘「京急機場線 (直通都營淺草線)」直達 淺草橋站（A1 電梯出口）。車程約 40-45 分鐘，免提行李換車。",
     (1, "飯店 Check-in 與休息"): f"步行抵達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('海茵娜酒店', '')}\" target=\"_blank\">海茵娜酒店 🔗</a> 辦理 Check-in、置放行李、稍作休息，更換舒適鞋衣。",
     (1, "出發前往秋葉原"): f"慢步 2 分鐘至 JR 淺草橋站，搭乘 JR 中央・總武線 (黃色列車) 1 站直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('秋葉原站', '')}\" target=\"_blank\">秋葉原站 🔗</a> (車程僅 2 分鐘)。",
-    (1, "GiGO 秋葉原3號館 (GiGO 秋葉原3号館)"): f"體驗日本大型電玩中心、日式夾娃娃機（UFO Catcher），全家感受秋葉原熱鬧的次文化遊樂氛圍（預算約 ¥500～¥1,000）。",
-    (1, "日系拍貼機體驗 (Purikura / GiGO 拍貼機專區)"): f"<strong>全家合影紀念：</strong>走進日本最新「大眼美肌拍貼機」，全家 5 人拍下旅行初日開場全家福，觸控塗鴉並現場列印全彩貼紙（¥500/次）。",
-    (1, "萬代扭蛋百貨店 秋葉原店 (ガシャポンのデパート 秋葉原店)"): f"位於 <strong>いちご秋葉原駅前ビル 4F (namco秋葉原店 4F)</strong>，全秋葉原規模最大官方扭蛋專門店之一，擁有近千台最新動漫、寶可夢、迪士尼扭蛋機。每位小朋友選扭 1～2 顆開場禮物。<br><em>(Option: <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('友都八喜', '')}\" target=\"_blank\">友都八喜 🔗</a> 6F 玩具模型展區)</em>",
+    (1, "🕹️ 日式夾娃娃機體驗"): f"日本大型電玩中心，日式夾娃娃機（UFO Catcher），預算約 ¥500～¥1,000。",
+    (1, "日系拍貼機全家合影體驗"): f"<strong>全家合影紀念：</strong>全家 5 人拍貼，觸控塗鴉並現場列印全彩貼紙（¥500/次）。",
     (1, "晚餐：壽司郎（90 分鐘寬裕大啖平價迴轉壽司）"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('壽司郎 (スシロー 秋葉原駅前店)', '')}\" target=\"_blank\">🍣 壽司郎 秋葉原駅前店 (BiTO AKIBA B1F) 🔗</a> 享用平價迴轉壽司（人均 ¥1,000～¥1,800）。<strong>已訂位</strong>。全中文觸控平板、現點現做軌道直送，90 分鐘寬裕用餐！<br><strong>備案 1：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('丸龜製麵 (丸亀製麺 秋葉原店)', '')}\" target=\"_blank\">丸龜製麵 秋葉原店 🔗</a> (烏龍麵，¥500-900)<br><strong>備案 2：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('CoCo壹番屋 (CoCo壱番屋 JR秋葉原駅昭和通り口店)', '')}\" target=\"_blank\">CoCo壹番屋 秋葉原站前店 🔗</a> (咖哩飯，¥800-1,200)",
     (1, "返回淺草橋"): f"步行至 JR <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('秋葉原站', '')}\" target=\"_blank\">秋葉原站 🔗</a>，搭乘 JR 中央・總武線 1 站直達 淺草橋站 (車程 2 分鐘)。",
-    (1, "Cross Shinjuku 3D 巨貓 (クロス新宿ビジョン)"): f"新宿東口站前廣場抬頭欣賞生動逼真的超巨大 3D 三花貓演出，開闊廣場平坦安心觀賞。",
-    (1, "晚餐：新宿東口家庭友善美食"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('Gusto (ガスト 新宿NOWAビル店)', '')}\" target=\"_blank\">🍽️ Gusto 新宿NOWAビル店 (7F) 🔗</a> 享用平價日式家庭料理（漢堡排定食，人均 ¥800～¥1,200），全中文平板點餐、貓咪送餐機器人。<br><strong>備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('LUMINE EST 餐廳街 (ルミネエスト新宿 7&8 DINER)', '')}\" target=\"_blank\">LUMINE EST 餐廳街 🔗</a> (7F/8F 蛋包飯/日式洋食)。",
+    (1, "🐈 欣賞新宿 3D 巨貓"): f"新宿東口站前廣場抬頭觀賞巨大 3D 三花貓演出，廣場平坦。",
+    (1, "晚餐：Gusto 家庭餐廳"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('Gusto (ガスト 新宿NOWAビル店)', '')}\" target=\"_blank\">🍽️ Gusto 新宿NOWAビル店 (7F) 🔗</a> 享用平價日式家庭料理（漢堡排定食，人均 ¥800～¥1,200），全中文平板點餐、貓咪送餐機器人。<br><strong>備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('LUMINE EST 餐廳街 (ルミネエスト新宿 7&8 DINER)', '')}\" target=\"_blank\">LUMINE EST 餐廳街 🔗</a> (7F/8F 蛋包飯/日式洋食)。",
     (1, "地方生鮮超市採買"): f"前往飯店旁 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('肉之Hanamasa超市', '')}\" target=\"_blank\"><strong>肉之Hanamasa超市 (肉のハナマサ 浅草橋店)</strong> 🔗</a> 採買：翌日早餐鮮乳、麵包、優格、礦泉水與當季水果。",
     (1, "回飯店休息整備"): f"回到 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('海茵娜酒店', '')}\" target=\"_blank\">海茵娜酒店 🔗</a>。整理明日迪士尼裝備（門票、Welcome Suica、行動電源）。全家輪流洗澡泡澡放鬆。",
     (1, "準時就寢"): f"<strong>21:00－21:30 準時就寢</strong>，隔天 06:20 起床睡滿 9 小時，充足體力迎戰東京迪士尼！",
@@ -414,11 +413,10 @@ CUSTOM_SUMMARIES_V10 = {
     (2, "前往上野"): f"從淺草橋搭 🟡 JR 總武線 1 站至秋葉原，站內轉 🟢 JR 山手線往上野方向再搭 2 站至 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 上野站 (上野駅)', '')}\" target=\"_blank\"><strong>上野站</strong> 🔗</a>。<br><strong>☀️ 晴天</strong>：走「不忍口」出站，直接往不忍池散步。<br><strong>☔ 雨天</strong>：走「公園口」出站，正對上野恩賜公園，步行 12 分鐘直達東京國立博物館。",
     (2, "晨間不忍池與清水觀音堂散步"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 上野站 (上野駅)', '')}\" target=\"_blank\">上野站不忍口 🔗</a> 出發 ➔ <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('不忍池 (不忍池 弁天堂)', '')}\" target=\"_blank\">不忍池 🔗</a>（賞荷花） ➔ <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('清水觀音堂 (清水観音堂)', '')}\" target=\"_blank\">清水觀音堂 🔗</a>（看月之松）➔ 走回上野站。實走約 1.5 公里、純走路 29 分鐘；走不動可只到不忍池就折返。",
     (2, "午餐：松屋 / 吉野家"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('松屋 (松屋 上野浅草口店)', '')}\" target=\"_blank\">松屋 上野浅草口店 🔗</a>（上野站浅草口步行 1 分鐘，有桌席、24 小時營業，人均 ¥500～¥900）。<strong>門口自動售票機可切換語言，全程不需與店員對話。</strong><br><strong>備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('吉野家 (吉野家 上野駅前店)', '')}\" target=\"_blank\">吉野家 上野駅前店 🔗</a>（就在隔壁一棟，人均 ¥500～¥900，以吧台席為主）。",
-    (2, "正午酷暑亮點：國立西洋美術館"): f"<strong>室內避暑亮點：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('國立西洋美術館 (国立西洋美術館)', '')}\" target=\"_blank\">🏛️ 國立西洋美術館 🔗</a> 欣賞羅丹雕塑與莫內睡蓮（<strong>滿 65 歲長輩出示護照常設展免費入場</strong>，冷氣極強！）。",
     (2, "參觀國立西洋美術館"): f"<strong>室內避暑亮點：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('國立西洋美術館 (国立西洋美術館)', '')}\" target=\"_blank\">🏛️ 國立西洋美術館 🔗</a> 欣賞羅丹雕塑與莫內睡蓮（<strong>滿 65 歲長輩出示護照常設展免費入場</strong>，冷氣極強！）。",
     (2, "美術館戶外庭園"): f"就在美術館館外前庭，免票、不用另外走路。免費近距離欣賞羅丹名作「地獄之門」與「沉思者」。若還有餘裕，<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('東京文化會館 (東京文化会館)', '')}\" target=\"_blank\">東京文化會館 🔗</a> 與 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('上野公園大噴水廣場 (上野恩賜公園 大噴水)', '')}\" target=\"_blank\">大噴水廣場 🔗</a> 都在旁邊。15:00 仍有 32～34 度，不久留。",
     (2, "下午茶與逛街（兩案擇一）"): f"<strong>長輩自己挑，兩案都成立：</strong><br><strong>🛍️ 方案 1</strong>：搭 🟢 山手線 1 站到御徒町（含移動約 20 分），逛 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('松坂屋 (松坂屋 上野店)', '')}\" target=\"_blank\">松坂屋 🔗</a>／PARCO_ya，順路買 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('兔屋 (うさぎや)', '')}\" target=\"_blank\">兔屋 🔗</a> 銅鑼燒；咖啡廳 4 家可選（客美多沙發座／聖瑪克／松坂屋 8F 免費休憩所／麥當勞 24 小時）。<br><strong>☕ 方案 2</strong>：<strong>完全不用移動</strong>，就在上野站周邊 3 家擇一——<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('羅多倫咖啡 (ドトールコーヒーショップ アトレ上野店)', '')}\" target=\"_blank\">羅多倫 アトレ上野店 🔗</a>（車站直結、最便宜）、<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('雷諾瓦咖啡 (喫茶室ルノアール 上野しのばず口店)', '')}\" target=\"_blank\">雷諾瓦咖啡 🔗</a>（最能久坐）、<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('三橋餡蜜 (あんみつ みはし アトレ上野店)', '')}\" target=\"_blank\">三橋餡蜜 🔗</a>（和風甜點）。",
-    (2, "晚餐：名代 宇奈とと / 松屋"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('名代 宇奈とと (名代 宇奈とと 上野店)', '')}\" target=\"_blank\">🐟 名代 宇奈とと 上野店 🔗</a> (JR高架旁) 平價鰻魚飯（うな丼 ¥640、うな重 ¥1,060）。<br><strong>備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('松屋 (松屋 上野店)', '')}\" target=\"_blank\">松屋 上野店 🔗</a> (日式定食附熱味噌湯，人均 ¥550-950)。",
+    (2, "晚餐：宇奈とと鰻魚飯"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('名代 宇奈とと (名代 宇奈とと 上野店)', '')}\" target=\"_blank\">🐟 名代 宇奈とと 上野店 🔗</a> (JR高架旁) 平價鰻魚飯（うな丼 ¥640、うな重 ¥1,060）。<br><strong>備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('松屋 (松屋 上野店)', '')}\" target=\"_blank\">松屋 上野店 🔗</a> (日式定食附熱味噌湯，人均 ¥550-950)。",
     (2, "返回淺草橋（長輩組）"): f"<strong>就近進站：</strong>宇奈とと步行 2 分鐘直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 上野站 (上野駅)', '')}\" target=\"_blank\">JR 上野站不忍口 🔗</a>（或從松坂屋步行 2 分鐘至 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 御徒町站 (御徒町駅)', '')}\" target=\"_blank\">JR 御徒町站 🔗</a>），搭山手線至秋葉原轉總武線 1 站回淺草橋。",
 
     # Day 2 Kids (Disney)
@@ -428,7 +426,7 @@ CUSTOM_SUMMARIES_V10 = {
     (2, "午餐窗口（彈性不跨區）"): f"<strong>遊玩 > 吃飯，不預約、不跨區</strong>。使用 Disney App Mobile Order 就近點餐取餐，或找附近行動餐車解決。",
     (2, "午餐窗口"): f"<strong>遊玩 > 吃飯，不預約、不跨區</strong>。使用 Disney App Mobile Order 就近點餐取餐，或找附近行動餐車解決。",
     (2, "米奇魔法音樂世界"): f"全室內劇場演出，雨天亦非常適合。<strong>抽到合理時段才去，不為其破壞遊樂節奏</strong>。",
-    (2, "日間遊行 Harmony in Color"): f"<strong>有空且晴天才看</strong>，雨天優先放棄，不提前長時間卡位。",
+    (2, "🌈 日間遊行「迪士尼眾彩交融」 (ディズニー・ハーモニー・イン・カラー)｜OPTION"): f"<strong>有空且晴天才看</strong>，雨天優先放棄，不提前長時間卡位。",
     (2, "晚餐窗口（快速補充體力）"): f"<strong>快速補充體力</strong>。目前位置附近以 App Mobile Order 下單或買行動餐車，不為吃飯特別跑遠。",
     (2, "晚餐窗口"): f"<strong>快速補充體力</strong>。目前位置附近以 App Mobile Order 下單或買行動餐車，不為吃飯特別跑遠。",
     (2, "跳跳熱舞"): f"戶外舞台演出，<strong>僅優先考慮 18:00 場次</strong>，雨天降低優先度。",
@@ -442,18 +440,15 @@ CUSTOM_SUMMARIES_V10 = {
 
     # Day 3
     (3, "搭乘 JR 前往東京車站"): f"淺草橋 ➔ 秋葉原 ➔ <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('東京站', '')}\" target=\"_blank\">東京站 🔗</a> (JR 山手線，車程 8 分鐘)。",
-    (3, "東京車站丸之內站舍 (東京駅丸の内駅舎)"): f"漫步丸之內站前開闊廣場，在清晨涼風中與百年壯麗紅磚建築合影。",
-    (3, "返回東京車站一番街入口等待開門"): f"<strong>🚨 避坑防刷卡指南：</strong>從丸之內（西側）跨越到八重洲（東側）時，<strong>請走站外的「北地下自由通路」</strong>！千萬別刷 Suica 誤進站！",
-    (3, "東京車站一番街 (東京駅一番街) (八重洲地下中央口)"): f"10:00 一開門優先逛：寶可夢商店（站長皮卡丘）、TOMICA 專賣店、吉伊卡哇商店、橡子共和國（龍貓）。",
-    (3, "KITTE花園 (ＫＩＴＴＥガーデン) (KITTE 6F)"): f"搭電梯直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('KITTE花園 (ＫＩＴＴＥガーデン)', '')}\" target=\"_blank\">KITTE 6F 屋頂花園 🔗</a>，免費俯瞰東京車站紅磚站舍全景與新幹線進出站，室內空調充足。",
-    (3, "午餐（東京車站周邊）"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('天丼てんや (天丼てんや 八重洲店)', '')}\" target=\"_blank\">🍤 天丼てんや 八重洲店 🔗</a> (八重洲地下街 B1F 南1號) 享用日式炸蝦天丼（人均 ¥560～¥850）。出餐極快、平價美味！<br><strong>備案 1：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('だし茶漬け えん KITTE丸の内店', '')}\" target=\"_blank\">だし茶漬け えん KITTE丸の内店 🔗</a> (高湯茶泡飯，¥850-1,100)<br><strong>備案 2：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('燕子烤肉漢堡排 (つばめグリル 大丸東京店)', '')}\" target=\"_blank\">燕子烤肉漢堡排 🔗</a> (大丸東京店 12F)",
+    (3, "欣賞東京車站丸之內站舍建築"): f"丸之內站前廣場，與紅磚站舍建築合影。",
+    (3, "🌇 KITTE頂樓花園眺望東京車站"): f"搭電梯直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('KITTE花園 (ＫＩＴＴＥガーデン)', '')}\" target=\"_blank\">KITTE 6F 屋頂花園 🔗</a>，免費俯瞰東京車站紅磚站舍與新幹線進出站，室內有空調。",
+    (3, "午餐：天丼Tenya"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('天丼てんや (天丼てんや 八重洲店)', '')}\" target=\"_blank\">🍤 天丼てんや 八重洲店 🔗</a> (八重洲地下街 B1F 南1號) 日式炸蝦天丼，人均 ¥560～¥850。<br><strong>備案 1：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('だし茶漬け えん KITTE丸の内店', '')}\" target=\"_blank\">だし茶漬け えん KITTE丸の内店 🔗</a> (高湯茶泡飯，¥850-1,100)<br><strong>備案 2：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('燕子烤肉漢堡排 (つばめグリル 大丸東京店)', '')}\" target=\"_blank\">燕子烤肉漢堡排 🔗</a> (大丸東京店 12F)",
     (3, "前往上野"): f"搭乘 JR 山手線 8 分鐘直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('上野站', '')}\" target=\"_blank\">上野站 🔗</a>（公園口出站設有電梯）。",
-    (3, "國立科學博物館 (国立科学博物館)"): f"正午避暑勝地！參觀地球館 B1 恐龍化石骨骼、3F 野生動物標本展廳及 360 度球幕影院，冷氣充足放鬆。",
-    (3, "超人氣晚餐 ：鴨 to 蔥拉麵"): f"<strong>首選名店：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)', '')}\" target=\"_blank\">🍜 鴨 to 蔥拉麵 御徒町本店 🔗</a> 香濃鴨肉醬油拉麵（人均 ¥1,000～¥1,400）。<br><strong>🚨 排隊停損防雷規則：</strong>排隊 ≤ 3 組才吃，超過直接啟動阿美橫丁小吃備案，絕不在烈日下苦等！",
-    (3, "阿美橫丁採買"): f"<strong>必掃名店：</strong><br>• <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('二木菓子 (二木の菓子 第一営業所)', '')}\" target=\"_blank\">二木菓子（第一営業所） 🔗</a>：掃日本零食名產。<br>• <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('OS Drug 上野店', '')}\" target=\"_blank\">OS Drug 上野店 🔗</a>：藥妝免退稅價格之冠。<br>• 街邊小吃：<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('肉之大山 (肉の大山 上野店)', '')}\" target=\"_blank\">肉之大山炸肉餅 🔗</a>、<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('みなとや食品', '')}\" target=\"_blank\">みなとや章魚燒 🔗</a>。<br>• <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('多慶屋 (多慶屋 TAKEYA 1)', '')}\" target=\"_blank\">多慶屋（TAKEYA） 🔗</a>：紫色商場一站式補貨備案。",
-    (3, "回程：前往JR 御徒町站"): f"步行至 JR <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('御徒町站', '')}\" target=\"_blank\">御徒町站 🔗</a> 搭乘電車返回淺草橋。",
-    (3, "晚餐（若下午沒吃鴨 to 蔥拉麵）"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('吉野家 (吉野家 浅草橋店)', '')}\" target=\"_blank\">吉野家 浅草橋店 🔗</a>。<br><strong>備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('松屋 (松屋 浅草橋店)', '')}\" target=\"_blank\">松屋 浅草橋店 🔗</a> / <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('拉麵 ろく月 (らーめん ろく月)', '')}\" target=\"_blank\">ろく月 雞白湯拉麵 🔗</a>。",
-    (3, "宵夜／點心（若下午已吃鴨 to 蔥拉麵）"): f"外帶 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('Cow Cow Kitchen (東京Milk Cheese Factory)', '')}\" target=\"_blank\">Cow Cow Kitchen 牛奶起司派 🔗</a> (ルミネエスト新宿 LUMINE EST 1F) 或便利商店點心回飯店享用。",
+    (3, "參觀國立科學博物館"): f"🎫 <strong>需購票</strong>。參觀地球館 B1 恐龍化石骨骼、3F 野生動物標本展廳與 360 度球幕影院。",
+    (3, "享用鴨 to 蔥拉麵｜OPTION"): f"<strong>首選名店：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)', '')}\" target=\"_blank\">🍜 鴨 to 蔥拉麵 御徒町本店 🔗</a> 香濃鴨肉醬油拉麵（人均 ¥1,000～¥1,400）。<br><strong>🚨 排隊停損防雷規則：</strong>排隊 ≤ 3 組才吃，超過直接啟動阿美橫丁小吃備案。",
+    (3, "阿美橫丁逛街採買"): f"<strong>必掃名店：</strong><br>• <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('二木菓子 (二木の菓子 第一営業所)', '')}\" target=\"_blank\">二木菓子（第一営業所） 🔗</a>：掃日本零食名產。<br>• <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('OS Drug 上野店', '')}\" target=\"_blank\">OS Drug 上野店 🔗</a>：藥妝免退稅價格之冠。<br>• 街邊小吃：<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('肉之大山 (肉の大山 上野店)', '')}\" target=\"_blank\">肉之大山炸肉餅 🔗</a>、<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('みなとや食品', '')}\" target=\"_blank\">みなとや章魚燒 🔗</a>。<br>• <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('多慶屋 (多慶屋 TAKEYA 1)', '')}\" target=\"_blank\">多慶屋（TAKEYA） 🔗</a>：紫色商場一站式補貨備案。",
+    (3, "🚆 前往御徒町站搭車"): f"步行至 JR <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('御徒町站', '')}\" target=\"_blank\">御徒町站 🔗</a> 搭乘電車返回淺草橋。",
+    (3, "晚餐：吉野家"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('吉野家 (吉野家 浅草橋店)', '')}\" target=\"_blank\">吉野家 浅草橋店 🔗</a>。<br><strong>備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('松屋 (松屋 浅草橋店)', '')}\" target=\"_blank\">松屋 浅草橋店 🔗</a>。",
 
     # Day 5
     (5, "觀賞都廳光雕投影秀"): f"看 <strong>19:00－19:15</strong> 這場，共 15 分鐘。<strong>要下樓到地面的都民廣場看</strong>，45 樓展望室看不到。免費、不需預約。8/24 為平日場，沒有哥吉拉與寶可夢。"
