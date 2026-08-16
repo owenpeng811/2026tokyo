@@ -435,8 +435,8 @@ CUSTOM_SUMMARIES_V10 = {
     (2, "前往 Reach for the Stars 免費鑑賞區"): f"遊行結束後直接移動至 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('夥伴雕像 (パートナーズ像)', '')}\" target=\"_blank\"><strong>Partners Statue（夥伴銅像）</strong> 🔗</a> 附近或 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('城堡前廣場 (プラザ)', '')}\" target=\"_blank\">Plaza 廣場 🔗</a> 中後方免費區。",
     (2, "城堡投影秀 Reach for the Stars"): f"<strong>固定核心（雨天正常演出才看）</strong>。Everlasting Dreams 夏季特別版，3D 燈光投影與焰火震撼演出。",
     (2, "世界市集紀念品採買與出園"): f"於 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('世界市集 (ワールドバザール)', '')}\" target=\"_blank\">世界市集 🔗</a> 採買紀念品與伴手禮，前往東巴士總站搭車。",
-    (2, "返回淺草橋（親子組）"): f"<strong>首選（直達巴士）：</strong>出園至巴士總站 1 號站牌搭乘直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('秋葉原站東口 (秋葉原駅東口交通広場)', '')}\" target=\"_blank\"><strong>秋葉原站東口</strong> 🔗</a> 的高速巴士（車程約 35-45 分鐘，上車有座位一路睡回秋葉原），轉總武線 1 站回淺草橋。<br><strong>備案：</strong>舞濱 ➔ 八丁堀 (京葉線) ➔ 秋葉原 (日比谷線) ➔ 淺草橋。",
-    (2, "返回淺草橋"): f"<strong>首選（直達巴士）：</strong>出園至巴士總站 1 號站牌搭乘直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('秋葉原站東口 (秋葉原駅東口交通広場)', '')}\" target=\"_blank\"><strong>秋葉原站東口</strong> 🔗</a> 的高速巴士（車程約 35-45 分鐘，上車有座位一路睡回秋葉原），轉總武線 1 站回淺草橋。<br><strong>備案：</strong>舞濱 ➔ 八丁堀 (京葉線) ➔ 秋葉原 (日比谷線) ➔ 淺草橋。",
+    (2, "返回淺草橋（親子組）"): f"<strong>首選（直達巴士）：</strong>出園至巴士總站 11 號站牌搭乘直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('秋葉原站東口 (秋葉原駅東口交通広場)', '')}\" target=\"_blank\"><strong>秋葉原站東口</strong> 🔗</a> 的高速巴士（車程約 35-45 分鐘，上車有座位一路睡回秋葉原），轉總武線 1 站回淺草橋。<br><strong>備案：</strong>舞濱 ➔ 八丁堀 (京葉線) ➔ 秋葉原 (日比谷線) ➔ 淺草橋。",
+    (2, "返回淺草橋"): f"<strong>首選（直達巴士）：</strong>出園至巴士總站 11 號站牌搭乘直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('秋葉原站東口 (秋葉原駅東口交通広場)', '')}\" target=\"_blank\"><strong>秋葉原站東口</strong> 🔗</a> 的高速巴士（車程約 35-45 分鐘，上車有座位一路睡回秋葉原），轉總武線 1 站回淺草橋。<br><strong>備案：</strong>舞濱 ➔ 八丁堀 (京葉線) ➔ 秋葉原 (日比谷線) ➔ 淺草橋。",
 
     # Day 3
     (3, "搭乘 JR 前往東京車站"): f"淺草橋 ➔ 秋葉原 ➔ <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('東京站', '')}\" target=\"_blank\">東京站 🔗</a> (JR 山手線，車程 8 分鐘)。",

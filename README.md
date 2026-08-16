@@ -767,6 +767,8 @@
 
 ### **08:00－09:00 🏰 抵達樂園門口排隊與入園**
 
+> 📄 **行前必讀介紹文**：[開園前排隊、入園安檢與開園後第一站怎麼衝的實戰攻略文章](https://vocus.cc/article/657a9e5efd897800018b7ec1)｜[預約等候卡是什麼、怎麼排隊一次看的介紹文](https://www.funtime.com.tw/blog/funtime/%E3%80%90%E6%9D%B1%E4%BA%AC%E8%BF%AA%E5%A3%AB%E5%B0%BC%E8%B6%85%E6%A9%9F%E5%AF%86%E6%94%BB%E7%95%A5%E3%80%91%E8%AE%93%E4%BD%A0%E7%8E%A9%E6%9D%B1%E4%BA%AC%E8%BF%AA%E5%A3%AB%E5%B0%BC%E5%A6%82%E9%AD%9A)
+
 > 🎫 **票務狀態：已購票**
 
 > * 預定 08:00 抵達樂園正門排隊與安檢（通常 08:30～08:45 開始提早開園入場）。
@@ -790,6 +792,8 @@
 ---
 
 ### **09:00－17:00 🎢 動態遊玩主時段（遊樂設施極大化）**
+
+> 📄 **行前必讀介紹文**：[樂園必玩設施逐項介紹（附身高限制）與表演遊行時間攻略文章（2026）](https://www.yourdisney.com.tw/tokyodisneyresort/tokyo-disneyland-attractions-shows-guide/)｜[必玩設施、快速通關與玩樂規劃指南文章（2026）](https://mimigo.tw/tokyo-disneyland/)
 
 > * 🎯 **本日主體：遊樂設施**（不安排固定的「幾點玩A ➔ 幾點玩B」排程）。  
 > * 🆓 **以免費 PP 為核心導航**：取得預約後，以該設施所在區域為中心擴散遊玩周邊高價值項目，再依下一個 PP／DPA／Standby 決定下一移動區域。  
@@ -857,7 +861,7 @@
 
 ### **21:15－21:40 🛍️ 世界市集紀念品採買與出園**
 
-> * 於 [**世界市集 (ワールドバザール)**](https://www.google.com/maps/search/?api=1&query=35.6342994,139.8795646&query_place_id=ChIJ6QHIuhZ9GGARYwf8I_89e4Y) 購買紀念品與伴手禮，約 21:40 離開樂園前往東巴士總站 1 號站牌。
+> * 於 [**世界市集 (ワールドバザール)**](https://www.google.com/maps/search/?api=1&query=35.6342994,139.8795646&query_place_id=ChIJ6QHIuhZ9GGARYwf8I_89e4Y) 購買紀念品與伴手禮，約 21:40 離開樂園前往東巴士總站 11 號站牌。
 > * ⏱️ **提早 10 分鐘出園是刻意的**：高速巴士採現場排隊、客滿就要等下一班，加上車程 35～45 分鐘與秋葉原轉車，回程需抓 65 分鐘。
 
 ---
@@ -888,9 +892,11 @@
 ### **21:40－22:45 🚌🚆 返回淺草橋（親子組）**
 
 > * 目標地點：[**秋葉原站東口 (秋葉原駅東口交通広場)**](https://www.google.com/maps/search/?api=1&query=35.6987386,139.7726645&query_place_id=ChIJy09DJACNGGARbMLEHxY_6MA)
+> 📄 **行前必讀介紹文**：[東京市區往返迪士尼交通比較（含秋葉原線車程與票價）文章](https://gototravel.tw/tokyo-disneyresort-transport/)｜🔗 官方乘車處對照表（非中文）：[東京迪士尼樂園「搭巴士回程」官方頁面](https://www.tokyodisneyresort.jp/tdr/access/bus/tdl_return.html)
+
 > * ✅ **Plan A（首選：直達高速巴士，免轉乘一路睡回秋葉原）**：
->   * **乘車地點**：出園剪票口後往右前方步行約 2 分鐘，至迪士尼樂園正門外「東巴士總站東面（Bus Terminal East）」[**東京迪士尼樂園東巴士總站 1 號站牌 (東京ディズニーランド・バスターミナル・イースト 1番のりば)**](https://www.google.com/maps/search/?api=1&query=35.6364946,139.8807661&query_place_id=ChIJ3w8y8xN9GGARe5_gvaoDCMo)（[短網址備用導航 🔗](https://maps.app.goo.gl/EkzBtj7Q6RDJCh2C6)；地面與立柱有明顯標示「1番：秋葉原駅行」）。  
-    ![東京迪士尼樂園東巴士總站 1 號公車站牌](https://secure.j-bus.co.jp/busrepo/wp-content/uploads/2025/06/IMG20250513080949-1024x768.jpg)
+>   * **乘車地點**：出園剪票口後往右前方步行約 2 分鐘，至迪士尼樂園正門外「東巴士總站東面（Bus Terminal East）」[**東京迪士尼樂園東巴士總站 (東京ディズニーランド・バスターミナル・イースト)**](https://www.google.com/maps/search/?api=1&query=35.6364946,139.8807661&query_place_id=ChIJ3w8y8xN9GGARe5_gvaoDCMo)（[短網址備用導航 🔗](https://maps.app.goo.gl/EkzBtj7Q6RDJCh2C6)）。
+>   * 🚨 **請排「11 番のりば」，不是 1 番**：依官方乘車處對照表，**秋葉原駅、東京駅、晴空塔、錦糸町都在 11 番**；**1 番是新宿、池袋、吉祥寺、調布線**。站牌立柱上有行先標示，上車前務必再確認一次寫的是「秋葉原駅」。
 >   * **巴士特徵與路線**：搭乘京成巴士 (Keisei Bus) 或東京灣城市交通 (Tokyo Bay City Bus) 高速巴士直達 **秋葉原站東口**。車程約 35～45 分鐘，每人一個座位，免轉乘。  
 >   * **抵達與轉乘**：抵達秋葉原站東口後，步行 1 分鐘進 **JR 秋葉原站（JB19）** 閘門，於 5F 6 號月台搭乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **1 站**（車程約 2 分鐘）即返抵 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）。
 
@@ -1192,6 +1198,8 @@
 
 ### **12:15－12:50 🚌🚃 前往吉祥寺**
 
+> 📄 **行前必讀介紹文**：[吉祥寺一日遊攻略：SUNROAD 商店街、中道通、口琴橫丁、井之頭公園（2026）](https://bobbytravel.tw/kichijoji/)｜[吉祥寺景點與口琴橫丁美食攻略文章（含營業時間）](https://tw.trip.com/blog/%E5%90%89%E7%A5%A5%E5%AF%BA%E6%99%AF%E9%BB%9E/)
+
 > * **第一段（回程接駁巴士至三鷹站）**：離開美術館後，直接至門口正前方公車站牌等候。門口的亮黃色彩繪接駁巴士**直達三鷹站**（車程約 5 分鐘，後門上車嗶 Suica ➔ 前門下車嗶 Suica，車停妥再起立）。  
 >   ![吉卜力美術館門口公車站與停靠的黃色接駁巴士](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiAttfDAWdlM8iGidz7jGYR6LZIA4_HEH_j-1-yOb1LLEfh2KyVo9hSjtR&s=10)
 > * **第二段（轉乘 JR 至吉祥寺站）**：抵達三鷹站南口後搭電梯/手扶梯上樓刷 Suica 進站。於 [**JR 三鷹站 (三鷹駅)**](https://www.google.com/maps/search/?api=1&query=35.7027156,139.5610291&query_place_id=ChIJQ6xBTbDvGGARWjMM50vhcgE)（**JC12 / JB01**） 搭乘 **🟠 JR 中央線快速（JC）** 或 **🟡 JR 中央・總武線（JB）** 往 **新宿（JC05）／東京（JC01） 方向**，僅搭 **1 站**（車程約 2 分鐘）即達 [**吉祥寺站 (吉祥寺駅)**](https://www.google.com/maps/search/?api=1&query=35.7031125,139.5801608&query_place_id=ChIJCalq8UfuGGARr6-Rc3R6atQ)（**JC11 / JB02**）（**請由「北口（North Exit）」出站**，大戶屋、哈莫尼卡橫丁、Sunroad 商店街與 Coppice 全在北口側，全程零折返）。
@@ -1230,6 +1238,10 @@
 > ⚠️ **備案動線提醒**：花丸烏龍麵位於**南口**，需穿越車站，當日下午行程全在北口側，非必要不建議啟用；大戶屋與一風堂皆在北口側，步行 2～3 分鐘可轉進，動線不中斷。
 
 ### **14:20－15:00 🏮 逛哈莫尼卡橫丁**
+
+> 📄 **行前必讀介紹文**：[口琴橫丁美食與營業時間介紹文（含天音鯛魚燒、SATOU 炸牛肉丸）](https://tw.trip.com/blog/%E5%90%89%E7%A5%A5%E5%AF%BA%E6%99%AF%E9%BB%9E/)｜[橫丁五條巷弄結構與周邊商店街攻略文章（2026）](https://bobbytravel.tw/kichijoji/)
+>
+> 🔗 官方店家清單（非中文）：[武藏野市觀光機構：哈莫尼卡橫丁介紹頁](https://musashino-kanko.com/area/kichijouji/harmonica_street/)
 
 > * 目標地點：[**哈莫尼卡橫丁 (ハーモニカ横丁)**](https://www.google.com/maps/search/?api=1&query=35.7035959,139.5790815&query_place_id=ChIJZXco9RXvGGARYzRNqY-U-o8)（吉祥寺站北口前，步行約 2 分鐘）
 > * 吉祥寺北口前的昭和風小巷，約有 100 間小店，適合體驗與一般商店街不同的老東京氛圍。
@@ -1545,6 +1557,10 @@
 
 #### **14:45－15:30 🛍️ 晴空街道散策與高空景觀**
 
+> 📄 **行前必讀介紹文**：[晴空街道逐樓層店鋪分佈與必買紀念品攻略文章（2026）](https://www.bring-you.info/zh-tw/tokyo-solamachi)｜[晴空塔城各樓層必吃、必買伴手禮整理文章](https://supertaste.tvbs.com.tw/pack/344869)
+>
+> * 💡 **商場結構**：分為**西館／塔樓館／東館**三館，1～4 樓完全互通，逛街集中在 1～4 樓；東館雖然有到 31 樓，11～29 樓是辦公室。
+
 > * 目標地點：[**東京晴空街道 (東京ソラマチ)**](https://www.google.com/maps/search/?api=1&query=35.7100876,139.8106698&query_place_id=ChIJUaJR8NaOGGAR9-rraNT1PZo) (東館 30F/31F 高空景觀)
 > * 🛍️ **商場散策**：逛生活雜貨、動漫玩具與伴手禮，推薦逛 [**Loft (ロフト 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7101427,139.8126513&query_place_id=ChIJWYeDW9aOGGARadWLUMju2wI) (東京ソラマチ 3F)、[**寶可夢中心 (ポケモンセンタースカイツリータウン)**](https://www.google.com/maps/search/?api=1&query=35.7102505,139.8123004&query_place_id=ChIJt6u9QtaOGGARHbxorE1IKXw) (東京ソラマチ 4F) 或文具選物店 [**Neue (ノイエ 東京ソラマチ店)**](https://www.google.com/maps/search/?api=1&query=35.7104243,139.8122265&query_place_id=ChIJUaJR8NaOGGARaFnWrnipzVM) (東京ソラマチ 4F)。  
 > * 🌇 **30/31F 高空景觀**：搭乘直達景觀電梯至 30、31 樓餐廳樓層免費觀景窗，俯瞰東京晴空塔周邊市景。  
@@ -1788,10 +1804,20 @@
 
 ### **11:30－12:30 🛫 辦理登機與行李託運**
 
+> 📄 **行前必讀介紹文**：[羽田機場航廈全攻略：第三航廈逐樓層、餐廳與免稅店介紹文](https://tw.wamazing.com/media/article/a-47/)｜[第三航廈必吃、必逛、必買全攻略文章（2026）](https://tokyo.letsgojp.com/archives/596466/)
+>
+> 🔗 **官方繁體中文查詢**：[羽田機場官方樓層指南](https://tokyo-haneda.com/zh-CHT/floor/index.html)｜[官方免稅店搜尋（可篩選「安全檢查後」，即出境後管制區內）](https://tokyo-haneda.com/zh-CHT/shop_and_dine/search_df.html)
+>
+> * 🏢 **第三航廈樓層**：1F 迎賓層與巴士乘車處｜2F 入境大廳｜**3F 出境大廳（報到櫃檯在這層）**｜4F 江戶小路（日本橋造景與餐廳街）。
+
 > * 起飛前 3 小時抵達，足以應付暑假的出境與安檢人潮。  
 > * 報到櫃檯掛行李、過安檢、查驗出境。
 
 ### **12:30－13:20 🛍️ 機場免稅店伴手禮採買**
+
+> 📄 **行前必讀介紹文**：[第三航廈免稅店與必買伴手禮介紹文（含 TIAT DUTY FREE）](https://tw.wamazing.com/media/article/a-47/)
+>
+> 🔗 **官方繁體中文**：[免稅品提前預約（線上先訂、到機場再取）](https://duty-free-japan.jp/haneda/ta/)｜[官方免稅店搜尋](https://tokyo-haneda.com/zh-CHT/shop_and_dine/search_df.html)
 
 > * 在免稅店採買白色戀人、東京香蕉、Royce 巧克力等伴手禮。
 > * ⏱️ **順序刻意調整為「先採買、後用餐」**：14:30 起飛、約 13:50 要到登機門。先逛免稅可把緩衝留在最後，萬一時間不夠也能直接帶著輕食去登機門。
