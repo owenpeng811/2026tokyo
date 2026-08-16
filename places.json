@@ -1531,6 +1531,40 @@
       "verified_name": "Theatre Orleans",
       "verified_address": "Japan, 〒279-0031 Chiba, Urayasu, Maihama, 1−１ 東京ディズニーランド アドベンチャーランド"
     },
+    "羅多倫咖啡 (ドトールコーヒーショップ 上野御徒町中央通り店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7107448,139.7754532&query_place_id=ChIJPyo7V56OGGARkqXTPzDmYL8",
+      "nav_dict": [
+        "羅多倫咖啡",
+        "羅多倫咖啡 (ドトールコーヒーショップ 上野御徒町中央通り店)",
+        "ドトール 上野御徒町中央通り店"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "羅多倫咖啡 (ドトールコーヒーショップ 上野御徒町中央通り店)"
+      ],
+      "verified_at": "2026-08-16",
+      "verified_name": "ドトールコーヒーショップ 上野御徒町中央通り店",
+      "verified_address": "日本、〒110-0005 東京都台東区上野６丁目１３−６",
+      "verified_source": "以 Google Maps 搜尋取得 ftid 0x60188e9e573b2a3f:0xbf60e6303fd3a592，轉為 place_id 後反查回同一 POI（名稱與座標一致）。Google 標示電話確認過、提供イートイン，營業時間週一～五 7:00－21:00、週六日 8:00－21:00。verified_* 取自 Google Maps 網頁介面 hl=ja 顯示值，非 Places API 回傳（本機無 API key）。"
+    },
+    "麥當勞 (マクドナルド 上野御徒町店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7086426,139.773469&query_place_id=ChIJldKmBTqPGGARt1Zgy_YgGjI",
+      "nav_dict": [
+        "麥當勞 (マクドナルド 上野御徒町店)",
+        "麥當勞 上野御徒町店",
+        "マクドナルド 上野御徒町店"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "麥當勞 (マクドナルド 上野御徒町店)"
+      ],
+      "verified_at": "2026-08-16",
+      "verified_name": "マクドナルド 上野御徒町店",
+      "verified_address": "日本、〒110-0005 東京都台東区上野４丁目６−１０ Ｂ＆Ｖ ビル ２階",
+      "verified_source": "以 Google Maps 搜尋取得 ftid 0x60188f3a05a6d295:0x321a20f6cb6056b7，轉為 place_id 後反查回同一 POI（名稱與座標一致）。Google 標示營業中、24 時間営業、提供イートイン，位於 Ｂ＆Ｖビル 1、2 階。與 Day 5 晚餐的麥當勞新宿西口店為不同分店。verified_* 取自 Google Maps 網頁介面 hl=ja 顯示值，非 Places API 回傳（本機無 API key）。"
+    },
     "客美多咖啡 (コメダ珈琲店 上野広小路店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7087031,139.7729243&query_place_id=ChIJe_0tCHGPGGARZjMuzjwV0Jc",
       "nav_dict": [

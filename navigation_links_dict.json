@@ -78,6 +78,8 @@
   "サイゼリヤ 吉祥寺駅北口": "https://www.google.com/maps/search/?api=1&query=35.7043574,139.5789601&query_place_id=ChIJi3cb1kfuGGARiZitA8UrSEQ",
   "スシロー 秋葉原中央通り店": "https://www.google.com/maps/search/?api=1&query=35.701526,139.7711875&query_place_id=ChIJ-SFJXgCNGGARjAlrBY5hHL4",
   "ダイバーシティ東京 プラザ": "https://www.google.com/maps/search/?api=1&query=35.6247851,139.7758551&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc",
+  "ドトール 上野御徒町中央通り店": "https://www.google.com/maps/search/?api=1&query=35.7107448,139.7754532&query_place_id=ChIJPyo7V56OGGARkqXTPzDmYL8",
+  "マクドナルド 上野御徒町店": "https://www.google.com/maps/search/?api=1&query=35.7086426,139.773469&query_place_id=ChIJldKmBTqPGGARt1Zgy_YgGjI",
   "ミニチュアミュージアム スモールワールズ": "https://www.google.com/maps/search/?api=1&query=35.6379228,139.7883556&query_place_id=ChIJZRKFm-eJGGARglEoaF4NcC8",
   "一風堂": "https://www.google.com/maps/search/?api=1&query=35.7052815,139.5786162&query_place_id=ChIJZziKmUfuGGAR8iau_mxpQKw",
   "一風堂 (一風堂 吉祥寺店)": "https://www.google.com/maps/search/?api=1&query=35.7052815,139.5786162&query_place_id=ChIJZziKmUfuGGAR8iau_mxpQKw",
@@ -298,6 +300,8 @@
   "紅連火箭筒餐廳": "https://www.google.com/maps/search/?api=1&query=35.6330921,139.8786083&query_place_id=ChIJwSy1wxF9GGARTnJEfdbTKtI",
   "紅連火箭筒餐廳 (パン・ギャラクティック・ピザ・ポート)": "https://www.google.com/maps/search/?api=1&query=35.6330921,139.8786083&query_place_id=ChIJwSy1wxF9GGARTnJEfdbTKtI",
   "統一超商複合式概念店（國際航廈）": "https://www.google.com/maps/search/?api=1&query=25.0640539,121.5518526&query_place_id=ChIJsY0-OuqrQjQRe9qx3EyVAi4",
+  "羅多倫咖啡": "https://www.google.com/maps/search/?api=1&query=35.7107448,139.7754532&query_place_id=ChIJPyo7V56OGGARkqXTPzDmYL8",
+  "羅多倫咖啡 (ドトールコーヒーショップ 上野御徒町中央通り店)": "https://www.google.com/maps/search/?api=1&query=35.7107448,139.7754532&query_place_id=ChIJPyo7V56OGGARkqXTPzDmYL8",
   "美女與野獸：魔法物語": "https://www.google.com/maps/search/?api=1&query=35.6311470,139.8781888&query_place_id=ChIJ1wJQ0dp9GGARp34ifBAVuOw",
   "羽田機場": "https://www.google.com/maps/search/?api=1&query=35.5454613,139.7687222&query_place_id=ChIJEzipOlRhGGAR3-3UwuMqAnI",
   "羽田機場第3航廈": "https://www.google.com/maps/search/?api=1&query=35.5454613,139.7687222&query_place_id=ChIJEzipOlRhGGAR3-3UwuMqAnI",
@@ -347,6 +351,8 @@
   "鴨 to 蔥拉麵 (らーめん 鴨to葱 御徒町本店)": "https://www.google.com/maps/search/?api=1&query=35.7083768,139.7752537&query_place_id=ChIJ6-Rvg5-OGGAR99AELnNenOU",
   "鴨 to 蔥拉麵 (らーめん 鴨to葱)": "https://www.google.com/maps/search/?api=1&query=35.7083768,139.7752537&query_place_id=ChIJ6-Rvg5-OGGAR99AELnNenOU",
   "麥當勞": "https://www.google.com/maps/search/?api=1&query=35.6892366,139.6981928&query_place_id=ChIJj8aWGtGMGGARxgm4q3X9Rt4",
+  "麥當勞 (マクドナルド 上野御徒町店)": "https://www.google.com/maps/search/?api=1&query=35.7086426,139.773469&query_place_id=ChIJldKmBTqPGGARt1Zgy_YgGjI",
   "麥當勞 (マクドナルド 新宿西口店)": "https://www.google.com/maps/search/?api=1&query=35.6892366,139.6981928&query_place_id=ChIJj8aWGtGMGGARxgm4q3X9Rt4",
+  "麥當勞 上野御徒町店": "https://www.google.com/maps/search/?api=1&query=35.7086426,139.773469&query_place_id=ChIJldKmBTqPGGARt1Zgy_YgGjI",
   "麥當勞 新宿西口店": "https://www.google.com/maps/search/?api=1&query=35.6892366,139.6981928&query_place_id=ChIJj8aWGtGMGGARxgm4q3X9Rt4"
 }
