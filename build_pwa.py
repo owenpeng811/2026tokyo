@@ -262,10 +262,11 @@ def _quote_line(line):
 
 
 def collapse_backup_restaurants(text):
-    """把連續的「備案餐廳」條列收進預設收合的 <details>，摘要只列店名。
+    """把每一家「備案餐廳」各自收進預設收合的 <details>，摘要列店名與人均。
 
-    備案往往佔掉時段本文一半以上篇幅，但現場多半只看首選。收合後卡片清爽，
-    需要時再展開。只改 PWA 呈現，README 不動（Docsify 仍為攤平樣式）。
+    備案往往佔掉時段本文一半以上篇幅，但現場多半只看首選。一家一個區塊，
+    摘要就能比較（誰便宜、誰貴），不必全部展開。
+    只改 PWA 呈現，README 不動（Docsify 仍為攤平樣式）。
     """
     lines = text.split('\n')
     out, i = [], 0
@@ -276,24 +277,32 @@ def collapse_backup_restaurants(text):
             out.append(lines[i])
             i += 1
             continue
-        start, names = i, []
+        # 連續的備案條列：逐筆各自包成一個 <details>
         while i < len(lines):
             is_q2, indent2, content2 = _quote_line(lines[i])
-            if not is_q2:
+            if not is_q2 or indent2 is None:
                 break
-            if indent2 <= 1:
-                if not BACKUP_BULLET_RE.match(content2 or ''):
+            if indent2 > 1:              # 理論上不會單獨出現，保險起見原樣輸出
+                out.append(lines[i])
+                i += 1
+                continue
+            if not BACKUP_BULLET_RE.match(content2 or ''):
+                break
+            start = i
+            m = re.search(r'\[\*\*(.+?)\*\*\]', content2)
+            name = m.group(1).split(' (')[0].strip() if m else '備案餐廳'
+            pm = re.search(r'人均約\s*([^，。]+)', content2)
+            hint = f'人均 {pm.group(1)}・' if pm else ''
+            i += 1
+            while i < len(lines):        # 縮排更深者屬於這一筆，一併收入
+                is_q3, indent3, _ = _quote_line(lines[i])
+                if not is_q3 or indent3 is None or indent3 <= 1:
                     break
-                m = re.search(r'\[\*\*(.+?)\*\*\]', content2)
-                if m:
-                    names.append(m.group(1).split(' (')[0].strip())
-            i += 1                       # 縮排更深者屬於上一筆備案，一併收入
-        head = f'🍽️ 備案餐廳 {len(names)} 家（點擊展開）'
-        if names:
-            head += '：' + '｜'.join(names)
-        out += ['<details>', f'<summary>{head}</summary>', '']
-        out += lines[start:i]
-        out += ['', '</details>']
+                i += 1
+            out += ['<details>',
+                    f'<summary>🍽️ 備案：{name}（{hint}點擊展開）</summary>', '']
+            out += lines[start:i]
+            out += ['', '</details>']
     return '\n'.join(out)
 
 
