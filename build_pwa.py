@@ -1423,7 +1423,7 @@ def render_full_pwa_html(meta, days_data):
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 24px;
+      width: 28px;
       flex-shrink: 0;
       padding-top: 4px;
     }}
@@ -1431,9 +1431,18 @@ def render_full_pwa_html(meta, days_data):
     .check-wrapper {{
       position: relative;
       cursor: pointer;
-      width: 22px;
-      height: 22px;
+      width: 26px;
+      height: 26px;
       display: inline-block;
+    }}
+    /* 把觸控範圍撐到 44x44（iOS/Android 人體工學下限），但不佔版面 */
+    .check-wrapper::before {{
+      content: "";
+      position: absolute;
+      top: -9px;
+      left: -9px;
+      right: -9px;
+      bottom: -9px;
     }}
     .check-wrapper input {{
       opacity: 0;
@@ -1444,19 +1453,26 @@ def render_full_pwa_html(meta, days_data):
       position: absolute;
       top: 0;
       left: 0;
-      height: 22px;
-      width: 22px;
-      background-color: rgba(255, 255, 255, 0.08);
-      border: 1.5px solid rgba(255, 255, 255, 0.25);
-      border-radius: 6px;
+      height: 26px;
+      width: 26px;
+      background-color: rgba(255, 255, 255, 0.12);
+      border: 2px solid rgba(255, 255, 255, 0.6);
+      border-radius: 8px;
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.35);
       transition: var(--transition-smooth);
     }}
     .check-wrapper:hover input ~ .checkmark {{
       border-color: var(--accent-coral);
+      background-color: rgba(255, 255, 255, 0.2);
+    }}
+    .check-wrapper input:focus-visible ~ .checkmark {{
+      outline: 2px solid var(--accent-gold);
+      outline-offset: 2px;
     }}
     .check-wrapper input:checked ~ .checkmark {{
       background-color: var(--accent-green);
       border-color: var(--accent-green);
+      box-shadow: 0 0 0 3px rgba(52, 211, 153, 0.28);
     }}
     .checkmark:after {{
       content: "";
@@ -1465,12 +1481,12 @@ def render_full_pwa_html(meta, days_data):
     }}
     .check-wrapper input:checked ~ .checkmark:after {{
       display: block;
-      left: 7px;
+      left: 8px;
       top: 3px;
-      width: 5px;
-      height: 10px;
-      border: solid white;
-      border-width: 0 2px 2px 0;
+      width: 6px;
+      height: 12px;
+      border: solid #0f172a;
+      border-width: 0 3px 3px 0;
       transform: rotate(45deg);
     }}
 
