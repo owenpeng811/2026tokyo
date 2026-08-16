@@ -6836,7 +6836,9 @@
       // 先把捲動位置讀出來，switchDay() 會把它歸零（手動換天要回到頂端）
       const y = parseInt(localStorage.getItem('lastScroll'), 10);
       const day = parseInt(localStorage.getItem('lastDay'), 10);
-      if (day >= 0 && day <= 6 && day !== currentDay) switchDay(day);
+      // 傳 false：這裡要回到「上次離開的捲動位置」，
+      // 不能被「捲到第一個未勾選」蓋掉
+      if (day >= 0 && day <= 6 && day !== currentDay) switchDay(day, false);
 
       if (y > 0) {
         // 等版面與圖片穩定後再捲，否則會被 switchDay 的置頂蓋掉
@@ -6906,7 +6908,24 @@
       }, { passive: true });
     }
 
-    function switchDay(day) {
+    // 換天時捲到「第一個還沒打勾的時段」，現場翻到當天就直接看到下一步要做什麼。
+    // 全部打勾或找不到時退回置頂，行為與改動前一致。
+    function scrollToFirstUnchecked(day) {
+      const toTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+      const sec = document.querySelectorAll('.day-section')[day - 1];
+      if (day === 0 || !sec) return toTop();
+      // offsetParent 為 null 代表被隱藏（例如另一個分支的卡片），要排除
+      const pending = [...sec.querySelectorAll('.check-wrapper input[type="checkbox"]')]
+        .filter(cb => cb.offsetParent !== null).find(cb => !cb.checked);
+      const item = pending && (pending.closest('.timeline-item') || pending.closest('.timeline-card'));
+      if (!item) return toTop();
+      const header = document.querySelector('.app-header');
+      const offset = (header ? header.offsetHeight : 0) + 12;
+      const top = window.scrollY + item.getBoundingClientRect().top - offset;
+      window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+    }
+
+    function switchDay(day, autoScroll = true) {
       currentDay = day;
       localStorage.setItem('lastDay', day);
       localStorage.setItem('lastScroll', 0);
@@ -6926,7 +6945,12 @@
       if (tabs && activeTab) {
         tabs.scrollTo({ left: activeTab.offsetLeft - (tabs.clientWidth - activeTab.clientWidth) / 2, behavior: 'smooth' });
       }
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (autoScroll) {
+        // 等 display 切換後的版面重排完成再量位置，否則量到的是舊高度
+        requestAnimationFrame(() => scrollToFirstUnchecked(day));
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
     }
 
     function switchDay1Plan(plan) {
