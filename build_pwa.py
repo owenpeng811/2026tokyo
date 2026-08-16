@@ -229,7 +229,10 @@ def strip_orphan_details(text):
     對應的 </details> 則落在分支最後一個時段。時段內自己成對的 <details> 不受影響。
     """
     lines = text.split('\n')
-    opens = [i for i, l in enumerate(lines) if l.strip() == '<details>']
+    # README 兩種寫法都要認：獨立成行的 <details>，以及單行的
+    # <details><summary>…</summary>。只比對 == '<details>' 會漏掉後者，
+    # 使它的 </details> 被誤判成孤兒結尾刪掉，摺疊區永遠關不起來。
+    opens = [i for i, l in enumerate(lines) if l.strip().startswith('<details>')]
     closes = [i for i, l in enumerate(lines) if l.strip() == '</details>']
     drop = set()
     # 由後往前配對：每個 </details> 找它前面最近、尚未被配對的 <details>
