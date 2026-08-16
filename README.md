@@ -101,6 +101,21 @@
 
 </details>
 
+<details><summary>🏪 便利商店與超市必買清單（點擊展開）</summary>
+
+> 📄 **超商介紹文**：[日本便利商店全攻略：7-11／全家／LAWSON 必買清單文章](https://www.funliday.com/posts/japan-convenience-store/)｜[三大超商 15 款必買商品與刷卡、退稅、內用常見問題懶人包](https://tw.wamazing.com/media/article/a-708/)
+>
+> 📄 **超市介紹文**：[日本超市必買、連鎖品牌比較與購物指南文章（2026）](https://marukoblog.tw/grocery-store.html)｜[肉之Hanamasa 平價超市必買攻略文章](https://marukoblog.tw/2020-06-22.html)
+>
+> * 🏪 **三大超商各有強項**：7-11 的 7 PREMIUM 自有品牌零食與聯名甜點、LAWSON 的炸雞君（からあげクン）與麻糬口感生乳捲、全家的舒芙蕾布丁與厚燒玉子燒。
+> * 🍙 **本行程用得到的**：Day 1 松山機場與 Day 6 羽田機場的機場早餐、Day 2 長輩組的午晚餐備案、每天回飯店的宵夜與隔日飲料。
+> * 💳 **三大超商都收 Suica 與信用卡**，多數門市設有 ATM，螢幕可切換中文。
+> * 🎫 LAWSON 店內的 **Loppi** 機台可購票與取票；吉卜力美術館即為此系統（本行程已於行前購票，無須現場操作）。
+> * 🛒 **超市比超商便宜**：牛奶、麵包、優格、水果、熟食價差明顯。Day 1 晚上安排的 [**肉之Hanamasa超市 (肉のハナマサ 浅草橋店)**](https://www.google.com/maps/search/?api=1&query=35.6966953,139.7840376&query_place_id=ChIJS7K2bLKOGGARGySfwejBx4o) 為 24 小時營業。
+> * ⚠️ **超市退稅不含生鮮蔬果與熟食**，且退稅櫃檯多數只到傍晚。本行程 19:15 才採買、且買的是當天要吃的生鮮，不走退稅。
+
+</details>
+
 ## **📋 行程總覽與檢視 (Review)**
 
 ### **1\. 全程景點概覽**
@@ -371,6 +386,8 @@
 ### **🛒 共同收尾行程（Plan A / Plan B 適用）**
 
 #### **19:15－19:35 🛒 生鮮超市採買**
+
+> 📄 **採買參考介紹文**：[肉之Hanamasa 平價超市必買攻略文章](https://marukoblog.tw/2020-06-22.html)｜[日本超市必買、連鎖品牌比較與購物指南文章（2026）](https://marukoblog.tw/grocery-store.html)
 
 > * 返回淺草橋站出站後，慢步 2 分鐘順路前往 [**肉之Hanamasa超市 (肉のハナマサ 浅草橋店)**](https://www.google.com/maps/search/?api=1&query=35.6966953,139.7840376&query_place_id=ChIJS7K2bLKOGGARGySfwejBx4o) 採買：明日早餐鮮乳、麵包、優格、礦泉水與當季水果（比超商更經濟實惠）。
 

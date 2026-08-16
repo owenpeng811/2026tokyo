@@ -1799,7 +1799,7 @@ def render_full_pwa_html(meta, days_data):
     </div>
 
     <nav class="day-tabs" id="dayTabs">
-      <button class="day-tab" onclick="switchDay(0)">📌 行前</button>
+      <button class="day-tab" onclick="switchDay(0)">📌 置頂</button>
       <button class="day-tab active" onclick="switchDay(1)">D1 (8/20四)</button>
       <button class="day-tab" onclick="switchDay(2)">D2 (8/21五)</button>
       <button class="day-tab" onclick="switchDay(3)">D3 (8/22六)</button>
@@ -1969,7 +1969,7 @@ def render_full_pwa_html(meta, days_data):
       currentDay = day;
       localStorage.setItem('lastDay', day);
       localStorage.setItem('lastScroll', 0);
-      // 第 0 個頁籤是「📌 行前」，其後才是 D1～D6
+      // 第 0 個頁籤是「📌 置頂」（行前資訊），其後才是 D1～D6
       document.querySelectorAll('.day-tab').forEach((tab, i) => {{
         tab.classList.toggle('active', i === day);
       }});
