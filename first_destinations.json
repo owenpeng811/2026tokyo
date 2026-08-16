@@ -22,6 +22,8 @@
   "3_KITTE頂樓花園眺望東京車站": "https://www.google.com/maps/search/?api=1&query=35.6795336,139.7654445&query_place_id=ChIJtZRvRvqLGGARdS57rQP2NEk",
   "4_SATOU": "https://www.google.com/maps/search/?api=1&query=35.703975,139.579041&query_place_id=ChIJEerD2EfuGGARNzol9ZsrCkg",
   "4_逛平價雜貨與角色小物店": "https://www.google.com/maps/search/?api=1&query=35.7049401,139.5791020&query_place_id=ChIJl0FxI9jvGGARvamO7ToYYMM",
+  "2_參觀國立西洋美術館": "https://www.google.com/maps/search/?api=1&query=35.7153869,139.7758138&query_place_id=ChIJf8xB-pyOGGARizzhlNTcI7s",
+  "2_美術館戶外庭園": "https://www.google.com/maps/search/?api=1&query=35.7153869,139.7758138&query_place_id=ChIJf8xB-pyOGGARizzhlNTcI7s",
   "3_鴨 to 蔥拉麵": "https://www.google.com/maps/search/?api=1&query=35.7083768,139.7752537&query_place_id=ChIJ6-Rvg5-OGGAR99AELnNenOU",
   "4_參觀三鷹之森吉卜力美術館": "https://www.google.com/maps/search/?api=1&query=35.696238,139.5704317&query_place_id=ChIJLYwD5TTuGGARBZKEP5BV4U0",
   "2_傍晚戶外悠閒漫步": "https://www.google.com/maps/search/?api=1&query=35.7147557,139.7734312&query_place_id=ChIJw2qQRZuOGGARWmROEiM2y7E",
@@ -63,7 +65,7 @@
   "1_機場整備與 Suica": "https://www.google.com/maps/search/?api=1&query=35.5454613,139.7687222&query_place_id=ChIJEzipOlRhGGAR3-3UwuMqAnI",
   "6_輕食午餐": "https://www.google.com/maps/search/?api=1&query=35.5452071,139.7692639&query_place_id=ChIJNUhg6GFhGGAR3CX1Keaj8Ow",
   "1_生鮮超市採買": "https://www.google.com/maps/search/?api=1&query=35.6966953,139.7840376&query_place_id=ChIJS7K2bLKOGGARGySfwejBx4o",
-  "1_萬代扭蛋": "https://www.google.com/maps/search/?api=1&query=35.6980094,139.7724164&query_place_id=ChIJlzTvUTuNGGARzn7gpOn8et8",
+  "1_萬代官方扭蛋": "https://www.google.com/maps/search/?api=1&query=35.6980094,139.7724164&query_place_id=ChIJlzTvUTuNGGARzn7gpOn8et8",
   "5_達摩文字燒": "https://www.google.com/maps/search/?api=1&query=35.7101381,139.8122049&query_place_id=ChIJUaJR8NaOGGAR48j6xkTvMeY",
   "6_返回淺草橋飯店": "https://www.google.com/maps/search/?api=1&query=35.6697003,139.7672886&query_place_id=ChIJK2bxJueLGGARwHHeH52hGiM",
   "5_參觀淺草寺與雷門散策": "https://www.google.com/maps/search/?api=1&query=35.7111163,139.7963656&query_place_id=ChIJ0YwG28aOGGARvRKAXIBWqNk"
