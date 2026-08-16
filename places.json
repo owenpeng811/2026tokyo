@@ -1546,6 +1546,22 @@
       "verified_name": "KOMEDA'S Coffee",
       "verified_address": "Japan, 〒110-0005 Tokyo, Taito City, Ueno, 2-chōme−6−１２ 上野東洋ビル ２Ｆ"
     },
+    "鳥一味 (鳥一味 東京ソラマチ店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7102869,139.8097624&query_place_id=ChIJ-SZjKSSPGGARVVuZ1N2h6V4",
+      "nav_dict": [
+        "鳥一味",
+        "鳥一味 (鳥一味 東京ソラマチ店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "鳥一味 (鳥一味 東京ソラマチ店)"
+      ],
+      "verified_at": "2026-08-16",
+      "verified_name": "鳥一味",
+      "verified_address": "日本、〒131-0045 東京都墨田区押上１丁目１−２ 東京スカイツリータウン ソラマチ3F タベテラス内",
+      "verified_source": "以 Google Maps 搜尋取得 ftid 0x60188f24296326f9:0x5ee9a1ddd4995b55，轉為 place_id 後反查回同一 POI（名稱與座標一致）。地址明載 ソラマチ3F タベテラス内，與東京晴空街道官方繁中頁標示的「3F 西Yard 3號晴空街Tabe-Terrace」相符。verified_* 取自 Google Maps 網頁介面 hl=ja 顯示值，非 Places API 回傳（本機無 API key）。"
+    },
     "宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7100876,139.8106698&query_place_id=ChIJUaJR8NaOGGAR9-rraNT1PZo",
       "nav_dict": [

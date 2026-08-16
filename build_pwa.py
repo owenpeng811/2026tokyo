@@ -126,11 +126,15 @@ def autolink_text_entities(html_text):
         if not url or len(name) < 2:
             continue
         escaped_name = re.escape(name)
-        parts = re.split(r'(<a\b[^>]*>.*?</a>)', html_text, flags=re.DOTALL)
+        # 同時保護既有 <a> 與 <summary>：摺疊標題若被塞進連結，
+        # 點擊時會開地圖而不是展開區塊。
+        parts = re.split(r'(<a\b[^>]*>.*?</a>|<summary\b[^>]*>.*?</summary>)',
+                         html_text, flags=re.DOTALL)
         new_parts = []
         remaining = 2
         for p in parts:
-            if p.startswith('<a') and p.endswith('</a>'):
+            if (p.startswith('<a') and p.endswith('</a>')) or \
+               (p.startswith('<summary') and p.endswith('</summary>')):
                 new_parts.append(p)
                 continue
             # 再依標籤切一次，只在文字節點取代；否則像 <img alt="…不忍池…">
@@ -246,10 +250,58 @@ def strip_orphan_details(text):
     return '\n'.join(l for i, l in enumerate(lines) if i not in drop)
 
 
+BACKUP_BULLET_RE = re.compile(r'^\*\s*次?備案餐廳')
+
+
+def _quote_line(line):
+    """把引用行拆成 (是否引用行, 縮排量, 去空白內容)。非引用行回傳 (False, None, None)。"""
+    if not line.startswith('>'):
+        return False, None, None
+    after = line[1:]
+    return True, len(after) - len(after.lstrip()), after.strip()
+
+
+def collapse_backup_restaurants(text):
+    """把連續的「備案餐廳」條列收進預設收合的 <details>，摘要只列店名。
+
+    備案往往佔掉時段本文一半以上篇幅，但現場多半只看首選。收合後卡片清爽，
+    需要時再展開。只改 PWA 呈現，README 不動（Docsify 仍為攤平樣式）。
+    """
+    lines = text.split('\n')
+    out, i = [], 0
+    while i < len(lines):
+        is_q, indent, content = _quote_line(lines[i])
+        if not (is_q and indent is not None and indent <= 1
+                and BACKUP_BULLET_RE.match(content or '')):
+            out.append(lines[i])
+            i += 1
+            continue
+        start, names = i, []
+        while i < len(lines):
+            is_q2, indent2, content2 = _quote_line(lines[i])
+            if not is_q2:
+                break
+            if indent2 <= 1:
+                if not BACKUP_BULLET_RE.match(content2 or ''):
+                    break
+                m = re.search(r'\[\*\*(.+?)\*\*\]', content2)
+                if m:
+                    names.append(m.group(1).split(' (')[0].strip())
+            i += 1                       # 縮排更深者屬於上一筆備案，一併收入
+        head = f'🍽️ 備案餐廳 {len(names)} 家（點擊展開）'
+        if names:
+            head += '：' + '｜'.join(names)
+        out += ['<details>', f'<summary>{head}</summary>', '']
+        out += lines[start:i]
+        out += ['', '</details>']
+    return '\n'.join(out)
+
+
 def markdown_to_html(text):
     if not text:
         return ""
     text = strip_orphan_details(text)
+    text = collapse_backup_restaurants(text)
     lines = text.split('\n')
     html_lines = []
     in_list = False
@@ -313,7 +365,11 @@ def markdown_to_html(text):
             if in_quote:
                 html_lines.append('</div>')
                 in_quote = False
-            if line.startswith('###') or line.startswith('####'):
+            if line.startswith('<'):
+                # 原始 HTML（<details>／<summary> 等）直接輸出，
+                # 不要包進 <p>，否則要靠瀏覽器容錯才顯示得對。
+                html_lines.append(line)
+            elif line.startswith('###') or line.startswith('####'):
                 h_text = line.lstrip('#').strip()
                 html_lines.append(f'<h4 class="modal-subheading">{format_inline_markdown(h_text)}</h4>')
             else:
