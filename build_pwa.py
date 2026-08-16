@@ -453,7 +453,10 @@ CUSTOM_SUMMARIES_V10 = {
     (3, "阿美橫丁採買"): f"<strong>必掃名店：</strong><br>• <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('二木菓子 (二木の菓子 第一営業所)', '')}\" target=\"_blank\">二木菓子（第一営業所） 🔗</a>：掃日本零食名產。<br>• <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('OS Drug 上野店', '')}\" target=\"_blank\">OS Drug 上野店 🔗</a>：藥妝免退稅價格之冠。<br>• 街邊小吃：<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('肉之大山 (肉の大山 上野店)', '')}\" target=\"_blank\">肉之大山炸肉餅 🔗</a>、<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('みなとや食品', '')}\" target=\"_blank\">みなとや章魚燒 🔗</a>。<br>• <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('多慶屋 (多慶屋 TAKEYA 1)', '')}\" target=\"_blank\">多慶屋（TAKEYA） 🔗</a>：紫色商場一站式補貨備案。",
     (3, "回程：前往JR 御徒町站"): f"步行至 JR <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('御徒町站', '')}\" target=\"_blank\">御徒町站 🔗</a> 搭乘電車返回淺草橋。",
     (3, "晚餐（若下午沒吃鴨 to 蔥拉麵）"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('吉野家 (吉野家 浅草橋店)', '')}\" target=\"_blank\">吉野家 浅草橋店 🔗</a>。<br><strong>備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('松屋 (松屋 浅草橋店)', '')}\" target=\"_blank\">松屋 浅草橋店 🔗</a> / <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('拉麵 ろく月 (らーめん ろく月)', '')}\" target=\"_blank\">ろく月 雞白湯拉麵 🔗</a>。",
-    (3, "宵夜／點心（若下午已吃鴨 to 蔥拉麵）"): f"外帶 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('Cow Cow Kitchen (東京Milk Cheese Factory)', '')}\" target=\"_blank\">Cow Cow Kitchen 牛奶起司派 🔗</a> (ルミネエスト新宿 LUMINE EST 1F) 或便利商店點心回飯店享用。"
+    (3, "宵夜／點心（若下午已吃鴨 to 蔥拉麵）"): f"外帶 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('Cow Cow Kitchen (東京Milk Cheese Factory)', '')}\" target=\"_blank\">Cow Cow Kitchen 牛奶起司派 🔗</a> (ルミネエスト新宿 LUMINE EST 1F) 或便利商店點心回飯店享用。",
+
+    # Day 5
+    (5, "觀賞都廳光雕投影秀"): f"看 <strong>19:00－19:15</strong> 這場，共 15 分鐘。<strong>要下樓到地面的都民廣場看</strong>，45 樓展望室看不到。免費、不需預約。8/24 為平日場，沒有哥吉拉與寶可夢。"
 }
 
 def parse_v10_markdown():
