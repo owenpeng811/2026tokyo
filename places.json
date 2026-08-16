@@ -1891,6 +1891,24 @@
       "poi_level": "container",
       "container_note": "遊行表演，導航指向東京迪士尼樂園園區"
     },
+    "幽靈公館 (ホーンテッドマンション)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6312281,139.8819030&query_place_id=ChIJCTVrnhB9GGARGATO9WeW0NE",
+      "nav_dict": [
+        "幽靈公館",
+        "幽靈公館 (ホーンテッドマンション)"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "2_日間遊行"
+      ],
+      "html": [
+        "幽靈公館 (ホーンテッドマンション)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "幽靈公館",
+      "verified_address": "日本〒279-0031 Chiba, Urayasu, Maihama, 1−1 東京ディズニーランド ファンタジーランド",
+      "verified_source": "無 Places API key，改以 Google Maps 網頁版搜尋取得 ftid 0x60187d109e6b3509:0xd1d09667f5ce0418 換算 place_id，再以 maps/place/?q=place_id: 反查確認回到同一 POI（名稱「幽靈公館」、所在地點「夢幻樂園」、座標 35.6312281,139.881903、ftid 一致）。verified_name 與 verified_address 為網頁版顯示值，非 API 回傳值。"
+    },
     "明日樂園舞台餐廳": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6319086,139.8795571&query_place_id=ChIJTzLkOhd9GGAR_-mrdmCJEn0",
       "nav_dict": [

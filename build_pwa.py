@@ -429,7 +429,7 @@ CUSTOM_SUMMARIES_V10 = {
     (2, "午餐窗口（彈性不跨區）"): f"<strong>遊玩 > 吃飯，不預約、不跨區</strong>。使用 Disney App Mobile Order 就近點餐取餐，或找附近行動餐車解決。",
     (2, "午餐窗口"): f"<strong>遊玩 > 吃飯，不預約、不跨區</strong>。使用 Disney App Mobile Order 就近點餐取餐，或找附近行動餐車解決。",
     (2, "米奇魔法音樂世界"): f"全室內劇場演出，雨天亦非常適合。<strong>抽到合理時段才去，不為其破壞遊樂節奏</strong>。",
-    (2, "🌈 日間遊行「迪士尼眾彩交融」 (ディズニー・ハーモニー・イン・カラー)｜OPTION"): f"<strong>有空且晴天才看</strong>，雨天優先放棄，不提前長時間卡位。",
+    (2, "🌈 日間遊行「迪士尼眾彩交融」 (ディズニー・ハーモニー・イン・カラー)｜OPTION"): f"<strong>17:00 一天只有一場</strong>，全程約 45 分鐘。<strong>要看就站起點側</strong>（<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('幽靈公館 (ホーンテッドマンション)', '')}\" target=\"_blank\">幽靈公館 🔗</a> 旁到西部樂園一帶），看完就能走、接得上 17:30 晚餐；站城堡前或卡通城會結束得晚很多。<strong>有空且晴天才看</strong>，雨天優先放棄，不提前長時間卡位。",
     (2, "晚餐窗口（快速補充體力）"): f"<strong>快速補充體力</strong>。目前位置附近以 App Mobile Order 下單或買行動餐車，不為吃飯特別跑遠。",
     (2, "晚餐窗口"): f"<strong>快速補充體力</strong>。目前位置附近以 App Mobile Order 下單或買行動餐車，不為吃飯特別跑遠。",
     (2, "跳跳熱舞"): f"戶外舞台演出，<strong>僅優先考慮 18:00 場次</strong>，雨天降低優先度。",
