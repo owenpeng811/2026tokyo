@@ -50,7 +50,11 @@ else:
 
 # 3. Check Naming Rule Compliance on all Markdown Links
 print("\n--- [階段 2] 審查所有已標註超連結的命名格式 ---")
-md_links = re.findall(r'(?<!\!)\[\s*\*?\*?([^\*\]\n]+)\*?\*?\s*\]\((https?://[^\)]+)\)(\s*\([^\)\n]+\))?', readme_text)
+# 第三個群組是連結後面的樓層／說明註記。這類註記常以全形「）」收尾，
+# 若字元集只排除半形 )，它會一路吃到「下一個連結」的半形 )，把那條連結
+# 整個吞進註記裡，導致該連結從未被 HTTP 檢測（實際漏掉過客美多官網菜單）。
+# 多排除一個 [ 就能讓它停在註記內，不會跨越到下一個 Markdown 連結。
+md_links = re.findall(r'(?<!\!)\[\s*\*?\*?([^\*\]\n]+)\*?\*?\s*\]\((https?://[^\)]+)\)(\s*\([^\)\n\[]+\))?', readme_text)
 
 valid_naming = 0
 invalid_naming = []
