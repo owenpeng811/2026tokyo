@@ -1531,6 +1531,54 @@
       "verified_name": "Theatre Orleans",
       "verified_address": "Japan, 〒279-0031 Chiba, Urayasu, Maihama, 1−１ 東京ディズニーランド アドベンチャーランド"
     },
+    "羅多倫咖啡 (ドトールコーヒーショップ アトレ上野店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7121134,139.7751798&query_place_id=ChIJFeymgJ6OGGAR8NtTUr5XcBE",
+      "nav_dict": [
+        "羅多倫咖啡 (ドトールコーヒーショップ アトレ上野店)",
+        "ドトール アトレ上野店"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "羅多倫咖啡 (ドトールコーヒーショップ アトレ上野店)"
+      ],
+      "verified_at": "2026-08-16",
+      "verified_name": "ドトールコーヒーショップ アトレ上野店",
+      "verified_address": "日本、〒110-0005 東京都台東区上野７丁目１−１ アトレ上野",
+      "verified_source": "以 Google Maps 搜尋取得 ftid 0x60188e9e80a6ec15:0x117057be5253dbf0，轉為 place_id 後反查回同一 POI（名稱與座標一致）。位於アトレ上野館內（改札外、與車站直結）。與同行程的「ドトール 上野御徒町中央通り店」為不同分店。verified_* 取自 Google Maps 網頁介面 hl=ja 顯示值，非 Places API 回傳（本機無 API key）。"
+    },
+    "雷諾瓦咖啡 (喫茶室ルノアール 上野しのばず口店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.710934,139.774339&query_place_id=ChIJ2fk9QZ6OGGARVlOQVnJr1Oo",
+      "nav_dict": [
+        "雷諾瓦咖啡 (喫茶室ルノアール 上野しのばず口店)",
+        "喫茶室ルノアール 上野しのばず口店"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "雷諾瓦咖啡 (喫茶室ルノアール 上野しのばず口店)"
+      ],
+      "verified_at": "2026-08-16",
+      "verified_name": "喫茶室ルノアール 上野しのばず口店",
+      "verified_address": "日本、〒110-0005 東京都台東区上野４丁目１０−７ B1F",
+      "verified_source": "以 Google Maps 搜尋取得 ftid 0x60188e9e413df9d9:0xead46b7256905356，轉為 place_id 後反查回同一 POI（名稱與座標一致）。Google 標示人均 ￥1,000～2,000。ルノアール 官網記載品牌理念為「くつろぎのひととき」，提供電源服務、公眾無線 LAN 與續杯服務，官網未記載任何停留時間限制。verified_* 取自 Google Maps 網頁介面 hl=ja 顯示值，非 Places API 回傳（本機無 API key）。"
+    },
+    "三橋餡蜜 (あんみつ みはし アトレ上野店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7122332,139.7753202&query_place_id=ChIJc6BJfJ6OGGARaNnQvcilarE",
+      "nav_dict": [
+        "三橋餡蜜 (あんみつ みはし アトレ上野店)",
+        "あんみつ みはし アトレ上野店"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "三橋餡蜜 (あんみつ みはし アトレ上野店)"
+      ],
+      "verified_at": "2026-08-16",
+      "verified_name": "あんみつ みはし アトレ上野店",
+      "verified_address": "日本、〒110-0005 東京都台東区上野７丁目１−１ アトレ上野内",
+      "verified_source": "以 Google Maps 搜尋取得 ftid 0x60188e9e7c49a073:0xb16aa5c8bdd0d968，轉為 place_id 後反查回同一 POI（名稱與座標一致）。Google 簡介記載「上野に本店を構える甘味処の支店。名物のあんみつをはじめ、しるこ、ところてん、軽食も提供」，提供イートイン，人均 ￥1～1,000，評分 4.3（904 則）。位於アトレ上野館內（改札外）。verified_* 取自 Google Maps 網頁介面 hl=ja 顯示值，非 Places API 回傳（本機無 API key）。"
+    },
     "羅多倫咖啡 (ドトールコーヒーショップ 上野御徒町中央通り店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7107448,139.7754532&query_place_id=ChIJPyo7V56OGGARkqXTPzDmYL8",
       "nav_dict": [
