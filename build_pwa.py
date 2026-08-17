@@ -444,7 +444,7 @@ CUSTOM_SUMMARIES_V10 = {
     (2, "返回淺草橋（長輩組）"): f"<strong>就近進站：</strong>宇奈とと步行 2 分鐘直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 上野站 (上野駅)', '')}\" target=\"_blank\">JR 上野站不忍口 🔗</a>（或從松坂屋步行 2 分鐘至 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 御徒町站 (御徒町駅)', '')}\" target=\"_blank\">JR 御徒町站 🔗</a>），搭山手線至秋葉原轉總武線 1 站回淺草橋。",
 
     # Day 2 Kids (Disney)
-    (2, "前往東京迪士尼樂園"): f"🚪 <strong>西口進站</strong>。淺草橋 ➔ 秋葉原 (總武線) ➔ 八丁堀 (地鐵日比谷線) ➔ <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 舞濱站 (舞浜駅)', '')}\" target=\"_blank\">舞濱站 🔗</a> (JR京葉線)。全程設有手扶梯與電梯，避開東京車站巨型轉乘。",
+    (2, "前往東京迪士尼樂園"): f"🚪 <strong>A3 出口進站</strong>。淺草橋 ➔ 人形町 (都營淺草線 2 站) ➔ 八丁堀 (日比谷線 2 站) ➔ <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 舞濱站 (舞浜駅)', '')}\" target=\"_blank\">舞濱站 🔗</a> (JR京葉線 5 站)。<strong>人形町有乘換專用改札、不用出站重刷卡</strong>；避開東京車站巨型轉乘。",
     (2, "抵達樂園門口排隊與入園"): f"<strong>核心策略：免費＋合理視野＋最大化遊樂時間</strong>。入園後以 <strong>40周年 Priority Pass（免費 PP）</strong> 為主要導航，搭配 Entry Request 與周邊設施動態遊玩。",
     (2, "動態遊玩主時段"): f"<strong>本日主體：遊樂設施</strong>。以免費 PP 為核心導航，擴散遊玩所在區域周邊設施。搭配 Notion「迪士尼體驗 Database」即時查看推薦項目與排隊時間。",
     (2, "午餐窗口（彈性不跨區）"): f"<strong>遊玩 > 吃飯，不預約、不跨區</strong>。使用 Disney App Mobile Order 就近點餐取餐，或找附近行動餐車解決。",
