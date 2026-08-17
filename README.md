@@ -1570,6 +1570,7 @@
 > * 14:45 離開晴空塔 ➔ 慢步前往 [**押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.7103320,139.8132971&query_place_id=ChIJaUNCPNaOGGARuV-q32bYbaE)。  
 > * 🚇 **舒適補眠電車移動**：
 >   * 於 [**都營 押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.7103320,139.8132971&query_place_id=ChIJaUNCPNaOGGARuV-q32bYbaE)（**A20**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（A01）／羽田空港 方向**，搭乘 **4 站** 至 淺草橋站（A16）（車程約 6 分鐘）。
+>   * ⚠️ **這裡要出站換乘、刷兩次卡**：都營與 JR 是**不同公司、兩座分開的車站**，閘門內不相通。請**先出都營閘門**（西瓜卡感應一次扣車資），走到 JR 閘門**再感應一次進站**。不需要買票，也不用找轉乘通道，就是出來再進去。**五個人請一個一個過閘門。**
 >   * 於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 轉乘 **🟡 JR 中央・總武線（JB）** 往 **新宿（JB10） 方向**，搭乘 **2 站** 至 御茶之水站（JB18）（車程約 4 分鐘）。
 >   * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **新宿（Shinjuku／JC05）／高尾 方向**，搭乘 **2 站** 直達 [**新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJH7qx1tCMGGAR1f2s7PGhMhw)（**JC05**）（車程約 9 分鐘，總移動約 28 分鐘）。  
 >   * 💡 **長輩小孩充能**：這段在冷氣電車上坐著休息。  
