@@ -120,8 +120,47 @@
 > * 💳 **三大超商都收 Suica 與信用卡**，多數門市設有 ATM，螢幕可切換中文。
 > * 🎫 LAWSON 店內的 **Loppi** 機台可購票與取票；吉卜力美術館即為此系統（本行程已於行前購票，無須現場操作）。
 > * ⚠️ **MINISTOP 的現做飯糰便當不一定買得到**：2025 年 8 月因部分門市偽造消費期限，全國約 1,800 家暫停販售**店內現做**的飯糰、便當與熟食；同年 10 月起分批恢復，但**截至 2026 年 2 月底只恢復約四成門市**。**霜淇淋與一般包裝商品不受影響**。要把它當正餐備案前，請先看店內有沒有在賣。
-> * 🛒 **超市比超商便宜**：牛奶、麵包、優格、水果、熟食價差明顯。Day 1 晚上安排的 [**肉之Hanamasa超市 (肉のハナマサ 浅草橋店)**](https://www.google.com/maps/search/?api=1&query=35.6966953,139.7840376&query_place_id=ChIJS7K2bLKOGGARGySfwejBx4o) 為 24 小時營業。
+> * 🛒 **超市比超商便宜**：牛奶、麵包、優格、水果、熟食價差明顯。Day 1 晚上安排的 [**肉之Hanamasa超市 (肉のハナマサ 浅草橋店)**](https://www.google.com/maps/search/?api=1&query=35.6966953,139.7840376&query_place_id=ChIJS7K2bLKOGGARGySfwejBx4o) 營業時間 **06:00－01:00**（**不是 24 小時**，深夜與清晨 01:00－06:00 沒開）。
 > * ⚠️ **超市退稅不含生鮮蔬果與熟食**，且退稅櫃檯多數只到傍晚。本行程 19:15 才採買、且買的是當天要吃的生鮮，不走退稅。
+
+</details>
+
+<details><summary>🍞 每晚回飯店前買隔日早餐（點擊展開）</summary>
+
+> **本行程的做法：前一晚回飯店前買好隔天早餐**，早上起床直接吃、不出門找店。
+>
+> 🚶 淺草橋站走回飯店約 **195 公尺、3 分鐘**，所以買早餐一定會繞路，差別只在繞多少。下表的「繞路」是**實際步行路線**算出來的，不是直線距離。
+
+> **平常晚上（Day 2～5，搭 JR 中央・總武線回來，走西口）**
+>
+> | 店家 | 繞路 | 營業時間 | 必買參考 |
+> | :-- | :-- | :-- | :-- |
+> | [**羅森+ThreeF 淺草橋店 (ローソン+スリーエフ 浅草橋店)**](https://www.google.com/maps/search/?api=1&query=35.6977110,139.7843910&query_place_id=ChIJ_WvQ9LGOGGARqFqgQ8633TA) | **＋11 公尺** | 24 小時 | [LAWSON 介紹文](https://www.letsgojp.com/archives/734007/) |
+> | [**羅森 淺草橋一丁目店 (ローソン 浅草橋一丁目店)**](https://www.google.com/maps/search/?api=1&query=35.6969657,139.7834740&query_place_id=ChIJw9iFBbKOGGARZDWKRGMH-ns) | ＋76 公尺 | 24 小時 | [LAWSON 介紹文](https://tasting-japan.com/archives/2412) |
+> | [**我的籃子 淺草橋一丁目店 (まいばすけっと 浅草橋1丁目店)**](https://www.google.com/maps/search/?api=1&query=35.6968077,139.7832051&query_place_id=ChIJ4TBoCLKOGGARhn4DJt5etlg) | ＋77 公尺 | 07:00－23:00 | [超市介紹文](https://marukoblog.tw/grocery-store.html) |
+> | [**肉之Hanamasa超市 (肉のハナマサ 浅草橋店)**](https://www.google.com/maps/search/?api=1&query=35.6966953,139.7840376&query_place_id=ChIJS7K2bLKOGGARGySfwejBx4o) | ＋86 公尺 | 06:00－01:00 | [必買介紹文](https://marukoblog.tw/2020-06-22.html) |
+> | [**7-ELEVEN 淺草橋站西口店 (セブン-イレブン 浅草橋駅西口店)**](https://www.google.com/maps/search/?api=1&query=35.6979742,139.7833930&query_place_id=ChIJP2pU_LGOGGAR2jc0UvRDEng) | ＋98 公尺 | 24 小時 | [7-11 介紹文](https://www.letsgojp.com/archives/662817/) |
+> | [**MINISTOP 淺草橋站前店 (ミニストップ 浅草橋駅前店)**](https://www.google.com/maps/search/?api=1&query=35.6982928,139.7848673&query_place_id=ChIJO5ABibGOGGAR-yitIDyEQ-A) | ＋186 公尺 | 24 小時 | [MINISTOP 介紹文](https://tasting-japan.com/archives/4425) |
+>
+> * 🥇 **懶得想就走羅森+ThreeF**：它在回飯店的直行路線上，幾乎不用繞，距飯店步行 74 公尺。
+> * 🛒 **想買便宜一點的鮮乳、麵包、水果**：走肉之Hanamasa或我的籃子，價格比超商低，但**兩家都不是 24 小時**。
+> * 🪑 **MINISTOP 有內用座位**，繞路最遠，想坐下吃再考慮。
+
+> **Day 1 抵達當晚（搭都營淺草線、走 A1 電梯出口、帶大行李）**
+>
+> * 這晚已排 **19:15－19:35 肉之Hanamasa超市採買**，早餐一次買足，不必再另外跑。
+> * 若當晚時間不夠：從 A1 出口走羅森+ThreeF 繞路 **＋104 公尺**，是 A1 側最順的一家。
+
+> ⚠️ **Day 2 迪士尼日 06:25 就要吃早餐，一定要 Day 1 晚上先買好。**
+
+> 🚦 **動線**
+>
+> * 飯店與上表六家**全部在江戶通西側**。從 **JR 西口出站全程走西側巷弄，不用過大馬路**。
+> * 從**都營 A1 出口**出來在江戶通東側，**一定要過一次江戶通**（浅草橋駅前交叉點有紅綠燈）。
+> * ❌ **不要去柳橋側的 FamilyMart 都營淺草橋站前店**：從 JR 西口繞路 ＋637 公尺，從 A1 出口也要 ＋366 公尺。
+> * 🛗 全程平路、店面都在 1 樓，**沒有階梯**，帶行李或推車都能走。
+
+> 🍞 **麵包店晚上買不到**：飯店半徑 300 公尺內只有三家麵包店，**最晚都 18:00 關門**（Bois de Boulogne 07:00－18:00、週日休；Haru Bouz 08:00－18:00、週六日休；另一家在 Google 上查無獨立店家頁）。本行程各晚回到淺草橋多在 18:35 之後，**趕不上**。想吃麵包請在上表的超市或超商買。
 
 </details>
 

@@ -2948,6 +2948,86 @@
       "verified_name": "Hanamasa",
       "verified_address": "Japan, 〒111-0053 Tokyo, Taito City, Asakusabashi, 1-chōme−3−１５ リバーサイド浅草橋ビル"
     },
+    "羅森+ThreeF 淺草橋店 (ローソン+スリーエフ 浅草橋店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6977110,139.7843910&query_place_id=ChIJ_WvQ9LGOGGARqFqgQ8633TA",
+      "nav_dict": [
+        "羅森+ThreeF 淺草橋店",
+        "羅森+ThreeF 淺草橋店 (ローソン+スリーエフ 浅草橋店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "羅森+ThreeF 淺草橋店 (ローソン+スリーエフ 浅草橋店)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "Lawson+ThreeF Asakusabashi Shop",
+      "verified_address": "1 Chome-22-16 Asakusabashi, Taito City, Tokyo 111-0053",
+      "verified_source": "Antigravity 以 Places API（maps_place_details）查得，本端再以 maps/place/?q=place_id: 反查核對，名稱與座標逐字一致。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。"
+    },
+    "MINISTOP 淺草橋站前店 (ミニストップ 浅草橋駅前店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6982928,139.7848673&query_place_id=ChIJO5ABibGOGGAR-yitIDyEQ-A",
+      "nav_dict": [
+        "MINISTOP 淺草橋站前店",
+        "MINISTOP 淺草橋站前店 (ミニストップ 浅草橋駅前店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "MINISTOP 淺草橋站前店 (ミニストップ 浅草橋駅前店)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "Ministop",
+      "verified_address": "日本〒111-0053 Tokyo, Taito City, Asakusabashi, 1 Chome−27−5 浅草橋大興ビル",
+      "verified_source": "Antigravity 以 Places API（maps_place_details）查得，本端再以 maps/place/?q=place_id: 反查核對，名稱與座標逐字一致。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。"
+    },
+    "7-ELEVEN 淺草橋站西口店 (セブン-イレブン 浅草橋駅西口店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6979742,139.7833930&query_place_id=ChIJP2pU_LGOGGAR2jc0UvRDEng",
+      "nav_dict": [
+        "7-ELEVEN 淺草橋站西口店",
+        "7-ELEVEN 淺草橋站西口店 (セブン-イレブン 浅草橋駅西口店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "7-ELEVEN 淺草橋站西口店 (セブン-イレブン 浅草橋駅西口店)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "7-Eleven 浅草橋站西口店",
+      "verified_address": "1 Chome-24-10 Asakusabashi, Taito City, Tokyo 111-0053",
+      "verified_source": "Antigravity 以 Places API（maps_place_details）查得，本端再以 maps/place/?q=place_id: 反查核對，名稱與座標逐字一致。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。"
+    },
+    "羅森 淺草橋一丁目店 (ローソン 浅草橋一丁目店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6969657,139.7834740&query_place_id=ChIJw9iFBbKOGGARZDWKRGMH-ns",
+      "nav_dict": [
+        "羅森 淺草橋一丁目店",
+        "羅森 淺草橋一丁目店 (ローソン 浅草橋一丁目店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "羅森 淺草橋一丁目店 (ローソン 浅草橋一丁目店)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "Lawson",
+      "verified_address": "1 Chome-5-5 Asakusabashi, Taito City, Tokyo 111-0053",
+      "verified_source": "Antigravity 以 Places API（maps_place_details）查得，本端再以 maps/place/?q=place_id: 反查核對，名稱與座標逐字一致。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。"
+    },
+    "我的籃子 淺草橋一丁目店 (まいばすけっと 浅草橋1丁目店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6968077,139.7832051&query_place_id=ChIJ4TBoCLKOGGARhn4DJt5etlg",
+      "nav_dict": [
+        "我的籃子 淺草橋一丁目店",
+        "我的籃子 淺草橋一丁目店 (まいばすけっと 浅草橋1丁目店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "我的籃子 淺草橋一丁目店 (まいばすけっと 浅草橋1丁目店)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "Aeon - My Basket Asakusabashi 1-chome",
+      "verified_address": "萬寶ビル, 1 Chome-3-11 Asakusabashi, Taito City, Tokyo 111-0053",
+      "verified_source": "Antigravity 以 Places API（maps_place_details）查得，本端再以 maps/place/?q=place_id: 反查核對，名稱與座標逐字一致。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。"
+    },
     "肉之大山 (肉の大山 上野店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7103925,139.7752423&query_place_id=ChIJsfxOVJ6OGGARYR08nkWSLdY",
       "nav_dict": [
