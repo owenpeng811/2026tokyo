@@ -192,6 +192,22 @@ def clean_markdown_for_summary(md_text):
     if not md_text:
         return ""
     lines = [l.strip() for l in md_text.split('\n') if l.strip()]
+    # 摘要要的是「現場第一步做什麼」，收合區塊裡放的是行前知識與備援情境，
+    # 一律跳過。不跳過的話，當時段第一行就是 <details> 時，標籤本身會被當成
+    # 首句寫進摘要，於 itinerary.html 產生沒有結尾的孤兒 <details>。
+    depth = 0
+    body_lines = []
+    for line in lines:
+        if line.startswith('<details'):
+            depth += 1
+            continue
+        if line.startswith('</details>'):
+            depth = max(0, depth - 1)
+            continue
+        if depth == 0:
+            body_lines.append(line)
+    lines = body_lines or lines
+
     summary_parts = []
     for line in lines:
         cleaned = re.sub(r'^>\s*\*?\s*', '', line)

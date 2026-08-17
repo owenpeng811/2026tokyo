@@ -280,6 +280,8 @@
 
 ### **13:10－14:10 🛬 抵達羽田機場第 3 航廈**
 
+<details><summary>📄 Visit Japan Web 行前準備與參考文章（點擊展開）</summary>
+
 > 📄 **行前必讀介紹文**：[Visit Japan Web 申請與快速通關教學文章](https://www.letsgojp.com/archives/535150/)｜[手把手圖解填寫教學文章](https://debbiechien.com/visit-japan-web/)
 >
 > 📄 **羽田入境流程**：[羽田第三航廈入境各關卡實拍教學文章（2026）](https://pp761211.pixnet.net/blog/posts/898816563562705637)｜[入境六步驟動線與出關後京急線搭乘整理文章](https://za3c.com.tw/travel-japan-airport-002/)
@@ -291,6 +293,8 @@
 > * ⚠️ **出發前務必在台灣完成 Visit Japan Web**：它整合「入境審查」與「海關申報」，完成後會產生 QR Code。
 > * 💡 **羽田第 3 航廈已導入「共同自助通關機（共同キオスク）」**，憑 QR Code 自助完成入境審查與海關手續，平均可縮短 15～30 分鐘。
 > * 👨‍👩‍👧‍👦 **五人份都要各自申請**（每人一組 QR Code，小孩也要），建議行前一次做完並截圖存手機相簿，避免現場沒網路。
+
+</details>
 
 <details><summary>🛂 自助通關機現場怎麼操作（日本官方規定，點擊展開）</summary>
 
@@ -330,6 +334,8 @@
 
 ### **14:10－14:55 ✈️ 機場整備與 Suica 交通卡辦理**
 
+<details><summary>💳 Suica 卡種與規則（行前先讀，點擊展開）</summary>
+
 > 📄 **行前必讀介紹文**：[Welcome Suica 購買／增值／使用完整教學文章（含兒童卡）](https://2bunny.tw/welcome-suica/)｜[另一篇購買方式教學文章](https://gototravel.tw/welcome-suica/)
 >
 > 📄 **成人綠色 Suica 介紹文**：[Suica 購買儲值與手機綁定完整教學文章](https://tokyo.letsgojp.com/archives/83485/)｜[2026 各類 IC 卡比較與購買攻略文章](https://jp-travel.williamlion.tw/japan/suica-ic-card-guide-2026/)
@@ -338,6 +344,8 @@
 > * ⚠️ 購買免登記個人資料，但**遺失無法補發**；若擔心遺失，可改用手機版 Suica（加入 Apple 錢包／Google 錢包）。
 >
 > * 💡 **兒童卡重點**：可購買 **6～11 歲**兒童版，購買時需出示**兒童本人護照**；滿 12 歲後至該年 3 月 31 日止仍可使用。Welcome Suica **免押金、不需退卡**，儲值上限 ¥20,000，**有效期自首次使用起 28 天**。
+
+</details>
 
 > 📍 **位置說明**：目前位於 **T3 2F 到達大廳**。京急入口、售票機及服務中心皆位於 **2F**，**不用先搭電梯上樓**。
 
@@ -358,11 +366,16 @@
 > 📸 【辨識：Welcome Suica 專用機】
 > ![羽田機場 T3 Welcome Suica 專用販售機實景](./assets/images/haneda_t3_welcome_suica.jpg)
 
+<details><summary>🆘 Step 3：找不到機台怎麼辦（求助 SOP 與溝通小卡，點擊展開）</summary>
+
 #### 🆘 **Step 3：迷路與求助對策 SOP**
 * 📍 服務中心：若現場找不到機台，直接前往 2F 改札旁的 **「JR EAST Travel Service Center」**（營業時間 06:45～20:00）。
 * 📱 **溝通小卡（出示手機畫面即可）**：
   * **找京急線**：`Where is the Keikyu Line? / 京急線はどこですか？`
   * **購買兒童卡**：`I'd like to buy two child Welcome Suica cards. / 子供用のWelcome Suicaを買いたいです。`
+
+
+</details>
 
 #### 🎒 **Step 4：辦卡完成後整備**
 * 5 張交通卡準備妥當後，於 2F 處理：洗手間、ATM 提款、購買飲料、整理隨身裝備。
@@ -520,6 +533,8 @@
 > * **第一段（淺草橋 ➔ 秋葉原）**：於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） **1 號月台** 搭乘 **🟡 JR 中央・總武線（JB）** 往 **秋葉原（Akihabara／JB19）／新宿（Shinjuku／JB10） 方向**，搭乘 **1 站** 至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（**JB19**）（車程約 2 分鐘）。
 >   * 💡 **下一站防呆**：搭車後下一站應為 **秋葉原（Akihabara）**；若顯示 **兩國（Ryogoku）** 表示搭錯方向，請立即下車改搭對面月台列車。
 
+<details><summary>📸 秋葉原轉乘指標怎麼認（點擊展開看實景照片）</summary>
+
 > 📸 【辨識：秋葉原站轉乘指標（最重要）】
 > ![秋葉原站 JR 山手線與京濱東北線往上野方向轉乘指標](./assets/images/akihabara_transfer_ueno.jpg)
 > 
@@ -529,9 +544,16 @@
 >   * 標註 **「for Ueno & Omiya（往上野、大宮）」**
 >   * 看到此指標即可順著階梯/電扶梯往下走至月台，表示方向正確。
 
+</details>
+
 > * **第二段（秋葉原 ➔ 上野，站內轉乘不出站）**：於秋葉原站 **不用出站**，跟隨指標下樓至月台，搭乘 **🟢 JR 山手線（JY）**（秋葉原 **JY03**）往 **上野（Ueno／JY05）／池袋（Ikebukuro／JY13） 方向**，或 **🔵 JR 京濱東北線（JK）**（秋葉原 **JK28**）往 **上野（Ueno／JK30）／大宮（Omiya） 方向**，搭乘 **2 站** 至 [**JR 上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw)（**JY05 / JK30**）（途經御徒町，車程約 4 分鐘）。
+
+<details><summary>⚠️ 怕搭錯方向看這裡（點擊展開）</summary>
+
 >   * ⚠️ **正反方向對照**：請認明月台指標目的地方向為「**上野 (Ueno) ／ 池袋 (Ikebukuro) ／ 大宮 (Omiya)**」，看到這三個站名即代表方向正確；**若看到「東京 (Tokyo) ／ 品川 (Shinagawa)」請切勿搭乘，那是反方向**。
 >   * 💡 **下一站防呆**：搭車後下一站應為 **御徒町（Okachimachi）**，再下一站即為 **上野（Ueno）**。
+
+</details>
 
 > 🚩 **兩個方案在上野站走不同出口**：
 >
@@ -819,13 +841,21 @@
 
 #### **18:10－18:40 🚆 返回淺草橋（長輩組）**
 
+<details><summary>🚉 你人在哪裡？從哪一站進站（三選一，點擊展開）</summary>
+
 > * **依晚餐／活動地點就近進站**：
 >   * **若於 宇奈とと 用餐（首選）**：出店往北步行僅約 **2 分鐘（約 170 公尺）** 即直達 [**JR 上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw)（**JY05**） **不忍口** 進站。
 >   * **若於 松屋 用餐（備案）**：出店往北步行約 **4 分鐘（約 350 公尺）** 至 [**JR 上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw)（**JY05**） 不忍口，或往南步行約 **5 分鐘（約 390 公尺）** 至 [**JR 御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04**） 北口進站。
 >   * **若留在 松坂屋 / PARCO_ya 逛街**：出百貨步行約 **2 分鐘（約 120 公尺）** 至 [**JR 御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04**） 北口進站。
+
+</details>
+
 > * **第一段（上野／御徒町 ➔ 秋葉原）**：兩站搭乘的路線與方向完全相同，只差站數。
 >   * 由 [**JR 上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw)（**JY05 / JK30**） 出發：搭乘 **🟢 JR 山手線（JY）** 或 **🔵 JR 京濱東北線（JK）** 往 **東京（Tokyo）／品川（Shinagawa） 方向**，搭乘 **2 站**（途經御徒町）至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（**JY03 / JK28**）（車程約 4 分鐘）。
 >   * 由 [**JR 御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04 / JK29**） 出發：同路線、同方向，搭乘 **1 站** 至 秋葉原站（**JY03 / JK28**）（車程約 2 分鐘）。
+
+<details><summary>📸 秋葉原轉乘指標怎麼認 ＋ 怕搭錯方向看這裡（點擊展開）</summary>
+
 >   * ⚠️ **正反方向對照**：請認明月台指標目的地方向為「**東京 (Tokyo) ／ 品川 (Shinagawa)**」；**不要**搭往「**鶯谷 (Uguisudani) ／ 日暮里 (Nippori) ／ 池袋 (Ikebukuro)**」方向。
 >   * 💡 **下一站防呆**：由上野出發下一站應為 **御徒町（Okachimachi）**，由御徒町出發下一站應為 **秋葉原（Akihabara）**；若列車往鶯谷方向表示搭錯，請立即下車至對面月台改搭反方向列車。
 
@@ -837,6 +867,8 @@
 >   * **6 號月台 (Platform 6)**
 >   * 標註 **「for Chiba（千葉）」**
 >   * 看到 **Chiba（千葉）** 即代表方向正確，搭乘手扶梯/電梯上至 5F 總武線 6 號月台。
+
+</details>
 
 > * **第二段（秋葉原 ➔ 淺草橋，站內轉乘不出站）**：於 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（**JB19**） 上至 **5F 6 號月台**，搭乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **1 站** 至 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）（車程約 2 分鐘）。
 >   * 💡 **下一站防呆**：搭車後下一站應為 **淺草橋（Asakusabashi）**；若下一站顯示 **御茶之水（Ochanomizu）** 表示搭錯方向，請立即下車改搭對面月台列車。
@@ -863,12 +895,18 @@
 > * 目標地點：[**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)
 > * **07:10－07:20 總武線移動**：於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 搭乘 **🟡 JR 中央・總武線（JB）** 往 **秋葉原（Akihabara／JB19）／新宿 方向**，搭乘 **1 站** 至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（**JB19**）（車程約 2 分鐘，下一站即為秋葉原）。
 > * **07:20－07:32 日比谷線移動**：由 **「昭和通り口」** 閘門出站，轉乘 **⚪ 東京 Metro 日比谷線（H） 秋葉原站（H16）**，搭乘往 **中目黑（Naka-meguro／H01） 方向** 列車，搭乘 **4 站** 至 八丁堀站（H12）（車程約 7 分鐘）。
+
+<details><summary>🚶 兩處轉乘的精準動線與省力位置（點擊展開）</summary>
+
 >   * 🚶‍♂️ **精準轉乘動線（總武線↔日比谷線約 5 分鐘）**：出昭和通り口改札後**直走**，即可看到 **日比谷線秋葉原站「3 號出入口」** ➔ 搭**下行手扶梯**進入地下 ➔ **左轉**再搭一段下行手扶梯 ➔ 下手扶梯後**沿通道直走到底** ➔ 在通道盡頭前**左轉**直走即達日比谷線改札。
 >   * 💡 **認明「3 號出入口」這個數字**是這段最可靠的地標，出改札後直走不會走錯。
 > * **07:32－07:42 地下通道轉乘**：抵達 **八丁堀站（H12）** 後，經地下聯絡通道轉乘 **JR 八丁堀站（JE02）**，**全程不必走出地面**。
 >   * 🚶‍♂️ **精準動線**：下車後走往**日比谷線月台「往中目黑方向」的末端**（該端有階梯與手扶梯）➔ 抬頭跟隨 **「JR線」** 指標上行 ➔ 由 **「桜川公園方面改札」** 出站 ➔ 依指標進入 JR 八丁堀站。
 >   * ⏱️ **轉乘時間**：熟悉者約 4 分半，**首次前往建議抓 5～7 分鐘**；本行程已預留 10 分鐘，從容不趕。
 >   * 💡 **省力小技巧**：日比谷線乘車時盡量坐在**第 7 節車廂靠第 4 個車門**附近，下車即鄰近轉乘用的手扶梯與階梯。
+
+</details>
+
 > * **07:42－07:54 京葉線直達**：於 **JR 八丁堀站（JE02）** 搭乘 **🔴 JR 京葉線（JE）** 往 **舞濱（Maihama／JE07）／蘇我（Soga／JE18） 方向**，搭乘 **5 站** 直達 [**舞濱站 (舞浜駅)**](https://www.google.com/maps/search/?api=1&query=35.6361543,139.8838749&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE)（**JE07**）（車程約 12 分鐘）。
 > * **07:54－08:00 抵達出站**：於 **舞濱站（JE07）** 由 **「南口（South Exit）」** 出站（設有無障礙斜坡與手扶梯），順著右前方行人專用天橋步行約 5 分鐘，**預定 08:00 抵達 [東京迪士尼樂園 (東京ディズニーランド)](https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ) 正門排隊區**。
 
@@ -883,6 +921,8 @@
 > * **核心策略：免費＋合理視野＋最大化遊樂時間**  
 >   不預排遊樂設施順序。入園後以 **40周年 Priority Pass（免費 PP）** 為主要導航，取得哪個 PP，就以該設施／區域為中心，搭配附近值得玩的設施；DPA、Entry Request、Standby 則依當天實際狀況動態加入。**本日真正固定的只有：晚間娛樂、晚餐窗口、Show 卡位。**
 
+<details><summary>📲 App 四種預約方式差在哪 ＋ 🌧️ 雨天遊玩原則（點擊展開）</summary>
+
 #### 📲 **App 預約方式說明**
 > * 🆓 **40周年 Priority Pass (PP)**：免費，快速通關。  
 > * 🎟️ **Entry Request (報名體驗)**：免費，抽選（抽表演秀）。  
@@ -896,6 +936,8 @@
 > * 🔴 **雨天不適合**：下雨時直接降低優先度，除非當時雨停。  
 > * 📱 **Notion 資料庫聯動**：使用 Notion「迪士尼體驗 Database」切換至 **🌧️ 雨天模式**，優先查看「8/21可玩＋尚未體驗＋雨天很適合」。  
 > * 💰 **DPA 購買守則**：依然僅在「真的想玩＋現場排隊時間極長」時考慮，不因下雨盲目購買。
+
+</details>
 
 ---
 
@@ -1208,12 +1250,17 @@
 
 ### **16:35－17:55 🛍️ 阿美橫丁逛街採買**
 
+<details><summary>🧾 免稅舊制規定（全程採買通用，行前先讀，點擊展開）</summary>
+
 > 📄 **行前必讀介紹文（免稅規定，全程採買通用）**：[日本退稅新舊制差異與流程完整攻略文章](https://www.letsgojp.com/archives/782/)｜[免稅新制懶人包文章](https://www.businessweekly.com.tw/style/blog/3015817)
 >
 > * 🚨 **本趟適用「舊制」，不是新聞在講的新制**：日本免稅新制（改為出境時退稅）自 **2026/11/1** 起實施，**10/31 前離境者沿用舊制**。你們 8/25 回國，**仍是在店家當場折抵稅金的舊制**。
 > * 💡 **舊制重點**：同一店家同日消費滿 **¥5,000（未稅）** 可辦免稅，需**出示護照本人辦理**。
 > * ⚠️ **舊制的消耗品（藥妝、food、化妝品）會被密封包裝**，在日本境內不可拆封使用，回國後才能開封；一般物品（衣物、電器、雜貨）則無此限制。
 > * ⚠️ **消耗品每日上限 ¥500,000**（新制才取消，本趟仍受限）。
+
+</details>
+
 > * 🚻 **阿美橫丁是露天商店街、街上沒有公廁**，攤商也不外借。廁所在 [**阿美橫丁中央大樓 (アメ横センタービル)**](https://www.google.com/maps/search/?api=1&query=35.7097421,139.7745084&query_place_id=ChIJ__8vsZ-OGGARkqhP9iZdeaE) 的 **B1F 與 2F**，就在商店街中段，逛街時順路先記位置。
 
 [阿美橫丁介紹文章](https://www.google.com/maps/search/?api=1&query=35.7090028,139.7746259&query_place_id=ChIJh7eDrwCPGGARCs9fpCkKS2U)、[介紹文2](https://bobbytravel.tw/ameya-yokocho/?utm_source=chatgpt.com)  
@@ -1224,8 +1271,17 @@
 >   * ⭐⭐⭐ 必買：提拉米蘇巧克力、東京限定 KitKat、Royce 洋芋片巧克力、干貝糖、龍角散喉糖  
 >   * ⭐⭐ 很推薦：Calbee 薯條三兄弟、北海道起司米果、各式日本限定洋芋片、大包裝巧克力（分送同事 CP 值高）  
 > * [**OS Drug 藥妝店 (OSドラッグ 上野店)**](https://www.google.com/maps/search/?api=1&query=35.7108985,139.7748721&query_place_id=ChIJAQB_jZ-OGGARLPaThjF_JIQ) / [**松本清 (マツモトキヨシ 上野アメ横Part1店)**](https://www.google.com/maps/search/?api=1&query=35.7106717,139.7744501&query_place_id=ChIJJz9gCDKPGGAROxkLYxlbGYs)：以現金交易為主的 OS Drug 是當地藥妝價格指標店。  
->   * TODO: 建議購買的項目  
->   * [藥妝攻略1](https://bobbytravel.tw/japan-souvenir/)  
+>   * 🚨 **OS Drug 不能免稅、而且只收現金**：它不辦免稅手續，但**未稅價常比別家退完稅還低**，所以照樣值得買；請留足現金，刷卡與行動支付都不通。
+>   * 💡 **藥品多放在結帳櫃台後方**，不在開架上。想買哪一款，**直接拿手機照片給店員看**即可。
+>   * ⚠️ 對照組 **松本清** 就在隔壁，**可免稅、可刷卡**；金額大又想省事就去松本清，追求最低價就在 OS Drug 付現。
+
+<details><summary>🛒 OS Drug 常掃品項與必買清單參考文（點擊展開）</summary>
+
+>   * 🛒 台灣人常掃的品項：**合利他命 EX PLUS**（維他命 B 群）、**EVE 止痛藥**、**PAIR ACNE 痘痘藥膏**、**DHC 保健食品**、**KISS ME 開架彩妝**。
+>   * 📄 **必買清單參考文**：[林氏璧：上野阿美橫丁必買藥妝店 OS DRUG（含三家比價）](https://linshibi.com/?p=1478)｜[樂活的大方：上野 OS DRUG 藥妝推薦購買清單](https://www.bigfang.tw/blog/post/osdrug-ueno)｜[2026 OS Drug：不免稅依然最划算](https://finduheart.com/osdrug)｜[日本藥妝伴手禮總整理](https://bobbytravel.tw/japan-souvenir/)  
+
+</details>
+
 > * 街邊美食：可品嚐章魚燒、鯛魚燒、烤干貝或新鮮水果串，體驗在地市集樂趣。  
 >   * [**肉之大山 (肉の大山 上野店)**](https://www.google.com/maps/search/?api=1&query=35.7103925,139.7752423&query_place_id=ChIJsfxOVJ6OGGARYR08nkWSLdY)：和牛炸肉餅、可樂餅  
 >   * [**みなとや食品 (みなとや食品 本店)**](https://www.google.com/maps/search/?api=1&query=35.7083669,139.7746294&query_place_id=ChIJbfIujp-OGGARQpzhp7F2ocY) (大章魚燒/海鮮丼)  
@@ -1616,8 +1672,14 @@
 >   * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **新宿（Shinjuku／JC05）／高尾 方向**，搭乘 **2 站** 直達 [**新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJH7qx1tCMGGAR1f2s7PGhMhw)（**JC05**）（車程約 9 分鐘，總移動約 28 分鐘）。  
 >   * 💡 **長輩小孩充能**：這段在冷氣電車上坐著休息。  
 > * 15:30 抵達新宿站：**新宿站是全東京最複雜的車站（出口超過 200 個），請全家集中不要走散。** 走到西口商圈預留 30 分鐘（15:30－16:00）。
+
+<details><summary>🚶 新宿站內精準動線與省力乘車位置（點擊展開）</summary>
+
 >   * 🚶‍♂️ **精準動線**：中央線快速（東京方面）停靠 **JR 新宿站 1F 的 7／8 號月台**。下車後**不要亂走**，直接抬頭找 **「西改札（West Gate）」** 指標下樓 ➔ 由 **西改札**出站，即可通往**西口地下街與地面西口商圈**。
 >   * 💡 **省力乘車位置**：搭車時盡量待在 **8 號車廂行進方向第 4 個車門**（近階梯）、**7 號車廂第 1 個車門**（近電梯，適合長輩）或 **5 號車廂第 3 個車門**（近手扶梯），下車後最快抵達西改札。
+
+</details>
+
 >   * ⚠️ **防走錯——認顏色比認漢字快**：新宿站的出口指標**依區域分色**，**🟩 西口＝綠色**、**🟦 東口＝藍色**、**🟥 南口＝酒紅色（暗紅）**。**請一路跟著綠色的「西口／West」指標走**，看到藍色或酒紅色就是走反了，那會到完全相反的商圈。
 
 #### **16:00－17:30 🍽️ 晚餐：麥當勞 / 摩斯漢堡**
@@ -1748,10 +1810,18 @@
 
 > 📄 **行前必讀介紹文**：[日本科學未來館一篇就夠懶人包文章（含台場交通與百合海鷗線搭乘）](https://goodcutecat.pixnet.net/blog/post/355788991)｜[各展區與機器人體驗介紹文](https://vocus.cc/article/66a3b008fd89780001cfc1e7)
 >
+
+<details><summary>🎪 球幕劇場為什麼預設不看 ＋ ASIMO 已終止（點擊展開）</summary>
+
 > * 🚨 **球幕劇場（Dome Theater GAIA）本行程預設不看**：官方說明常設展就要約 **2 小時**，加上球幕會變成**半日行程**。本段只給 120 分鐘，剛好等於常設展的下限。
 >   * 球幕**全席指定、需線上預約**（當日票可能售完），門票與入館券分開計算（成人加購約 ¥300、18 歲以下約 ¥100，套票成人約 ¥940），一場 25 分鐘、112 席，**上映前 10 分鐘才開放入場、遲到不得入內**。
 >   * ⚖️ **真的想看就是二選一**：加看球幕需多留約 40 分鐘，會趕不上 **15:00 獨角獸鋼彈變身秀**（固定時刻）。當天請擇一，不要兩個都排。
 > * ⚠️ **網路上多數文章仍寫「必看 ASIMO 機器人表演秀」，該展示已於 2022 年 3 月 31 日結束**（本田與未來館契約到期），現場已看不到，請以官網當期展示為準。
+
+</details>
+
+<details><summary>🗺️ 館內樓層對照表（點擊展開）</summary>
+
 > 🗺️ **館內樓層對照表（依官方樓層導覽整理）**
 >
 > | 樓層 | 內容 |
@@ -1762,12 +1832,18 @@
 > | **3F** | 常設展「創造未來」——電子、物理，**互動裝置最多，小孩最愛** ⭐⭐<br>兒童遊戲區、總合資訊台 |
 > | 1F | 企劃展示區、博物館商店、大廳 |
 >
+
+</details>
+
 > * 🌏 **Geo-Cosmos 巨大地球儀貫穿 1F、3F、5F 三層**，從任一層都看得到，1F 有圓形躺椅可仰望。
 > * 🚩 **本行程 120 分鐘的走法**：直接上 **5F** ➔ 走到 **3F**（互動裝置最多，留最多時間給小孩）➔ 1F 商店出館。
 > * 📄 [官方樓層導覽頁](https://www.miraikan.jst.go.jp/visit/floormap/)
 
 > * 目標地點：[**日本科學未來館 (日本科学未来館)**](https://www.google.com/maps/search/?api=1&query=35.6193359,139.7763995&query_place_id=ChIJz_149P6JGGARoImMn3NlsfY)
 > * ☀️ **雨天避雨優勢**：全室內科技館，冷氣涼爽、空間開闊、長椅多。
+
+<details><summary>🎟️ 購票方式與參觀亮點（點擊展開）</summary>
+
 > * 🎟️ **購票策略指引**：
 >   * **最佳做法**：**官方線上購票或現場售票機購票**。
 >   * **原因**：官方常設展票價已極為平價（成人約 ¥630 / 18歲以下約 ¥210 / 6歲以下免費 / 65歲以上長者約 ¥210），第三方平台無顯著價差，現場購票快速且時間最彈性。
@@ -1776,6 +1852,8 @@
 >   * **Geo-Cosmos 巨大動態地球儀**：懸掛於 6 樓挑高中庭，即時投影全球氣象；可躺在 1F 圓形躺椅上仰望。
 >   * **AI 與機器人常設展**：近距離觀賞最新人型機器人互動演示、未來生活與醫療科技體驗。
 >   * **探索宇宙與地球環境**：從國際太空站 ISS 生活模型到微觀粒子世界，小孩可親手觸摸操作多項互動實驗裝置。
+
+</details>
 
 #### **12:00－12:15 🚶‍♂️ 前往 DiverCity Tokyo Plaza**
 
