@@ -180,7 +180,9 @@
         "GRANSTA 東京 (グランスタ東京)"
       ],
       "text_entities": [],
-      "first_dest": [],
+      "first_dest": [
+        "3_GRANSTA 東京駅內伴手禮採買"
+      ],
       "html": [
         "GRANSTA 東京 (グランスタ東京)"
       ],
@@ -417,7 +419,9 @@
         "KITTE丸之內 (KITTE丸の内)"
       ],
       "text_entities": [],
-      "first_dest": [],
+      "first_dest": [
+        "3_KITTE 館內逛街避雨"
+      ],
       "html": [
         "KITTE丸之內 (KITTE丸の内)"
       ],
@@ -1485,7 +1489,7 @@
       ],
       "text_entities": [],
       "first_dest": [
-        "3_天丼てんや"
+        "3_午餐：天丼Tenya"
       ],
       "html": [
         "天丼てんや (天丼てんや 八重洲店)",
@@ -2045,7 +2049,10 @@
         "東京菓子樂園 (東京おかしランド)"
       ],
       "text_entities": [],
-      "first_dest": [],
+      "first_dest": [
+        "3_東京車站菓子樂園限定採買",
+        "3_移動至八重洲地下街"
+      ],
       "html": [
         "東京菓子樂園 (東京おかしランド)"
       ],
