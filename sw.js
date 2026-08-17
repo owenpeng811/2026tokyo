@@ -1,4 +1,4 @@
-const CACHE_NAME = 'travel-itinerary-v29';
+const CACHE_NAME = 'travel-itinerary-v30';
 const ASSETS = [
   './itinerary.html',
   './manifest.json',

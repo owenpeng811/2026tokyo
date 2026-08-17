@@ -133,41 +133,59 @@
 
 > **本行程的做法：前一晚回飯店前買好隔天早餐**，早上起床直接吃、不出門找店。
 >
-> 🚶 **淺草橋站直接走回飯店 150 公尺**。買早餐一定會繞路，差別只在繞多少。
+> 🚶 **走哪個出口，差很多**：
 >
-> 📏 下表的「**多走**」＝ 車站➔店➔飯店 的總距離**減掉**直接回飯店的 150 公尺，也就是為了買早餐多花的腳程。全部以 Google 地圖實際步行路線量測，起點統一為**淺草橋站**。
+> | 出口 | 走回飯店 | 哪幾天會用 |
+> | :-- | :-- | :-- |
+> | **JR 西口** | **110 公尺** | Day 2～5 晚上（搭 JR 中央・總武線回來） |
+> | JR 東口／都營 A 出口 | 180 公尺 | Day 1 抵達、Day 5 晴空塔與台場、Day 6 |
+>
+> ⚠️ **搭 JR 回來一律走西口**，比東口近 70 公尺。東口與都營 A3 出口在同一側。
+>
+> 📏 下表的「**多走**」＝ 出口➔店➔飯店 的總距離**減掉**直接回飯店的距離，也就是為了買早餐多花的腳程。全部以 Google 地圖實際步行路線量測。
 
-> **每晚回飯店路上（依多走距離排序）**
+> **① 走 JR 西口（Day 2～5，基準 110 公尺）**
+>
+> | 店家 | 多走 | 營業時間 | 必買參考 |
+> | :-- | :-- | :-- | :-- |
+> | [**羅森+ThreeF**](https://www.google.com/maps/search/?api=1&query=35.6977110,139.7843910&query_place_id=ChIJ_WvQ9LGOGGARqFqgQ8633TA) | **＋25 公尺** | 24 小時 | [LAWSON](https://www.letsgojp.com/archives/734007/) |
+> | [**肉之Hanamasa**](https://www.google.com/maps/search/?api=1&query=35.6966953,139.7840376&query_place_id=ChIJS7K2bLKOGGARGySfwejBx4o) | ＋98 公尺 | 06:00－01:00 | [超市](https://marukoblog.tw/2020-06-22.html) |
+> | [**羅森 一丁目**](https://www.google.com/maps/search/?api=1&query=35.6969657,139.7834740&query_place_id=ChIJw9iFBbKOGGARZDWKRGMH-ns) | ＋112 公尺 | 24 小時 | [LAWSON](https://tasting-japan.com/archives/2412) |
+> | [**我的籃子 一丁目**](https://www.google.com/maps/search/?api=1&query=35.6968077,139.7832051&query_place_id=ChIJ4TBoCLKOGGARhn4DJt5etlg) | ＋160 公尺 | 07:00－23:00 | [超市](https://marukoblog.tw/grocery-store.html) |
+> | [**我的籃子 西口**](https://www.google.com/maps/search/?api=1&query=35.6980518,139.7836158&query_place_id=ChIJcZqBdz-PGGARrusDnryuuEw) | ＋182 公尺 | 07:00－00:00 | [超市](https://marukoblog.tw/grocery-store.html) |
+> | [**7-ELEVEN 西口**](https://www.google.com/maps/search/?api=1&query=35.6979742,139.7833930&query_place_id=ChIJP2pU_LGOGGAR2jc0UvRDEng) | ＋198 公尺 | 24 小時 | [7-11](https://www.letsgojp.com/archives/662817/) |
+> | [**MINISTOP**](https://www.google.com/maps/search/?api=1&query=35.6982928,139.7848673&query_place_id=ChIJO5ABibGOGGAR-yitIDyEQ-A) | ＋260 公尺 | 24 小時 | [MINISTOP](https://tasting-japan.com/archives/4425) |
+>
+> 📏 **各段實測**（西口➔店／店➔飯店，公尺）：羅森+ThreeF 67／68｜肉之Hanamasa 110／98｜羅森 一丁目 82／140｜我的籃子 一丁目 110／160｜我的籃子 西口 92／200｜7-ELEVEN 西口 98／210｜MINISTOP 210／160
+>
+> * 🥇 **預設走羅森+ThreeF**：多走只有 **25 公尺**，等於順路。
+> * 🛒 **想買便宜一點的鮮乳、麵包、水果**：肉之Hanamasa 只多走 98 公尺，是西口側最划算的一家；**但 01:00－06:00 沒開**。
+> * ❌ **全家不要從西口去**：它在江戶通東側，從西口過去要多走 **530 公尺**。
+
+> **② 走東口／都營 A 出口（Day 1、Day 5、Day 6，基準 180 公尺）**
 >
 > | 店家 | 多走 | 營業時間 | 必買參考 |
 > | :-- | :-- | :-- | :-- |
 > | [**羅森+ThreeF**](https://www.google.com/maps/search/?api=1&query=35.6977110,139.7843910&query_place_id=ChIJ_WvQ9LGOGGARqFqgQ8633TA) | **＋68 公尺** | 24 小時 | [LAWSON](https://www.letsgojp.com/archives/734007/) |
 > | [**肉之Hanamasa**](https://www.google.com/maps/search/?api=1&query=35.6966953,139.7840376&query_place_id=ChIJS7K2bLKOGGARGySfwejBx4o) | ＋188 公尺 | 06:00－01:00 | [超市](https://marukoblog.tw/2020-06-22.html) |
 > | [**MINISTOP**](https://www.google.com/maps/search/?api=1&query=35.6982928,139.7848673&query_place_id=ChIJO5ABibGOGGAR-yitIDyEQ-A) | ＋210 公尺 | 24 小時 | [MINISTOP](https://tasting-japan.com/archives/4425) |
-> | [**羅森 一丁目**](https://www.google.com/maps/search/?api=1&query=35.6969657,139.7834740&query_place_id=ChIJw9iFBbKOGGARZDWKRGMH-ns) | ＋280 公尺 | 24 小時 | [LAWSON](https://tasting-japan.com/archives/2412) |
-> | [**全家 站前**](https://www.google.com/maps/search/?api=1&query=35.6980951,139.7869921&query_place_id=ChIJ2X0h6rOOGGARNIo-5lZ5tqo) | ＋280 公尺 | 24 小時 | [全家](https://www.letsgojp.com/archives/704500/) |
-> | [**我的籃子**](https://www.google.com/maps/search/?api=1&query=35.6968077,139.7832051&query_place_id=ChIJ4TBoCLKOGGARhn4DJt5etlg) | ＋310 公尺 | 07:00－23:00 | [超市](https://marukoblog.tw/grocery-store.html) |
-> | [**7-ELEVEN 西口**](https://www.google.com/maps/search/?api=1&query=35.6979742,139.7833930&query_place_id=ChIJP2pU_LGOGGAR2jc0UvRDEng) | ＋350 公尺 | 24 小時 | [7-11](https://www.letsgojp.com/archives/662817/) |
+> | [**全家 站前**](https://www.google.com/maps/search/?api=1&query=35.6980951,139.7869921&query_place_id=ChIJ2X0h6rOOGGARNIo-5lZ5tqo) | ＋230 公尺 | 24 小時 | [全家](https://www.letsgojp.com/archives/704500/) |
 >
-> 📏 **各段實測距離**（車站➔店／店➔飯店，公尺）：羅森+ThreeF 150／68｜肉之Hanamasa 240／98｜MINISTOP 200／160｜羅森 一丁目 290／140｜全家 站前 140／290｜我的籃子 300／160｜7-ELEVEN 西口 290／210
->
-> * 🥇 **預設走羅森+ThreeF**：它就在回飯店的直行路線上，多走 68 公尺、距飯店 68 公尺，**比第二名少走 120 公尺**。
-> * 🛒 **想買便宜一點的鮮乳、麵包、水果**：走肉之Hanamasa或我的籃子，價格比超商低，但**兩家都不是 24 小時**。
-> * 🪑 **MINISTOP 有內用座位**，想坐下吃再考慮。
-> * ⏱️ 其餘六家都要多走 **190～350 公尺**（約 3～5 分鐘）。趕時間或下雨就別繞，直接走羅森+ThreeF。
+> * 🥇 **一樣是羅森+ThreeF 最順**，多走 68 公尺。
+> * 🏪 **全家離出口最近（120 公尺）**，適合「先買了再走回飯店」；但它在江戶通東側，回飯店要過一次馬路。
+> * ⏱️ 其餘各家從東口出發都要多走 **260 公尺以上**，不建議。
 
-> **Day 1 抵達當晚（搭都營淺草線、走 A1 電梯出口、帶大行李）**
+> **Day 1 抵達當晚（走 A1 電梯出口、帶大行李）**
 >
 > * 這晚已排 **19:15－19:35 肉之Hanamasa超市採買**，早餐一次買足，不必再另外跑。
-> * 若當晚時間不夠：從 A1 出口出來要先過江戶通，此時**羅森+ThreeF 仍是最順的一家**。
 
 > ⚠️ **Day 2 迪士尼日 06:25 就要吃早餐，一定要 Day 1 晚上先買好。**
 
 > 🚦 **動線**
 >
-> * 飯店與上表**除了全家以外的五家，全部在江戶通西側**。從 **JR 西口出站全程走西側巷弄，不用過大馬路**。
-> * ⚠️ **只有全家在江戶通東側（柳橋側）**：它離車站最近（140 公尺），但買完要**過一次江戶通**才能回飯店（浅草橋駅前交叉點有紅綠燈）。**帶小孩晚上不想多過馬路就別選它。**
-> * 從**都營 A1 出口**出來也在江戶通東側，**一定要過一次江戶通**。
+> * 飯店與**除了全家以外的所有店家，全部在江戶通西側**。**JR 西口就開在西側**，出站後全程走西側巷弄，**不用過大馬路**。
+> * ⚠️ **東口與都營 A 出口都在江戶通東側**，回飯店一定要**過一次江戶通**（浅草橋駅前交叉點有紅綠燈）。
+> * ⚠️ **全家也在東側（柳橋側）**：從東口過去只要 120 公尺，但回飯店要過馬路；從西口過去要繞 350 公尺，不划算。
 > * 🛗 全程平路、店面都在 1 樓，**沒有階梯**，帶行李或推車都能走。
 
 > 🍞 **麵包店晚上買不到**：飯店半徑 300 公尺內只有三家麵包店，**最晚都 18:00 關門**（Bois de Boulogne 07:00－18:00、週日休；Haru Bouz 08:00－18:00、週六日休；另一家在 Google 上查無獨立店家頁）。本行程各晚回到淺草橋多在 18:35 之後，**趕不上**。想吃麵包請在上表的超市或超商買。

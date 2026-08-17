@@ -3028,6 +3028,22 @@
       "verified_address": "1 Chome-5-5 Asakusabashi, Taito City, Tokyo 111-0053",
       "verified_source": "Antigravity 以 Places API（maps_place_details）查得，本端再以 maps/place/?q=place_id: 反查核對，名稱與座標逐字一致。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。"
     },
+    "我的籃子 淺草橋站西口店 (まいばすけっと 浅草橋駅西口店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6980518,139.7836158&query_place_id=ChIJcZqBdz-PGGARrusDnryuuEw",
+      "nav_dict": [
+        "我的籃子 淺草橋站西口店",
+        "我的籃子 淺草橋站西口店 (まいばすけっと 浅草橋駅西口店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "我的籃子 淺草橋站西口店 (まいばすけっと 浅草橋駅西口店)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "My Basket Asakusabashi Station West Exit",
+      "verified_address": "日本〒111-0053 Tokyo, Taito City, Asakusabashi, 1 Chome−26−5 プライマル浅草橋",
+      "verified_source": "Antigravity 以 Places API（maps_place_details）查得，本端再以 maps/place/?q=place_id: 反查核對，名稱與座標逐字一致。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。"
+    },
     "我的籃子 淺草橋一丁目店 (まいばすけっと 浅草橋1丁目店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6968077,139.7832051&query_place_id=ChIJ4TBoCLKOGGARhn4DJt5etlg",
       "nav_dict": [
