@@ -438,6 +438,21 @@
       transform: translateY(-1px);
     }
 
+    /* 戶外久待、已先查好廁所位置的時段：點擊直接開啟完整說明抽屜 */
+    .tag-toilet {
+      background: rgba(56, 189, 248, 0.18);
+      color: #a5d8f3;
+      border: 1px solid rgba(56, 189, 248, 0.42);
+      font-family: inherit;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+    .tag-toilet:hover, .tag-toilet:active {
+      background: rgba(56, 189, 248, 0.34);
+      transform: translateY(-1px);
+    }
+
     /* 票務狀態：已購票／已訂位為綠色（安心），需購票為紅色（待辦） */
     .tag-ticket-done { background: rgba(34, 197, 94, 0.22); color: #86efac; border: 1px solid rgba(34, 197, 94, 0.45); }
     .tag-ticket-booked { background: rgba(34, 197, 94, 0.22); color: #86efac; border: 1px solid rgba(34, 197, 94, 0.45); }
@@ -1198,7 +1213,7 @@
           <div class="card-header">
             <span class="card-time">14:10－14:55</span>
             <div class="card-tags">
-              <button class="tag tag-article" title="此時段有 4 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d1-cb6')">📄 攻略 4</button><span class="tag tag-transport">🚆 交通</span>
+              <button class="tag tag-toilet" title="此時段已查好廁所位置，點我展開完整說明" onclick="openOriginalModal('card-item-d1-cb6')">🚻 廁所</button><button class="tag tag-article" title="此時段有 4 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d1-cb6')">📄 攻略 4</button><span class="tag tag-transport">🚆 交通</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -2009,13 +2024,13 @@
           <div class="card-header">
             <span class="card-time">09:25－11:00</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-toilet" title="此時段已查好廁所位置，點我展開完整說明" onclick="openOriginalModal('card-item-d2p-sunny0')">🚻 廁所</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
             <span>晨間不忍池與清水觀音堂散步</span>
             <div class="card-actions">
-              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=35.7126261,139.7735665&query_place_id=ChIJ9Rg_5Z2OGGAR40HN7lsM5_U" target="_blank" title="開啟 Google Maps 導航（此時段第一個目的地）">📍 導航</a>
+              <a class="map-link-btn" href="https://www.google.com/maps/search/?api=1&query=35.7121418,139.7710956&query_place_id=ChIJd9rFFieMGGAR0zV_avi5q-8" target="_blank" title="開啟 Google Maps 導航（此時段第一個目的地）">📍 導航</a>
             </div>
           </h3>
           <div class="card-body">
@@ -2966,7 +2981,7 @@
           <div class="card-header">
             <span class="card-time">08:00－09:00</span>
             <div class="card-tags">
-              <span class="tag tag-ticket-done">🎫 已購票</span><button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d2k-2')">📄 攻略 2</button><span class="tag tag-transport">🚆 交通</span>
+              <span class="tag tag-ticket-done">🎫 已購票</span><button class="tag tag-toilet" title="此時段已查好廁所位置，點我展開完整說明" onclick="openOriginalModal('card-item-d2k-2')">🚻 廁所</button><button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d2k-2')">📄 攻略 2</button><span class="tag tag-transport">🚆 交通</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -3265,7 +3280,7 @@
           <div class="card-header">
             <span class="card-time">18:15－18:30</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-toilet" title="此時段已查好廁所位置，點我展開完整說明" onclick="openOriginalModal('card-item-d2k-9')">🚻 廁所</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -4275,7 +4290,7 @@
           <div class="card-header">
             <span class="card-time">16:35－17:55</span>
             <div class="card-tags">
-              <button class="tag tag-article" title="此時段有 6 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d3-ca5')">📄 攻略 6</button><span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-toilet" title="此時段已查好廁所位置，點我展開完整說明" onclick="openOriginalModal('card-item-d3-ca5')">🚻 廁所</button><button class="tag tag-article" title="此時段有 6 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d3-ca5')">📄 攻略 6</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -4372,7 +4387,7 @@
           <div class="card-header">
             <span class="card-time">18:35－18:45</span>
             <div class="card-tags">
-              <span class="tag tag-stay">🏨 住宿</span>
+              <button class="tag tag-toilet" title="此時段已查好廁所位置，點我展開完整說明" onclick="openOriginalModal('card-item-d3-ca7')">🚻 廁所</button><span class="tag tag-stay">🏨 住宿</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -5263,7 +5278,7 @@
           <div class="card-header">
             <span class="card-time">08:45－10:15</span>
             <div class="card-tags">
-              <button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-cb2')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-toilet" title="此時段已查好廁所位置，點我展開完整說明" onclick="openOriginalModal('card-item-d5-cb2')">🚻 廁所</button><button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-cb2')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -5691,7 +5706,7 @@
           <div class="card-header">
             <span class="card-time">17:50－18:45</span>
             <div class="card-tags">
-              <button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-pa3')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-toilet" title="此時段已查好廁所位置，點我展開完整說明" onclick="openOriginalModal('card-item-d5-pa3')">🚻 廁所</button><button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-pa3')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -6670,7 +6685,7 @@
           <div class="card-header">
             <span class="card-time">08:15－10:00</span>
             <div class="card-tags">
-              <button class="tag tag-article" title="此時段有 1 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d6-3')">📄 攻略</button><span class="tag tag-food">🍜 美食</span>
+              <button class="tag tag-toilet" title="此時段已查好廁所位置，點我展開完整說明" onclick="openOriginalModal('card-item-d6-3')">🚻 廁所</button><button class="tag tag-article" title="此時段有 1 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d6-3')">📄 攻略</button><span class="tag tag-food">🍜 美食</span>
             </div>
           </div>
           <h3 class="card-title">

@@ -929,6 +929,16 @@ def build_card_html(item_id, item):
             f'onclick="openOriginalModal(\'card-item-{item_id}\')">{label}</button>'
         )
 
+    # 內文寫了 🚻 廁所指引的時段（多為戶外久待），在卡片上掛一個可點的標籤，
+    # 讓人不用展開完整說明就知道這段有先查好廁所。用內容偵測而非硬編清單，
+    # 之後在 README 再加 🚻 段落會自動長出標籤。
+    toilet_tag_html = ""
+    if '🚻' in item.get('html_content', ''):
+        toilet_tag_html = (
+            f'<button class="tag tag-toilet" title="此時段已查好廁所位置，點我展開完整說明" '
+            f'onclick="openOriginalModal(\'card-item-{item_id}\')">🚻 廁所</button>'
+        )
+
     action_btn_html = ""
     if item.get('maps_link'):
         action_btn_html = f"""<div class="card-actions">
@@ -947,7 +957,7 @@ def build_card_html(item_id, item):
           <div class="card-header">
             <span class="card-time">{item['time']}</span>
             <div class="card-tags">
-              {ticket_tag_html}{article_tag_html}<span class="tag tag-{item['category']}">{item['category_icon']} {item['category_zh']}</span>
+              {ticket_tag_html}{toilet_tag_html}{article_tag_html}<span class="tag tag-{item['category']}">{item['category_icon']} {item['category_zh']}</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -1575,6 +1585,21 @@ def render_full_pwa_html(meta, days_data):
     }}
     .tag-article:hover, .tag-article:active {{
       background: rgba(245, 158, 11, 0.38);
+      transform: translateY(-1px);
+    }}
+
+    /* 戶外久待、已先查好廁所位置的時段：點擊直接開啟完整說明抽屜 */
+    .tag-toilet {{
+      background: rgba(56, 189, 248, 0.18);
+      color: #a5d8f3;
+      border: 1px solid rgba(56, 189, 248, 0.42);
+      font-family: inherit;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }}
+    .tag-toilet:hover, .tag-toilet:active {{
+      background: rgba(56, 189, 248, 0.34);
       transform: translateY(-1px);
     }}
 
