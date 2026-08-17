@@ -407,7 +407,7 @@
 #### **16:15 🚶‍♂️ 前往秋葉原**
 
 > * 16:15 離開飯店 ➔ 慢步 2 分鐘至 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）（西口進站有電梯）。  
-> * 於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 1 號月台搭乘 **🟡 JR 中央・總武線（JB）** 往 **秋葉原（Akihabara／JB19）／新宿 方向**，搭乘 **1 站** 至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（**JB19**）（車程約 2 分鐘，下一站即為秋葉原，由電氣街口出站即達）。
+> * 於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）**西口進站**，於 1 號月台搭乘 **🟡 JR 中央・總武線（JB）** 往 **秋葉原（Akihabara／JB19）／新宿 方向**，搭乘 **1 站** 至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（**JB19**）（車程約 2 分鐘，下一站即為秋葉原，由電氣街口出站即達）。
 
 #### **16:35－16:55 🕹️ 日式夾娃娃機體驗**
 
@@ -462,7 +462,7 @@
 
 #### **16:30－17:15 🚇 前往新宿東口**
 
-> * 16:30 離開飯店 ➔ 慢步約 2 分鐘至 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 1 號月台進站。  
+> * 16:30 離開飯店 ➔ 慢步約 2 分鐘至 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）**西口進站**，1 號月台。  
 > * 於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 搭乘 **🟡 JR 中央・總武線（JB）** 往 **新宿（JB10）／三鷹 方向**，搭乘 **2 站** 至 御茶之水站（JB18）（車程約 4 分鐘）。  
 > * 於 **御茶之水站（JC03）** **不用出站**，於同月台對面直接平行轉乘 **🟠 JR 中央線快速（JC）** 往 **新宿（Shinjuku／JC05）／高尾 方向**，搭乘 **2 站**直達 [**新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJH7qx1tCMGGAR1f2s7PGhMhw)（**JC05**）（車程約 9 分鐘，總車程約 18 分鐘，在冷氣車廂內坐著休息補眠）。  
 > * 抵達新宿站後不趕時間，跟隨 **🟦 藍色的「東口（East）」** 指標走地下通道出站（步行約 5-8 分鐘）。新宿站指標依區域分色：**東口＝藍色、西口＝綠色、南口＝酒紅色**，認顏色比認漢字快。
@@ -516,7 +516,7 @@
 
 ### **09:00－09:25 🚇 前往上野**
 
-> * 從飯店步行約 2 分鐘至 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 東口進站。
+> * 從飯店步行約 2 分鐘至 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）**西口進站**（西口離飯店最近，110 公尺）。
 > * **第一段（淺草橋 ➔ 秋葉原）**：於 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） **1 號月台** 搭乘 **🟡 JR 中央・總武線（JB）** 往 **秋葉原（Akihabara／JB19）／新宿（Shinjuku／JB10） 方向**，搭乘 **1 站** 至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（**JB19**）（車程約 2 分鐘）。
 >   * 💡 **下一站防呆**：搭車後下一站應為 **秋葉原（Akihabara）**；若顯示 **兩國（Ryogoku）** 表示搭錯方向，請立即下車改搭對面月台列車。
 
@@ -1051,7 +1051,7 @@
 
 ### **08:50 🚇 前往東京車站**
 
-> * 從飯店步行約 2 分鐘至 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**） 1 號月台搭乘 **🟡 JR 中央・總武線（JB）** 往 **秋葉原（Akihabara／JB19）／新宿 方向**，搭乘 **1 站** 至 秋葉原站（JB19）（車程約 2 分鐘）。
+> * 從飯店步行約 2 分鐘至 [**JR 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）**西口進站**，於 1 號月台搭乘 **🟡 JR 中央・總武線（JB）** 往 **秋葉原（Akihabara／JB19）／新宿 方向**，搭乘 **1 站** 至 秋葉原站（JB19）（車程約 2 分鐘）。
 > * 於 **JR 秋葉原站（JY03）** **不用出站**，轉乘 **🟢 JR 山手線（JY）** 或 **🔵 JR 京濱東北線（JK）** 往 **東京（Tokyo／JY01）／品川 方向**，搭乘 **2 站** 直達 [**東京站 (東京駅)**](https://www.google.com/maps/search/?api=1&query=35.6812996,139.7670659&query_place_id=ChIJC3Cf2PuLGGAROO00ukl8JwA)（**JY01**）（車程約 4 分鐘，總車程約 8 分鐘）。  
 🚶‍♂️ **出站指引**：下月台後請跟隨頭頂黃色指標前往 1F **「丸之內中央口 / 丸之內南口」** 閘門出站，一走出站體正前方即為開闊的「丸之內站前廣場」。
 
@@ -1469,7 +1469,7 @@
 ### **08:15－08:35 🚇 前往淺草**
 
 > * 目標地點：[**雷門 (雷門)**](https://www.google.com/maps/search/?api=1&query=35.7111163,139.7963656&query_place_id=ChIJ0YwG28aOGGARvRKAXIBWqNk)
-> * 從飯店步行約 2 分鐘至 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（走 A1/A3 出口進站）。
+> * 從飯店步行約 2 分鐘至 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）**走 A3 出口進站**（沒帶大行李走 A3 最近；A1 是有電梯的那個，留給帶大行李時用）。
 > * 於 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**） 搭乘 **🌹 都營淺草線（A）** 往 **押上（Oshiage／A20）／青砥 方向** 列車，搭乘 **2 站** 直達 [**淺草站 (浅草駅)**](https://www.google.com/maps/search/?api=1&query=35.7119535,139.7983367&query_place_id=ChIJLyyKQTiPGGARsFv-uaDdzwo)（**A18**）（車程僅約 3 分鐘）。
 > * 🚶‍♂️ **出站動線與電梯指引**：由 **「1 號出口」**（約 28 階短樓梯）出站即達雷門前廣場；若需無障礙電梯請走 **「A2b 電梯出口」**。
 
@@ -1717,7 +1717,7 @@
 #### **09:15－10:00 🚇 前往台場（日本科學未來館）**
 
 > * 目標地點：[**日本科學未來館 (日本科学未来館)**](https://www.google.com/maps/search/?api=1&query=35.6193359,139.7763995&query_place_id=ChIJz_149P6JGGARoImMn3NlsfY)
-> * 從飯店步行約 2 分鐘至 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（走 A1 出口進站）。
+> * 從飯店步行約 2 分鐘至 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）**走 A3 出口進站**（沒帶大行李走 A3 最近）。
 > * 於 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**） 1 號月台搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **6 站** 直達 [**新橋站 (新橋駅)**](https://www.google.com/maps/search/?api=1&query=35.666379,139.75834&query_place_id=ChIJ4RGu0emLGGARuUX8XtPxUVg)（**A10**）（車程約 7 分鐘）。
 > * 於 **新橋站（A10）** 轉乘至 **百合海鷗線 新橋站（U01）**，**標準轉乘時間約 6 分鐘**，請預留充裕時間。
 >   * 🚨 **改札選擇是成敗關鍵**：都營淺草線新橋站有**兩個改札**，**務必由「JR新橋駅・汐留方面」改札出站**；若走另一個改札會大幅繞遠路。
@@ -1868,7 +1868,7 @@
 ### **08:00－08:15 🚇 前往築地場外市場**
 
 > * 目標地點：[**築地場外市場 (築地場外市場)**](https://www.google.com/maps/search/?api=1&query=35.6647703,139.7702515&query_place_id=ChIJW2cLzSGLGGARXAKXv6EkbqI)
-> * 從飯店步行約 2 分鐘至 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）。
+> * 從飯店步行約 2 分鐘至 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）**走 A3 出口進站**（行李已寄放在飯店，走最近的 A3 即可）。
 > * 於 [**都營 淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **5 站** 直達 [**東銀座站 (東銀座駅)**](https://www.google.com/maps/search/?api=1&query=35.6697003,139.7672886&query_place_id=ChIJK2bxJueLGGARwHHeH52hGiM)（**A11**）（車程約 7 分鐘）。
 > * 🚶‍♂️ **出站動線**：由 **「6 號出口（歌舞伎座/築地方向，設有手扶梯與電梯）」** 出站，沿晴海通平緩直行步行約 5 分鐘即達築地場外市場。
 
