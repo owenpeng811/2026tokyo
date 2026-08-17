@@ -350,11 +350,15 @@ def markdown_to_html(text):
                 html_lines.append('<div class="modal-quote">')
                 in_quote = True
             content = line.lstrip('>').strip()
-            if content.startswith('*') or content.startswith('-'):
+            # 項目符號後面必須有空白。只比對 startswith('*') 會把 `**粗體**`
+            # 開頭的行當成清單，且 lstrip('*-') 連兩個星號一起吃掉，
+            # 渲染成「文字**」——粗體失效、尾端多一個 **。
+            # README 目前沒有任何無空格的清單寫法，加這個條件不會誤傷既有清單。
+            if re.match(r'^[*-]\s', content):
                 if not in_list:
                     html_lines.append('<ul class="modal-list">')
                     in_list = True
-                item_text = content.lstrip('*-').strip()
+                item_text = content[1:].strip()
                 html_lines.append(f'<li>{format_inline_markdown(item_text)}</li>')
             else:
                 if in_list:

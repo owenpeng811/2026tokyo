@@ -139,15 +139,17 @@
 
 > **每晚回飯店路上（依多走距離排序）**
 >
-> | 店家 | 多走 | 車站➔店 | 店➔飯店 | 營業時間 | 必買參考 |
-> | :-- | :-- | :-- | :-- | :-- | :-- |
-> | [**羅森+ThreeF 淺草橋店 (ローソン+スリーエフ 浅草橋店)**](https://www.google.com/maps/search/?api=1&query=35.6977110,139.7843910&query_place_id=ChIJ_WvQ9LGOGGARqFqgQ8633TA) | **＋68 公尺** | 150 公尺 | 68 公尺 | 24 小時 | [LAWSON 介紹文](https://www.letsgojp.com/archives/734007/) |
-> | [**肉之Hanamasa超市 (肉のハナマサ 浅草橋店)**](https://www.google.com/maps/search/?api=1&query=35.6966953,139.7840376&query_place_id=ChIJS7K2bLKOGGARGySfwejBx4o) | ＋188 公尺 | 240 公尺 | 98 公尺 | 06:00－01:00 | [必買介紹文](https://marukoblog.tw/2020-06-22.html) |
-> | [**MINISTOP 淺草橋站前店 (ミニストップ 浅草橋駅前店)**](https://www.google.com/maps/search/?api=1&query=35.6982928,139.7848673&query_place_id=ChIJO5ABibGOGGAR-yitIDyEQ-A) | ＋210 公尺 | 200 公尺 | 160 公尺 | 24 小時 | [MINISTOP 介紹文](https://tasting-japan.com/archives/4425) |
-> | [**羅森 淺草橋一丁目店 (ローソン 浅草橋一丁目店)**](https://www.google.com/maps/search/?api=1&query=35.6969657,139.7834740&query_place_id=ChIJw9iFBbKOGGARZDWKRGMH-ns) | ＋280 公尺 | 290 公尺 | 140 公尺 | 24 小時 | [LAWSON 介紹文](https://tasting-japan.com/archives/2412) |
-> | [**全家 都營淺草橋站前店 (ファミリーマート 都営浅草橋駅前店)**](https://www.google.com/maps/search/?api=1&query=35.6980951,139.7869921&query_place_id=ChIJ2X0h6rOOGGARNIo-5lZ5tqo) | ＋280 公尺 | 140 公尺 | 290 公尺 | 24 小時 | [全家介紹文](https://www.letsgojp.com/archives/704500/) |
-> | [**我的籃子 淺草橋一丁目店 (まいばすけっと 浅草橋1丁目店)**](https://www.google.com/maps/search/?api=1&query=35.6968077,139.7832051&query_place_id=ChIJ4TBoCLKOGGARhn4DJt5etlg) | ＋310 公尺 | 300 公尺 | 160 公尺 | 07:00－23:00 | [超市介紹文](https://marukoblog.tw/grocery-store.html) |
-> | [**7-ELEVEN 淺草橋站西口店 (セブン-イレブン 浅草橋駅西口店)**](https://www.google.com/maps/search/?api=1&query=35.6979742,139.7833930&query_place_id=ChIJP2pU_LGOGGAR2jc0UvRDEng) | ＋350 公尺 | 290 公尺 | 210 公尺 | 24 小時 | [7-11 介紹文](https://www.letsgojp.com/archives/662817/) |
+> | 店家 | 多走 | 營業時間 | 必買參考 |
+> | :-- | :-- | :-- | :-- |
+> | [**羅森+ThreeF**](https://www.google.com/maps/search/?api=1&query=35.6977110,139.7843910&query_place_id=ChIJ_WvQ9LGOGGARqFqgQ8633TA) | **＋68 公尺** | 24 小時 | [LAWSON](https://www.letsgojp.com/archives/734007/) |
+> | [**肉之Hanamasa**](https://www.google.com/maps/search/?api=1&query=35.6966953,139.7840376&query_place_id=ChIJS7K2bLKOGGARGySfwejBx4o) | ＋188 公尺 | 06:00－01:00 | [超市](https://marukoblog.tw/2020-06-22.html) |
+> | [**MINISTOP**](https://www.google.com/maps/search/?api=1&query=35.6982928,139.7848673&query_place_id=ChIJO5ABibGOGGAR-yitIDyEQ-A) | ＋210 公尺 | 24 小時 | [MINISTOP](https://tasting-japan.com/archives/4425) |
+> | [**羅森 一丁目**](https://www.google.com/maps/search/?api=1&query=35.6969657,139.7834740&query_place_id=ChIJw9iFBbKOGGARZDWKRGMH-ns) | ＋280 公尺 | 24 小時 | [LAWSON](https://tasting-japan.com/archives/2412) |
+> | [**全家 站前**](https://www.google.com/maps/search/?api=1&query=35.6980951,139.7869921&query_place_id=ChIJ2X0h6rOOGGARNIo-5lZ5tqo) | ＋280 公尺 | 24 小時 | [全家](https://www.letsgojp.com/archives/704500/) |
+> | [**我的籃子**](https://www.google.com/maps/search/?api=1&query=35.6968077,139.7832051&query_place_id=ChIJ4TBoCLKOGGARhn4DJt5etlg) | ＋310 公尺 | 07:00－23:00 | [超市](https://marukoblog.tw/grocery-store.html) |
+> | [**7-ELEVEN 西口**](https://www.google.com/maps/search/?api=1&query=35.6979742,139.7833930&query_place_id=ChIJP2pU_LGOGGAR2jc0UvRDEng) | ＋350 公尺 | 24 小時 | [7-11](https://www.letsgojp.com/archives/662817/) |
+>
+> 📏 **各段實測距離**（車站➔店／店➔飯店，公尺）：羅森+ThreeF 150／68｜肉之Hanamasa 240／98｜MINISTOP 200／160｜羅森 一丁目 290／140｜全家 站前 140／290｜我的籃子 300／160｜7-ELEVEN 西口 290／210
 >
 > * 🥇 **預設走羅森+ThreeF**：它就在回飯店的直行路線上，多走 68 公尺、距飯店 68 公尺，**比第二名少走 120 公尺**。
 > * 🛒 **想買便宜一點的鮮乳、麵包、水果**：走肉之Hanamasa或我的籃子，價格比超商低，但**兩家都不是 24 小時**。
