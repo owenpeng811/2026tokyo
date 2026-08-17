@@ -3563,6 +3563,54 @@
       "verified_name": "ミカレットきちじょうじ",
       "verified_address": "2 Chome-2721-30 Kichijoji Minamicho, Musashino, Tokyo 180-0003",
       "verified_source": "以 Google Maps 網頁版查得，place_id 取自搜尋結果 !19s 權威參數或 URL ftid 換算後，再以 maps/place/?q=place_id: 反查確認回到同一 POI（名稱與地址一致）。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。Google 分類為公廁、24 小時開放。武藏野市營公廁系列「ミカレット」之一，但位於車站南口，本行程下午動線在北口，需穿過車站、不順路，僅列為備援。"
+    },
+    "砂糖奶油樹 東京站店 (シュガーバターの木 HANAGATAYA東京店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6826509,139.7667352&query_place_id=ChIJH3OfXg2LGGARwbxnP4cqU5A",
+      "nav_dict": [
+        "砂糖奶油樹 東京站店",
+        "砂糖奶油樹 東京站店 (シュガーバターの木 HANAGATAYA東京店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "砂糖奶油樹 東京站店 (シュガーバターの木 HANAGATAYA東京店)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "Shugabatanoki Tokyoeki HANAGATAYA Tokyoten",
+      "verified_address": "日本〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1 Chome−9−1 JR Tokyo Station, 1F 在来線改札内 新幹線南のりかえ口",
+      "verified_source": "以 Google Maps 網頁版查得；place_id 由 URL 的 ftid 換算後，再以 maps/place/?q=place_id: 反查確認回到同名同地址。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。位於 1F 在來線改札內、新幹線南換乘口附近。同品牌在東京車站另有 B1F スクエア ゼロ 等櫃位，此為 Google Maps 上的主要 POI。"
+    },
+    "紐約完美起司 南通路店 (NEWYORK PERFECT CHEESE 東京南通路店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6803624,139.7666707&query_place_id=ChIJVXEPwPuLGGARRjynJ4y9nzM",
+      "nav_dict": [
+        "紐約完美起司 南通路店",
+        "紐約完美起司 南通路店 (NEWYORK PERFECT CHEESE 東京南通路店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "紐約完美起司 南通路店 (NEWYORK PERFECT CHEESE 東京南通路店)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "NEWYORK PERFECT CHEESE 東京南通路店",
+      "verified_address": "日本〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1 Chome−9−1 JR Tokyo Station, １Ｆ 南通路",
+      "verified_source": "以 Google Maps 網頁版查得；place_id 由 URL 的 ftid 換算後，再以 maps/place/?q=place_id: 反查確認回到同名同地址。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。位於 1F 改札內南通路，08:00 開門。"
+    },
+    "銀之鈴 (銀の鈴)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6811856,139.7673717&query_place_id=ChIJ9-LJdPyLGGARZeSwNOHJv3I",
+      "nav_dict": [
+        "銀之鈴",
+        "銀之鈴 (銀の鈴)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "銀之鈴 (銀の鈴)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "銀之鈴",
+      "verified_address": "日本〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1 Chome−9−1 東京駅 改札内 地下１階",
+      "verified_source": "以 Google Maps 網頁版查得；place_id 由 URL 的 ftid 換算後，再以 maps/place/?q=place_id: 反查確認回到同名同地址。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。東京車站的知名會合地標，位於改札內 B1F，周邊即 GRANSTA 東京的甜點櫃位區。東京 Suica 企鵝奶油夾心餅乾在此區販售，該商品本身無獨立店舖 POI，故以銀之鈴作為定位地標。"
     }
   }
 }
