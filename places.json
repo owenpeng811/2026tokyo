@@ -1621,7 +1621,9 @@
         "鳥一味 (鳥一味 東京ソラマチ店)"
       ],
       "text_entities": [],
-      "first_dest": [],
+      "first_dest": [
+        "5_鳥一味"
+      ],
       "html": [
         "鳥一味 (鳥一味 東京ソラマチ店)"
       ],
@@ -3284,9 +3286,7 @@
         "達摩文字燒 晴空塔店"
       ],
       "text_entities": [],
-      "first_dest": [
-        "5_達摩文字燒"
-      ],
+      "first_dest": [],
       "html": [
         "達摩文字燒",
         "達摩文字燒 (月島名物もんじゃ だるま 東京スカイツリータウン・ソラマチ店)",
@@ -3421,6 +3421,86 @@
       "verified_at": "2026-08-14",
       "verified_name": "McDonald's Shinjuku Nishiguchi Exit",
       "verified_address": "Japan, 〒160-0023 Tokyo, Shinjuku City, Nishishinjuku, 1-chōme−17−１ 宍戸ビル 2,3F"
+    },
+    "池之端辨天前公廁 (池之端辨天前公衆トイレ)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7120436,139.7730597&query_place_id=ChIJfREncwCPGGARi0OEsyiWRjw",
+      "nav_dict": [
+        "池之端辨天前公廁",
+        "池之端辨天前公廁 (池之端辨天前公衆トイレ)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "池之端辨天前公廁 (池之端辨天前公衆トイレ)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "池之端辨天前公衆トイレ",
+      "verified_address": "1-12 Uenokoen, Taito City, Tokyo 110-0007",
+      "verified_source": "以 Google Maps 網頁版搜尋取得，place_id 直接來自搜尋結果的 !19s 權威參數（非 ftid 演算法推算），再以 maps/place/?q=place_id: 反查確認回到同一 POI（名稱與座標一致）。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。24 小時開放。位於不忍池弁天堂與清水觀音堂之間的散步動線上。"
+    },
+    "東京迪士尼樂園園外公廁 (Restroom)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6356445,139.8779143&query_place_id=ChIJ0-5-SxR9GGARwTYJ_2HR2Xs",
+      "nav_dict": [
+        "東京迪士尼樂園園外公廁",
+        "東京迪士尼樂園園外公廁 (Restroom)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "東京迪士尼樂園園外公廁 (Restroom)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "Restroom",
+      "verified_address": "29-1 Maihama, Urayasu, Chiba 279-0031",
+      "verified_source": "以 Google Maps 網頁版搜尋取得，place_id 直接來自搜尋結果的 !19s 權威參數（非 ftid 演算法推算），再以 maps/place/?q=place_id: 反查確認回到同一 POI（名稱與座標一致）。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。24 小時開放，不受園區營業時間限制，適合開園前排隊時使用。"
+    },
+    "淺草寺公廁 (浅草寺 公衆トイレ)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7137493,139.7972773&query_place_id=ChIJf6JlbjSPGGARx-2NWb6ZsFY",
+      "nav_dict": [
+        "淺草寺公廁",
+        "淺草寺公廁 (浅草寺 公衆トイレ)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "淺草寺公廁 (浅草寺 公衆トイレ)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "Public toilet",
+      "verified_address": "日本〒111-0032 Tokyo, Taito City, Asakusa, 2 Chome−3−3 １",
+      "verified_source": "以 Google Maps 網頁版搜尋取得，place_id 直接來自搜尋結果的 !19s 權威參數（非 ftid 演算法推算），再以 maps/place/?q=place_id: 反查確認回到同一 POI（名稱與座標一致）。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。營業至 22:00。位於寶藏門與淺草寺會館一帶，是雷門走到本堂的中段。"
+    },
+    "築地場外市場千社額棟公廁 (築地場外市場 千社額棟 公衆トイレ)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6649960,139.7698339&query_place_id=ChIJt1VBzs6LGGARvffRVWHCV0c",
+      "nav_dict": [
+        "築地場外市場千社額棟公廁",
+        "築地場外市場千社額棟公廁 (築地場外市場 千社額棟 公衆トイレ)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "築地場外市場千社額棟公廁 (築地場外市場 千社額棟 公衆トイレ)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "Public Toilet",
+      "verified_address": "千社額棟 内, 4 Chome-16-2 Tsukiji, Chuo City, Tokyo 104-0045",
+      "verified_source": "以 Google Maps 網頁版搜尋取得，place_id 直接來自搜尋結果的 !19s 權威參數（非 ftid 演算法推算），再以 maps/place/?q=place_id: 反查確認回到同一 POI（名稱與座標一致）。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。24 小時開放，位在場外市場內的千社額棟。"
+    },
+    "阿美橫丁中央大樓 (アメ横センタービル)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7097421,139.7745084&query_place_id=ChIJ__8vsZ-OGGARkqhP9iZdeaE",
+      "nav_dict": [
+        "阿美橫丁中央大樓",
+        "阿美橫丁中央大樓 (アメ横センタービル)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "阿美橫丁中央大樓 (アメ横センタービル)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "阿美橫丁中央大樓",
+      "verified_address": "4 Chome-7-8 Ueno, Taito City, Tokyo 110-0005",
+      "verified_source": "以 Google Maps 網頁版搜尋取得，place_id 直接來自搜尋結果的 !19s 權威參數（非 ftid 演算法推算），再以 maps/place/?q=place_id: 反查確認回到同一 POI（名稱與座標一致）。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。阿美橫丁露天商店街上唯一有廁所的建物，B1F 與 2F 皆有。營業時間 10:00 起。"
     }
   }
 }
