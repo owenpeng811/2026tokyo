@@ -5,6 +5,7 @@ import re
 import os
 import json
 import urllib.parse
+import html as html_lib
 
 def clean_url(url):
     if not url:
@@ -408,7 +409,7 @@ CUSTOM_SUMMARIES_V10 = {
     (1, "出發前往秋葉原"): f"🚪 <strong>西口進站</strong>。慢步 2 分鐘至 JR 淺草橋站，搭乘 JR 中央・總武線 (黃色列車) 1 站直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('秋葉原站', '')}\" target=\"_blank\">秋葉原站 🔗</a> (車程僅 2 分鐘)。",
     (1, "🕹️ 日式夾娃娃機體驗"): f"日本大型電玩中心，日式夾娃娃機（UFO Catcher），預算約 ¥500～¥1,000。",
     (1, "日系拍貼機全家合影體驗"): f"<strong>全家合影紀念：</strong>全家 5 人拍貼，觸控塗鴉並現場列印全彩貼紙（¥500/次）。",
-    (1, "晚餐：壽司郎（90 分鐘寬裕大啖平價迴轉壽司）"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('壽司郎 (スシロー 秋葉原駅前店)', '')}\" target=\"_blank\">🍣 壽司郎 秋葉原駅前店 (BiTO AKIBA B1F) 🔗</a> 享用平價迴轉壽司（人均 ¥1,000～¥1,800）。<strong>已訂位</strong>。全中文觸控平板、現點現做軌道直送，90 分鐘寬裕用餐！<br><strong>備案 1：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('丸龜製麵 (丸亀製麺 秋葉原店)', '')}\" target=\"_blank\">丸龜製麵 秋葉原店 🔗</a> (烏龍麵，¥500-900)<br><strong>備案 2：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('CoCo壹番屋 (CoCo壱番屋 JR秋葉原駅昭和通り口店)', '')}\" target=\"_blank\">CoCo壹番屋 秋葉原站前店 🔗</a> (咖哩飯，¥800-1,200)",
+    (1, "晚餐：壽司郎（90 分鐘寬裕大啖平價迴轉壽司）"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('壽司郎 (スシロー 秋葉原駅前店)', '')}\" target=\"_blank\">壽司郎 秋葉原駅前店 🔗</a>（BiTO AKIBA B1F），迴轉壽司，人均 ¥1,000～¥1,800。<strong>已訂位</strong>，全中文觸控平板點餐。",
     (1, "返回淺草橋"): f"步行至 JR <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('秋葉原站', '')}\" target=\"_blank\">秋葉原站 🔗</a>，搭乘 JR 中央・總武線 1 站直達 淺草橋站 (車程 2 分鐘)。",
     (1, "🐈 欣賞新宿 3D 巨貓"): f"新宿東口站前廣場抬頭觀賞巨大 3D 三花貓演出，廣場平坦。",
     (1, "晚餐：Gusto 家庭餐廳"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('Gusto (ガスト 新宿NOWAビル店)', '')}\" target=\"_blank\">🍽️ Gusto 新宿NOWAビル店 (7F) 🔗</a> 享用平價日式家庭料理（漢堡排定食，人均 ¥800～¥1,200），全中文平板點餐、貓咪送餐機器人。<br><strong>備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('LUMINE EST 餐廳街 (ルミネエスト新宿 7&8 DINER)', '')}\" target=\"_blank\">LUMINE EST 餐廳街 🔗</a> (7F/8F 蛋包飯/日式洋食)。",
@@ -422,7 +423,7 @@ CUSTOM_SUMMARIES_V10 = {
     (2, "午餐：松屋 / 吉野家"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('松屋 (松屋 上野浅草口店)', '')}\" target=\"_blank\">松屋 上野浅草口店 🔗</a>（上野站浅草口步行 1 分鐘，有桌席、24 小時營業，人均 ¥500～¥900）。<strong>門口自動售票機可切換語言，全程不需與店員對話。</strong><br><strong>備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('吉野家 (吉野家 上野駅前店)', '')}\" target=\"_blank\">吉野家 上野駅前店 🔗</a>（就在隔壁一棟，人均 ¥500～¥900，以吧台席為主）。",
     (2, "參觀國立西洋美術館"): f"<strong>室內避暑亮點：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('國立西洋美術館 (国立西洋美術館)', '')}\" target=\"_blank\">🏛️ 國立西洋美術館 🔗</a> 欣賞羅丹雕塑與莫內睡蓮（<strong>滿 65 歲長輩出示護照常設展免費入場</strong>，冷氣極強！）。",
     (2, "美術館戶外庭園"): f"就在美術館館外前庭，免票、不用另外走路。免費近距離欣賞羅丹名作「地獄之門」與「沉思者」。若還有餘裕，<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('東京文化會館 (東京文化会館)', '')}\" target=\"_blank\">東京文化會館 🔗</a> 與 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('上野公園大噴水廣場 (上野恩賜公園 大噴水)', '')}\" target=\"_blank\">大噴水廣場 🔗</a> 都在旁邊。15:00 仍有 32～34 度，不久留。",
-    (2, "下午茶與逛街（兩案擇一）"): f"<strong>長輩自己挑，兩案都成立：</strong><br><strong>🛍️ 方案 1</strong>：搭 🟢 山手線 1 站到御徒町（含移動約 20 分），逛 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('松坂屋 (松坂屋 上野店)', '')}\" target=\"_blank\">松坂屋 🔗</a>／PARCO_ya，順路買 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('兔屋 (うさぎや)', '')}\" target=\"_blank\">兔屋 🔗</a> 銅鑼燒；咖啡廳 4 家可選（客美多沙發座／聖瑪克／松坂屋 8F 免費休憩所／麥當勞 24 小時）。<br><strong>☕ 方案 2</strong>：<strong>完全不用移動</strong>，就在上野站周邊 3 家擇一——<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('羅多倫咖啡 (ドトールコーヒーショップ アトレ上野店)', '')}\" target=\"_blank\">羅多倫 アトレ上野店 🔗</a>（車站直結、最便宜）、<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('雷諾瓦咖啡 (喫茶室ルノアール 上野しのばず口店)', '')}\" target=\"_blank\">雷諾瓦咖啡 🔗</a>（最能久坐）、<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('三橋餡蜜 (あんみつ みはし アトレ上野店)', '')}\" target=\"_blank\">三橋餡蜜 🔗</a>（和風甜點）。",
+    (2, "下午茶與逛街（兩案擇一）"): f"<strong>長輩現場二選一</strong>：🛍️ 搭 🟢 山手線 1 站到御徒町逛 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('松坂屋 (松坂屋 上野店)', '')}\" target=\"_blank\">松坂屋 🔗</a>／PARCO_ya（含移動約 20 分），或 ☕ <strong>完全不移動</strong>、在上野站周邊咖啡廳久坐。兩案各有 3～4 家店可挑。",
     (2, "晚餐：宇奈とと鰻魚飯"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('名代 宇奈とと (名代 宇奈とと 上野店)', '')}\" target=\"_blank\">🐟 名代 宇奈とと 上野店 🔗</a> (JR高架旁) 平價鰻魚飯（うな丼 ¥640、うな重 ¥1,060）。<br><strong>備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('松屋 (松屋 上野店)', '')}\" target=\"_blank\">松屋 上野店 🔗</a> (日式定食附熱味噌湯，人均 ¥550-950)。",
     (2, "返回淺草橋（長輩組）"): f"<strong>就近進站：</strong>宇奈とと步行 2 分鐘直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 上野站 (上野駅)', '')}\" target=\"_blank\">JR 上野站不忍口 🔗</a>（或從松坂屋步行 2 分鐘至 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 御徒町站 (御徒町駅)', '')}\" target=\"_blank\">JR 御徒町站 🔗</a>），搭山手線至秋葉原轉總武線 1 站回淺草橋。",
 
@@ -460,11 +461,22 @@ CUSTOM_SUMMARIES_V10 = {
 
     # Day 4
     (4, "前往三鷹"): f"🚪 <strong>西口進站</strong>。搭 🟡 JR 中央・總武線至御茶之水，同月台轉 🟠 中央線快速直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('三鷹站 (三鷹駅)', '')}\" target=\"_blank\">三鷹站 🔗</a>。",
+    (4, "午餐：薩莉亞"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('薩莉亞 (サイゼリヤ 吉祥寺駅北口)', '')}\" target=\"_blank\">薩莉亞 吉祥寺駅北口店 🔗</a>（コスモ吉祥寺 3F，北口步行 1 分鐘），平價義式，人均 ¥600～¥1,000。<strong>全菜單有 4 位數編號，指編號點餐。</strong>",
+    (4, "下午茶：天音"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('天音 (有職たい菓子本舗 天音)', '')}\" target=\"_blank\">天音 🔗</a>（哈莫尼卡橫丁內，出口步行 1 分鐘），帶脆皮羽根的鯛魚燒，粒餡每個約 ¥220。<strong>售完就跳過</strong>。",
+    (4, "SATOU 炸牛肉丸"): f"🟡 <strong>選配，不排時間</strong>。<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('SATOU (黒毛和牛専門店 さとう 吉祥寺店)', '')}\" target=\"_blank\">SATOU 🔗</a> 在哈莫尼卡橫丁北側約 50 公尺、順路經過。隊伍短就買，長就走過去。",
 
     # Day 5
     (5, "前往淺草"): f"🚪 <strong>A3 出口進站</strong>（沒帶大行李走 A3 最近）。搭 🌹 都營淺草線前往淺草，目標 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('雷門 (雷門)', '')}\" target=\"_blank\">雷門 🔗</a>。",
     (5, "前往台場（日本科學未來館）"): f"🚪 <strong>A3 出口進站</strong>。搭 🌹 都營淺草線至新橋，轉 🟠 百合海鷗線前往台場的日本科學未來館。",
+    (5, "前往東京晴空街道"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('東京晴空街道 (東京ソラマチ)', '')}\" target=\"_blank\">晴空街道 🔗</a> 是晴空塔腳下的商場，<strong>不是塔上展望台</strong>。今天午餐、水族館、散策全在商場內，不需另外買塔票。",
+    (5, "午餐：鳥一味"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('鳥一味 (鳥一味 東京ソラマチ店)', '')}\" target=\"_blank\">鳥一味 🔗</a>（西館 3F 美食街 タベテラス），炭烤雞肉親子丼。美食街自助式，櫃台點餐後自行端取。",
+    (5, "晴空街道散策"): f"商場分西館／塔樓館／東館，<strong>1～4 樓完全互通</strong>，逛街集中在這四層。東館 11～29 樓是辦公室，別搭上去。",
+    (5, "晚餐：宮武讚岐烏龍麵"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)', '')}\" target=\"_blank\">宮武讚岐烏龍麵 🔗</a>（西館 3F 美食街 タベテラス），人均 ¥700～¥1,000。備案一風堂、松屋同一層。",
+    (5, "晚餐：麥當勞"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('麥當勞 (マクドナルド 新宿西口店)', '')}\" target=\"_blank\">麥當勞 新宿西口店 🔗</a>（1F 點餐、2F–3F 座位區），人均 ¥500～¥900。<strong>點餐機支援繁體中文</strong>。",
+    (5, "前往東京都廳"): f"17:35 離開餐廳，走新宿西口地下通路（全空調、有電動步道）直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('東京都廳 (東京都庁)', '')}\" target=\"_blank\">東京都廳 🔗</a>，約 6～8 分鐘。",
     (5, "觀賞都廳光雕投影秀"): f"看 <strong>19:00－19:15</strong> 這場，共 15 分鐘。<strong>要下樓到地面的都民廣場看</strong>，45 樓展望室看不到。免費、不需預約。8/24 為平日場，沒有哥吉拉與寶可夢。",
+    (5, "午餐：そじ坊"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('信州蕎麥處 そじ坊 (そじ坊 ダイバーシティ東京プラザ店)', '')}\" target=\"_blank\">そじ坊 🔗</a>（DiverCity 6F 餐廳街），手打蕎麥麵，人均 ¥900～¥1,500。菜單附英文。",
+    (5, "晚餐：月島文字燒"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('月島文字燒 くうや (月島もんじゃ くうや ダイバーシティ東京プラザ店)', '')}\" target=\"_blank\">月島文字燒 くうや 🔗</a>（DiverCity 6F 餐廳街），<strong>店員全程代煎</strong>，人均 ¥1,500～¥2,500。",
 
     # Day 6
     (6, "前往築地場外市場"): f"🚪 <strong>A3 出口進站</strong>（行李已寄放在飯店，走最近的 A3）。搭 🌹 都營淺草線至東銀座，步行前往 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('築地場外市場 (築地場外市場)', '')}\" target=\"_blank\">築地場外市場 🔗</a>。",
@@ -2290,12 +2302,49 @@ def render_full_pwa_html(meta, days_data):
 """
     return full_page
 
+SUMMARY_TARGET_CHARS = 80   # 目標值：摘要只回答「這段去哪、花多少錢」
+SUMMARY_ALERT_CHARS = 120   # 破格線：超過就逐張點名
+
+
+def warn_long_summaries(html_output):
+    """卡片摘要是「沒點開就強制看到」的那段，過長會讓手機版面變高、資訊焦點模糊。
+
+    分兩級回報，避免警告太吵反而被忽略：
+      - 超過 SUMMARY_ALERT_CHARS 逐張點名，這是該動手精簡的。
+      - 介於目標值與破格線之間只報數量，當作健康度指標。
+    修法是在 CUSTOM_SUMMARIES_V10 補一條手寫摘要覆蓋，把細節留在完整說明抽屜，
+    不必去刪 README 內文（README 由 Docsify 直接渲染，必須保持完整）。
+    另外一併抓「摘要是空的」——那通常代表 README 內文被刪過頭。
+    """
+    summaries = re.findall(r'<p class="card-summary">(.*?)</p>', html_output, re.S)
+    alert, mid, empty = [], 0, 0
+    for s in summaries:
+        text = html_lib.unescape(re.sub(r'<[^>]+>', '', s)).strip()
+        if not text:
+            empty += 1
+        elif len(text) > SUMMARY_ALERT_CHARS:
+            alert.append((len(text), text[:40]))
+        elif len(text) > SUMMARY_TARGET_CHARS:
+            mid += 1
+
+    if empty:
+        print(f"🚨 有 {empty} 張卡片的摘要是空的——請檢查對應時段的 README 內文是否被刪過頭。")
+    if alert:
+        alert.sort(reverse=True)
+        print(f"⚠️  {len(alert)} 張卡片摘要超過 {SUMMARY_ALERT_CHARS} 字，建議把細節移進完整說明：")
+        for n, head in alert:
+            print(f"    {n:4} 字  {head}…")
+    if mid:
+        print(f"ℹ️  另有 {mid} 張介於 {SUMMARY_TARGET_CHARS}～{SUMMARY_ALERT_CHARS} 字（目標 {SUMMARY_TARGET_CHARS} 字，可接受）。")
+
+
 def main():
     meta, days_data = parse_v10_markdown()
     html_output = render_full_pwa_html(meta, days_data)
     with open('/home/owen/tokyo/itinerary.html', 'w', encoding='utf-8') as f:
         f.write(html_output)
     print("✅ Successfully built and verified itinerary.html!")
+    warn_long_summaries(html_output)
 
 if __name__ == '__main__':
     main()
