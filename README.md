@@ -173,13 +173,15 @@
 > | 店家 | 多走 | 營業時間 | 必買參考 |
 > | :-- | :-- | :-- | :-- |
 > | [**Lawson+ThreeF**](https://www.google.com/maps/search/?api=1&query=35.6977110,139.7843910&query_place_id=ChIJ_WvQ9LGOGGARqFqgQ8633TA) | **＋68 公尺** | 24 小時 | [LAWSON](https://www.letsgojp.com/archives/734007/) |
+> | [**7-ELEVEN 柳橋**](https://www.google.com/maps/search/?api=1&query=35.6966679,139.7861440&query_place_id=ChIJVbyS1NuPGGARRd4fF9slH2U) | ＋100 公尺 | 24 小時 | [7-11](https://www.letsgojp.com/archives/662817/) |
 > | [**肉之Hanamasa**](https://www.google.com/maps/search/?api=1&query=35.6966953,139.7840376&query_place_id=ChIJS7K2bLKOGGARGySfwejBx4o) | ＋188 公尺 | 06:00－01:00 | [超市](https://marukoblog.tw/2020-06-22.html) |
 > | [**MINISTOP**](https://www.google.com/maps/search/?api=1&query=35.6982928,139.7848673&query_place_id=ChIJO5ABibGOGGAR-yitIDyEQ-A) | ＋210 公尺 | 24 小時 | [MINISTOP](https://tasting-japan.com/archives/4425) |
 > | [**FamilyMart 站前**](https://www.google.com/maps/search/?api=1&query=35.6980951,139.7869921&query_place_id=ChIJ2X0h6rOOGGARNIo-5lZ5tqo) | ＋230 公尺 | 24 小時 | [FamilyMart](https://www.letsgojp.com/archives/704500/) |
 >
-> * 🥇 **一樣是Lawson+ThreeF 最順**，多走 68 公尺。
+> * 🥇 **一樣是 Lawson+ThreeF 最順**，多走 68 公尺。
+> * 🥈 **7-ELEVEN 柳橋第二順**（多走 100 公尺）：出東口往南 90 公尺就到。**但它在飯店東側，回飯店要往西走 190 公尺**；走西口的日子別選它（要繞 380 公尺）。
 > * 🏪 **FamilyMart 離出口最近（120 公尺）**，適合「先買了再走回飯店」；但它在江戶通東側，回飯店要過一次馬路。
-> * ⏱️ 其餘各家從東口出發都要多走 **260 公尺以上**，不建議。
+> * ⏱️ 其餘三家從東口出發要多走 **190～230 公尺**；表上沒列的（Lawson 一丁目、My Basket）從東口都要繞 260 公尺以上，不建議。
 
 > **Day 1 抵達當晚（走 A1 電梯出口、帶大行李）**
 >

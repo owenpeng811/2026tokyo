@@ -2990,6 +2990,22 @@
       "verified_address": "日本〒111-0053 Tokyo, Taito City, Asakusabashi, 1 Chome−27−5 浅草橋大興ビル",
       "verified_source": "Antigravity 以 Places API（maps_place_details）查得，本端再以 maps/place/?q=place_id: 反查核對，名稱與座標逐字一致。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。"
     },
+    "7-ELEVEN 柳橋店 (セブン-イレブン 台東柳橋店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6966679,139.7861440&query_place_id=ChIJVbyS1NuPGGARRd4fF9slH2U",
+      "nav_dict": [
+        "7-ELEVEN 柳橋店",
+        "7-ELEVEN 柳橋店 (セブン-イレブン 台東柳橋店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "7-ELEVEN 柳橋店 (セブン-イレブン 台東柳橋店)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "7-Eleven",
+      "verified_address": "1 Chome-4-5 Yanagibashi, Taito City, Tokyo 111-0052",
+      "verified_source": "使用者提供 maps.app.goo.gl 短網址，本端以 curl 解析取得 ftid 0x60188fdbd492bc55:0x651f25db171fde45 換算 place_id，再以 maps/place/?q=place_id: 反查確認回到同一 POI（名稱 7-Eleven、類別便利店、地址、座標一致，24 小時營業，未歇業）。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。命名採地址所在的「柳橋」而非「A1 出口旁」，因為 Google 地圖上 A1～A6 沒有獨立 POI，無法證實它貼著哪一個 A 出口。"
+    },
     "7-ELEVEN 淺草橋站西口店 (セブン-イレブン 浅草橋駅西口店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6979742,139.7833930&query_place_id=ChIJP2pU_LGOGGAR2jc0UvRDEng",
       "nav_dict": [
