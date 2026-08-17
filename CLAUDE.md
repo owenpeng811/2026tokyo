@@ -82,7 +82,11 @@ README.md  ──(build_pwa.py: parse → render)──▶  itinerary.html  ─�
 - `is_non_nav_slot(day, title, body)` — **白名單式**判斷哪些時段不該顯示「📍 導航」按鈕（飯店內早餐、退房、就寢、迪士尼園內表演等）。硬編中文字串清單；新增靜態時段須在此登錄，否則會產生無意義的關鍵字導航。
 - `get_first_destination_map_link()` — 三段 fallback：`first_destinations.json`（key 格式 `"{day}_{標題關鍵字}"`）→ 內文第一個 Markdown 連結 → `navigation_links_dict.json` 最長字串匹配。
 - `autolink_text_entities()` — 把 `text_entities.json`（list of `[名稱, URL]`）中的地名在已渲染 HTML 中自動加上連結，會跳過既有 `<a>` 區段，每個名稱最多取代 2 次。
-- `CUSTOM_SUMMARIES_V10` — 以 `(day, title)` 為 key 的手寫卡片摘要，覆蓋自動生成的摘要。改標題時這裡也要跟著改，否則摘要會靜默失效（見 commit `f5d8b9b`、`a9b6bb8`）。
+- `CUSTOM_SUMMARIES_V10` — 以 `(day, title)` 為 key 的手寫卡片摘要，覆蓋自動生成的摘要。查表是 exact 優先、再**雙向 substring**、first match wins。改標題時這裡也要跟著改，否則摘要會靜默失效（見 commit `f5d8b9b`、`a9b6bb8`）。**縮短摘要一律改這裡，不要去刪 `README.md` 內文。**
+- `clean_markdown_for_summary(md_text)` — 自動摘要：取內文前一～二句。**會跳過 `<details>` 收合區塊**——否則當時段第一行就是 `<details>` 時，標籤本身會被當成首句寫進摘要，在 `itinerary.html` 產生沒有結尾的孤兒 `<details>`。
+- `warn_long_summaries(html_output)` — 編譯後的品質檢查（不中斷編譯）：>120 字逐張點名、80～120 字只報數量、**空白摘要跳 🚨**（代表 README 內文被刪過頭）。門檻常數為 `SUMMARY_TARGET_CHARS = 80` 與 `SUMMARY_ALERT_CHARS = 120`。**編譯後要看這段輸出，不要只看 `✅ Successfully built`。**
+- `build_card_html(item_id, item)` — 卡片渲染。四類標籤都在 `card-tags`：票務狀態、**🚻 廁所（偵測內文是否含 `🚻`）**、📄 攻略 N、分類。⚠️ **`🚻` 因此是各時段內文的保留字元**，拿來當裝飾會讓室內卡片誤掛廁所標籤。
+- `strip_orphan_details()` — 時段被切分後，把跨越邊界的孤兒 `<details>`／`</details>` 清掉。README 兩種寫法都要認：獨立成行的 `<details>`，以及單行的 `<details><summary>…</summary>`（見 commit `9c61904`）。
 
 ## 導航連結：places.json 為唯一真相來源
 
