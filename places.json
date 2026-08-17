@@ -3508,6 +3508,54 @@
       "verified_name": "阿美橫丁中央大樓",
       "verified_address": "4 Chome-7-8 Ueno, Taito City, Tokyo 110-0005",
       "verified_source": "以 Google Maps 網頁版搜尋取得，place_id 直接來自搜尋結果的 !19s 權威參數（非 ftid 演算法推算），再以 maps/place/?q=place_id: 反查確認回到同一 POI（名稱與座標一致）。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。阿美橫丁露天商店街上唯一有廁所的建物，B1F 與 2F 皆有。營業時間 10:00 起。"
+    },
+    "Coppice 吉祥寺 (コピス吉祥寺)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7049541,139.5795709&query_place_id=ChIJB0eQ1EfuGGARaKthmgoKqwU",
+      "nav_dict": [
+        "Coppice 吉祥寺",
+        "Coppice 吉祥寺 (コピス吉祥寺)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "Coppice 吉祥寺 (コピス吉祥寺)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "Coppice吉祥寺",
+      "verified_address": "1 Chome-11-5 Kichijoji Honcho, Musashino, Tokyo 180-0004",
+      "verified_source": "以 Google Maps 網頁版查得，place_id 取自搜尋結果 !19s 權威參數或 URL ftid 換算後，再以 maps/place/?q=place_id: 反查確認回到同一 POI（名稱與地址一致）。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。10:00 開門。A 館 5F 設有親子廁所與哺乳室，3F 為 ママ・キッズテラス。THANK YOU MART 與無印良品皆在館內，本行程 15:20 原本就會進來。"
+    },
+    "東急百貨 吉祥寺店 (東急百貨店 吉祥寺店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7050678,139.5777986&query_place_id=ChIJhxa9k0juGGARrLLZkBu09Ac",
+      "nav_dict": [
+        "東急百貨 吉祥寺店",
+        "東急百貨 吉祥寺店 (東急百貨店 吉祥寺店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "東急百貨 吉祥寺店 (東急百貨店 吉祥寺店)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "Tokyu Department Store Kichijoji Store",
+      "verified_address": "2 Chome-3-1 Kichijoji Honcho, Musashino, Tokyo 180-8519",
+      "verified_source": "以 Google Maps 網頁版查得，place_id 取自搜尋結果 !19s 權威參數或 URL ftid 換算後，再以 maps/place/?q=place_id: 反查確認回到同一 POI（名稱與地址一致）。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。10:00 開門。位於哈莫尼卡橫丁西側，是橫丁另一頭最近的百貨廁所。"
+    },
+    "武藏野市營公廁 (ミカレットきちじょうじ)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7023874,139.5803008&query_place_id=ChIJl9bFUVTvGGARA5iIBLZOoxA",
+      "nav_dict": [
+        "武藏野市營公廁",
+        "武藏野市營公廁 (ミカレットきちじょうじ)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "武藏野市營公廁 (ミカレットきちじょうじ)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "ミカレットきちじょうじ",
+      "verified_address": "2 Chome-2721-30 Kichijoji Minamicho, Musashino, Tokyo 180-0003",
+      "verified_source": "以 Google Maps 網頁版查得，place_id 取自搜尋結果 !19s 權威參數或 URL ftid 換算後，再以 maps/place/?q=place_id: 反查確認回到同一 POI（名稱與地址一致）。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。Google 分類為公廁、24 小時開放。武藏野市營公廁系列「ミカレット」之一，但位於車站南口，本行程下午動線在北口，需穿過車站、不順路，僅列為備援。"
     }
   }
 }
