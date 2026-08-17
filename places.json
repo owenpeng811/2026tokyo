@@ -2964,6 +2964,22 @@
       "verified_address": "1 Chome-22-16 Asakusabashi, Taito City, Tokyo 111-0053",
       "verified_source": "Antigravity 以 Places API（maps_place_details）查得，本端再以 maps/place/?q=place_id: 反查核對，名稱與座標逐字一致。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。"
     },
+    "全家 都營淺草橋站前店 (ファミリーマート 都営浅草橋駅前店)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6980951,139.7869921&query_place_id=ChIJ2X0h6rOOGGARNIo-5lZ5tqo",
+      "nav_dict": [
+        "全家 都營淺草橋站前店",
+        "全家 都營淺草橋站前店 (ファミリーマート 都営浅草橋駅前店)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "全家 都營淺草橋站前店 (ファミリーマート 都営浅草橋駅前店)"
+      ],
+      "verified_at": "2026-08-17",
+      "verified_name": "FamilyMart",
+      "verified_address": "SUGAビルディング, 1 Chome-23-4 Yanagibashi, Taito City, Tokyo 111-0052",
+      "verified_source": "Antigravity 以 Places API（maps_place_details）查得，本端再以 maps/place/?q=place_id: 反查核對，名稱與座標逐字一致。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。"
+    },
     "MINISTOP 淺草橋站前店 (ミニストップ 浅草橋駅前店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6982928,139.7848673&query_place_id=ChIJO5ABibGOGGAR-yitIDyEQ-A",
       "nav_dict": [
