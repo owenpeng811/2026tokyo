@@ -850,14 +850,21 @@
 
 </details>
 
+> * 💡 **長輩防迷路問路小卡**：整段路上任何時候找不到方向，直接向站務人員問這兩句：
+>   * **"Akihabara?"**（要去秋葉原 ➔ 用在第一段，在上野／御徒町月台）
+>   * **"Chiba platform?"**（請問往千葉方向月台 ➔ 用在第二段，在秋葉原站內）
 > * **第一段（上野／御徒町 ➔ 秋葉原）**：兩站搭乘的路線與方向完全相同，只差站數。
 >   * 由 [**JR 上野站 (上野駅)**](https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw)（**JY05 / JK30**） 出發：搭乘 **🟢 JR 山手線（JY）** 或 **🔵 JR 京濱東北線（JK）** 往 **東京（Tokyo）／品川（Shinagawa） 方向**，搭乘 **2 站**（途經御徒町）至 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（**JY03 / JK28**）（車程約 4 分鐘）。
 >   * 由 [**JR 御徒町站 (御徒町駅)**](https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI)（**JY04 / JK29**） 出發：同路線、同方向，搭乘 **1 站** 至 秋葉原站（**JY03 / JK28**）（車程約 2 分鐘）。
 
-<details><summary>📸 秋葉原轉乘指標怎麼認 ＋ 怕搭錯方向看這裡（點擊展開）</summary>
+<details><summary>⚠️ 第一段：怕搭錯方向看這裡（點擊展開）</summary>
 
 >   * ⚠️ **正反方向對照**：請認明月台指標目的地方向為「**東京 (Tokyo) ／ 品川 (Shinagawa)**」；**不要**搭往「**鶯谷 (Uguisudani) ／ 日暮里 (Nippori) ／ 池袋 (Ikebukuro)**」方向。
 >   * 💡 **下一站防呆**：由上野出發下一站應為 **御徒町（Okachimachi）**，由御徒町出發下一站應為 **秋葉原（Akihabara）**；若列車往鶯谷方向表示搭錯，請立即下車至對面月台改搭反方向列車。
+
+</details>
+
+<details><summary>📸 第二段：在秋葉原怎麼找轉乘月台（點擊展開看實景照片）</summary>
 
 > 📸 【辨識：秋葉原站轉乘指標（最重要）】
 > ![秋葉原站中央・總武線 6 號月台往千葉方向指標](./assets/images/akihabara_transfer_chiba_p6.jpg)
@@ -873,9 +880,6 @@
 > * **第二段（秋葉原 ➔ 淺草橋，站內轉乘不出站）**：於 [**秋葉原站 (秋葉原駅)**](https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU)（**JB19**） 上至 **5F 6 號月台**，搭乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **1 站** 至 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）（車程約 2 分鐘）。
 >   * 💡 **下一站防呆**：搭車後下一站應為 **淺草橋（Asakusabashi）**；若下一站顯示 **御茶之水（Ochanomizu）** 表示搭錯方向，請立即下車改搭對面月台列車。
 > * 抵達後出站步行回飯店休息（全程約 10 分鐘）。
-> * 💡 **長輩防迷路問路小卡**：若一時找不到方向，可直接向站務人員詢問：
->   * **"Akihabara?"**（要去秋葉原）
->   * **"Chiba platform?"**（請問往千葉方向月台）
 
 #### **18:40 🏨 回飯店休息**
 
