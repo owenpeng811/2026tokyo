@@ -103,7 +103,15 @@
 
 <details><summary>🏪 便利商店與超市必買清單（點擊展開）</summary>
 
-> 📄 **超商介紹文**：[日本便利商店全攻略：7-11／全家／LAWSON 必買清單文章](https://www.funliday.com/posts/japan-convenience-store/)｜[三大超商 15 款必買商品與刷卡、退稅、內用常見問題懶人包](https://tw.wamazing.com/media/article/a-708/)
+> 📄 **三家一次看**：[日本便利商店全攻略：7-11／全家／LAWSON 必買清單文章](https://www.funliday.com/posts/japan-convenience-store/)｜[三大超商 15 款必買商品與刷卡、退稅、內用常見問題懶人包](https://tw.wamazing.com/media/article/a-708/)
+>
+> 📄 **7-ELEVEN 專篇**：[7-11 全攻略：7-PREMIUM 熱銷 TOP 5、季節限定與行李寄放服務（2026/07 更新）](https://www.letsgojp.com/archives/662817/)｜[7-11 必買美食 23 選，逐項寫口感與推薦理由（2026 最新版）](https://tasting-japan.com/archives/2551)
+>
+> 📄 **全家 FamilyMart 專篇**：[全家攻略：必買商品、可折抵 50～100 日圓的限定優惠券、聯名周邊（2026/07 更新）](https://www.letsgojp.com/archives/704500/)｜[全家必買 20 選：酥炸熟食、起司零食、冰品飲料（2026 最新版）](https://tasting-japan.com/archives/2697)
+>
+> 📄 **LAWSON 專篇**：[LAWSON 全攻略：炸雞君、街角廚房現做熟食、Uchi Café 甜點與無印良品專區](https://www.letsgojp.com/archives/734007/)｜[LAWSON 必買美食 18 選：生乳捲、炸雞君（2026/07 更新）](https://tasting-japan.com/archives/2412)
+>
+> 📄 **MINISTOP 專篇**（第四大超商，多數門市設有內用座位）：[MINISTOP 必買甜點與熟食 14 選](https://tasting-japan.com/archives/4425)｜[MINI STOP 必吃攻略與三家超商差異比較](https://marukoblog.tw/ministop.html)
 >
 > 📄 **超市介紹文**：[日本超市必買、連鎖品牌比較與購物指南文章（2026）](https://marukoblog.tw/grocery-store.html)｜[肉之Hanamasa 平價超市必買攻略文章](https://marukoblog.tw/2020-06-22.html)
 >
@@ -111,6 +119,7 @@
 > * 🍙 **本行程用得到的**：Day 1 松山機場與 Day 6 羽田機場的機場早餐、Day 2 長輩組的午晚餐備案、每天回飯店的宵夜與隔日飲料。
 > * 💳 **三大超商都收 Suica 與信用卡**，多數門市設有 ATM，螢幕可切換中文。
 > * 🎫 LAWSON 店內的 **Loppi** 機台可購票與取票；吉卜力美術館即為此系統（本行程已於行前購票，無須現場操作）。
+> * ⚠️ **MINISTOP 的現做飯糰便當不一定買得到**：2025 年 8 月因部分門市偽造消費期限，全國約 1,800 家暫停販售**店內現做**的飯糰、便當與熟食；同年 10 月起分批恢復，但**截至 2026 年 2 月底只恢復約四成門市**。**霜淇淋與一般包裝商品不受影響**。要把它當正餐備案前，請先看店內有沒有在賣。
 > * 🛒 **超市比超商便宜**：牛奶、麵包、優格、水果、熟食價差明顯。Day 1 晚上安排的 [**肉之Hanamasa超市 (肉のハナマサ 浅草橋店)**](https://www.google.com/maps/search/?api=1&query=35.6966953,139.7840376&query_place_id=ChIJS7K2bLKOGGARGySfwejBx4o) 為 24 小時營業。
 > * ⚠️ **超市退稅不含生鮮蔬果與熟食**，且退稅櫃檯多數只到傍晚。本行程 19:15 才採買、且買的是當天要吃的生鮮，不走退稅。
 
