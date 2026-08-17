@@ -346,12 +346,6 @@
       ],
       "text_entities": [],
       "first_dest": [
-        "1_前往秋葉原",
-        "1_前往新宿東口",
-        "2_前往上野",
-        "2_前往東京迪士尼樂園",
-        "3_前往東京車站",
-        "4_前往三鷹",
         "5_前往淺草",
         "5_前往台場（日本科學未來館）",
         "6_前往築地場外市場",
@@ -3027,6 +3021,31 @@
       "verified_name": "Lawson",
       "verified_address": "1 Chome-5-5 Asakusabashi, Taito City, Tokyo 111-0053",
       "verified_source": "Antigravity 以 Places API（maps_place_details）查得，本端再以 maps/place/?q=place_id: 反查核對，名稱與座標逐字一致。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。"
+    },
+    "淺草橋站西口正對面 (浅草橋駅 西口 目印)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.6973254,139.7837543&query_place_id=ChIJL0tMG7KOGGAR9J2prCH0on8",
+      "nav_dict": [
+        "淺草橋站西口正對面",
+        "淺草橋站西口正對面 (浅草橋駅 西口 目印)"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "1_前往秋葉原",
+        "1_前往新宿東口",
+        "2_前往上野",
+        "2_前往東京迪士尼樂園",
+        "3_前往東京車站",
+        "4_前往三鷹"
+      ],
+      "html": [
+        "淺草橋站西口正對面 (浅草橋駅 西口 目印)"
+      ],
+      "poi_level": "container",
+      "container_note": "Google 地圖上浅草橋駅的東口、西口與 A1～A6 都沒有獨立 POI，六個出口查詢一律被吸收成車站本體。此連結改用西口正對面的燒肉店 Nihon yakiniku Tou 作為定位標記，實測距使用者標定的西口點僅 6 公尺、步行到飯店 100 公尺。僅供定位西口，不是要去這家店；若該店日後歇業需另尋標記。",
+      "verified_at": "2026-08-17",
+      "verified_name": "Nihon yakiniku Tou",
+      "verified_address": "1 Chome-12-6 Asakusabashi, Taito City, Tokyo 111-0053",
+      "verified_source": "使用者提供 maps.app.goo.gl 短網址，本端以 curl 解析取得 ftid 0x60188eb21b4c4b2f:0x7fa2f421aca99df4 換算 place_id，再以 maps/place/?q=place_id: 反查確認回到同一 POI（名稱、類別日式燒肉餐廳、地址、座標一致，未歇業）。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。"
     },
     "我的籃子 淺草橋站西口店 (まいばすけっと 浅草橋駅西口店)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.6980518,139.7836158&query_place_id=ChIJcZqBdz-PGGARrusDnryuuEw",
