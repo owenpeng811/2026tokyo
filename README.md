@@ -1735,7 +1735,7 @@
 > * **土日與假日才有**：哥吉拉 ゴジラ都庁襲撃（20:00）、寶可夢 TOKYO LUMINOUS NIGHT（19:00、20:30）。
 > * 網路介紹文常提到的哥吉拉與寶可夢，平日場看不到；官方作品列表中也沒有鋼彈。
 
-#### **19:20－19:45 🚆 返回淺草橋**
+#### **19:20－19:45 🚆 返回淺草橋（新宿出發）**
 
 > * 從都廳沿地下全空調通道走回 [**JR 新宿站 (新宿駅)**](https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJH7qx1tCMGGAR1f2s7PGhMhw)（**JC05**），於 7/8 號月台搭乘 **🟠 JR 中央線快速（JC）** 往 **東京（Tokyo／JC01） 方向**，搭乘 **2 站** 至 御茶之水站（JC03）（車程約 9 分鐘）。
 > * 於 **御茶之水站（JB18）** **不用出站**，於同月台對面直接平行轉乘 **🟡 JR 中央・總武線（JB）** 往 **千葉（Chiba／JB39） 方向**，搭乘 **2 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**JB20**）（車程約 4 分鐘，總車程約 20 分鐘）。由 **西口（West Exit）** 出站步行回飯店。
@@ -1778,7 +1778,7 @@
 >     2. 觸控點選喜歡的餐點，投入日幣紙鈔或感應 Suica 卡付款取食券。  
 >     3. 拿食券入座（食券不用交給店員，系統已自動連線廚房），等候店內電視螢幕顯示號碼至取餐口領餐，主要流程皆可由機台完成以減少日文溝通需求。
 
-#### **17:40 🚇 返回淺草橋**
+#### **17:40 🚇 返回淺草橋（押上出發）**
 
 > * 於 [**都營 押上站 (押上駅)**](https://www.google.com/maps/search/?api=1&query=35.7103320,139.8132971&query_place_id=ChIJaUNCPNaOGGARuV-q32bYbaE)（**A20**） 搭乘 **🌹 都營淺草線（A）** 往 **西馬込（Nishi-magome／A01）／羽田空港 方向**，搭乘 **4 站** 直達 [**淺草橋站 (浅草橋駅)**](https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg)（**A16**）（車程僅約 6 分鐘）。由 A1 出口 出站步行回飯店休息。
 
@@ -1935,7 +1935,7 @@
 >     3. 配料可自由客製，指認菜單圖片即可。  
 > * 備案餐廳 1：[**かつ煮専門店 かつゑもん (かつゑもん ダイバーシティ東京プラザ店)**](https://www.google.com/maps/search/?api=1&query=35.6247851,139.7758551&query_place_id=ChIJpbpu0_mJGGARd9sJ-psh9Gc) (2F 美食廣場) 享用特製炸豬排煮定食（推薦：特選熟成豬排煮定食、滑蛋炸豬排丼），人均約 ¥900～¥1,400。
 
-#### **18:55－19:40 🚆 返回淺草橋飯店**
+#### **18:55－19:40 🚆 返回淺草橋（台場出發）**
 
 > * 目標地點：[**海茵娜酒店东京浅草桥 (変なホテル東京 浅草橋)**](https://www.google.com/maps/search/?api=1&query=35.6970775,139.7847605&query_place_id=ChIJRWR7EbKOGGARUkONjElltUA)
 > * 從 DiverCity 走空橋通道步行約 5 分鐘至 [**百合海鷗線 台場站 (台場駅)**](https://www.google.com/maps/search/?api=1&query=35.6259459,139.7714957&query_place_id=ChIJhSSiCx2KGGARMH8prUZIf4M)（**U07**）。

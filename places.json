@@ -313,7 +313,9 @@
         "新宿站 (新宿駅)"
       ],
       "text_entities": [],
-      "first_dest": [],
+      "first_dest": [
+        "5_返回淺草橋（新宿出發）"
+      ],
       "html": [],
       "verified_at": "2026-08-14",
       "verified_name": "Shinjuku Station",
@@ -2604,7 +2606,7 @@
       ],
       "text_entities": [],
       "first_dest": [
-        "5_返回淺草橋飯店"
+        "5_返回淺草橋（台場出發）"
       ],
       "html": [],
       "verified_at": "2026-08-14",
@@ -3306,7 +3308,9 @@
         "都營 押上站 (押上駅)"
       ],
       "text_entities": [],
-      "first_dest": [],
+      "first_dest": [
+        "5_返回淺草橋（押上出發）"
+      ],
       "html": [],
       "verified_at": "2026-08-14",
       "verified_name": "Oshiage Sta.(SKYTREE)",

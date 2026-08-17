@@ -5,6 +5,7 @@
   "2_返回淺草橋（長輩組）": "https://www.google.com/maps/search/?api=1&query=35.7141672,139.7774091&query_place_id=ChIJCwbTk56OGGARRJJPe22ziWw",
   "4_返回淺草橋": "https://www.google.com/maps/search/?api=1&query=35.7031125,139.5801608&query_place_id=ChIJCalq8UfuGGARr6-Rc3R6atQ",
   "3_前往御徒町站搭車": "https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI",
+  "5_返回淺草橋（新宿出發）": "https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJH7qx1tCMGGAR1f2s7PGhMhw",
   "3_前往上野": "https://www.google.com/maps/search/?api=1&query=35.6812996,139.7670659&query_place_id=ChIJC3Cf2PuLGGAROO00ukl8JwA",
   "5_前往淺草": "https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg",
   "5_前往台場（日本科學未來館）": "https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg",
@@ -46,7 +47,7 @@
   "5_前往東京晴空街道": "https://www.google.com/maps/search/?api=1&query=35.7119535,139.7983367&query_place_id=ChIJLyyKQTiPGGARsFv-uaDdzwo",
   "2_午餐：松屋": "https://www.google.com/maps/search/?api=1&query=35.712541,139.777373&query_place_id=ChIJm6bhuZ6OGGARPMoVjXV14NY",
   "5_淺草文化觀光中心眺望晴空塔": "https://www.google.com/maps/search/?api=1&query=35.7107074,139.7965461&query_place_id=ChIJr2cNBsGOGGARSX3xfkspQHc",
-  "5_返回淺草橋飯店": "https://www.google.com/maps/search/?api=1&query=35.6259459,139.7714957&query_place_id=ChIJhSSiCx2KGGARMH8prUZIf4M",
+  "5_返回淺草橋（台場出發）": "https://www.google.com/maps/search/?api=1&query=35.6259459,139.7714957&query_place_id=ChIJhSSiCx2KGGARMH8prUZIf4M",
   "5_前往台場 DiverCity": "https://www.google.com/maps/search/?api=1&query=35.6400414,139.7888454&query_place_id=ChIJRU5FTeuJGGARK2atWKJ5P_g",
   "6_築地場外市場美食散策": "https://www.google.com/maps/search/?api=1&query=35.66512609999999,139.77007&query_place_id=ChIJpYBA196LGGARHJnwxaxGNKg",
   "1_抵達羽田機場": "https://www.google.com/maps/search/?api=1&query=35.5454613,139.7687222&query_place_id=ChIJEzipOlRhGGAR3-3UwuMqAnI",
@@ -61,6 +62,7 @@
   "3_前往東京車站": "https://www.google.com/maps/search/?api=1&query=35.6973254,139.7837543&query_place_id=ChIJL0tMG7KOGGAR9J2prCH0on8",
   "4_前往三鷹": "https://www.google.com/maps/search/?api=1&query=35.6973254,139.7837543&query_place_id=ChIJL0tMG7KOGGAR9J2prCH0on8",
   "1_萬代官方扭蛋": "https://www.google.com/maps/search/?api=1&query=35.6980094,139.7724164&query_place_id=ChIJlzTvUTuNGGARzn7gpOn8et8",
+  "5_返回淺草橋（押上出發）": "https://www.google.com/maps/search/?api=1&query=35.7103320,139.8132971&query_place_id=ChIJaUNCPNaOGGARuV-q32bYbaE",
   "6_返回淺草橋飯店": "https://www.google.com/maps/search/?api=1&query=35.6697003,139.7672886&query_place_id=ChIJK2bxJueLGGARwHHeH52hGiM",
   "5_參觀淺草寺與雷門散策": "https://www.google.com/maps/search/?api=1&query=35.7111163,139.7963656&query_place_id=ChIJ0YwG28aOGGARvRKAXIBWqNk"
 }
