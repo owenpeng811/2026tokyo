@@ -982,7 +982,8 @@ def build_card_html(item_id, item):
               <a class="map-link-btn" href="{item['maps_link']}" target="_blank" title="開啟 Google Maps 導航（此時段第一個目的地）">📍 導航</a>
             </div>"""
 
-    return f"""      <div class="timeline-item" data-category="{item['category']}">
+    lock_cls = ' has-lock' if lock_tag_html else ''
+    return f"""      <div class="timeline-item{lock_cls}" data-category="{item['category']}">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
             <input type="checkbox" id="item-{item_id}" onchange="toggleCheck('item-{item_id}')">
@@ -1625,6 +1626,43 @@ def render_full_pwa_html(meta, days_data):
       transform: translateY(-1px);
     }}
 
+    /* 「只看不可延誤」篩選列：獨立一列，不放進可橫向捲動的頁籤列裡以免被捲走 */
+    .lock-filter-bar {{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 16px 10px;
+    }}
+    .lock-filter-btn {{
+      font-family: inherit;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 7px 14px;
+      min-height: 34px;
+      border-radius: 999px;
+      cursor: pointer;
+      color: #fca5a5;
+      background: rgba(239, 68, 68, 0.14);
+      border: 1px solid rgba(239, 68, 68, 0.42);
+      -webkit-tap-highlight-color: transparent;
+      transition: background 0.15s ease, transform 0.15s ease;
+    }}
+    .lock-filter-btn:active {{ transform: scale(0.97); }}
+    .lock-filter-btn.active {{
+      background: rgba(239, 68, 68, 0.85);
+      border-color: rgba(239, 68, 68, 0.95);
+      color: #fff;
+    }}
+    .lock-filter-hint {{
+      font-size: 0.74rem;
+      color: var(--text-muted, #94a3b8);
+    }}
+
+    /* 篩選開啟：只留有 🔒 的卡片。用 body class + CSS 控制，
+       不動 inline style，才不會跟分支切換（switchDayXPlan）互相覆蓋 */
+    body.filter-lock .timeline-item:not(.has-lock) {{ display: none; }}
+    body.filter-lock .sub-toggle-wrapper {{ opacity: 0.45; }}
+
     /* 不可延誤：錯過就損失的時段。用最搶眼的紅色，優先度高於其他標籤 */
     .tag-lock {{
       background: rgba(239, 68, 68, 0.26);
@@ -1914,6 +1952,11 @@ def render_full_pwa_html(meta, days_data):
       <button class="day-tab" onclick="switchDay(5)">D5 (8/24一)</button>
       <button class="day-tab" onclick="switchDay(6)">D6 (8/25二)</button>
     </nav>
+    <div class="lock-filter-bar">
+      <button class="lock-filter-btn" id="lockFilterBtn" onclick="toggleLockFilter()"
+              aria-pressed="false">🔒 只看不可延誤</button>
+      <span class="lock-filter-hint" id="lockFilterHint"></span>
+    </div>
   </header>
 
   <main class="timeline-container">
@@ -1957,6 +2000,7 @@ def render_full_pwa_html(meta, days_data):
       initSwipeNavigation();
       applyFontSize(fontSizeIdx, false);
       restoreBranches();
+      restoreLockFilter();   // 必須在 restoreBranches() 之後：提示要算的是「當前分支」可見的張數
       restoreLastPosition();
     }});
 
@@ -2080,6 +2124,7 @@ def render_full_pwa_html(meta, days_data):
       document.querySelectorAll('.day-tab').forEach((tab, i) => {{
         tab.classList.toggle('active', i === day);
       }});
+      setTimeout(updateLockHint, 0);
       const prep = document.getElementById('prep-section');
       if (prep) prep.style.display = (day === 0) ? 'block' : 'none';
       document.querySelectorAll('.day-section').forEach((sec, i) => {{
@@ -2107,6 +2152,7 @@ def render_full_pwa_html(meta, days_data):
       document.querySelectorAll('#day1-section .sub-toggle-btn')[1].classList.toggle('active', !isPlanA);
       document.querySelector('.day1-plan-A').style.display = isPlanA ? 'block' : 'none';
       document.querySelector('.day1-plan-B').style.display = isPlanA ? 'none' : 'block';
+      updateLockHint();
     }}
 
     function switchDay3Plan(plan) {{
@@ -2116,6 +2162,7 @@ def render_full_pwa_html(meta, days_data):
       document.getElementById('day3-btn-rainy').classList.toggle('active', !isSunny);
       document.querySelector('.day3-plan-sunny').style.display = isSunny ? 'block' : 'none';
       document.querySelector('.day3-plan-rainy').style.display = isSunny ? 'none' : 'block';
+      updateLockHint();
     }}
 
     function switchDay2Group(group) {{
@@ -2125,6 +2172,7 @@ def render_full_pwa_html(meta, days_data):
       document.getElementById('day2-btn-kids').classList.toggle('active', !isParents);
       document.querySelector('.day2-parents-itinerary').style.display = isParents ? 'block' : 'none';
       document.querySelector('.day2-kids-itinerary').style.display = isParents ? 'none' : 'block';
+      updateLockHint();
     }}
 
     function switchDay2ParentsPlan(plan) {{
@@ -2140,6 +2188,7 @@ def render_full_pwa_html(meta, days_data):
       if (rainyElem) {{
         rainyElem.style.display = isSunny ? 'none' : 'block';
       }}
+      updateLockHint();
     }}
 
     function switchDay5Plan(plan) {{
@@ -2171,6 +2220,36 @@ def render_full_pwa_html(meta, days_data):
       if (rainyElem) {{
         rainyElem.style.display = isRainy ? 'block' : 'none';
       }}
+      updateLockHint();
+    }}
+
+    function toggleLockFilter() {{
+      const on = !document.body.classList.contains('filter-lock');
+      document.body.classList.toggle('filter-lock', on);
+      document.getElementById('lockFilterBtn').classList.toggle('active', on);
+      document.getElementById('lockFilterBtn').setAttribute('aria-pressed', on ? 'true' : 'false');
+      localStorage.setItem('lockFilter', on ? '1' : '0');
+      updateLockHint();
+      window.scrollTo({{ top: 0, behavior: 'smooth' }});
+    }}
+
+    // 篩選開啟時，算出「當前這一天、當前分支」還看得到幾張 🔒 卡片。
+    // 用 offsetParent 判斷可見性，才不會把被分支隱藏的卡片也算進去。
+    function updateLockHint() {{
+      const hint = document.getElementById('lockFilterHint');
+      if (!hint) return;
+      if (!document.body.classList.contains('filter-lock')) {{ hint.textContent = ''; return; }}
+      const n = [...document.querySelectorAll('.timeline-item.has-lock')]
+        .filter(el => el.offsetParent !== null).length;
+      hint.textContent = n ? `這天有 ${{n}} 項` : '這天沒有不可延誤的行程';
+    }}
+
+    function restoreLockFilter() {{
+      if (localStorage.getItem('lockFilter') !== '1') return;
+      document.body.classList.add('filter-lock');
+      const btn = document.getElementById('lockFilterBtn');
+      if (btn) {{ btn.classList.add('active'); btn.setAttribute('aria-pressed', 'true'); }}
+      updateLockHint();
     }}
 
     function toggleCheck(id) {{
