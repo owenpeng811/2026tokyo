@@ -553,7 +553,10 @@
         "OS Drug 藥妝店 (OSドラッグ 上野店)"
       ],
       "text_entities": [],
-      "first_dest": [],
+      "first_dest": [
+        "3_前往阿美橫丁",
+        "3_阿美橫丁逛街採買"
+      ],
       "html": [],
       "verified_at": "2026-08-14",
       "verified_name": "OS Drug Ueno",
@@ -984,9 +987,7 @@
         "二木菓子",
         "二木菓子（二木の菓子 第一営業所）"
       ],
-      "first_dest": [
-        "3_阿美橫丁逛街採買"
-      ],
+      "first_dest": [],
       "html": [
         "二木菓子",
         "二木菓子 (二木の菓子 第一営業所)"
