@@ -2,7 +2,10 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- 允許縮放：行程表內含站內構內圖（東京車站北自由通路、新宿 B1F 西改札），
+       禁止縮放時 Android 完全無法放大看地名。iOS 本來就會忽略 user-scalable=no，
+       等於只有 Android 被卡住。上限 5 倍，與 Docsify 版 index.html 一致。 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
   <meta name="theme-color" content="#12141c">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -4245,9 +4248,20 @@
 <li>🚶‍♂️ <strong>步行動線（全程免刷卡、不必上到地面）</strong>：</li>
 </ul>
 <p>1. 由 KITTE 搭館內電梯下至 <strong>B1F</strong>，進入地下通道。</p>
-<p>2. <strong>不要進 JR 剪票口</strong>，沿牆找 <strong>「北地下自由通路 (North Underground Passage)」</strong> 指標。</p>
+<p>2. <strong>不要進 JR 剪票口</strong>，先<strong>沿地下街往北（丸之內北口方向）走</strong>，找 <strong>「北地下自由通路 (North Underground Passage)」</strong> 指標。</p>
 <p>3. 通道內跟著 <strong>「八重洲方面 (Yaesu)」</strong> 指標直走（直線通道，約 5 分鐘），看到 <strong>「八重洲地下中央口」「東京駅一番街」</strong> 指標代表走對了。</p>
 <ul class="modal-list">
+<li>🚨 <strong>一定要先往北，不能直接往東橫切</strong>：東京車站的<strong>中央通路與南通路都在改札內</strong>，沒有票走不過去。改札外能東西穿越的<strong>只有北側</strong>——<strong>1F 北自由通路</strong>與 <strong>B1F 北地下自由通路</strong>兩條，我們走地下這條（有冷氣、不必上到地面）。若改從中央或南側穿越，五個人要多付入場券 ¥150 × 5 ＝ <strong>¥750</strong>。</li>
+</ul>
+<p></p>
+<p>📸 【辨識：東京車站改札外能穿越的位置】</p>
+<p><div class="itinerary-img-wrapper" style="margin: 10px 0; text-align: center;"><img src="./assets/images/tokyo_station_north_free_passage_map.jpg" alt="東京車站平面圖，左側粉紅色縱向通道為北自由通路（八重洲・丸之內連絡通路），黃色區域為改札內" class="itinerary-img" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12);" /><p style="font-size: 0.82rem; color: #64748b; margin-top: 4px; font-style: italic;">東京車站平面圖，左側粉紅色縱向通道為北自由通路（八重洲・丸之內連絡通路），黃色區域為改札內</p></div></p>
+<p></p>
+<ul class="modal-list">
+<li>✔ <strong>看圖重點</strong>：</li>
+<li>圖的<strong>上方是八重洲側、下方是丸之內側、左邊是北側</strong>。</li>
+<li><strong>黃色區域＝改札內</strong>，中央通路與南通路都在裡面。</li>
+<li><strong>左側粉紅色縱向通道＝北自由通路</strong>，改札外只有這條能東西穿越；我們走的 <strong>B1F 北地下自由通路就在它正下方一層</strong>，位置一樣。</li>
 <li>💡 <strong>這是今天唯一一次穿越東京車站</strong>：早上的 GRANSTA、站舍、KITTE 都在丸之內側一次做完，接下來的午餐與菓子樂園都在八重洲側，<strong>不再折返</strong>。</li>
 <li>🍱 <strong>出通道後先往南走去吃午餐</strong>：經過八重洲地下中央口（菓子樂園就在對面，等一下回來逛）後繼續往南至 <strong>南1號</strong> 的 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6790668,139.7679772&query_place_id=ChIJzQEVm_yLGGAR1QSl3jr9CNU" target="_blank"><strong>天丼てんや (天丼てんや 八重洲店)</strong> 🔗</a>，約 3 分鐘。</li>
 </ul>
@@ -5916,8 +5930,19 @@
 <details><summary>🚶 新宿站內精準動線與省力乘車位置（點擊展開）</summary>
 <div class="modal-quote">
 <ul class="modal-list">
-<li>🚶‍♂️ <strong>精準動線</strong>：中央線快速（東京方面）停靠 <strong>JR 新宿站 1F 的 7／8 號月台</strong>。下車後<strong>不要亂走</strong>，直接抬頭找 <strong>「西改札（West Gate）」</strong> 指標下樓 ➔ 由 <strong>西改札</strong>出站，即可通往<strong>西口地下街與地面西口商圈</strong>。</li>
-<li>💡 <strong>省力乘車位置</strong>：搭車時盡量待在 <strong>8 號車廂行進方向第 4 個車門</strong>（近階梯）、<strong>7 號車廂第 1 個車門</strong>（近電梯，適合長輩）或 <strong>5 號車廂第 3 個車門</strong>（近手扶梯），下車後最快抵達西改札。</li>
+<li>🚶‍♂️ <strong>精準動線</strong>：從御茶之水往高尾方向的中央線快速，停靠 <strong>11／12 號月台</strong>（<strong>7／8 號月台是反方向、開往東京的</strong>，不要跟著走）。下車後<strong>不要亂走</strong>，抬頭找 <strong>「西改札（West Gate）」</strong> 指標下樓至 <strong>B1F</strong> ➔ 由 <strong>西改札</strong>出站，即進入 <strong>東西自由通路</strong>，可通往西口地下街與地面西口商圈。</li>
+<li>🚉 <strong>下車後往哪一端走</strong>：通往 <strong>B1F 東改札・西改札</strong> 的樓梯與電梯在月台的<strong>三鷹・八王子（高尾）那一端</strong>，也就是<strong>列車行進方向的前方</strong>。上車時盡量待在<strong>列車前段（約 9～12 號車廂）</strong>，下車後往前走幾步就到，不必走完整條月台。</li>
+<li>♿ <strong>長輩電梯</strong>：11／12 號月台下到 B1F 後，<strong>西改札正對面就是 L 號電梯</strong>。</li>
+</ul>
+<p></p>
+<p>📸 【辨識：JR 新宿站 B1F，11／12 號月台下樓後的位置關係】</p>
+<p><div class="itinerary-img-wrapper" style="margin: 10px 0; text-align: center;"><img src="./assets/images/shinjuku_b1f_west_gate.jpg" alt="JR 新宿站 B1F 構內圖，11／12 號月台的樓梯與手扶梯下到 B1F 後，左側即為西改札與東西自由通路" class="itinerary-img" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12);" /><p style="font-size: 0.82rem; color: #64748b; margin-top: 4px; font-style: italic;">JR 新宿站 B1F 構內圖，11／12 號月台的樓梯與手扶梯下到 B1F 後，左側即為西改札與東西自由通路</p></div></p>
+<p></p>
+<ul class="modal-list">
+<li>✔ <strong>看圖重點</strong>（JR 東日本官方構內圖，2026 年 8 月版）：</li>
+<li>圖中央標 <strong>「11, 12番線へ」</strong> 的樓梯與手扶梯，就是你下車後要走的方向。</li>
+<li>往<strong>左</strong>走到底的黃色標籤 <strong>「西改札」</strong> 就是出口，旁邊 <strong>L</strong> 是電梯。</li>
+<li>出改札後那條<strong>淺黃色縱向通道＝東西自由通路</strong>（改札外）。</li>
 </ul>
 </div>
 </details>
@@ -5957,8 +5982,16 @@
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <ul class="modal-list">
-<li>首選餐廳：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6892366,139.6981928&query_place_id=ChIJj8aWGtGMGGARxgm4q3X9Rt4" target="_blank"><strong>麥當勞 (マクドナルド 新宿西口店)</strong> 🔗</a> (西新宿 1-4-5 1F點餐 / 2F-3F座位區) 享用平價速食（推薦：日本限定蝦排堡、照燒豬肉堡、兒童快樂餐），人均約 ¥500～¥900。</li>
+<li>首選餐廳：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6892366,139.6981928&query_place_id=ChIJj8aWGtGMGGARxgm4q3X9Rt4" target="_blank"><strong>麥當勞 (マクドナルド 新宿西口店)</strong> 🔗</a> (西新宿 1-17-1 宍戸大樓 2F-3F 座位區) 享用平價速食（推薦：日本限定蝦排堡、照燒豬肉堡、兒童快樂餐），人均約 ¥500～¥900。營業時間 6:00－23:00、120 席。</li>
 <li>💡 <strong>點餐祕訣（全繁體中文自動點餐機）</strong>：多語言觸控點餐機支援繁體中文，出餐約 3～5 分鐘。</li>
+<li>🚶 <strong>從新宿站走過去（約 200 公尺、3 分鐘）</strong>：</li>
+</ul>
+<p>1. 由 <strong>西改札</strong> 出站，進入東西自由通路。</p>
+<p>2. 往<strong>左（西口方向）</strong>走，跟隨 <strong>「京王モール」</strong> 指標。</p>
+<p>3. 走到 <strong>「地上4出口」</strong> 上到地面，出來步行約 1 分鐘即達。</p>
+<ul class="modal-list">
+<li>💡 <strong>這家不繞路</strong>：它就在新宿站往<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6893249,139.6918129&query_place_id=ChIJ_UlItvCNGGARP1NMx2sFsYg" target="_blank">東京都廳 🔗</a>的直線上（距車站約 200 公尺、距都廳約 580 公尺），吃完<strong>繼續往西走就是都廳</strong>，不必回頭。</li>
+<li>⚠️ <strong>新宿西口施工中（至 2026 年 12 月）</strong>：舊小田急百貨店拆除工程進行中，地下與地面動線不定期變更（已知 11 番階梯封閉、改走臨時階梯）。若當天「地上4出口」不通，<strong>由任一西口上到地面往西走即可</strong>，不會走丟。</li>
 </ul>
 </div>
 <details>

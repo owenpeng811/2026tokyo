@@ -1248,7 +1248,10 @@ def render_full_pwa_html(meta, days_data):
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- 允許縮放：行程表內含站內構內圖（東京車站北自由通路、新宿 B1F 西改札），
+       禁止縮放時 Android 完全無法放大看地名。iOS 本來就會忽略 user-scalable=no，
+       等於只有 Android 被卡住。上限 5 倍，與 Docsify 版 index.html 一致。 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
   <meta name="theme-color" content="#12141c">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
