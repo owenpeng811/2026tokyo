@@ -438,6 +438,32 @@
       transform: translateY(-1px);
     }
 
+    /* 每日概況：只放會改變出門前準備的資訊（天氣、步行量、當天特有的攜帶物） */
+    .day-brief {
+      margin: 0 0 18px;
+      padding: 13px 15px;
+      border-radius: 14px;
+      background: rgba(56, 189, 248, 0.07);
+      border: 1px solid rgba(56, 189, 248, 0.22);
+      border-left: 3px solid rgba(56, 189, 248, 0.7);
+    }
+    .brief-row {
+      font-size: 0.85rem;
+      line-height: 1.65;
+      color: var(--text-secondary, #cbd5e1);
+      margin-bottom: 6px;
+    }
+    .brief-row:last-of-type { margin-bottom: 0; }
+    .brief-weather {
+      font-weight: 700;
+      color: var(--text-primary, #e2e8f0);
+    }
+    .brief-note {
+      margin-top: 9px;
+      font-size: 0.7rem;
+      color: var(--text-muted, #94a3b8);
+    }
+
     /* 「只看不可延誤」篩選列：獨立一列，不放進可橫向捲動的頁籤列裡以免被捲走 */
     .lock-filter-bar {
       display: flex;
@@ -980,6 +1006,12 @@
 
     <!-- Day 1 Section -->
     <div class="day-section" id="day1-section">
+      <div class="day-brief">
+        <div class="brief-row brief-weather">🌤️ 8/20（四）多雲時晴　23–33°C　降水 30%</div>
+        <div class="brief-row">🚶 <strong>步行量</strong>：<strong>少</strong>——大半時間在飛機與電車上，秋葉原只逛約 1 小時。<strong>涼鞋可</strong>。</div>
+        <div class="brief-note">天氣為 2026-08-18 17:00 發布（日本氣象廳），出發前請再確認</div>
+      </div>
+
       <div class="day-overview-header">
         <h2 class="day-overview-title">抵達東京 × 秋葉原慢遊</h2>
       </div>
@@ -1964,6 +1996,12 @@
 
     <!-- Day 2 Section -->
     <div class="day-section" id="day2-section" style="display: none;">
+      <div class="day-brief">
+        <div class="brief-row brief-weather">🌤️ 8/21（五）多雲短暫雨　24–32°C　<strong>降水 50%</strong></div>
+        <div class="brief-row">🚶 <strong>步行量</strong>：長輩組 <strong>多</strong>（上野公園環走約 1.5 公里）／親子組 <strong>最多</strong>（園內站走一整天）。兩組都<strong>穿好走的鞋</strong>，今天不適合涼鞋。</div>
+<div class="brief-row">☔ <strong>降水 50%，親子組整天在戶外</strong>：帶<strong>輕便雨衣</strong>比雨傘實用——排隊與看遊行時撐傘會擋到後面的人。</div><div class="brief-row">🔋 親子組帶<strong>行動電源</strong>：整天要用 App 查設施、排隊、拍照。</div>        <div class="brief-note">天氣為 2026-08-18 17:00 發布（日本氣象廳），出發前請再確認</div>
+      </div>
+
       <div class="day-overview-header">
         <h2 class="day-overview-title">雙線交織：上野漫遊 (長輩組) ＆ 迪士尼樂園 (親子組)</h2>
       </div>
@@ -3776,6 +3814,12 @@
 
     <!-- Day 3 Section -->
     <div class="day-section" id="day3-section" style="display: none;">
+      <div class="day-brief">
+        <div class="brief-row brief-weather">🌤️ 8/22（六）多雲短暫雨　24–32°C　<strong>降水 50%</strong></div>
+        <div class="brief-row">🚶 <strong>步行量</strong>：<strong>中等</strong>，但國立科學博物館站立時間長，腳的負擔比距離大。<strong>穿好走的鞋</strong>。</div>
+<div class="brief-row">💴 <strong>帶足夠現金</strong>：阿美橫丁的 OS Drug <strong>只收現金、不能刷卡</strong>，其餘攤商也多為現金。</div><div class="brief-row">🛍️ 帶<strong>折疊購物袋</strong>：今天是全程採買量最大的一天（菓子樂園＋阿美橫丁）。</div>        <div class="brief-note">天氣為 2026-08-18 17:00 發布（日本氣象廳），出發前請再確認</div>
+      </div>
+
       <div class="day-overview-header">
         <h2 class="day-overview-title">東京車站菓子樂園 × 科學博物館探險 × 阿美橫丁採買</h2>
       </div>
@@ -4749,6 +4793,12 @@
 
     <!-- Day 4 Section -->
     <div class="day-section" id="day4-section" style="display: none;">
+      <div class="day-brief">
+        <div class="brief-row brief-weather">🌤️ 8/23（日）多雲　24–31°C　降水 40%</div>
+        <div class="brief-row">🚶 <strong>步行量</strong>：<strong>中等</strong>（吉卜力美術館＋吉祥寺商圈與橫丁）。<strong>穿好走的鞋</strong>。</div>
+        <div class="brief-note">天氣為 2026-08-18 17:00 發布（日本氣象廳），出發前請再確認</div>
+      </div>
+
       <div class="day-overview-header">
         <h2 class="day-overview-title">吉卜力美術館 × 哈莫尼卡橫丁 × 吉祥寺商圈漫遊</h2>
       </div>
@@ -5442,6 +5492,12 @@
 
     <!-- Day 5 Section -->
     <div class="day-section" id="day5-section" style="display: none;">
+      <div class="day-brief">
+        <div class="brief-row brief-weather">🌤️ 8/24（一）多雲時晴　24–32°C　降水 30%</div>
+        <div class="brief-row">🚶 <strong>步行量</strong>：<strong>中等偏多</strong>（淺草寺參道＋晴空街道＋新宿）。<strong>穿好走的鞋</strong>。</div>
+<div class="brief-row">🧥 帶件<strong>薄外套</strong>：晚上都廳 45 樓展望室與地面的都民廣場風大，看夜景與光雕要站著。</div>        <div class="brief-note">天氣為 2026-08-18 17:00 發布（日本氣象廳），出發前請再確認</div>
+      </div>
+
       <div class="day-overview-header">
         <h2 class="day-overview-title">下町風情 × 晴空塔水族館 × 新宿都廳百萬夜景</h2>
       </div>
@@ -6859,6 +6915,12 @@
 
     <!-- Day 6 Section -->
     <div class="day-section" id="day6-section" style="display: none;">
+      <div class="day-brief">
+        <div class="brief-row brief-weather">🌤️ 8/25（二）多雲時晴　25–33°C　降水 30%</div>
+        <div class="brief-row">🚶 <strong>步行量</strong>：<strong>少</strong>，但<strong>築地場外市場地面常是濕的</strong>（攤商灑水、海鮮融冰），<strong>建議穿包鞋、不要涼鞋</strong>。</div>
+        <div class="brief-note">天氣為 2026-08-18 17:00 發布（日本氣象廳），出發前請再確認</div>
+      </div>
+
       <div class="day-overview-header">
         <h2 class="day-overview-title">築地晨間美食巡禮 × 回程前往機場</h2>
       </div>
@@ -7534,14 +7596,21 @@
     }
 
     // 換天時捲到「第一個還沒打勾的時段」，現場翻到當天就直接看到下一步要做什麼。
-    // 全部打勾或找不到時退回置頂，行為與改動前一致。
+    // 全部打勾或找不到時退回置頂。
+    //
+    // ⚠️ 但「那天一項都還沒勾」時一律停在頂部：那代表還沒開始這一天，
+    //    此時該先看到當日概況（天氣、步行量、要帶什麼）、當天主題與方案切換鈕。
+    //    無條件自動捲會把這三樣全部推出畫面，還要往回滑才看得到。
+    //    只有已經勾過幾項（行程進行中）才跳到下一步，那才是這功能有用的時機。
     function scrollToFirstUnchecked(day) {
       const toTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
       const sec = document.querySelectorAll('.day-section')[day - 1];
       if (day === 0 || !sec) return toTop();
       // offsetParent 為 null 代表被隱藏（例如另一個分支的卡片），要排除
-      const pending = [...sec.querySelectorAll('.check-wrapper input[type="checkbox"]')]
-        .filter(cb => cb.offsetParent !== null).find(cb => !cb.checked);
+      const boxes = [...sec.querySelectorAll('.check-wrapper input[type="checkbox"]')]
+        .filter(cb => cb.offsetParent !== null);
+      if (!boxes.some(cb => cb.checked)) return toTop();
+      const pending = boxes.find(cb => !cb.checked);
       const item = pending && (pending.closest('.timeline-item') || pending.closest('.timeline-card'));
       if (!item) return toTop();
       const header = document.querySelector('.app-header');
