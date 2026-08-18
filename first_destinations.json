@@ -7,6 +7,7 @@
   "4_返回淺草橋": "https://www.google.com/maps/search/?api=1&query=35.7031125,139.5801608&query_place_id=ChIJCalq8UfuGGARr6-Rc3R6atQ",
   "3_前往御徒町站搭車": "https://www.google.com/maps/search/?api=1&query=35.7075185,139.7748564&query_place_id=ChIJc-deL6COGGARRENyB-YX2eI",
   "5_返回淺草橋（新宿出發）": "https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJH7qx1tCMGGAR1f2s7PGhMhw",
+  "1_返回淺草橋（新宿出發）": "https://www.google.com/maps/search/?api=1&query=35.6895924,139.7004128&query_place_id=ChIJH7qx1tCMGGAR1f2s7PGhMhw",
   "3_前往上野": "https://www.google.com/maps/search/?api=1&query=35.6812996,139.7670659&query_place_id=ChIJC3Cf2PuLGGAROO00ukl8JwA",
   "5_前往淺草": "https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg",
   "5_前往台場（日本科學未來館）": "https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg",
@@ -14,6 +15,7 @@
   "6_領取行李並前往車站": "https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg",
   "6_前往羽田機場": "https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg",
   "2_前往東京迪士尼樂園": "https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg",
+  "1_前往新宿西口": "https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg",
   "3_KITTE 館內逛街避雨": "https://www.google.com/maps/search/?api=1&query=35.6797983,139.7648650&query_place_id=ChIJdUbpSvqLGGARCmbc6R7hZJ8",
   "3_KITTE頂樓花園眺望東京車站": "https://www.google.com/maps/search/?api=1&query=35.6795336,139.7654445&query_place_id=ChIJtZRvRvqLGGARdS57rQP2NEk",
   "3_前往阿美橫丁": "https://www.google.com/maps/search/?api=1&query=35.7108985,139.7748721&query_place_id=ChIJAQB_jZ-OGGARLPaThjF_JIQ",
@@ -51,6 +53,9 @@
   "5_前往東京都廳": "https://www.google.com/maps/search/?api=1&query=35.6893249,139.6918129&query_place_id=ChIJ_UlItvCNGGARP1NMx2sFsYg",
   "5_欣賞東京都廳南展望室夜景": "https://www.google.com/maps/search/?api=1&query=35.6893249,139.6918129&query_place_id=ChIJ_UlItvCNGGARP1NMx2sFsYg",
   "5_觀賞都廳光雕投影秀": "https://www.google.com/maps/search/?api=1&query=35.6893249,139.6918129&query_place_id=ChIJ_UlItvCNGGARP1NMx2sFsYg",
+  "1_前往東京都廳": "https://www.google.com/maps/search/?api=1&query=35.6893249,139.6918129&query_place_id=ChIJ_UlItvCNGGARP1NMx2sFsYg",
+  "1_欣賞東京都廳南展望室": "https://www.google.com/maps/search/?api=1&query=35.6893249,139.6918129&query_place_id=ChIJ_UlItvCNGGARP1NMx2sFsYg",
+  "1_觀賞都廳光雕投影秀": "https://www.google.com/maps/search/?api=1&query=35.6893249,139.6918129&query_place_id=ChIJ_UlItvCNGGARP1NMx2sFsYg",
   "5_前往東京晴空街道": "https://www.google.com/maps/search/?api=1&query=35.7119535,139.7983367&query_place_id=ChIJLyyKQTiPGGARsFv-uaDdzwo",
   "2_午餐：松屋": "https://www.google.com/maps/search/?api=1&query=35.712541,139.777373&query_place_id=ChIJm6bhuZ6OGGARPMoVjXV14NY",
   "2_走回上野站浅草口": "https://www.google.com/maps/search/?api=1&query=35.712541,139.777373&query_place_id=ChIJm6bhuZ6OGGARPMoVjXV14NY",
@@ -72,6 +77,7 @@
   "5_返回淺草橋（押上出發）": "https://www.google.com/maps/search/?api=1&query=35.7103320,139.8132971&query_place_id=ChIJaUNCPNaOGGARuV-q32bYbaE",
   "6_返回淺草橋飯店": "https://www.google.com/maps/search/?api=1&query=35.6697003,139.7672886&query_place_id=ChIJK2bxJueLGGARwHHeH52hGiM",
   "5_參觀淺草寺與雷門散策": "https://www.google.com/maps/search/?api=1&query=35.7111163,139.7963656&query_place_id=ChIJ0YwG28aOGGARvRKAXIBWqNk",
+  "1_晚餐：麥當勞": "https://www.google.com/maps/search/?api=1&query=35.6892366,139.6981928&query_place_id=ChIJj8aWGtGMGGARxgm4q3X9Rt4",
   "5_參觀千葉工大晴空塔城校區": "https://www.google.com/maps/search/?api=1&query=35.7100881,139.8126847&query_place_id=ChIJf__tZNKPGGARHmHIRs1s3Mw",
   "5_參觀郵政博物館": "https://www.google.com/maps/search/?api=1&query=35.7101874,139.8125818&query_place_id=ChIJ10y4FNaOGGARnQ23USYY0Ik"
 }

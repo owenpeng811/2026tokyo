@@ -426,6 +426,11 @@ CUSTOM_SUMMARIES_V10 = {
     (1, "🕹️ 日式夾娃娃機體驗"): f"日本大型電玩中心，日式夾娃娃機（UFO Catcher），預算約 ¥500～¥1,000。",
     (1, "日系拍貼機全家合影體驗"): f"<strong>全家合影紀念：</strong>全家 5 人拍貼，觸控塗鴉並現場列印全彩貼紙（¥500/次）。",
     (1, "晚餐：壽司郎（90 分鐘寬裕大啖平價迴轉壽司）"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('壽司郎 (スシロー 秋葉原駅前店)', '')}\" target=\"_blank\">壽司郎 秋葉原駅前店 🔗</a>（BiTO AKIBA B1F），迴轉壽司，人均 ¥1,000～¥1,800。<strong>已訂位</strong>，全中文觸控平板點餐。",
+    # ⚠️ Plan C 的三條必須排在 (1, "返回淺草橋") 之前：查表是雙向 substring 且 first match wins，
+    #    否則「返回淺草橋（新宿出發）」會被 Plan A 的「返回淺草橋」搶走，顯示成秋葉原路線。
+    (1, "前往新宿西口"): f"從 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 淺草橋站 (浅草橋駅)', '')}\" target=\"_blank\">JR 淺草橋站 🔗</a>（JB20）搭 🟡 JR 總武線各停往中野／三鷹方向，10 站直達新宿站（JB10），約 25 分鐘、不用換車。",
+    (1, "晚餐：麥當勞"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('麥當勞 (マクドナルド 新宿西口店)', '')}\" target=\"_blank\">麥當勞 新宿西口店 🔗</a>（西新宿 1-17-1），人均 ¥500～¥900，繁中點餐機。由西改札經 京王モール 地上4出口，走 3 分鐘。",
+    (1, "返回淺草橋（新宿出發）"): f"從 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 新宿站 (新宿駅)', '')}\" target=\"_blank\">JR 新宿站 🔗</a>（JB10）13 號月台搭 🟡 JR 總武線各停往千葉方向，10 站直達淺草橋站（JB20），約 25 分鐘。",
     (1, "返回淺草橋"): f"步行至 JR <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('秋葉原站', '')}\" target=\"_blank\">秋葉原站 🔗</a>，搭乘 JR 中央・總武線 1 站直達 淺草橋站 (車程 2 分鐘)。",
     (1, "🐈 欣賞新宿 3D 巨貓"): f"新宿東口站前廣場抬頭觀賞巨大 3D 三花貓演出，廣場平坦。",
     (1, "晚餐：Gusto 家庭餐廳"): f"<strong>首選餐廳：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('Gusto (ガスト 新宿NOWAビル店)', '')}\" target=\"_blank\">🍽️ Gusto 新宿NOWAビル店 (7F) 🔗</a> 享用平價日式家庭料理（漢堡排定食，人均 ¥800～¥1,200），全中文平板點餐、貓咪送餐機器人。<br><strong>備案：</strong><a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('LUMINE EST 餐廳街 (ルミネエスト新宿 7&8 DINER)', '')}\" target=\"_blank\">LUMINE EST 餐廳街 🔗</a> (7F/8F 蛋包飯/日式洋食)。",
@@ -526,7 +531,7 @@ def parse_v10_markdown():
     meta['preamble'] = pre_match.group(1).strip() if pre_match else ''
 
     days_data = {
-        1: {'common_before': [], 'plan_a': [], 'plan_b': [], 'common_after': []},
+        1: {'common_before': [], 'plan_a': [], 'plan_b': [], 'plan_c': [], 'common_after': []},
         2: {'parents': {'common_before': [], 'sunny': [], 'rainy': [], 'common_after': []}, 'kids': []},
         3: {'common_before': [], 'sunny': [], 'rainy': [], 'common_after': []},
         4: [],
@@ -556,6 +561,9 @@ def parse_v10_markdown():
                 continue
             elif 'Plan B' in h:
                 current_sub = 'plan_b'
+                continue
+            elif 'Plan C' in h:
+                current_sub = 'plan_c'
                 continue
 
             h_clean = h.replace('####', '').replace('###', '').replace('**', '').strip()
@@ -1090,6 +1098,7 @@ def render_full_pwa_html(meta, days_data):
         <div class="sub-toggle-container">
           <button class="sub-toggle-btn active" onclick="switchDay1Plan('A')">🌟 Plan A：秋葉原漫遊（拍貼/扭蛋/壽司郎）</button>
           <button class="sub-toggle-btn" onclick="switchDay1Plan('B')">🌃 Plan B：新宿 3D 巨貓（Gusto家庭餐廳）</button>
+          <button class="sub-toggle-btn" onclick="switchDay1Plan('C')">🌇 Plan C：都廳夕陽夜景（條件啟動）</button>
         </div>
       </div>
 """
@@ -1105,7 +1114,12 @@ def render_full_pwa_html(meta, days_data):
     for idx, it in enumerate(days_data[1]['plan_b']):
         timeline_html += build_card_html(f"d1-pb{idx}", it)
     timeline_html += '      </div>\n'
-    
+
+    timeline_html += '      <div class="day1-plan-C" style="display: none;">\n'
+    for idx, it in enumerate(days_data[1]['plan_c']):
+        timeline_html += build_card_html(f"d1-pc{idx}", it)
+    timeline_html += '      </div>\n'
+
     for idx, it in enumerate(days_data[1]['common_after']):
         timeline_html += build_card_html(f"d1-ca{idx}", it)
     timeline_html += '    </div>\n\n'
@@ -2242,12 +2256,16 @@ def render_full_pwa_html(meta, days_data):
     }}
 
     function switchDay1Plan(plan) {{
+      // Day 1 有三案：A 秋葉原、B 新宿 3D 巨貓、C 都廳夕陽夜景（條件啟動）
+      const plans = ['A', 'B', 'C'];
+      if (!plans.includes(plan)) plan = 'A';
       localStorage.setItem('branchDay1', plan);
-      const isPlanA = plan === 'A';
-      document.querySelectorAll('#day1-section .sub-toggle-btn')[0].classList.toggle('active', isPlanA);
-      document.querySelectorAll('#day1-section .sub-toggle-btn')[1].classList.toggle('active', !isPlanA);
-      document.querySelector('.day1-plan-A').style.display = isPlanA ? 'block' : 'none';
-      document.querySelector('.day1-plan-B').style.display = isPlanA ? 'none' : 'block';
+      const btns = document.querySelectorAll('#day1-section .sub-toggle-btn');
+      plans.forEach((p, i) => {{
+        if (btns[i]) btns[i].classList.toggle('active', p === plan);
+        const box = document.querySelector('.day1-plan-' + p);
+        if (box) box.style.display = (p === plan) ? 'block' : 'none';
+      }});
       updateLockHint();
     }}
 
