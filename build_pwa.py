@@ -430,6 +430,7 @@ CUSTOM_SUMMARIES_V10 = {
     #    否則「返回淺草橋（新宿出發）」會被 Plan A 的「返回淺草橋」搶走，顯示成秋葉原路線。
     (1, "前往新宿西口"): f"從 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 淺草橋站 (浅草橋駅)', '')}\" target=\"_blank\">JR 淺草橋站 🔗</a>（JB20）搭 🟡 JR 總武線各停往中野／三鷹方向，10 站直達新宿站（JB10），約 25 分鐘、不用換車。",
     (1, "晚餐：麥當勞"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('麥當勞 (マクドナルド 新宿西口店)', '')}\" target=\"_blank\">麥當勞 新宿西口店 🔗</a>（西新宿 1-17-1），人均 ¥500～¥900，繁中點餐機。由西改札經 京王モール 地上4出口，走 3 分鐘。",
+    (1, "欣賞東京都廳南展望室夕陽與夜景"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('東京都廳南展望室 (東京都庁 南展望室)', '')}\" target=\"_blank\">都廳南展望室 🔗</a>（45F）免費。8/20 日落 18:25，常態排隊 20～30 分鐘，17:50 到才趕得上夕陽；超過 45 分鐘就放棄。",
     (1, "返回淺草橋（新宿出發）"): f"從 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('JR 新宿站 (新宿駅)', '')}\" target=\"_blank\">JR 新宿站 🔗</a>（JB10）13 號月台搭 🟡 JR 總武線各停往千葉方向，10 站直達淺草橋站（JB20），約 25 分鐘。",
     (1, "返回淺草橋"): f"步行至 JR <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('秋葉原站', '')}\" target=\"_blank\">秋葉原站 🔗</a>，搭乘 JR 中央・總武線 1 站直達 淺草橋站 (車程 2 分鐘)。",
     (1, "🐈 欣賞新宿 3D 巨貓"): f"新宿東口站前廣場抬頭觀賞巨大 3D 三花貓演出，廣場平坦。",
