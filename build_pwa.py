@@ -490,6 +490,8 @@ CUSTOM_SUMMARIES_V10 = {
     (5, "晚餐：宮武讚岐烏龍麵"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('宮武讚岐烏龍麵 (宮武讃岐うどん 東京ソラマチ店)', '')}\" target=\"_blank\">宮武讚岐烏龍麵 🔗</a>（西館 3F 美食街 タベテラス），人均 ¥700～¥1,000。備案一風堂、松屋同一層。",
     (5, "晚餐：麥當勞"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('麥當勞 (マクドナルド 新宿西口店)', '')}\" target=\"_blank\">麥當勞 新宿西口店 🔗</a>（1F 點餐、2F–3F 座位區），人均 ¥500～¥900。<strong>點餐機支援繁體中文</strong>。",
     (5, "前往東京都廳"): f"17:35 出餐廳沿 ふれあい通り 往西 700 公尺到 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('東京都廳 (東京都庁)', '')}\" target=\"_blank\">東京都廳 🔗</a>，約 10 分鐘、全程平坦。最後直行到高架下再左轉，展望室入口在右側。",
+    (5, "參觀千葉工大晴空塔城校區"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('千葉工業大學晴空塔城校區', '')}\" target=\"_blank\">千葉工大晴空塔城校區 🔗</a>（ソラマチ 8F）免費入館。看災害應變機器人與「隼鳥二號」實物大模型，有 300 吋宇宙劇院。",
+    (5, "參觀郵政博物館"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('郵政博物館', '')}\" target=\"_blank\">郵政博物館 🔗</a>（ソラマチ 9F）大人 ¥300、中小學生 ¥150，五人約 ¥1,200。可玩「Go!Go! ポストマン」送信模擬機，17:00 前要入館。",
     (5, "欣賞東京都廳南展望室夜景"): f"🔒 <strong>最慢 17:50 要上去</strong>——8/24 日落約 <strong>18:21</strong>，趕在日落前才看得到「夕陽＋夜景」兩種樣子；18:30 起是安檢尖峰。搭專用直達電梯上 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('東京都廳南展望室 (東京都庁 南展望室)', '')}\" target=\"_blank\">45 樓南展望室 🔗</a>，免費入場。",
     (5, "觀賞都廳光雕投影秀"): f"看 <strong>19:00－19:15</strong> 這場，共 15 分鐘。<strong>要下樓到地面的都民廣場看</strong>，45 樓展望室看不到。免費、不需預約。8/24 為平日場，沒有哥吉拉與寶可夢。",
     (5, "午餐：そじ坊"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('信州蕎麥處 そじ坊 (そじ坊 ダイバーシティ東京プラザ店)', '')}\" target=\"_blank\">そじ坊 🔗</a>（DiverCity 6F 餐廳街），手打蕎麥麵，人均 ¥900～¥1,500。菜單附英文。",

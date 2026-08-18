@@ -3613,6 +3613,42 @@
       "verified_name": "銀之鈴",
       "verified_address": "日本〒100-0005 Tokyo, Chiyoda City, Marunouchi, 1 Chome−9−1 東京駅 改札内 地下１階",
       "verified_source": "以 Google Maps 網頁版查得；place_id 由 URL 的 ftid 換算後，再以 maps/place/?q=place_id: 反查確認回到同名同地址。本端無 API key，verified_name／verified_address 為 Google Maps 網頁版顯示值。東京車站的知名會合地標，位於改札內 B1F，周邊即 GRANSTA 東京的甜點櫃位區。東京 Suica 企鵝奶油夾心餅乾在此區販售，該商品本身無獨立店舖 POI，故以銀之鈴作為定位地標。"
+    },
+    "千葉工業大學晴空塔城校區 (千葉工業大学 東京スカイツリータウンキャンパス)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7100881,139.8126847&query_place_id=ChIJf__tZNKPGGARHmHIRs1s3Mw",
+      "nav_dict": [
+        "千葉工業大學晴空塔城校區 (千葉工業大学 東京スカイツリータウンキャンパス)",
+        "千葉工業大學晴空塔城校區"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "5_參觀千葉工大晴空塔城校區"
+      ],
+      "html": [
+        "千葉工業大學晴空塔城校區"
+      ],
+      "verified_at": "2026-08-19",
+      "verified_name": "千葉工業大学 東京スカイツリータウンキャンパス",
+      "verified_address": "日本、〒131-0045 東京都墨田区押上１丁目１−２ ソラマチ8F",
+      "verified_source": "以 Google Maps 搜尋列表頁取得 Google 自身回傳的 !19s place_id，並以 maps/place/?q=place_id: 反查確認回到同一 POI（名稱、地址、座標一致）。另以 URL 的 ftid 換算交叉比對，結果相同。verified_* 取自 Google Maps 網頁介面 hl=ja 顯示值，非 Places API 回傳（本機無 API key）。 反查時預設語系顯示為 Dome Garden（英文展區名），改 hl=ja 後回到正式館名。"
+    },
+    "郵政博物館 (郵政博物館)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7101874,139.8125818&query_place_id=ChIJ10y4FNaOGGARnQ23USYY0Ik",
+      "nav_dict": [
+        "郵政博物館 (郵政博物館)",
+        "郵政博物館"
+      ],
+      "text_entities": [],
+      "first_dest": [
+        "5_參觀郵政博物館"
+      ],
+      "html": [
+        "郵政博物館"
+      ],
+      "verified_at": "2026-08-19",
+      "verified_name": "郵政博物館",
+      "verified_address": "日本、〒131-8139 東京都墨田区押上１丁目１−２ 東京スカイツリータウン・ソラマチ9F",
+      "verified_source": "以 Google Maps 搜尋列表頁取得 Google 自身回傳的 !19s place_id，並以 maps/place/?q=place_id: 反查確認回到同一 POI（名稱、地址、座標一致）。另以 URL 的 ftid 換算交叉比對，結果相同。verified_* 取自 Google Maps 網頁介面 hl=ja 顯示值，非 Places API 回傳（本機無 API key）。"
     }
   }
 }
