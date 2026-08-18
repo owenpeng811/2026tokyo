@@ -459,8 +459,8 @@ CUSTOM_SUMMARIES_V10 = {
     (2, "前往 Reach for the Stars 免費鑑賞區"): f"遊行結束後直接移動至 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('夥伴雕像 (パートナーズ像)', '')}\" target=\"_blank\"><strong>Partners Statue（夥伴銅像）</strong> 🔗</a> 附近或 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('城堡前廣場 (プラザ)', '')}\" target=\"_blank\">Plaza 廣場 🔗</a> 中後方免費區。",
     (2, "城堡投影秀 Reach for the Stars"): f"<strong>固定核心（雨天正常演出才看）</strong>。Everlasting Dreams 夏季特別版，3D 燈光投影與焰火震撼演出。",
     (2, "世界市集紀念品採買與出園"): f"於 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('世界市集 (ワールドバザール)', '')}\" target=\"_blank\">世界市集 🔗</a> 採買紀念品與伴手禮，前往東巴士總站搭車。",
-    (2, "返回淺草橋（親子組）"): f"<strong>首選（直達巴士）：</strong>出園至巴士總站 11 號站牌搭乘直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('秋葉原站東口 (秋葉原駅東口交通広場)', '')}\" target=\"_blank\"><strong>秋葉原站東口</strong> 🔗</a> 的高速巴士（車程約 35-45 分鐘，上車有座位一路睡回秋葉原），轉總武線 1 站回淺草橋。<br><strong>備案：</strong>舞濱 ➔ 八丁堀 (京葉線) ➔ 秋葉原 (日比谷線) ➔ 淺草橋。",
-    (2, "返回淺草橋"): f"<strong>首選（直達巴士）：</strong>出園至巴士總站 11 號站牌搭乘直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('秋葉原站東口 (秋葉原駅東口交通広場)', '')}\" target=\"_blank\"><strong>秋葉原站東口</strong> 🔗</a> 的高速巴士（車程約 35-45 分鐘，上車有座位一路睡回秋葉原），轉總武線 1 站回淺草橋。<br><strong>備案：</strong>舞濱 ➔ 八丁堀 (京葉線) ➔ 秋葉原 (日比谷線) ➔ 淺草橋。",
+    (2, "返回淺草橋（親子組）"): f"🚆 <strong>搭電車</strong>：舞濱 ➔ 八丁堀（京葉線 5 站）➔ 秋葉原（日比谷線 4 站）➔ <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('淺草橋站 (浅草橋駅)', '')}\" target=\"_blank\">淺草橋 🔗</a>（總武線 1 站）。⏰ <strong>末班：舞濱 23:49 發、00:32 抵達</strong>，21:40 出園很充裕。🚌 高速巴士末班 20:15、且只有 16:25 那班到秋葉原，<strong>本行程趕不上</strong>。",
+    (2, "返回淺草橋"): f"🚆 <strong>搭電車</strong>：舞濱 ➔ 八丁堀（京葉線 5 站）➔ 秋葉原（日比谷線 4 站）➔ <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('淺草橋站 (浅草橋駅)', '')}\" target=\"_blank\">淺草橋 🔗</a>（總武線 1 站）。⏰ <strong>末班：舞濱 23:49 發、00:32 抵達</strong>，21:40 出園很充裕。🚌 高速巴士末班 20:15、且只有 16:25 那班到秋葉原，<strong>本行程趕不上</strong>。",
 
     # Day 3
     (3, "搭乘 JR 前往東京車站"): f"🚪 <strong>西口進站</strong>。淺草橋 ➔ 秋葉原 ➔<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('東京站', '')}\" target=\"_blank\">東京站 🔗</a> (JR 山手線，車程 8 分鐘)。",
@@ -957,6 +957,15 @@ def build_card_html(item_id, item):
             f'onclick="openOriginalModal(\'card-item-{item_id}\')">{label}</button>'
         )
 
+    # 內文寫了 🔒 的時段＝錯過就損失（一天一場的表演、已訂位、預約制入場）。
+    # 與 🚻 同樣採內容偵測，不硬編清單；日後在 README 加 🔒 段落會自動長出標籤。
+    lock_tag_html = ""
+    if '🔒' in item.get('html_content', ''):
+        lock_tag_html = (
+            f'<button class="tag tag-lock" title="這個時間錯過就沒了，點我展開完整說明" '
+            f'onclick="openOriginalModal(\'card-item-{item_id}\')">🔒 不可延誤</button>'
+        )
+
     # 內文寫了 🚻 廁所指引的時段（多為戶外久待），在卡片上掛一個可點的標籤，
     # 讓人不用展開完整說明就知道這段有先查好廁所。用內容偵測而非硬編清單，
     # 之後在 README 再加 🚻 段落會自動長出標籤。
@@ -985,7 +994,7 @@ def build_card_html(item_id, item):
           <div class="card-header">
             <span class="card-time">{item['time']}</span>
             <div class="card-tags">
-              {ticket_tag_html}{toilet_tag_html}{article_tag_html}<span class="tag tag-{item['category']}">{item['category_icon']} {item['category_zh']}</span>
+              {lock_tag_html}{ticket_tag_html}{toilet_tag_html}{article_tag_html}<span class="tag tag-{item['category']}">{item['category_icon']} {item['category_zh']}</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -1613,6 +1622,22 @@ def render_full_pwa_html(meta, days_data):
     }}
     .tag-article:hover, .tag-article:active {{
       background: rgba(245, 158, 11, 0.38);
+      transform: translateY(-1px);
+    }}
+
+    /* 不可延誤：錯過就損失的時段。用最搶眼的紅色，優先度高於其他標籤 */
+    .tag-lock {{
+      background: rgba(239, 68, 68, 0.26);
+      color: #fca5a5;
+      border: 1px solid rgba(239, 68, 68, 0.6);
+      font-family: inherit;
+      font-weight: 700;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }}
+    .tag-lock:hover, .tag-lock:active {{
+      background: rgba(239, 68, 68, 0.42);
       transform: translateY(-1px);
     }}
 

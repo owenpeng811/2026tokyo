@@ -438,6 +438,22 @@
       transform: translateY(-1px);
     }
 
+    /* 不可延誤：錯過就損失的時段。用最搶眼的紅色，優先度高於其他標籤 */
+    .tag-lock {
+      background: rgba(239, 68, 68, 0.26);
+      color: #fca5a5;
+      border: 1px solid rgba(239, 68, 68, 0.6);
+      font-family: inherit;
+      font-weight: 700;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+    .tag-lock:hover, .tag-lock:active {
+      background: rgba(239, 68, 68, 0.42);
+      transform: translateY(-1px);
+    }
+
     /* 戶外久待、已先查好廁所位置的時段：點擊直接開啟完整說明抽屜 */
     .tag-toilet {
       background: rgba(56, 189, 248, 0.18);
@@ -1549,7 +1565,7 @@
           <div class="card-header">
             <span class="card-time">17:30－19:00</span>
             <div class="card-tags">
-              <span class="tag tag-ticket-booked">🍽️ 已訂位</span><span class="tag tag-food">🍜 美食</span>
+              <button class="tag tag-lock" title="這個時間錯過就沒了，點我展開完整說明" onclick="openOriginalModal('card-item-d1-pa4')">🔒 不可延誤</button><span class="tag tag-ticket-booked">🍽️ 已訂位</span><span class="tag tag-food">🍜 美食</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -1564,6 +1580,9 @@
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <p>🎫 <strong>票務狀態：已訂位</strong></p>
+</div>
+<div class="modal-quote">
+<p>🔒 <strong>不可延誤：17:30 已訂位</strong>。遲到餐廳不保留，且會壓縮 90 分鐘的用餐時間。</p>
 </div>
 <div class="modal-quote">
 <ul class="modal-list">
@@ -3210,7 +3229,7 @@
           <div class="card-header">
             <span class="card-time">17:00</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-lock" title="這個時間錯過就沒了，點我展開完整說明" onclick="openOriginalModal('card-item-d2k-6')">🔒 不可延誤</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -3224,6 +3243,7 @@
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-6')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>🔒 <strong>不可延誤：17:00 開演，一天只有這一場</strong>，全程約 45 分鐘，錯過就沒有第二次。</p>
 <ul class="modal-list">
 <li>🟡 <strong>定位</strong>：有空且晴天才看，不是固定必看項目；<strong>雨天優先放棄</strong>。</li>
 <li>⏰ <strong>8/21 官方場次為 17:00，一天只有這一場</strong>；官方演出頁標示公演時間<strong>約 45 分鐘</strong>。</li>
@@ -3328,7 +3348,7 @@
           <div class="card-header">
             <span class="card-time">18:15－18:30</span>
             <div class="card-tags">
-              <button class="tag tag-toilet" title="此時段已查好廁所位置，點我展開完整說明" onclick="openOriginalModal('card-item-d2k-9')">🚻 廁所</button><span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-lock" title="這個時間錯過就沒了，點我展開完整說明" onclick="openOriginalModal('card-item-d2k-9')">🔒 不可延誤</button><button class="tag tag-toilet" title="此時段已查好廁所位置，點我展開完整說明" onclick="openOriginalModal('card-item-d2k-9')">🚻 廁所</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -3342,6 +3362,9 @@
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-9')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>🔒 <strong>不可延誤：18:15 開始卡位</strong>。晚到就只剩後排視野，19:45 開演前不會再有位置。</p>
+</div>
+<div class="modal-quote">
 <ul class="modal-list">
 <li>🔴 <strong>本日固定節點</strong>（19:45 開演，不購買 DPA，策略為「<strong>免費＋合理視野＋最大化遊樂時間</strong>」）。</li>
 <li>🪑 約 <strong>18:15～18:30</strong> 開始尋找位置，優先考慮 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6321136,139.8808623&query_place_id=ChIJddVMuXN9GGARaS2CaOt1GUY" target="_blank"><strong>灰姑娘城堡 (シンデレラ城)</strong> 🔗</a> 前 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ" target="_blank"><strong>城堡前廣場 (プラザ)</strong> 🔗</a>（圓環 Plaza）附近。</li>
@@ -3366,7 +3389,7 @@
           <div class="card-header">
             <span class="card-time">19:45－20:30</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-lock" title="這個時間錯過就沒了，點我展開完整說明" onclick="openOriginalModal('card-item-d2k-10')">🔒 不可延誤</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -3378,6 +3401,9 @@
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-10')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>🔒 <strong>不可延誤：19:45 開演，一天只有這一場</strong>，全長約 45 分鐘。</p>
+</div>
+<div class="modal-quote">
 <ul class="modal-list">
 <li>🔴 <strong>固定核心／建議必看</strong>：全長約 45 分鐘，燈光花車遊行，可坐著休息。</li>
 <li>💰 不買 DPA，於免費鑑賞區享受合理視野。看完後直接準備移動銜接城堡投影秀。</li>
@@ -3435,7 +3461,7 @@
           <div class="card-header">
             <span class="card-time">20:55</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-lock" title="這個時間錯過就沒了，點我展開完整說明" onclick="openOriginalModal('card-item-d2k-12')">🔒 不可延誤</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -3447,6 +3473,9 @@
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-12')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>🔒 <strong>不可延誤：20:55 開演，一天只有這一場</strong>，也是當天最後一個節目。</p>
+</div>
+<div class="modal-quote">
 <ul class="modal-list">
 <li>🔴 <strong>晴天固定核心（雨天以官方確認正常演出為準）</strong>：2026/8/21 屬於 Everlasting Dreams 夏季特別版期間，結合漫威、大英雄天團與迪士尼經典動畫的 3D 燈光投影與焰火秀。</li>
 <li>💰 不購買 DPA，於免費區欣賞，看完後順著人潮直接前往世界市集採買離園。</li>
@@ -3581,7 +3610,7 @@
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary"><strong>首選（直達巴士）：</strong>出園至巴士總站 11 號站牌搭乘直達 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6987386,139.7726645&query_place_id=ChIJy09DJACNGGARbMLEHxY_6MA" target="_blank"><strong>秋葉原站東口</strong> 🔗</a> 的高速巴士（車程約 35-45 分鐘，上車有座位一路睡回秋葉原），轉總武線 1 站回淺草橋。<br><strong>備案：</strong>舞濱 ➔ 八丁堀 (京葉線) ➔ 秋葉原 (日比谷線) ➔ 淺草橋。</p>
+            <p class="card-summary">🚆 <strong>搭電車</strong>：舞濱 ➔ 八丁堀（京葉線 5 站）➔ 秋葉原（日比谷線 4 站）➔ <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg" target="_blank">淺草橋 🔗</a>（總武線 1 站）。⏰ <strong>末班：舞濱 23:49 發、00:32 抵達</strong>，21:40 出園很充裕。🚌 高速巴士末班 20:15、且只有 16:25 那班到秋葉原，<strong>本行程趕不上</strong>。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d2k-16')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
@@ -3592,30 +3621,33 @@
 </div>
 <div class="modal-quote">
 <ul class="modal-list">
-<li>✅ <strong>Plan A（首選：直達高速巴士，免轉乘一路睡回秋葉原）</strong>：</li>
-<li><strong>乘車地點</strong>：出園剪票口後往右前方步行約 2 分鐘，至迪士尼樂園正門外「東巴士總站東面（Bus Terminal East）」<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6328964,139.8803943&query_place_id=ChIJszdHEQN9GGARy9MJ1TY22eQ" target="_blank"><strong>東京迪士尼樂園東巴士總站 (東京ディズニーランド・バスターミナル・イースト)</strong> 🔗</a>（<a class="map-link-inline" href="https://maps.app.goo.gl/EkzBtj7Q6RDJCh2C6" target="_blank">短網址備用導航 🔗 🔗</a>）。</li>
-<li>🚨 <strong>請排「11 番のりば」，不是 1 番</strong>：依官方乘車處對照表，<strong>秋葉原駅、東京駅、<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.7100627,139.8107004&query_place_id=ChIJ35ov0dCOGGARKvdDH7NPHX0" target="_blank">晴空塔 🔗</a>、錦糸町都在 11 番</strong>；<strong>1 番是新宿、池袋、吉祥寺、調布線</strong>。站牌立柱上有行先標示，上車前務必再確認一次寫的是「秋葉原駅」。</li>
-<li><strong>巴士特徵與路線</strong>：搭乘京成巴士 (Keisei Bus) 或東京灣城市交通 (Tokyo Bay City Bus) 高速巴士直達 <strong>秋葉原站東口</strong>。車程約 35～45 分鐘，每人一個座位，免轉乘。</li>
-<li><strong>抵達與轉乘</strong>：抵達秋葉原站東口後，步行 1 分鐘進 <strong>JR 秋葉原站（JB19）</strong> 閘門，於 5F 6 號月台搭乘 <strong>🟡 JR 中央・總武線（JB）</strong> 往 <strong>千葉（Chiba／JB39） 方向</strong>，搭乘 <strong>1 站</strong>（車程約 2 分鐘）即返抵 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg" target="_blank"><strong>淺草橋站 (浅草橋駅)</strong> 🔗</a>（<strong>JB20</strong>）。</li>
+<li>✅ <strong>首選：電車（本行程唯一可行的方式）</strong>：</li>
 </ul>
-</div>
-<details>
-<summary>🔰 迪士尼回程高速巴士搭乘 3 大關鍵技巧（點擊展開）</summary>
-<div class="modal-quote">
-<ul class="modal-list">
-<li><strong>先到先排隊免預約</strong>：採現場排隊上車制（無需提前購票或劃位，客滿即發車或等下一班車）。</li>
-<li><strong>前門上車感應刷卡</strong>：票價為大人 ¥1,000 / 兒童 ¥500。上車時由<strong>前門上車</strong>並直接以手機/實體 Suica 感應付款即可。</li>
-<li><strong>嬰兒車與戰利品放行李艙</strong>：若有折疊嬰兒車或大包戰利品，上車前可請司機開啟車側下層行李艙免費放置。</li>
-<li><strong>行駛高速公路嚴禁站立</strong>：高速巴士行駛首都高速道路，上車後請務必全程繫好安全帶，等車輛停妥開門後再起立下車。</li>
-</ul>
-</div>
-</details>
-<details>
-<summary>🚆 Plan B 備案：電車轉乘路線（若巴士滿載或班次無法配合）（點擊展開）</summary>
-<div class="modal-quote">
 <p>1. 於 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6361543,139.8838749&query_place_id=ChIJU8HXjRF9GGARwy_hGqDRvhE" target="_blank"><strong>JR 舞濱站 (舞浜駅)</strong> 🔗</a>（<strong>JE07</strong>） 南口進站，搭乘 <strong>🔴 JR 京葉線（JE）</strong> 往 <strong>東京（Tokyo／JE01） 方向</strong>（2 號月台），搭乘 <strong>5 站</strong> 至 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6746248,139.7768846&query_place_id=ChIJO1wpfl6JGGARjNtDmO2lRrI" target="_blank"><strong>八丁堀站 (八丁堀駅)</strong> 🔗</a>（<strong>JE02</strong>）（車程約 12 分鐘）。</p>
 <p>2. 經地下連通道轉乘 <strong>⚪ 東京 Metro 日比谷線（H） 八丁堀站（H12）</strong>，於 2 號月台搭乘往 <strong>北千住（Kita-senju／H22） 方向</strong> 列車，搭乘 <strong>4 站</strong> 至 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.698383,139.7730717&query_place_id=ChIJKTP54qeOGGARsZf1fyU2jxU" target="_blank"><strong>秋葉原站 (秋葉原駅)</strong> 🔗</a>（<strong>H16</strong>）（車程約 8 分鐘）。</p>
-<p>3. 抵達秋葉原站後，轉乘 <strong>🟡 JR 中央・總武線（JB）</strong> 往 <strong>千葉（Chiba／JB39） 方向</strong>，搭乘 <strong>1 站</strong> 直達 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg" target="_blank"><strong>淺草橋站 (浅草橋駅)</strong> 🔗</a>（<strong>JB20</strong>）返抵飯店休息。</p>
+<p>3. 抵達秋葉原站後，轉乘 <strong>🟡 JR 中央・總武線（JB）</strong> 往 <strong>千葉（Chiba／JB39） 方向</strong>，搭乘 <strong>1 站</strong> 直達 <a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6974952,139.7859834&query_place_id=ChIJr-AfyrOOGGARWBazD9OfYeg" target="_blank"><strong>淺草橋站 (浅草橋駅)</strong> 🔗</a>（<strong>JB20</strong>）返抵飯店。</p>
+<ul class="modal-list">
+<li>⏰ <strong>末班車底線（8/21 星期五實查）</strong>：<strong>舞濱 23:49 發車、00:32 抵達淺草橋，是當天最後一班回得了飯店的車</strong>。再晚一班（00:01 發）京葉線雖然還有，但日比谷線與總武線已收班，會卡在中途等到隔天 04:33 才到。<strong>21:40 出園離末班還有 2 小時，非常充裕。</strong></li>
+</ul>
+</div>
+<details>
+<summary>🚌 為什麼不搭高速巴士？（本行程用不到，點擊展開）</summary>
+<div class="modal-quote">
+<p>🚨 <strong>結論：21:40 出園趕不上任何一班，本行程一律搭電車。</strong></p>
+</div>
+<div class="modal-quote">
+<p>📄 官方時刻表：<a class="map-link-inline" href="http://time.jrbuskanto.co.jp/bk04090.html" target="_blank">JR 巴士關東：東京～東京迪士尼度假區・新浦安 數位時刻表 🔗</a>｜<a class="map-link-inline" href="https://www.keiseibus.co.jp/express-bus/90401-2/" target="_blank">京成巴士：東京駅～東京迪士尼度假區・新浦安地區路線頁 🔗</a></p>
+</div>
+<div class="modal-quote">
+<p><strong>東京迪士尼樂園發車時刻（全日，平日與假日相同）</strong></p>
+<p></p>
+<div class="prep-table-wrap"><table class="prep-table"><thead><tr><th>樂園發</th><th>東京駅著</th><th>秋葉原著</th></tr></thead><tbody><tr><td><strong>16:25</strong></td><td>17:00</td><td><strong>17:20</strong></td></tr><tr><td>17:35</td><td>18:10</td><td>—</td></tr><tr><td>19:20</td><td>19:55</td><td>—</td></tr><tr><td><strong>20:15</strong>（末班）</td><td>20:50</td><td>—</td></tr></tbody></table></div>
+<p></p>
+<ul class="modal-list">
+<li>⏰ <strong>末班是 20:15</strong>，你們 21:40 出園時早就沒有車了。</li>
+<li>🚨 <strong>而且直達秋葉原的全日只有 16:25 那一班</strong>，其餘三班只到東京駅，到了還要再轉車。</li>
+<li>💡 <strong>什麼情況才用得到</strong>：若某次改成<strong>傍晚就離園</strong>（例如放棄 20:55 城堡投影秀、19:20 前出園），才有搭巴士的空間。乘車處為東巴士總站 <strong>11 番のりば</strong>（<strong>不是 1 番</strong>，1 番是新宿・池袋・吉祥寺線），現場排隊、前門上車刷 Suica。</li>
+</ul>
 </div>
 </details>
             </div>
@@ -3984,7 +4016,7 @@
           <div class="card-header">
             <span class="card-time">11:00－11:20</span>
             <div class="card-tags">
-              <span class="tag tag-transport">🚆 交通</span>
+              <button class="tag tag-lock" title="這個時間錯過就沒了，點我展開完整說明" onclick="openOriginalModal('card-item-d3-s2')">🔒 不可延誤</button><span class="tag tag-transport">🚆 交通</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -3998,6 +4030,9 @@
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d3-s2')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>🔒 <strong>不可延誤：11:00 才開放，本段只有 20 分鐘</strong>。太早到上不去，太晚到會壓縮到 11:20 的移動時間。</p>
+</div>
+<div class="modal-quote">
 <ul class="modal-list">
 <li>目標地點：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.6795336,139.7654445&query_place_id=ChIJtZRvRvqLGGARdS57rQP2NEk" target="_blank"><strong>KITTE花園 (ＫＩＴＴＥガーデン)</strong> 🔗</a> (KITTE丸之內 6F)</li>
 <li>⚠️ <strong>開放時間提醒</strong>：週六 <strong>11:00</strong> 準時開放，請勿提早上樓——<strong>這是本段順序這樣排的原因</strong>，丸之內側的事情要留到 11:00 才做得完。</li>
@@ -4804,7 +4839,7 @@
           <div class="card-header">
             <span class="card-time">09:50－12:15</span>
             <div class="card-tags">
-              <span class="tag tag-ticket-done">🎫 已購票</span><button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d4-3')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-lock" title="這個時間錯過就沒了，點我展開完整說明" onclick="openOriginalModal('card-item-d4-3')">🔒 不可延誤</button><span class="tag tag-ticket-done">🎫 已購票</span><button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d4-3')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -4819,6 +4854,9 @@
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <p>🎫 <strong>票務狀態：已購票</strong></p>
+</div>
+<div class="modal-quote">
+<p>🔒 <strong>不可延誤：全預約制、票上印有指定入場時段</strong>，遲到可能無法入場，且門票不退不換。</p>
 </div>
 <div class="modal-quote">
 <p>📄 <strong>行前必讀介紹文</strong>：<a class="map-link-inline" href="https://gototravel.tw/ghibli-museum-ticket/" target="_blank">吉卜力美術館 5 種購票方式教學文章 🔗</a>｜<a class="map-link-inline" href="https://marktrip.tw/ghibli-museum-mitaka/" target="_blank">2026 必看展區與亮點介紹文 🔗</a></p>
@@ -5223,7 +5261,7 @@
           <div class="card-header">
             <span class="card-time">17:00－19:00</span>
             <div class="card-tags">
-              <span class="tag tag-ticket-booked">🍽️ 已訂位</span><span class="tag tag-food">🍜 美食</span>
+              <button class="tag tag-lock" title="這個時間錯過就沒了，點我展開完整說明" onclick="openOriginalModal('card-item-d4-11')">🔒 不可延誤</button><span class="tag tag-ticket-booked">🍽️ 已訂位</span><span class="tag tag-food">🍜 美食</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -5233,10 +5271,13 @@
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">🎫 <strong>票務狀態：已訂位</strong><br>首選餐廳：<strong><strong>串家物語 (神楽食堂 串家物語 吉祥寺店)</strong></strong> (ダイヤパレス吉祥寺 2F) 享用 DIY 炸串（推薦：各式肉類與蔬菜串炸），人均約 ¥2,000～¥3,000。</p>
+            <p class="card-summary">🔒 <strong>不可延誤：17:00 已訂位，且吃到飽採 90 分鐘制、從入座起算</strong>——遲到扣的是自己的用餐時間。<br>首選餐廳：<strong><strong>串家物語 (神楽食堂 串家物語 吉祥寺店)</strong></strong> (ダイヤパレス吉祥寺 2F) 享用 DIY 炸串（推薦：各式肉類與蔬菜串炸），人均約 ¥2,000～¥3,000。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d4-11')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>🔒 <strong>不可延誤：17:00 已訂位，且吃到飽採 90 分鐘制、從入座起算</strong>——遲到扣的是自己的用餐時間。</p>
+</div>
+<div class="modal-quote">
 <p>🎫 <strong>票務狀態：已訂位</strong></p>
 </div>
 <div class="modal-quote">
@@ -5660,7 +5701,7 @@
           <div class="card-header">
             <span class="card-time">12:30－14:45</span>
             <div class="card-tags">
-              <span class="tag tag-ticket-done">🎫 已購票</span><button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-cb6')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-lock" title="這個時間錯過就沒了，點我展開完整說明" onclick="openOriginalModal('card-item-d5-cb6')">🔒 不可延誤</button><span class="tag tag-ticket-done">🎫 已購票</span><button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-cb6')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -5675,6 +5716,9 @@
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
 <p>🎫 <strong>票務狀態：已購票</strong></p>
+</div>
+<div class="modal-quote">
+<p>🔒 <strong>不可延誤：餵食秀是固定時刻</strong>——13:00 花園鰻、13:30 企鵝、14:00 珊瑚礁魚、14:30 小笠原大水槽。晚進場就會少看幾場，完整時刻表見下方摺疊。</p>
 </div>
 <div class="modal-quote">
 <p>📄 <strong>行前必讀介紹文</strong>：<a class="map-link-inline" href="https://gogojp.tw/sumida-aquarium/" target="_blank">墨田水族館三大必看與企鵝餵食秀介紹文 🔗</a>｜<a class="map-link-inline" href="https://bobbytravel.tw/sumida-aquarium/" target="_blank">必看重點與門票優惠攻略文章 🔗</a></p>
@@ -6507,7 +6551,7 @@
           <div class="card-header">
             <span class="card-time">13:45－15:10</span>
             <div class="card-tags">
-              <button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-rainy5')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
+              <button class="tag tag-lock" title="這個時間錯過就沒了，點我展開完整說明" onclick="openOriginalModal('card-item-d5-rainy5')">🔒 不可延誤</button><button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-rainy5')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -6517,10 +6561,13 @@
             </div>
           </h3>
           <div class="card-body">
-            <p class="card-summary">📄 <strong>行前必讀介紹文</strong>：<strong>獨角獸鋼彈日夜間變身時刻表介紹文</strong>｜<strong>燈光秀與變身時間攻略文章</strong><br>💡 <strong>建議順序</strong>：先逛商場（含 7F 鋼彈基地）➔ <strong>14:55 到廣場定位</strong> ➔ 看完 15:00 變身秀再出發前往 SMALL WORLDS。</p>
+            <p class="card-summary">🔒 <strong>不可延誤：15:00 變身秀，請 14:55 前站到立像正前方</strong>。白天場次為 11:00／13:00／15:00／17:00，本時段就是為了卡 15:00 這場；<strong>展示於 2026 年 8 月底結束，這是最後一次機會</strong>。<br>💡 <strong>建議順序</strong>：先逛商場（含 7F 鋼彈基地）➔ <strong>14:55 到廣場定位</strong> ➔ 看完 15:00 變身秀再出發前往 SMALL WORLDS。</p>
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-rainy5')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>🔒 <strong>不可延誤：15:00 變身秀，請 14:55 前站到立像正前方</strong>。白天場次為 11:00／13:00／15:00／17:00，本時段就是為了卡 15:00 這場；<strong>展示於 2026 年 8 月底結束，這是最後一次機會</strong>。</p>
+</div>
+<div class="modal-quote">
 <p>📄 <strong>行前必讀介紹文</strong>：<a class="map-link-inline" href="https://finduheart.com/odaiba-gundam-light-show" target="_blank">獨角獸鋼彈日夜間變身時刻表介紹文 🔗</a>｜<a class="map-link-inline" href="https://bobbytravel.tw/unicorn-gundam/" target="_blank">燈光秀與變身時間攻略文章 🔗</a></p>
 <p></p>
 <ul class="modal-list">
