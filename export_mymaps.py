@@ -11,6 +11,7 @@
   python3 export_mymaps.py --merged   # 另外產生含全部天數的 exports/All.csv
 
 My Maps 匯入步驟見 BUILD.md。
+座標欄固定輸出為英文 Latitude／Longitude，這是 My Maps 能正確辨識座標的必要條件。
 """
 
 import csv
@@ -121,8 +122,8 @@ def parse():
                 '天數': cur['day'] + (f'（{cur["group"]}）' if cur['group'] else ''),
                 '日期': cur['date'],
                 '時段': slot,
-                '緯度': lat,
-                '經度': lng,
+                'Latitude': lat,
+                'Longitude': lng,
                 '定位用名稱': ja or zh,
                 '官方日文名': ja,
                 '導航連結': url,
@@ -130,7 +131,10 @@ def parse():
     return days
 
 
-FIELDS = ['名稱', '類別', '天數', '日期', '時段', '緯度', '經度', '定位用名稱', '官方日文名', '導航連結']
+# ⚠️ 座標欄名一定要用英文 Latitude／Longitude：My Maps 是靠欄名判斷這是不是座標，
+#    欄名寫中文「緯度／經度」時它會把數值當成地址去做地理編碼，然後回報
+#    「糟糕！我們找不到這些地點」。順序也放最前面，讓它預設就選到這兩欄。
+FIELDS = ['Latitude', 'Longitude', '名稱', '類別', '天數', '日期', '時段', '定位用名稱', '官方日文名', '導航連結']
 
 
 def write_csv(path, rows):
@@ -165,7 +169,7 @@ def main():
         write_csv(os.path.join(OUT_DIR, 'All.csv'), all_rows)
         print(f'{"All.csv":<14}{len(all_rows):>4}   （全部天數合併）')
 
-    no_coord = sorted({r['名稱'] for r in all_rows if not r['緯度']})
+    no_coord = sorted({r['名稱'] for r in all_rows if not r['Latitude']})
     if no_coord:
         print(f'\n⚠️ {len(no_coord)} 筆沒有座標，匯入時請改選「定位用名稱」欄定位：')
         for n in no_coord:
