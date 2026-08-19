@@ -495,6 +495,7 @@ CUSTOM_SUMMARIES_V10 = {
     (6, "築地場外市場美食散策"): f"在 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('築地場外市場', '')}\" target=\"_blank\">築地場外市場 🔗</a> 逛 105 分鐘吃早午餐。多數店家 9:00－14:00、部分更早收攤。<strong>禁止邊走邊吃、也不要分食</strong>，找定點站著吃完。",
     (6, "辦理登機與行李託運"): f"羽田第三航廈 <strong>3F 出境大廳</strong>報到託運。1F 迎賓層與巴士乘車處｜2F 入境大廳｜4F 江戶小路餐廳街。",
     (6, "機場免稅店伴手禮採買"): f"免稅店採買白色戀人、東京香蕉、Royce 巧克力。<strong>刻意先採買後用餐</strong>——14:30 起飛、13:50 要到登機門，緩衝留在最後。",
+    (4, "晚餐：串家物語"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('串家物語 (神楽食堂 串家物語 吉祥寺店)', '')}\" target=\"_blank\">串家物語 吉祥寺店 🔗</a>（ダイヤパレス吉祥寺 2F）DIY 炸串吃到飽，人均 ¥2,000～¥3,000。<strong>已訂位 17:00</strong>，預約可享 2 小時（現場候位只有 90 分鐘），時間從入座起算。",
     (4, "SATOU 炸牛肉丸"): f"🟡 <strong>選配，不排時間</strong>。<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('SATOU (黒毛和牛専門店 さとう 吉祥寺店)', '')}\" target=\"_blank\">SATOU 🔗</a> 在哈莫尼卡橫丁北側約 50 公尺、順路經過。隊伍短就買，長就走過去。",
 
     # Day 5
