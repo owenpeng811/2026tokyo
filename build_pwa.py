@@ -485,6 +485,16 @@ CUSTOM_SUMMARIES_V10 = {
     (4, "前往三鷹"): f"🚪 <strong>西口進站</strong>。搭 🟡 JR 中央・總武線至御茶之水，同月台轉 🟠 中央線快速直達 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('三鷹站 (三鷹駅)', '')}\" target=\"_blank\">三鷹站 🔗</a>。",
     (4, "午餐：薩莉亞"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('薩莉亞 (サイゼリヤ 吉祥寺駅北口)', '')}\" target=\"_blank\">薩莉亞 吉祥寺駅北口店 🔗</a>（コスモ吉祥寺 3F，北口步行 1 分鐘），平價義式，人均 ¥600～¥1,000。<strong>全菜單有 4 位數編號，指編號點餐。</strong>",
     (4, "下午茶：天音"): f"<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('天音 (有職たい菓子本舗 天音)', '')}\" target=\"_blank\">天音 🔗</a>（哈莫尼卡橫丁內，出口步行 1 分鐘），帶脆皮羽根的鯛魚燒，粒餡每個約 ¥220。<strong>售完就跳過</strong>。",
+    # 以下 7 條是為了蓋掉自動摘要——這些時段的第一行是「📄 行前必讀介紹文」，
+    # clean_markdown_for_summary() 會把整串介紹文連結當成首句寫進卡片正面，
+    # 導致沒點開只看得到一排文章標題，而不是規範要求的「這段去哪、做什麼、花多少錢」。
+    (2, "DPA 與 Priority Pass 快速通關"): f"官方 App 要在台灣先下載登入。<strong>DPA 須入園掃 QR 後才買得到</strong>，入園前買不到。40 週年免費 Priority Pass 供應至 2026/8/31，8/21 仍可用。設施優先順序看 Notion。",
+    (4, "前往吉祥寺"): f"美術館門口搭<strong>亮黃色接駁巴士直達三鷹站</strong>（約 5 分鐘），再轉 JR 中央線快速 1 站到 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('吉祥寺站', '')}\" target=\"_blank\">吉祥寺站 🔗</a>。",
+    (4, "逛哈莫尼卡橫丁"): f"吉祥寺北口前的昭和風小巷，約 100 間小店。橫丁與旁邊的 Sunroad 都有拱廊頂棚，<strong>下雨也能逛</strong>，但巷子只有 2～3 公尺寬，進巷前先收傘。",
+    (5, "參觀淺草寺與雷門散策"): f"雷門 ➔ 仲見世通 ➔ <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('淺草寺', '')}\" target=\"_blank\">淺草寺 🔗</a> 本堂。抽籤 ¥100（<strong>凶籤約 30%</strong>）。佛寺參拜不擊掌；<strong>仲見世通禁止邊走邊吃</strong>。",
+    (6, "築地場外市場美食散策"): f"在 <a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('築地場外市場', '')}\" target=\"_blank\">築地場外市場 🔗</a> 逛 105 分鐘吃早午餐。多數店家 9:00－14:00、部分更早收攤。<strong>禁止邊走邊吃、也不要分食</strong>，找定點站著吃完。",
+    (6, "辦理登機與行李託運"): f"羽田第三航廈 <strong>3F 出境大廳</strong>報到託運。1F 迎賓層與巴士乘車處｜2F 入境大廳｜4F 江戶小路餐廳街。",
+    (6, "機場免稅店伴手禮採買"): f"免稅店採買白色戀人、東京香蕉、Royce 巧克力。<strong>刻意先採買後用餐</strong>——14:30 起飛、13:50 要到登機門，緩衝留在最後。",
     (4, "SATOU 炸牛肉丸"): f"🟡 <strong>選配，不排時間</strong>。<a class=\"map-link-inline\" href=\"{MASTER_NAV_MAP.get('SATOU (黒毛和牛専門店 さとう 吉祥寺店)', '')}\" target=\"_blank\">SATOU 🔗</a> 在哈莫尼卡橫丁北側約 50 公尺、順路經過。隊伍短就買，長就走過去。",
 
     # Day 5
