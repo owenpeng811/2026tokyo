@@ -501,8 +501,12 @@
 
     /* 篩選開啟：只留有 🔒 的卡片。用 body class + CSS 控制，
        不動 inline style，才不會跟分支切換（switchDayXPlan）互相覆蓋 */
-    body.filter-lock .timeline-item:not(.has-lock) { display: none; }
-    body.filter-lock .sub-toggle-wrapper { opacity: 0.45; }
+    body[data-filter="lock"]  .timeline-item:not(.has-lock) { display: none; }
+    body[data-filter="todo"]  .timeline-item:not(.has-ticket-todo) { display: none; }
+    body[data-filter="ready"] .timeline-item:not(.has-ticket-ready) { display: none; }
+    body[data-filter="lock"]  .sub-toggle-wrapper,
+    body[data-filter="todo"]  .sub-toggle-wrapper,
+    body[data-filter="ready"] .sub-toggle-wrapper { opacity: 0.45; }
 
     /* 不可延誤：錯過就損失的時段。用最搶眼的紅色，優先度高於其他標籤 */
     .tag-lock {
@@ -795,7 +799,7 @@
     </nav>
     <div class="lock-filter-bar">
       <button class="lock-filter-btn" id="lockFilterBtn" onclick="toggleLockFilter()"
-              aria-pressed="false">🔒 只看不可延誤</button>
+              aria-pressed="false">🔎 全部行程</button>
       <span class="lock-filter-hint" id="lockFilterHint"></span>
     </div>
   </header>
@@ -1631,7 +1635,7 @@
           </div>
         </div>
       </div>
-      <div class="timeline-item has-lock" data-category="food">
+      <div class="timeline-item has-lock has-ticket-ready" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
             <input type="checkbox" id="item-d1-pa4" onchange="toggleCheck('item-d1-pa4')">
@@ -3344,7 +3348,7 @@
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="transport">
+      <div class="timeline-item has-ticket-ready" data-category="transport">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
             <input type="checkbox" id="item-d2k-2" onchange="toggleCheck('item-d2k-2')">
@@ -4637,7 +4641,7 @@
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="attraction">
+      <div class="timeline-item has-ticket-todo" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
             <input type="checkbox" id="item-d3-ca4" onchange="toggleCheck('item-d3-ca4')">
@@ -5161,7 +5165,7 @@
           </div>
         </div>
       </div>
-      <div class="timeline-item has-lock" data-category="attraction">
+      <div class="timeline-item has-lock has-ticket-ready" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
             <input type="checkbox" id="item-d4-3" onchange="toggleCheck('item-d4-3')">
@@ -5584,7 +5588,7 @@
           </div>
         </div>
       </div>
-      <div class="timeline-item has-lock" data-category="food">
+      <div class="timeline-item has-lock has-ticket-ready" data-category="food">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
             <input type="checkbox" id="item-d4-11" onchange="toggleCheck('item-d4-11')">
@@ -6030,7 +6034,7 @@
           </div>
         </div>
       </div>
-      <div class="timeline-item has-lock" data-category="attraction">
+      <div class="timeline-item has-lock has-ticket-ready" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
             <input type="checkbox" id="item-d5-cb6" onchange="toggleCheck('item-d5-cb6')">
@@ -6512,7 +6516,7 @@
           <div class="card-header">
             <span class="card-time">15:30－16:20</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <span class="tag tag-ticket-free">🆓 免費入場</span><button class="tag tag-article" title="此時段有 2 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-pb1')">📄 攻略 2</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -6526,6 +6530,12 @@
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-pb1')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>📄 <strong>行前必讀介紹文</strong>：<a class="map-link-inline" href="https://thegate12.com/tw/spot/1203" target="_blank">千葉工業大學晴空塔校區兩大展區與免費入場介紹文（繁體中文） 🔗</a>｜<a class="map-link-inline" href="https://udn.com/news/story/9650/8246839" target="_blank">聯合新聞網：東京體驗園區巡禮，感受日本機器人魅力介紹文 🔗</a></p>
+</div>
+<div class="modal-quote">
+<p>🎫 <strong>票務狀態：免費入場</strong></p>
+</div>
+<div class="modal-quote">
 <ul class="modal-list">
 <li>目標地點：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.7100881,139.8126847&query_place_id=ChIJf__tZNKPGGARHmHIRs1s3Mw" target="_blank"><strong>千葉工業大學晴空塔城校區 (千葉工業大学 東京スカイツリータウンキャンパス)</strong> 🔗</a> (東京ソラマチ 8F)</li>
 <li>🎫 <strong>免費入館</strong>，10:30－18:00。</li>
@@ -6538,7 +6548,7 @@
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="attraction">
+      <div class="timeline-item has-ticket-todo" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
             <input type="checkbox" id="item-d5-pb2" onchange="toggleCheck('item-d5-pb2')">
@@ -6550,7 +6560,7 @@
           <div class="card-header">
             <span class="card-time">16:20－17:10</span>
             <div class="card-tags">
-              <span class="tag tag-attraction">⛩️ 景點</span>
+              <span class="tag tag-ticket-todo">🎫 需購票</span><button class="tag tag-article" title="此時段有 1 篇介紹文／攻略可閱讀，點我展開完整說明" onclick="openOriginalModal('card-item-d5-pb2')">📄 攻略</button><span class="tag tag-attraction">⛩️ 景點</span>
             </div>
           </div>
           <h3 class="card-title">
@@ -6564,6 +6574,14 @@
             <button class="view-original-btn" onclick="openOriginalModal('card-item-d5-pb2')">📖 完整說明與祕訣</button>
             <div class="original-content-holder" style="display: none;">
               <div class="modal-quote">
+<p>📄 <strong>行前必讀介紹文</strong>：<a class="map-link-inline" href="https://www.gotokyo.org/tc/spot/903/index.html" target="_blank">東京官方觀光網站 GO TOKYO：郵政博物館介紹文（繁體中文） 🔗</a></p>
+<p></p>
+<p>🔗 官方網站（非中文）：<a class="map-link-inline" href="https://www.postalmuseum.jp/" target="_blank">郵政博物館 官方網站 🔗</a></p>
+</div>
+<div class="modal-quote">
+<p>🎫 <strong>票務狀態：需購票</strong></p>
+</div>
+<div class="modal-quote">
 <ul class="modal-list">
 <li>目標地點：<a class="map-link-inline" href="https://www.google.com/maps/search/?api=1&query=35.7101874,139.8125818&query_place_id=ChIJ10y4FNaOGGARnQ23USYY0Ik" target="_blank"><strong>郵政博物館 (郵政博物館)</strong> 🔗</a> (東京ソラマチ 東館 9F)</li>
 <li>🎫 <strong>入館料</strong>：大人 ¥300、中小學生 ¥150，五人約 ¥1,200。開館 10:00－17:30，<strong>入館受付至 17:00</strong>。</li>
@@ -6811,7 +6829,7 @@
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="attraction">
+      <div class="timeline-item has-ticket-todo" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
             <input type="checkbox" id="item-d5-rainy2" onchange="toggleCheck('item-d5-rainy2')">
@@ -7075,7 +7093,7 @@
           </div>
         </div>
       </div>
-      <div class="timeline-item" data-category="attraction">
+      <div class="timeline-item has-ticket-todo" data-category="attraction">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
             <input type="checkbox" id="item-d5-rainy7" onchange="toggleCheck('item-d5-rainy7')">
@@ -8076,33 +8094,55 @@
       updateLockHint();
     }
 
-    function toggleLockFilter() {
-      const on = !document.body.classList.contains('filter-lock');
-      document.body.classList.toggle('filter-lock', on);
-      document.getElementById('lockFilterBtn').classList.toggle('active', on);
-      document.getElementById('lockFilterBtn').setAttribute('aria-pressed', on ? 'true' : 'false');
-      localStorage.setItem('lockFilter', on ? '1' : '0');
+    // 篩選器：按同一顆按鈕依序輪替四種模式。
+    // 「已購票」與「已訂位」合併成「已備妥」，因為對使用者是同一件事（行前檢查用）；
+    // 「需購票」單獨一段，那是現場真的要掏錢的待辦。
+    const FILTER_MODES = [
+      { key: '',      label: '🔎 全部行程',    cls: null,              empty: '' },
+      { key: 'lock',  label: '🔒 只看不可延誤', cls: 'has-lock',         empty: '這天沒有不可延誤的行程' },
+      { key: 'todo',  label: '🎫 只看需購票',   cls: 'has-ticket-todo',  empty: '這天沒有需要現場購票的行程' },
+      { key: 'ready', label: '🎟️ 只看已備妥',  cls: 'has-ticket-ready', empty: '這天沒有已購票或已訂位的行程' },
+    ];
+
+    function applyFilter(key) {
+      const m = FILTER_MODES.find(x => x.key === key) || FILTER_MODES[0];
+      document.body.setAttribute('data-filter', m.key);
+      const btn = document.getElementById('lockFilterBtn');
+      if (btn) {
+        btn.textContent = m.label;
+        btn.classList.toggle('active', m.key !== '');
+        btn.setAttribute('aria-pressed', m.key !== '' ? 'true' : 'false');
+      }
+      localStorage.setItem('lockFilter', m.key);
       updateLockHint();
+    }
+
+    // 函式名沿用舊的，呼叫端（switchDay 與五個分支切換）因此不必改。
+    function toggleLockFilter() {
+      const cur = document.body.getAttribute('data-filter') || '';
+      const i = FILTER_MODES.findIndex(x => x.key === cur);
+      applyFilter(FILTER_MODES[(i + 1) % FILTER_MODES.length].key);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    // 篩選開啟時，算出「當前這一天、當前分支」還看得到幾張 🔒 卡片。
+    // 篩選開啟時，算出「當前這一天、當前分支」還看得到幾張。
     // 用 offsetParent 判斷可見性，才不會把被分支隱藏的卡片也算進去。
     function updateLockHint() {
       const hint = document.getElementById('lockFilterHint');
       if (!hint) return;
-      if (!document.body.classList.contains('filter-lock')) { hint.textContent = ''; return; }
-      const n = [...document.querySelectorAll('.timeline-item.has-lock')]
+      const cur = document.body.getAttribute('data-filter') || '';
+      const m = FILTER_MODES.find(x => x.key === cur);
+      if (!m || !m.cls) { hint.textContent = ''; return; }
+      const n = [...document.querySelectorAll('.timeline-item.' + m.cls)]
         .filter(el => el.offsetParent !== null).length;
-      hint.textContent = n ? `這天有 ${n} 項` : '這天沒有不可延誤的行程';
+      hint.textContent = n ? `這天有 ${n} 項` : m.empty;
     }
 
     function restoreLockFilter() {
-      if (localStorage.getItem('lockFilter') !== '1') return;
-      document.body.classList.add('filter-lock');
-      const btn = document.getElementById('lockFilterBtn');
-      if (btn) { btn.classList.add('active'); btn.setAttribute('aria-pressed', 'true'); }
-      updateLockHint();
+      let saved = localStorage.getItem('lockFilter') || '';
+      if (saved === '1') saved = 'lock';   // 舊版只有開／關兩態，'1' 等同 lock
+      if (saved === '0') saved = '';
+      applyFilter(saved);
     }
 
     function toggleCheck(id) {

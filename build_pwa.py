@@ -1059,7 +1059,16 @@ def build_card_html(item_id, item):
             </div>"""
 
     lock_cls = ' has-lock' if lock_tag_html else ''
-    return f"""      <div class="timeline-item{lock_cls}" data-category="{item['category']}">
+    # 篩選用的 class。「已購票」與「已訂位」合併為 ready——對使用者是同一件事
+    # （都已處理好，行前檢查用）；「需購票」單獨一類，那是現場要掏錢的待辦。
+    # 「免費入場」不進任何篩選：既不用買也不用確認。
+    ticket_cls = ''
+    if ticket:
+        if ticket[0] == 'ticket-todo':
+            ticket_cls = ' has-ticket-todo'
+        elif ticket[0] in ('ticket-done', 'ticket-booked'):
+            ticket_cls = ' has-ticket-ready'
+    return f"""      <div class="timeline-item{lock_cls}{ticket_cls}" data-category="{item['category']}">
         <div class="timeline-check">
           <label class="check-wrapper" title="標記已完成">
             <input type="checkbox" id="item-{item_id}" onchange="toggleCheck('item-{item_id}')">
@@ -1777,8 +1786,12 @@ def render_full_pwa_html(meta, days_data):
 
     /* 篩選開啟：只留有 🔒 的卡片。用 body class + CSS 控制，
        不動 inline style，才不會跟分支切換（switchDayXPlan）互相覆蓋 */
-    body.filter-lock .timeline-item:not(.has-lock) {{ display: none; }}
-    body.filter-lock .sub-toggle-wrapper {{ opacity: 0.45; }}
+    body[data-filter="lock"]  .timeline-item:not(.has-lock) {{ display: none; }}
+    body[data-filter="todo"]  .timeline-item:not(.has-ticket-todo) {{ display: none; }}
+    body[data-filter="ready"] .timeline-item:not(.has-ticket-ready) {{ display: none; }}
+    body[data-filter="lock"]  .sub-toggle-wrapper,
+    body[data-filter="todo"]  .sub-toggle-wrapper,
+    body[data-filter="ready"] .sub-toggle-wrapper {{ opacity: 0.45; }}
 
     /* 不可延誤：錯過就損失的時段。用最搶眼的紅色，優先度高於其他標籤 */
     .tag-lock {{
@@ -2071,7 +2084,7 @@ def render_full_pwa_html(meta, days_data):
     </nav>
     <div class="lock-filter-bar">
       <button class="lock-filter-btn" id="lockFilterBtn" onclick="toggleLockFilter()"
-              aria-pressed="false">🔒 只看不可延誤</button>
+              aria-pressed="false">🔎 全部行程</button>
       <span class="lock-filter-hint" id="lockFilterHint"></span>
     </div>
   </header>
@@ -2351,33 +2364,55 @@ def render_full_pwa_html(meta, days_data):
       updateLockHint();
     }}
 
-    function toggleLockFilter() {{
-      const on = !document.body.classList.contains('filter-lock');
-      document.body.classList.toggle('filter-lock', on);
-      document.getElementById('lockFilterBtn').classList.toggle('active', on);
-      document.getElementById('lockFilterBtn').setAttribute('aria-pressed', on ? 'true' : 'false');
-      localStorage.setItem('lockFilter', on ? '1' : '0');
+    // 篩選器：按同一顆按鈕依序輪替四種模式。
+    // 「已購票」與「已訂位」合併成「已備妥」，因為對使用者是同一件事（行前檢查用）；
+    // 「需購票」單獨一段，那是現場真的要掏錢的待辦。
+    const FILTER_MODES = [
+      {{ key: '',      label: '🔎 全部行程',    cls: null,              empty: '' }},
+      {{ key: 'lock',  label: '🔒 只看不可延誤', cls: 'has-lock',         empty: '這天沒有不可延誤的行程' }},
+      {{ key: 'todo',  label: '🎫 只看需購票',   cls: 'has-ticket-todo',  empty: '這天沒有需要現場購票的行程' }},
+      {{ key: 'ready', label: '🎟️ 只看已備妥',  cls: 'has-ticket-ready', empty: '這天沒有已購票或已訂位的行程' }},
+    ];
+
+    function applyFilter(key) {{
+      const m = FILTER_MODES.find(x => x.key === key) || FILTER_MODES[0];
+      document.body.setAttribute('data-filter', m.key);
+      const btn = document.getElementById('lockFilterBtn');
+      if (btn) {{
+        btn.textContent = m.label;
+        btn.classList.toggle('active', m.key !== '');
+        btn.setAttribute('aria-pressed', m.key !== '' ? 'true' : 'false');
+      }}
+      localStorage.setItem('lockFilter', m.key);
       updateLockHint();
+    }}
+
+    // 函式名沿用舊的，呼叫端（switchDay 與五個分支切換）因此不必改。
+    function toggleLockFilter() {{
+      const cur = document.body.getAttribute('data-filter') || '';
+      const i = FILTER_MODES.findIndex(x => x.key === cur);
+      applyFilter(FILTER_MODES[(i + 1) % FILTER_MODES.length].key);
       window.scrollTo({{ top: 0, behavior: 'smooth' }});
     }}
 
-    // 篩選開啟時，算出「當前這一天、當前分支」還看得到幾張 🔒 卡片。
+    // 篩選開啟時，算出「當前這一天、當前分支」還看得到幾張。
     // 用 offsetParent 判斷可見性，才不會把被分支隱藏的卡片也算進去。
     function updateLockHint() {{
       const hint = document.getElementById('lockFilterHint');
       if (!hint) return;
-      if (!document.body.classList.contains('filter-lock')) {{ hint.textContent = ''; return; }}
-      const n = [...document.querySelectorAll('.timeline-item.has-lock')]
+      const cur = document.body.getAttribute('data-filter') || '';
+      const m = FILTER_MODES.find(x => x.key === cur);
+      if (!m || !m.cls) {{ hint.textContent = ''; return; }}
+      const n = [...document.querySelectorAll('.timeline-item.' + m.cls)]
         .filter(el => el.offsetParent !== null).length;
-      hint.textContent = n ? `這天有 ${{n}} 項` : '這天沒有不可延誤的行程';
+      hint.textContent = n ? `這天有 ${{n}} 項` : m.empty;
     }}
 
     function restoreLockFilter() {{
-      if (localStorage.getItem('lockFilter') !== '1') return;
-      document.body.classList.add('filter-lock');
-      const btn = document.getElementById('lockFilterBtn');
-      if (btn) {{ btn.classList.add('active'); btn.setAttribute('aria-pressed', 'true'); }}
-      updateLockHint();
+      let saved = localStorage.getItem('lockFilter') || '';
+      if (saved === '1') saved = 'lock';   // 舊版只有開／關兩態，'1' 等同 lock
+      if (saved === '0') saved = '';
+      applyFilter(saved);
     }}
 
     function toggleCheck(id) {{
