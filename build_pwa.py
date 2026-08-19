@@ -968,7 +968,7 @@ def render_prep_html(md_text, meta):
 #
 # ⚠️ 天氣是時效性資訊，出發前請重新查詢並更新這裡（只需改這個 dict 再重新編譯）。
 #    資料來源：日本氣象廳 https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json
-WEATHER_UPDATED = '2026-08-19 11:00 發布（日本氣象廳）'
+WEATHER_UPDATED = '2026-08-19 17:00 發布（日本氣象廳）'
 DAY_BRIEF = {
     1: {'weather': '8/20（四）多雲、上午到午後轉晴　24–33°C　降水 20%',
         'walk': '<strong>少</strong>——大半時間在飛機與電車上，秋葉原只逛約 1 小時。<strong>涼鞋可</strong>。',
@@ -981,15 +981,19 @@ DAY_BRIEF = {
                   '🔋 親子組帶<strong>行動電源</strong>：整天要用 App 查設施、排隊、拍照。']},
     3: {'weather': '8/22（六）多雲短暫雨　24–33°C　<strong>降水 50%</strong>',
         'walk': '<strong>中等</strong>，但國立科學博物館站立時間長，腳的負擔比距離大。<strong>穿好走的鞋</strong>。',
-        'extra': ['💴 <strong>帶足夠現金</strong>：阿美橫丁的 OS Drug <strong>只收現金、不能刷卡</strong>，其餘攤商也多為現金。',
-                  '🛍️ 帶<strong>折疊購物袋</strong>：今天是全程採買量最大的一天（菓子樂園＋阿美橫丁）。']},
+        'extra': ['☔ <strong>本週最可能真的下雨的一天</strong>：五個模式有四個認為會下 8～14mm，不是毛毛雨。'
+                  '下午的阿美橫丁是露天商店街、要逛 80 分鐘，<strong>雨具一定要帶</strong>。',
+                  '💴 <strong>帶足夠現金</strong>：阿美橫丁的 OS Drug <strong>只收現金、不能刷卡</strong>，其餘攤商也多為現金。',
+                  '🛍️ 帶<strong>防水的折疊購物袋</strong>：今天是全程採買量最大的一天（菓子樂園＋阿美橫丁），紙袋淋雨會破。']},
     4: {'weather': '8/23（日）多雲　24–32°C　降水 40%',
         'walk': '<strong>中等</strong>（吉卜力美術館＋吉祥寺商圈與橫丁）。<strong>穿好走的鞋</strong>。',
-        'extra': ['☔ <strong>本週雨量最不確定的一天</strong>：各家模式從 3.6mm 到 37.6mm 都有。'
-                  '吉卜力美術館在室內不受影響，但下午的吉祥寺商圈與哈莫尼卡橫丁是露天的，<strong>雨具帶著</strong>。']},
+        'extra': ['☔ <strong>本週雨量最不確定的一天</strong>：各家模式從 2.6mm 到 32.8mm 都有。'
+                  '吉卜力美術館在室內、下午的哈莫尼卡橫丁與 Sunroad 都有拱廊頂棚，'
+                  '真正會淋到的只有建築之間那幾十公尺。']},
     5: {'weather': '8/24（一）多雲時晴　24–32°C　降水 30%',
         'walk': '<strong>中等偏多</strong>（淺草寺參道＋晴空街道＋新宿）。<strong>穿好走的鞋</strong>。',
-        'extra': ['🌇 <strong>今晚適合看夜景</strong>：新宿 18–21 時降水 20%、能見度 22 公里，都廳 Plan A 可照走。',
+        'extra': ['🌇 <strong>今晚是本週最適合看夜景的一晚</strong>：新宿 18–21 時降水 20%、'
+                  '<strong>雲量僅 3%</strong>、能見度 24 公里，都廳 Plan A 照走。',
                   '🧥 帶件<strong>薄外套</strong>：晚上都廳 45 樓展望室與地面的都民廣場風大，看夜景與光雕要站著。']},
     6: {'weather': '8/25（二）多雲時晴　25–33°C　降水 30%',
         'walk': '<strong>少</strong>，但<strong>築地場外市場地面常是濕的</strong>（攤商灑水、海鮮融冰），'
