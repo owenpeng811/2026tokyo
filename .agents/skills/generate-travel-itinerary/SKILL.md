@@ -16,7 +16,11 @@ description: 將旅遊行程資料轉換為支援 PWA、可離線瀏覽的手機
    - 所有點擊區域（如頁籤、連結、核取方塊）必須符合 iOS/Android 人體工學標準（觸控目標大於 44x44px）。
    - 使用 CSS 變數（Variables）建構深色模式（Dark Mode），搭配日系和風點綴色（如緋紅 `#E45F56`、松葉綠 `#2C3E50`、金茶 `#E5A823`）。
    - 嚴禁使用 Bootstrap、TailwindCSS 等外部框架，確保極速載入且可離線運作。
-   - 必須包含 `<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">`。
+   - 必須包含 viewport meta。⚠️ **2026-08-18 修訂：改為允許縮放**
+     `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">`。
+     原本寫 `user-scalable=no`，但行程表內含站內構內圖（東京車站北自由通路、新宿 B1F 西改札），
+     **實測地圖在 390px 螢幕上只渲染成 312px 寬（原圖 1522px），禁止縮放時根本看不清月台號碼**。
+     且 iOS 本來就會忽略 `user-scalable=no`，等於只有 Android 使用者被卡住。上限與 Docsify 版一致。
 
 2. **雙層內容結構與 iOS 風格抽屜彈出視窗（Bottom Sheet Modal）**：
    - **精簡卡片畫面**：預設僅呈現精簡但實用的行程摘要（重要資訊如建議路線、推薦必點、選項備案等），保持手機滑動順暢，避免無意義的佔位文字。
@@ -79,6 +83,42 @@ description: 將旅遊行程資料轉換為支援 PWA、可離線瀏覽的手機
    - **行程進度打勾（Checklist）**：每張卡片附有 checkbox，點擊可標記「已完成」，並透過 `localStorage` 儲存狀態，重新整理不消失，並連動更新頂部進度條。
 
 ---
+
+5. **卡片篩選器：做之前先統計每天的命中張數**（2026-08-19 新增）
+   - 篩選器在**每天各自**運作（用 `offsetParent` 判斷可見性，被分支隱藏的卡片不算）。
+     所以要看的不是全行程總數，而是**逐日分布**——某一段在多數日子是 0 張，
+     使用者切過去會看到空白畫面，以為壞掉。
+   - 2026-08-19 實例（全行程 147 張）：
+
+     ```
+             🔒不可延誤  🎫已購票  🍽️已訂位  🆓免費入場  🎫需購票
+     Day1        1        -        1        -        -
+     Day2        4        1        -        3        -
+     Day3        1        -        -        -        1
+     Day4        2        1        1        -        -
+     Day5        3        1        -        -        2
+     Day6        -        -        -        -        -
+     ```
+
+     🔒 分布良好；但「需購票」只有 3 張、**四天是空的**，「已購票」3 張、三天是空的。
+   - ✅ **對策**：把語意相近的標籤合併成一段（例如「已購票＋已訂位」＝「已備妥」），
+     並讓**每一段都有專屬的空狀態文案**（「這天沒有需要現場購票的行程」），
+     而不是留一片空白。
+   - 實作在 `build_pwa.py`：`build_card_html()` 依票務狀態追加 `has-ticket-*` class、
+     CSS 用 `body[data-filter="…"]`、JS 用 `FILTER_MODES` 陣列輪替。
+     **`toggleLockFilter()`／`updateLockHint()`／`restoreLockFilter()` 三個函式名一律保留**，
+     這樣 `switchDay` 與五個分支切換函式的呼叫端完全不必改；
+     `localStorage` 舊值 `'1'`／`'0'` 要做相容轉換。
+
+6. **新增第三條分支（如 Day 1 的 Plan C）必須同步改四處**（2026-08-19 新增）
+   - `days_data[N]` 的 dict 加新鍵（如 `'plan_c': []`）
+   - `parse_v10_markdown()` 加 `elif 'Plan C' in h:` 判斷
+   - `render_full_pwa_html()` 加第三顆切換鈕與 `.dayN-plan-C` 容器（`display:none`）
+   - `switchDayNPlan()` 由二元 `isPlanA` 改為陣列輪替三態，並保持 `localStorage` 相容
+   - ⚠️ 改完必用 Playwright 逐案實測：**各容器顯示／隱藏、active 鈕、卡片張數、
+     每張卡的導航指向**都要對。2026-08-19 實測 Plan A=6 張、B=4 張、C=6 張。
+   - ⚠️ **新分支的時段標題若與既有分支重複，`first_dest` 與 `CUSTOM_SUMMARIES_V10` 都會撞**。
+     實例：Plan C 的「前往新宿」會誤命中 Plan B 的「前往新宿東口」，故改名為「前往新宿**西口**」。
 
 ## 2. PWA（Progressive Web App）規格
 
