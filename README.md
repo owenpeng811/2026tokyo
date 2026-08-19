@@ -1508,6 +1508,34 @@
 > * [**二木菓子 (二木の菓子 第一営業所)**](https://www.google.com/maps/search/?api=1&query=35.7083528,139.7744756&query_place_id=ChIJ8ez-kZ-OGGARyxJTsXAcAjk)：規模宏大的零食專賣店，種類極多且價格極具競爭力。可刷卡，可退稅。[介紹文1](https://bobbytravel.tw/niki-no-kashi/)、[介紹文2](https://yukigo.tw/nikinokashi/)、[日本必掃日本零食](https://bobbytravel.tw/japan-souvenir/#%E5%BF%85%E6%8E%83%E6%97%A5%E6%9C%AC%E9%9B%B6%E9%A3%9F%E3%80%81%E6%9E%9C%E5%87%8D%E3%80%81%E6%B3%A1%E9%BA%B5)  
 >   * ⭐⭐⭐ 必買：提拉米蘇巧克力、東京限定 KitKat、Royce 洋芋片巧克力、干貝糖、龍角散喉糖  
 >   * ⭐⭐ 很推薦：Calbee 薯條三兄弟、北海道起司米果、各式日本限定洋芋片、大包裝巧克力（分送同事 CP 值高）  
+
+<details><summary>🎁 二木菓子伴手禮採買清單：送同事 20 人 ＋ 送好朋友（點擊展開）</summary>
+
+> 📷 **以下商品名稱點下去是商品圖片，不是導航連結**；價格為網路查得的參考價，現場以標示為準。
+>
+> **① 送公司同事 20 人**（挑個包裝，好發、日持長）
+>
+> * [**傳六什錦豆 (伝六 大入りペアパック)**](https://www.google.com/search?tbm=isch&q=%E4%BC%9D%E5%85%AD%20%E5%A4%A7%E5%85%A5%E3%82%8A%E3%83%9A%E3%82%A2%E3%83%91%E3%83%83%E3%82%AF)：¥475／14 小包，綜合仙貝與小魚乾。**買 2 包＝28 小包**，一人一包還有剩；店員推薦的分送用首選。
+> * [**美味棒 (うまい棒 30本入)**](https://www.google.com/search?tbm=isch&q=%E3%81%86%E3%81%BE%E3%81%84%E6%A3%92%2030%E6%9C%AC%E5%85%A5%20%E8%A9%B0%E3%82%81%E5%90%88%E3%82%8F%E3%81%9B)：¥239～318／30 根，一人一根。有納豆、牛舌等口味。
+> * [**起司條 (チーズおやつ)**](https://www.google.com/search?tbm=isch&q=%E6%89%87%E5%B1%8B%E9%A3%9F%E5%93%81%20%E3%83%81%E3%83%BC%E3%82%BA%E3%81%8A%E3%82%84%E3%81%A4)：¥10／個，二木銷售第一名。買 25 個約 ¥250。
+> * [**蝦味米果 (えびあられ)**](https://www.google.com/search?tbm=isch&q=%E3%81%88%E3%81%B3%E3%81%82%E3%82%89%E3%82%8C%20%E4%BA%8C%E6%9C%A8%E3%81%AE%E8%8F%93%E5%AD%90)：¥210／165g。大包非個包裝，適合放茶水間共享。
+> * 💰 **建議組合**：傳六 ×2 ＋ 美味棒 30 本入 ×1 ＋ 蝦味米果 ×1，約 **¥1,400** 覆蓋 20 人。
+>
+> **② 送好朋友**（前兩項在 BIC 館，其餘在第一營業所）
+>
+> * [**手作最中 (ふたつ木 手づくり最中)**](https://www.google.com/search?tbm=isch&q=%E3%81%B5%E3%81%9F%E3%81%A4%E6%9C%A8%20%E6%89%8B%E3%81%A5%E3%81%8F%E3%82%8A%E6%9C%80%E4%B8%AD)：¥115／個（未稅）。餅皮與紅豆餡分開包裝，吃之前自己夾。自選 8～12 個約 ¥1,000～1,500，有送禮用盒裝。
+> * [**費南雪 (ふたつ木 フィナンシェ)**](https://www.google.com/search?tbm=isch&q=%E3%81%B5%E3%81%9F%E3%81%A4%E6%9C%A8%20%E3%83%95%E3%82%A3%E3%83%8A%E3%83%B3%E3%82%B7%E3%82%A7)：香草／抹茶／巧克力，個包裝、常溫。BIC 館可自選口味組成禮盒。
+> * [**紫蘇梅 (しそ梅ちゃん)**](https://www.google.com/search?tbm=isch&q=%E3%81%97%E3%81%9D%E6%A2%85%E3%81%A1%E3%82%83%E3%82%93%20%E6%A2%85)：¥950，無籽，酸度比一般梅乾低。
+> * [**柚子砂糖漬 (ゆずのまんま)**](https://www.google.com/search?tbm=isch&q=%E3%82%86%E3%81%9A%E3%81%AE%E3%81%BE%E3%82%93%E3%81%BE%20%E6%9F%9A%E5%AD%90)：小袋 ¥290／大袋 ¥1,200，宮崎產，無著色無漂白。
+> * [**杏仁起司米果 (チーズアーモンド)**](https://www.google.com/search?tbm=isch&q=%E3%83%81%E3%83%BC%E3%82%BA%E3%82%A2%E3%83%BC%E3%83%A2%E3%83%B3%E3%83%89%20%E3%81%9B%E3%82%93%E3%81%B9%E3%81%84)：¥840／280g。
+> * [**提拉米蘇巧克力 (ティラミスチョコ)**](https://www.google.com/search?tbm=isch&q=%E3%83%86%E3%82%A3%E3%83%A9%E3%83%9F%E3%82%B9%E3%83%81%E3%83%A7%E3%82%B3%20%E4%BA%8C%E6%9C%A8%E3%81%AE%E8%8F%93%E5%AD%90)：¥1,580／500g，世界食品品質評鑑大賞金獎。
+>
+> ⚠️ **二木有兩家店，免稅金額不能合併結帳**：零食在第一營業所，ふたつ木 禮盒在 [**二木菓子 BIC 館 (二木の菓子 ビック館)**](https://www.google.com/maps/search/?api=1&query=35.7084704,139.7745523&query_place_id=ChIJAUAYl5-OGGARTnj3PKB4SaY)（台東區上野 4-6-1，與第一營業所步行不到 1 分鐘）。滿 ¥5,500 要退稅就集中在同一家結帳。
+>
+> 📄 **行前必讀介紹文**：[二木菓子店員推薦 5 款分送用零食介紹文](https://today.line.me/tw/v3/article/XwoLnX)｜[二木の菓子人氣排行 10 選介紹文](https://xn----kx8am88a7ngwobe39b8vgca.jinja-tera-gosyuin-meguri.com/%E4%B8%8A%E9%87%8E%E3%83%BB%E3%82%A2%E3%83%A1%E6%A8%AA%E5%95%86%E5%BA%97%E8%A1%97/%E3%82%A2%E3%83%A1%E6%A8%AA-%E4%BA%8C%E6%9C%A8%E3%81%AE%E8%8F%93%E5%AD%90/2346/.html)
+
+</details>
+
 > * [**OS Drug 藥妝店 (OSドラッグ 上野店)**](https://www.google.com/maps/search/?api=1&query=35.7108985,139.7748721&query_place_id=ChIJAQB_jZ-OGGARLPaThjF_JIQ) / [**松本清 (マツモトキヨシ 上野アメ横Part1店)**](https://www.google.com/maps/search/?api=1&query=35.7106717,139.7744501&query_place_id=ChIJJz9gCDKPGGAROxkLYxlbGYs)：以現金交易為主的 OS Drug 是當地藥妝價格指標店。  
 >   * 🚨 **OS Drug 不能免稅、而且只收現金**：它不辦免稅手續，但**未稅價常比別家退完稅還低**，所以照樣值得買；請留足現金，刷卡與行動支付都不通。
 >   * 💡 **藥品多放在結帳櫃台後方**，不在開架上。想買哪一款，**直接拿手機照片給店員看**即可。

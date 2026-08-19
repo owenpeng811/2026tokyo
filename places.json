@@ -979,6 +979,22 @@
       "verified_name": "Marugame Seimen atre Akihabara 1 Shop",
       "verified_address": "Japan, 〒101-0021 Tokyo, Chiyoda City, Sotokanda, 1-chōme−17−６ アトレ秋葉原1 1F"
     },
+    "二木菓子 BIC 館 (二木の菓子 ビック館)": {
+      "url": "https://www.google.com/maps/search/?api=1&query=35.7084704,139.7745523&query_place_id=ChIJAUAYl5-OGGARTnj3PKB4SaY",
+      "nav_dict": [
+        "二木菓子 BIC 館",
+        "二木菓子 BIC 館 (二木の菓子 ビック館)"
+      ],
+      "text_entities": [],
+      "first_dest": [],
+      "html": [
+        "二木菓子 BIC 館 (二木の菓子 ビック館)"
+      ],
+      "verified_at": "2026-08-20",
+      "verified_source": "Google Maps 網頁版單一結果直接跳轉 place 頁，取 URL 的 ftid 0x60188e9f97184001:0xa64978a03cf7784e 換算 place_id，並以 maps/place/?q=place_id: 反查驗證回同一店家",
+      "verified_name": "二木の菓子“ビック館”",
+      "verified_address": "日本、〒110-0005 東京都台東区上野４丁目６−１"
+    },
     "二木菓子 (二木の菓子 第一営業所)": {
       "url": "https://www.google.com/maps/search/?api=1&query=35.7083528,139.7744756&query_place_id=ChIJ8ez-kZ-OGGARyxJTsXAcAjk",
       "nav_dict": [
