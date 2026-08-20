@@ -969,37 +969,40 @@ def render_prep_html(md_text, meta):
 #
 # ⚠️ 天氣是時效性資訊，出發前請重新查詢並更新這裡（只需改這個 dict 再重新編譯）。
 #    資料來源：日本氣象廳 https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json
-WEATHER_UPDATED = '2026-08-20 05:00 發布（日本氣象廳）'
+WEATHER_UPDATED = '2026-08-20 17:00 發布（日本氣象廳）'
 DAY_BRIEF = {
     1: {'weather': '8/20（四）<strong>晴、傍晚轉多雲</strong>　最高 33°C　降水 0–20%',
         'walk': '<strong>少</strong>——大半時間在飛機與電車上，秋葉原只逛約 1 小時。<strong>涼鞋可</strong>。',
         'extra': []},
-    2: {'weather': '8/21（五）多雲、上午轉晴　24–32°C　降水 40%（<strong>舞濱預估雨量 0.0mm</strong>）',
+    2: {'weather': '8/21（五）多雲、上午轉晴　24–32°C　降水 10–30%（<strong>舞濱預估雨量仍是 0.0mm</strong>）',
         'walk': '長輩組 <strong>多</strong>（上野公園環走約 1.5 公里）／親子組 <strong>最多</strong>（園內站走一整天）。'
                 '兩組都<strong>穿好走的鞋</strong>，今天不適合涼鞋。',
-        'extra': ['⛈️ <strong>要防的是午後雷雨，不是整天下雨</strong>：舞濱全天預估雨量 0.0mm，'
-                  '但氣象廳今晨預報「所により昼過ぎから雨で雷を伴う」（局部地區午後有雷雨）。'
-                  '<strong>帶輕便雨衣</strong>——排隊與看遊行時撐傘會擋到後面的人；'
+        'extra': ['⛈️ <strong>要防的是午後雷雨，不是整天下雨</strong>：舞濱逐時雨量合計仍是 0.0mm，'
+                  '但<strong>降水機率已升到 90%</strong>，且氣象廳維持「所により昼過ぎから雨で雷を伴う」'
+                  '（局部地區午後有雷雨）——意思是「幾乎一定會飄到雨，但下不大」。'
+                  '<strong>雨衣一定要帶</strong>，排隊與看遊行時撐傘會擋到後面的人；'
                   '打雷時戶外設施與遊行可能臨時停演，以官方 App 的運行狀況為準。',
                   '🔋 親子組帶<strong>行動電源</strong>：整天要用 App 查設施、排隊、拍照。']},
     3: {'weather': '8/22（六）多雲短暫雨　24–33°C　<strong>降水 50%</strong>',
         'walk': '<strong>中等</strong>，但國立科學博物館站立時間長，腳的負擔比距離大。<strong>穿好走的鞋</strong>。',
-        'extra': ['☔ <strong>雨勢預報已大幅下修</strong>（綜合模式 13.9mm ➔ 0.5mm），但各家仍分歧（0.5～8.5mm）。'
-                  '下午的阿美橫丁是露天商店街、沒有拱廊，<strong>雨具還是帶著</strong>；'
-                  '真的下起來就展開卡片裡的「下大雨時的替代順序」。',
+        'extra': ['☔ <strong>又轉壞了，雨天備案可能真的用得上</strong>：氣象廳今日預報升級為'
+                  '「くもり <strong>一時 雨</strong>」（會下一陣子，不是短暫飄雨），'
+                  '且模式分歧極大（綜合 0.3mm、但 <strong>GFS 17.5mm</strong>、ECMWF 8.3mm）。'
+                  '下午的阿美橫丁沒有拱廊、路面積水，<strong>雨具一定要帶</strong>；'
+                  '下起來就展開卡片裡的「☔ 下大雨時的替代順序」。',
                   '💴 <strong>帶足夠現金</strong>：阿美橫丁的 OS Drug <strong>只收現金、不能刷卡</strong>，其餘攤商也多為現金。',
                   '🛍️ 帶<strong>折疊購物袋</strong>：今天是全程採買量最大的一天（菓子樂園＋阿美橫丁）。']},
-    4: {'weather': '8/23（日）多雲　24–32°C　降水 40%',
+    4: {'weather': '8/23（日）多雲　25–33°C　降水 40%',
         'walk': '<strong>中等</strong>（吉卜力美術館＋吉祥寺商圈與橫丁）。<strong>穿好走的鞋</strong>。',
-        'extra': ['✅ <strong>雨量預報大幅收斂</strong>：昨天各家從 2.6mm 到 32.8mm 都有，今晨已收斂到 1.0～3.0mm。'
+        'extra': ['🏠 <strong>雨量又升回來（0.0～10.0mm），但這天不太怕雨</strong>：'
                   '吉卜力美術館在室內、下午的哈莫尼卡橫丁與 Sunroad 都有拱廊頂棚，'
                   '真正會淋到的只有建築之間那幾十公尺。']},
-    5: {'weather': '8/24（一）多雲時晴　24–32°C　降水 30%',
+    5: {'weather': '8/24（一）多雲時晴　25–33°C　降水 30%',
         'walk': '<strong>中等偏多</strong>（淺草寺參道＋晴空街道＋新宿）。<strong>穿好走的鞋</strong>。',
-        'extra': ['🌇 <strong>今晚是本週最適合看夜景的一晚</strong>：新宿 18–21 時降水 <strong>10%</strong>、'
-                  '<strong>雲量僅 2%</strong>、能見度 24 公里，都廳 Plan A 照走。',
+        'extra': ['🌇 <strong>今晚是本週最適合看夜景的一晚</strong>：新宿 18–21 時降水 <strong>4%</strong>、'
+                  '<strong>雲量僅 6%</strong>、能見度 24 公里，都廳 Plan A 照走。',
                   '🧥 帶件<strong>薄外套</strong>：晚上都廳 45 樓展望室與地面的都民廣場風大，看夜景與光雕要站著。']},
-    6: {'weather': '8/25（二）多雲時晴　25–33°C　降水 30%',
+    6: {'weather': '8/25（二）多雲時晴　25–34°C　降水 30%',
         'walk': '<strong>少</strong>，但<strong>築地場外市場地面常是濕的</strong>（攤商灑水、海鮮融冰），'
                 '<strong>建議穿包鞋、不要涼鞋</strong>。',
         'extra': []},
